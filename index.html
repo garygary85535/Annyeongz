@@ -49,6 +49,7 @@
       color: var(--ink);
       font-family: "Microsoft JhengHei", "PingFang TC", system-ui, sans-serif;
       line-height: 1.55;
+      overflow-x: hidden;
     }
 
     button, input, select {
@@ -301,6 +302,8 @@
       grid-auto-columns: minmax(210px, 1fr);
       gap: 10px;
       overflow-x: auto;
+      max-width: 100%;
+      min-width: 0;
       padding-bottom: 4px;
       scrollbar-width: thin;
     }
@@ -315,6 +318,7 @@
     .small-card {
       padding: 11px 12px;
       cursor: pointer;
+      min-width: 0;
     }
 
     .small-card b {
@@ -378,6 +382,7 @@
       font-weight: 700;
       font-size: 16px;
       padding-right: 36px;
+      overflow-wrap: anywhere;
     }
 
     .k-title {
@@ -385,6 +390,7 @@
       font-size: 13px;
       min-height: 20px;
       margin-bottom: 9px;
+      overflow-wrap: anywhere;
     }
 
     .meta {
@@ -451,6 +457,9 @@
       text-decoration: none;
       font-size: 12px;
       background: var(--bg);
+      max-width: 100%;
+      overflow-wrap: anywhere;
+      white-space: normal;
     }
 
     .links a:hover, .modal-links a:hover {
@@ -588,6 +597,10 @@
     }
 
     @media (max-width: 520px) {
+      body {
+        font-size: 15px;
+      }
+
       .auth-view {
         padding: 16px;
       }
@@ -597,13 +610,22 @@
       }
 
       .hero {
-        min-height: 260px;
-        padding: 30px 18px 24px;
+        min-height: 190px;
+        padding: 24px 16px 18px;
+      }
+
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      .hero p {
+        font-size: 14px;
       }
 
       .topbar {
         grid-template-columns: 1fr 1fr;
         padding: 10px 12px;
+        gap: 8px;
       }
 
       .topbar .ctl,
@@ -623,6 +645,23 @@
         grid-template-columns: 1fr 1fr;
       }
 
+      .shell {
+        width: calc(100% - 18px);
+        margin-top: 12px;
+        gap: 12px;
+      }
+
+      .panel {
+        padding: 12px;
+      }
+
+      .strip {
+        grid-auto-flow: row;
+        grid-auto-columns: unset;
+        grid-template-columns: 1fr;
+        overflow-x: visible;
+      }
+
       .account-pill {
         min-width: 0;
         overflow: hidden;
@@ -634,6 +673,36 @@
       }
 
       .grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .card {
+        min-height: 0;
+        padding: 12px;
+      }
+
+      .title {
+        font-size: 15px;
+      }
+
+      .meta {
+        font-size: 12px;
+      }
+
+      .links {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .links a,
+      .modal-links a {
+        border-radius: 8px;
+        padding: 8px 10px;
+      }
+
+      .modal-links {
+        display: grid;
         grid-template-columns: 1fr;
       }
 
@@ -649,12 +718,22 @@
       .sheet {
         max-height: 92vh;
         padding: 16px;
+        width: 100%;
       }
 
       .reader-sheet {
         width: calc(100vw - 16px);
         height: 92vh;
         padding: 10px;
+      }
+
+      .sheet-head {
+        gap: 8px;
+      }
+
+      .sheet-head h2 {
+        font-size: 18px;
+        overflow-wrap: anywhere;
       }
     }
   </style>
