@@ -1937,11 +1937,12 @@ window.BOOK_DATA = [
     "ko": "what is love",
     "zh": "what is love",
     "original": "https://www.postype.com/@ynseasonrps/post/13009212",
-    "translation": "https://docs.google.com/document/d/1ykYIi_M3G--r4YFNcUhItGq2oXWAsRnm/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/1gwo1X_FdoSTA1PuKa8Rs_0SUOkIGq_HF?usp=drive_link",
     "author": "에이미（Amy）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-03-10"
+    "date": "2025-03-10",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -1949,11 +1950,12 @@ window.BOOK_DATA = [
     "ko": "여름의 끝에",
     "zh": "夏天的盡頭",
     "original": "https://www.postype.com/@ynseasonrps/post/13009204",
-    "translation": "https://docs.google.com/document/d/1vp6ZGu4LkfUGra2nWgzYwOoSbGFyfm8a/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/1Uociv4JNOjSR-MtIlw6LLpwUYSvsZ9xg?usp=drive_link",
     "author": "우유（牛奶）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-05-04"
+    "date": "2025-05-04",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -1961,11 +1963,12 @@ window.BOOK_DATA = [
     "ko": "우리의 사랑은 여름이었지",
     "zh": "我們的愛是夏天啊",
     "original": "https://www.postype.com/@ynseasonrps/post/13009226",
-    "translation": "https://docs.google.com/document/d/1-3mQAZO4HaoTzBiMNwdjBiUrBTmcE_Sv/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/14ogMWxInyKU685J7nTdPimDpYQKSI3D9?usp=drive_link",
     "author": "익명2（匿名2）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-05-04"
+    "date": "2025-05-04",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -1973,11 +1976,12 @@ window.BOOK_DATA = [
     "ko": "그런 거",
     "zh": "不是那種意思",
     "original": "https://www.postype.com/@ynseasonrps/post/13009203",
-    "translation": "https://docs.google.com/document/d/1jeY8sS07JGBNxuKo_hqoRNvDGZdTWKja/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/1LTu1dCBGHhEzf-USpMvbgdfebeMv2Vdq?usp=drive_link",
     "author": "판도（音譯：辯道）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-05-08"
+    "date": "2025-05-08",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -1985,11 +1989,12 @@ window.BOOK_DATA = [
     "ko": "토끼는 의외로 빨리 달린다",
     "zh": "兔子其實跑的很快",
     "original": "https://www.postype.com/@ynseasonrps/post/13009192",
-    "translation": "https://docs.google.com/document/d/1DaZyA43Pxk6CkdnYIvgFv6w-DDEKwbiP/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/1-yIg0Dl2NZcC6nbiI81BENt8hDKG5Gq6?usp=drive_link",
     "author": "익명1（匿名1）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-05-10"
+    "date": "2025-05-10",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -1997,11 +2002,12 @@ window.BOOK_DATA = [
     "ko": "미지근한 조각케잌",
     "zh": "微溫的切片蛋糕",
     "original": "https://www.postype.com/@ynseasonrps/post/13009181",
-    "translation": "https://docs.google.com/document/d/13Kh1Bdc_6bqArJDeqGjbkS-NwOfEGzJG/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/1iLX-rgWI8EIPoxqz1s4ujtvaJUwYuWVW?usp=drive_link",
     "author": "키퍼（Keeper）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-05-10"
+    "date": "2025-05-10",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -2009,11 +2015,12 @@ window.BOOK_DATA = [
     "ko": "여름의 정의",
     "zh": "夏天的定義",
     "original": "https://www.postype.com/@ynseasonrps/post/13009139",
-    "translation": "https://docs.google.com/document/d/1UaR3R_CauQBo_coEnGV4b93tL4XCItPI/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/1chfE8dDph3n1O9ZovghTnun4K7UHnh8N?usp=drive_link",
     "author": "롸댕(Roi_Daeng)",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-05-12"
+    "date": "2025-05-12",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -2021,11 +2028,12 @@ window.BOOK_DATA = [
     "ko": "계절의 이해",
     "zh": "理解季節",
     "original": "https://www.postype.com/@ynseasonrps/post/13009130",
-    "translation": "https://docs.google.com/document/d/1wBLZBfTJExS782UeUZk9OgUHThqixwoT/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/19ymuFJ3J-co8gFBHJFutUzW6wymWVolC?usp=drive_link",
     "author": "엔터（Enter）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-05-15"
+    "date": "2025-05-15",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -2033,11 +2041,12 @@ window.BOOK_DATA = [
     "ko": "숯불구이맛후랑크",
     "zh": "炭烤香腸口味的法蘭克",
     "original": "https://www.postype.com/@ynseasonrps/post/13009137",
-    "translation": "https://docs.google.com/document/d/1pu7OsWKhcbawL-nZp5YsEaoks2zQE4L7/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/1qETNx5AdyNi-_BRPtPhAP1ZbojPoSsDn?usp=drive_link",
     "author": "잘조（音譯：喬巧）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-05-17"
+    "date": "2025-05-17",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -2045,11 +2054,12 @@ window.BOOK_DATA = [
     "ko": "순애와 순애",
     "zh": "純愛與殉愛",
     "original": "https://www.postype.com/@ynseasonrps/post/13442656",
-    "translation": "https://docs.google.com/document/d/1MA7z2kjtSfobwNe-nhRt1Sk7gTvfLldK/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/1YP6Mfi3OskHoWGcKJQ9rkJVcF7GbwHox?usp=drive_link",
     "author": "도교（音譯：道僑）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-05-18"
+    "date": "2025-05-18",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -2057,11 +2067,12 @@ window.BOOK_DATA = [
     "ko": "매일 밤 네가 싫은 이유를 생각해",
     "zh": "每天晚上我都在想我為什麼討厭你",
     "original": "https://www.postype.com/@ynseasonrps/post/13439453",
-    "translation": "https://docs.google.com/document/d/1XtEeYr6eVEzsFIya8cHeG04FRyrjoMtf/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/12JZY57JgRgQQsKBrf5iDfNxXAFKnX7mZ?usp=drive_link",
     "author": "익명1（匿名1）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-05-19"
+    "date": "2025-05-19",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -2069,11 +2080,12 @@ window.BOOK_DATA = [
     "ko": "어차피 마지막은 너",
     "zh": "反正最後都是你",
     "original": "https://www.postype.com/@ynseasonrps/post/13439427",
-    "translation": "https://docs.google.com/document/d/1xD-v7GIpEeaCYtVlaAAFKAL7jLd_EnLz/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/1X9OTQFgVi6DmiOnbASlcJIWsL9BQKjqv?usp=drive_link",
     "author": "노네임（noname）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-05-24"
+    "date": "2025-05-24",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -2081,11 +2093,12 @@ window.BOOK_DATA = [
     "ko": "3년네버다이",
     "zh": "3年Never Die",
     "original": "https://www.postype.com/@ynseasonrps/post/13450348",
-    "translation": "https://docs.google.com/document/d/1DQY6MaLgYmDFr_YFIYzGt0PmnRnGCxze/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/1VzTinEjLhPS0rO02WyxZ8Igiw4Nqeq4f?usp=drive_link",
     "author": "녕냥늉",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-07-13"
+    "date": "2025-07-13",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -2093,11 +2106,12 @@ window.BOOK_DATA = [
     "ko": "우리가 어떻게",
     "zh": "我們要怎麼辦",
     "original": "https://www.postype.com/@ynseasonrps/post/13450287",
-    "translation": "https://docs.google.com/document/d/1VQ2yWUUKIvELzNbvqfyCtxcTTCzIEiAE/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/1aVwyIpJPJNNgL64kcEX_maVKdxT9JuWg?usp=drive_link",
     "author": "민무",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-07-13"
+    "date": "2025-07-13",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -2105,11 +2119,12 @@ window.BOOK_DATA = [
     "ko": "언젠가 우리 그렇게 살자",
     "zh": "總有一天，我們就那樣生活吧",
     "original": "https://www.postype.com/@ynseasonrps/post/13450322",
-    "translation": "https://docs.google.com/document/d/11vFeAL4CNtiA5HjmrBEYcrkmXSzgfHag/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/1JcZmRjZg3xbAugFTPfmHqE5VktIgU8xh?usp=drive_link",
     "author": "댜",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-07-13"
+    "date": "2025-07-13",
+    "folderFallback": true
   },
   {
     "page": "季刊",
@@ -3782,11 +3797,12 @@ window.BOOK_DATA = [
     "ko": "미워도 다시 한번",
     "zh": "即使討厭也再一次",
     "original": "https://www.postype.com/@seol-cheong/post/16427619",
-    "translation": "https://docs.google.com/document/d/1orS1lIJzXq1clqAG_2byDJjBimzN6nj8/edit?usp=drivesdk&rtpof=true&sd=true",
+    "translation": "https://drive.google.com/drive/folders/14LLP1OJNOHn3HY6u0n6i_9a9zN42EM5R?usp=drive_link",
     "author": "꿀구마（蜜地瓜）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-09-07"
+    "date": "2025-09-07",
+    "folderFallback": true
   },
   {
     "page": "蜜地瓜",
