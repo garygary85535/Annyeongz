@@ -49,7 +49,7 @@
       color: var(--ink);
       font-family: "Microsoft JhengHei", "PingFang TC", system-ui, sans-serif;
       line-height: 1.55;
-      overflow-x: hidden;
+      overflow-x: auto;
     }
 
     button, input, select {
@@ -449,17 +449,25 @@
       margin-top: 12px;
     }
 
-    .links a, .modal-links a {
+    .links a, .modal-links a,
+    .links .link-disabled, .modal-links .link-disabled {
       border: 1px solid var(--line);
       border-radius: 999px;
       padding: 5px 9px;
       color: var(--ink);
       text-decoration: none;
       font-size: 12px;
+      line-height: 1.35;
       background: var(--bg);
       max-width: 100%;
       overflow-wrap: anywhere;
       white-space: normal;
+    }
+
+    .links .link-disabled, .modal-links .link-disabled {
+      color: var(--muted);
+      cursor: default;
+      opacity: .82;
     }
 
     .links a:hover, .modal-links a:hover {
@@ -1007,9 +1015,28 @@
       return "";
     }
 
+    function isDriveFolder(url) {
+      return /drive\.google\.com\/drive\/folders\//.test(String(url || ""));
+    }
+
+    function episodeButtonText(episode) {
+      const label = String((episode && episode.label) || "").trim();
+      const title = String((episode && episode.title) || "").trim();
+      if (!title) return label || "閱讀";
+      if (!label || title.includes(label)) return title;
+      return `${label} · ${title}`;
+    }
+
+    function blockedFolderLink(label) {
+      return `<span class="link-disabled">${label}尚未建立文件預覽</span>`;
+    }
+
     function protectedLink(item, kind, label) {
       const url = kind === "original" ? item.original : item.translation;
       if (!url) return "";
+      if (kind !== "original" && isDriveFolder(url)) {
+        return blockedFolderLink(label);
+      }
       if (item.paid && !canRead(item)) {
         return `<a href="#" onclick="event.preventDefault();event.stopPropagation();showAccessDenied()">${label} · 需付費會員</a>`;
       }
@@ -1026,13 +1053,17 @@
       if (!item.episodes || !item.episodes.length) return "";
       return item.episodes.map((episode, index) => {
         if (!episode.url) return "";
+        const text = episodeButtonText(episode);
         if (item.paid && !canRead(item)) {
-          return `<a href="#" onclick="event.preventDefault();event.stopPropagation();showAccessDenied()">${episode.label} · 需付費會員</a>`;
+          return `<a href="#" onclick="event.preventDefault();event.stopPropagation();showAccessDenied()">${text} · 需付費會員</a>`;
+        }
+        if (isDriveFolder(episode.url)) {
+          return blockedFolderLink("");
         }
         if (!item.paid && !previewUrl(episode.url)) {
-          return `<a href="${episode.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${episode.label}</a>`;
+          return `<a href="${episode.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${text}</a>`;
         }
-        return `<a href="#" onclick="event.preventDefault();event.stopPropagation();openProtected(${DATA.indexOf(item)}, 'episode:${index}')">${episode.label}</a>`;
+        return `<a href="#" onclick="event.preventDefault();event.stopPropagation();openProtected(${DATA.indexOf(item)}, 'episode:${index}')">${text}</a>`;
       }).join("");
     }
 
@@ -1111,7 +1142,7 @@
         row("原作", item.author),
         row("翻譯", item.translator),
         row("付費", item.paid ? "是，需付費會員或管理員" : "否"),
-        row("譯文", item.folderFallback ? "暫時只能連到資料夾" : "直連 Word/Docs"),
+        row("譯文", item.episodes && item.episodes.length ? "分集文件預覽" : item.folderFallback ? "尚未建立文件預覽" : "直連 Word/Docs"),
         row("備註", item.note),
         row("日期", item.date)
       ].join("");
@@ -1130,6 +1161,10 @@
         ? item.episodes[Number(kind.split(":")[1])]?.url
         : kind === "original" ? item.original : item.translation;
       if (!url) return;
+      if (kind !== "original" && isDriveFolder(url)) {
+        window.alert("為了避免露出資料夾目錄，這篇需要先建立可預覽的文件連結。");
+        return;
+      }
       if (item.paid && !canRead(item)) {
         showAccessDenied();
         return;
@@ -1152,7 +1187,7 @@
       const episodeIndex = kind.startsWith("episode:") ? Number(kind.split(":")[1]) : null;
       const episode = episodeIndex !== null ? item.episodes[episodeIndex] : null;
       el.readerTitle.textContent = item.zh;
-      el.readerSub.textContent = episode ? `${item.ko} · ${episode.label}` : item.ko;
+      el.readerSub.textContent = episode ? `${item.ko} · ${episodeButtonText(episode)}` : item.ko;
       el.readerFrame.src = url;
       el.reader.classList.add("open");
       el.reader.setAttribute("aria-hidden", "false");
