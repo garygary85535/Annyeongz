@@ -1730,14 +1730,9 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "EP1",
-        "url": "https://docs.google.com/document/d/12YZip1tKWkSZcLpAcYasw5jgMaeeGSeMd9qO9bqYYzg/edit?usp=drivesdk",
-        "title": "èè·ç³"
-      },
-      {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/1JsKAFG5HRANyEHOjwbK2NfInZ5eIc4ikKtLlX_2WIW4/edit?usp=drivesdk",
-        "title": "ë°íì¬í"
+        "label": "閱讀",
+        "title": "薄荷糖",
+        "url": "https://docs.google.com/document/d/12YZip1tKWkSZcLpAcYasw5jgMaeeGSeMd9qO9bqYYzg/edit?usp=drivesdk"
       }
     ]
   },
@@ -1790,12 +1785,17 @@ window.BOOK_DATA = [
     "ko": "연인과 인연",
     "zh": "戀人與緣分",
     "original": "https://www.postype.com/@untitle009/post/20868616",
-    "translation": "https://docs.google.com/document/d/1CkPeZ4fx18C7pq5KjeGXHQGZmBZxGnCcZVglrPh_hNI/edit?usp=drivesdk",
+    "translation": "https://docs.google.com/document/d/12RaB0BqjypN71K4ZlfGEWsCEi8Nn_hNyquNazsEWEMY/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
     "date": "2026-01-30",
     "episodes": [
+      {
+        "label": "EP1",
+        "title": "戀人與因緣-1",
+        "url": "https://docs.google.com/document/d/12RaB0BqjypN71K4ZlfGEWsCEi8Nn_hNyquNazsEWEMY/edit?usp=drivesdk"
+      },
       {
         "label": "EP2",
         "title": "戀人與緣分-2",
@@ -1924,24 +1924,14 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "EP1",
-        "url": "https://docs.google.com/document/d/1bw0OxeJguiur6bXcqAKz-Mb4-i2gpFaDdHXjiWBuyac/edit?usp=drivesdk",
-        "title": "çªå©äº"
+        "label": "本篇",
+        "title": "瑪利亞",
+        "url": "https://docs.google.com/document/d/1bw0OxeJguiur6bXcqAKz-Mb4-i2gpFaDdHXjiWBuyac/edit?usp=drivesdk"
       },
       {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/1AEoSNjjW0GkEA-zwpBjz4p8NgIlYXODlmeCrBHtzQA8/edit?usp=drivesdk",
-        "title": "çªå©äºï¼é ­ç´"
-      },
-      {
-        "label": "EP3",
-        "url": "https://docs.google.com/document/d/1RwvKFhgtm-xFun-czP-BYsO4-mBfO0XIU3ok2pIm96k/edit?usp=drivesdk",
-        "title": "ë§ë¦¬ì"
-      },
-      {
-        "label": "EP4",
-        "url": "https://docs.google.com/document/d/1oiacm_4aapj-DRMBjWS2jd1rSXCaSKZOQcWnKduVAew/edit?usp=drivesdk",
-        "title": "ë§ë¦¬ì-ë² ì¼"
+        "label": "頭紗篇",
+        "title": "瑪利亞－頭紗",
+        "url": "https://docs.google.com/document/d/1AEoSNjjW0GkEA-zwpBjz4p8NgIlYXODlmeCrBHtzQA8/edit?usp=drivesdk"
       }
     ]
   },
@@ -3158,14 +3148,14 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "EP1",
-        "url": "https://docs.google.com/document/d/1MlbVELth-E88-vGp73AyJl-VQwzpN1IE-_K20_gfwWk/edit?usp=drivesdk",
-        "title": "沙漠中的綠洲"
+        "label": "本篇",
+        "title": "沙漠中的綠洲",
+        "url": "https://docs.google.com/document/d/1MlbVELth-E88-vGp73AyJl-VQwzpN1IE-_K20_gfwWk/edit?usp=drivesdk"
       },
       {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/1PrC9ZfmlXrMn0IrDMtSQfJhxvExfZvsTYlmbHtTuz2Y/edit?usp=drivesdk",
-        "title": "沙漠中的綠洲番外-HBD"
+        "label": "番外 HBD",
+        "title": "沙漠中的綠洲番外-HBD",
+        "url": "https://docs.google.com/document/d/1PrC9ZfmlXrMn0IrDMtSQfJhxvExfZvsTYlmbHtTuz2Y/edit?usp=drivesdk"
       }
     ]
   },
@@ -3795,14 +3785,14 @@ window.BOOK_DATA = [
     "date": "2025-05-04",
     "episodes": [
       {
-        "label": "EP1",
-        "url": "https://docs.google.com/document/d/1j9OOSE9ELkT9jqxpfHagDFycrsIgGwnaYYEnxdvv_YQ/edit?usp=drivesdk",
-        "title": "Melting Chocolat Highteen-上"
+        "label": "上",
+        "title": "Melting Chocolat Highteen-上",
+        "url": "https://docs.google.com/document/d/1j9OOSE9ELkT9jqxpfHagDFycrsIgGwnaYYEnxdvv_YQ/edit?usp=drivesdk"
       },
       {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/1AfevBOqApotIcwQufFuzGhYOC6O8swaOqPZeVmmzDTI/edit?usp=drivesdk",
-        "title": "Melting Chocolat Highteen-下"
+        "label": "下",
+        "title": "Melting Chocolat Highteen-下",
+        "url": "https://docs.google.com/document/d/1AfevBOqApotIcwQufFuzGhYOC6O8swaOqPZeVmmzDTI/edit?usp=drivesdk"
       }
     ]
   },
@@ -4586,12 +4576,19 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "있었는데요, 없었습니다.",
     "zh": "有過，但沒有了。",
-    "original": "https://drive.google.com/drive/folders/1XD-hHdR5_8Dnqvb7cA4S6oNRiJ_pCVoK?usp=drive_link",
-    "translation": "https://www.postype.com/@untitle009/post/9469496",
+    "original": "https://www.postype.com/@untitle009/post/9469496",
+    "translation": "https://docs.google.com/document/d/1LUcBnrN1ddYHff-3fex7MsgvWJo9JXC4KcTkLFBjc60/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-02-15"
+    "date": "2025-02-15",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "有過，但沒有了。",
+        "url": "https://docs.google.com/document/d/1LUcBnrN1ddYHff-3fex7MsgvWJo9JXC4KcTkLFBjc60/edit?usp=drivesdk"
+      }
+    ]
   },
   {
     "page": "已婚人士",
@@ -5038,14 +5035,14 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "EP1",
-        "url": "https://docs.google.com/document/d/1Pm2sFfVZtgqAufCgiCbFAvLuLdleoysj2Dzais54OTs/edit?usp=drivesdk",
-        "title": "我的瘋狂繆斯"
+        "label": "本篇",
+        "title": "我的瘋狂繆斯",
+        "url": "https://docs.google.com/document/d/1Pm2sFfVZtgqAufCgiCbFAvLuLdleoysj2Dzais54OTs/edit?usp=drivesdk"
       },
       {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/1EBk7k1x5pcvvRyYg1boxK5gyb_We6qXh15TXNQsQiPY/edit?usp=drivesdk",
-        "title": "我的瘋狂繆斯番外-身體上的繆斯"
+        "label": "番外",
+        "title": "我的瘋狂繆斯番外-身體上的繆斯",
+        "url": "https://docs.google.com/document/d/1EBk7k1x5pcvvRyYg1boxK5gyb_We6qXh15TXNQsQiPY/edit?usp=drivesdk"
       }
     ]
   },
@@ -5208,7 +5205,7 @@ window.BOOK_DATA = [
     "ko": "헤이트 데스트니（續）",
     "zh": "💰 仇恨命運（續）",
     "original": "https://www.postype.com/@untitle009/post/18365000",
-    "translation": "https://docs.google.com/document/d/1HKp8cv1YsTI1ob5-tVEylkey5XvLoxAfQVjLOS7RvTo/edit?usp=drivesdk",
+    "translation": "https://docs.google.com/document/d/1bvaIP9UbAMhRTGeICI_w0uPBOtEoLX_Ns-QC-lpBh0I/edit?usp=drivesdk",
     "author": "noname",
     "translator": "不是蓋瑞🤓",
     "note": "",
@@ -5216,14 +5213,9 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "EP1",
-        "url": "https://docs.google.com/document/d/1HKp8cv1YsTI1ob5-tVEylkey5XvLoxAfQVjLOS7RvTo/edit?usp=drivesdk",
-        "title": "ä»æ¨å½é"
-      },
-      {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/1bvaIP9UbAMhRTGeICI_w0uPBOtEoLX_Ns-QC-lpBh0I/edit?usp=drivesdk",
-        "title": "ä»æ¨å½éï¼çºï¼"
+        "label": "閱讀",
+        "title": "仇恨命運（續）",
+        "url": "https://docs.google.com/document/d/1bvaIP9UbAMhRTGeICI_w0uPBOtEoLX_Ns-QC-lpBh0I/edit?usp=drivesdk"
       }
     ]
   },
@@ -5397,14 +5389,9 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "EP1",
-        "url": "https://docs.google.com/document/d/1vRdRaU7KbbexzcNareuakkpZ7JYGHWN1v_7SJ3cTwbs/edit?usp=drivesdk",
-        "title": "Melting Chocolate Eighteen"
-      },
-      {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/1yyMGvalyzJ5F_6MZK0-5kC5Zple1yqCgbiv6b0DI2yM/edit?usp=drivesdk",
-        "title": "Melting Chocolate Eighteenï¼åæçæªï¼"
+        "label": "閱讀",
+        "title": "Melting Chocolate Eighteen",
+        "url": "https://docs.google.com/document/d/1vRdRaU7KbbexzcNareuakkpZ7JYGHWN1v_7SJ3cTwbs/edit?usp=drivesdk"
       }
     ]
   },
@@ -5786,14 +5773,9 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "EP1",
-        "url": "https://docs.google.com/document/d/1HKp8cv1YsTI1ob5-tVEylkey5XvLoxAfQVjLOS7RvTo/edit?usp=drivesdk",
-        "title": "ä»æ¨å½é"
-      },
-      {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/1bvaIP9UbAMhRTGeICI_w0uPBOtEoLX_Ns-QC-lpBh0I/edit?usp=drivesdk",
-        "title": "ä»æ¨å½éï¼çºï¼"
+        "label": "閱讀",
+        "title": "仇恨命運",
+        "url": "https://docs.google.com/document/d/1HKp8cv1YsTI1ob5-tVEylkey5XvLoxAfQVjLOS7RvTo/edit?usp=drivesdk"
       }
     ]
   },
