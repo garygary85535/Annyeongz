@@ -259,7 +259,7 @@
 
     .tree .count {
       color: var(--muted);
-      font-size: 12px;
+      font-size: 10px;
     }
 
     .filters {
@@ -338,9 +338,10 @@
 
     .toolbar {
       display: flex;
+      flex-direction: column;
       gap: 9px;
-      align-items: center;
-      justify-content: space-between;
+      align-items: flex-start;
+      justify-content: flex-start;
       flex-wrap: wrap;
     }
 
@@ -980,7 +981,7 @@
       const pages = [{ name: "全部", count: total }, ...pageCounts()];
       el.tree.innerHTML = pages.map(p => `
         <button type="button" class="${state.page === p.name ? "active" : ""}" data-page="${p.name}">
-          <span>${p.name === "全部" ? "書目總覽" : "#" + p.name}</span>
+          <span>${p.name === "全部" ? "書目總覽" : p.name}</span>
           <span class="count">${p.count}</span>
         </button>
       `).join("");
