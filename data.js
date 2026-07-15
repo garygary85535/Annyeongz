@@ -3067,37 +3067,37 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "EP1",
-        "url": "https://docs.google.com/document/d/15_1QzXV7RTRxYdFcZgjrxRccTZzwktex/edit?usp=drivesdk&rtpof=true&sd=true",
+        "url": "https://docs.google.com/document/d/1Tvph1VHDqJbEmtPYQ08kUteqy4uziejTSf8fQSyXCt8/edit?usp=drivesdk",
         "title": "設計室羅曼史 01"
       },
       {
         "label": "EP2",
-        "url": "https://docs.google.com/document/d/13Q7KWmcmYbFpK1liRTRxxCL3YzcC36kP/edit?usp=drivesdk&rtpof=true&sd=true",
+        "url": "https://docs.google.com/document/d/1YHYvF-i6oRNeFL-pvSzhGdv18Iu6NxLH9u1sTCiBEb8/edit?usp=drivesdk",
         "title": "設計室羅曼史 02"
       },
       {
         "label": "EP3",
-        "url": "https://docs.google.com/document/d/1BFtergIVWrxqnSsDkryioPncx_MtDUvY/edit?usp=drivesdk&rtpof=true&sd=true",
+        "url": "https://docs.google.com/document/d/1rxspsgxgtreQzt3packQTZpEPYto9NO3NQvpOBvdwnQ/edit?usp=drivesdk",
         "title": "設計室羅曼史 03"
       },
       {
         "label": "EP4",
-        "url": "https://docs.google.com/document/d/1TI80d1Cad1KOTbW4WJ4oulwhXKAcpk_K/edit?usp=drivesdk&rtpof=true&sd=true",
+        "url": "https://docs.google.com/document/d/1T992hcxFyU4OEFJiTuJZgODOydC8H8UvJQtLLBNTTAE/edit?usp=drivesdk",
         "title": "設計室羅曼史 04"
       },
       {
         "label": "EP5",
-        "url": "https://docs.google.com/document/d/11YWuFukfcwfq8oHsiJhHgJf7yKdEM8BQ/edit?usp=drivesdk&rtpof=true&sd=true",
+        "url": "https://docs.google.com/document/d/184J1H9WZlZqZwbciYj6Zxuk_LiJcBCdnrPKATz-SemY/edit?usp=drivesdk",
         "title": "設計室羅曼史 05"
       },
       {
         "label": "EP6",
-        "url": "https://docs.google.com/document/d/1IBzsZY9dT3IERdw9znvcqmde4BTY60rT/edit?usp=drivesdk&rtpof=true&sd=true",
+        "url": "https://docs.google.com/document/d/1DLmBkVq47v-kw2d0IcMOEr2RDHjljnvd203rBfPus68/edit?usp=drivesdk",
         "title": "設計室羅曼史 06"
       },
       {
         "label": "EP7",
-        "url": "https://docs.google.com/document/d/1CJt_2o-RcF5VAiR1KEFGE_vjI1JPTWU2/edit?usp=drivesdk&rtpof=true&sd=true",
+        "url": "https://docs.google.com/document/d/1S2ZDyPwHtr2MuG-ZFcFOxzoIrWbe6ky5XUgdjAcuJ_8/edit?usp=drivesdk",
         "title": "設計室羅曼史 07"
       }
     ]
@@ -3656,7 +3656,7 @@ window.BOOK_DATA = [
     "ko": "경계",
     "zh": "邊界",
     "original": "https://www.postype.com/@yuwon8318/post/17910514",
-    "translation": "https://drive.google.com/drive/folders/1yeOWxjTvtdk7qjgk8QWjt72J8SNb-DTq?usp=drive_link",
+    "translation": "https://drive.google.com/drive/folders/13BUlHmtdc4i26wesomIWCY0CImHwjM3k",
     "author": "진심（真心）",
     "translator": "鳳梨",
     "note": "",
@@ -3666,23 +3666,23 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "EP1",
-        "url": "https://docs.google.com/document/d/1ZsJazuL0_Ax_8ksuotOeFVNH5EQOaF1a/edit?usp=drivesdk&rtpof=true&sd=true",
-        "title": "éçpart1.docx"
+        "url": "https://docs.google.com/document/d/1Lvq-fg1zUA61vigCFoevOBwCT-aRz7m0l_uwEtFCs6E/edit?usp=drivesdk",
+        "title": "邊界part1"
       },
       {
         "label": "EP2",
-        "url": "https://docs.google.com/document/d/1l8M_LA-z9qNgrjP66Wk-bjoNocVhm9qU/edit?usp=drivesdk&rtpof=true&sd=true",
-        "title": "éçpart2.docx"
+        "url": "https://docs.google.com/document/d/1Z5ggfVfz5dDKs9zHoQrUxLIXDZuwx_CBPGdH4qSLkg0/edit?usp=drivesdk",
+        "title": "邊界part2"
       },
       {
         "label": "EP3",
-        "url": "https://docs.google.com/document/d/1Dc8ytq0qvRzJoa9AMPdj5aqCiySEER8x/edit?usp=drivesdk&rtpof=true&sd=true",
-        "title": "éçPart3.docx"
+        "url": "https://docs.google.com/document/d/1GRSL5lViEGN8ezTJawLGUPkIpH5obcUJ_UCaHgr3KHs/edit?usp=drivesdk",
+        "title": "邊界Part3"
       },
       {
         "label": "EP4",
-        "url": "https://docs.google.com/document/d/11z27BPrTaVjNWO4_sNY127DKnZ1gzbYU/edit?usp=drivesdk&rtpof=true&sd=true",
-        "title": "éçPart4.docx"
+        "url": "https://docs.google.com/document/d/1X7-FyUwmd0iQUB3hpsef_fkcdI0mNL3XHH9CQutUStc/edit?usp=drivesdk",
+        "title": "邊界Part4"
       }
     ]
   },
@@ -4094,7 +4094,7 @@ window.BOOK_DATA = [
     "ko": "센티넬-가이드",
     "zh": "哨兵指南",
     "original": "https://www.postype.com/@pactory/post/17922774",
-    "translation": "https://drive.google.com/drive/folders/1LwR5M9eI5LC_JN5-ACXj3nYXxpJ7ypC3?usp=drive_link",
+    "translation": "https://drive.google.com/drive/folders/1faRVD3AvoEznc_h2vxybD0dm0z3_yRKh?usp=drive_link",
     "author": "별빛（星光）",
     "translator": "貢丸",
     "note": "",
@@ -4103,14 +4103,9 @@ window.BOOK_DATA = [
     "price": "1000p",
     "episodes": [
       {
-        "label": "EP1",
+        "label": "閱讀",
         "url": "https://docs.google.com/document/d/1J-NOqV4coUHk6hT6GPm-6jhf75ivbkVDUxFfwP3SnlM/edit?usp=drivesdk",
-        "title": "å¨åµæå"
-      },
-      {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/10X1NXWh4zUOao24fhS62yvE05q9BCyIp/edit?usp=drivesdk&rtpof=true&sd=true",
-        "title": "å¨åµæå.docx"
+        "title": "哨兵指南"
       }
     ]
   },
@@ -4146,7 +4141,7 @@ window.BOOK_DATA = [
     "ko": "Crush on you",
     "zh": "Crush on you",
     "original": "https://www.postype.com/@pactory/post/17982761",
-    "translation": "https://drive.google.com/drive/folders/164pHNxX3CvhBWUa2vk14DMKpCJbXadzD?usp=drive_link",
+    "translation": "https://drive.google.com/drive/folders/1A7GJ-JHchZEPtxFStPtQlStLa2LbK_c0?usp=drive_link",
     "author": "별빛（星光）",
     "translator": "貢丸",
     "note": "",
@@ -4155,14 +4150,9 @@ window.BOOK_DATA = [
     "price": "1000p",
     "episodes": [
       {
-        "label": "EP1",
+        "label": "閱讀",
         "url": "https://docs.google.com/document/d/1vRenxFKL3lRkL8Rboq6i9pG61qrU2xTl0VABuzii-sc/edit?usp=drivesdk",
         "title": "Crush on you"
-      },
-      {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/1eDdeCak0Sy1-ubZgOF8S6V3MzSLGYZ1Y/edit?usp=drivesdk&rtpof=true&sd=true",
-        "title": "Crush on you.docx"
       }
     ]
   },
