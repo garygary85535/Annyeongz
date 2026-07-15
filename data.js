@@ -1567,9 +1567,64 @@ window.BOOK_DATA = [
     "date": "2026-06-14",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "暗戀像吃飯一樣簡單_chat_gpt",
+        "label": "EP01",
+        "title": "暗戀像吃飯一樣簡單 01",
         "url": "https://docs.google.com/document/d/1WVGZjZYJ63he1YF6EtFjCd1VVHDfzKVS7-dM8ILevl4/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP02",
+        "title": "暗戀像吃飯一樣簡單 02",
+        "url": "https://docs.google.com/document/d/1hYVyCJAOahN06gyzqbvIjshemcNkgFoAxb2wxDrL8mI/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP03",
+        "title": "暗戀像吃飯一樣簡單 03",
+        "url": "https://docs.google.com/document/d/1sLNMZe-ngHV7HQAJkSIFKX_o1gGWuCZ7MZCAV3NtV-Y/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP04",
+        "title": "暗戀像吃飯一樣簡單 04",
+        "url": "https://docs.google.com/document/d/1CNq2mWssbYk7bcOY-0JRAreC2bq-hYbMJdttZcJIcW8/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP05",
+        "title": "暗戀像吃飯一樣簡單 05",
+        "url": "https://docs.google.com/document/d/1EAPqlFZO7dGdbBt-VZ0TVSipsbl1U62l8IGCYQTCpk4/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP06",
+        "title": "暗戀像吃飯一樣簡單 06",
+        "url": "https://docs.google.com/document/d/1kzqltDbBTsgXQsyJPEwHbJO1m6jR_m2-H5kn_L1FI9E/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP07",
+        "title": "暗戀像吃飯一樣簡單 07",
+        "url": "https://docs.google.com/document/d/1Bg3pkrtBMwmsM_JcMiAFamQ3HQD73pOoCZs3-Sc4AVI/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP08",
+        "title": "暗戀像吃飯一樣簡單 08",
+        "url": "https://docs.google.com/document/d/1s1fSmTrwluPP7RB3_SPbyQQI93nBjARagwOgdKIGvmQ/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP09",
+        "title": "暗戀像吃飯一樣簡單 09",
+        "url": "https://docs.google.com/document/d/1BuPG9LKg4Fjei5t1Zw1KNdYaTH9OHXFkea3sd0JKBHE/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP10",
+        "title": "暗戀像吃飯一樣簡單 10",
+        "url": "https://docs.google.com/document/d/1ASly71NfIil8pciC0IUSJI7pDoYGB1cMHYUGyGrCLXc/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP11",
+        "title": "暗戀像吃飯一樣簡單 11",
+        "url": "https://docs.google.com/document/d/10SLWzbtFyyGDePT6gbi_cOZKZSLA0YahYfKtYgS8VoQ/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP12",
+        "title": "暗戀像吃飯一樣簡單 12",
+        "url": "https://docs.google.com/document/d/15thSuFjAon70VNObfe9KaloPtJ2dh70aq7Ou9dw_v0M/edit?usp=drivesdk"
       }
     ]
   },
@@ -7128,6 +7183,44 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "非正常觀察報告書",
         "url": "https://docs.google.com/document/d/14eJqq6qWyDnqFA1lLo4gQLeykC1pZJtE_FOQ0EBtgHo/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "집으로 가는 길",
+    "zh": "回家的路",
+    "original": "https://drive.google.com/drive/folders/1oPCGk1iNWx9eBuWJWjIEkFqIXvRowmW2",
+    "translation": "https://docs.google.com/document/d/1AJ6STU7-Lf8ghH2p0fSCk3lMEdwz02fV/edit?usp=drivesdk",
+    "author": "댕그라미（圈圈）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-15",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "回家的路(집으로 가는 길)_댕그라미",
+        "url": "https://docs.google.com/document/d/1AJ6STU7-Lf8ghH2p0fSCk3lMEdwz02fV/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "숨은그림찾기",
+    "zh": "找找看",
+    "original": "https://drive.google.com/drive/folders/1WcsgN6VRDJqEK2GtTCYL4svdfsHFUvSx",
+    "translation": "https://docs.google.com/document/d/1MUhzu1IEtBOdB9WYkRDqrr9asa0JHZiJ/edit?usp=drivesdk",
+    "author": "댕그라미（圈圈）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-15",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "找找看(숨은그림찾기)_댕그라미",
+        "url": "https://docs.google.com/document/d/1MUhzu1IEtBOdB9WYkRDqrr9asa0JHZiJ/edit?usp=drivesdk"
       }
     ]
   }
