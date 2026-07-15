@@ -1022,9 +1022,7 @@
     function episodeButtonText(episode) {
       const label = String((episode && episode.label) || "").trim();
       const title = String((episode && episode.title) || "").trim();
-      if (!title) return label || "閱讀";
-      if (!label || title.includes(label)) return title;
-      return `${label} · ${title}`;
+      return title || label || "閱讀";
     }
 
     function blockedFolderLink(label) {
@@ -1038,7 +1036,7 @@
         return blockedFolderLink(label);
       }
       if (item.paid && !canRead(item)) {
-        return `<a href="#" onclick="event.preventDefault();event.stopPropagation();showAccessDenied()">${label} · 需付費會員</a>`;
+        return `<a href="#" onclick="event.preventDefault();event.stopPropagation();showAccessDenied()">${label}</a>`;
       }
       if (kind !== "original" && previewUrl(url)) {
         return `<a href="#" onclick="event.preventDefault();event.stopPropagation();openProtected(${DATA.indexOf(item)}, '${kind}')">${label}</a>`;
@@ -1055,7 +1053,7 @@
         if (!episode.url) return "";
         const text = episodeButtonText(episode);
         if (item.paid && !canRead(item)) {
-          return `<a href="#" onclick="event.preventDefault();event.stopPropagation();showAccessDenied()">${text} · 需付費會員</a>`;
+          return `<a href="#" onclick="event.preventDefault();event.stopPropagation();showAccessDenied()">${text}</a>`;
         }
         if (isDriveFolder(episode.url)) {
           return blockedFolderLink("");
