@@ -1795,7 +1795,7 @@ window.BOOK_DATA = [
     "page": "朴專家",
     "status": "2.已完結",
     "ko": "너 말고 니 언니",
-    "zh": "不是你 是你姊姊（含🌶️）精修進度 (1/5 )",
+    "zh": "不是你 是你姐姐（含🌶️）",
     "original": "https://www.postype.com/@parkpro/series/1176398",
     "translation": "https://docs.google.com/document/d/1-Goi1HIRx8ud1Lc4GoflbFm-fNgbUlk6sPLhtH56Y-w/edit?usp=drivesdk",
     "author": "박프로（朴專家）",
@@ -1805,13 +1805,28 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "EP1",
-        "url": "https://docs.google.com/document/d/1-Goi1HIRx8ud1Lc4GoflbFm-fNgbUlk6sPLhtH56Y-w/edit?usp=drivesdk",
-        "title": "ä¸æ¯ä½  æ¯ä½ å§å§"
+        "title": "不是你 是你姐姐 ep1",
+        "url": "https://docs.google.com/document/d/1-Goi1HIRx8ud1Lc4GoflbFm-fNgbUlk6sPLhtH56Y-w/edit?usp=drivesdk"
       },
       {
         "label": "EP2",
-        "url": "https://docs.google.com/document/d/1-gnW6gbe1tdSgmjSBmzfZ3BGE2uA57b7viXE5prrGv0/edit?usp=drivesdk",
-        "title": "ä¸æ¯ä½  æ¯ä½ å§å§ð¶ï¸"
+        "title": "不是你 是你姐姐 ep2",
+        "url": "https://docs.google.com/document/d/1b_cZldusfRlFmhtaEx9tlQT66DumWJZK68P6M2P9aVU/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "不是你 是你姐姐 ep3",
+        "url": "https://docs.google.com/document/d/1i7uBYeanoSXFOJYkxyD28G98BhPtt-9IqYHOjFjN3-k/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "不是你 是你姐姐 ep4",
+        "url": "https://docs.google.com/document/d/1reJUB9ddzb_Dq1SUeRKVwLbjfa7dv_yI3OeUq-w0TqM/edit?usp=drivesdk"
+      },
+      {
+        "label": "番外",
+        "title": "不是你 是你姐姐🌶️ 番外",
+        "url": "https://docs.google.com/document/d/1-gnW6gbe1tdSgmjSBmzfZ3BGE2uA57b7viXE5prrGv0/edit?usp=drivesdk"
       }
     ]
   },
@@ -6233,9 +6248,9 @@ window.BOOK_DATA = [
     "page": "雞蛋",
     "status": "2.已完結",
     "ko": "오피스 와이프",
-    "zh": "💰 辦公室妻子（含外傳）",
+    "zh": "💰 辦公室妻子",
     "original": "https://www.postype.com/@eeggdanzii/post/16232897",
-    "translation": "https://docs.google.com/document/d/1PPCu1LnUHSWmBn5hSLSIHpSQzsBal7SboAG7kOUk7ds/edit?usp=drivesdk",
+    "translation": "https://docs.google.com/document/d/1p7hrBoe1t96rcsUFoHVw-OQpNbAraTZYI-h0qmYk_uk/edit?usp=drivesdk",
     "author": "달걀（雞蛋）",
     "translator": "不是蓋瑞🤓",
     "note": "",
@@ -6243,14 +6258,19 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "EP1",
-        "url": "https://docs.google.com/document/d/1PPCu1LnUHSWmBn5hSLSIHpSQzsBal7SboAG7kOUk7ds/edit?usp=drivesdk",
-        "title": "ç§å¯å¦»å­ï¼è¾¦å¬å®¤å¦»å­å¤å³"
+        "label": "上",
+        "title": "辦公室妻子 上",
+        "url": "https://docs.google.com/document/d/1p7hrBoe1t96rcsUFoHVw-OQpNbAraTZYI-h0qmYk_uk/edit?usp=drivesdk"
       },
       {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/1EHKiB5JDdX4G1auob6SVkPzXXb0JbPzrsUF1Du-jeSc/edit?usp=drivesdk",
-        "title": "è¾¦å¬å®¤å¦»å­ï¼ä¸ä¸­ä¸ï¼"
+        "label": "中",
+        "title": "辦公室妻子 中",
+        "url": "https://docs.google.com/document/d/15Tz4_Ql-sPIgPIBfUgJl9X1Qm-57yZ34INViRbjOVNA/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "辦公室妻子 下",
+        "url": "https://docs.google.com/document/d/1kHjwm5p3LVozxcdiK6_A21HcYhMtKVsbpjvQ1EZVUmE/edit?usp=drivesdk"
       }
     ]
   },
@@ -6267,14 +6287,14 @@ window.BOOK_DATA = [
     "date": "2024-12-13",
     "episodes": [
       {
-        "label": "EP1",
-        "url": "https://docs.google.com/document/d/1rE_Hm9Uq5Rb3NQDH0HWoRT9pcaGDod5BRNpe59c0zhI/edit?usp=drivesdk",
-        "title": "é¢å¹´éç¯æè¦é¢çéä¿ ä¸"
+        "label": "上",
+        "title": "逢年過節才見面的關係 上",
+        "url": "https://docs.google.com/document/d/1rE_Hm9Uq5Rb3NQDH0HWoRT9pcaGDod5BRNpe59c0zhI/edit?usp=drivesdk"
       },
       {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/1shG4_4eA73TFQIEn7i7s4ZH7tj6KpNFmVosgSYPfxwc/edit?usp=drivesdk",
-        "title": "é¢å¹´éç¯æè¦é¢çéä¿ ä¸"
+        "label": "下",
+        "title": "逢年過節才見面的關係 下",
+        "url": "https://docs.google.com/document/d/1shG4_4eA73TFQIEn7i7s4ZH7tj6KpNFmVosgSYPfxwc/edit?usp=drivesdk"
       }
     ]
   },
@@ -7061,14 +7081,9 @@ window.BOOK_DATA = [
     "date": "2025-12-16",
     "episodes": [
       {
-        "label": "EP1",
-        "url": "https://docs.google.com/document/d/1U7BJGsVN0RZP7XjhnLrBJ1xvVPwUPyGwjQmIppIFKyM/edit?usp=drivesdk",
-        "title": "Hell heaven"
-      },
-      {
-        "label": "EP2",
-        "url": "https://docs.google.com/document/d/1ZRF8Y97qmHAkjP_xRdLkrY-SsW4kbLxHkKQ5rs8JBXI/edit?usp=drivesdk",
-        "title": "í¬ì¸í¤ë¸"
+        "label": "閱讀",
+        "title": "Hell in heaven",
+        "url": "https://docs.google.com/document/d/1U7BJGsVN0RZP7XjhnLrBJ1xvVPwUPyGwjQmIppIFKyM/edit?usp=drivesdk"
       }
     ]
   },
