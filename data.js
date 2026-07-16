@@ -4872,7 +4872,7 @@ window.BOOK_DATA = [
     "ko": "나의 지랄 맞은 뮤즈",
     "zh": "💰 我的瘋狂繆思（含番外）",
     "original": "https://www.postype.com/@untitle009/post/8596074",
-    "translation": "https://docs.google.com/document/d/1Pm2sFfVZtgqAufCgiCbFAvLuLdleoysj2Dzais54OTs/edit?usp=drivesdk",
+    "translation": "https://docs.google.com/document/d/1VgW7j4DlFuqMGsPqapH9uQ5609-fGl2PLMsSIpHLZx8/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
@@ -4882,7 +4882,7 @@ window.BOOK_DATA = [
       {
         "label": "EP1",
         "title": "我發狂的繆斯01",
-        "url": "https://docs.google.com/document/d/1Pm2sFfVZtgqAufCgiCbFAvLuLdleoysj2Dzais54OTs/edit?usp=drivesdk"
+        "url": "https://docs.google.com/document/d/1VgW7j4DlFuqMGsPqapH9uQ5609-fGl2PLMsSIpHLZx8/edit?usp=drivesdk"
       },
       {
         "label": "EP2",
@@ -4901,8 +4901,8 @@ window.BOOK_DATA = [
       },
       {
         "label": "番外",
-        "title": "我的瘋狂繆斯番外-身體上的繆斯",
-        "url": "https://docs.google.com/document/d/1EBk7k1x5pcvvRyYg1boxK5gyb_We6qXh15TXNQsQiPY/edit?usp=drivesdk"
+        "title": "我發狂的繆斯番外-身體上的繆斯",
+        "url": "https://docs.google.com/document/d/1U6zmuwLgp2ME3YZK9WEXFX-Q5Ek4semB2msLvqpym_k/edit?usp=drivesdk"
       }
     ]
   },
