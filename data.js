@@ -1,18 +1,6 @@
 window.BOOK_DATA = [
   {
     "page": "noname",
-    "status": "2.已完結",
-    "ko": "그래도 사랑해",
-    "zh": "即使如此還是愛妳",
-    "original": "",
-    "translation": "https://docs.google.com/document/d/1U0d9qVa-4N4WPMNhm48SvIDMkoBLxTZFyFbjXwVEEFw/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "鳳梨",
-    "note": "@新入荷",
-    "date": "2026-07-16"
-  },
-  {
-    "page": "noname",
     "status": "0.連載中",
     "ko": "장르만 여의도",
     "zh": "💰 汝矣島風雲 (~ep19預計連載20集以上...)",
@@ -372,6 +360,18 @@ window.BOOK_DATA = [
         "url": "https://docs.google.com/document/d/18nauP4QkNmtNx0OQG_oOoUZ5IoIeUJHcMvyp49z1RlU/edit?usp=drivesdk"
       }
     ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "그래도 사랑해",
+    "zh": "即使如此還是愛妳",
+    "original": "https://www.postype.com/@untitle009/post/7446469",
+    "translation": "https://docs.google.com/document/d/1U0d9qVa-4N4WPMNhm48SvIDMkoBLxTZFyFbjXwVEEFw/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-16"
   },
   {
     "page": "其他老師",
@@ -1677,13 +1677,14 @@ window.BOOK_DATA = [
     "page": "noname",
     "status": "2.已完結",
     "ko": "대빈장씨 이야기",
-    "zh": "大嬪張氏的故事",
+    "zh": "💰 大嬪張氏的故事",
     "original": "https://www.postype.com/@untitle009/post/21849154",
     "translation": "https://docs.google.com/document/d/1fu0lz1swdbn3XAPA8rRtbfTiNUeANKHV73kbXd53GSo/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
     "date": "2026-04-16",
+    "paid": true,
     "episodes": [
       {
         "label": "閱讀",
@@ -1841,13 +1842,14 @@ window.BOOK_DATA = [
     "page": "noname",
     "status": "2.已完結",
     "ko": "연인과 인연",
-    "zh": "戀人與緣分",
+    "zh": "💰 戀人與緣分",
     "original": "https://www.postype.com/@untitle009/post/20868616",
     "translation": "https://docs.google.com/document/d/12RaB0BqjypN71K4ZlfGEWsCEi8Nn_hNyquNazsEWEMY/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
     "date": "2026-01-30",
+    "paid": true,
     "episodes": [
       {
         "label": "EP1",
@@ -3301,13 +3303,14 @@ window.BOOK_DATA = [
     "page": "noname",
     "status": "2.已完結",
     "ko": "짝사랑의 이유",
-    "zh": "單戀的理由",
+    "zh": "💰 單戀的理由",
     "original": "https://www.postype.com/@untitle009/post/6690204",
     "translation": "https://docs.google.com/document/d/1kIyGY2SJ3j474Hw4INAMsMuBjNDvFI45h88_kesJlEQ/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
     "date": "2025-05-24",
+    "paid": true,
     "episodes": [
       {
         "label": "閱讀",
@@ -3575,13 +3578,14 @@ window.BOOK_DATA = [
     "page": "noname",
     "status": "2.已完結",
     "ko": "아스트랄 믹스",
-    "zh": "Astarl Mix",
+    "zh": "💰 Astarl Mix",
     "original": "https://www.postype.com/@untitle009/post/8223590",
     "translation": "https://docs.google.com/document/d/1Lb_oC0NDFnGU3BElKP5VFJANcogWSHxJ1BOvq8PmX2Y/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
     "date": "2025-05-11",
+    "paid": true,
     "episodes": [
       {
         "label": "閱讀",
@@ -4877,7 +4881,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "EP1",
-        "title": "我的瘋狂繆斯",
+        "title": "我發狂的繆斯01",
         "url": "https://docs.google.com/document/d/1Pm2sFfVZtgqAufCgiCbFAvLuLdleoysj2Dzais54OTs/edit?usp=drivesdk"
       },
       {
