@@ -1479,11 +1479,23 @@ window.BOOK_DATA = [
     "ko": "off my face (off my chest 번외)",
     "zh": "off my face (off my chest 番外)",
     "original": "https://www.postype.com/@parkpro/post/13766976",
-    "translation": "https://drive.google.com/drive/folders/1lxecRuz-YzO70kAlcbxlym2EJp9NJo8V?usp=drive_link",
+    "translation": "https://docs.google.com/document/d/1RrYF6ihdfA2KVaC34u8l_JlYStxxWA65d1DJdEjwNMo/edit?usp=drivesdk",
     "author": "박프로（朴專家）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026-06-19"
+    "date": "2026-06-19",
+    "episodes": [
+      {
+        "label": "上",
+        "title": "01 Off My Face 上",
+        "url": "https://docs.google.com/document/d/1RrYF6ihdfA2KVaC34u8l_JlYStxxWA65d1DJdEjwNMo/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "02 Off My Face 下",
+        "url": "https://docs.google.com/document/d/1OY3XGXnpkmIBfCtrSu7PD6qQsuUKrNvtjgpaurO5KyY/edit?usp=drivesdk"
+      }
+    ]
   },
   {
     "page": "朴專家",
@@ -1491,11 +1503,23 @@ window.BOOK_DATA = [
     "ko": "off my chest",
     "zh": "off my chest",
     "original": "https://www.postype.com/@parkpro/post/13556931",
-    "translation": "https://drive.google.com/drive/folders/1BPHNLjgOfVcJgjfo5F9g7axCNLejavRO?usp=drive_link",
+    "translation": "https://docs.google.com/document/d/1-l3K0UubLNKTzNT0Avh76HF-oWsZm2nR2x4V0DNU8LI/edit?usp=drivesdk",
     "author": "박프로（朴專家）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026-06-19"
+    "date": "2026-06-19",
+    "episodes": [
+      {
+        "label": "上",
+        "title": "01 Off My Chest 上_朴pro",
+        "url": "https://docs.google.com/document/d/1-l3K0UubLNKTzNT0Avh76HF-oWsZm2nR2x4V0DNU8LI/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "02 Off My Chest 下_朴pro",
+        "url": "https://docs.google.com/document/d/1U6tJeasJ3dhLY6kZd5TwPSpMq65sWzJxT2jDyI0cmlA/edit?usp=drivesdk"
+      }
+    ]
   },
   {
     "page": "朴專家",
