@@ -409,8 +409,8 @@ window.BOOK_DATA = [
     "page": "noname",
     "status": "2.已完結",
     "ko": "구원따윈 필요 없어",
-    "zh": "不需要救贖",
-    "original": "",
+    "zh": "💰 不需要救贖",
+    "original": "https://www.postype.com/@fifth230/post/22720839",
     "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
     "author": "noname",
     "translator": "不是蓋瑞🤓",
@@ -419,10 +419,11 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "不需要救贖",
+        "title": "💰 不需要救贖",
         "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
       }
-    ]
+    ],
+    "paid": true
   },
   {
     "page": "其他老師",
