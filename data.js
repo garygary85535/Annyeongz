@@ -406,6 +406,25 @@ window.BOOK_DATA = [
     "date": "2026-07-16"
   },
   {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "구원따윈 필요 없어",
+    "zh": "不需要救贖",
+    "original": "",
+    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-17",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "不需要救贖",
+        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "설계실 로맨스",
@@ -1420,7 +1439,7 @@ window.BOOK_DATA = [
     "ko": "펀치 드렁크 멜로",
     "zh": "Punch Drunk Melo",
     "original": "https://www.postype.com/@ynseasonrps/post/13448478",
-    "translation": "https://docs.google.com/document/d/1NSkhsRsq6celdB-SpQA62HtUULuxqdQqR1AAJ_OLFbM/edit?usp=drivesdk",
+    "translation": "https://docs.google.com/document/d/1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o/edit?usp=drivesdk",
     "author": "테이",
     "translator": "鳳梨",
     "note": "",
@@ -1428,8 +1447,8 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "愛情就是時機！(사랑은 타이밍!)_익명2",
-        "url": "https://docs.google.com/document/d/1NSkhsRsq6celdB-SpQA62HtUULuxqdQqR1AAJ_OLFbM/edit?usp=drivesdk"
+        "title": "Punch Drunk Melo(펀치 드렁크 멜로)_테이",
+        "url": "https://docs.google.com/document/d/1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o/edit?usp=drivesdk"
       }
     ]
   },
@@ -1439,7 +1458,7 @@ window.BOOK_DATA = [
     "ko": "사랑은 타이밍!",
     "zh": "愛情就是時機！",
     "original": "https://www.postype.com/@ynseasonrps/post/13439534",
-    "translation": "https://docs.google.com/document/d/1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o/edit?usp=drivesdk",
+    "translation": "https://docs.google.com/document/d/1NSkhsRsq6celdB-SpQA62HtUULuxqdQqR1AAJ_OLFbM/edit?usp=drivesdk",
     "author": "익명2",
     "translator": "鳳梨",
     "note": "",
@@ -1447,8 +1466,8 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Punch Drunk Melo(펀치 드렁크 멜로)_테이",
-        "url": "https://docs.google.com/document/d/1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o/edit?usp=drivesdk"
+        "title": "愛情就是時機！(사랑은 타이밍!)_익명2",
+        "url": "https://docs.google.com/document/d/1NSkhsRsq6celdB-SpQA62HtUULuxqdQqR1AAJ_OLFbM/edit?usp=drivesdk"
       }
     ]
   },
