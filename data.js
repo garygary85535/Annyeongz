@@ -488,7 +488,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "回家的路",
+        "title": "回家的路(집으로 가는 길)_댕그라미",
         "url": "https://docs.google.com/document/d/1AJ6STU7-Lf8ghH2p0fSCk3lMEdwz02fV/edit?usp=drivesdk"
       }
     ]
@@ -507,7 +507,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "找找看",
+        "title": "找找看(숨은그림찾기)_댕그라미",
         "url": "https://docs.google.com/document/d/1MUhzu1IEtBOdB9WYkRDqrr9asa0JHZiJ/edit?usp=drivesdk"
       }
     ]
@@ -682,7 +682,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Twin Sister Trouble",
+        "title": "Twin Sister Trouble(트윈 시스터 트러블)_kiddii",
         "url": "https://docs.google.com/document/d/1Emhuqhc0JssVM145igVCME7fYi0lXVg3DRxjiYDd-II/edit?usp=drivesdk"
       }
     ]
@@ -701,7 +701,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "始終如一的告白",
+        "title": "始終如一的告白(한결같은 고백)_MJ",
         "url": "https://docs.google.com/document/d/1vLvXV9N3_ZEaMvXtPrE_CCU1JwQzg7i1tJgGY9hBZgs/edit?usp=drivesdk"
       }
     ]
@@ -720,7 +720,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "抓狂戀愛或安張戀愛",
+        "title": "抓狂戀愛或安張戀愛(환장 연애 혹은 안장 연애)_OCB",
         "url": "https://docs.google.com/document/d/1D_rI2K53nzKwz-MemDRNz5mBCIaYX9muMXvVx2Ca5g0/edit?usp=drivesdk"
       }
     ]
@@ -739,7 +739,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "天生單戀",
+        "title": "天生單戀(본투비 짝사랑)_OCB",
         "url": "https://docs.google.com/document/d/16rA3efT6wnz6TjV3GomnxrsAC5RgSrL3nvsmVxwV-NI/edit?usp=drivesdk"
       }
     ]
@@ -758,7 +758,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Kissing",
+        "title": "Kissing_고래",
         "url": "https://docs.google.com/document/d/1a4KeK4UQPteJo-btpgFBIbeduwTGhNfW79gMTXLY468/edit?usp=drivesdk"
       }
     ]
@@ -777,7 +777,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "住在月亮上的思念",
+        "title": "住在月亮上的思念(달에 사는 그리움(愛))_귀인",
         "url": "https://docs.google.com/document/d/1jWWkAyzG8ye8cPF5RE6x4POvJJQGQky63dRGD_guljY/edit?usp=drivesdk"
       }
     ]
@@ -796,7 +796,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "討人厭的女人",
+        "title": "討人厭的女人(재수 없는 여자)_노네임",
         "url": "https://docs.google.com/document/d/1OQwSseQ5vNpgMomTaBjDbxGcXNrq5e2DNvtXFglX-6A/edit?usp=drivesdk"
       }
     ]
@@ -815,7 +815,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "愛在馬場洞",
+        "title": "愛在馬場洞(사랑은 마장동에서)_도교",
         "url": "https://docs.google.com/document/d/1iLmo3rOYQGbAAx0lJwWN2YyEm62kxFOsiS1oqb9e5zM/edit?usp=drivesdk"
       }
     ]
@@ -834,7 +834,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "致聖誕老人",
+        "title": "致聖誕老人(산타에게)_무민",
         "url": "https://docs.google.com/document/d/18zmi0zaLANU_8e3lnxoqgrLaJtdJnGduZbCWru6hCXA/edit?usp=drivesdk"
       }
     ]
@@ -853,7 +853,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "頭獎的獎金是愛",
+        "title": "頭獎的獎金是愛(잭팟의 상금은 사랑)_빠보리따",
         "url": "https://docs.google.com/document/d/14R7oUh4dcKHDzk5txJAYiL6-fIHCAXrA4TlEzblAVyc/edit?usp=drivesdk"
       }
     ]
@@ -872,7 +872,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Y U LOVE KITTY",
+        "title": "Y U LOVE KITTY_아딜로",
         "url": "https://docs.google.com/document/d/1aFb8_VxxXqM7uQp_O041U6h4baS-wVuZKGrhFiJ11Yo/edit?usp=drivesdk"
       }
     ]
@@ -891,7 +891,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "戀愛體質",
+        "title": "戀愛體質(로맨스가 체질)_와이",
         "url": "https://docs.google.com/document/d/1JfBESS0b_nIf2TsKrFbZLWftdricBvpBLKg_c82qkdk/edit?usp=drivesdk"
       }
     ]
@@ -910,7 +910,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Shine With Me",
+        "title": "Shine With Me_유갱",
         "url": "https://docs.google.com/document/d/138RzIsaavHRapM6XwBsN4_49-EXtNIslVi8kz5Z3rWo/edit?usp=drivesdk"
       }
     ]
@@ -929,7 +929,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "乙方的苦衷",
+        "title": "乙方的苦衷(을의 사정)_윤비",
         "url": "https://docs.google.com/document/d/18X6ljj4TycRbxvwGYGb9Jj7V2Di2Um4sJtElHRGv8EQ/edit?usp=drivesdk"
       }
     ]
@@ -948,7 +948,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Helleborus",
+        "title": "Helleborus_익명1",
         "url": "https://docs.google.com/document/d/1eFndJe9x1emu-SzHWI-K0upI71vbsFN4FYhl3dSWdy8/edit?usp=drivesdk"
       }
     ]
@@ -967,7 +967,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "10.901.831.034",
+        "title": "10.901.831.034_익명1",
         "url": "https://docs.google.com/document/d/1HcpNq8Libh2_jabMx38Ua6sj_3MvJViLYKh-mtVdCCs/edit?usp=drivesdk"
       }
     ]
@@ -986,7 +986,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "玩家",
+        "title": "玩家(Player)_익명2",
         "url": "https://docs.google.com/document/d/1gOVcVMRVSHOwuYrXxXNAZEbj3hI1iBrOI-nFFUvjOCM/edit?usp=drivesdk"
       }
     ]
@@ -1005,7 +1005,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "茶房，樂境",
+        "title": "茶房，樂境(다방, 낙경)_정한",
         "url": "https://docs.google.com/document/d/1mIfHpX0Wfyl0ijYHLLHgo2Pf-YiW8pMJfDwDv2kdQg8/edit?usp=drivesdk"
       }
     ]
@@ -1024,7 +1024,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "不要泡麵，要 Netflix",
+        "title": "不要泡麵，要 Netflix(라면 말고, 넷플릭스)_정한",
         "url": "https://docs.google.com/document/d/1xFrguk7cZGZ6r4EPRRstAmRxkXhanZlMr_jNYL2q8dE/edit?usp=drivesdk"
       }
     ]
@@ -1043,7 +1043,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "偶像與虛像",
+        "title": "偶像與虛像(우상과 허상)_지학",
         "url": "https://docs.google.com/document/d/1UYE7CSoShmb29ssMJ-H62i5YcROI2a-JqCNBUbeBGS8/edit?usp=drivesdk"
       }
     ]
@@ -1062,7 +1062,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Cherry blossom",
+        "title": "Cherry blossom_진심",
         "url": "https://docs.google.com/document/d/1Wqf4QXZ4P8_jPue0JjXnw97xmpHUrTk0yA88yQCaaUU/edit?usp=drivesdk"
       }
     ]
@@ -1081,7 +1081,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Merry Christmas",
+        "title": "Merry Christmas(메리 크리스마스)_쩡우",
         "url": "https://docs.google.com/document/d/1Dve9z2zDNHFWUyogrAC4f8X2cbCLzN689Saq2_Hd48k/edit?usp=drivesdk"
       }
     ]
@@ -1100,7 +1100,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "一週內把安公爵追到手的方法",
+        "title": "一週內把安公爵追到手的方法(일주일 안에 안공작을 꼬시는 방법)_초초",
         "url": "https://docs.google.com/document/d/1MSBwspvc7_2r5hJlcqU4FtYWuGE7H4BWuBIABUb15Wk/edit?usp=drivesdk"
       }
     ]
@@ -1119,7 +1119,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Dear My Villain",
+        "title": "Dear My Villain(디어 마이 빌런)_코드",
         "url": "https://docs.google.com/document/d/14jXg6ofwoEP0irM_J0UzqDalnMOJ-f-dgiUj8eQgZcU/edit?usp=drivesdk"
       }
     ]
@@ -1138,7 +1138,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "那個人，那份愛",
+        "title": "那個人，那份愛(그 사람, 그 사랑)_코드",
         "url": "https://docs.google.com/document/d/1qptyIdeROjvnRlcqLe2JOz0IeV3S0HN0Ms2C8jNOtgw/edit?usp=drivesdk"
       }
     ]
@@ -1182,7 +1182,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "辣醬年糕串",
+        "title": "辣醬年糕串(떡꼬치)_OCB",
         "url": "https://docs.google.com/document/d/1_Bf6wvR7o1-tDThDhBZFqq1pltn8SiRNFABhpyfMW4M/edit?usp=drivesdk"
       }
     ]
@@ -1201,7 +1201,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "純愛與殉愛：巡愛",
+        "title": "純愛與殉愛：巡愛(순애와 순애 _ 巡愛)_도교",
         "url": "https://docs.google.com/document/d/1ysm8FCPITxv709XZeU8T9T9-dixJi5oUC2f7xvZSrMw/edit?usp=drivesdk"
       }
     ]
@@ -1220,7 +1220,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Business Legend Performance",
+        "title": "Business Legend Performance(비즈니스 레쥬언드 퍼포몬쓰)_박프로",
         "url": "https://docs.google.com/document/d/1LQ3lB4QJOnMqEH-kKcSOa7ihbu30CZwRkziesP1y70k/edit?usp=drivesdk"
       }
     ]
@@ -1239,7 +1239,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "船村恰恰恰",
+        "title": "船村恰恰恰(뱃마을 차차차)_와이",
         "url": "https://docs.google.com/document/d/1swUiuz4n5CmQQ9hVTrTNPm-0SoGlvPHGJwpoh1BGTq8/edit?usp=drivesdk"
       }
     ]
@@ -1258,7 +1258,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "One More Time",
+        "title": "One More Time(원 모어 타임)_익명",
         "url": "https://docs.google.com/document/d/1KMnC6TTb4TzbpPVZvWB86K9FXAa8qXCPat29V6Y0Pd0/edit?usp=drivesdk"
       }
     ]
@@ -1277,7 +1277,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "散發水果香的肥皂",
+        "title": "散發水果香的肥皂(과일향 나는 비누)_키퍼",
         "url": "https://docs.google.com/document/d/1tC8a9mtjQltU1rEj2W0vOSZUBpmyOoY34Mk0ulewAdY/edit?usp=drivesdk"
       }
     ]
@@ -1296,7 +1296,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "初戀",
+        "title": "初戀(첫사랑)_두르비",
         "url": "https://docs.google.com/document/d/1gEyRsneHJQuSPY9uNk-6E0SUhm6BKDhsjtq-dsdQ--Q/edit?usp=drivesdk"
       }
     ]
@@ -1315,7 +1315,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "與你共度夜晚",
+        "title": "與你共度夜晚(밤을 너와)_라니",
         "url": "https://docs.google.com/document/d/1Xa6OAUXbC0IsuM3MxKE721XOv_rVWNycptDhh_ZATMM/edit?usp=drivesdk"
       }
     ]
@@ -1334,7 +1334,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "你和我",
+        "title": "你和我(너 그리고 나)_롸댕",
         "url": "https://docs.google.com/document/d/10nIp7Tter0ugBD0Q-l9h3DAeareHO-JCIlIHBVsVwho/edit?usp=drivesdk"
       }
     ]
@@ -1353,7 +1353,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "天氣預報",
+        "title": "天氣預報(일기예보)_불미",
         "url": "https://docs.google.com/document/d/10c8tADlUvMqR4Deh8VZQHi6R5LzmxhANGFrReywlGx8/edit?usp=drivesdk"
       }
     ]
@@ -1372,7 +1372,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "未成熟",
+        "title": "未成熟(미성숙)_소온",
         "url": "https://docs.google.com/document/d/15-puRKmhGGCY4Pzqe9UzZ37i-JzW4y1oZGTR26ynAuY/edit?usp=drivesdk"
       }
     ]
@@ -1391,7 +1391,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "你的四季",
+        "title": "你的四季(당신의 사계)_정한",
         "url": "https://docs.google.com/document/d/1elfaxvVbmbL-rXXyBaAS0egEzx0OQay0IwIBbU9nGTU/edit?usp=drivesdk"
       }
     ]
@@ -1410,7 +1410,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "仲夏夜之騷動",
+        "title": "仲夏夜之騷動(한여름 밤의 소동)_해류",
         "url": "https://docs.google.com/document/d/1GDhtQzw4Z61XHIbnUq30u56ykHuPsKyyNNNEAvWwKxY/edit?usp=drivesdk"
       }
     ]
@@ -1429,7 +1429,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "初戀魔咒",
+        "title": "初戀魔咒(첫사랑 징크스)_소온",
         "url": "https://docs.google.com/document/d/1OzWdtY5sa1qU0N2_9cH_ts5z8MhhYlzIGIo_LuIwun8/edit?usp=drivesdk"
       }
     ]
@@ -1448,7 +1448,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Punch Drunk Melo",
+        "title": "Punch Drunk Melo(펀치 드렁크 멜로)_테이",
         "url": "https://docs.google.com/document/d/1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o/edit?usp=drivesdk"
       }
     ]
@@ -1467,7 +1467,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "愛情就是時機！",
+        "title": "愛情就是時機！(사랑은 타이밍!)_익명2",
         "url": "https://docs.google.com/document/d/1NSkhsRsq6celdB-SpQA62HtUULuxqdQqR1AAJ_OLFbM/edit?usp=drivesdk"
       }
     ]
@@ -1916,7 +1916,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "繞圈圈（精修版）",
+        "title": "繞圈圈",
         "url": "https://docs.google.com/document/d/1cFgvxQeo4owL3wJOlK5grC_lBZ-ZtRB8a9vs58lEsBk/edit?usp=drivesdk"
       }
     ]
@@ -2000,7 +2000,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "咖啡夫妻S3番外-聖誕節童話",
+        "title": "S3.番外-聖誕童話",
         "url": "https://docs.google.com/document/d/1_1cwE31PE46REqbPKAdxkA0dXmze7ZKqDYVhyJOTzhU/edit?usp=drivesdk"
       }
     ]
@@ -2152,7 +2152,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "惡魔的餐桌（精校版）",
+        "title": "惡魔的餐桌",
         "url": "https://docs.google.com/document/d/1VGWqD2o5gur7h31zieyHPsq5GU_-z-Khr_Em3OttHyA/edit?usp=drivesdk"
       }
     ]
@@ -2172,7 +2172,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "其後故事",
-        "title": "不會接吻的小混混 x 不會接吻的模範生──其後的故事 (更新發佈版)",
+        "title": "不會接吻的不良少女 x 沒接過吻的模範生 那之後的故事",
         "url": "https://docs.google.com/document/d/1r-MPQ-T8XcCS2Jm3c_7XagkC8GwsXZLVEkDMTy5zdeg/edit?usp=drivesdk"
       }
     ]
@@ -2260,7 +2260,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "人生算什麼（原文已刪）",
+        "title": "人生算什麼 1",
         "url": "https://docs.google.com/document/d/1Fol_KfRfH5EBda4Y5Shi2WIAkDJ38Ib5Lnr1jfcli48/edit?usp=drivesdk"
       }
     ]
@@ -2353,7 +2353,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "草莓牛奶overnote (更新發行版)",
+        "title": "草莓牛奶overnote",
         "url": "https://docs.google.com/document/d/17Ck8Df3an4Ujff2BXONxnIWmK9HtPm2O7v4ugz8Tql0/edit?usp=drivesdk"
       }
     ]
@@ -2779,7 +2779,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "不是前輩，叫姐姐（更新發行版）",
+        "title": "別叫前輩，叫姐姐吧",
         "url": "https://docs.google.com/document/d/1vJfqOVxIaTg1ZzarsM2jR6GsNVZNzTB-coXdCLdCcZ4/edit?usp=drivesdk"
       }
     ]
@@ -2926,7 +2926,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Give or take",
+        "title": "Give or Take",
         "url": "https://docs.google.com/document/d/1Vyqzqf98Gt6ue_77p5b-EAoTgB-08lXoM0G8ITs0vIY/edit?usp=drivesdk"
       }
     ]
@@ -2964,7 +2964,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "滿貫全壘打（發行版）",
+        "title": "滿貫全壘打",
         "url": "https://docs.google.com/document/d/1yX_vuQWaruqOl-0yzXE9C1oeaSGi-AEDAZ22vXP3qJY/edit?usp=drivesdk"
       }
     ]
@@ -3267,7 +3267,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "欸抖 stop it!",
+        "title": "欸抖 Stop it!",
         "url": "https://docs.google.com/document/d/1M2hc09H07wG3ptoAaDKxWkFzXTm7tZ8CNSQnvTX7NcU/edit?usp=drivesdk"
       }
     ]
@@ -3347,7 +3347,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "前方警報（掛件、束縛調教警告 ）",
+        "title": "前方警報",
         "url": "https://docs.google.com/document/d/1IkGkX3W9Hn6ZRfA5PGDtwdVbTMLvac8ORV7kcJDCv38/edit?usp=drivesdk"
       }
     ]
@@ -3405,7 +3405,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "兔子在汪汪叫（斷尾預警）",
+        "title": "兔子在汪汪叫",
         "url": "https://docs.google.com/document/d/14TamlMkaXG9Fno9tv2UhmsE4l2qNPM727_czzI5h058/edit?usp=drivesdk"
       }
     ]
@@ -3555,7 +3555,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "純愛與殉愛",
+        "title": "純愛與殉愛(순애와 순애)_도교",
         "url": "https://docs.google.com/document/d/1c4Cf6IqyMcWlJg3NKWyYj5OSISgQo8JhSuWrxFGmY10/edit?usp=drivesdk"
       }
     ]
@@ -3612,7 +3612,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "東南西北",
+        "title": "東西南北",
         "url": "https://docs.google.com/document/d/1Jm084m4oTlYkZCxo_xgWdieKxTyAD1V6ClyMOhXovxU/edit?usp=drivesdk"
       }
     ]
@@ -3719,7 +3719,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Astarl Mix",
+        "title": "Astral Mix",
         "url": "https://docs.google.com/document/d/1Lb_oC0NDFnGU3BElKP5VFJANcogWSHxJ1BOvq8PmX2Y/edit?usp=drivesdk"
       }
     ]
@@ -3757,7 +3757,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "兔子其實跑的很快",
+        "title": "兔子其實跑得很快",
         "url": "https://docs.google.com/document/d/19srze0VGrZKNpDtIT3wdkNzkDmLM4dNs8m9SIa1n81A/edit?usp=drivesdk"
       }
     ]
@@ -4143,7 +4143,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "901:Not Found",
+        "title": "901 Not found",
         "url": "https://docs.google.com/document/d/1lCjP31vz_IJriSvTk3nqkRav1-46K8pyM97JPTWotvw/edit?usp=drivesdk"
       }
     ]
@@ -4197,7 +4197,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Run to you",
+        "title": "Run to You",
         "url": "https://docs.google.com/document/d/1h6P42gJPonBiLoSEc8Ys5ii9kVNL47OhFyCHOGjx_B8/edit?usp=drivesdk"
       }
     ]
@@ -4305,7 +4305,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "全新未拆販售中（正式版）",
+        "title": "全新未拆販售中",
         "url": "https://docs.google.com/document/d/13ibz0hWGip_R37Q7_jyvdOBr_JutZax9zipmX0PS4tI/edit?usp=drivesdk"
       }
     ]
@@ -4490,7 +4490,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Passionate A&W 外傳1-飯",
+        "title": "Passionate A&W 外傳1-麵包",
         "url": "https://docs.google.com/document/d/1ZAxXhhXFaI2vJ_kCAfpUj30BHKj4hYlgS-DZ5t_Qpzw/edit?usp=drivesdk"
       }
     ]
@@ -4593,7 +4593,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "那個冬天回憶錄",
+        "title": "那個冬天的回憶錄",
         "url": "https://docs.google.com/document/d/1UgM86SFXEi4jj3RhYNhdF910Ulv7NOxyALXIihcLu3w/edit?usp=drivesdk"
       }
     ]
@@ -4744,7 +4744,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "超越地平線",
+        "title": "越過地平線",
         "url": "https://docs.google.com/document/d/1WcmGe_bcle8_eG2B3GKkn1SNYIkqwg66DM_fIdl4spM/edit?usp=drivesdk"
       }
     ]
@@ -4802,7 +4802,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "三葉幸運草的願望",
+        "title": "三葉草的願望",
         "url": "https://docs.google.com/document/d/1Y1cG0NJpeAzFlZOMOFzHOcLUh8YiJOi8SuFM1Rg-EQQ/edit?usp=drivesdk"
       }
     ]
@@ -4821,7 +4821,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "論虎林",
+        "title": "論虎林",
         "url": "https://docs.google.com/document/d/11koHPMhYmcBRtRvRrqRo5kXZQ-EtioI-NtGheuJWBZM/edit?usp=drivesdk"
       }
     ]
@@ -4904,7 +4904,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "我丈夫的女人",
+        "title": "我的丈夫的女人",
         "url": "https://docs.google.com/document/d/1hz9U-vnKuNa4jyEJX98UErnzTjS8QfLaPdupadgB-Cs/edit?usp=drivesdk"
       }
     ]
@@ -4978,7 +4978,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Hot and cold",
+        "title": "Hot and Cold",
         "url": "https://docs.google.com/document/d/1PI9L7bBhTjIeA791ktnwDNmDwnXOttDu7Z2TsmOSDXM/edit?usp=drivesdk"
       }
     ]
@@ -5487,7 +5487,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "生日那天開學（朴專家的『學期初的生日』前傳）",
+        "title": "生日那天開學 (前傳)",
         "url": "https://docs.google.com/document/d/10JBTcIDm4QVNOKhCFMgE3yoCMkR8neIXqyt3DqMdngA/edit?usp=drivesdk"
       }
     ]
@@ -5506,7 +5506,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "學期初的生日",
+        "title": "學期初的生日 (愚人節改編)",
         "url": "https://docs.google.com/document/d/1gVIrRzr97MBXnoGRmOhsY1jDn7vRXw7v9wAYddbTsJU/edit?usp=drivesdk"
       }
     ]
@@ -5565,7 +5565,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Passionate A&W 外傳2-告別之旅",
+        "title": "Passionate A&W 外傳2告別之旅",
         "url": "https://docs.google.com/document/d/1DOHzIw3rQ0hi699ZprDw7Bdw0avmKzTXTWuf3SAUtp4/edit?usp=drivesdk"
       }
     ]
@@ -5674,7 +5674,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "咖啡夫妻S2番外-為誰而辦的聖誕活動",
+        "title": "為誰而辦的聖誕活動",
         "url": "https://docs.google.com/document/d/1NHcrOn1n4FUqdK7L05dKyFTlmV_2L__9x3PX_kM8oq4/edit?usp=drivesdk"
       }
     ]
@@ -5694,7 +5694,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "咖啡夫妻S2番外-馬爾地夫篇",
+        "title": "咖啡夫妻番外篇-馬爾地夫",
         "url": "https://docs.google.com/document/d/1wA9sTNsbuyGU8ce5U8q-U7mZeJgokfrJ50wQmpEhc7w/edit?usp=drivesdk"
       }
     ]
@@ -5949,7 +5949,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "短篇小說集3-聯姻故事",
+        "title": "聯姻故事",
         "url": "https://docs.google.com/document/d/1IeB2KQseFDvy7T9yr-lDsQXNVjSYvUGBW3Wx8ZFT2rw/edit?usp=drivesdk"
       }
     ]
@@ -6189,7 +6189,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "下集",
-        "title": "OH! VICKY! YOU BLOW MY MIND!（下）",
+        "title": "OH! VICKY! YOU BLOW MY MIND!-下集",
         "url": "https://docs.google.com/document/d/1ZNlxRtSZOxHridFHcVGsPtz-jYCQcGIC-HZ7aMuuG8g/edit?usp=drivesdk"
       }
     ]
@@ -6228,7 +6228,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "上集",
-        "title": "OH! VICKY! YOU BLOW MY MIND!（上）",
+        "title": "OH! VICKY! YOU BLOW MY MIND!-上集",
         "url": "https://docs.google.com/document/d/1gnkkZ0xMyOYoC8ETZsHbJdFoD2ezpeMZdclBXB1ER9I/edit?usp=drivesdk"
       }
     ]
@@ -6247,7 +6247,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "朋友們的戀愛腦罪",
+        "title": "朋友的戀愛腦罪",
         "url": "https://docs.google.com/document/d/1-2okmS5Tx2KgqWqyB99WVvDKjSi7nDp3ZhTQ_ocW1G0/edit?usp=drivesdk"
       }
     ]
@@ -6285,7 +6285,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇）",
+        "title": "不是你，是你妹妹",
         "url": "https://docs.google.com/document/d/1OtlWRdfQEcYRjSaH7GAeUF_k9PCgEY0mJ8rBcLrhpPM/edit?usp=drivesdk"
       }
     ]
@@ -6304,7 +6304,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "搭公車的高中生",
+        "title": "搭公車的高中生_chat-gpt",
         "url": "https://docs.google.com/document/d/125GjU6HtfB3aeVHygnbyU4M6QQvPAC_9rZZaecd34o4/edit?usp=drivesdk"
       }
     ]
@@ -6626,7 +6626,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "採錄",
+        "title": "採錄_chat-gpt",
         "url": "https://docs.google.com/document/d/1WcQZVP611XVL9eiJaTUBBLMe491dNZYNOdU1Hp4S29g/edit?usp=drivesdk"
       }
     ]
@@ -7249,7 +7249,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "時節姻緣（CP潔癖勿入）",
+        "title": "時節姻緣",
         "url": "https://docs.google.com/document/d/1fFn0Counh2sMoHO4VVL0Ezbwu-ORVrTervE7K6HbCaE/edit?usp=drivesdk"
       }
     ]
@@ -7306,7 +7306,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "非正常觀察報告",
+        "title": "非正常觀察報告書",
         "url": "https://docs.google.com/document/d/14eJqq6qWyDnqFA1lLo4gQLeykC1pZJtE_FOQ0EBtgHo/edit?usp=drivesdk"
       }
     ]

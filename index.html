@@ -949,8 +949,16 @@
       toTop: document.querySelector("#toTopBtn")
     };
 
+    function parseDate(value) {
+      const raw = String(value || "").trim();
+      const match = raw.match(/^(\d{4})[\/.-](\d{1,2})[\/.-](\d{1,2})/);
+      if (!match) return null;
+      return new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]));
+    }
+
     function dateKey(item) {
-      return Number(String(item.date || "").replaceAll("-", "")) || 0;
+      const date = parseDate(item.date);
+      return date ? Number(String(item.date).replace(/\D/g, "").slice(0, 8)) : 0;
     }
 
     function normalize(value) {
@@ -990,8 +998,17 @@
       return items;
     }
 
+    function newArrivalItems() {
+      return DATA.filter(item => /@新入荷/.test(item.note || ""));
+    }
+
     function recentItems() {
-      return visibleItems().filter(item => /@新入荷|@有更新/.test(item.note || ""));
+      const now = new Date();
+      const cutoff = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 30);
+      return visibleItems().filter(item => {
+        const date = parseDate(item.date);
+        return date && date >= cutoff;
+      });
     }
 
     function openRandom(items, emptyMessage) {
@@ -1123,11 +1140,10 @@
     }
 
     function renderLatest() {
-      el.latest.innerHTML = [...DATA]
-        .sort((a, b) => dateKey(b) - dateKey(a))
-        .slice(0, 6)
-        .map(item => `<button class="small-card" type="button" data-id="${DATA.indexOf(item)}"><b>${item.zh}</b><span>#${item.page} · ${item.date}</span></button>`)
-        .join("");
+      const items = newArrivalItems().sort((a, b) => dateKey(b) - dateKey(a)).slice(0, 6);
+      el.latest.innerHTML = items.length
+        ? items.map(item => `<button class="small-card" type="button" data-id="${DATA.indexOf(item)}"><b>${item.zh}</b><span>#${item.page} · ${item.date}</span></button>`).join("")
+        : `<div class="empty">目前沒有新入荷作品</div>`;
     }
 
     function renderGrid() {
