@@ -469,6 +469,22 @@
       background: var(--bg);
       color: var(--rose);
       cursor: pointer;
+      display: grid;
+      place-items: center;
+      font-size: 18px;
+      line-height: 1;
+      transition: transform .16s ease, background .16s ease, border-color .16s ease;
+    }
+
+    .fav:hover {
+      transform: translateY(-1px);
+      background: var(--rose-soft);
+      border-color: color-mix(in srgb, var(--rose) 46%, transparent);
+    }
+
+    .fav[aria-pressed="true"] {
+      background: var(--rose-soft);
+      border-color: color-mix(in srgb, var(--rose) 54%, transparent);
     }
 
     .links {
@@ -887,9 +903,11 @@
   <button class="to-top" id="toTopBtn" type="button" aria-label="回到頂端">↑</button>
   </div>
 
-  <script src="data.js?v=20260716-2"></script>
+  <script src="data.js?v=20260718-fav"></script>
   <script>
     const DATA = window.BOOK_DATA || [];
+    const FAVORITE_STORAGE_KEY = "annyeongzFavoriteKeys";
+    const LEGACY_FAVORITE_STORAGE_KEY = "bookPrototypeFavs";
 
     const USERS = [
       { email: "annyeongz", password: "annyeongz831901", name: "付費會員", role: "premium" },
@@ -903,13 +921,45 @@
       admin: "管理員"
     };
 
+    function favoriteKey(item) {
+      return String(item.translation || item.original || [item.page, item.ko, item.zh, item.author].join("::"));
+    }
+
+    function readJsonStorage(key, fallback) {
+      try {
+        const value = JSON.parse(localStorage.getItem(key) || "null");
+        return value ?? fallback;
+      } catch {
+        return fallback;
+      }
+    }
+
+    function loadFavorites() {
+      const saved = readJsonStorage(FAVORITE_STORAGE_KEY, null);
+      if (Array.isArray(saved)) return saved.map(String);
+
+      const legacy = readJsonStorage(LEGACY_FAVORITE_STORAGE_KEY, []);
+      const migrated = Array.isArray(legacy)
+        ? legacy
+            .map(id => DATA[Number(id)])
+            .filter(Boolean)
+            .map(favoriteKey)
+        : [];
+      if (migrated.length) localStorage.setItem(FAVORITE_STORAGE_KEY, JSON.stringify(migrated));
+      return migrated;
+    }
+
+    function saveFavorites() {
+      localStorage.setItem(FAVORITE_STORAGE_KEY, JSON.stringify([...state.favs]));
+    }
+
     const state = {
       page: "全部",
       status: "全部",
       query: "",
       sort: "date-desc",
       user: JSON.parse(localStorage.getItem("bookPrototypeUser") || "null"),
-      favs: new Set(JSON.parse(localStorage.getItem("bookPrototypeFavs") || "[]"))
+      favs: new Set(loadFavorites())
     };
 
     const el = {
@@ -986,10 +1036,11 @@
     function visibleItems() {
       const q = normalize(state.query);
       let items = DATA.filter(item => {
-        const pageOK = state.page === "全部" || item.page === state.page;
+        const favoriteOK = state.page !== "我的最愛" || state.favs.has(favoriteKey(item));
+        const pageOK = state.page === "全部" || state.page === "我的最愛" || item.page === state.page;
         const statusOK = state.status === "全部" || item.status === state.status;
         const hay = normalize([item.zh, item.ko, item.author, item.translator, item.note].join(" "));
-        return pageOK && statusOK && (!q || hay.includes(q));
+        return favoriteOK && pageOK && statusOK && (!q || hay.includes(q));
       });
 
       if (state.sort === "date-desc") items.sort((a, b) => dateKey(b) - dateKey(a));
@@ -1029,7 +1080,8 @@
 
     function renderTree() {
       const total = DATA.length;
-      const pages = [{ name: "全部", count: total }, ...pageCounts()];
+      const favoriteCount = DATA.filter(item => state.favs.has(favoriteKey(item))).length;
+      const pages = [{ name: "全部", count: total }, { name: "我的最愛", count: favoriteCount }, ...pageCounts()];
       el.tree.innerHTML = pages.map(p => `
         <button type="button" class="${state.page === p.name ? "active" : ""}" data-page="${p.name}">
           <span>${p.name === "全部" ? "書目總覽" : p.name}</span>
@@ -1119,10 +1171,11 @@
 
     function card(item) {
       const id = DATA.indexOf(item);
-      const fav = state.favs.has(id);
+      const key = favoriteKey(item);
+      const fav = state.favs.has(key);
       return `
         <article class="card status-${statusClass(item)}" data-id="${id}" tabindex="0">
-          <button class="fav" type="button" data-fav="${id}" aria-label="收藏">${fav ? "♥" : "♡"}</button>
+          <button class="fav" type="button" data-fav="${id}" aria-label="${fav ? "取消收藏" : "收藏"}" aria-pressed="${fav}">${fav ? "♥" : "♡"}</button>
           <h3 class="title">${item.zh}</h3>
           <div class="k-title">${item.ko}</div>
           <div class="badges">${badges(item)}</div>
@@ -1148,9 +1201,9 @@
 
     function renderGrid() {
       const items = visibleItems();
-      el.resultTitle.textContent = state.page === "全部" ? "全部作品" : `#${state.page}`;
+      el.resultTitle.textContent = state.page === "全部" ? "全部作品" : state.page === "我的最愛" ? "我的最愛" : `#${state.page}`;
       el.countText.textContent = `${items.length} / ${DATA.length} 筆，依目前條件顯示`;
-      el.grid.innerHTML = items.length ? items.map(card).join("") : `<div class="empty">找不到符合條件的作品</div>`;
+      el.grid.innerHTML = items.length ? items.map(card).join("") : `<div class="empty">${state.page === "我的最愛" ? "還沒有收藏作品" : "找不到符合條件的作品"}</div>`;
     }
 
     function render() {
@@ -1272,8 +1325,10 @@
       if (favButton) {
         event.stopPropagation();
         const id = Number(favButton.dataset.fav);
-        state.favs.has(id) ? state.favs.delete(id) : state.favs.add(id);
-        localStorage.setItem("bookPrototypeFavs", JSON.stringify([...state.favs]));
+        const key = favoriteKey(DATA[id]);
+        state.favs.has(key) ? state.favs.delete(key) : state.favs.add(key);
+        saveFavorites();
+        renderTree();
         renderGrid();
         return;
       }
