@@ -1,5 +1,34 @@
 window.BOOK_DATA = [
   {
+    "page": "其他老師",
+    "status": "0.連載中",
+    "ko": "페이지를 찾을 수 없습니다",
+    "zh": "找不到頁面",
+    "original": "https://www.postype.com/@monochrome-film/post/22545325",
+    "translation": "https://docs.google.com/document/d/1Mk8xxMrNmOAUE4k6kM7RJkSESmlT-eIwnjjr63dkSJE/edit?usp=drivesdk",
+    "author": "플레인（Plain）",
+    "translator": "不是蓋瑞",
+    "note": "@有更新",
+    "date": "2026-07-18",
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "找不到頁面 1",
+        "url": "https://docs.google.com/document/d/1Mk8xxMrNmOAUE4k6kM7RJkSESmlT-eIwnjjr63dkSJE/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "找不到頁面 2",
+        "url": "https://docs.google.com/document/d/1Sbsj2a3daoo5MsKjoplMUdhTQADrRbwPWKjKMgo_boQ/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "找不到頁面 3",
+        "url": "https://docs.google.com/document/d/1ge5K2FlIAceznBDg8zLKg9CQIxZjr6Hhyk3Nqyi-jaI/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "noname",
     "status": "0.連載中",
     "ko": "장르만 여의도",
@@ -111,30 +140,6 @@ window.BOOK_DATA = [
         "label": "EP19",
         "title": "汝矣島風雲19",
         "url": "https://docs.google.com/document/d/1VoeoJGWSDUAL4zyPin9wkkCIm9YrX-Kr2bNiEykr1Kc/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "0.連載中",
-    "ko": "페이지를 찾을 수 없습니다",
-    "zh": "找不到頁面",
-    "original": "https://www.postype.com/@monochrome-film/post/22545325",
-    "translation": "https://docs.google.com/document/d/1Mk8xxMrNmOAUE4k6kM7RJkSESmlT-eIwnjjr63dkSJE/edit?usp=drivesdk",
-    "author": "플레인（Plain）",
-    "translator": "不是蓋瑞",
-    "note": "",
-    "date": "2026-07-13",
-    "episodes": [
-      {
-        "label": "EP1",
-        "title": "找不到頁面 1",
-        "url": "https://docs.google.com/document/d/1Mk8xxMrNmOAUE4k6kM7RJkSESmlT-eIwnjjr63dkSJE/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP2",
-        "title": "找不到頁面 2",
-        "url": "https://docs.google.com/document/d/1Sbsj2a3daoo5MsKjoplMUdhTQADrRbwPWKjKMgo_boQ/edit?usp=drivesdk"
       }
     ]
   },
@@ -394,6 +399,196 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "그대 다시 내게",
+    "zh": "願你再次來到我身邊",
+    "original": "https://www.postype.com/@ynseasonrps/post/14004901",
+    "translation": "https://docs.google.com/document/d/1FVQCrEsOsrIy3TvSSZ1OPF1XrdWkx6K0_dI1d3tfYVI/edit?usp=drivesdk",
+    "author": "노네임（noname）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-18",
+    "episodes": [
+      {
+        "label": "",
+        "title": "願你再次來到我身邊(그대 다시 내게)_노네임",
+        "url": "https://docs.google.com/document/d/1FVQCrEsOsrIy3TvSSZ1OPF1XrdWkx6K0_dI1d3tfYVI/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "와이키키 썸머 스캔들",
+    "zh": "Waikiki 夏日醜聞",
+    "original": "https://www.postype.com/@ynseasonrps/post/14007041",
+    "translation": "https://docs.google.com/document/d/1E3lwsH1VsUntNvo5Xxipw7s6YSK0bNKyUzMx35iNnZU/edit?usp=drivesdk",
+    "author": "도교（音譯：道僑）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-18",
+    "episodes": [
+      {
+        "label": "",
+        "title": "Waikiki 夏日醜聞(와이키키 썸머 스캔들)_도교",
+        "url": "https://docs.google.com/document/d/1E3lwsH1VsUntNvo5Xxipw7s6YSK0bNKyUzMx35iNnZU/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "아포칼립스 프리즘",
+    "zh": "末日稜鏡",
+    "original": "https://www.postype.com/@ynseasonrps/post/14009166",
+    "translation": "https://docs.google.com/document/d/11KcdJp5XbVuUd3I-_zYDoSoGHFKHQSc1m_0czLHKv0c/edit?usp=drivesdk",
+    "author": "로크（LOCK）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-18",
+    "episodes": [
+      {
+        "label": "",
+        "title": "末日稜鏡(아포칼립스 프리즘)_로크",
+        "url": "https://docs.google.com/document/d/11KcdJp5XbVuUd3I-_zYDoSoGHFKHQSc1m_0czLHKv0c/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "이별후애",
+    "zh": "別後愛",
+    "original": "https://www.postype.com/@ynseasonrps/post/14010268",
+    "translation": "https://docs.google.com/document/d/1Z2kpzBbbjy5cfe06EH-o8c6wJ8K-hTWX620VfI6pKQ8/edit?usp=drivesdk",
+    "author": "롸댕(Roi_Daeng)",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-18",
+    "episodes": [
+      {
+        "label": "",
+        "title": "別後愛(이별후애)_롸댕",
+        "url": "https://docs.google.com/document/d/1Z2kpzBbbjy5cfe06EH-o8c6wJ8K-hTWX620VfI6pKQ8/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "버터 베이커리",
+    "zh": "奶油烘焙坊",
+    "original": "https://www.postype.com/@ynseasonrps/post/14009283",
+    "translation": "https://docs.google.com/document/d/1yao7foo8P6edml4DIxqoRvmRgJziQdk6mkWH-6sA5mA/edit?usp=drivesdk",
+    "author": "브랭",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-18",
+    "episodes": [
+      {
+        "label": "",
+        "title": "奶油烘焙坊(버터 베이커리)_逐格翻譯",
+        "url": "https://docs.google.com/document/d/1yao7foo8P6edml4DIxqoRvmRgJziQdk6mkWH-6sA5mA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "220225",
+    "zh": "220225",
+    "original": "https://www.postype.com/@ynseasonrps/post/14009367",
+    "translation": "https://docs.google.com/document/d/1PRrfw938TEbwJubOLYiHy8CaccHBNYFsIWKQgSughFk/edit?usp=drivesdk",
+    "author": "소온",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-18",
+    "episodes": [
+      {
+        "label": "",
+        "title": "220225_소온",
+        "url": "https://docs.google.com/document/d/1PRrfw938TEbwJubOLYiHy8CaccHBNYFsIWKQgSughFk/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "하나 둘 셋 (그리고 사랑을 시작하자)",
+    "zh": "一、二、三（然後，開始戀愛吧）",
+    "original": "https://www.postype.com/@ynseasonrps/post/14004920",
+    "translation": "https://docs.google.com/document/d/1_jCrVANx9r5s5CmEQ4qEsAhvEUIoVgaFfwptEWVC4RE/edit?usp=drivesdk",
+    "author": "아딜로",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-18",
+    "episodes": [
+      {
+        "label": "",
+        "title": "一、二、三（然後，開始戀愛吧）(하나 둘 셋 (그리고 사랑을 시작하자))_아딜로",
+        "url": "https://docs.google.com/document/d/1_jCrVANx9r5s5CmEQ4qEsAhvEUIoVgaFfwptEWVC4RE/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "재활용품은 반드시 분리수거를 합시다",
+    "zh": "資源回收物請務必分類回收",
+    "original": "https://www.postype.com/@ynseasonrps/post/14012515",
+    "translation": "https://docs.google.com/document/d/1KKkpkYZIfPoP0b9MjoT6yRvhHuM00qCRvMA6m_CrQsg/edit?usp=drivesdk",
+    "author": "익명2（匿名2）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-18",
+    "episodes": [
+      {
+        "label": "",
+        "title": "資源回收物請務必分類回收(재활용품은 반드시 분리수거를 합시다)_익명2",
+        "url": "https://docs.google.com/document/d/1KKkpkYZIfPoP0b9MjoT6yRvhHuM00qCRvMA6m_CrQsg/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "외지인의 결말",
+    "zh": "外地人的結局",
+    "original": "https://www.postype.com/@ynseasonrps/post/14004908",
+    "translation": "https://docs.google.com/document/d/1b6QCF38v3KLekSP0r3nSz1cZYeVeHpTBrMEKRq8LuWs/edit?usp=drivesdk",
+    "author": "일오",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-18",
+    "episodes": [
+      {
+        "label": "",
+        "title": "外地人的結局(외지인의 결말)_일오",
+        "url": "https://docs.google.com/document/d/1b6QCF38v3KLekSP0r3nSz1cZYeVeHpTBrMEKRq8LuWs/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "Off limits",
+    "zh": "Off limits",
+    "original": "https://www.postype.com/@ynseasonrps/post/14020920",
+    "translation": "https://docs.google.com/document/d/18kg9YXfso3jb20ipVq9iTcZSPr052yPotrt3QFO7VZo/edit?usp=drivesdk",
+    "author": "후뿌",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-18",
+    "episodes": [
+      {
+        "label": "",
+        "title": "Off limits_후뿌",
+        "url": "https://docs.google.com/document/d/18kg9YXfso3jb20ipVq9iTcZSPr052yPotrt3QFO7VZo/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "noname",
     "status": "2.已完結",
     "ko": "구원따윈 필요 없어",
@@ -592,196 +787,6 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "通往夏天的捷徑(여름으로 가는 지름길)_댕그라미",
         "url": "https://docs.google.com/document/d/1FaK1ULUCjYLo0n94Du3k3mXFx41Xw1CjszyJTuFYCwc/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "그대 다시 내게",
-    "zh": "願你再次來到我身邊",
-    "original": "https://www.postype.com/@ynseasonrps/post/14004901",
-    "translation": "https://docs.google.com/document/d/1FVQCrEsOsrIy3TvSSZ1OPF1XrdWkx6K0_dI1d3tfYVI/edit?usp=drivesdk",
-    "author": "노네임（noname）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-13",
-    "episodes": [
-      {
-        "label": "",
-        "title": "願你再次來到我身邊(그대 다시 내게)_노네임",
-        "url": "https://docs.google.com/document/d/1FVQCrEsOsrIy3TvSSZ1OPF1XrdWkx6K0_dI1d3tfYVI/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "와이키키 썸머 스캔들",
-    "zh": "Waikiki 夏日醜聞",
-    "original": "https://www.postype.com/@ynseasonrps/post/14007041",
-    "translation": "https://docs.google.com/document/d/1E3lwsH1VsUntNvo5Xxipw7s6YSK0bNKyUzMx35iNnZU/edit?usp=drivesdk",
-    "author": "도교（音譯：道僑）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-13",
-    "episodes": [
-      {
-        "label": "",
-        "title": "Waikiki 夏日醜聞(와이키키 썸머 스캔들)_도교",
-        "url": "https://docs.google.com/document/d/1E3lwsH1VsUntNvo5Xxipw7s6YSK0bNKyUzMx35iNnZU/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "아포칼립스 프리즘",
-    "zh": "末日稜鏡",
-    "original": "https://www.postype.com/@ynseasonrps/post/14009166",
-    "translation": "https://docs.google.com/document/d/11KcdJp5XbVuUd3I-_zYDoSoGHFKHQSc1m_0czLHKv0c/edit?usp=drivesdk",
-    "author": "로크（LOCK）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-13",
-    "episodes": [
-      {
-        "label": "",
-        "title": "末日稜鏡(아포칼립스 프리즘)_로크",
-        "url": "https://docs.google.com/document/d/11KcdJp5XbVuUd3I-_zYDoSoGHFKHQSc1m_0czLHKv0c/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "이별후애",
-    "zh": "別後愛",
-    "original": "https://www.postype.com/@ynseasonrps/post/14010268",
-    "translation": "https://docs.google.com/document/d/1Z2kpzBbbjy5cfe06EH-o8c6wJ8K-hTWX620VfI6pKQ8/edit?usp=drivesdk",
-    "author": "롸댕(Roi_Daeng)",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-13",
-    "episodes": [
-      {
-        "label": "",
-        "title": "別後愛(이별후애)_롸댕",
-        "url": "https://docs.google.com/document/d/1Z2kpzBbbjy5cfe06EH-o8c6wJ8K-hTWX620VfI6pKQ8/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "버터 베이커리",
-    "zh": "奶油烘焙坊",
-    "original": "https://www.postype.com/@ynseasonrps/post/14009283",
-    "translation": "https://docs.google.com/document/d/1yao7foo8P6edml4DIxqoRvmRgJziQdk6mkWH-6sA5mA/edit?usp=drivesdk",
-    "author": "브랭",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-13",
-    "episodes": [
-      {
-        "label": "",
-        "title": "奶油烘焙坊(버터 베이커리)_逐格翻譯",
-        "url": "https://docs.google.com/document/d/1yao7foo8P6edml4DIxqoRvmRgJziQdk6mkWH-6sA5mA/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "220225",
-    "zh": "220225",
-    "original": "https://www.postype.com/@ynseasonrps/post/14009367",
-    "translation": "https://docs.google.com/document/d/1PRrfw938TEbwJubOLYiHy8CaccHBNYFsIWKQgSughFk/edit?usp=drivesdk",
-    "author": "소온",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-13",
-    "episodes": [
-      {
-        "label": "",
-        "title": "220225_소온",
-        "url": "https://docs.google.com/document/d/1PRrfw938TEbwJubOLYiHy8CaccHBNYFsIWKQgSughFk/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "하나 둘 셋 (그리고 사랑을 시작하자)",
-    "zh": "一、二、三（然後，開始戀愛吧）",
-    "original": "https://www.postype.com/@ynseasonrps/post/14004920",
-    "translation": "https://docs.google.com/document/d/1_jCrVANx9r5s5CmEQ4qEsAhvEUIoVgaFfwptEWVC4RE/edit?usp=drivesdk",
-    "author": "아딜로",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-13",
-    "episodes": [
-      {
-        "label": "",
-        "title": "一、二、三（然後，開始戀愛吧）(하나 둘 셋 (그리고 사랑을 시작하자))_아딜로",
-        "url": "https://docs.google.com/document/d/1_jCrVANx9r5s5CmEQ4qEsAhvEUIoVgaFfwptEWVC4RE/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "재활용품은 반드시 분리수거를 합시다",
-    "zh": "資源回收物請務必分類回收",
-    "original": "https://www.postype.com/@ynseasonrps/post/14012515",
-    "translation": "https://docs.google.com/document/d/1KKkpkYZIfPoP0b9MjoT6yRvhHuM00qCRvMA6m_CrQsg/edit?usp=drivesdk",
-    "author": "익명2（匿名2）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-13",
-    "episodes": [
-      {
-        "label": "",
-        "title": "資源回收物請務必分類回收(재활용품은 반드시 분리수거를 합시다)_익명2",
-        "url": "https://docs.google.com/document/d/1KKkpkYZIfPoP0b9MjoT6yRvhHuM00qCRvMA6m_CrQsg/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "외지인의 결말",
-    "zh": "外地人的結局",
-    "original": "https://www.postype.com/@ynseasonrps/post/14004908",
-    "translation": "https://docs.google.com/document/d/1b6QCF38v3KLekSP0r3nSz1cZYeVeHpTBrMEKRq8LuWs/edit?usp=drivesdk",
-    "author": "일오",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-13",
-    "episodes": [
-      {
-        "label": "",
-        "title": "外地人的結局(외지인의 결말)_일오",
-        "url": "https://docs.google.com/document/d/1b6QCF38v3KLekSP0r3nSz1cZYeVeHpTBrMEKRq8LuWs/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "Off limits",
-    "zh": "Off limits",
-    "original": "https://www.postype.com/@ynseasonrps/post/14020920",
-    "translation": "https://docs.google.com/document/d/18kg9YXfso3jb20ipVq9iTcZSPr052yPotrt3QFO7VZo/edit?usp=drivesdk",
-    "author": "후뿌",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-13",
-    "episodes": [
-      {
-        "label": "",
-        "title": "Off limits_후뿌",
-        "url": "https://docs.google.com/document/d/18kg9YXfso3jb20ipVq9iTcZSPr052yPotrt3QFO7VZo/edit?usp=drivesdk"
       }
     ]
   },
