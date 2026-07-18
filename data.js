@@ -8,8 +8,8 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1zMnO_WFtMNndF_40yDP7Xqst5GtfO-JKW61Qh3vuM8M/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨&不是蓋瑞🤓",
-    "note": "@有更新",
-    "date": "2026/07/13",
+    "note": "",
+    "date": "2026-07-13",
     "paid": true,
     "episodes": [
       {
@@ -123,8 +123,8 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1Mk8xxMrNmOAUE4k6kM7RJkSESmlT-eIwnjjr63dkSJE/edit?usp=drivesdk",
     "author": "플레인（Plain）",
     "translator": "不是蓋瑞",
-    "note": "@有更新",
-    "date": "2026/07/13",
+    "note": "",
+    "date": "2026-07-13",
     "episodes": [
       {
         "label": "EP1",
@@ -148,7 +148,7 @@ window.BOOK_DATA = [
     "author": "페더",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2026/07/10",
+    "date": "2026-07-10",
     "episodes": [
       {
         "label": "上",
@@ -163,7 +163,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "0.連載中",
     "ko": "회장딸이 왜 이럴까",
     "zh": "會長女兒為何會這樣",
@@ -172,7 +172,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2026/01/05",
+    "date": "2026-01-05",
     "episodes": [
       {
         "label": "1",
@@ -216,7 +216,7 @@ window.BOOK_DATA = [
     "author": "JSN",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/10/26",
+    "date": "2025-10-26",
     "episodes": [
       {
         "label": "上",
@@ -231,7 +231,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "0.連載中",
     "ko": "그 날의 빛, 지금의 너",
     "zh": "💰 那一天的光，如今的妳",
@@ -240,7 +240,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/08/25",
+    "date": "2025-08-25",
     "paid": true,
     "episodes": [
       {
@@ -265,7 +265,7 @@ window.BOOK_DATA = [
     "author": "뭉자（音譯：夢子）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/08/22",
+    "date": "2025-08-22",
     "paid": true,
     "episodes": [
       {
@@ -290,7 +290,7 @@ window.BOOK_DATA = [
     "author": "이단（一單）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/07/29",
+    "date": "2025-07-29",
     "episodes": [
       {
         "label": "上",
@@ -309,7 +309,7 @@ window.BOOK_DATA = [
     "author": "블루마운틴（藍山）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/02/04",
+    "date": "2025-02-04",
     "paid": true,
     "episodes": [
       {
@@ -344,7 +344,7 @@ window.BOOK_DATA = [
     "author": "꿀구마（蜜地瓜）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/07/07",
+    "date": "2025-07-07",
     "episodes": [
       {
         "label": "EP1",
@@ -403,15 +403,15 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "不是蓋瑞🤓",
     "note": "@新入荷",
-    "date": "2026/07/17",
+    "date": "2026-07-17",
+    "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "不需要救贖",
         "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
       }
-    ],
-    "paid": true
+    ]
   },
   {
     "page": "noname",
@@ -423,26 +423,19 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "@新入荷",
-    "date": "2026/07/16",
-    "episodes": [
-      {
-        "label": "",
-        "title": "即使如此還是愛妳",
-        "url": "https://docs.google.com/document/d/1U0d9qVa-4N4WPMNhm48SvIDMkoBLxTZFyFbjXwVEEFw/edit?usp=drivesdk"
-      }
-    ]
+    "date": "2026-07-16"
   },
   {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "설계실 로맨스",
     "zh": "設計室羅曼史",
-    "original": "https://drive.google.com/drive/folders/1Cljzcee8H5V-6M1raZbTcxIfwucKLsBg",
+    "original": "https://posty.pe/p2t0y4gc",
     "translation": "https://docs.google.com/document/d/1Tvph1VHDqJbEmtPYQ08kUteqy4uziejTSf8fQSyXCt8/edit?usp=drivesdk",
     "author": "내내",
     "translator": "鳳梨",
     "note": "@新入荷",
-    "date": "2026/07/15",
+    "date": "2026-07-15",
     "episodes": [
       {
         "label": "EP1",
@@ -491,10 +484,10 @@ window.BOOK_DATA = [
     "author": "댕그라미（圈圈）",
     "translator": "鳳梨",
     "note": "@新入荷",
-    "date": "2026/07/15",
+    "date": "2026-07-15",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "回家的路(집으로 가는 길)_댕그라미",
         "url": "https://docs.google.com/document/d/1AJ6STU7-Lf8ghH2p0fSCk3lMEdwz02fV/edit?usp=drivesdk"
       }
@@ -510,10 +503,10 @@ window.BOOK_DATA = [
     "author": "댕그라미（圈圈）",
     "translator": "鳳梨",
     "note": "@新入荷",
-    "date": "2026/07/15",
+    "date": "2026-07-15",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "找找看(숨은그림찾기)_댕그라미",
         "url": "https://docs.google.com/document/d/1MUhzu1IEtBOdB9WYkRDqrr9asa0JHZiJ/edit?usp=drivesdk"
       }
@@ -529,7 +522,7 @@ window.BOOK_DATA = [
     "author": "내내",
     "translator": "鳳梨",
     "note": "@新入荷",
-    "date": "2026/07/14",
+    "date": "2026-07-14",
     "episodes": [
       {
         "label": "EP1",
@@ -593,85 +586,202 @@ window.BOOK_DATA = [
     "author": "댕그라미（圈圈）",
     "translator": "鳳梨",
     "note": "@新入荷",
-    "date": "2026/07/14",
+    "date": "2026-07-14",
     "episodes": [
       {
-        "label": "",
-        "title": "通往夏天的捷徑",
+        "label": "閱讀",
+        "title": "通往夏天的捷徑(여름으로 가는 지름길)_댕그라미",
         "url": "https://docs.google.com/document/d/1FaK1ULUCjYLo0n94Du3k3mXFx41Xw1CjszyJTuFYCwc/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "其他老師",
+    "page": "季刊",
     "status": "2.已完結",
-    "ko": "Baddie",
-    "zh": "Baddie",
-    "original": "https://www.postype.com/@peachoolong/post/15573868",
-    "translation": "https://docs.google.com/document/d/1H_PSdezsnIG6oBZSHtCYDIlCqFYjwaYK3F1xeTP4Bdc/edit?usp=drivesdk",
-    "author": "피치우롱티",
+    "ko": "그대 다시 내게",
+    "zh": "願你再次來到我身邊",
+    "original": "https://www.postype.com/@ynseasonrps/post/14004901",
+    "translation": "https://docs.google.com/document/d/1FVQCrEsOsrIy3TvSSZ1OPF1XrdWkx6K0_dI1d3tfYVI/edit?usp=drivesdk",
+    "author": "노네임（noname）",
     "translator": "鳳梨",
-    "note": "@新入荷",
-    "date": "2026/06/14",
+    "note": "",
+    "date": "2026-07-13",
     "episodes": [
       {
-        "label": "EP1",
-        "title": "Baddie. 1_ 피치우롱티",
-        "url": "https://docs.google.com/document/d/1H_PSdezsnIG6oBZSHtCYDIlCqFYjwaYK3F1xeTP4Bdc/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP2",
-        "title": "Baddie. 2_ 피치우롱티",
-        "url": "https://docs.google.com/document/d/19jg6lmHvH7lYFqJT0iq7SXS373VXfczJebZ2DOLRYi0/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP3",
-        "title": "Baddie. 3_ 피치우롱티",
-        "url": "https://docs.google.com/document/d/1s4zDdWr_iDtNyxm0GC3_Wow4YHql1ovlTc92HS5BvV4/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP4",
-        "title": "Baddie. 4_ 피치우롱티",
-        "url": "https://docs.google.com/document/d/1vF0vvKRK-CMnjJxMnZROYeOTjsFvK_SbKutB3SJd-J4/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP5",
-        "title": "Baddie. 5_ 피치우롱티",
-        "url": "https://docs.google.com/document/d/1lcdAEpmo03BIF1HWtt9HvHfij2TXxwDRkXL6YYqMdwM/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP6",
-        "title": "Baddie. 6_ 피치우롱티",
-        "url": "https://docs.google.com/document/d/1Ln5q3AQftKpy0twlUc9vp5SQfIPW1tvtpj76foIU-7U/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP7",
-        "title": "Baddie. 7_ 피치우롱티",
-        "url": "https://docs.google.com/document/d/1TjoXiVevyf6MOdbB3uczuq9Wwy8N5OPJqu4brPX8rK4/edit?usp=drivesdk"
-      },
-      {
-        "label": "外傳",
-        "title": "Who is Baddie 第一天的記憶(첫 날의 기억)_ 피치우롱티",
-        "url": "https://docs.google.com/document/d/1uMMiIdWut65JhDmELSbSe5A0Bap4SWlCjANKl4krUSA/edit?usp=drivesdk"
+        "label": "",
+        "title": "願你再次來到我身邊(그대 다시 내게)_노네임",
+        "url": "https://docs.google.com/document/d/1FVQCrEsOsrIy3TvSSZ1OPF1XrdWkx6K0_dI1d3tfYVI/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "其他老師",
+    "page": "季刊",
     "status": "2.已完結",
-    "ko": "아윌비백",
-    "zh": "I'll be back",
-    "original": "https://www.postype.com/@coolpieces/post/5292117",
-    "translation": "https://docs.google.com/document/d/1hY0NgxrxBkEsVd8DJgkw2PFUxqHFGkOXKDzVSWCtsJM/edit?usp=drivesdk",
-    "author": "댕그라미（圈圈）",
+    "ko": "와이키키 썸머 스캔들",
+    "zh": "Waikiki 夏日醜聞",
+    "original": "https://www.postype.com/@ynseasonrps/post/14007041",
+    "translation": "https://docs.google.com/document/d/1E3lwsH1VsUntNvo5Xxipw7s6YSK0bNKyUzMx35iNnZU/edit?usp=drivesdk",
+    "author": "도교（音譯：道僑）",
     "translator": "鳳梨",
-    "note": "@新入荷",
-    "date": "2025/10/05",
+    "note": "",
+    "date": "2026-07-13",
     "episodes": [
       {
         "label": "",
-        "title": "I'll be back",
-        "url": "https://docs.google.com/document/d/1hY0NgxrxBkEsVd8DJgkw2PFUxqHFGkOXKDzVSWCtsJM/edit?usp=drivesdk"
+        "title": "Waikiki 夏日醜聞(와이키키 썸머 스캔들)_도교",
+        "url": "https://docs.google.com/document/d/1E3lwsH1VsUntNvo5Xxipw7s6YSK0bNKyUzMx35iNnZU/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "아포칼립스 프리즘",
+    "zh": "末日稜鏡",
+    "original": "https://www.postype.com/@ynseasonrps/post/14009166",
+    "translation": "https://docs.google.com/document/d/11KcdJp5XbVuUd3I-_zYDoSoGHFKHQSc1m_0czLHKv0c/edit?usp=drivesdk",
+    "author": "로크（LOCK）",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-13",
+    "episodes": [
+      {
+        "label": "",
+        "title": "末日稜鏡(아포칼립스 프리즘)_로크",
+        "url": "https://docs.google.com/document/d/11KcdJp5XbVuUd3I-_zYDoSoGHFKHQSc1m_0czLHKv0c/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "이별후애",
+    "zh": "別後愛",
+    "original": "https://www.postype.com/@ynseasonrps/post/14010268",
+    "translation": "https://docs.google.com/document/d/1Z2kpzBbbjy5cfe06EH-o8c6wJ8K-hTWX620VfI6pKQ8/edit?usp=drivesdk",
+    "author": "롸댕(Roi_Daeng)",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-13",
+    "episodes": [
+      {
+        "label": "",
+        "title": "別後愛(이별후애)_롸댕",
+        "url": "https://docs.google.com/document/d/1Z2kpzBbbjy5cfe06EH-o8c6wJ8K-hTWX620VfI6pKQ8/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "버터 베이커리",
+    "zh": "奶油烘焙坊",
+    "original": "https://www.postype.com/@ynseasonrps/post/14009283",
+    "translation": "https://docs.google.com/document/d/1yao7foo8P6edml4DIxqoRvmRgJziQdk6mkWH-6sA5mA/edit?usp=drivesdk",
+    "author": "브랭",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-13",
+    "episodes": [
+      {
+        "label": "",
+        "title": "奶油烘焙坊(버터 베이커리)_逐格翻譯",
+        "url": "https://docs.google.com/document/d/1yao7foo8P6edml4DIxqoRvmRgJziQdk6mkWH-6sA5mA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "220225",
+    "zh": "220225",
+    "original": "https://www.postype.com/@ynseasonrps/post/14009367",
+    "translation": "https://docs.google.com/document/d/1PRrfw938TEbwJubOLYiHy8CaccHBNYFsIWKQgSughFk/edit?usp=drivesdk",
+    "author": "소온",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-13",
+    "episodes": [
+      {
+        "label": "",
+        "title": "220225_소온",
+        "url": "https://docs.google.com/document/d/1PRrfw938TEbwJubOLYiHy8CaccHBNYFsIWKQgSughFk/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "하나 둘 셋 (그리고 사랑을 시작하자)",
+    "zh": "一、二、三（然後，開始戀愛吧）",
+    "original": "https://www.postype.com/@ynseasonrps/post/14004920",
+    "translation": "https://docs.google.com/document/d/1_jCrVANx9r5s5CmEQ4qEsAhvEUIoVgaFfwptEWVC4RE/edit?usp=drivesdk",
+    "author": "아딜로",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-13",
+    "episodes": [
+      {
+        "label": "",
+        "title": "一、二、三（然後，開始戀愛吧）(하나 둘 셋 (그리고 사랑을 시작하자))_아딜로",
+        "url": "https://docs.google.com/document/d/1_jCrVANx9r5s5CmEQ4qEsAhvEUIoVgaFfwptEWVC4RE/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "재활용품은 반드시 분리수거를 합시다",
+    "zh": "資源回收物請務必分類回收",
+    "original": "https://www.postype.com/@ynseasonrps/post/14012515",
+    "translation": "https://docs.google.com/document/d/1KKkpkYZIfPoP0b9MjoT6yRvhHuM00qCRvMA6m_CrQsg/edit?usp=drivesdk",
+    "author": "익명2（匿名2）",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-13",
+    "episodes": [
+      {
+        "label": "",
+        "title": "資源回收物請務必分類回收(재활용품은 반드시 분리수거를 합시다)_익명2",
+        "url": "https://docs.google.com/document/d/1KKkpkYZIfPoP0b9MjoT6yRvhHuM00qCRvMA6m_CrQsg/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "외지인의 결말",
+    "zh": "外地人的結局",
+    "original": "https://www.postype.com/@ynseasonrps/post/14004908",
+    "translation": "https://docs.google.com/document/d/1b6QCF38v3KLekSP0r3nSz1cZYeVeHpTBrMEKRq8LuWs/edit?usp=drivesdk",
+    "author": "일오",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-13",
+    "episodes": [
+      {
+        "label": "",
+        "title": "外地人的結局(외지인의 결말)_일오",
+        "url": "https://docs.google.com/document/d/1b6QCF38v3KLekSP0r3nSz1cZYeVeHpTBrMEKRq8LuWs/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "Off limits",
+    "zh": "Off limits",
+    "original": "https://www.postype.com/@ynseasonrps/post/14020920",
+    "translation": "https://docs.google.com/document/d/18kg9YXfso3jb20ipVq9iTcZSPr052yPotrt3QFO7VZo/edit?usp=drivesdk",
+    "author": "후뿌",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-13",
+    "episodes": [
+      {
+        "label": "",
+        "title": "Off limits_후뿌",
+        "url": "https://docs.google.com/document/d/18kg9YXfso3jb20ipVq9iTcZSPr052yPotrt3QFO7VZo/edit?usp=drivesdk"
       }
     ]
   },
@@ -685,10 +795,10 @@ window.BOOK_DATA = [
     "author": "kiddii",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Twin Sister Trouble(트윈 시스터 트러블)_kiddii",
         "url": "https://docs.google.com/document/d/1Emhuqhc0JssVM145igVCME7fYi0lXVg3DRxjiYDd-II/edit?usp=drivesdk"
       }
@@ -704,10 +814,10 @@ window.BOOK_DATA = [
     "author": "MJ",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "始終如一的告白(한결같은 고백)_MJ",
         "url": "https://docs.google.com/document/d/1vLvXV9N3_ZEaMvXtPrE_CCU1JwQzg7i1tJgGY9hBZgs/edit?usp=drivesdk"
       }
@@ -723,10 +833,10 @@ window.BOOK_DATA = [
     "author": "OCB",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "抓狂戀愛或安張戀愛(환장 연애 혹은 안장 연애)_OCB",
         "url": "https://docs.google.com/document/d/1D_rI2K53nzKwz-MemDRNz5mBCIaYX9muMXvVx2Ca5g0/edit?usp=drivesdk"
       }
@@ -742,10 +852,10 @@ window.BOOK_DATA = [
     "author": "OCB",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "天生單戀(본투비 짝사랑)_OCB",
         "url": "https://docs.google.com/document/d/16rA3efT6wnz6TjV3GomnxrsAC5RgSrL3nvsmVxwV-NI/edit?usp=drivesdk"
       }
@@ -761,10 +871,10 @@ window.BOOK_DATA = [
     "author": "고래（鯨魚）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Kissing_고래",
         "url": "https://docs.google.com/document/d/1a4KeK4UQPteJo-btpgFBIbeduwTGhNfW79gMTXLY468/edit?usp=drivesdk"
       }
@@ -780,10 +890,10 @@ window.BOOK_DATA = [
     "author": "귀인",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "住在月亮上的思念(달에 사는 그리움(愛))_귀인",
         "url": "https://docs.google.com/document/d/1jWWkAyzG8ye8cPF5RE6x4POvJJQGQky63dRGD_guljY/edit?usp=drivesdk"
       }
@@ -799,10 +909,10 @@ window.BOOK_DATA = [
     "author": "노네임（noname）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "討人厭的女人(재수 없는 여자)_노네임",
         "url": "https://docs.google.com/document/d/1OQwSseQ5vNpgMomTaBjDbxGcXNrq5e2DNvtXFglX-6A/edit?usp=drivesdk"
       }
@@ -818,10 +928,10 @@ window.BOOK_DATA = [
     "author": "도교（音譯：道僑）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "愛在馬場洞(사랑은 마장동에서)_도교",
         "url": "https://docs.google.com/document/d/1iLmo3rOYQGbAAx0lJwWN2YyEm62kxFOsiS1oqb9e5zM/edit?usp=drivesdk"
       }
@@ -837,10 +947,10 @@ window.BOOK_DATA = [
     "author": "무민",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "致聖誕老人(산타에게)_무민",
         "url": "https://docs.google.com/document/d/18zmi0zaLANU_8e3lnxoqgrLaJtdJnGduZbCWru6hCXA/edit?usp=drivesdk"
       }
@@ -856,10 +966,10 @@ window.BOOK_DATA = [
     "author": "빠보리따",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "頭獎的獎金是愛(잭팟의 상금은 사랑)_빠보리따",
         "url": "https://docs.google.com/document/d/14R7oUh4dcKHDzk5txJAYiL6-fIHCAXrA4TlEzblAVyc/edit?usp=drivesdk"
       }
@@ -875,10 +985,10 @@ window.BOOK_DATA = [
     "author": "아딜로",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Y U LOVE KITTY_아딜로",
         "url": "https://docs.google.com/document/d/1aFb8_VxxXqM7uQp_O041U6h4baS-wVuZKGrhFiJ11Yo/edit?usp=drivesdk"
       }
@@ -894,10 +1004,10 @@ window.BOOK_DATA = [
     "author": "와이",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "戀愛體質(로맨스가 체질)_와이",
         "url": "https://docs.google.com/document/d/1JfBESS0b_nIf2TsKrFbZLWftdricBvpBLKg_c82qkdk/edit?usp=drivesdk"
       }
@@ -913,10 +1023,10 @@ window.BOOK_DATA = [
     "author": "유갱",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Shine With Me_유갱",
         "url": "https://docs.google.com/document/d/138RzIsaavHRapM6XwBsN4_49-EXtNIslVi8kz5Z3rWo/edit?usp=drivesdk"
       }
@@ -932,10 +1042,10 @@ window.BOOK_DATA = [
     "author": "윤비",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "乙方的苦衷(을의 사정)_윤비",
         "url": "https://docs.google.com/document/d/18X6ljj4TycRbxvwGYGb9Jj7V2Di2Um4sJtElHRGv8EQ/edit?usp=drivesdk"
       }
@@ -951,10 +1061,10 @@ window.BOOK_DATA = [
     "author": "익명1（匿名1）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Helleborus_익명1",
         "url": "https://docs.google.com/document/d/1eFndJe9x1emu-SzHWI-K0upI71vbsFN4FYhl3dSWdy8/edit?usp=drivesdk"
       }
@@ -970,10 +1080,10 @@ window.BOOK_DATA = [
     "author": "익명1（匿名1）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "10.901.831.034_익명1",
         "url": "https://docs.google.com/document/d/1HcpNq8Libh2_jabMx38Ua6sj_3MvJViLYKh-mtVdCCs/edit?usp=drivesdk"
       }
@@ -989,10 +1099,10 @@ window.BOOK_DATA = [
     "author": "익명2（匿名2）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "玩家(Player)_익명2",
         "url": "https://docs.google.com/document/d/1gOVcVMRVSHOwuYrXxXNAZEbj3hI1iBrOI-nFFUvjOCM/edit?usp=drivesdk"
       }
@@ -1008,10 +1118,10 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "茶房，樂境(다방, 낙경)_정한",
         "url": "https://docs.google.com/document/d/1mIfHpX0Wfyl0ijYHLLHgo2Pf-YiW8pMJfDwDv2kdQg8/edit?usp=drivesdk"
       }
@@ -1027,10 +1137,10 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "不要泡麵，要 Netflix(라면 말고, 넷플릭스)_정한",
         "url": "https://docs.google.com/document/d/1xFrguk7cZGZ6r4EPRRstAmRxkXhanZlMr_jNYL2q8dE/edit?usp=drivesdk"
       }
@@ -1046,10 +1156,10 @@ window.BOOK_DATA = [
     "author": "지학",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "偶像與虛像(우상과 허상)_지학",
         "url": "https://docs.google.com/document/d/1UYE7CSoShmb29ssMJ-H62i5YcROI2a-JqCNBUbeBGS8/edit?usp=drivesdk"
       }
@@ -1065,10 +1175,10 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Cherry blossom_진심",
         "url": "https://docs.google.com/document/d/1Wqf4QXZ4P8_jPue0JjXnw97xmpHUrTk0yA88yQCaaUU/edit?usp=drivesdk"
       }
@@ -1084,10 +1194,10 @@ window.BOOK_DATA = [
     "author": "쩡우",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Merry Christmas(메리 크리스마스)_쩡우",
         "url": "https://docs.google.com/document/d/1Dve9z2zDNHFWUyogrAC4f8X2cbCLzN689Saq2_Hd48k/edit?usp=drivesdk"
       }
@@ -1103,10 +1213,10 @@ window.BOOK_DATA = [
     "author": "초초",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "一週內把安公爵追到手的方法(일주일 안에 안공작을 꼬시는 방법)_초초",
         "url": "https://docs.google.com/document/d/1MSBwspvc7_2r5hJlcqU4FtYWuGE7H4BWuBIABUb15Wk/edit?usp=drivesdk"
       }
@@ -1122,10 +1232,10 @@ window.BOOK_DATA = [
     "author": "코드",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Dear My Villain(디어 마이 빌런)_코드",
         "url": "https://docs.google.com/document/d/14jXg6ofwoEP0irM_J0UzqDalnMOJ-f-dgiUj8eQgZcU/edit?usp=drivesdk"
       }
@@ -1141,10 +1251,10 @@ window.BOOK_DATA = [
     "author": "코드",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/12",
+    "date": "2026-07-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "那個人，那份愛(그 사람, 그 사랑)_코드",
         "url": "https://docs.google.com/document/d/1qptyIdeROjvnRlcqLe2JOz0IeV3S0HN0Ms2C8jNOtgw/edit?usp=drivesdk"
       }
@@ -1160,7 +1270,7 @@ window.BOOK_DATA = [
     "author": "플레인（Plain）",
     "translator": "不是蓋瑞",
     "note": "",
-    "date": "2026/07/11",
+    "date": "2026-07-11",
     "paid": true,
     "episodes": [
       {
@@ -1185,10 +1295,10 @@ window.BOOK_DATA = [
     "author": "OCB",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/10",
+    "date": "2026-07-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "辣醬年糕串(떡꼬치)_OCB",
         "url": "https://docs.google.com/document/d/1_Bf6wvR7o1-tDThDhBZFqq1pltn8SiRNFABhpyfMW4M/edit?usp=drivesdk"
       }
@@ -1204,10 +1314,10 @@ window.BOOK_DATA = [
     "author": "도교（音譯：道僑）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/10",
+    "date": "2026-07-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "純愛與殉愛：巡愛(순애와 순애 _ 巡愛)_도교",
         "url": "https://docs.google.com/document/d/1ysm8FCPITxv709XZeU8T9T9-dixJi5oUC2f7xvZSrMw/edit?usp=drivesdk"
       }
@@ -1223,10 +1333,10 @@ window.BOOK_DATA = [
     "author": "박프로",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/10",
+    "date": "2026-07-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Business Legend Performance(비즈니스 레쥬언드 퍼포몬쓰)_박프로",
         "url": "https://docs.google.com/document/d/1LQ3lB4QJOnMqEH-kKcSOa7ihbu30CZwRkziesP1y70k/edit?usp=drivesdk"
       }
@@ -1242,10 +1352,10 @@ window.BOOK_DATA = [
     "author": "와이",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/10",
+    "date": "2026-07-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "船村恰恰恰(뱃마을 차차차)_와이",
         "url": "https://docs.google.com/document/d/1swUiuz4n5CmQQ9hVTrTNPm-0SoGlvPHGJwpoh1BGTq8/edit?usp=drivesdk"
       }
@@ -1261,10 +1371,10 @@ window.BOOK_DATA = [
     "author": "익명",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/10",
+    "date": "2026-07-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "One More Time(원 모어 타임)_익명",
         "url": "https://docs.google.com/document/d/1KMnC6TTb4TzbpPVZvWB86K9FXAa8qXCPat29V6Y0Pd0/edit?usp=drivesdk"
       }
@@ -1280,10 +1390,10 @@ window.BOOK_DATA = [
     "author": "키퍼（Keeper）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/10",
+    "date": "2026-07-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "散發水果香的肥皂(과일향 나는 비누)_키퍼",
         "url": "https://docs.google.com/document/d/1tC8a9mtjQltU1rEj2W0vOSZUBpmyOoY34Mk0ulewAdY/edit?usp=drivesdk"
       }
@@ -1299,10 +1409,10 @@ window.BOOK_DATA = [
     "author": "두르비",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/08",
+    "date": "2026-07-08",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "初戀(첫사랑)_두르비",
         "url": "https://docs.google.com/document/d/1gEyRsneHJQuSPY9uNk-6E0SUhm6BKDhsjtq-dsdQ--Q/edit?usp=drivesdk"
       }
@@ -1318,10 +1428,10 @@ window.BOOK_DATA = [
     "author": "라니",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/08",
+    "date": "2026-07-08",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "與你共度夜晚(밤을 너와)_라니",
         "url": "https://docs.google.com/document/d/1Xa6OAUXbC0IsuM3MxKE721XOv_rVWNycptDhh_ZATMM/edit?usp=drivesdk"
       }
@@ -1337,10 +1447,10 @@ window.BOOK_DATA = [
     "author": "롸댕",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/08",
+    "date": "2026-07-08",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "你和我(너 그리고 나)_롸댕",
         "url": "https://docs.google.com/document/d/10nIp7Tter0ugBD0Q-l9h3DAeareHO-JCIlIHBVsVwho/edit?usp=drivesdk"
       }
@@ -1356,10 +1466,10 @@ window.BOOK_DATA = [
     "author": "불미",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/08",
+    "date": "2026-07-08",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "天氣預報(일기예보)_불미",
         "url": "https://docs.google.com/document/d/10c8tADlUvMqR4Deh8VZQHi6R5LzmxhANGFrReywlGx8/edit?usp=drivesdk"
       }
@@ -1375,10 +1485,10 @@ window.BOOK_DATA = [
     "author": "소온",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/08",
+    "date": "2026-07-08",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "未成熟(미성숙)_소온",
         "url": "https://docs.google.com/document/d/15-puRKmhGGCY4Pzqe9UzZ37i-JzW4y1oZGTR26ynAuY/edit?usp=drivesdk"
       }
@@ -1394,10 +1504,10 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/08",
+    "date": "2026-07-08",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "你的四季(당신의 사계)_정한",
         "url": "https://docs.google.com/document/d/1elfaxvVbmbL-rXXyBaAS0egEzx0OQay0IwIBbU9nGTU/edit?usp=drivesdk"
       }
@@ -1413,10 +1523,10 @@ window.BOOK_DATA = [
     "author": "해류",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/08",
+    "date": "2026-07-08",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "仲夏夜之騷動(한여름 밤의 소동)_해류",
         "url": "https://docs.google.com/document/d/1GDhtQzw4Z61XHIbnUq30u56ykHuPsKyyNNNEAvWwKxY/edit?usp=drivesdk"
       }
@@ -1432,10 +1542,10 @@ window.BOOK_DATA = [
     "author": "소온",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/05",
+    "date": "2026-07-05",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "初戀魔咒(첫사랑 징크스)_소온",
         "url": "https://docs.google.com/document/d/1OzWdtY5sa1qU0N2_9cH_ts5z8MhhYlzIGIo_LuIwun8/edit?usp=drivesdk"
       }
@@ -1451,10 +1561,10 @@ window.BOOK_DATA = [
     "author": "테이",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/05",
+    "date": "2026-07-05",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Punch Drunk Melo(펀치 드렁크 멜로)_테이",
         "url": "https://docs.google.com/document/d/1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o/edit?usp=drivesdk"
       }
@@ -1470,10 +1580,10 @@ window.BOOK_DATA = [
     "author": "익명2",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/07/05",
+    "date": "2026-07-05",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "愛情就是時機！(사랑은 타이밍!)_익명2",
         "url": "https://docs.google.com/document/d/1NSkhsRsq6celdB-SpQA62HtUULuxqdQqR1AAJ_OLFbM/edit?usp=drivesdk"
       }
@@ -1489,11 +1599,11 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2026/07/05",
+    "date": "2026-07-05",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "好雨時節1920",
         "url": "https://docs.google.com/document/d/1eHnHNoQev6oJTFugxnRdvTwEMYMuj8JDgmv0ndGamCE/edit?usp=drivesdk"
       }
@@ -1509,11 +1619,11 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/06/22",
+    "date": "2026-06-22",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Forever yujin",
         "url": "https://docs.google.com/document/d/1jYQaTi8KMrTa65JujPkDncWERCuWdu875oiKagjWmBg/edit?usp=drivesdk"
       }
@@ -1529,11 +1639,11 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2026/06/22",
+    "date": "2026-06-22",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "終末之時",
         "url": "https://docs.google.com/document/d/1L1qAHlbOsMH1WiZt_gtO0W45b9WDSdR3-cQxOFOAP98/edit?usp=drivesdk"
       }
@@ -1549,7 +1659,7 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/06/19",
+    "date": "2026-06-19",
     "episodes": [
       {
         "label": "上",
@@ -1573,7 +1683,7 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/06/19",
+    "date": "2026-06-19",
     "episodes": [
       {
         "label": "上",
@@ -1597,7 +1707,7 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/06/19",
+    "date": "2026-06-19",
     "episodes": [
       {
         "label": "EP1",
@@ -1641,7 +1751,7 @@ window.BOOK_DATA = [
     "author": "司馬",
     "translator": "貢丸+鳳梨",
     "note": "",
-    "date": "2026/06/14",
+    "date": "2026-06-14",
     "episodes": [
       {
         "label": "EP01",
@@ -1708,6 +1818,60 @@ window.BOOK_DATA = [
   {
     "page": "其他老師",
     "status": "2.已完結",
+    "ko": "Baddie",
+    "zh": "Baddie",
+    "original": "https://www.postype.com/@peachoolong/post/15573868",
+    "translation": "https://docs.google.com/document/d/1H_PSdezsnIG6oBZSHtCYDIlCqFYjwaYK3F1xeTP4Bdc/edit?usp=drivesdk",
+    "author": "피치우롱티",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-06-14",
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "Baddie. 1_ 피치우롱티",
+        "url": "https://docs.google.com/document/d/1H_PSdezsnIG6oBZSHtCYDIlCqFYjwaYK3F1xeTP4Bdc/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "Baddie. 2_ 피치우롱티",
+        "url": "https://docs.google.com/document/d/19jg6lmHvH7lYFqJT0iq7SXS373VXfczJebZ2DOLRYi0/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "Baddie. 3_ 피치우롱티",
+        "url": "https://docs.google.com/document/d/1s4zDdWr_iDtNyxm0GC3_Wow4YHql1ovlTc92HS5BvV4/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "Baddie. 4_ 피치우롱티",
+        "url": "https://docs.google.com/document/d/1vF0vvKRK-CMnjJxMnZROYeOTjsFvK_SbKutB3SJd-J4/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP5",
+        "title": "Baddie. 5_ 피치우롱티",
+        "url": "https://docs.google.com/document/d/1lcdAEpmo03BIF1HWtt9HvHfij2TXxwDRkXL6YYqMdwM/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP6",
+        "title": "Baddie. 6_ 피치우롱티",
+        "url": "https://docs.google.com/document/d/1Ln5q3AQftKpy0twlUc9vp5SQfIPW1tvtpj76foIU-7U/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP7",
+        "title": "Baddie. 7_ 피치우롱티",
+        "url": "https://docs.google.com/document/d/1TjoXiVevyf6MOdbB3uczuq9Wwy8N5OPJqu4brPX8rK4/edit?usp=drivesdk"
+      },
+      {
+        "label": "外傳",
+        "title": "Who is Baddie 第一天的記憶(첫 날의 기억)_ 피치우롱티",
+        "url": "https://docs.google.com/document/d/1uMMiIdWut65JhDmELSbSe5A0Bap4SWlCjANKl4krUSA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
     "ko": "수상한 이웃의 사생활",
     "zh": "💰 可疑鄰居的私生活",
     "original": "https://www.postype.com/@83-inch/post/22108158",
@@ -1715,11 +1879,11 @@ window.BOOK_DATA = [
     "author": "칠척",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/05/27",
+    "date": "2026-05-27",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "可疑鄰居的私生活",
         "url": "https://docs.google.com/document/d/1WpZkHfUlnB8SCr9J6xKdJy19PPe8SoGtAydxsjyIux8/edit?usp=drivesdk"
       }
@@ -1735,10 +1899,10 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "同人翻譯器",
     "note": "",
-    "date": "2026/05/27",
+    "date": "2026-05-27",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "More than world",
         "url": "https://docs.google.com/document/d/18SB2ZdAIdlzJLXBPH5JalWueGdwOcGfLEDaOg23PVB0/edit?usp=drivesdk"
       }
@@ -1754,10 +1918,10 @@ window.BOOK_DATA = [
     "author": "칠척",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2026/05/27",
+    "date": "2026-05-27",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "名簿遺失羅曼史",
         "url": "https://docs.google.com/document/d/1uvUou1AbqbfqAv-bLYW3mgV3nNnlbPewbucqbQZf1Hs/edit?usp=drivesdk"
       }
@@ -1773,11 +1937,11 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/04/16",
+    "date": "2026-04-16",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "大嬪張氏的故事",
         "url": "https://docs.google.com/document/d/1fu0lz1swdbn3XAPA8rRtbfTiNUeANKHV73kbXd53GSo/edit?usp=drivesdk"
       }
@@ -1793,10 +1957,10 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/04/16",
+    "date": "2026-04-16",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "清淵君的故事",
         "url": "https://docs.google.com/document/d/1te8IntV0gr5DdrPjZiyh87FXtj4xGZrVVdisUMDvM9s/edit?usp=drivesdk"
       }
@@ -1812,7 +1976,7 @@ window.BOOK_DATA = [
     "author": "칠척",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/04/16",
+    "date": "2026-04-16",
     "episodes": [
       {
         "label": "上",
@@ -1841,10 +2005,10 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2026/04/16",
+    "date": "2026-04-16",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "商業級傳奇演出",
         "url": "https://docs.google.com/document/d/1m1U4Wc9NA-rHJWt1yGpIp7X6YBRcHaO9tHJUtYpjxNU/edit?usp=drivesdk"
       }
@@ -1860,11 +2024,11 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2026/02/23",
+    "date": "2026-02-23",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "薄荷糖",
         "url": "https://docs.google.com/document/d/12YZip1tKWkSZcLpAcYasw5jgMaeeGSeMd9qO9bqYYzg/edit?usp=drivesdk"
       }
@@ -1880,7 +2044,7 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2026/02/17",
+    "date": "2026-02-17",
     "episodes": [
       {
         "label": "EP1",
@@ -1919,10 +2083,10 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2026/02/13",
+    "date": "2026-02-13",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "繞圈圈",
         "url": "https://docs.google.com/document/d/1cFgvxQeo4owL3wJOlK5grC_lBZ-ZtRB8a9vs58lEsBk/edit?usp=drivesdk"
       }
@@ -1938,7 +2102,7 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026/01/30",
+    "date": "2026-01-30",
     "paid": true,
     "episodes": [
       {
@@ -1994,7 +2158,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "크리스마스 동화",
     "zh": "咖啡夫妻S3番外-聖誕節童話",
@@ -2003,10 +2167,10 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/12/28",
+    "date": "2025-12-28",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "S3.番外-聖誕童話",
         "url": "https://docs.google.com/document/d/1_1cwE31PE46REqbPKAdxkA0dXmze7ZKqDYVhyJOTzhU/edit?usp=drivesdk"
       }
@@ -2022,7 +2186,7 @@ window.BOOK_DATA = [
     "author": "플레인（Plain）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/12/27",
+    "date": "2025-12-27",
     "episodes": [
       {
         "label": "上",
@@ -2051,10 +2215,10 @@ window.BOOK_DATA = [
     "author": "블루마운틴（藍山）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/12/14",
+    "date": "2025-12-14",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "主任，主人",
         "url": "https://docs.google.com/document/d/1bPuQ9Qw1IG-yx5K6KAVGtFiXWREmBYQv-siH-EXoL-E/edit?usp=drivesdk"
       }
@@ -2070,7 +2234,7 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/12/14",
+    "date": "2025-12-14",
     "paid": true,
     "episodes": [
       {
@@ -2095,11 +2259,11 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/12/13",
+    "date": "2025-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "時雪",
         "url": "https://docs.google.com/document/d/1ImZZo_bTvePTuxWrzbwfPm2Dt8J1EBP56kHq5e9_0hA/edit?usp=drivesdk"
       }
@@ -2115,7 +2279,7 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/11/22",
+    "date": "2025-11-22",
     "episodes": [
       {
         "label": "EP1",
@@ -2154,13 +2318,32 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/10/20",
+    "date": "2025-10-20",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "惡魔的餐桌",
         "url": "https://docs.google.com/document/d/1VGWqD2o5gur7h31zieyHPsq5GU_-z-Khr_Em3OttHyA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "아윌비백",
+    "zh": "I'll be back",
+    "original": "https://www.postype.com/@coolpieces/post/5292117",
+    "translation": "https://docs.google.com/document/d/1hY0NgxrxBkEsVd8DJgkw2PFUxqHFGkOXKDzVSWCtsJM/edit?usp=drivesdk",
+    "author": "댕그라미（圈圈）",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2025-10-05",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "I'll be back",
+        "url": "https://docs.google.com/document/d/1hY0NgxrxBkEsVd8DJgkw2PFUxqHFGkOXKDzVSWCtsJM/edit?usp=drivesdk"
       }
     ]
   },
@@ -2174,7 +2357,7 @@ window.BOOK_DATA = [
     "author": "쩡우（正宇）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/10/05",
+    "date": "2025-10-05",
     "paid": true,
     "episodes": [
       {
@@ -2194,17 +2377,17 @@ window.BOOK_DATA = [
     "author": "Holyou",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/10/04",
+    "date": "2025-10-04",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "第一次也是最後一次",
         "url": "https://docs.google.com/document/d/1LRLcZRGquE13xvSr17dvM8LlXYuwd_YouQvym9PZpb4/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "너에게로 기울다",
     "zh": "💰 傾心於妳",
@@ -2213,7 +2396,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/10/03",
+    "date": "2025-10-03",
     "paid": true,
     "episodes": [
       {
@@ -2238,7 +2421,7 @@ window.BOOK_DATA = [
     "author": "유부비언（已婚人士）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/09/12",
+    "date": "2025-09-12",
     "paid": true,
     "episodes": [
       {
@@ -2263,10 +2446,10 @@ window.BOOK_DATA = [
     "author": "긁적글적",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/09/10",
+    "date": "2025-09-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "人生算什麼 1",
         "url": "https://docs.google.com/document/d/1Fol_KfRfH5EBda4Y5Shi2WIAkDJ38Ib5Lnr1jfcli48/edit?usp=drivesdk"
       }
@@ -2282,11 +2465,11 @@ window.BOOK_DATA = [
     "author": "참치（鮪魚）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/09/10",
+    "date": "2025-09-10",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "狼與魔女",
         "url": "https://docs.google.com/document/d/14iYZEfdsPPwj7lkSk147lfbVt6BC_e2Oh1bJgWyd-bY/edit?usp=drivesdk"
       }
@@ -2302,10 +2485,10 @@ window.BOOK_DATA = [
     "author": "플레인（Plain）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/09/07",
+    "date": "2025-09-07",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "HAPPY BIRTHDAY TO",
         "url": "https://docs.google.com/document/d/172m8FR3wjTwSeIQ7jJRqF6AwZQCsGlCjWBANGOJJPUY/edit?usp=drivesdk"
       }
@@ -2321,7 +2504,7 @@ window.BOOK_DATA = [
     "author": "달고나맛",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/08/18",
+    "date": "2025-08-18",
     "episodes": [
       {
         "label": "EP1",
@@ -2355,18 +2538,18 @@ window.BOOK_DATA = [
     "author": "ㅍ.,ㅍ",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/08/18",
+    "date": "2025-08-18",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "草莓牛奶overnote",
         "url": "https://docs.google.com/document/d/17Ck8Df3an4Ujff2BXONxnIWmK9HtPm2O7v4ugz8Tql0/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "손님, 딜도 놓고 가셨는데요",
     "zh": "💰 客人，您的假陽具落下囉",
@@ -2375,11 +2558,11 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/08/16",
+    "date": "2025-08-16",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "客人，您的假陽具落下囉",
         "url": "https://docs.google.com/document/d/1GAFe5IPPENoJnLeQ7xF49srFiGcNt-qfvfjj7nFra9k/edit?usp=drivesdk"
       }
@@ -2395,7 +2578,7 @@ window.BOOK_DATA = [
     "author": "플레인（Plain）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/08/14",
+    "date": "2025-08-14",
     "episodes": [
       {
         "label": "EP1",
@@ -2429,7 +2612,7 @@ window.BOOK_DATA = [
     "author": "유부비언（已婚人士）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/08/02",
+    "date": "2025-08-02",
     "paid": true,
     "episodes": [
       {
@@ -2565,7 +2748,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "결",
     "zh": "💰 結",
@@ -2574,7 +2757,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/07/31",
+    "date": "2025-07-31",
     "paid": true,
     "episodes": [
       {
@@ -2609,10 +2792,10 @@ window.BOOK_DATA = [
     "author": "민무",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/07/13",
+    "date": "2025-07-13",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "我們要怎麼辦",
         "url": "https://docs.google.com/document/d/1dSGFbnN13T1TIU8Mwp0bG652yw__pGpjyQL1EOQnClU/edit?usp=drivesdk"
       }
@@ -2628,10 +2811,10 @@ window.BOOK_DATA = [
     "author": "댜",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/07/13",
+    "date": "2025-07-13",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "總有一天，我們就那樣生活吧",
         "url": "https://docs.google.com/document/d/1uBwYqIIW1tjbDafGx44-Oa48JXbt2Ida7TYJKb_5R9w/edit?usp=drivesdk"
       }
@@ -2647,10 +2830,10 @@ window.BOOK_DATA = [
     "author": "녕냥늉",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/07/13",
+    "date": "2025-07-13",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "3年Never Die",
         "url": "https://docs.google.com/document/d/1mbLtyJu6jF0Nk8JwOVIsHlRHGm4c4mBR7n3q3i-bERk/edit?usp=drivesdk"
       }
@@ -2666,7 +2849,7 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/07/13",
+    "date": "2025-07-13",
     "episodes": [
       {
         "label": "EP1",
@@ -2705,10 +2888,10 @@ window.BOOK_DATA = [
     "author": "선（線）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/07/11",
+    "date": "2025-07-11",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Star Bang",
         "url": "https://docs.google.com/document/d/13UxR5A9pupzN6dzRKPLGE87NL7iBh_M0/edit?usp=drivesdk"
       }
@@ -2724,10 +2907,10 @@ window.BOOK_DATA = [
     "author": "이닛（innit）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/07/08",
+    "date": "2025-07-08",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "我們成為我們之前",
         "url": "https://docs.google.com/document/d/1TDETegY84mlYaJml-XqPxC_hKl1l7kaN_deJxT_aDmI/edit?usp=drivesdk"
       }
@@ -2743,10 +2926,10 @@ window.BOOK_DATA = [
     "author": "이닛（innit）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/07/07",
+    "date": "2025-07-07",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Broken",
         "url": "https://docs.google.com/document/d/1_n5_6SeJuFGAq0hZ9R2vZLt53gGbOSkeOGO-ODJchYQ/edit?usp=drivesdk"
       }
@@ -2762,11 +2945,11 @@ window.BOOK_DATA = [
     "author": "이닛（innit）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/07/07",
+    "date": "2025-07-07",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "我們非得結婚不可",
         "url": "https://docs.google.com/document/d/1Rii0DT6UPr6osKmhYNt-4nal9nmdaYzfUQjqWkZ5eb4/edit?usp=drivesdk"
       }
@@ -2782,10 +2965,10 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/07/06",
+    "date": "2025-07-06",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "別叫前輩，叫姐姐吧",
         "url": "https://docs.google.com/document/d/1vJfqOVxIaTg1ZzarsM2jR6GsNVZNzTB-coXdCLdCcZ4/edit?usp=drivesdk"
       }
@@ -2801,7 +2984,7 @@ window.BOOK_DATA = [
     "author": "파란모자（藍瘋帽）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/07/06",
+    "date": "2025-07-06",
     "episodes": [
       {
         "label": "EP1",
@@ -2865,17 +3048,17 @@ window.BOOK_DATA = [
     "author": "테이",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/06/30",
+    "date": "2025-06-30",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "櫻桃白蘭地",
         "url": "https://docs.google.com/document/d/1h8sXMLH9zbwLN7DGOVht-Wd8cvoqV28XgW1uD1UGfcc/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "鯨魚老師",
+    "page": "鯨魚",
     "status": "2.已完結",
     "ko": "신데렐라 프롬프트 - 외전",
     "zh": "💰 灰姑娘觸發器－外傳&spin-off",
@@ -2884,7 +3067,7 @@ window.BOOK_DATA = [
     "author": "고래（鯨魚）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/06/29",
+    "date": "2025-06-29",
     "paid": true,
     "episodes": [
       {
@@ -2909,10 +3092,10 @@ window.BOOK_DATA = [
     "author": "로크（LOCK）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/06/28",
+    "date": "2025-06-28",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "去接你的路上",
         "url": "https://docs.google.com/document/d/1kWjbrjKlrtEZUDflSnIbkMUfUaaynaV89gKDSqT6c4M/edit?usp=drivesdk"
       }
@@ -2928,11 +3111,11 @@ window.BOOK_DATA = [
     "author": "칠척",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/06/28",
+    "date": "2025-06-28",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Give or Take",
         "url": "https://docs.google.com/document/d/1Vyqzqf98Gt6ue_77p5b-EAoTgB-08lXoM0G8ITs0vIY/edit?usp=drivesdk"
       }
@@ -2948,10 +3131,10 @@ window.BOOK_DATA = [
     "author": "파란모자（藍瘋帽）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/06/24",
+    "date": "2025-06-24",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Black Fantasy",
         "url": "https://docs.google.com/document/d/1tb7oVybiI9F26khsyfzi1AZ8YiqhA901eJi7sfZDpO0/edit?usp=drivesdk"
       }
@@ -2967,10 +3150,10 @@ window.BOOK_DATA = [
     "author": "파란모자（藍瘋帽）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/06/23",
+    "date": "2025-06-23",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "滿貫全壘打",
         "url": "https://docs.google.com/document/d/1yX_vuQWaruqOl-0yzXE9C1oeaSGi-AEDAZ22vXP3qJY/edit?usp=drivesdk"
       }
@@ -2986,17 +3169,17 @@ window.BOOK_DATA = [
     "author": "플레인（Plain）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/06/22",
+    "date": "2025-06-22",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "引渡保留",
         "url": "https://docs.google.com/document/d/1Vp9C_hMdi9ime8guEKNBSqrBd4OFJcjblnAa7YNFVuI/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "鯨魚老師",
+    "page": "鯨魚",
     "status": "2.已完結",
     "ko": "겨우 세 글자",
     "zh": "僅僅三個字",
@@ -3005,7 +3188,7 @@ window.BOOK_DATA = [
     "author": "고래（鯨魚）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/06/22",
+    "date": "2025-06-22",
     "episodes": [
       {
         "label": "上",
@@ -3034,10 +3217,10 @@ window.BOOK_DATA = [
     "author": "파란모자（藍瘋帽）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/06/21",
+    "date": "2025-06-21",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "皇家貴族",
         "url": "https://docs.google.com/document/d/1JgaCKYWxSUmCYUQpUuuJ6cdUBZwGMyZFAwc9Wf3whd4/edit?usp=drivesdk"
       }
@@ -3053,11 +3236,11 @@ window.BOOK_DATA = [
     "author": "플레인（Plain）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/06/21",
+    "date": "2025-06-21",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "仙女與樵夫",
         "url": "https://docs.google.com/document/d/14ykNLSQW34YXZTs8fJKaAs_jEwuBvMWBwSN4za4PX7o/edit?usp=drivesdk"
       }
@@ -3073,7 +3256,7 @@ window.BOOK_DATA = [
     "author": "匿名",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/06/18",
+    "date": "2025-06-18",
     "episodes": [
       {
         "label": "外傳",
@@ -3097,7 +3280,7 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/06/16",
+    "date": "2025-06-16",
     "paid": true,
     "episodes": [
       {
@@ -3122,7 +3305,7 @@ window.BOOK_DATA = [
     "author": "참치（鮪魚）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/06/14",
+    "date": "2025-06-14",
     "paid": true,
     "episodes": [
       {
@@ -3148,7 +3331,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "鯨魚老師",
+    "page": "鯨魚",
     "status": "2.已完結",
     "ko": "장안의 화제! 안녕하십니까?",
     "zh": "💰 張安的話題，你好？",
@@ -3157,7 +3340,7 @@ window.BOOK_DATA = [
     "author": "고래（鯨魚）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/06/14",
+    "date": "2025-06-14",
     "paid": true,
     "episodes": [
       {
@@ -3212,10 +3395,10 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/06/13",
+    "date": "2025-06-13",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "夏日風寒",
         "url": "https://docs.google.com/document/d/1AWGlqD9fI06LLHIhBDBovR9vt04XCQaFFmjcCQl9GI0/edit?usp=drivesdk"
       }
@@ -3231,11 +3414,11 @@ window.BOOK_DATA = [
     "author": "알페스유목민（阿爾卑斯遊牧民）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/06/12",
+    "date": "2025-06-12",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "狼的誘惑",
         "url": "https://docs.google.com/document/d/1jg83CMKXw05RpN6Fg36-KmmXC-tqKH7m-8fbLEqohOo/edit?usp=drivesdk"
       }
@@ -3251,10 +3434,10 @@ window.BOOK_DATA = [
     "author": "플레인（Plain）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/06/10",
+    "date": "2025-06-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "戀愛的端倪",
         "url": "https://docs.google.com/document/d/1qTeEie5wuTZ4SH52vcBm0VbKaKv9XSDN5yjFnlPLbwE/edit?usp=drivesdk"
       }
@@ -3270,10 +3453,10 @@ window.BOOK_DATA = [
     "author": "뭉자（音譯：夢子）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/06/08",
+    "date": "2025-06-08",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "欸抖 Stop it!",
         "url": "https://docs.google.com/document/d/1M2hc09H07wG3ptoAaDKxWkFzXTm7tZ8CNSQnvTX7NcU/edit?usp=drivesdk"
       }
@@ -3289,7 +3472,7 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/06/08",
+    "date": "2025-06-08",
     "paid": true,
     "episodes": [
       {
@@ -3314,7 +3497,7 @@ window.BOOK_DATA = [
     "author": "플레인（Plane）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/05/27",
+    "date": "2025-05-27",
     "paid": true,
     "episodes": [
       {
@@ -3349,18 +3532,18 @@ window.BOOK_DATA = [
     "author": "참치（鮪魚）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/05/25",
+    "date": "2025-05-25",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "前方警報",
         "url": "https://docs.google.com/document/d/1IkGkX3W9Hn6ZRfA5PGDtwdVbTMLvac8ORV7kcJDCv38/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "鯨魚老師",
+    "page": "鯨魚",
     "status": "2.已完結",
     "ko": "Rescue Scene",
     "zh": "💰 Rescue Scene",
@@ -3369,11 +3552,11 @@ window.BOOK_DATA = [
     "author": "고래（鯨魚）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/25",
+    "date": "2025-05-25",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Rescue Scene",
         "url": "https://docs.google.com/document/d/1R9ggYeELsf1hHSypSqm_ncfqu0a-pCiY35owhMxGzNM/edit?usp=drivesdk"
       }
@@ -3389,10 +3572,10 @@ window.BOOK_DATA = [
     "author": "익룡（翼龍）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/24",
+    "date": "2025-05-24",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "養我吧、抱抱我、愛我吧",
         "url": "https://docs.google.com/document/d/1z77iV_RxKm3YCTGidb6D_2cnjp6LlRzp5TyMDdFxFqE/edit?usp=drivesdk"
       }
@@ -3408,10 +3591,10 @@ window.BOOK_DATA = [
     "author": "초코쇼크（巧克shock）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/24",
+    "date": "2025-05-24",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "兔子在汪汪叫",
         "url": "https://docs.google.com/document/d/14TamlMkaXG9Fno9tv2UhmsE4l2qNPM727_czzI5h058/edit?usp=drivesdk"
       }
@@ -3427,10 +3610,10 @@ window.BOOK_DATA = [
     "author": "익룡（翼龍）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/24",
+    "date": "2025-05-24",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "馴服Alpha",
         "url": "https://docs.google.com/document/d/1hl4Vc_aSucp9nQyC_SiJQiJL7OafcSWkQZ60h1DRHss/edit?usp=drivesdk"
       }
@@ -3446,11 +3629,11 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/24",
+    "date": "2025-05-24",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "單戀的理由",
         "url": "https://docs.google.com/document/d/1kIyGY2SJ3j474Hw4INAMsMuBjNDvFI45h88_kesJlEQ/edit?usp=drivesdk"
       }
@@ -3466,10 +3649,10 @@ window.BOOK_DATA = [
     "author": "노네임（noname）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/24",
+    "date": "2025-05-24",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "反正最後都是你",
         "url": "https://docs.google.com/document/d/1abadCcj24nyoibWUHhvp-UY3JFa9cr-T5_73Cwikrxs/edit?usp=drivesdk"
       }
@@ -3485,7 +3668,7 @@ window.BOOK_DATA = [
     "author": "민무（閔無）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/22",
+    "date": "2025-05-22",
     "episodes": [
       {
         "label": "上",
@@ -3519,11 +3702,11 @@ window.BOOK_DATA = [
     "author": "플레인（Plain）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/05/20",
+    "date": "2025-05-20",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "極寫實戀愛",
         "url": "https://docs.google.com/document/d/1HmIq5zkWSptJQvWLjjwX8RwkH4q6WH7op1gXf0pMfio/edit?usp=drivesdk"
       }
@@ -3539,10 +3722,10 @@ window.BOOK_DATA = [
     "author": "익명1（匿名1）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/19",
+    "date": "2025-05-19",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "每天晚上我都在想我為什麼討厭你",
         "url": "https://docs.google.com/document/d/1jv1OmGKYhFu5vP87WYzIH03nZLmYBIhJWgk4z8kwsM4/edit?usp=drivesdk"
       }
@@ -3558,10 +3741,10 @@ window.BOOK_DATA = [
     "author": "도교（音譯：道僑）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/18",
+    "date": "2025-05-18",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "純愛與殉愛(순애와 순애)_도교",
         "url": "https://docs.google.com/document/d/1c4Cf6IqyMcWlJg3NKWyYj5OSISgQo8JhSuWrxFGmY10/edit?usp=drivesdk"
       }
@@ -3577,10 +3760,10 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/18",
+    "date": "2025-05-18",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "太陽注意報",
         "url": "https://docs.google.com/document/d/1QxJoMUdQSnl-utiFJuGTAo72RBgJLVtwGgvTHvRWTq0/edit?usp=drivesdk"
       }
@@ -3596,10 +3779,10 @@ window.BOOK_DATA = [
     "author": "잘조（音譯：喬巧）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/17",
+    "date": "2025-05-17",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "炭烤香腸口味的法蘭克",
         "url": "https://docs.google.com/document/d/163yWFjepx2hhfsOp-jHVul1T5cS-OLsnFd4CPOGZajk/edit?usp=drivesdk"
       }
@@ -3615,10 +3798,10 @@ window.BOOK_DATA = [
     "author": "소한s（小寒s）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/17",
+    "date": "2025-05-17",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "東西南北",
         "url": "https://docs.google.com/document/d/1Jm084m4oTlYkZCxo_xgWdieKxTyAD1V6ClyMOhXovxU/edit?usp=drivesdk"
       }
@@ -3634,17 +3817,17 @@ window.BOOK_DATA = [
     "author": "굼（夢）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/17",
+    "date": "2025-05-17",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "HATE ME",
         "url": "https://docs.google.com/document/d/1goPsogyPW_r6KjM4Oiouyes1Znfpgr_KZc5ORte1dxU/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "틈",
     "zh": "💰 間隙",
@@ -3653,7 +3836,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/05/16",
+    "date": "2025-05-16",
     "paid": true,
     "episodes": [
       {
@@ -3683,10 +3866,10 @@ window.BOOK_DATA = [
     "author": "엔터（Enter）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/15",
+    "date": "2025-05-15",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "理解季節",
         "url": "https://docs.google.com/document/d/1Sz2zJdnMUWFxu4pCVd0ClnBw66f_KtthfvFN2RKwHbY/edit?usp=drivesdk"
       }
@@ -3702,10 +3885,10 @@ window.BOOK_DATA = [
     "author": "롸댕(Roi_Daeng)",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/12",
+    "date": "2025-05-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "夏天的定義",
         "url": "https://docs.google.com/document/d/1Bxhh7S9QC7przFRxImKEcXpRiGfj14QzmtxUvss4fF8/edit?usp=drivesdk"
       }
@@ -3721,11 +3904,11 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/11",
+    "date": "2025-05-11",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Astral Mix",
         "url": "https://docs.google.com/document/d/1Lb_oC0NDFnGU3BElKP5VFJANcogWSHxJ1BOvq8PmX2Y/edit?usp=drivesdk"
       }
@@ -3741,10 +3924,10 @@ window.BOOK_DATA = [
     "author": "Cho",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/10",
+    "date": "2025-05-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "生日快樂",
         "url": "https://docs.google.com/document/d/1s-Jdmf5VxE88m4Z6-uSrYtIPqbvmNjMzPaFS7-YKO9c/edit?usp=drivesdk"
       }
@@ -3760,10 +3943,10 @@ window.BOOK_DATA = [
     "author": "익명1（匿名1）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/10",
+    "date": "2025-05-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "兔子其實跑得很快",
         "url": "https://docs.google.com/document/d/19srze0VGrZKNpDtIT3wdkNzkDmLM4dNs8m9SIa1n81A/edit?usp=drivesdk"
       }
@@ -3779,10 +3962,10 @@ window.BOOK_DATA = [
     "author": "키퍼（Keeper）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/10",
+    "date": "2025-05-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "微溫的切片蛋糕",
         "url": "https://docs.google.com/document/d/1Fe6rlC58rQZkRefE5hBmmCt9WaWdkySXcIY796fD4Kw/edit?usp=drivesdk"
       }
@@ -3798,10 +3981,10 @@ window.BOOK_DATA = [
     "author": "판도（音譯：辯道）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/08",
+    "date": "2025-05-08",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "不是那種意思",
         "url": "https://docs.google.com/document/d/1kD4PdsJ7MOqwF94Zg8WbTWOogqJvr8b_NGlADf8VlzQ/edit?usp=drivesdk"
       }
@@ -3817,7 +4000,7 @@ window.BOOK_DATA = [
     "author": "유부비언（已婚人士）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/08",
+    "date": "2025-05-08",
     "paid": true,
     "episodes": [
       {
@@ -3842,10 +4025,10 @@ window.BOOK_DATA = [
     "author": "뭉자（音譯：夢子）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/05/08",
+    "date": "2025-05-08",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "等價交換定律",
         "url": "https://docs.google.com/document/d/1LYjlEmEHNhwEujQO6FNZTcpJ74nAk8K_c7sUgVaONLw/edit?usp=drivesdk"
       }
@@ -3861,7 +4044,7 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/05/05",
+    "date": "2025-05-05",
     "paid": true,
     "episodes": [
       {
@@ -3891,10 +4074,10 @@ window.BOOK_DATA = [
     "author": "익명2（匿名2）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/04",
+    "date": "2025-05-04",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "我們的愛是夏天啊",
         "url": "https://docs.google.com/document/d/1ShGYvVd8AlTwTpA4AggXDoItupYhQtNDmynPZNdy2os/edit?usp=drivesdk"
       }
@@ -3910,10 +4093,10 @@ window.BOOK_DATA = [
     "author": "우유（牛奶）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/04",
+    "date": "2025-05-04",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "夏天的盡頭",
         "url": "https://docs.google.com/document/d/127rMFpwSguCpXF8cV3pjNI93XEDgNI_x8LU4Efzs_-E/edit?usp=drivesdk"
       }
@@ -3929,7 +4112,7 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/04",
+    "date": "2025-05-04",
     "episodes": [
       {
         "label": "上",
@@ -3944,7 +4127,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "딸의 사춘기는 처음이라서",
     "zh": "💰 咖啡夫妻S3-第一次面對女兒的青春期",
@@ -3953,7 +4136,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/05/03",
+    "date": "2025-05-03",
     "paid": true,
     "episodes": [
       {
@@ -4079,7 +4262,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "淨漢老師",
+    "page": "淨漢",
     "status": "2.已完結",
     "ko": "Hot and Cool",
     "zh": "Hot and Cool",
@@ -4088,17 +4271,17 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/05/01",
+    "date": "2025-05-01",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Hot and Cool",
         "url": "https://docs.google.com/document/d/1OCD9Ty2vQHom-tnasjXHfl5Uk4sJzFsm81es7ZMB9ws/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "淨漢老師",
+    "page": "淨漢",
     "status": "2.已完結",
     "ko": "열대야",
     "zh": "💰 熱帶夜",
@@ -4107,18 +4290,18 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/04/27",
+    "date": "2025-04-27",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "熱帶夜",
         "url": "https://docs.google.com/document/d/1v5txUP7UZz9yFUlrMfwR0sMcv6aYlA9UXcYeWyusRE4/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "鯨魚老師",
+    "page": "鯨魚",
     "status": "2.已完結",
     "ko": "당신들, 나를 위해",
     "zh": "你們為我而活",
@@ -4127,17 +4310,17 @@ window.BOOK_DATA = [
     "author": "고래（鯨魚）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/04/17",
+    "date": "2025-04-17",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "你們為我而活",
         "url": "https://docs.google.com/document/d/1S3DgTQjw4CW30S2mp4B1_2MWtsLbANYIh-pE9Cf29F8/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "901:Not Found",
     "zh": "901:Not Found",
@@ -4146,10 +4329,10 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/04/17",
+    "date": "2025-04-17",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "901 Not found",
         "url": "https://docs.google.com/document/d/1lCjP31vz_IJriSvTk3nqkRav1-46K8pyM97JPTWotvw/edit?usp=drivesdk"
       }
@@ -4165,7 +4348,7 @@ window.BOOK_DATA = [
     "author": "유부비언（已婚人士）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/04/01",
+    "date": "2025-04-01",
     "paid": true,
     "episodes": [
       {
@@ -4200,10 +4383,10 @@ window.BOOK_DATA = [
     "author": "이단（一單）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/03/30",
+    "date": "2025-03-30",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Run to You",
         "url": "https://docs.google.com/document/d/1h6P42gJPonBiLoSEc8Ys5ii9kVNL47OhFyCHOGjx_B8/edit?usp=drivesdk"
       }
@@ -4219,10 +4402,10 @@ window.BOOK_DATA = [
     "author": "이단（一單）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/03/29",
+    "date": "2025-03-29",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "青春過渡期",
         "url": "https://docs.google.com/document/d/1BbAXHvYy2ZK6Bdy4cL1LvZby7IqVTNW-kXAK6u8/edit?usp=drivesdk"
       }
@@ -4238,7 +4421,7 @@ window.BOOK_DATA = [
     "author": "임네닉\nX: JOEJOENJOE",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/03/21",
+    "date": "2025-03-21",
     "episodes": [
       {
         "label": "EP1",
@@ -4273,7 +4456,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "개와 늑대의 시간",
     "zh": "💰 犬與狼的時間",
@@ -4282,7 +4465,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/03/21",
+    "date": "2025-03-21",
     "paid": true,
     "episodes": [
       {
@@ -4307,11 +4490,11 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/03/20",
+    "date": "2025-03-20",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "全新未拆販售中",
         "url": "https://docs.google.com/document/d/13ibz0hWGip_R37Q7_jyvdOBr_JutZax9zipmX0PS4tI/edit?usp=drivesdk"
       }
@@ -4327,17 +4510,17 @@ window.BOOK_DATA = [
     "author": "민무（閔無）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/03/15",
+    "date": "2025-03-15",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "傲慢與偏見",
         "url": "https://docs.google.com/document/d/1TLH_ui0T14CUZjn7wHx6FZhw3Mx96gn1YJrYfR_9rX4/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "淨漢老師",
+    "page": "淨漢",
     "status": "2.已完結",
     "ko": "근본 없는 것",
     "zh": "💰 無根之人",
@@ -4346,11 +4529,11 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/03/12",
+    "date": "2025-03-12",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "無根之人",
         "url": "https://docs.google.com/document/d/1DWQPFgYfLc77aOr3OuUaPSfvB5YWGLo2QXQd-4fhT8o/edit?usp=drivesdk"
       }
@@ -4366,10 +4549,10 @@ window.BOOK_DATA = [
     "author": "에이미（Amy）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/03/10",
+    "date": "2025-03-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "what is love",
         "url": "https://docs.google.com/document/d/1rSUfQThxs1wS2LTCOXf5MmYBUOjWJFLI0AgOz-hseu0/edit?usp=drivesdk"
       }
@@ -4385,11 +4568,11 @@ window.BOOK_DATA = [
     "author": "선샤인（Sunshine）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/03/07",
+    "date": "2025-03-07",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "戀愛的溫度",
         "url": "https://docs.google.com/document/d/1EGBCXeCDzH0LU62MqLGxtZfyPsjD4ORr3SV8lBR9rwU/edit?usp=drivesdk"
       }
@@ -4405,10 +4588,10 @@ window.BOOK_DATA = [
     "author": "민무（閔無）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/03/04",
+    "date": "2025-03-04",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "顯而易見的初戀",
         "url": "https://docs.google.com/document/d/14-cxEFVYWMJgZPGroGI1hHEo_OSrvMIje6djoqxhx04/edit?usp=drivesdk"
       }
@@ -4424,11 +4607,11 @@ window.BOOK_DATA = [
     "author": "참치（鮪魚）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/03/01",
+    "date": "2025-03-01",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "太山君傳",
         "url": "https://docs.google.com/document/d/179y0pFOKK70R1YQA7s0pMCVSiAbBn6EuwI01K30cD0s/edit?usp=drivesdk"
       }
@@ -4444,10 +4627,10 @@ window.BOOK_DATA = [
     "author": "금강（金剛）",
     "translator": "筍",
     "note": "",
-    "date": "2025/03/01",
+    "date": "2025-03-01",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "創造永恆",
         "url": "https://docs.google.com/document/d/1fciQk7KOEonKj0CEuinGOGZJf1dvUvVnnuAUHsWRVFE/edit?usp=drivesdk"
       }
@@ -4463,7 +4646,7 @@ window.BOOK_DATA = [
     "author": "🐥",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/03/01",
+    "date": "2025-03-01",
     "paid": true,
     "episodes": [
       {
@@ -4484,7 +4667,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "鯨魚老師",
+    "page": "鯨魚",
     "status": "2.已完結",
     "ko": "Passionate A&W 외전 1 - 빵",
     "zh": "Passionate A&W 外傳1-飯",
@@ -4493,10 +4676,10 @@ window.BOOK_DATA = [
     "author": "고래（鯨魚）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/03/01",
+    "date": "2025-03-01",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Passionate A&W 外傳1-麵包",
         "url": "https://docs.google.com/document/d/1ZAxXhhXFaI2vJ_kCAfpUj30BHKj4hYlgS-DZ5t_Qpzw/edit?usp=drivesdk"
       }
@@ -4512,10 +4695,10 @@ window.BOOK_DATA = [
     "author": "이유（理由）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/02/27",
+    "date": "2025-02-27",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "與辛德瑞拉定居",
         "url": "https://docs.google.com/document/d/1GjbWc25pHoeMt9PkiGzXb8jj0jbrSsMC5eZMrJ_tNgQ/edit?usp=drivesdk"
       }
@@ -4531,18 +4714,18 @@ window.BOOK_DATA = [
     "author": "철복（鐵鍑）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/02/27",
+    "date": "2025-02-27",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "後啟示錄式浪漫",
         "url": "https://docs.google.com/document/d/14Cxn6M5o3JLpy9BczDn-yHsLU8Fwt6FP9cJoQUsr1Bg/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "Midnight in Florence",
     "zh": "Midnight in Florence",
@@ -4551,7 +4734,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/02/26",
+    "date": "2025-02-26",
     "episodes": [
       {
         "label": "上",
@@ -4575,11 +4758,11 @@ window.BOOK_DATA = [
     "author": "Cho",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/02/26",
+    "date": "2025-02-26",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "阿爾法攻略作戰",
         "url": "https://docs.google.com/document/d/17U-aFoi6WIghw2By832GAS7LgA5tA4odvPzLuUPMkV0/edit?usp=drivesdk"
       }
@@ -4595,18 +4778,18 @@ window.BOOK_DATA = [
     "author": "톨（Tall）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/02/23",
+    "date": "2025-02-23",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "那個冬天的回憶錄",
         "url": "https://docs.google.com/document/d/1UgM86SFXEi4jj3RhYNhdF910Ulv7NOxyALXIihcLu3w/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "밀회",
     "zh": "💰 密會",
@@ -4615,7 +4798,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/02/20",
+    "date": "2025-02-20",
     "paid": true,
     "episodes": [
       {
@@ -4645,7 +4828,7 @@ window.BOOK_DATA = [
     "author": "민무（閔武）",
     "translator": "筍",
     "note": "",
-    "date": "2025/02/19",
+    "date": "2025-02-19",
     "episodes": [
       {
         "label": "上",
@@ -4669,18 +4852,18 @@ window.BOOK_DATA = [
     "author": "쩡우（鄭宇）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/02/17",
+    "date": "2025-02-17",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "浪漫的瘋子",
         "url": "https://docs.google.com/document/d/1sAXJyblQTe9HT5HXFHQ6PnmsFQ0rvFwfSwFK4BJMXAE/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "淨漢老師",
+    "page": "淨漢",
     "status": "2.已完結",
     "ko": "안가네 양평해장국",
     "zh": "安家的楊平解酒湯",
@@ -4689,17 +4872,17 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/02/17",
+    "date": "2025-02-17",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "安家的楊平解酒湯",
         "url": "https://docs.google.com/document/d/1odGSDmu0U4zmHK4NlR0WfWkaagiXOhI0lFNsFCfdDKY/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "淨漢老師",
+    "page": "淨漢",
     "status": "2.已完結",
     "ko": "우리들은 자란다",
     "zh": "💰 我們正在成長",
@@ -4708,11 +4891,11 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/02/17",
+    "date": "2025-02-17",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "我們正在成長",
         "url": "https://docs.google.com/document/d/1_LIfFs7aea2D_IbAsl-mBovtC0cYjCQ1WIae82jppNA/edit?usp=drivesdk"
       }
@@ -4728,10 +4911,10 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/02/15",
+    "date": "2025-02-15",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "有過，但沒有了。",
         "url": "https://docs.google.com/document/d/1LUcBnrN1ddYHff-3fex7MsgvWJo9JXC4KcTkLFBjc60/edit?usp=drivesdk"
       }
@@ -4747,10 +4930,10 @@ window.BOOK_DATA = [
     "author": "유부비언（已婚人士）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/02/12",
+    "date": "2025-02-12",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "越過地平線",
         "url": "https://docs.google.com/document/d/1WcmGe_bcle8_eG2B3GKkn1SNYIkqwg66DM_fIdl4spM/edit?usp=drivesdk"
       }
@@ -4766,18 +4949,18 @@ window.BOOK_DATA = [
     "author": "톨（Tall）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/30",
+    "date": "2025-01-30",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "抽樣偏差",
         "url": "https://docs.google.com/document/d/19tC5E5aEcvLQh62WjQF3MorHfz_rt5CnCFymOnBTd7c/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "돌아갈 수 없는 길",
     "zh": "無法回頭的路",
@@ -4786,10 +4969,10 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/26",
+    "date": "2025-01-26",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "無法回頭的路",
         "url": "https://docs.google.com/document/d/1TsV6oWuRPoWC3Y7PCUsf2SBbmrdoCo-c9hxzjLgIk1g/edit?usp=drivesdk"
       }
@@ -4805,17 +4988,17 @@ window.BOOK_DATA = [
     "author": "로크（LOCK）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/01/26",
+    "date": "2025-01-26",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "三葉草的願望",
         "url": "https://docs.google.com/document/d/1Y1cG0NJpeAzFlZOMOFzHOcLUh8YiJOi8SuFM1Rg-EQQ/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "淨漢老師",
+    "page": "淨漢",
     "status": "2.已完結",
     "ko": "논호림 論虎林",
     "zh": "論虎林",
@@ -4824,17 +5007,17 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/22",
+    "date": "2025-01-22",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "論虎林",
         "url": "https://docs.google.com/document/d/11koHPMhYmcBRtRvRrqRo5kXZQ-EtioI-NtGheuJWBZM/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "星光老師",
+    "page": "星光",
     "status": "2.已完結",
     "ko": "단편썰1-정략결혼 썰 & 단편썰2-정략결혼 썰",
     "zh": "💰 短篇小說集1, 2",
@@ -4843,7 +5026,7 @@ window.BOOK_DATA = [
     "author": "별빛（星光）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/20",
+    "date": "2025-01-20",
     "paid": true,
     "episodes": [
       {
@@ -4868,10 +5051,10 @@ window.BOOK_DATA = [
     "author": "나무（大樹）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/15",
+    "date": "2025-01-15",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "友誼能滋養愛情嗎",
         "url": "https://docs.google.com/document/d/10387F_eIWtgcSKMcILlWFsmapc3vIQI6TxEYAv_qSf8/edit?usp=drivesdk"
       }
@@ -4887,17 +5070,17 @@ window.BOOK_DATA = [
     "author": "이라（伊羅）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/15",
+    "date": "2025-01-15",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "告白交織",
         "url": "https://docs.google.com/document/d/1LFOwOO3ZBdJXRJLHt5atOFa9aqA-0n7rjx9EH96i6-4/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "내 남편의 여자",
     "zh": "💰 我丈夫的女人",
@@ -4906,18 +5089,18 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/12",
+    "date": "2025-01-12",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "我的丈夫的女人",
         "url": "https://docs.google.com/document/d/1hz9U-vnKuNa4jyEJX98UErnzTjS8QfLaPdupadgB-Cs/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "갈망（上+下）",
     "zh": "💰 渴望",
@@ -4926,7 +5109,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/12",
+    "date": "2025-01-12",
     "paid": true,
     "episodes": [
       {
@@ -4951,7 +5134,7 @@ window.BOOK_DATA = [
     "author": "톨（Tall）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/12",
+    "date": "2025-01-12",
     "paid": true,
     "episodes": [
       {
@@ -4981,10 +5164,10 @@ window.BOOK_DATA = [
     "author": "개（狗）",
     "translator": "筍",
     "note": "",
-    "date": "2025/01/10",
+    "date": "2025-01-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Hot and Cold",
         "url": "https://docs.google.com/document/d/1PI9L7bBhTjIeA791ktnwDNmDwnXOttDu7Z2TsmOSDXM/edit?usp=drivesdk"
       }
@@ -5000,10 +5183,10 @@ window.BOOK_DATA = [
     "author": "나무（大樹）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/10",
+    "date": "2025-01-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "聖誕節，請誠實面對自己",
         "url": "https://docs.google.com/document/d/1SFN48XvQ6YBy2ZK6Bdy4cL1LvZby7IqVTNW-kXAK6u8/edit?usp=drivesdk"
       }
@@ -5019,10 +5202,10 @@ window.BOOK_DATA = [
     "author": "이라（伊羅）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/10",
+    "date": "2025-01-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "愛戀妄想症",
         "url": "https://docs.google.com/document/d/1_X16ysWk9lVMDFP8R2l5NZkdtnwR92pzJkECI_XqFPY/edit?usp=drivesdk"
       }
@@ -5038,7 +5221,7 @@ window.BOOK_DATA = [
     "author": "소한（小寒）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/01/08",
+    "date": "2025-01-08",
     "paid": true,
     "episodes": [
       {
@@ -5178,7 +5361,7 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/01/07",
+    "date": "2025-01-07",
     "paid": true,
     "episodes": [
       {
@@ -5218,7 +5401,7 @@ window.BOOK_DATA = [
     "author": "code",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/07",
+    "date": "2025-01-07",
     "paid": true,
     "episodes": [
       {
@@ -5243,7 +5426,7 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/01/07",
+    "date": "2025-01-07",
     "paid": true,
     "episodes": [
       {
@@ -5259,7 +5442,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "淨漢老師",
+    "page": "淨漢",
     "status": "2.已完結",
     "ko": "Happy Together",
     "zh": "💰 Happy Together",
@@ -5268,11 +5451,11 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/04",
+    "date": "2025-01-04",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Happy Together",
         "url": "https://docs.google.com/document/d/1xitMK7r_Gfu3FmG2wmpq-7CeS-FAk2Yd_3yIjxrxK0o/edit?usp=drivesdk"
       }
@@ -5288,10 +5471,10 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "筍",
     "note": "",
-    "date": "2025/01/04",
+    "date": "2025-01-04",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "典型教會浪漫故事",
         "url": "https://docs.google.com/document/d/1b70t94hJonDaVVs4dp2wyDVdTuIb3ZFzi3PzLmuGfRM/edit?usp=drivesdk"
       }
@@ -5307,11 +5490,11 @@ window.BOOK_DATA = [
     "author": "Whiskey",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/03",
+    "date": "2025-01-03",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "平口內褲",
         "url": "https://docs.google.com/document/d/1xFqEB6jeiy7HXnElheg_ZCgotrmEA-dYkcLwzbYZ0Is/edit?usp=drivesdk"
       }
@@ -5327,7 +5510,7 @@ window.BOOK_DATA = [
     "author": "Cho",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/03",
+    "date": "2025-01-03",
     "paid": true,
     "episodes": [
       {
@@ -5352,10 +5535,10 @@ window.BOOK_DATA = [
     "author": "이라（伊羅）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/02",
+    "date": "2025-01-02",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "打敗妳的方法",
         "url": "https://docs.google.com/document/d/1AFLtK8xKohhUu_ncitP5E8ptQ6Iw1fP2SlTMbbHSWfU/edit?usp=drivesdk"
       }
@@ -5371,11 +5554,11 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/01/02",
+    "date": "2025-01-02",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "仇恨命運（續）",
         "url": "https://docs.google.com/document/d/1bvaIP9UbAMhRTGeICI_w0uPBOtEoLX_Ns-QC-lpBh0I/edit?usp=drivesdk"
       }
@@ -5391,11 +5574,11 @@ window.BOOK_DATA = [
     "author": "무（蕪）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/01/02",
+    "date": "2025-01-02",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "主禱文",
         "url": "https://docs.google.com/document/d/1P2LztKjxv5JkpcrtSRLFZFshykh7PLVet5snFcBCnzk/edit?usp=drivesdk"
       }
@@ -5411,7 +5594,7 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/01/02",
+    "date": "2025-01-02",
     "episodes": [
       {
         "label": "1",
@@ -5470,10 +5653,10 @@ window.BOOK_DATA = [
     "author": "익룡（翼龍）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/01/01",
+    "date": "2025-01-01",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "墮入厄洛斯",
         "url": "https://docs.google.com/document/d/1yhcT3CTNB1y4iPbxU0_DRhlfJIrCbylSoZVays6Q1hE/edit?usp=drivesdk"
       }
@@ -5489,11 +5672,11 @@ window.BOOK_DATA = [
     "author": "무（蕪）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/01/01",
+    "date": "2025-01-01",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "生日那天開學 (前傳)",
         "url": "https://docs.google.com/document/d/10JBTcIDm4QVNOKhCFMgE3yoCMkR8neIXqyt3DqMdngA/edit?usp=drivesdk"
       }
@@ -5509,10 +5692,10 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/01/01",
+    "date": "2025-01-01",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "學期初的生日 (愚人節改編)",
         "url": "https://docs.google.com/document/d/1gVIrRzr97MBXnoGRmOhsY1jDn7vRXw7v9wAYddbTsJU/edit?usp=drivesdk"
       }
@@ -5528,10 +5711,10 @@ window.BOOK_DATA = [
     "author": "이라（伊羅）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/31",
+    "date": "2024-12-31",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "初雪",
         "url": "https://docs.google.com/document/d/1SzK3xpOvfjwrSj4eaY5N6wjNGeQjJhsMlVw0jRvG12c/edit?usp=drivesdk"
       }
@@ -5547,18 +5730,18 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/30",
+    "date": "2024-12-30",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Melting Chocolate Eighteen",
         "url": "https://docs.google.com/document/d/1vRdRaU7KbbexzcNareuakkpZ7JYGHWN1v_7SJ3cTwbs/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "鯨魚老師",
+    "page": "鯨魚",
     "status": "2.已完結",
     "ko": "Passionate A&W 외전 2 - 이별여행",
     "zh": "💰 Passionate A&W 外傳2-告別之旅",
@@ -5567,11 +5750,11 @@ window.BOOK_DATA = [
     "author": "고래（鯨魚）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/28",
+    "date": "2024-12-28",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Passionate A&W 外傳2告別之旅",
         "url": "https://docs.google.com/document/d/1DOHzIw3rQ0hi699ZprDw7Bdw0avmKzTXTWuf3SAUtp4/edit?usp=drivesdk"
       }
@@ -5587,11 +5770,11 @@ window.BOOK_DATA = [
     "author": "녕마（賽馬）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/28",
+    "date": "2024-12-28",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Her Orbit",
         "url": "https://docs.google.com/document/d/1FH8Sw40sAnmvjndfuQoFgpw3lWP2Gd6d4vEIG7bapcU/edit?usp=drivesdk"
       }
@@ -5600,25 +5783,25 @@ window.BOOK_DATA = [
   {
     "page": "其他老師",
     "status": "2.已完結",
-    "ko": "현재진행형 버릇 ",
+    "ko": "현재진행형 버릇",
     "zh": "💰 進行中的習慣",
     "original": "https://www.postype.com/@cho-post/post/18240511",
     "translation": "https://docs.google.com/document/d/18lla-bHmsTEvGRZ2QM5N6MI5GHEag_frwGQ82Udm5xw/edit?usp=drivesdk",
     "author": "Cho",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/28",
+    "date": "2024-12-28",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "進行中的習慣",
         "url": "https://docs.google.com/document/d/18lla-bHmsTEvGRZ2QM5N6MI5GHEag_frwGQ82Udm5xw/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "淨漢老師",
+    "page": "淨漢",
     "status": "2.已完結",
     "ko": "당신의 조각들",
     "zh": "你的碎片",
@@ -5627,7 +5810,7 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/28",
+    "date": "2024-12-28",
     "episodes": [
       {
         "label": "A",
@@ -5656,18 +5839,18 @@ window.BOOK_DATA = [
     "author": "삼사（三司）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/28",
+    "date": "2024-12-28",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "ARE YOU THERE，EUGENE？",
         "url": "https://docs.google.com/document/d/1__P6LK2M_McMfs_wYtPhcLqpZsJYz30tOjV_K43ZEf8/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "커피가 예쁘고 알바생이 맛있어요 S2番外-為誰而辦的聖誕活動",
     "zh": "💰 咖啡夫妻S2番外-為誰而辦的聖誕活動",
@@ -5676,18 +5859,18 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/25",
+    "date": "2024-12-25",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "為誰而辦的聖誕活動",
         "url": "https://docs.google.com/document/d/1NHcrOn1n4FUqdK7L05dKyFTlmV_2L__9x3PX_kM8oq4/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "커피가 예쁘고 알바생이 맛있어요 S2番外-馬爾地夫篇",
     "zh": "💰 咖啡夫妻S2番外-馬爾地夫篇",
@@ -5696,18 +5879,18 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/25",
+    "date": "2024-12-25",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "咖啡夫妻番外篇-馬爾地夫",
         "url": "https://docs.google.com/document/d/1wA9sTNsbuyGU8ce5U8q-U7mZeJgokfrJ50wQmpEhc7w/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
     "zh": "💰 咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
@@ -5716,7 +5899,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/25",
+    "date": "2024-12-25",
     "paid": true,
     "episodes": [
       {
@@ -5807,7 +5990,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "커피가 예쁘고 알바생이 맛있어요",
     "zh": "💰 咖啡夫妻S1-咖啡很迷人，店員也很美味",
@@ -5816,7 +5999,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/25",
+    "date": "2024-12-25",
     "paid": true,
     "episodes": [
       {
@@ -5931,18 +6114,18 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/25",
+    "date": "2024-12-25",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "仇恨命運",
         "url": "https://docs.google.com/document/d/1HKp8cv1YsTI1ob5-tVEylkey5XvLoxAfQVjLOS7RvTo/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "星光老師",
+    "page": "星光",
     "status": "2.已完結",
     "ko": "단편썰3-정략결혼 썰",
     "zh": "💰 短篇小說集3-聯姻故事",
@@ -5951,18 +6134,18 @@ window.BOOK_DATA = [
     "author": "별빛（星光）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/23",
+    "date": "2024-12-23",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "聯姻故事",
         "url": "https://docs.google.com/document/d/1IeB2KQseFDvy7T9yr-lDsQXNVjSYvUGBW3Wx8ZFT2rw/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "호텔리어",
     "zh": "💰 飯店經理",
@@ -5971,7 +6154,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/21",
+    "date": "2024-12-21",
     "paid": true,
     "episodes": [
       {
@@ -6036,10 +6219,10 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/21",
+    "date": "2024-12-21",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "違規停車惡棍",
         "url": "https://docs.google.com/document/d/1eFS-WwGuzVdxhMPmEvxL4hHkEOUoMX_IfPmlvA0HBXk/edit?usp=drivesdk"
       }
@@ -6055,18 +6238,18 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/21",
+    "date": "2024-12-21",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "那女生又高又漂亮，所以被吸引了",
         "url": "https://docs.google.com/document/d/1oiiwr9ypTRp9RvxScdp2fDBNlKITZGThX2U69Vxe11A/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "Office wife",
     "zh": "💰 Office wife",
@@ -6075,11 +6258,11 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/19",
+    "date": "2024-12-19",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Office wife",
         "url": "https://docs.google.com/document/d/1U1l1Eh9XhUS2P9ng0XW7ZiEFoeE1dU_OjIxQ5981TFQ/edit?usp=drivesdk"
       }
@@ -6095,10 +6278,10 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/19",
+    "date": "2024-12-19",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "蟠桃",
         "url": "https://docs.google.com/document/d/1F8AnKSffB4k3ZGItnLXg79winZyhpi6lEx-OG4KC3Ss/edit?usp=drivesdk"
       }
@@ -6114,10 +6297,10 @@ window.BOOK_DATA = [
     "author": "익룡（翼龍）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/19",
+    "date": "2024-12-19",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "電池快沒電了！記得盡快充電喔！",
         "url": "https://docs.google.com/document/d/1ZroCA5QCds5D5UHitD0Ak72C8XhheIcdIpuR2IE8SSY/edit?usp=drivesdk"
       }
@@ -6133,10 +6316,10 @@ window.BOOK_DATA = [
     "author": "톨（Tall）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/18",
+    "date": "2024-12-18",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "晚夏衝浪",
         "url": "https://docs.google.com/document/d/1jKXsNAJwWoH9RNyAkpXzMRVgqXxD0meWO-rHrLt9QIc/edit?usp=drivesdk"
       }
@@ -6152,18 +6335,18 @@ window.BOOK_DATA = [
     "author": "톨（Tall）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/18",
+    "date": "2024-12-18",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "交點與終點",
         "url": "https://docs.google.com/document/d/1vf0D1FXrhwA3tteAxsidP289Y4g-aiI5YYSH4jhO4VE/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "淨漢老師",
+    "page": "淨漢",
     "status": "2.已完結",
     "ko": "Cool and Hot",
     "zh": "Cool and Hot",
@@ -6172,10 +6355,10 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/17",
+    "date": "2024-12-17",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Cool and Hot",
         "url": "https://docs.google.com/document/d/1IXDTO-MidtCPr283eFkJGf3UFwEYEtQ2UCfeKWAOK3k/edit?usp=drivesdk"
       }
@@ -6191,7 +6374,7 @@ window.BOOK_DATA = [
     "author": "삼사（三司）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/16",
+    "date": "2024-12-16",
     "paid": true,
     "episodes": [
       {
@@ -6211,10 +6394,10 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/16",
+    "date": "2024-12-16",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "麗水的夜海",
         "url": "https://docs.google.com/document/d/1gLS1_40D6qGLbiaGeymAJ-vmIlUMpvp5agBnLyhe1PI/edit?usp=drivesdk"
       }
@@ -6230,7 +6413,7 @@ window.BOOK_DATA = [
     "author": "삼사（三司）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/15",
+    "date": "2024-12-15",
     "paid": true,
     "episodes": [
       {
@@ -6250,10 +6433,10 @@ window.BOOK_DATA = [
     "author": "Cho",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "朋友的戀愛腦罪",
         "url": "https://docs.google.com/document/d/1-2okmS5Tx2KgqWqyB99WVvDKjSi7nDp3ZhTQ_ocW1G0/edit?usp=drivesdk"
       }
@@ -6269,17 +6452,17 @@ window.BOOK_DATA = [
     "author": "code",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Under the sea",
         "url": "https://docs.google.com/document/d/12nWL0Ceg79BUk4L3Oork0P2ZgbsvlDjXElkGtl_2tLY/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "鯨魚老師",
+    "page": "鯨魚",
     "status": "2.已完結",
     "ko": "너 말고 니 동생",
     "zh": "不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇）",
@@ -6288,10 +6471,10 @@ window.BOOK_DATA = [
     "author": "고래（鯨魚）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "不是你，是你妹妹",
         "url": "https://docs.google.com/document/d/1OtlWRdfQEcYRjSaH7GAeUF_k9PCgEY0mJ8rBcLrhpPM/edit?usp=drivesdk"
       }
@@ -6307,10 +6490,10 @@ window.BOOK_DATA = [
     "author": "굼",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "搭公車的高中生_chat-gpt",
         "url": "https://docs.google.com/document/d/125GjU6HtfB3aeVHygnbyU4M6QQvPAC_9rZZaecd34o4/edit?usp=drivesdk"
       }
@@ -6326,7 +6509,7 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
@@ -6366,7 +6549,7 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
@@ -6396,7 +6579,7 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "episodes": [
       {
         "label": "上",
@@ -6420,7 +6603,7 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
@@ -6450,11 +6633,11 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "佔有慾",
         "url": "https://docs.google.com/document/d/1nOj8enblzvpXv6WlSKxAnQWNd9zz4Ls_sxbGrE-3tJ4/edit?usp=drivesdk"
       }
@@ -6470,7 +6653,7 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
@@ -6525,11 +6708,11 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "那個孩子",
         "url": "https://docs.google.com/document/d/1RGgS1Uipta5Qo_2jnHkFPpnwhCjxvSZ-vQGj34fpdIA/edit?usp=drivesdk"
       }
@@ -6545,11 +6728,11 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "想找人一起看色情片",
         "url": "https://docs.google.com/document/d/1IpTpw0hgd-9oPu2zD8tkCZsfL74CDnYTLGyX6Mb0ueQ/edit?usp=drivesdk"
       }
@@ -6565,7 +6748,7 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "episodes": [
       {
         "label": "上",
@@ -6589,11 +6772,11 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "薛丁格的那天晚上",
         "url": "https://docs.google.com/document/d/1kVPdDo1MC2dDifNI8o8rJ8XopUkj7Y3gZAro3F9xON0/edit?usp=drivesdk"
       }
@@ -6609,11 +6792,11 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "饒舌歌手與饒舌歌手女友",
         "url": "https://docs.google.com/document/d/1_WObGfhM0lzL1hM3oKaqFb9A0F8abmRbPPeekAsXgIs/edit?usp=drivesdk"
       }
@@ -6629,10 +6812,10 @@ window.BOOK_DATA = [
     "author": "박시봉（朴時奉）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "採錄_chat-gpt",
         "url": "https://docs.google.com/document/d/1WcQZVP611XVL9eiJaTUBBLMe491dNZYNOdU1Hp4S29g/edit?usp=drivesdk"
       }
@@ -6648,7 +6831,7 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13"
+    "date": "2024-12-13"
   },
   {
     "page": "朴專家",
@@ -6660,7 +6843,7 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "episodes": [
       {
         "label": "EP1",
@@ -6704,7 +6887,7 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "episodes": [
       {
         "label": "上",
@@ -6738,7 +6921,7 @@ window.BOOK_DATA = [
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "episodes": [
       {
         "label": "上",
@@ -6778,7 +6961,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "星光老師",
+    "page": "星光",
     "status": "2.已完結",
     "ko": "달빛",
     "zh": "💰 月光",
@@ -6787,7 +6970,7 @@ window.BOOK_DATA = [
     "author": "별빛（星光）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
@@ -6808,7 +6991,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "星光老師",
+    "page": "星光",
     "status": "2.已完結",
     "ko": "너와 나 사이에",
     "zh": "💰 你和我之間",
@@ -6817,7 +7000,7 @@ window.BOOK_DATA = [
     "author": "별빛（星光）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
@@ -6853,7 +7036,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "星光老師",
+    "page": "星光",
     "status": "2.已完結",
     "ko": "센티넬-가이드",
     "zh": "💰 哨兵指南",
@@ -6862,18 +7045,18 @@ window.BOOK_DATA = [
     "author": "별빛（星光）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "哨兵指南",
         "url": "https://docs.google.com/document/d/1J-NOqV4coUHk6hT6GPm-6jhf75ivbkVDUxFfwP3SnlM/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "星光老師",
+    "page": "星光",
     "status": "2.已完結",
     "ko": "After like",
     "zh": "💰 After like",
@@ -6882,18 +7065,18 @@ window.BOOK_DATA = [
     "author": "별빛（星光）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "After like",
         "url": "https://docs.google.com/document/d/1UW1r92eGtLwpYp2vBrC2TlINi8t31-7hGZzUO8hyQG0/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "星光老師",
+    "page": "星光",
     "status": "2.已完結",
     "ko": "Crush on you",
     "zh": "💰 Crush on you",
@@ -6902,11 +7085,11 @@ window.BOOK_DATA = [
     "author": "별빛（星光）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Crush on you",
         "url": "https://docs.google.com/document/d/1vRenxFKL3lRkL8Rboq6i9pG61qrU2xTl0VABuzii-sc/edit?usp=drivesdk"
       }
@@ -6922,17 +7105,17 @@ window.BOOK_DATA = [
     "author": "블루마운틴（藍山）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "for_everyoung10 liked your",
         "url": "https://docs.google.com/document/d/1XaROdrdVQUO-Lhl7jkXvyAE3HNyrgBYjXG5il-9A9dc/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "淨漢老師",
+    "page": "淨漢",
     "status": "2.已完結",
     "ko": "젖과 꿀이 흐르는, 너와 나의 밤",
     "zh": "💰 流淌著奶與蜜的 你和我的夜晚",
@@ -6941,18 +7124,18 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "流淌著奶與蜜的 你和我的夜晚",
         "url": "https://docs.google.com/document/d/1eKuF7ICtgFeThqgD6FthB59Bsn2Zy9txSQa2Jo6NaqA/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "淨漢老師",
+    "page": "淨漢",
     "status": "2.已完結",
     "ko": "Triple XXX & SAFE XXX",
     "zh": "💰 Triple XXX & SAFE XXX",
@@ -6961,7 +7144,7 @@ window.BOOK_DATA = [
     "author": "정한（淨漢）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
@@ -6986,18 +7169,18 @@ window.BOOK_DATA = [
     "author": "지학（知鶴）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "MEDIA TYPE",
         "url": "https://docs.google.com/document/d/1TXvWUD1lqt-GINZKjjzCU45fCBzyoTpC28m12Ktb2bA/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "점호",
     "zh": "💰 點名",
@@ -7006,18 +7189,18 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "點名",
         "url": "https://docs.google.com/document/d/1f8eR91iw7nHBkamgueXK96qlprZDmnmNR-dEG1VZdg8/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "25이닝 완봉승",
     "zh": "💰 25局完封勝",
@@ -7026,7 +7209,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
@@ -7042,7 +7225,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "우(雨)중에 피어난 꽃",
     "zh": "💰 雨中盛開的花",
@@ -7051,7 +7234,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
@@ -7112,7 +7295,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "Love Affair",
     "zh": "💰 Love Affair",
@@ -7121,18 +7304,18 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Love Affair",
         "url": "https://docs.google.com/document/d/1W6zIOfS9YiFbGvx2Sgrx16IYuZIhVA64i9rnVdVGFQQ/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心老師",
+    "page": "真心",
     "status": "2.已完結",
     "ko": "경계",
     "zh": "💰 邊界",
@@ -7141,7 +7324,7 @@ window.BOOK_DATA = [
     "author": "진심（真心）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024/12/13",
+    "date": "2024-12-13",
     "paid": true,
     "episodes": [
       {
@@ -7176,10 +7359,10 @@ window.BOOK_DATA = [
     "author": "달걀（雞蛋）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2024/07/28",
+    "date": "2024-07-28",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "大田西區文化中心",
         "url": "https://docs.google.com/document/d/1aaUCLeQE3yUAnrPPYj_hczwdQ34ASV0MhVGiLC1Ffcc/edit?usp=drivesdk"
       }
@@ -7195,10 +7378,10 @@ window.BOOK_DATA = [
     "author": "꿀구마（蜜地瓜）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/12/16",
+    "date": "2025-12-16",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Hell in heaven",
         "url": "https://docs.google.com/document/d/1U7BJGsVN0RZP7XjhnLrBJ1xvVPwUPyGwjQmIppIFKyM/edit?usp=drivesdk"
       }
@@ -7214,10 +7397,10 @@ window.BOOK_DATA = [
     "author": "꿀구마（蜜地瓜）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/09/07",
+    "date": "2025-09-07",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "即使討厭也再一次",
         "url": "https://docs.google.com/document/d/16BvwdvobKA8K-70k_IDPooFyb9tKbueZ9vLN69dD7-I/edit?usp=drivesdk"
       }
@@ -7233,10 +7416,10 @@ window.BOOK_DATA = [
     "author": "꿀구마（蜜地瓜）",
     "translator": "貢丸",
     "note": "",
-    "date": "2025/07/27",
+    "date": "2025-07-27",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "Baby Rocky",
         "url": "https://docs.google.com/document/d/1JIt3uXbqGMt7OmR8P7Alb_QOCcDirF0uSzxzEwnRVCU/edit?usp=drivesdk"
       }
@@ -7252,10 +7435,10 @@ window.BOOK_DATA = [
     "author": "꿀구마（蜜地瓜）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/11",
+    "date": "2025-05-11",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "時節姻緣",
         "url": "https://docs.google.com/document/d/1fFn0Counh2sMoHO4VVL0Ezbwu-ORVrTervE7K6HbCaE/edit?usp=drivesdk"
       }
@@ -7271,10 +7454,10 @@ window.BOOK_DATA = [
     "author": "꿀구마（蜜地瓜）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025/05/03",
+    "date": "2025-05-03",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "雨後轉晴",
         "url": "https://docs.google.com/document/d/1U59lryAv6q99ZwKAYIM7fKsgEyW8zuf2N0q8cR9Er9A/edit?usp=drivesdk"
       }
@@ -7290,10 +7473,10 @@ window.BOOK_DATA = [
     "author": "꿀구마（蜜地瓜）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025/02/10",
+    "date": "2025-02-10",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "不變成狗的方法",
         "url": "https://docs.google.com/document/d/1gjkvCr-TkIB3i7JruiHtnoj-ZHhoAH285oz3WD5yqX0/edit?usp=drivesdk"
       }
@@ -7309,10 +7492,10 @@ window.BOOK_DATA = [
     "author": "꿀구마（蜜地瓜）",
     "translator": "貢丸",
     "note": "",
-    "date": "2024/12/17",
+    "date": "2024-12-17",
     "episodes": [
       {
-        "label": "",
+        "label": "閱讀",
         "title": "非正常觀察報告書",
         "url": "https://docs.google.com/document/d/14eJqq6qWyDnqFA1lLo4gQLeykC1pZJtE_FOQ0EBtgHo/edit?usp=drivesdk"
       }

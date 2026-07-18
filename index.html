@@ -1171,8 +1171,8 @@
       el.adminPanel.hidden = state.user.role !== "admin";
       if (state.user.role === "admin") {
         const paid = DATA.filter(item => item.paid).length;
-        const episodes = DATA.filter(item => item.episodes && item.episodes.length).length;
-        el.adminStats.textContent = `共 ${DATA.length} 筆，付費 ${paid} 筆，連載 ${episodes} 筆。`;
+        const ongoing = DATA.filter(item => String(item.status || "").includes("連載")).length;
+        el.adminStats.textContent = `共 ${DATA.length} 筆，付費 ${paid} 筆，連載中 ${ongoing} 筆。`;
       }
     }
 
