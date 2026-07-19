@@ -399,6 +399,69 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "계화나무 꽃 그늘 아래",
+    "zh": "💰 桂花樹花蔭下",
+    "original": "https://www.postype.com/@untitle009/post/6596418",
+    "translation": "https://docs.google.com/document/d/1PtrnG0gSglRQq9zApVsy9qFNnxr-JdD83OXM2hl9_Ho/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-20",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "上",
+        "title": "桂花樹花蔭下 上(계화나무 꽃 그늘 아래 上)_noname",
+        "url": "https://docs.google.com/document/d/1PtrnG0gSglRQq9zApVsy9qFNnxr-JdD83OXM2hl9_Ho/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "桂花樹花蔭下 下(계화나무 꽃 그늘 아래 下)_noname",
+        "url": "https://docs.google.com/document/d/1C4ggY5RiCvw3-4Q2du1i4ljyEdYZS1JWxWq-Jq6ajl0/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "아웃사이더 아웃사이더",
+    "zh": "局外人 局外人",
+    "original": "https://www.postype.com/@untitle009/post/7379450",
+    "translation": "https://docs.google.com/document/d/1t8tvfBFQkrRefdu46EgxD3T__10Yuv-ajL9fLOImfBk/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-20",
+    "episodes": [
+      {
+        "label": "",
+        "title": "局外人 局外人",
+        "url": "https://docs.google.com/document/d/1t8tvfBFQkrRefdu46EgxD3T__10Yuv-ajL9fLOImfBk/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "충전이 완료되었습니다",
+    "zh": "充電完成",
+    "original": "https://www.postype.com/@rps-rrr/post/4769019",
+    "translation": "https://docs.google.com/document/d/1_8XCaxO7bS5Z7jPjS7K3y1o4SAOy4EdyPS_khHzFKyM/edit?usp=drivesdk",
+    "author": "익룡",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-20",
+    "episodes": [
+      {
+        "label": "",
+        "title": "充電完成",
+        "url": "https://docs.google.com/document/d/1_8XCaxO7bS5Z7jPjS7K3y1o4SAOy4EdyPS_khHzFKyM/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "季刊",
     "status": "2.已完結",
     "ko": "그대 다시 내게",
@@ -629,7 +692,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1Tvph1VHDqJbEmtPYQ08kUteqy4uziejTSf8fQSyXCt8/edit?usp=drivesdk",
     "author": "내내",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-15",
     "episodes": [
       {
@@ -678,7 +741,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1AJ6STU7-Lf8ghH2p0fSCk3lMEdwz02fV/edit?usp=drivesdk",
     "author": "댕그라미（圈圈）",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-15",
     "episodes": [
       {
@@ -697,7 +760,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1MUhzu1IEtBOdB9WYkRDqrr9asa0JHZiJ/edit?usp=drivesdk",
     "author": "댕그라미（圈圈）",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-15",
     "episodes": [
       {
@@ -716,7 +779,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/11x2qezpJv_WbTuEij4ew50HAmcpHca-WzHhy6ffMjuQ/edit?usp=drivesdk",
     "author": "내내",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-14",
     "episodes": [
       {
@@ -780,7 +843,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1FaK1ULUCjYLo0n94Du3k3mXFx41Xw1CjszyJTuFYCwc/edit?usp=drivesdk",
     "author": "댕그라미（圈圈）",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-14",
     "episodes": [
       {
