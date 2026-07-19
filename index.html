@@ -429,6 +429,23 @@
       font-size: 13px;
     }
 
+    .text-action {
+      appearance: none;
+      border: 0;
+      padding: 0;
+      background: transparent;
+      color: var(--ink);
+      font: inherit;
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .text-action:hover {
+      color: var(--rose);
+    }
+
     .badges {
       display: flex;
       flex-wrap: wrap;
@@ -1133,6 +1150,21 @@
       return `<span class="link-disabled">${label}尚未建立文件預覽</span>`;
     }
 
+    function authorSearchButton(item) {
+      return `<button class="text-action" type="button" data-author-search="${DATA.indexOf(item)}">${item.author || "未填"}</button>`;
+    }
+
+    function searchAuthor(author) {
+      if (!author) return;
+      state.page = "全部";
+      state.status = "全部";
+      state.query = author;
+      el.search.value = author;
+      closeDetail();
+      render();
+      document.querySelector(".toolbar")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
     function protectedLink(item, kind, label) {
       const url = kind === "original" ? item.original : item.translation;
       if (!url) return "";
@@ -1180,7 +1212,7 @@
           <div class="k-title">${item.ko}</div>
           <div class="badges">${badges(item)}</div>
           <div class="meta">
-            <span>原作：${item.author}</span>
+            <span>原作：${authorSearchButton(item)}</span>
             <span>翻譯：${item.translator || "未填"}</span>
             <span>日期：${item.date}</span>
           </div>
@@ -1241,7 +1273,7 @@
       el.modalRows.innerHTML = [
         row("分頁", "#" + item.page),
         row("狀態", statusText(item)),
-        row("原作", item.author),
+        row("原作", authorSearchButton(item)),
         row("翻譯", item.translator),
         row("付費", item.paid ? "是，需付費會員或管理員" : "否"),
         row("譯文", item.episodes && item.episodes.length ? "分集文件預覽" : item.folderFallback ? "尚未建立文件預覽" : "直連 Word/Docs"),
@@ -1330,6 +1362,15 @@
         saveFavorites();
         renderTree();
         renderGrid();
+        return;
+      }
+
+      const authorButton = event.target.closest("[data-author-search]");
+      if (authorButton) {
+        event.preventDefault();
+        event.stopPropagation();
+        const item = DATA[Number(authorButton.dataset.authorSearch)];
+        searchAuthor(item?.author);
         return;
       }
 
