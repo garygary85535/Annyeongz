@@ -406,7 +406,7 @@ window.BOOK_DATA = [
     "original": "https://www.postype.com/@untitle009/post/6596418",
     "translation": "https://docs.google.com/document/d/1PtrnG0gSglRQq9zApVsy9qFNnxr-JdD83OXM2hl9_Ho/edit?usp=drivesdk",
     "author": "noname",
-    "translator": "不是蓋瑞🤓",
+    "translator": "鳳梨",
     "note": "@新入荷",
     "date": "2026-07-20",
     "paid": true,
