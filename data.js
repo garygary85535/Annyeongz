@@ -399,6 +399,25 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "꿈은 이루어진다",
+    "zh": "夢想成真",
+    "original": "https://www.postype.com/@seol-cheong/post/16836051",
+    "translation": "https://docs.google.com/document/d/1G56M6YqskBJBLnaNTuiM9jsXf5uIwhRxMewHmebSzmA/edit?usp=drivesdk",
+    "author": "꿀구마（蜜地瓜）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-20",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "夢想成真",
+        "url": "https://docs.google.com/document/d/1G56M6YqskBJBLnaNTuiM9jsXf5uIwhRxMewHmebSzmA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "noname",
     "status": "2.已完結",
     "ko": "계화나무 꽃 그늘 아래",
