@@ -403,7 +403,7 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "엑시트 플라토닉",
     "zh": "退出柏拉圖",
-    "original": "https://docs.google.com/document/d/1s5YCy6QkFpqLaoEqqtTA7fkLCbb5JTiAxK7C6MOhUAk/edit?usp=drivesdk",
+    "original": "",
     "translation": "https://docs.google.com/document/d/10hBoXYO3JFTdM4CIrBfK9qyv89T7HX0F8iwJpc5TvaQ/edit?usp=drivesdk",
     "author": "익룡",
     "translator": "不是蓋瑞🤓",
