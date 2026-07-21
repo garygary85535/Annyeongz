@@ -845,6 +845,11 @@
       <option value="title">篇名 A-Z</option>
       <option value="author">原作 A-Z</option>
     </select>
+    <select id="updateFilter" class="ctl" aria-label="更新狀態篩選">
+      <option value="全部">全部更新狀態</option>
+      <option value="@新入荷">新入荷</option>
+      <option value="@有更新">有更新</option>
+    </select>
     <button id="theme" class="ctl" type="button">深色</button>
     <div class="account-bar">
       <span class="account-pill" id="accountLabel"></span>
@@ -973,6 +978,7 @@
     const state = {
       page: "全部",
       status: "全部",
+      updateFilter: "全部",
       query: "",
       sort: "date-desc",
       user: JSON.parse(localStorage.getItem("bookPrototypeUser") || "null"),
@@ -996,6 +1002,7 @@
       resultTitle: document.querySelector("#resultTitle"),
       search: document.querySelector("#search"),
       sort: document.querySelector("#sort"),
+      updateFilter: document.querySelector("#updateFilter"),
       theme: document.querySelector("#theme"),
       accountLabel: document.querySelector("#accountLabel"),
       logout: document.querySelector("#logoutBtn"),
@@ -1083,8 +1090,9 @@
         const favoriteOK = state.page !== "我的最愛" || state.favs.has(favoriteKey(item));
         const pageOK = state.page === "全部" || state.page === "我的最愛" || item.page === state.page;
         const statusOK = state.status === "全部" || item.status === state.status;
+        const updateOK = state.updateFilter === "全部" || shortStatusText(item) === state.updateFilter;
         const hay = normalize([item.zh, item.ko, item.author, item.translator, visibleNote(item), shortStatusText(item)].join(" "));
-        return favoriteOK && pageOK && statusOK && (!q || hay.includes(q));
+        return favoriteOK && pageOK && statusOK && updateOK && (!q || hay.includes(q));
       });
 
       if (state.sort === "date-desc") items.sort((a, b) => dateKey(b) - dateKey(a));
@@ -1437,6 +1445,11 @@
 
     el.sort.addEventListener("change", event => {
       state.sort = event.target.value;
+      renderGrid();
+    });
+
+    el.updateFilter.addEventListener("change", event => {
+      state.updateFilter = event.target.value;
       renderGrid();
     });
 
