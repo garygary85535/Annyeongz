@@ -324,7 +324,7 @@
     .main {
       min-width: 0;
       display: grid;
-      gap: 18px;
+      gap: 14px;
     }
 
     .strip {
@@ -396,9 +396,9 @@
     .card {
       position: relative;
       border-left: 4px solid var(--line);
-      padding: 13px 14px;
+      padding: 11px 12px;
       cursor: pointer;
-      min-height: 174px;
+      min-height: 154px;
     }
 
     .card:hover {
@@ -415,21 +415,28 @@
       font-size: 16px;
       padding-right: 36px;
       overflow-wrap: anywhere;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
 
     .k-title {
       color: var(--muted);
-      font-size: 13px;
-      min-height: 20px;
-      margin-bottom: 9px;
+      font-size: 12px;
+      min-height: 18px;
+      margin-bottom: 7px;
       overflow-wrap: anywhere;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .meta {
       display: grid;
-      gap: 6px;
+      gap: 4px;
       color: var(--muted);
-      font-size: 13px;
+      font-size: 12px;
     }
 
     .text-action {
@@ -452,17 +459,17 @@
     .badges {
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
-      margin: 10px 0;
+      gap: 5px;
+      margin: 8px 0;
     }
 
     .badge {
       display: inline-flex;
       align-items: center;
-      min-height: 23px;
+      min-height: 21px;
       border-radius: 999px;
-      padding: 2px 8px;
-      font-size: 12px;
+      padding: 2px 7px;
+      font-size: 11px;
       background: var(--ink-soft);
       color: var(--muted);
     }
@@ -509,19 +516,19 @@
 
     .links {
       display: flex;
-      gap: 7px;
+      gap: 6px;
       flex-wrap: wrap;
-      margin-top: 12px;
+      margin-top: 9px;
     }
 
     .links a, .modal-links a,
     .links .link-disabled, .modal-links .link-disabled {
       border: 1px solid var(--line);
       border-radius: 999px;
-      padding: 5px 9px;
+      padding: 4px 8px;
       color: var(--ink);
       text-decoration: none;
-      font-size: 12px;
+      font-size: 11px;
       line-height: 1.35;
       background: var(--bg);
       max-width: 100%;
@@ -1268,7 +1275,7 @@
     }
 
     function renderLatest() {
-      const items = newArrivalItems().sort((a, b) => dateKey(b) - dateKey(a)).slice(0, 6);
+      const items = newArrivalItems().sort((a, b) => dateKey(b) - dateKey(a)).slice(0, 5);
       el.latest.innerHTML = items.length
         ? items.map(item => `<button class="small-card" type="button" data-id="${DATA.indexOf(item)}"><b>${item.zh}</b><span>#${item.page} · ${item.date}</span></button>`).join("")
         : `<div class="empty">目前沒有新入荷作品</div>`;
