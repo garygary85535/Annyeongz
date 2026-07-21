@@ -3710,7 +3710,7 @@ window.BOOK_DATA = [
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "토끼가 멍멍",
-    "zh": "兔子在汪汪叫（斷尾預警）",
+    "zh": "獸人系列1-兔子在汪汪叫",
     "original": "https://www.postype.com/@chzhtyzm/post/7918481",
     "translation": "https://docs.google.com/document/d/14TamlMkaXG9Fno9tv2UhmsE4l2qNPM727_czzI5h058/edit?usp=drivesdk",
     "author": "초코쇼크（巧克shock）",
@@ -3722,6 +3722,74 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "兔子在汪汪叫",
         "url": "https://docs.google.com/document/d/14TamlMkaXG9Fno9tv2UhmsE4l2qNPM727_czzI5h058/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "냄새맡는 토끼",
+    "zh": "獸人系列2-聞味道的兔子",
+    "original": "https://www.postype.com/@chzhtyzm/post/8757768",
+    "translation": "https://docs.google.com/document/d/1MZ82LIGG9_Oa1Hdn3-wdjCIIUtoZrIGBNoBwjbT3Kkc/edit?usp=drivesdk",
+    "author": "초코쇼크（巧克shock）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-21",
+    "episodes": [
+      {
+        "label": "1",
+        "title": "聞味道的兔子1",
+        "url": "https://docs.google.com/document/d/1MZ82LIGG9_Oa1Hdn3-wdjCIIUtoZrIGBNoBwjbT3Kkc/edit?usp=drivesdk"
+      },
+      {
+        "label": "2",
+        "title": "聞味道的兔子2",
+        "url": "https://docs.google.com/document/d/1mbH0tcLeiO6cz4bDaXrtb_jGXygviaWD5l0tDifXW1c/edit?usp=drivesdk"
+      },
+      {
+        "label": "3",
+        "title": "聞味道的兔子3",
+        "url": "https://docs.google.com/document/d/1aRcGPeC6gm-O5d1ZVA7PsqjhD6p1QUNzgmtWZH0tvPA/edit?usp=drivesdk"
+      },
+      {
+        "label": "4",
+        "title": "聞味道的兔子4",
+        "url": "https://docs.google.com/document/d/14cxAgD0kdjOoKTxpMNTerCq2Fxq0IZxQ_CJ6r2Mq-BM/edit?usp=drivesdk"
+      },
+      {
+        "label": "5",
+        "title": "聞味道的兔子5",
+        "url": "https://docs.google.com/document/d/1lF1SZ648q4Ls-kv3zsqUnnn6xGAbdTz-V0b83Ro2nkI/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "냄새나는 토끼",
+    "zh": "獸人系列3-有味道的兔子",
+    "original": "https://www.postype.com/@chzhtyzm/post/8921936",
+    "translation": "https://docs.google.com/document/d/1EY976O6W6ZPsTNCa81Ig8O9gG8xxuDjInAONA4hXjoU/edit?usp=drivesdk",
+    "author": "초코쇼크（巧克shock）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-21",
+    "episodes": [
+      {
+        "label": "1",
+        "title": "有味道的兔子1",
+        "url": "https://docs.google.com/document/d/1EY976O6W6ZPsTNCa81Ig8O9gG8xxuDjInAONA4hXjoU/edit?usp=drivesdk"
+      },
+      {
+        "label": "2",
+        "title": "有味道的兔子2",
+        "url": "https://docs.google.com/document/d/1l1Pbswy61gs5NNQAbU7IV9nSAdV8vqgOooHXKHaqCnk/edit?usp=drivesdk"
+      },
+      {
+        "label": "3",
+        "title": "有味道的兔子3",
+        "url": "https://docs.google.com/document/d/1xsfzEQHhqUJi746zB2Wb_bSYvjWd5RFalaoz3nlzzzI/edit?usp=drivesdk"
       }
     ]
   },
