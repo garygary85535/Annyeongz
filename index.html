@@ -1023,9 +1023,19 @@
       return new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]));
     }
 
+    const SHORT_STATUS_DAYS = 7;
+
     function dateKey(item) {
       const date = parseDate(item.date);
       return date ? Number(String(item.date).replace(/\D/g, "").slice(0, 8)) : 0;
+    }
+
+    function dateAgeDays(item) {
+      const date = parseDate(item.date);
+      if (!date) return Infinity;
+      const now = new Date();
+      const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      return Math.floor((today - date) / 86400000);
     }
 
     function normalize(value) {
@@ -1038,6 +1048,23 @@
 
     function statusText(item) {
       return String(item.status || "未分類").replace(/^\d\./, "");
+    }
+
+    function isShortStatusActive(item) {
+      const age = dateAgeDays(item);
+      return age >= 0 && age < SHORT_STATUS_DAYS;
+    }
+
+    function shortStatusText(item) {
+      if (!isShortStatusActive(item)) return "";
+      const status = String(item.status || "");
+      if (status.includes("連載") || status.includes("翻譯中")) return "@有更新";
+      if (status.includes("已完結")) return "@新入荷";
+      return "";
+    }
+
+    function visibleNote(item) {
+      return String(item.note || "").replace(/@(?:新入荷|有更新)/g, "").trim();
     }
 
     function canRead(item) {
@@ -1056,7 +1083,7 @@
         const favoriteOK = state.page !== "我的最愛" || state.favs.has(favoriteKey(item));
         const pageOK = state.page === "全部" || state.page === "我的最愛" || item.page === state.page;
         const statusOK = state.status === "全部" || item.status === state.status;
-        const hay = normalize([item.zh, item.ko, item.author, item.translator, item.note].join(" "));
+        const hay = normalize([item.zh, item.ko, item.author, item.translator, visibleNote(item), shortStatusText(item)].join(" "));
         return favoriteOK && pageOK && statusOK && (!q || hay.includes(q));
       });
 
@@ -1067,7 +1094,7 @@
     }
 
     function newArrivalItems() {
-      return DATA.filter(item => /@新入荷/.test(item.note || ""));
+      return DATA.filter(item => shortStatusText(item) === "@新入荷");
     }
 
     function recentItems() {
@@ -1123,7 +1150,8 @@
         <span class="badge page">#${item.page}</span>
         ${item.paid ? `<span class="badge paid">付費</span>` : ""}
         ${item.folderFallback ? `<span class="badge paid">資料夾</span>` : ""}
-        ${item.note ? `<span class="badge new">${item.note}</span>` : ""}
+        ${shortStatusText(item) ? `<span class="badge new">${shortStatusText(item)}</span>` : ""}
+        ${visibleNote(item) ? `<span class="badge new">${visibleNote(item)}</span>` : ""}
       `;
     }
 
@@ -1277,7 +1305,7 @@
         row("翻譯", item.translator),
         row("付費", item.paid ? "是，需付費會員或管理員" : "否"),
         row("譯文", item.episodes && item.episodes.length ? "分集文件預覽" : item.folderFallback ? "尚未建立文件預覽" : "直連 Word/Docs"),
-        row("備註", item.note),
+        row("備註", [shortStatusText(item), visibleNote(item)].filter(Boolean).join(" ")),
         row("日期", item.date)
       ].join("");
       el.modalLinks.innerHTML = `
