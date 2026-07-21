@@ -399,6 +399,44 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "엑시트 플라토닉",
+    "zh": "退出柏拉圖",
+    "original": "https://docs.google.com/document/d/1s5YCy6QkFpqLaoEqqtTA7fkLCbb5JTiAxK7C6MOhUAk/edit?usp=drivesdk",
+    "translation": "https://docs.google.com/document/d/10hBoXYO3JFTdM4CIrBfK9qyv89T7HX0F8iwJpc5TvaQ/edit?usp=drivesdk",
+    "author": "익룡",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-21",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "退出柏拉圖(엑시트 플라토닉)_익룡",
+        "url": "https://docs.google.com/document/d/10hBoXYO3JFTdM4CIrBfK9qyv89T7HX0F8iwJpc5TvaQ/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "뜯고 뜯기는 연애",
+    "zh": "啃與被啃的戀愛",
+    "original": "https://docs.google.com/document/d/1YjJciypt-FpuyOR_rDkM-KasrabL8MxvqDTIdTSK-fY/edit?usp=drivesdk",
+    "translation": "https://docs.google.com/document/d/1H7lf8361fI9d6nr0ITud9og_x44ymWU7nN7WaeRiUGY/edit?usp=drivesdk",
+    "author": "댕그라미（圈圈）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-21",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "啃與被啃的戀愛(뜯고 뜯기는 연애)_댕그라미",
+        "url": "https://docs.google.com/document/d/1H7lf8361fI9d6nr0ITud9og_x44ymWU7nN7WaeRiUGY/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "蜜地瓜",
     "status": "2.已完結",
     "ko": "꿈은 이루어진다",
