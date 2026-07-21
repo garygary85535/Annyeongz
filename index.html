@@ -210,8 +210,8 @@
     }
 
     .shell {
-      width: min(1220px, calc(100% - 28px));
-      margin: 18px auto 48px;
+      width: calc(100% - 28px);
+      margin: 18px 14px 48px;
       display: grid;
       grid-template-columns: 260px 1fr;
       gap: 18px;
@@ -655,6 +655,8 @@
 
       .shell {
         grid-template-columns: 1fr;
+        margin-left: auto;
+        margin-right: auto;
       }
 
       .panel {
@@ -1293,7 +1295,7 @@
       el.authView.hidden = loggedIn;
       el.appRoot.hidden = !loggedIn;
       if (!loggedIn) return;
-      el.accountLabel.textContent = `${state.user.name} · ${roleLabel(state.user)}`;
+      el.accountLabel.textContent = roleLabel(state.user);
       el.adminPanel.hidden = state.user.role !== "admin";
       if (state.user.role === "admin") {
         const paid = DATA.filter(item => item.paid).length;
