@@ -819,6 +819,13 @@
         grid-template-columns: 1fr 1fr;
       }
 
+      .board-form input,
+      .board-form select,
+      .board-form textarea,
+      .board-form button {
+        font-size: 16px;
+      }
+
       .shell {
         width: calc(100% - 18px);
         margin-top: 12px;
@@ -1389,6 +1396,7 @@
           <div class="links">
             ${protectedLink(item, "original", "原文")}
             ${item.episodes && item.episodes.length ? episodeLinks(item) : protectedLink(item, "translation", "譯文")}
+            <a href="#" data-comment-for="${id}" onclick="event.preventDefault();event.stopPropagation()">留言</a>
           </div>
         </article>
       `;
@@ -1458,12 +1466,16 @@
       el.resultTitle.textContent = "留言板";
       el.countText.textContent = `目前 ${state.boardPosts.length} 則留言。試用版只保存在這台裝置。`;
       el.grid.classList.add("board-mode");
+      const presetId = state.boardPresetId;
+      const presetItem = DATA[presetId];
+      const presetSearch = presetItem ? presetItem.zh : "";
+      const presetValue = presetItem ? `${presetId}|` : "";
       el.grid.innerHTML = `
         <section class="board">
           <form class="board-form" id="boardForm">
             <input name="nickname" maxlength="20" placeholder="暱稱" required>
-            <input name="quoteSearch" placeholder="搜尋引用文章">
-            <select name="quote">${boardQuoteOptions()}</select>
+            <input name="quoteSearch" placeholder="搜尋引用文章" value="${escapeHtml(presetSearch)}">
+            <select name="quote">${boardQuoteOptions(presetSearch)}</select>
             <textarea name="message" maxlength="300" placeholder="想聊什麼？" required></textarea>
             <button class="ctl" type="submit">送出</button>
           </form>
@@ -1472,6 +1484,10 @@
           </div>
         </section>
       `;
+      if (presetValue) {
+        const form = document.querySelector("#boardForm");
+        if (form && [...form.quote.options].some(option => option.value === presetValue)) form.quote.value = presetValue;
+      }
     }
 
     function renderLatest() {
@@ -1538,9 +1554,20 @@
       el.modalLinks.innerHTML = `
         ${protectedLink(item, "original", "原文連結")}
         ${item.episodes && item.episodes.length ? episodeLinks(item) : protectedLink(item, "translation", "譯文連結")}
+        <a href="#" data-comment-for="${id}" onclick="event.preventDefault();event.stopPropagation()">去留言</a>
       `;
       el.modal.classList.add("open");
       el.modal.setAttribute("aria-hidden", "false");
+    }
+
+    function openBoardForItem(id) {
+      const item = DATA[id];
+      if (!item) return;
+      state.page = "留言板";
+      state.boardPresetId = id;
+      closeDetail();
+      render();
+      document.querySelector("#boardForm")?.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
     function openProtected(id, kind) {
@@ -1629,6 +1656,14 @@
         return;
       }
 
+      const commentButton = event.target.closest("[data-comment-for]");
+      if (commentButton) {
+        event.preventDefault();
+        event.stopPropagation();
+        openBoardForItem(Number(commentButton.dataset.commentFor));
+        return;
+      }
+
       const citationButton = event.target.closest("[data-open-citation]");
       if (citationButton) {
         event.preventDefault();
@@ -1673,6 +1708,7 @@
 
     document.addEventListener("input", event => {
       if (event.target.name !== "quoteSearch" || event.target.form?.id !== "boardForm") return;
+      state.boardPresetId = null;
       const select = event.target.form.quote;
       const current = select.value;
       select.innerHTML = boardQuoteOptions(event.target.value);
