@@ -99,8 +99,8 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1zMnO_WFtMNndF_40yDP7Xqst5GtfO-JKW61Qh3vuM8M/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨&不是蓋瑞🤓",
-    "note": "",
-    "date": "2026-07-13",
+    "note": "@有更新",
+    "date": "2026-07-22",
     "paid": true,
     "episodes": [
       {
@@ -202,6 +202,11 @@ window.BOOK_DATA = [
         "label": "EP19",
         "title": "汝矣島風雲19",
         "url": "https://docs.google.com/document/d/1VoeoJGWSDUAL4zyPin9wkkCIm9YrX-Kr2bNiEykr1Kc/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP20",
+        "title": "汝矣島風雲20",
+        "url": "https://docs.google.com/document/d/1EClaymp4DHHqdAq4Fz5kJAlZrYa8Rq4OYdd0eeU8TVE/edit?usp=drivesdk"
       }
     ]
   },
