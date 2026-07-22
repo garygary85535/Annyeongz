@@ -1,5 +1,67 @@
 window.BOOK_DATA = [
   {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "차르봄바 러브",
+    "zh": "沙皇炸彈之戀",
+    "original": "https://www.postype.com/@seol-cheong/post/16241791",
+    "translation": "https://docs.google.com/document/d/1ywOxOwaDgWQme2D-f6RrGCIWLcmMW1ytgnErI4cNsuI/edit?usp=drivesdk",
+    "author": "꿀구마（蜜地瓜）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-22",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "沙皇炸彈之戀(차르봄바 러브)_꿀구마",
+        "url": "https://docs.google.com/document/d/1ywOxOwaDgWQme2D-f6RrGCIWLcmMW1ytgnErI4cNsuI/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "사랑합니다, 고갱님",
+    "zh": "愛您唷，顧客大人",
+    "original": "https://www.postype.com/@izonerjangrjang/post/4893181",
+    "translation": "https://docs.google.com/document/d/145OoKziSMfFxMQCFqZ9O7dbbs5vV897I-6oJgn7SrA0/edit?usp=drivesdk",
+    "author": "알장",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-22",
+    "episodes": [
+      {
+        "label": "上",
+        "title": "愛您唷，顧客大人 上(사랑합니다, 고갱님 上)_알장",
+        "url": "https://docs.google.com/document/d/145OoKziSMfFxMQCFqZ9O7dbbs5vV897I-6oJgn7SrA0/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "愛您唷，顧客大人 下(사랑합니다, 고갱님 下)_알장",
+        "url": "https://docs.google.com/document/d/1BPoSimh-n1vKubKow2D2Bo_OSaOqkXt-nr6CMQy2jT8/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "라스트콜",
+    "zh": "Last Call",
+    "original": "https://www.postype.com/@dxg7783/post/6731473",
+    "translation": "https://docs.google.com/document/d/1QHNJrmRNty0XMrYatxx1Tu1mhHB5BFKvVGO5ASBMljk/edit?usp=drivesdk",
+    "author": "개",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-22",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "Last Call(라스트콜)_개",
+        "url": "https://docs.google.com/document/d/1QHNJrmRNty0XMrYatxx1Tu1mhHB5BFKvVGO5ASBMljk/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "其他老師",
     "status": "0.連載中",
     "ko": "페이지를 찾을 수 없습니다",
