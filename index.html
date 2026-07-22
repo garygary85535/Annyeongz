@@ -561,7 +561,7 @@
 
     .board-form {
       display: grid;
-      grid-template-columns: minmax(110px, .45fr) minmax(190px, .8fr) 1fr auto;
+      grid-template-columns: minmax(100px, .35fr) minmax(140px, .5fr) minmax(190px, .8fr) 1fr auto;
       gap: 8px;
       align-items: start;
       margin-bottom: 14px;
@@ -1263,9 +1263,9 @@
       const total = DATA.length;
       const favoriteCount = DATA.filter(item => state.favs.has(favoriteKey(item))).length;
       const pages = [
+        { name: "留言板", count: state.boardPosts.length },
         { name: "全部", count: total },
         { name: "我的最愛", count: favoriteCount },
-        { name: "留言板", count: state.boardPosts.length },
         ...pageCounts()
       ];
       el.tree.innerHTML = pages.map(p => `
@@ -1394,19 +1394,32 @@
       `;
     }
 
-    function boardQuoteOptions() {
+    function boardQuoteEntries() {
       const items = DATA
         .map((item, id) => ({ item, id }))
         .sort((a, b) => dateKey(b.item) - dateKey(a.item) || a.item.zh.localeCompare(b.item.zh, "zh-Hant"));
+      return items.flatMap(({ item, id }) => {
+        const haystack = [item.zh, item.ko, item.author, item.translator, item.page].join(" ");
+        const base = { value: `${id}|`, label: item.zh, haystack };
+        const episodes = Array.isArray(item.episodes)
+          ? item.episodes.map((episode, index) => ({
+              value: `${id}|${index}`,
+              label: `${item.zh} / ${episodeButtonText(episode)}`,
+              haystack: `${haystack} ${episodeButtonText(episode)} ${episode.title || ""} ${episode.label || ""}`
+            }))
+          : [];
+        return [base, ...episodes];
+      });
+    }
+
+    function boardQuoteOptions(query = "") {
+      const q = normalize(query);
+      const entries = boardQuoteEntries()
+        .filter(entry => !q || normalize(`${entry.label} ${entry.haystack}`).includes(q))
+        .slice(0, 160);
       return [
         `<option value="">不引用文章</option>`,
-        ...items.flatMap(({ item, id }) => {
-          const base = `<option value="${id}|">${escapeHtml(item.zh)}</option>`;
-          const episodes = Array.isArray(item.episodes)
-            ? item.episodes.map((episode, index) => `<option value="${id}|${index}">${escapeHtml(item.zh)} / ${escapeHtml(episodeButtonText(episode))}</option>`)
-            : [];
-          return [base, ...episodes];
-        })
+        ...entries.map(entry => `<option value="${entry.value}">${escapeHtml(entry.label)}</option>`)
       ].join("");
     }
 
@@ -1449,6 +1462,7 @@
         <section class="board">
           <form class="board-form" id="boardForm">
             <input name="nickname" maxlength="20" placeholder="暱稱" required>
+            <input name="quoteSearch" placeholder="搜尋引用文章">
             <select name="quote">${boardQuoteOptions()}</select>
             <textarea name="message" maxlength="300" placeholder="想聊什麼？" required></textarea>
             <button class="ctl" type="submit">送出</button>
@@ -1655,6 +1669,14 @@
       saveBoardPosts();
       renderTree();
       renderBoard();
+    });
+
+    document.addEventListener("input", event => {
+      if (event.target.name !== "quoteSearch" || event.target.form?.id !== "boardForm") return;
+      const select = event.target.form.quote;
+      const current = select.value;
+      select.innerHTML = boardQuoteOptions(event.target.value);
+      if ([...select.options].some(option => option.value === current)) select.value = current;
     });
 
     el.loginForm.addEventListener("submit", event => {
