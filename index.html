@@ -547,6 +547,97 @@
       border-color: var(--rose);
     }
 
+    .grid.board-mode {
+      display: block;
+    }
+
+    .board {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 14px;
+    }
+
+    .board-form {
+      display: grid;
+      grid-template-columns: minmax(110px, .45fr) minmax(190px, .8fr) 1fr auto;
+      gap: 8px;
+      align-items: start;
+      margin-bottom: 14px;
+    }
+
+    .board-form input,
+    .board-form select,
+    .board-form textarea {
+      width: 100%;
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 9px 10px;
+      background: var(--bg);
+      color: var(--ink);
+      font: inherit;
+      font-size: 13px;
+    }
+
+    .board-form textarea {
+      min-height: 42px;
+      resize: vertical;
+    }
+
+    .board-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .board-post {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 11px;
+      background: color-mix(in srgb, var(--card) 86%, var(--bg));
+    }
+
+    .board-post-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 7px;
+    }
+
+    .board-post-head strong {
+      color: var(--ink);
+      font-size: 13px;
+    }
+
+    .quote-btn {
+      appearance: none;
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 9px;
+      background: var(--rose-soft);
+      color: var(--ink);
+      text-align: left;
+      cursor: pointer;
+      font: inherit;
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+
+    .quote-btn:hover {
+      border-color: var(--rose);
+    }
+
+    .board-message {
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
     .empty {
       border: 1px dashed var(--line);
       border-radius: 8px;
@@ -789,6 +880,10 @@
         padding: 8px 10px;
       }
 
+      .board-form {
+        grid-template-columns: 1fr;
+      }
+
       .modal-links {
         display: grid;
         grid-template-columns: 1fr;
@@ -944,6 +1039,7 @@
     const DATA = window.BOOK_DATA || [];
     const FAVORITE_STORAGE_KEY = "annyeongzFavoriteKeys";
     const LEGACY_FAVORITE_STORAGE_KEY = "bookPrototypeFavs";
+    const BOARD_STORAGE_KEY = "annyeongzBoardPosts";
 
     const USERS = [
       { email: "annyeongz", password: "annyeongz831901", name: "付費會員", role: "premium" },
@@ -989,6 +1085,15 @@
       localStorage.setItem(FAVORITE_STORAGE_KEY, JSON.stringify([...state.favs]));
     }
 
+    function loadBoardPosts() {
+      const saved = readJsonStorage(BOARD_STORAGE_KEY, []);
+      return Array.isArray(saved) ? saved : [];
+    }
+
+    function saveBoardPosts() {
+      localStorage.setItem(BOARD_STORAGE_KEY, JSON.stringify(state.boardPosts.slice(0, 100)));
+    }
+
     const state = {
       page: "全部",
       status: "全部",
@@ -996,7 +1101,8 @@
       query: "",
       sort: "date-desc",
       user: JSON.parse(localStorage.getItem("bookPrototypeUser") || "null"),
-      favs: new Set(loadFavorites())
+      favs: new Set(loadFavorites()),
+      boardPosts: loadBoardPosts()
     };
 
     const el = {
@@ -1061,6 +1167,15 @@
 
     function normalize(value) {
       return String(value || "").toLowerCase().replace(/\s+/g, "");
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
     }
 
     function statusClass(item) {
@@ -1147,7 +1262,12 @@
     function renderTree() {
       const total = DATA.length;
       const favoriteCount = DATA.filter(item => state.favs.has(favoriteKey(item))).length;
-      const pages = [{ name: "全部", count: total }, { name: "我的最愛", count: favoriteCount }, ...pageCounts()];
+      const pages = [
+        { name: "全部", count: total },
+        { name: "我的最愛", count: favoriteCount },
+        { name: "留言板", count: state.boardPosts.length },
+        ...pageCounts()
+      ];
       el.tree.innerHTML = pages.map(p => `
         <button type="button" class="${state.page === p.name ? "active" : ""}" data-page="${p.name}">
           <span>${p.name === "全部" ? "書目總覽" : p.name}</span>
@@ -1274,6 +1394,72 @@
       `;
     }
 
+    function boardQuoteOptions() {
+      const items = DATA
+        .map((item, id) => ({ item, id }))
+        .sort((a, b) => dateKey(b.item) - dateKey(a.item) || a.item.zh.localeCompare(b.item.zh, "zh-Hant"));
+      return [
+        `<option value="">不引用文章</option>`,
+        ...items.flatMap(({ item, id }) => {
+          const base = `<option value="${id}|">${escapeHtml(item.zh)}</option>`;
+          const episodes = Array.isArray(item.episodes)
+            ? item.episodes.map((episode, index) => `<option value="${id}|${index}">${escapeHtml(item.zh)} / ${escapeHtml(episodeButtonText(episode))}</option>`)
+            : [];
+          return [base, ...episodes];
+        })
+      ].join("");
+    }
+
+    function formatPostTime(value) {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return "";
+      return date.toLocaleString("zh-TW", {
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+    }
+
+    function renderBoardPost(post) {
+      const workId = Number(post.workId);
+      const item = DATA[workId];
+      const episodeIndex = post.episodeIndex === "" || post.episodeIndex === null ? "" : Number(post.episodeIndex);
+      const episode = item && episodeIndex !== "" && item.episodes ? item.episodes[episodeIndex] : null;
+      const quote = item
+        ? `引用：《${item.zh}》${episode ? ` ${episodeButtonText(episode)}` : ""}`
+        : post.quoteTitle || "";
+      return `
+        <article class="board-post">
+          <div class="board-post-head">
+            <strong>${escapeHtml(post.nickname || "匿名")}</strong>
+            <span>${escapeHtml(formatPostTime(post.createdAt))}</span>
+          </div>
+          ${quote ? `<button class="quote-btn" type="button" data-open-citation="${workId}" data-open-episode="${episodeIndex}">${escapeHtml(quote)}</button>` : ""}
+          <div class="board-message">${escapeHtml(post.message)}</div>
+        </article>
+      `;
+    }
+
+    function renderBoard() {
+      el.resultTitle.textContent = "留言板";
+      el.countText.textContent = `目前 ${state.boardPosts.length} 則留言。試用版只保存在這台裝置。`;
+      el.grid.classList.add("board-mode");
+      el.grid.innerHTML = `
+        <section class="board">
+          <form class="board-form" id="boardForm">
+            <input name="nickname" maxlength="20" placeholder="暱稱" required>
+            <select name="quote">${boardQuoteOptions()}</select>
+            <textarea name="message" maxlength="300" placeholder="想聊什麼？" required></textarea>
+            <button class="ctl" type="submit">送出</button>
+          </form>
+          <div class="board-list">
+            ${state.boardPosts.length ? state.boardPosts.map(renderBoardPost).join("") : `<div class="empty">還沒有留言</div>`}
+          </div>
+        </section>
+      `;
+    }
+
     function renderLatest() {
       const items = newArrivalItems().sort((a, b) => dateKey(b) - dateKey(a)).slice(0, 5);
       el.latest.innerHTML = items.length
@@ -1282,7 +1468,12 @@
     }
 
     function renderGrid() {
+      if (state.page === "留言板") {
+        renderBoard();
+        return;
+      }
       const items = visibleItems();
+      el.grid.classList.remove("board-mode");
       el.resultTitle.textContent = state.page === "全部" ? "全部作品" : state.page === "我的最愛" ? "我的最愛" : `#${state.page}`;
       el.countText.textContent = `${items.length} / ${DATA.length} 筆，依目前條件顯示`;
       el.grid.innerHTML = items.length ? items.map(card).join("") : `<div class="empty">${state.page === "我的最愛" ? "還沒有收藏作品" : "找不到符合條件的作品"}</div>`;
@@ -1424,8 +1615,46 @@
         return;
       }
 
+      const citationButton = event.target.closest("[data-open-citation]");
+      if (citationButton) {
+        event.preventDefault();
+        event.stopPropagation();
+        const id = Number(citationButton.dataset.openCitation);
+        const episode = citationButton.dataset.openEpisode;
+        if (episode !== "" && DATA[id]?.episodes?.[Number(episode)]) {
+          openProtected(id, `episode:${episode}`);
+        } else {
+          openDetail(id);
+        }
+        return;
+      }
+
       const cardEl = event.target.closest("[data-id]");
       if (cardEl) openDetail(Number(cardEl.dataset.id));
+    });
+
+    document.addEventListener("submit", event => {
+      if (event.target.id !== "boardForm") return;
+      event.preventDefault();
+      const form = event.target;
+      const nickname = form.nickname.value.trim().slice(0, 20);
+      const message = form.message.value.trim().slice(0, 300);
+      const [workId = "", episodeIndex = ""] = String(form.quote.value || "").split("|");
+      if (!nickname || !message) return;
+      const item = DATA[Number(workId)];
+      const episode = item && episodeIndex !== "" && item.episodes ? item.episodes[Number(episodeIndex)] : null;
+      state.boardPosts.unshift({
+        id: `${Date.now()}-${Math.random().toString(16).slice(2)}`,
+        nickname,
+        message,
+        workId,
+        episodeIndex,
+        quoteTitle: item ? `${item.zh}${episode ? ` ${episodeButtonText(episode)}` : ""}` : "",
+        createdAt: new Date().toISOString()
+      });
+      saveBoardPosts();
+      renderTree();
+      renderBoard();
     });
 
     el.loginForm.addEventListener("submit", event => {
