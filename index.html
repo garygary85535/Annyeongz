@@ -413,7 +413,7 @@
       margin: 0 0 5px;
       font-weight: 700;
       font-size: 16px;
-      padding-right: 36px;
+      padding-right: 86px;
       overflow-wrap: anywhere;
       display: -webkit-box;
       -webkit-line-clamp: 2;
@@ -514,6 +514,20 @@
       border-color: color-mix(in srgb, var(--rose) 54%, transparent);
     }
 
+    .card-actions {
+      position: absolute;
+      right: 9px;
+      top: 9px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .card-actions .fav {
+      position: static;
+      flex: 0 0 auto;
+    }
+
     .links {
       display: flex;
       gap: 6px;
@@ -559,6 +573,28 @@
 
     .links a.comment-link:hover,
     .modal-links a.comment-link:hover {
+      background: var(--rose);
+      border-color: var(--rose);
+      color: #fff;
+    }
+
+    .card-actions .comment-link {
+      display: grid;
+      place-items: center;
+      min-width: 38px;
+      height: 30px;
+      border-radius: 6px;
+      background: var(--ink);
+      border: 1px solid var(--ink);
+      color: var(--bg);
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 1;
+      text-decoration: none;
+      padding: 0 7px;
+    }
+
+    .card-actions .comment-link:hover {
       background: var(--rose);
       border-color: var(--rose);
       color: #fff;
@@ -1427,7 +1463,10 @@
       const fav = state.favs.has(key);
       return `
         <article class="card status-${statusClass(item)}" data-id="${id}" tabindex="0">
-          <button class="fav" type="button" data-fav="${id}" aria-label="${fav ? "取消收藏" : "收藏"}" aria-pressed="${fav}">${fav ? "♥" : "♡"}</button>
+          <div class="card-actions">
+            <a class="comment-link" href="#" data-comment-for="${id}">留言</a>
+            <button class="fav" type="button" data-fav="${id}" aria-label="${fav ? "取消收藏" : "收藏"}" aria-pressed="${fav}">${fav ? "♥" : "♡"}</button>
+          </div>
           <h3 class="title">${item.zh}</h3>
           <div class="k-title">${item.ko}</div>
           <div class="badges">${badges(item)}</div>
@@ -1439,7 +1478,6 @@
           <div class="links">
             ${protectedLink(item, "original", "原文")}
             ${item.episodes && item.episodes.length ? episodeLinks(item) : protectedLink(item, "translation", "譯文")}
-            <a class="comment-link" href="#" data-comment-for="${id}">留言</a>
           </div>
         </article>
       `;
