@@ -574,6 +574,7 @@
       border-radius: 8px;
       box-shadow: var(--shadow);
       padding: 14px;
+      scroll-margin-top: 92px;
     }
 
     .board-form {
@@ -627,6 +628,31 @@
     .board-post-head strong {
       color: var(--ink);
       font-size: 13px;
+    }
+
+    .board-post-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 0 0 auto;
+    }
+
+    .delete-post {
+      appearance: none;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 3px 7px;
+      background: var(--bg);
+      color: var(--muted);
+      cursor: pointer;
+      font: inherit;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .delete-post:hover {
+      border-color: var(--rose);
+      color: var(--rose);
     }
 
     .quote-btn {
@@ -1471,12 +1497,29 @@
         <article class="board-post">
           <div class="board-post-head">
             <strong>${escapeHtml(post.nickname || "匿名")}</strong>
-            <span>${escapeHtml(formatPostTime(post.createdAt))}</span>
+            <span class="board-post-meta">
+              <span>${escapeHtml(formatPostTime(post.createdAt))}</span>
+              <button class="delete-post" type="button" data-delete-post="${escapeHtml(post.id)}">刪除</button>
+            </span>
           </div>
           ${quote ? `<button class="quote-btn" type="button" data-open-citation="${workId}" data-open-episode="${episodeIndex}">${escapeHtml(quote)}</button>` : ""}
           <div class="board-message">${escapeHtml(post.message)}</div>
         </article>
       `;
+    }
+
+    function deleteBoardPost(id) {
+      const code = String(Math.floor(1000 + Math.random() * 9000));
+      const input = window.prompt(`請輸入驗證碼 ${code} 以確認刪除留言`);
+      if (input === null) return;
+      if (input.trim() !== code) {
+        window.alert("驗證碼不正確，留言未刪除。");
+        return;
+      }
+      state.boardPosts = state.boardPosts.filter(post => post.id !== id);
+      saveBoardPosts();
+      renderTree();
+      renderBoard();
     }
 
     function renderBoard() {
@@ -1584,7 +1627,13 @@
       state.boardPresetId = id;
       closeDetail();
       render();
-      document.querySelector("#boardForm")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      scrollToBoard();
+    }
+
+    function scrollToBoard() {
+      requestAnimationFrame(() => {
+        document.querySelector(".board")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
     }
 
     function openProtected(id, kind) {
@@ -1642,6 +1691,7 @@
       if (pageButton) {
         state.page = pageButton.dataset.page;
         render();
+        if (state.page === "留言板") scrollToBoard();
         return;
       }
 
@@ -1678,6 +1728,14 @@
         event.preventDefault();
         event.stopPropagation();
         openBoardForItem(Number(commentButton.dataset.commentFor));
+        return;
+      }
+
+      const deletePostButton = event.target.closest("[data-delete-post]");
+      if (deletePostButton) {
+        event.preventDefault();
+        event.stopPropagation();
+        deleteBoardPost(deletePostButton.dataset.deletePost);
         return;
       }
 
