@@ -547,6 +547,23 @@
       border-color: var(--rose);
     }
 
+    .links a.comment-link,
+    .modal-links a.comment-link {
+      border-radius: 6px;
+      background: var(--ink);
+      border-color: var(--ink);
+      color: var(--bg);
+      font-weight: 700;
+      padding: 4px 9px;
+    }
+
+    .links a.comment-link:hover,
+    .modal-links a.comment-link:hover {
+      background: var(--rose);
+      border-color: var(--rose);
+      color: #fff;
+    }
+
     .grid.board-mode {
       display: block;
     }
@@ -1396,7 +1413,7 @@
           <div class="links">
             ${protectedLink(item, "original", "原文")}
             ${item.episodes && item.episodes.length ? episodeLinks(item) : protectedLink(item, "translation", "譯文")}
-            <a href="#" data-comment-for="${id}" onclick="event.preventDefault();event.stopPropagation()">留言</a>
+            <a class="comment-link" href="#" data-comment-for="${id}">留言</a>
           </div>
         </article>
       `;
@@ -1554,7 +1571,7 @@
       el.modalLinks.innerHTML = `
         ${protectedLink(item, "original", "原文連結")}
         ${item.episodes && item.episodes.length ? episodeLinks(item) : protectedLink(item, "translation", "譯文連結")}
-        <a href="#" data-comment-for="${id}" onclick="event.preventDefault();event.stopPropagation()">去留言</a>
+        <a class="comment-link" href="#" data-comment-for="${id}">去留言</a>
       `;
       el.modal.classList.add("open");
       el.modal.setAttribute("aria-hidden", "false");
