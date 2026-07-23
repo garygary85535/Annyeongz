@@ -404,6 +404,25 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "청산별곡",
+    "zh": "青山別曲",
+    "original": "",
+    "translation": "https://docs.google.com/document/d/1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg/edit?usp=drivesdk",
+    "author": "득춘",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-23",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "青山別曲",
+        "url": "https://docs.google.com/document/d/1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "noname",
     "status": "2.已完結",
     "ko": "키링, 들러리 앤 릴펌",
@@ -7645,25 +7664,6 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "大田西區文化中心",
         "url": "https://docs.google.com/document/d/1aaUCLeQE3yUAnrPPYj_hczwdQ34ASV0MhVGiLC1Ffcc/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "청산별곡",
-    "zh": "青山別曲",
-    "original": "",
-    "translation": "https://docs.google.com/document/d/1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg/edit?usp=drivesdk",
-    "author": "득춘",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-23",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "青山別曲",
-        "url": "https://docs.google.com/document/d/1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg/edit?usp=drivesdk"
       }
     ]
   },
