@@ -758,12 +758,15 @@
       height: min(88vh, 820px);
       padding: 14px;
       display: grid;
+      grid-template-columns: minmax(0, 1fr);
       grid-template-rows: auto 1fr;
       gap: 10px;
     }
 
     .reader-frame {
       width: 100%;
+      max-width: 100%;
+      min-width: 0;
       height: 100%;
       border: 1px solid var(--line);
       border-radius: 8px;
@@ -775,6 +778,11 @@
       gap: 12px;
       justify-content: space-between;
       align-items: start;
+      min-width: 0;
+    }
+
+    .sheet-head > div {
+      min-width: 0;
     }
 
     .close {
@@ -1386,7 +1394,10 @@
     function previewUrl(url) {
       if (!url) return "";
       const docsMatch = url.match(/docs\.google\.com\/document\/d\/([^/?#]+)/);
-      if (docsMatch) return `https://docs.google.com/document/d/${docsMatch[1]}/preview`;
+      if (docsMatch) {
+        const mode = window.matchMedia("(max-width: 640px)").matches ? "mobilebasic" : "preview";
+        return `https://docs.google.com/document/d/${docsMatch[1]}/${mode}`;
+      }
       const fileMatch = url.match(/drive\.google\.com\/file\/d\/([^/?#]+)/);
       if (fileMatch) return `https://drive.google.com/file/d/${fileMatch[1]}/preview`;
       return "";
