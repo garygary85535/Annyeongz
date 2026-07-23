@@ -7649,6 +7649,25 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "청산별곡",
+    "zh": "青山別曲",
+    "original": "",
+    "translation": "https://docs.google.com/document/d/1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg/edit?usp=drivesdk",
+    "author": "득춘",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-23",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "青山別曲",
+        "url": "https://docs.google.com/document/d/1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "蜜地瓜",
     "status": "2.已完結",
     "ko": "헬인헤븐",
