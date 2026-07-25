@@ -404,6 +404,25 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "러브 앤 피스",
+    "zh": "Love & Peace",
+    "original": "https://www.postype.com/@untitle009/post/9437347",
+    "translation": "https://docs.google.com/document/d/1hEM5NLleeZq3UmavtLEZPlADLVlKjA_5vza9m83akHY/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-07-25",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "Love & Peace(러브 앤 피스)_noname",
+        "url": "https://docs.google.com/document/d/1hEM5NLleeZq3UmavtLEZPlADLVlKjA_5vza9m83akHY/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "청산별곡",
@@ -611,6 +630,26 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "구원따윈 필요 없어",
+    "zh": "💰 不需要救贖",
+    "original": "https://www.postype.com/@fifth230/post/22720839",
+    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-17",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "不需要救贖",
+        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "충전이 완료되었습니다",
@@ -619,7 +658,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1_8XCaxO7bS5Z7jPjS7K3y1o4SAOy4EdyPS_khHzFKyM/edit?usp=drivesdk",
     "author": "익룡",
     "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-20",
     "episodes": [
       {
@@ -638,7 +677,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1G56M6YqskBJBLnaNTuiM9jsXf5uIwhRxMewHmebSzmA/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-20",
     "episodes": [
       {
@@ -657,7 +696,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1t8tvfBFQkrRefdu46EgxD3T__10Yuv-ajL9fLOImfBk/edit?usp=drivesdk",
     "author": "noname",
     "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-20",
     "episodes": [
       {
@@ -676,7 +715,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1PtrnG0gSglRQq9zApVsy9qFNnxr-JdD83OXM2hl9_Ho/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-20",
     "paid": true,
     "episodes": [
@@ -689,26 +728,6 @@ window.BOOK_DATA = [
         "label": "下",
         "title": "桂花樹花蔭下 下(계화나무 꽃 그늘 아래 下)_noname",
         "url": "https://docs.google.com/document/d/1C4ggY5RiCvw3-4Q2du1i4ljyEdYZS1JWxWq-Jq6ajl0/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "구원따윈 필요 없어",
-    "zh": "💰 不需要救贖",
-    "original": "https://www.postype.com/@fifth230/post/22720839",
-    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
-    "date": "2026-07-17",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "不需要救贖",
-        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
       }
     ]
   },
