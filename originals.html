@@ -82,6 +82,34 @@
       text-shadow: 0 2px 16px rgba(0, 0, 0, .38);
     }
 
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 4px;
+    }
+
+    .hero-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      border: 1px solid rgba(255, 255, 255, .72);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .15);
+      color: #fff;
+      padding: 8px 13px;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      text-shadow: 0 2px 12px rgba(0, 0, 0, .34);
+      backdrop-filter: blur(8px);
+    }
+
+    .hero-link:hover {
+      background: rgba(255, 255, 255, .24);
+    }
+
     .topbar {
       position: sticky;
       top: 0;
@@ -626,6 +654,9 @@
   <header class="hero">
     <h1>Annyeongz 原文書櫃</h1>
     <p>公開原文索引，只收錄書目中的原文連結。</p>
+    <div class="hero-actions">
+      <a class="hero-link" href="./index.html">備份區</a>
+    </div>
   </header>
 
   <div class="topbar">
