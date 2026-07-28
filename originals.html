@@ -696,7 +696,8 @@
   <script src="data.js?v=20260725-love-peace"></script>
   <script>
     const ALL_DATA = window.BOOK_DATA || [];
-    const DATA = ALL_DATA.filter(item => String(item.original || "").trim());
+    const POSTYPE_ORIGINAL_PATTERN = /^https?:\/\/(?:www\.)?(?:postype\.com|posty\.pe)\//i;
+    const DATA = ALL_DATA.filter(item => POSTYPE_ORIGINAL_PATTERN.test(String(item.original || "").trim()));
     const SHORT_STATUS_DAYS = 7;
 
     const state = {
