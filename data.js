@@ -120,7 +120,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "플레인",
     "status": "0.連載中",
     "ko": "페이지를 찾을 수 없습니다",
     "zh": "找不到頁面",
@@ -1579,7 +1579,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "플레인",
     "status": "2.已完結",
     "ko": "형사취수",
     "zh": "💰 轉房婚",
@@ -2495,7 +2495,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "플레인",
     "status": "2.已完結",
     "ko": "TO BE CONTINUED 上",
     "zh": "TO BE CONTINUED （含外傳）",
@@ -2794,7 +2794,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "플레인",
     "status": "2.已完結",
     "ko": "HAPPY BIRTHDAY TO",
     "zh": "HAPPY BIRTHDAY TO",
@@ -2887,7 +2887,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "플레인",
     "status": "2.已完結",
     "ko": "죽기 전에 한 번은 보고 싶어",
     "zh": "在死之前,至少想見一次",
@@ -3274,7 +3274,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "藍瘋帽",
+    "page": "其他老師",
     "status": "2.已完結",
     "ko": "하이엔드 퀄리티",
     "zh": "High-end Quality",
@@ -3440,7 +3440,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "藍瘋帽",
+    "page": "其他老師",
     "status": "2.已完結",
     "ko": "Black Fantasy",
     "zh": "Black Fantasy",
@@ -3459,7 +3459,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "藍瘋帽",
+    "page": "其他老師",
     "status": "2.已完結",
     "ko": "만루홈런",
     "zh": "滿貫全壘打",
@@ -3478,7 +3478,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "플레인",
     "status": "2.已完結",
     "ko": "인도 보류",
     "zh": "引渡保留",
@@ -3526,7 +3526,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "藍瘋帽",
+    "page": "其他老師",
     "status": "2.已完結",
     "ko": "로열 노블",
     "zh": "皇家貴族",
@@ -3545,7 +3545,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "플레인",
     "status": "2.已完結",
     "ko": "선녀와 나무꾼",
     "zh": "💰 仙女與樵夫",
@@ -3743,7 +3743,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "플레인",
     "status": "2.已完結",
     "ko": "연애의 갈피",
     "zh": "戀愛的端倪",
@@ -3806,7 +3806,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "플레인",
     "status": "2.已完結",
     "ko": "숨 참고 LOVE DIVE!",
     "zh": "💰 屏住呼吸 LOVE DIVE!",
@@ -4011,7 +4011,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "플레인",
     "status": "2.已完結",
     "ko": "극사실주의 연애",
     "zh": "💰 極寫實戀愛",
