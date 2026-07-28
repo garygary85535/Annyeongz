@@ -8,7 +8,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1zMnO_WFtMNndF_40yDP7Xqst5GtfO-JKW61Qh3vuM8M/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨&不是蓋瑞🤓",
-    "note": "@有更新",
+    "note": "",
     "date": "2026-07-22",
     "paid": true,
     "episodes": [
@@ -423,6 +423,26 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "구원따윈 필요 없어",
+    "zh": "💰 不需要救贖",
+    "original": "https://www.postype.com/@fifth230/post/22720839",
+    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-17",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "不需要救贖",
+        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "청산별곡",
@@ -431,7 +451,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg/edit?usp=drivesdk",
     "author": "득춘",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-23",
     "episodes": [
       {
@@ -450,7 +470,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1lU_Ey-7rSf-YiFR35p6a1MKUfEBin9YysUH6ZxaX-o8/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-23",
     "paid": true,
     "episodes": [
@@ -470,7 +490,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1QHNJrmRNty0XMrYatxx1Tu1mhHB5BFKvVGO5ASBMljk/edit?usp=drivesdk",
     "author": "개",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-22",
     "episodes": [
       {
@@ -489,7 +509,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/145OoKziSMfFxMQCFqZ9O7dbbs5vV897I-6oJgn7SrA0/edit?usp=drivesdk",
     "author": "알장",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-22",
     "episodes": [
       {
@@ -513,7 +533,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1ywOxOwaDgWQme2D-f6RrGCIWLcmMW1ytgnErI4cNsuI/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-22",
     "episodes": [
       {
@@ -528,11 +548,11 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "뜯고 뜯기는 연애",
     "zh": "啃與被啃的戀愛",
-    "original": "https://docs.google.com/document/d/1YjJciypt-FpuyOR_rDkM-KasrabL8MxvqDTIdTSK-fY",
+    "original": "https://www.postype.com/zh-hant/@coolpieces/post/7463378",
     "translation": "https://docs.google.com/document/d/1H7lf8361fI9d6nr0ITud9og_x44ymWU7nN7WaeRiUGY/edit?usp=drivesdk",
     "author": "댕그라미（圈圈）",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-21",
     "episodes": [
       {
@@ -551,7 +571,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/10hBoXYO3JFTdM4CIrBfK9qyv89T7HX0F8iwJpc5TvaQ/edit?usp=drivesdk",
     "author": "익룡",
     "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-21",
     "episodes": [
       {
@@ -570,7 +590,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1MZ82LIGG9_Oa1Hdn3-wdjCIIUtoZrIGBNoBwjbT3Kkc/edit?usp=drivesdk",
     "author": "초코쇼크（巧克shock）",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-21",
     "episodes": [
       {
@@ -609,7 +629,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1EY976O6W6ZPsTNCa81Ig8O9gG8xxuDjInAONA4hXjoU/edit?usp=drivesdk",
     "author": "초코쇼크（巧克shock）",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-21",
     "episodes": [
       {
@@ -626,26 +646,6 @@ window.BOOK_DATA = [
         "label": "3",
         "title": "有味道的兔子3",
         "url": "https://docs.google.com/document/d/1xsfzEQHhqUJi746zB2Wb_bSYvjWd5RFalaoz3nlzzzI/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "구원따윈 필요 없어",
-    "zh": "💰 不需要救贖",
-    "original": "https://www.postype.com/@fifth230/post/22720839",
-    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
-    "date": "2026-07-17",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "不需要救贖",
-        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
       }
     ]
   },
@@ -987,7 +987,7 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "집으로 가는 길",
     "zh": "回家的路",
-    "original": "https://drive.google.com/drive/folders/1oPCGk1iNWx9eBuWJWjIEkFqIXvRowmW2",
+    "original": "https://www.postype.com/zh-hant/@coolpieces/post/5786852",
     "translation": "https://docs.google.com/document/d/1AJ6STU7-Lf8ghH2p0fSCk3lMEdwz02fV/edit?usp=drivesdk",
     "author": "댕그라미（圈圈）",
     "translator": "鳳梨",
@@ -1006,7 +1006,7 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "숨은그림찾기",
     "zh": "找找看",
-    "original": "https://drive.google.com/drive/folders/1WcsgN6VRDJqEK2GtTCYL4svdfsHFUvSx",
+    "original": "https://www.postype.com/zh-hant/@coolpieces/post/6792275",
     "translation": "https://docs.google.com/document/d/1MUhzu1IEtBOdB9WYkRDqrr9asa0JHZiJ/edit?usp=drivesdk",
     "author": "댕그라미（圈圈）",
     "translator": "鳳梨",
@@ -1025,7 +1025,7 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "이렇게",
     "zh": "就這樣",
-    "original": "https://drive.google.com/drive/folders/11RBAtssh1-_VvxdMBivfUXuwfXib2B2p",
+    "original": "https://www.postype.com/zh-hant/@naenae1029/post/4602938",
     "translation": "https://docs.google.com/document/d/11x2qezpJv_WbTuEij4ew50HAmcpHca-WzHhy6ffMjuQ/edit?usp=drivesdk",
     "author": "내내",
     "translator": "鳳梨",
@@ -5452,7 +5452,7 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "갈망（上+下）",
     "zh": "💰 渴望",
-    "original": "https://drive.google.com/drive/folders/1bXnvzBpHD5Iv9gzKm1vcyLQV6cTgb_v2?usp=drive_link",
+    "original": "https://www.postype.com/zh-hant/@yuwon8318/post/18149687",
     "translation": "https://docs.google.com/document/d/1Z5olANiEOOZVbpXDK08ATElVGhcUiJkQISwMrzrhiTQ/edit?usp=drivesdk",
     "author": "진심（真心）",
     "translator": "貢丸",
@@ -6043,7 +6043,7 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "멜팅 쇼콜라 에이틴",
     "zh": "💰 Melting Chocolate Eighteen",
-    "original": "https://docs.google.com/document/d/1yyMGvalyzJ5F_6MZK0-5kC5Zple1yqCgbiv6b0DI2yM/edit?tab=t.0",
+    "original": "",
     "translation": "https://docs.google.com/document/d/1vRdRaU7KbbexzcNareuakkpZ7JYGHWN1v_7SJ3cTwbs/edit?usp=drivesdk",
     "author": "noname",
     "translator": "不是蓋瑞🤓",
