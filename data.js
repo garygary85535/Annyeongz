@@ -1,5 +1,54 @@
 window.BOOK_DATA = [
   {
+    "page": "朴專家",
+    "status": "0.連載中",
+    "ko": "여자 자석",
+    "zh": "女人磁鐵",
+    "original": "https://www.postype.com/zh-hant/@parkpro/post/15946647",
+    "translation": "https://docs.google.com/document/d/1AQPXyxjt3xqC_MdyluRcv8XKorD9F38aSixLGP0WPp8/edit?usp=drivesdk",
+    "author": "박프로",
+    "translator": "postype原生AI",
+    "note": "@有更新",
+    "date": "2026-07-29",
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "女人磁鐵 1",
+        "url": "https://docs.google.com/document/d/1AQPXyxjt3xqC_MdyluRcv8XKorD9F38aSixLGP0WPp8/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "女人磁鐵 2",
+        "url": "https://docs.google.com/document/d/1LFyCFY5CVEcU2VNF5ZQWQCQ_rg6QfQi6XXHaCLcBsyQ/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "女人磁鐵 3",
+        "url": "https://docs.google.com/document/d/1gn1beDNjFYi2emHhY-88Mzz2kORZpG5Bzv-ntrF1GUE/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "女人磁鐵 4",
+        "url": "https://docs.google.com/document/d/18fSeAsrK3CgrsV7JT88pgYwsNvXjqz-iR5SmOHz_8I8/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP5",
+        "title": "女人磁鐵 5",
+        "url": "https://docs.google.com/document/d/1yRv4KP98ngmPLNtyJmPrmYjqZghP9P2Av9SxPDCb_AU/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP6",
+        "title": "女人磁鐵 6",
+        "url": "https://docs.google.com/document/d/1thhtqM3xn75AYjSLbhx2ubuIM4LxWjPrin0bYuHWcQw/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP7",
+        "title": "女人磁鐵 7",
+        "url": "https://docs.google.com/document/d/1nWn-hh7uQTpZUSYQUVhJHGiDScHbTtDaaQ1O22Nj8cA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "noname",
     "status": "0.連載中",
     "ko": "장르만 여의도",
@@ -241,31 +290,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "真心",
-    "status": "0.連載中",
-    "ko": "그 날의 빛, 지금의 너",
-    "zh": "💰 那一天的光，如今的妳",
-    "original": "https://www.postype.com/@yuwon8318/post/20207260",
-    "translation": "https://docs.google.com/document/d/160d-yC7ZUWzFXRvVAa0SliWmI6A7gyvmR7yOhumMudU/edit?usp=drivesdk",
-    "author": "진심（真心）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2025-08-25",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "上",
-        "title": "那一天的光，如今的妳 上",
-        "url": "https://docs.google.com/document/d/160d-yC7ZUWzFXRvVAa0SliWmI6A7gyvmR7yOhumMudU/edit?usp=drivesdk"
-      },
-      {
-        "label": "下",
-        "title": "那一天的光，如今的妳 下",
-        "url": "https://docs.google.com/document/d/12cg-RusfjUWBVgC8YEzCviEw6mAWYSXy_SSs-ZgQ7MY/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "其他老師",
     "status": "0.連載中",
     "ko": "얼레벌레 열애설",
@@ -306,41 +330,6 @@ window.BOOK_DATA = [
         "label": "上",
         "title": "異常理想愛情辯論（上）",
         "url": "https://docs.google.com/document/d/1e8oXuEI2SVQ5IQi74CQnxkHuSpfU5ygRhEo-OfnrPdA/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "0.連載中",
-    "ko": "두 여자",
-    "zh": "💰 兩個女人（~ep4）",
-    "original": "https://www.postype.com/@blue-mountains/post/18301626",
-    "translation": "https://docs.google.com/document/d/1VtZsmNyaFmCGWaFtwvlXygTsv11sQDkDVwJNlLV1-ZY/edit?usp=drivesdk",
-    "author": "블루마운틴（藍山）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2025-02-04",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "EP1",
-        "title": "兩個女人1",
-        "url": "https://docs.google.com/document/d/1VtZsmNyaFmCGWaFtwvlXygTsv11sQDkDVwJNlLV1-ZY/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP2",
-        "title": "兩個女人2",
-        "url": "https://docs.google.com/document/d/1WYLXGspT_l_39CXP61fHMI8mZXfTrauBAkyajGS2E4c/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP3",
-        "title": "兩個女人3",
-        "url": "https://docs.google.com/document/d/1ynvwilTGd6eGoNeOI15--38dFw967bIuyvJr-Pnc1bY/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP4",
-        "title": "兩個女人4",
-        "url": "https://docs.google.com/document/d/1S2MNhzRHAHr8NpuX1O4ipvYmXTWKG2X0iwvh_BrkLMk/edit?usp=drivesdk"
       }
     ]
   },
@@ -404,6 +393,79 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "其他老師",
+    "status": "0.連載中",
+    "ko": "두 여자",
+    "zh": "💰 兩個女人（~ep4）",
+    "original": "https://www.postype.com/@blue-mountains/post/18301626",
+    "translation": "https://docs.google.com/document/d/1VtZsmNyaFmCGWaFtwvlXygTsv11sQDkDVwJNlLV1-ZY/edit?usp=drivesdk",
+    "author": "블루마운틴（藍山）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2025-02-04",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "兩個女人1",
+        "url": "https://docs.google.com/document/d/1VtZsmNyaFmCGWaFtwvlXygTsv11sQDkDVwJNlLV1-ZY/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "兩個女人2",
+        "url": "https://docs.google.com/document/d/1WYLXGspT_l_39CXP61fHMI8mZXfTrauBAkyajGS2E4c/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "兩個女人3",
+        "url": "https://docs.google.com/document/d/1ynvwilTGd6eGoNeOI15--38dFw967bIuyvJr-Pnc1bY/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "兩個女人4",
+        "url": "https://docs.google.com/document/d/1S2MNhzRHAHr8NpuX1O4ipvYmXTWKG2X0iwvh_BrkLMk/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "鯨魚",
+    "status": "2.已完結",
+    "ko": "Passionate A&W",
+    "zh": "Passionate A&W",
+    "original": "https://www.postype.com/zh-hant/@ynseasonrps/post/15290772?show-original=true",
+    "translation": "https://docs.google.com/document/d/1eUQzHzVb8G2jzMuXFed6IEQvWnZsG4_nafiY7VS0osk/edit?usp=drivesdk",
+    "author": "고래（鯨魚）",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-29",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "Passionate A&W",
+        "url": "https://docs.google.com/document/d/1eUQzHzVb8G2jzMuXFed6IEQvWnZsG4_nafiY7VS0osk/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "플레인",
+    "status": "2.已完結",
+    "ko": "죽기 전에 매일 보고 싶어",
+    "zh": "死之前想每天見面 (死之前至少想見一次 - 外傳)",
+    "original": "https://www.postype.com/zh-hant/@monochrome-film/post/20217937?show-original=true",
+    "translation": "https://docs.google.com/document/d/19gq1ieohh9S0WJuyG9gQbGXIDmIDMIkgpTXOAA4asd0/edit?usp=drivesdk",
+    "author": "플레인（Plain）",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-29",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "死前想每天見到你",
+        "url": "https://docs.google.com/document/d/19gq1ieohh9S0WJuyG9gQbGXIDmIDMIkgpTXOAA4asd0/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "noname",
     "status": "2.已完結",
     "ko": "러브 앤 피스",
@@ -443,25 +505,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "청산별곡",
-    "zh": "青山別曲",
-    "original": "",
-    "translation": "https://docs.google.com/document/d/1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg/edit?usp=drivesdk",
-    "author": "득춘",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-23",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "青山別曲",
-        "url": "https://docs.google.com/document/d/1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "noname",
     "status": "2.已完結",
     "ko": "키링, 들러리 앤 릴펌",
@@ -478,6 +521,25 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "鑰匙圈、伴娘與 Lil Pump(키링, 들러리 앤 릴펌)_noname",
         "url": "https://docs.google.com/document/d/1lU_Ey-7rSf-YiFR35p6a1MKUfEBin9YysUH6ZxaX-o8/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "청산별곡",
+    "zh": "青山別曲",
+    "original": "",
+    "translation": "https://docs.google.com/document/d/1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg/edit?usp=drivesdk",
+    "author": "득춘",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-23",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "青山別曲",
+        "url": "https://docs.google.com/document/d/1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg/edit?usp=drivesdk"
       }
     ]
   },
@@ -650,44 +712,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "충전이 완료되었습니다",
-    "zh": "充電完成",
-    "original": "https://www.postype.com/@rps-rrr/post/4769019",
-    "translation": "https://docs.google.com/document/d/1_8XCaxO7bS5Z7jPjS7K3y1o4SAOy4EdyPS_khHzFKyM/edit?usp=drivesdk",
-    "author": "익룡（翼龍）",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2026-07-20",
-    "episodes": [
-      {
-        "label": "",
-        "title": "充電完成",
-        "url": "https://docs.google.com/document/d/1_8XCaxO7bS5Z7jPjS7K3y1o4SAOy4EdyPS_khHzFKyM/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "蜜地瓜",
-    "status": "2.已完結",
-    "ko": "꿈은 이루어진다",
-    "zh": "夢想成真",
-    "original": "https://www.postype.com/@seol-cheong/post/16836051",
-    "translation": "https://docs.google.com/document/d/1G56M6YqskBJBLnaNTuiM9jsXf5uIwhRxMewHmebSzmA/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-20",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "夢想成真",
-        "url": "https://docs.google.com/document/d/1G56M6YqskBJBLnaNTuiM9jsXf5uIwhRxMewHmebSzmA/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "noname",
     "status": "2.已完結",
     "ko": "아웃사이더 아웃사이더",
@@ -728,6 +752,44 @@ window.BOOK_DATA = [
         "label": "下",
         "title": "桂花樹花蔭下 下(계화나무 꽃 그늘 아래 下)_noname",
         "url": "https://docs.google.com/document/d/1C4ggY5RiCvw3-4Q2du1i4ljyEdYZS1JWxWq-Jq6ajl0/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "충전이 완료되었습니다",
+    "zh": "充電完成",
+    "original": "https://www.postype.com/@rps-rrr/post/4769019",
+    "translation": "https://docs.google.com/document/d/1_8XCaxO7bS5Z7jPjS7K3y1o4SAOy4EdyPS_khHzFKyM/edit?usp=drivesdk",
+    "author": "익룡（翼龍）",
+    "translator": "不是蓋瑞🤓",
+    "note": "",
+    "date": "2026-07-20",
+    "episodes": [
+      {
+        "label": "",
+        "title": "充電完成",
+        "url": "https://docs.google.com/document/d/1_8XCaxO7bS5Z7jPjS7K3y1o4SAOy4EdyPS_khHzFKyM/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "꿈은 이루어진다",
+    "zh": "夢想成真",
+    "original": "https://www.postype.com/@seol-cheong/post/16836051",
+    "translation": "https://docs.google.com/document/d/1G56M6YqskBJBLnaNTuiM9jsXf5uIwhRxMewHmebSzmA/edit?usp=drivesdk",
+    "author": "꿀구마（蜜地瓜）",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-20",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "夢想成真",
+        "url": "https://docs.google.com/document/d/1G56M6YqskBJBLnaNTuiM9jsXf5uIwhRxMewHmebSzmA/edit?usp=drivesdk"
       }
     ]
   },
@@ -1106,25 +1168,6 @@ window.BOOK_DATA = [
   {
     "page": "季刊",
     "status": "2.已完結",
-    "ko": "트윈 시스터 트러블",
-    "zh": "Twin Sister Trouble",
-    "original": "https://www.postype.com/@ynseasonrps/post/15859388",
-    "translation": "https://docs.google.com/document/d/1Emhuqhc0JssVM145igVCME7fYi0lXVg3DRxjiYDd-II/edit?usp=drivesdk",
-    "author": "kiddii",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-12",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "Twin Sister Trouble(트윈 시스터 트러블)_kiddii",
-        "url": "https://docs.google.com/document/d/1Emhuqhc0JssVM145igVCME7fYi0lXVg3DRxjiYDd-II/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
     "ko": "한결같은 고백",
     "zh": "始終如一的告白",
     "original": "https://www.postype.com/@ynseasonrps/post/17540005",
@@ -1138,25 +1181,6 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "始終如一的告白(한결같은 고백)_MJ",
         "url": "https://docs.google.com/document/d/1vLvXV9N3_ZEaMvXtPrE_CCU1JwQzg7i1tJgGY9hBZgs/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "재수 없는 여자",
-    "zh": "討人厭的女人",
-    "original": "https://www.postype.com/@ynseasonrps/post/17540356",
-    "translation": "https://docs.google.com/document/d/1OQwSseQ5vNpgMomTaBjDbxGcXNrq5e2DNvtXFglX-6A/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-12",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "討人厭的女人(재수 없는 여자)_노네임",
-        "url": "https://docs.google.com/document/d/1OQwSseQ5vNpgMomTaBjDbxGcXNrq5e2DNvtXFglX-6A/edit?usp=drivesdk"
       }
     ]
   },
@@ -1195,6 +1219,44 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "天生單戀(본투비 짝사랑)_OCB",
         "url": "https://docs.google.com/document/d/16rA3efT6wnz6TjV3GomnxrsAC5RgSrL3nvsmVxwV-NI/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "트윈 시스터 트러블",
+    "zh": "Twin Sister Trouble",
+    "original": "https://www.postype.com/@ynseasonrps/post/15859388",
+    "translation": "https://docs.google.com/document/d/1Emhuqhc0JssVM145igVCME7fYi0lXVg3DRxjiYDd-II/edit?usp=drivesdk",
+    "author": "kiddii",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-12",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "Twin Sister Trouble(트윈 시스터 트러블)_kiddii",
+        "url": "https://docs.google.com/document/d/1Emhuqhc0JssVM145igVCME7fYi0lXVg3DRxjiYDd-II/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "季刊",
+    "status": "2.已完結",
+    "ko": "재수 없는 여자",
+    "zh": "討人厭的女人",
+    "original": "https://www.postype.com/@ynseasonrps/post/17540356",
+    "translation": "https://docs.google.com/document/d/1OQwSseQ5vNpgMomTaBjDbxGcXNrq5e2DNvtXFglX-6A/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-12",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "討人厭的女人(재수 없는 여자)_노네임",
+        "url": "https://docs.google.com/document/d/1OQwSseQ5vNpgMomTaBjDbxGcXNrq5e2DNvtXFglX-6A/edit?usp=drivesdk"
       }
     ]
   },
@@ -1851,6 +1913,26 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "호우시절1920",
+    "zh": "💰 好雨時節1920",
+    "original": "https://www.postype.com/@untitle009/post/10392014",
+    "translation": "https://docs.google.com/document/d/1eHnHNoQev6oJTFugxnRdvTwEMYMuj8JDgmv0ndGamCE/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "不是蓋瑞🤓",
+    "note": "",
+    "date": "2026-07-05",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "好雨時節1920",
+        "url": "https://docs.google.com/document/d/1eHnHNoQev6oJTFugxnRdvTwEMYMuj8JDgmv0ndGamCE/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "季刊",
     "status": "2.已完結",
     "ko": "첫사랑 징크스",
@@ -1866,25 +1948,6 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "初戀魔咒(첫사랑 징크스)_소온",
         "url": "https://docs.google.com/document/d/1OzWdtY5sa1qU0N2_9cH_ts5z8MhhYlzIGIo_LuIwun8/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "펀치 드렁크 멜로",
-    "zh": "Punch Drunk Melo",
-    "original": "https://www.postype.com/@ynseasonrps/post/13448478",
-    "translation": "https://docs.google.com/document/d/1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o/edit?usp=drivesdk",
-    "author": "테이",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-05",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "Punch Drunk Melo(펀치 드렁크 멜로)_테이",
-        "url": "https://docs.google.com/document/d/1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o/edit?usp=drivesdk"
       }
     ]
   },
@@ -1908,42 +1971,21 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "noname",
+    "page": "季刊",
     "status": "2.已完結",
-    "ko": "호우시절1920",
-    "zh": "💰 好雨時節1920",
-    "original": "https://www.postype.com/@untitle009/post/10392014",
-    "translation": "https://docs.google.com/document/d/1eHnHNoQev6oJTFugxnRdvTwEMYMuj8JDgmv0ndGamCE/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2026-07-05",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "好雨時節1920",
-        "url": "https://docs.google.com/document/d/1eHnHNoQev6oJTFugxnRdvTwEMYMuj8JDgmv0ndGamCE/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "포에버 유진",
-    "zh": "💰 Forever yujin",
-    "original": "https://www.postype.com/@untitle009/post/21199722",
-    "translation": "https://docs.google.com/document/d/1jYQaTi8KMrTa65JujPkDncWERCuWdu875oiKagjWmBg/edit?usp=drivesdk",
-    "author": "noname",
+    "ko": "펀치 드렁크 멜로",
+    "zh": "Punch Drunk Melo",
+    "original": "https://www.postype.com/@ynseasonrps/post/13448478",
+    "translation": "https://docs.google.com/document/d/1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o/edit?usp=drivesdk",
+    "author": "테이",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026-06-22",
-    "paid": true,
+    "date": "2026-07-05",
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Forever yujin",
-        "url": "https://docs.google.com/document/d/1jYQaTi8KMrTa65JujPkDncWERCuWdu875oiKagjWmBg/edit?usp=drivesdk"
+        "title": "Punch Drunk Melo(펀치 드렁크 멜로)_테이",
+        "url": "https://docs.google.com/document/d/1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o/edit?usp=drivesdk"
       }
     ]
   },
@@ -1968,50 +2010,22 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "朴專家",
+    "page": "noname",
     "status": "2.已完結",
-    "ko": "off my face (off my chest 번외)",
-    "zh": "off my face (off my chest 番外)",
-    "original": "https://www.postype.com/@parkpro/post/13766976",
-    "translation": "https://docs.google.com/document/d/1RrYF6ihdfA2KVaC34u8l_JlYStxxWA65d1DJdEjwNMo/edit?usp=drivesdk",
-    "author": "박프로",
+    "ko": "포에버 유진",
+    "zh": "💰 Forever yujin",
+    "original": "https://www.postype.com/@untitle009/post/21199722",
+    "translation": "https://docs.google.com/document/d/1jYQaTi8KMrTa65JujPkDncWERCuWdu875oiKagjWmBg/edit?usp=drivesdk",
+    "author": "noname",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026-06-19",
+    "date": "2026-06-22",
+    "paid": true,
     "episodes": [
       {
-        "label": "上",
-        "title": "01 Off My Face 上",
-        "url": "https://docs.google.com/document/d/1RrYF6ihdfA2KVaC34u8l_JlYStxxWA65d1DJdEjwNMo/edit?usp=drivesdk"
-      },
-      {
-        "label": "下",
-        "title": "02 Off My Face 下",
-        "url": "https://docs.google.com/document/d/1OY3XGXnpkmIBfCtrSu7PD6qQsuUKrNvtjgpaurO5KyY/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "朴專家",
-    "status": "2.已完結",
-    "ko": "off my chest",
-    "zh": "off my chest",
-    "original": "https://www.postype.com/@parkpro/post/13556931",
-    "translation": "https://docs.google.com/document/d/1-l3K0UubLNKTzNT0Avh76HF-oWsZm2nR2x4V0DNU8LI/edit?usp=drivesdk",
-    "author": "박프로",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-06-19",
-    "episodes": [
-      {
-        "label": "上",
-        "title": "01 Off My Chest 上_朴pro",
-        "url": "https://docs.google.com/document/d/1-l3K0UubLNKTzNT0Avh76HF-oWsZm2nR2x4V0DNU8LI/edit?usp=drivesdk"
-      },
-      {
-        "label": "下",
-        "title": "02 Off My Chest 下_朴pro",
-        "url": "https://docs.google.com/document/d/1U6tJeasJ3dhLY6kZd5TwPSpMq65sWzJxT2jDyI0cmlA/edit?usp=drivesdk"
+        "label": "閱讀",
+        "title": "Forever yujin",
+        "url": "https://docs.google.com/document/d/1jYQaTi8KMrTa65JujPkDncWERCuWdu875oiKagjWmBg/edit?usp=drivesdk"
       }
     ]
   },
@@ -2056,6 +2070,54 @@ window.BOOK_DATA = [
         "label": "EP6",
         "title": "Pit-a-Pat (6)_朴pro.docx",
         "url": "https://docs.google.com/document/d/1Jk4kV5LauWSg6Gvvizrcgvqadrtix4vOwo5b52k7aEA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "朴專家",
+    "status": "2.已完結",
+    "ko": "off my chest",
+    "zh": "off my chest",
+    "original": "https://www.postype.com/@parkpro/post/13556931",
+    "translation": "https://docs.google.com/document/d/1-l3K0UubLNKTzNT0Avh76HF-oWsZm2nR2x4V0DNU8LI/edit?usp=drivesdk",
+    "author": "박프로",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-06-19",
+    "episodes": [
+      {
+        "label": "上",
+        "title": "01 Off My Chest 上_朴pro",
+        "url": "https://docs.google.com/document/d/1-l3K0UubLNKTzNT0Avh76HF-oWsZm2nR2x4V0DNU8LI/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "02 Off My Chest 下_朴pro",
+        "url": "https://docs.google.com/document/d/1U6tJeasJ3dhLY6kZd5TwPSpMq65sWzJxT2jDyI0cmlA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "朴專家",
+    "status": "2.已完結",
+    "ko": "off my face (off my chest 번외)",
+    "zh": "off my face (off my chest 番外)",
+    "original": "https://www.postype.com/@parkpro/post/13766976",
+    "translation": "https://docs.google.com/document/d/1RrYF6ihdfA2KVaC34u8l_JlYStxxWA65d1DJdEjwNMo/edit?usp=drivesdk",
+    "author": "박프로",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-06-19",
+    "episodes": [
+      {
+        "label": "上",
+        "title": "01 Off My Face 上",
+        "url": "https://docs.google.com/document/d/1RrYF6ihdfA2KVaC34u8l_JlYStxxWA65d1DJdEjwNMo/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "02 Off My Face 下",
+        "url": "https://docs.google.com/document/d/1OY3XGXnpkmIBfCtrSu7PD6qQsuUKrNvtjgpaurO5KyY/edit?usp=drivesdk"
       }
     ]
   },
@@ -2188,26 +2250,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "수상한 이웃의 사생활",
-    "zh": "💰 可疑鄰居的私生活",
-    "original": "https://www.postype.com/@83-inch/post/22108158",
-    "translation": "https://docs.google.com/document/d/1WpZkHfUlnB8SCr9J6xKdJy19PPe8SoGtAydxsjyIux8/edit?usp=drivesdk",
-    "author": "칠척",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-05-27",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "可疑鄰居的私生活",
-        "url": "https://docs.google.com/document/d/1WpZkHfUlnB8SCr9J6xKdJy19PPe8SoGtAydxsjyIux8/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "noname",
     "status": "2.已完結",
     "ko": "More than world",
@@ -2246,22 +2288,22 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "noname",
+    "page": "其他老師",
     "status": "2.已完結",
-    "ko": "대빈장씨 이야기",
-    "zh": "💰 大嬪張氏的故事",
-    "original": "https://www.postype.com/@untitle009/post/21849154",
-    "translation": "https://docs.google.com/document/d/1fu0lz1swdbn3XAPA8rRtbfTiNUeANKHV73kbXd53GSo/edit?usp=drivesdk",
-    "author": "noname",
+    "ko": "수상한 이웃의 사생활",
+    "zh": "💰 可疑鄰居的私生活",
+    "original": "https://www.postype.com/@83-inch/post/22108158",
+    "translation": "https://docs.google.com/document/d/1WpZkHfUlnB8SCr9J6xKdJy19PPe8SoGtAydxsjyIux8/edit?usp=drivesdk",
+    "author": "칠척",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026-04-16",
+    "date": "2026-05-27",
     "paid": true,
     "episodes": [
       {
         "label": "閱讀",
-        "title": "大嬪張氏的故事",
-        "url": "https://docs.google.com/document/d/1fu0lz1swdbn3XAPA8rRtbfTiNUeANKHV73kbXd53GSo/edit?usp=drivesdk"
+        "title": "可疑鄰居的私生活",
+        "url": "https://docs.google.com/document/d/1WpZkHfUlnB8SCr9J6xKdJy19PPe8SoGtAydxsjyIux8/edit?usp=drivesdk"
       }
     ]
   },
@@ -2281,6 +2323,26 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "清淵君的故事",
         "url": "https://docs.google.com/document/d/1te8IntV0gr5DdrPjZiyh87FXtj4xGZrVVdisUMDvM9s/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "대빈장씨 이야기",
+    "zh": "💰 大嬪張氏的故事",
+    "original": "https://www.postype.com/@untitle009/post/21849154",
+    "translation": "https://docs.google.com/document/d/1fu0lz1swdbn3XAPA8rRtbfTiNUeANKHV73kbXd53GSo/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-04-16",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "大嬪張氏的故事",
+        "url": "https://docs.google.com/document/d/1fu0lz1swdbn3XAPA8rRtbfTiNUeANKHV73kbXd53GSo/edit?usp=drivesdk"
       }
     ]
   },
@@ -2524,21 +2586,21 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "蜜地瓜",
     "status": "2.已完結",
-    "ko": "주임님, 주인님",
-    "zh": "主任，主人",
-    "original": "https://www.postype.com/@blue-mountains/post/21045398",
-    "translation": "https://docs.google.com/document/d/1bPuQ9Qw1IG-yx5K6KAVGtFiXWREmBYQv-siH-EXoL-E/edit?usp=drivesdk",
-    "author": "블루마운틴（藍山）",
+    "ko": "헬인헤븐",
+    "zh": "Hell in heaven",
+    "original": "https://www.postype.com/@seol-cheong/post/21105452",
+    "translation": "https://docs.google.com/document/d/1U7BJGsVN0RZP7XjhnLrBJ1xvVPwUPyGwjQmIppIFKyM/edit?usp=drivesdk",
+    "author": "꿀구마（蜜地瓜）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025-12-14",
+    "date": "2025-12-16",
     "episodes": [
       {
         "label": "閱讀",
-        "title": "主任，主人",
-        "url": "https://docs.google.com/document/d/1bPuQ9Qw1IG-yx5K6KAVGtFiXWREmBYQv-siH-EXoL-E/edit?usp=drivesdk"
+        "title": "Hell in heaven",
+        "url": "https://docs.google.com/document/d/1U7BJGsVN0RZP7XjhnLrBJ1xvVPwUPyGwjQmIppIFKyM/edit?usp=drivesdk"
       }
     ]
   },
@@ -2547,7 +2609,7 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "마리아",
     "zh": "💰 Maria",
-    "original": "https://www.postype.com/@fifth230/post/21082326",
+    "original": "https://www.postype.com/zh-hant/@fifth230/post/21102771",
     "translation": "https://docs.google.com/document/d/1bw0OxeJguiur6bXcqAKz-Mb4-i2gpFaDdHXjiWBuyac/edit?usp=drivesdk",
     "author": "noname",
     "translator": "不是蓋瑞🤓",
@@ -2564,6 +2626,25 @@ window.BOOK_DATA = [
         "label": "頭紗篇",
         "title": "瑪利亞－頭紗",
         "url": "https://docs.google.com/document/d/1AEoSNjjW0GkEA-zwpBjz4p8NgIlYXODlmeCrBHtzQA8/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "주임님, 주인님",
+    "zh": "主任，主人",
+    "original": "https://www.postype.com/@blue-mountains/post/21045398",
+    "translation": "https://docs.google.com/document/d/1bPuQ9Qw1IG-yx5K6KAVGtFiXWREmBYQv-siH-EXoL-E/edit?usp=drivesdk",
+    "author": "블루마운틴（藍山）",
+    "translator": "不是蓋瑞🤓",
+    "note": "",
+    "date": "2025-12-14",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "主任，主人",
+        "url": "https://docs.google.com/document/d/1bPuQ9Qw1IG-yx5K6KAVGtFiXWREmBYQv-siH-EXoL-E/edit?usp=drivesdk"
       }
     ]
   },
@@ -2794,6 +2875,25 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "미워도 다시 한번",
+    "zh": "即使討厭也再一次",
+    "original": "https://www.postype.com/@seol-cheong/post/16427619",
+    "translation": "https://docs.google.com/document/d/16BvwdvobKA8K-70k_IDPooFyb9tKbueZ9vLN69dD7-I/edit?usp=drivesdk",
+    "author": "꿀구마（蜜地瓜）",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2025-09-07",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "即使討厭也再一次",
+        "url": "https://docs.google.com/document/d/16BvwdvobKA8K-70k_IDPooFyb9tKbueZ9vLN69dD7-I/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "플레인",
     "status": "2.已完結",
     "ko": "HAPPY BIRTHDAY TO",
@@ -2809,6 +2909,51 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "HAPPY BIRTHDAY TO",
         "url": "https://docs.google.com/document/d/172m8FR3wjTwSeIQ7jJRqF6AwZQCsGlCjWBANGOJJPUY/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "真心",
+    "status": "2.已完結",
+    "ko": "그 날의 빛, 지금의 너",
+    "zh": "💰 那一天的光，如今的妳",
+    "original": "https://www.postype.com/@yuwon8318/post/20207260",
+    "translation": "https://docs.google.com/document/d/160d-yC7ZUWzFXRvVAa0SliWmI6A7gyvmR7yOhumMudU/edit?usp=drivesdk",
+    "author": "진심（真心）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2025-08-25",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "上",
+        "title": "那一天的光，如今的妳 上",
+        "url": "https://docs.google.com/document/d/160d-yC7ZUWzFXRvVAa0SliWmI6A7gyvmR7yOhumMudU/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "那一天的光，如今的妳 下",
+        "url": "https://docs.google.com/document/d/12cg-RusfjUWBVgC8YEzCviEw6mAWYSXy_SSs-ZgQ7MY/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "딸기우유 에바노트",
+    "zh": "💰 草莓牛奶overnote",
+    "original": "https://www.postype.com/@ynisreal/post/14146233",
+    "translation": "https://docs.google.com/document/d/17Ck8Df3an4Ujff2BXONxnIWmK9HtPm2O7v4ugz8Tql0/edit?usp=drivesdk",
+    "author": "ㅍ.,ㅍ",
+    "translator": "不是蓋瑞🤓",
+    "note": "",
+    "date": "2025-08-18",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "草莓牛奶overnote",
+        "url": "https://docs.google.com/document/d/17Ck8Df3an4Ujff2BXONxnIWmK9HtPm2O7v4ugz8Tql0/edit?usp=drivesdk"
       }
     ]
   },
@@ -2843,26 +2988,6 @@ window.BOOK_DATA = [
         "label": "EP4",
         "title": "好奇，Next Page 4",
         "url": "https://docs.google.com/document/d/1UFW1pI8PcGzGxqzp7vRZ_hrzcs7LKOdprx4L5_vHGzc/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "딸기우유 에바노트",
-    "zh": "💰 草莓牛奶overnote",
-    "original": "https://www.postype.com/@ynisreal/post/14146233",
-    "translation": "https://docs.google.com/document/d/17Ck8Df3an4Ujff2BXONxnIWmK9HtPm2O7v4ugz8Tql0/edit?usp=drivesdk",
-    "author": "ㅍ.,ㅍ",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2025-08-18",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "草莓牛奶overnote",
-        "url": "https://docs.google.com/document/d/17Ck8Df3an4Ujff2BXONxnIWmK9HtPm2O7v4ugz8Tql0/edit?usp=drivesdk"
       }
     ]
   },
@@ -3101,21 +3226,40 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "베이비 록키",
+    "zh": "Baby Rocky",
+    "original": "https://www.postype.com/@seol-cheong/post/19224675",
+    "translation": "https://docs.google.com/document/d/1JIt3uXbqGMt7OmR8P7Alb_QOCcDirF0uSzxzEwnRVCU/edit?usp=drivesdk",
+    "author": "꿀구마（蜜地瓜）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2025-07-27",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "Baby Rocky",
+        "url": "https://docs.google.com/document/d/1JIt3uXbqGMt7OmR8P7Alb_QOCcDirF0uSzxzEwnRVCU/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "季刊",
     "status": "2.已完結",
-    "ko": "우리가 어떻게",
-    "zh": "我們要怎麼辦",
-    "original": "https://www.postype.com/@ynseasonrps/post/13450287",
-    "translation": "https://docs.google.com/document/d/1dSGFbnN13T1TIU8Mwp0bG652yw__pGpjyQL1EOQnClU/edit?usp=drivesdk",
-    "author": "민무（閔無）",
+    "ko": "3년네버다이",
+    "zh": "3年Never Die",
+    "original": "https://www.postype.com/@ynseasonrps/post/13450348",
+    "translation": "https://docs.google.com/document/d/1mbLtyJu6jF0Nk8JwOVIsHlRHGm4c4mBR7n3q3i-bERk/edit?usp=drivesdk",
+    "author": "녕냥늉",
     "translator": "鳳梨",
     "note": "",
     "date": "2025-07-13",
     "episodes": [
       {
         "label": "閱讀",
-        "title": "我們要怎麼辦",
-        "url": "https://docs.google.com/document/d/1dSGFbnN13T1TIU8Mwp0bG652yw__pGpjyQL1EOQnClU/edit?usp=drivesdk"
+        "title": "3年Never Die",
+        "url": "https://docs.google.com/document/d/1mbLtyJu6jF0Nk8JwOVIsHlRHGm4c4mBR7n3q3i-bERk/edit?usp=drivesdk"
       }
     ]
   },
@@ -3141,19 +3285,19 @@ window.BOOK_DATA = [
   {
     "page": "季刊",
     "status": "2.已完結",
-    "ko": "3년네버다이",
-    "zh": "3年Never Die",
-    "original": "https://www.postype.com/@ynseasonrps/post/13450348",
-    "translation": "https://docs.google.com/document/d/1mbLtyJu6jF0Nk8JwOVIsHlRHGm4c4mBR7n3q3i-bERk/edit?usp=drivesdk",
-    "author": "녕냥늉",
+    "ko": "우리가 어떻게",
+    "zh": "我們要怎麼辦",
+    "original": "https://www.postype.com/@ynseasonrps/post/13450287",
+    "translation": "https://docs.google.com/document/d/1dSGFbnN13T1TIU8Mwp0bG652yw__pGpjyQL1EOQnClU/edit?usp=drivesdk",
+    "author": "민무（閔無）",
     "translator": "鳳梨",
     "note": "",
     "date": "2025-07-13",
     "episodes": [
       {
         "label": "閱讀",
-        "title": "3年Never Die",
-        "url": "https://docs.google.com/document/d/1mbLtyJu6jF0Nk8JwOVIsHlRHGm4c4mBR7n3q3i-bERk/edit?usp=drivesdk"
+        "title": "我們要怎麼辦",
+        "url": "https://docs.google.com/document/d/1dSGFbnN13T1TIU8Mwp0bG652yw__pGpjyQL1EOQnClU/edit?usp=drivesdk"
       }
     ]
   },
@@ -3237,25 +3381,6 @@ window.BOOK_DATA = [
   {
     "page": "其他老師",
     "status": "2.已完結",
-    "ko": "브로큰",
-    "zh": "Broken",
-    "original": "https://www.postype.com/@iam-innit/post/16598948",
-    "translation": "https://docs.google.com/document/d/1_n5_6SeJuFGAq0hZ9R2vZLt53gGbOSkeOGO-ODJchYQ/edit?usp=drivesdk",
-    "author": "이닛（innit）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2025-07-07",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "Broken",
-        "url": "https://docs.google.com/document/d/1_n5_6SeJuFGAq0hZ9R2vZLt53gGbOSkeOGO-ODJchYQ/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
     "ko": "어쩔 수 없이 우린 결혼해야 돼",
     "zh": "💰 我們非得結婚不可",
     "original": "https://www.postype.com/@iam-innit/post/15136386",
@@ -3270,6 +3395,25 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "我們非得結婚不可",
         "url": "https://docs.google.com/document/d/1Rii0DT6UPr6osKmhYNt-4nal9nmdaYzfUQjqWkZ5eb4/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "브로큰",
+    "zh": "Broken",
+    "original": "https://www.postype.com/@iam-innit/post/16598948",
+    "translation": "https://docs.google.com/document/d/1_n5_6SeJuFGAq0hZ9R2vZLt53gGbOSkeOGO-ODJchYQ/edit?usp=drivesdk",
+    "author": "이닛（innit）",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2025-07-07",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "Broken",
+        "url": "https://docs.google.com/document/d/1_n5_6SeJuFGAq0hZ9R2vZLt53gGbOSkeOGO-ODJchYQ/edit?usp=drivesdk"
       }
     ]
   },
@@ -3478,25 +3622,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "플레인",
-    "status": "2.已完結",
-    "ko": "인도 보류",
-    "zh": "引渡保留",
-    "original": "https://www.postype.com/@monochrome-film/post/19713907",
-    "translation": "https://docs.google.com/document/d/1Vp9C_hMdi9ime8guEKNBSqrBd4OFJcjblnAa7YNFVuI/edit?usp=drivesdk",
-    "author": "플레인（Plain）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2025-06-22",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "引渡保留",
-        "url": "https://docs.google.com/document/d/1Vp9C_hMdi9ime8guEKNBSqrBd4OFJcjblnAa7YNFVuI/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "鯨魚",
     "status": "2.已完結",
     "ko": "겨우 세 글자",
@@ -3522,6 +3647,25 @@ window.BOOK_DATA = [
         "label": "下",
         "title": "僅僅三個字-下",
         "url": "https://docs.google.com/document/d/1LZAyGiDvKKqTwk7dQwVvCgJOs9H_M2ig5qn1z2Akc_A/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "플레인",
+    "status": "2.已完結",
+    "ko": "인도 보류",
+    "zh": "引渡保留",
+    "original": "https://www.postype.com/@monochrome-film/post/19713907",
+    "translation": "https://docs.google.com/document/d/1Vp9C_hMdi9ime8guEKNBSqrBd4OFJcjblnAa7YNFVuI/edit?usp=drivesdk",
+    "author": "플레인（Plain）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2025-06-22",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "引渡保留",
+        "url": "https://docs.google.com/document/d/1Vp9C_hMdi9ime8guEKNBSqrBd4OFJcjblnAa7YNFVuI/edit?usp=drivesdk"
       }
     ]
   },
@@ -3762,25 +3906,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "에또 스타핏!",
-    "zh": "欸抖 stop it!",
-    "original": "https://www.postype.com/@ayjjwy0304/post/19381738",
-    "translation": "https://docs.google.com/document/d/1M2hc09H07wG3ptoAaDKxWkFzXTm7tZ8CNSQnvTX7NcU/edit?usp=drivesdk",
-    "author": "뭉자（音譯：夢子）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2025-06-08",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "欸抖 Stop it!",
-        "url": "https://docs.google.com/document/d/1M2hc09H07wG3ptoAaDKxWkFzXTm7tZ8CNSQnvTX7NcU/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "noname",
     "status": "2.已完結",
     "ko": "사막에 오아시스",
@@ -3802,6 +3927,25 @@ window.BOOK_DATA = [
         "label": "番外 HBD",
         "title": "沙漠中的綠洲番外-HBD",
         "url": "https://docs.google.com/document/d/1PrC9ZfmlXrMn0IrDMtSQfJhxvExfZvsTYlmbHtTuz2Y/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "에또 스타핏!",
+    "zh": "欸抖 stop it!",
+    "original": "https://www.postype.com/@ayjjwy0304/post/19381738",
+    "translation": "https://docs.google.com/document/d/1M2hc09H07wG3ptoAaDKxWkFzXTm7tZ8CNSQnvTX7NcU/edit?usp=drivesdk",
+    "author": "뭉자（音譯：夢子）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2025-06-08",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "欸抖 Stop it!",
+        "url": "https://docs.google.com/document/d/1M2hc09H07wG3ptoAaDKxWkFzXTm7tZ8CNSQnvTX7NcU/edit?usp=drivesdk"
       }
     ]
   },
@@ -3881,6 +4025,45 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "짝사랑의 이유",
+    "zh": "💰 單戀的理由",
+    "original": "https://www.postype.com/@untitle009/post/6690204",
+    "translation": "https://docs.google.com/document/d/1kIyGY2SJ3j474Hw4INAMsMuBjNDvFI45h88_kesJlEQ/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2025-05-24",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "單戀的理由",
+        "url": "https://docs.google.com/document/d/1kIyGY2SJ3j474Hw4INAMsMuBjNDvFI45h88_kesJlEQ/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "알파 길들이기",
+    "zh": "馴服Alpha",
+    "original": "https://www.postype.com/@rps-rrr/post/5051082",
+    "translation": "https://docs.google.com/document/d/1hl4Vc_aSucp9nQyC_SiJQiJL7OafcSWkQZ60h1DRHss/edit?usp=drivesdk",
+    "author": "익룡（翼龍）",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2025-05-24",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "馴服Alpha",
+        "url": "https://docs.google.com/document/d/1hl4Vc_aSucp9nQyC_SiJQiJL7OafcSWkQZ60h1DRHss/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "키워줘 안아줘 사랑해줘",
@@ -3915,45 +4098,6 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "兔子在汪汪叫",
         "url": "https://docs.google.com/document/d/14TamlMkaXG9Fno9tv2UhmsE4l2qNPM727_czzI5h058/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "알파 길들이기",
-    "zh": "馴服Alpha",
-    "original": "https://www.postype.com/@rps-rrr/post/5051082",
-    "translation": "https://docs.google.com/document/d/1hl4Vc_aSucp9nQyC_SiJQiJL7OafcSWkQZ60h1DRHss/edit?usp=drivesdk",
-    "author": "익룡（翼龍）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2025-05-24",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "馴服Alpha",
-        "url": "https://docs.google.com/document/d/1hl4Vc_aSucp9nQyC_SiJQiJL7OafcSWkQZ60h1DRHss/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "짝사랑의 이유",
-    "zh": "💰 單戀的理由",
-    "original": "https://www.postype.com/@untitle009/post/6690204",
-    "translation": "https://docs.google.com/document/d/1kIyGY2SJ3j474Hw4INAMsMuBjNDvFI45h88_kesJlEQ/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2025-05-24",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "單戀的理由",
-        "url": "https://docs.google.com/document/d/1kIyGY2SJ3j474Hw4INAMsMuBjNDvFI45h88_kesJlEQ/edit?usp=drivesdk"
       }
     ]
   },
@@ -4050,25 +4194,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "季刊",
-    "status": "2.已完結",
-    "ko": "순애와 순애",
-    "zh": "純愛與殉愛",
-    "original": "https://www.postype.com/@ynseasonrps/post/13442656",
-    "translation": "https://docs.google.com/document/d/1c4Cf6IqyMcWlJg3NKWyYj5OSISgQo8JhSuWrxFGmY10/edit?usp=drivesdk",
-    "author": "도교（音譯：道僑）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2025-05-18",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "純愛與殉愛(순애와 순애)_도교",
-        "url": "https://docs.google.com/document/d/1c4Cf6IqyMcWlJg3NKWyYj5OSISgQo8JhSuWrxFGmY10/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "noname",
     "status": "2.已完結",
     "ko": "태양주의보",
@@ -4090,19 +4215,38 @@ window.BOOK_DATA = [
   {
     "page": "季刊",
     "status": "2.已完結",
-    "ko": "숯불구이맛후랑크",
-    "zh": "炭烤香腸口味的法蘭克",
-    "original": "https://www.postype.com/@ynseasonrps/post/13009137",
-    "translation": "https://docs.google.com/document/d/163yWFjepx2hhfsOp-jHVul1T5cS-OLsnFd4CPOGZajk/edit?usp=drivesdk",
-    "author": "잘조（音譯：喬巧）",
+    "ko": "순애와 순애",
+    "zh": "純愛與殉愛",
+    "original": "https://www.postype.com/@ynseasonrps/post/13442656",
+    "translation": "https://docs.google.com/document/d/1c4Cf6IqyMcWlJg3NKWyYj5OSISgQo8JhSuWrxFGmY10/edit?usp=drivesdk",
+    "author": "도교（音譯：道僑）",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2025-05-18",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "純愛與殉愛(순애와 순애)_도교",
+        "url": "https://docs.google.com/document/d/1c4Cf6IqyMcWlJg3NKWyYj5OSISgQo8JhSuWrxFGmY10/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "HATE ME",
+    "zh": "HATE ME",
+    "original": "https://www.postype.com/@01--------9/post/14851350",
+    "translation": "https://docs.google.com/document/d/1goPsogyPW_r6KjM4Oiouyes1Znfpgr_KZc5ORte1dxU/edit?usp=drivesdk",
+    "author": "굼（夢）",
     "translator": "鳳梨",
     "note": "",
     "date": "2025-05-17",
     "episodes": [
       {
         "label": "閱讀",
-        "title": "炭烤香腸口味的法蘭克",
-        "url": "https://docs.google.com/document/d/163yWFjepx2hhfsOp-jHVul1T5cS-OLsnFd4CPOGZajk/edit?usp=drivesdk"
+        "title": "HATE ME",
+        "url": "https://docs.google.com/document/d/1goPsogyPW_r6KjM4Oiouyes1Znfpgr_KZc5ORte1dxU/edit?usp=drivesdk"
       }
     ]
   },
@@ -4126,21 +4270,21 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "季刊",
     "status": "2.已完結",
-    "ko": "HATE ME",
-    "zh": "HATE ME",
-    "original": "https://www.postype.com/@01--------9/post/14851350",
-    "translation": "https://docs.google.com/document/d/1goPsogyPW_r6KjM4Oiouyes1Znfpgr_KZc5ORte1dxU/edit?usp=drivesdk",
-    "author": "굼（夢）",
+    "ko": "숯불구이맛후랑크",
+    "zh": "炭烤香腸口味的法蘭克",
+    "original": "https://www.postype.com/@ynseasonrps/post/13009137",
+    "translation": "https://docs.google.com/document/d/163yWFjepx2hhfsOp-jHVul1T5cS-OLsnFd4CPOGZajk/edit?usp=drivesdk",
+    "author": "잘조（音譯：喬巧）",
     "translator": "鳳梨",
     "note": "",
     "date": "2025-05-17",
     "episodes": [
       {
         "label": "閱讀",
-        "title": "HATE ME",
-        "url": "https://docs.google.com/document/d/1goPsogyPW_r6KjM4Oiouyes1Znfpgr_KZc5ORte1dxU/edit?usp=drivesdk"
+        "title": "炭烤香腸口味的法蘭克",
+        "url": "https://docs.google.com/document/d/163yWFjepx2hhfsOp-jHVul1T5cS-OLsnFd4CPOGZajk/edit?usp=drivesdk"
       }
     ]
   },
@@ -4233,6 +4377,25 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "시절인연",
+    "zh": "時節姻緣（CP潔癖勿入）",
+    "original": "https://www.postype.com/@seol-cheong/post/16747698",
+    "translation": "https://docs.google.com/document/d/1fFn0Counh2sMoHO4VVL0Ezbwu-ORVrTervE7K6HbCaE/edit?usp=drivesdk",
+    "author": "꿀구마（蜜地瓜）",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2025-05-11",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "時節姻緣",
+        "url": "https://docs.google.com/document/d/1fFn0Counh2sMoHO4VVL0Ezbwu-ORVrTervE7K6HbCaE/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "생일 축하합니다",
@@ -4290,6 +4453,25 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "등가 교환의 법칙",
+    "zh": "等價交換定律",
+    "original": "https://www.postype.com/@ayjjwy0304/post/19363749",
+    "translation": "https://docs.google.com/document/d/1LYjlEmEHNhwEujQO6FNZTcpJ74nAk8K_c7sUgVaONLw/edit?usp=drivesdk",
+    "author": "뭉자（音譯：夢子）",
+    "translator": "不是蓋瑞🤓",
+    "note": "",
+    "date": "2025-05-08",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "等價交換定律",
+        "url": "https://docs.google.com/document/d/1LYjlEmEHNhwEujQO6FNZTcpJ74nAk8K_c7sUgVaONLw/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "季刊",
     "status": "2.已完結",
     "ko": "그런 거",
@@ -4334,25 +4516,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "등가 교환의 법칙",
-    "zh": "等價交換定律",
-    "original": "https://www.postype.com/@ayjjwy0304/post/19363749",
-    "translation": "https://docs.google.com/document/d/1LYjlEmEHNhwEujQO6FNZTcpJ74nAk8K_c7sUgVaONLw/edit?usp=drivesdk",
-    "author": "뭉자（音譯：夢子）",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2025-05-08",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "等價交換定律",
-        "url": "https://docs.google.com/document/d/1LYjlEmEHNhwEujQO6FNZTcpJ74nAk8K_c7sUgVaONLw/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "雞蛋",
     "status": "2.已完結",
     "ko": "헤테로 실격",
@@ -4383,21 +4546,26 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "季刊",
+    "page": "noname",
     "status": "2.已完結",
-    "ko": "우리의 사랑은 여름이었지",
-    "zh": "我們的愛是夏天啊",
-    "original": "https://www.postype.com/@ynseasonrps/post/13009226",
-    "translation": "https://docs.google.com/document/d/1ShGYvVd8AlTwTpA4AggXDoItupYhQtNDmynPZNdy2os/edit?usp=drivesdk",
-    "author": "익명2（匿名2）",
+    "ko": "멜팅 쇼콜라 하이틴-上+下",
+    "zh": "Melt Chocolate Highteen-上+下",
+    "original": "https://www.postype.com/@untitle009/post/9577634",
+    "translation": "https://docs.google.com/document/d/1j9OOSE9ELkT9jqxpfHagDFycrsIgGwnaYYEnxdvv_YQ/edit?usp=drivesdk",
+    "author": "noname",
     "translator": "鳳梨",
     "note": "",
     "date": "2025-05-04",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "我們的愛是夏天啊",
-        "url": "https://docs.google.com/document/d/1ShGYvVd8AlTwTpA4AggXDoItupYhQtNDmynPZNdy2os/edit?usp=drivesdk"
+        "label": "上",
+        "title": "Melting Chocolat Highteen-上",
+        "url": "https://docs.google.com/document/d/1j9OOSE9ELkT9jqxpfHagDFycrsIgGwnaYYEnxdvv_YQ/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "Melting Chocolat Highteen-下",
+        "url": "https://docs.google.com/document/d/1AfevBOqApotIcwQufFuzGhYOC6O8swaOqPZeVmmzDTI/edit?usp=drivesdk"
       }
     ]
   },
@@ -4421,26 +4589,21 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "noname",
+    "page": "季刊",
     "status": "2.已完結",
-    "ko": "멜팅 쇼콜라 하이틴-上+下",
-    "zh": "Melt Chocolate Highteen-上+下",
-    "original": "https://www.postype.com/@untitle009/post/9577634",
-    "translation": "https://docs.google.com/document/d/1j9OOSE9ELkT9jqxpfHagDFycrsIgGwnaYYEnxdvv_YQ/edit?usp=drivesdk",
-    "author": "noname",
+    "ko": "우리의 사랑은 여름이었지",
+    "zh": "我們的愛是夏天啊",
+    "original": "https://www.postype.com/@ynseasonrps/post/13009226",
+    "translation": "https://docs.google.com/document/d/1ShGYvVd8AlTwTpA4AggXDoItupYhQtNDmynPZNdy2os/edit?usp=drivesdk",
+    "author": "익명2（匿名2）",
     "translator": "鳳梨",
     "note": "",
     "date": "2025-05-04",
     "episodes": [
       {
-        "label": "上",
-        "title": "Melting Chocolat Highteen-上",
-        "url": "https://docs.google.com/document/d/1j9OOSE9ELkT9jqxpfHagDFycrsIgGwnaYYEnxdvv_YQ/edit?usp=drivesdk"
-      },
-      {
-        "label": "下",
-        "title": "Melting Chocolat Highteen-下",
-        "url": "https://docs.google.com/document/d/1AfevBOqApotIcwQufFuzGhYOC6O8swaOqPZeVmmzDTI/edit?usp=drivesdk"
+        "label": "閱讀",
+        "title": "我們的愛是夏天啊",
+        "url": "https://docs.google.com/document/d/1ShGYvVd8AlTwTpA4AggXDoItupYhQtNDmynPZNdy2os/edit?usp=drivesdk"
       }
     ]
   },
@@ -4580,6 +4743,25 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "비온뒤 맑음",
+    "zh": "雨後轉晴",
+    "original": "https://www.postype.com/@seol-cheong/post/16877596",
+    "translation": "https://docs.google.com/document/d/1U59lryAv6q99ZwKAYIM7fKsgEyW8zuf2N0q8cR9Er9A/edit?usp=drivesdk",
+    "author": "꿀구마（蜜地瓜）",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2025-05-03",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "雨後轉晴",
+        "url": "https://docs.google.com/document/d/1U59lryAv6q99ZwKAYIM7fKsgEyW8zuf2N0q8cR9Er9A/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "淨漢",
     "status": "2.已完結",
     "ko": "Hot and Cool",
@@ -4619,25 +4801,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "鯨魚",
-    "status": "2.已完結",
-    "ko": "당신들, 나를 위해",
-    "zh": "你們為我而活",
-    "original": "https://www.postype.com/@golae0831/post/19239930",
-    "translation": "https://docs.google.com/document/d/1S3DgTQjw4CW30S2mp4B1_2MWtsLbANYIh-pE9Cf29F8/edit?usp=drivesdk",
-    "author": "고래（鯨魚）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2025-04-17",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "你們為我而活",
-        "url": "https://docs.google.com/document/d/1S3DgTQjw4CW30S2mp4B1_2MWtsLbANYIh-pE9Cf29F8/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "真心",
     "status": "2.已完結",
     "ko": "901:Not Found",
@@ -4653,6 +4816,25 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "901 Not found",
         "url": "https://docs.google.com/document/d/1lCjP31vz_IJriSvTk3nqkRav1-46K8pyM97JPTWotvw/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "鯨魚",
+    "status": "2.已完結",
+    "ko": "당신들, 나를 위해",
+    "zh": "你們為我而活",
+    "original": "https://www.postype.com/@golae0831/post/19239930",
+    "translation": "https://docs.google.com/document/d/1S3DgTQjw4CW30S2mp4B1_2MWtsLbANYIh-pE9Cf29F8/edit?usp=drivesdk",
+    "author": "고래（鯨魚）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2025-04-17",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "你們為我而活",
+        "url": "https://docs.google.com/document/d/1S3DgTQjw4CW30S2mp4B1_2MWtsLbANYIh-pE9Cf29F8/edit?usp=drivesdk"
       }
     ]
   },
@@ -4918,6 +5100,25 @@ window.BOOK_DATA = [
   {
     "page": "其他老師",
     "status": "2.已完結",
+    "ko": "영원 만들기",
+    "zh": "創造永恆",
+    "original": "https://www.postype.com/@guemgang/post/18664073",
+    "translation": "https://docs.google.com/document/d/1fciQk7KOEonKj0CEuinGOGZJf1dvUvVnnuAUHsWRVFE/edit?usp=drivesdk",
+    "author": "금강（金剛）",
+    "translator": "筍",
+    "note": "",
+    "date": "2025-03-01",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "創造永恆",
+        "url": "https://docs.google.com/document/d/1fciQk7KOEonKj0CEuinGOGZJf1dvUvVnnuAUHsWRVFE/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
     "ko": "태산군전",
     "zh": "💰 太山君傳",
     "original": "https://www.postype.com/@not-ace/post/18890392",
@@ -4932,25 +5133,6 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "太山君傳",
         "url": "https://docs.google.com/document/d/179y0pFOKK70R1YQA7s0pMCVSiAbBn6EuwI01K30cD0s/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "영원 만들기",
-    "zh": "創造永恆",
-    "original": "https://www.postype.com/@guemgang/post/18664073",
-    "translation": "https://docs.google.com/document/d/1fciQk7KOEonKj0CEuinGOGZJf1dvUvVnnuAUHsWRVFE/edit?usp=drivesdk",
-    "author": "금강（金剛）",
-    "translator": "筍",
-    "note": "",
-    "date": "2025-03-01",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "創造永恆",
-        "url": "https://docs.google.com/document/d/1fciQk7KOEonKj0CEuinGOGZJf1dvUvVnnuAUHsWRVFE/edit?usp=drivesdk"
       }
     ]
   },
@@ -5043,6 +5225,26 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "알파 함락 작전",
+    "zh": "💰 阿爾法攻略作戰",
+    "original": "https://www.postype.com/@cho-post/post/18539118",
+    "translation": "https://docs.google.com/document/d/17U-aFoi6WIghw2By832GAS7LgA5tA4odvPzLuUPMkV0/edit?usp=drivesdk",
+    "author": "Cho",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2025-02-26",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "阿爾法攻略作戰",
+        "url": "https://docs.google.com/document/d/17U-aFoi6WIghw2By832GAS7LgA5tA4odvPzLuUPMkV0/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "真心",
     "status": "2.已完結",
     "ko": "Midnight in Florence",
@@ -5063,26 +5265,6 @@ window.BOOK_DATA = [
         "label": "下",
         "title": "Midnight in Florence-下",
         "url": "https://docs.google.com/document/d/19XIHgNswFEUW9abKCJ8pVjXorICVdGQR2sFzVpvU9nw/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "알파 함락 작전",
-    "zh": "💰 阿爾法攻略作戰",
-    "original": "https://www.postype.com/@cho-post/post/18539118",
-    "translation": "https://docs.google.com/document/d/17U-aFoi6WIghw2By832GAS7LgA5tA4odvPzLuUPMkV0/edit?usp=drivesdk",
-    "author": "Cho",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2025-02-26",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "阿爾法攻略作戰",
-        "url": "https://docs.google.com/document/d/17U-aFoi6WIghw2By832GAS7LgA5tA4odvPzLuUPMkV0/edit?usp=drivesdk"
       }
     ]
   },
@@ -5183,25 +5365,6 @@ window.BOOK_DATA = [
   {
     "page": "淨漢",
     "status": "2.已完結",
-    "ko": "안가네 양평해장국",
-    "zh": "安家的楊平解酒湯",
-    "original": "https://www.postype.com/@garden-han/post/15737713",
-    "translation": "https://docs.google.com/document/d/1odGSDmu0U4zmHK4NlR0WfWkaagiXOhI0lFNsFCfdDKY/edit?usp=drivesdk",
-    "author": "정한（淨漢）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2025-02-17",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "安家的楊平解酒湯",
-        "url": "https://docs.google.com/document/d/1odGSDmu0U4zmHK4NlR0WfWkaagiXOhI0lFNsFCfdDKY/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "淨漢",
-    "status": "2.已完結",
     "ko": "우리들은 자란다",
     "zh": "💰 我們正在成長",
     "original": "https://www.postype.com/@garden-han/post/16513877",
@@ -5216,6 +5379,25 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "我們正在成長",
         "url": "https://docs.google.com/document/d/1_LIfFs7aea2D_IbAsl-mBovtC0cYjCQ1WIae82jppNA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "淨漢",
+    "status": "2.已完結",
+    "ko": "안가네 양평해장국",
+    "zh": "安家的楊平解酒湯",
+    "original": "https://www.postype.com/@garden-han/post/15737713",
+    "translation": "https://docs.google.com/document/d/1odGSDmu0U4zmHK4NlR0WfWkaagiXOhI0lFNsFCfdDKY/edit?usp=drivesdk",
+    "author": "정한（淨漢）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2025-02-17",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "安家的楊平解酒湯",
+        "url": "https://docs.google.com/document/d/1odGSDmu0U4zmHK4NlR0WfWkaagiXOhI0lFNsFCfdDKY/edit?usp=drivesdk"
       }
     ]
   },
@@ -5258,6 +5440,25 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "개가 되지 않는 법",
+    "zh": "不變成狗的方法",
+    "original": "https://www.postype.com/@seol-cheong/post/18699643",
+    "translation": "https://docs.google.com/document/d/1gjkvCr-TkIB3i7JruiHtnoj-ZHhoAH285oz3WD5yqX0/edit?usp=drivesdk",
+    "author": "꿀구마（蜜地瓜）",
+    "translator": "不是蓋瑞🤓",
+    "note": "",
+    "date": "2025-02-10",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "不變成狗的方法",
+        "url": "https://docs.google.com/document/d/1gjkvCr-TkIB3i7JruiHtnoj-ZHhoAH285oz3WD5yqX0/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "샘플링 바이어스",
@@ -5278,25 +5479,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "真心",
-    "status": "2.已完結",
-    "ko": "돌아갈 수 없는 길",
-    "zh": "無法回頭的路",
-    "original": "https://www.postype.com/@yuwon8318/post/18433339",
-    "translation": "https://docs.google.com/document/d/1TsV6oWuRPoWC3Y7PCUsf2SBbmrdoCo-c9hxzjLgIk1g/edit?usp=drivesdk",
-    "author": "진심（真心）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2025-01-26",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "無法回頭的路",
-        "url": "https://docs.google.com/document/d/1TsV6oWuRPoWC3Y7PCUsf2SBbmrdoCo-c9hxzjLgIk1g/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "클로버의 바람",
@@ -5312,6 +5494,25 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "三葉草的願望",
         "url": "https://docs.google.com/document/d/1Y1cG0NJpeAzFlZOMOFzHOcLUh8YiJOi8SuFM1Rg-EQQ/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "真心",
+    "status": "2.已完結",
+    "ko": "돌아갈 수 없는 길",
+    "zh": "無法回頭的路",
+    "original": "https://www.postype.com/@yuwon8318/post/18433339",
+    "translation": "https://docs.google.com/document/d/1TsV6oWuRPoWC3Y7PCUsf2SBbmrdoCo-c9hxzjLgIk1g/edit?usp=drivesdk",
+    "author": "진심（真心）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2025-01-26",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "無法回頭的路",
+        "url": "https://docs.google.com/document/d/1TsV6oWuRPoWC3Y7PCUsf2SBbmrdoCo-c9hxzjLgIk1g/edit?usp=drivesdk"
       }
     ]
   },
@@ -5398,26 +5599,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "真心",
-    "status": "2.已完結",
-    "ko": "내 남편의 여자",
-    "zh": "💰 我丈夫的女人",
-    "original": "https://www.postype.com/@yuwon8318/post/17728013",
-    "translation": "https://docs.google.com/document/d/1hz9U-vnKuNa4jyEJX98UErnzTjS8QfLaPdupadgB-Cs/edit?usp=drivesdk",
-    "author": "진심（真心）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2025-01-12",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "我的丈夫的女人",
-        "url": "https://docs.google.com/document/d/1hz9U-vnKuNa4jyEJX98UErnzTjS8QfLaPdupadgB-Cs/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "WHATEVER !",
@@ -5469,6 +5650,26 @@ window.BOOK_DATA = [
         "label": "下",
         "title": "渴望 下集",
         "url": "https://docs.google.com/document/d/1Cb8d-GuMnYMnyCrhMSPjD_D09ZkYIGLG9es_dlKbwbM/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "真心",
+    "status": "2.已完結",
+    "ko": "내 남편의 여자",
+    "zh": "💰 我丈夫的女人",
+    "original": "https://www.postype.com/@yuwon8318/post/17728013",
+    "translation": "https://docs.google.com/document/d/1hz9U-vnKuNa4jyEJX98UErnzTjS8QfLaPdupadgB-Cs/edit?usp=drivesdk",
+    "author": "진심（真心）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2025-01-12",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "我的丈夫的女人",
+        "url": "https://docs.google.com/document/d/1hz9U-vnKuNa4jyEJX98UErnzTjS8QfLaPdupadgB-Cs/edit?usp=drivesdk"
       }
     ]
   },
@@ -5801,26 +6002,6 @@ window.BOOK_DATA = [
   {
     "page": "其他老師",
     "status": "2.已完結",
-    "ko": "드로즈",
-    "zh": "💰 平口內褲",
-    "original": "https://www.postype.com/@popositive/post/18353065",
-    "translation": "https://docs.google.com/document/d/1xFqEB6jeiy7HXnElheg_ZCgotrmEA-dYkcLwzbYZ0Is/edit?usp=drivesdk",
-    "author": "Whiskey",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2025-01-03",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "平口內褲",
-        "url": "https://docs.google.com/document/d/1xFqEB6jeiy7HXnElheg_ZCgotrmEA-dYkcLwzbYZ0Is/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
     "ko": "RESET（本+外）",
     "zh": "💰 RESET（本+外）",
     "original": "https://www.postype.com/@cho-post/post/17390673",
@@ -5846,19 +6027,20 @@ window.BOOK_DATA = [
   {
     "page": "其他老師",
     "status": "2.已完結",
-    "ko": "너를 이기는 방법",
-    "zh": "打敗妳的方法",
-    "original": "https://www.postype.com/@dearestory/post/17564099",
-    "translation": "https://docs.google.com/document/d/1AFLtK8xKohhUu_ncitP5E8ptQ6Iw1fP2SlTMbbHSWfU/edit?usp=drivesdk",
-    "author": "이라（伊羅）",
+    "ko": "드로즈",
+    "zh": "💰 平口內褲",
+    "original": "https://www.postype.com/@popositive/post/18353065",
+    "translation": "https://docs.google.com/document/d/1xFqEB6jeiy7HXnElheg_ZCgotrmEA-dYkcLwzbYZ0Is/edit?usp=drivesdk",
+    "author": "Whiskey",
     "translator": "貢丸",
     "note": "",
-    "date": "2025-01-02",
+    "date": "2025-01-03",
+    "paid": true,
     "episodes": [
       {
         "label": "閱讀",
-        "title": "打敗妳的方法",
-        "url": "https://docs.google.com/document/d/1AFLtK8xKohhUu_ncitP5E8ptQ6Iw1fP2SlTMbbHSWfU/edit?usp=drivesdk"
+        "title": "平口內褲",
+        "url": "https://docs.google.com/document/d/1xFqEB6jeiy7HXnElheg_ZCgotrmEA-dYkcLwzbYZ0Is/edit?usp=drivesdk"
       }
     ]
   },
@@ -5899,6 +6081,25 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "主禱文",
         "url": "https://docs.google.com/document/d/1P2LztKjxv5JkpcrtSRLFZFshykh7PLVet5snFcBCnzk/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "너를 이기는 방법",
+    "zh": "打敗妳的方法",
+    "original": "https://www.postype.com/@dearestory/post/17564099",
+    "translation": "https://docs.google.com/document/d/1AFLtK8xKohhUu_ncitP5E8ptQ6Iw1fP2SlTMbbHSWfU/edit?usp=drivesdk",
+    "author": "이라（伊羅）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2025-01-02",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "打敗妳的方法",
+        "url": "https://docs.google.com/document/d/1AFLtK8xKohhUu_ncitP5E8ptQ6Iw1fP2SlTMbbHSWfU/edit?usp=drivesdk"
       }
     ]
   },
@@ -5964,6 +6165,26 @@ window.BOOK_DATA = [
   {
     "page": "其他老師",
     "status": "2.已完結",
+    "ko": "생일에 개강",
+    "zh": "💰 生日那天開學（朴專家的『學期初的生日』前傳）",
+    "original": "https://www.postype.com/@nothing-left09/post/15207213",
+    "translation": "https://docs.google.com/document/d/10JBTcIDm4QVNOKhCFMgE3yoCMkR8neIXqyt3DqMdngA/edit?usp=drivesdk",
+    "author": "무（蕪）",
+    "translator": "不是蓋瑞🤓",
+    "note": "",
+    "date": "2025-01-01",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "生日那天開學 (前傳)",
+        "url": "https://docs.google.com/document/d/10JBTcIDm4QVNOKhCFMgE3yoCMkR8neIXqyt3DqMdngA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
     "ko": "엔트리 에로스",
     "zh": "墮入厄洛斯",
     "original": "https://www.postype.com/@rps-rrr/post/7195922",
@@ -5996,26 +6217,6 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "學期初的生日 (愚人節改編)",
         "url": "https://docs.google.com/document/d/1gVIrRzr97MBXnoGRmOhsY1jDn7vRXw7v9wAYddbTsJU/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "생일에 개강",
-    "zh": "💰 生日那天開學（朴專家的『學期初的生日』前傳）",
-    "original": "https://www.postype.com/@nothing-left09/post/15207213",
-    "translation": "https://docs.google.com/document/d/10JBTcIDm4QVNOKhCFMgE3yoCMkR8neIXqyt3DqMdngA/edit?usp=drivesdk",
-    "author": "무（蕪）",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2025-01-01",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "生日那天開學 (前傳)",
-        "url": "https://docs.google.com/document/d/10JBTcIDm4QVNOKhCFMgE3yoCMkR8neIXqyt3DqMdngA/edit?usp=drivesdk"
       }
     ]
   },
@@ -6059,13 +6260,13 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "鯨魚",
+    "page": "其他老師",
     "status": "2.已完結",
-    "ko": "Passionate A&W 외전 2 - 이별여행",
-    "zh": "💰 Passionate A&W 外傳2-告別之旅",
-    "original": "https://www.postype.com/@golae0831/post/17049980",
-    "translation": "https://docs.google.com/document/d/1DOHzIw3rQ0hi699ZprDw7Bdw0avmKzTXTWuf3SAUtp4/edit?usp=drivesdk",
-    "author": "고래（鯨魚）",
+    "ko": "현재진행형 버릇",
+    "zh": "💰 進行中的習慣",
+    "original": "https://www.postype.com/@cho-post/post/18240511",
+    "translation": "https://docs.google.com/document/d/18lla-bHmsTEvGRZ2QM5N6MI5GHEag_frwGQ82Udm5xw/edit?usp=drivesdk",
+    "author": "Cho",
     "translator": "貢丸",
     "note": "",
     "date": "2024-12-28",
@@ -6073,8 +6274,8 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "Passionate A&W 外傳2告別之旅",
-        "url": "https://docs.google.com/document/d/1DOHzIw3rQ0hi699ZprDw7Bdw0avmKzTXTWuf3SAUtp4/edit?usp=drivesdk"
+        "title": "進行中的習慣",
+        "url": "https://docs.google.com/document/d/18lla-bHmsTEvGRZ2QM5N6MI5GHEag_frwGQ82Udm5xw/edit?usp=drivesdk"
       }
     ]
   },
@@ -6101,20 +6302,20 @@ window.BOOK_DATA = [
   {
     "page": "其他老師",
     "status": "2.已完結",
-    "ko": "현재진행형 버릇",
-    "zh": "💰 進行中的習慣",
-    "original": "https://www.postype.com/@cho-post/post/18240511",
-    "translation": "https://docs.google.com/document/d/18lla-bHmsTEvGRZ2QM5N6MI5GHEag_frwGQ82Udm5xw/edit?usp=drivesdk",
-    "author": "Cho",
-    "translator": "貢丸",
+    "ko": "ARE YOU THERE，EUGENE？",
+    "zh": "💰 ARE YOU THERE，EUGENE？",
+    "original": "https://www.postype.com/@xi3ad4wl671x/post/7560468",
+    "translation": "https://docs.google.com/document/d/1__P6LK2M_McMfs_wYtPhcLqpZsJYz30tOjV_K43ZEf8/edit?usp=drivesdk",
+    "author": "삼사（三司）",
+    "translator": "鳳梨",
     "note": "",
     "date": "2024-12-28",
     "paid": true,
     "episodes": [
       {
         "label": "閱讀",
-        "title": "進行中的習慣",
-        "url": "https://docs.google.com/document/d/18lla-bHmsTEvGRZ2QM5N6MI5GHEag_frwGQ82Udm5xw/edit?usp=drivesdk"
+        "title": "ARE YOU THERE，EUGENE？",
+        "url": "https://docs.google.com/document/d/1__P6LK2M_McMfs_wYtPhcLqpZsJYz30tOjV_K43ZEf8/edit?usp=drivesdk"
       }
     ]
   },
@@ -6148,162 +6349,42 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
+    "page": "鯨魚",
     "status": "2.已完結",
-    "ko": "ARE YOU THERE，EUGENE？",
-    "zh": "💰 ARE YOU THERE，EUGENE？",
-    "original": "https://www.postype.com/@xi3ad4wl671x/post/7560468",
-    "translation": "https://docs.google.com/document/d/1__P6LK2M_McMfs_wYtPhcLqpZsJYz30tOjV_K43ZEf8/edit?usp=drivesdk",
-    "author": "삼사（三司）",
-    "translator": "鳳梨",
+    "ko": "Passionate A&W 외전 2 - 이별여행",
+    "zh": "💰 Passionate A&W 外傳2-告別之旅",
+    "original": "https://www.postype.com/@golae0831/post/17049980",
+    "translation": "https://docs.google.com/document/d/1DOHzIw3rQ0hi699ZprDw7Bdw0avmKzTXTWuf3SAUtp4/edit?usp=drivesdk",
+    "author": "고래（鯨魚）",
+    "translator": "貢丸",
     "note": "",
     "date": "2024-12-28",
     "paid": true,
     "episodes": [
       {
         "label": "閱讀",
-        "title": "ARE YOU THERE，EUGENE？",
-        "url": "https://docs.google.com/document/d/1__P6LK2M_McMfs_wYtPhcLqpZsJYz30tOjV_K43ZEf8/edit?usp=drivesdk"
+        "title": "Passionate A&W 外傳2告別之旅",
+        "url": "https://docs.google.com/document/d/1DOHzIw3rQ0hi699ZprDw7Bdw0avmKzTXTWuf3SAUtp4/edit?usp=drivesdk"
       }
     ]
   },
   {
-    "page": "真心",
+    "page": "noname",
     "status": "2.已完結",
-    "ko": "커피가 예쁘고 알바생이 맛있어요 S2番外-為誰而辦的聖誕活動",
-    "zh": "💰 咖啡夫妻S2番外-為誰而辦的聖誕活動",
-    "original": "https://www.postype.com/@yuwon8318/post/18188109",
-    "translation": "https://docs.google.com/document/d/1NHcrOn1n4FUqdK7L05dKyFTlmV_2L__9x3PX_kM8oq4/edit?usp=drivesdk",
-    "author": "진심（真心）",
-    "translator": "貢丸",
+    "ko": "헤이트 데스트니",
+    "zh": "💰 仇恨命運",
+    "original": "https://www.postype.com/@untitle009/post/18292154",
+    "translation": "https://docs.google.com/document/d/1HKp8cv1YsTI1ob5-tVEylkey5XvLoxAfQVjLOS7RvTo/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "鳳梨",
     "note": "",
     "date": "2024-12-25",
     "paid": true,
     "episodes": [
       {
         "label": "閱讀",
-        "title": "為誰而辦的聖誕活動",
-        "url": "https://docs.google.com/document/d/1NHcrOn1n4FUqdK7L05dKyFTlmV_2L__9x3PX_kM8oq4/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "真心",
-    "status": "2.已完結",
-    "ko": "커피가 예쁘고 알바생이 맛있어요 S2番外-馬爾地夫篇",
-    "zh": "💰 咖啡夫妻S2番外-馬爾地夫篇",
-    "original": "https://www.postype.com/@yuwon8318/post/17805700",
-    "translation": "https://docs.google.com/document/d/1wA9sTNsbuyGU8ce5U8q-U7mZeJgokfrJ50wQmpEhc7w/edit?usp=drivesdk",
-    "author": "진심（真心）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2024-12-25",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "咖啡夫妻番外篇-馬爾地夫",
-        "url": "https://docs.google.com/document/d/1wA9sTNsbuyGU8ce5U8q-U7mZeJgokfrJ50wQmpEhc7w/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "真心",
-    "status": "2.已完結",
-    "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-    "zh": "💰 咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
-    "original": "https://www.postype.com/@yuwon8318/post/17284602",
-    "translation": "https://docs.google.com/document/d/1xohWYP1FgtRSZbvPcNiQqS--ECjJ0ZbmT525j98xVzo/edit?usp=drivesdk",
-    "author": "진심（真心）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2024-12-25",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "1",
-        "title": "我的女兒們很可愛 我的妻子很性感1",
-        "url": "https://docs.google.com/document/d/1xohWYP1FgtRSZbvPcNiQqS--ECjJ0ZbmT525j98xVzo/edit?usp=drivesdk"
-      },
-      {
-        "label": "2",
-        "title": "我的女兒們很可愛 我的妻子很性感2",
-        "url": "https://docs.google.com/document/d/19qQNuvenz0FSVCsTIeWoRhJOpVlqI6LKyLHmeBHs2-I/edit?usp=drivesdk"
-      },
-      {
-        "label": "3",
-        "title": "我的女兒們很可愛 我的妻子很性感3",
-        "url": "https://docs.google.com/document/d/1e2gRkROyQFgZT_mj25hUmf6zmh6dPiuUzpjRMWiCv00/edit?usp=drivesdk"
-      },
-      {
-        "label": "4",
-        "title": "我的女兒們很可愛 我的妻子很性感4",
-        "url": "https://docs.google.com/document/d/1-WSytN4FkI1Df-s0BQU1bSkHW7_8briz1suCwN2Q46E/edit?usp=drivesdk"
-      },
-      {
-        "label": "5",
-        "title": "我的女兒們很可愛 我的妻子很性感5",
-        "url": "https://docs.google.com/document/d/1l0STUWxYRm5RASnxljsx9UAJk75uXvYfUIl9Ld3NdQE/edit?usp=drivesdk"
-      },
-      {
-        "label": "6",
-        "title": "我的女兒們很可愛 我的妻子很性感6",
-        "url": "https://docs.google.com/document/d/1oyHBa_YDZAVNrat0TBaJiARb4Yt36QGKBuzM1r3CqNM/edit?usp=drivesdk"
-      },
-      {
-        "label": "7",
-        "title": "我的女兒們很可愛 我的妻子很性感7",
-        "url": "https://docs.google.com/document/d/1v8yLbPJNCMu0AevOCaXb7FruQR5jc_acAMkUEZ6vN8Y/edit?usp=drivesdk"
-      },
-      {
-        "label": "8",
-        "title": "我的女兒們很可愛 我的妻子很性感8",
-        "url": "https://docs.google.com/document/d/1YPbQ838huHPoHA3ougl7MJJV1-rcIHLrnkPu5uFWa7k/edit?usp=drivesdk"
-      },
-      {
-        "label": "9",
-        "title": "我的女兒們很可愛 我的妻子很性感9",
-        "url": "https://docs.google.com/document/d/14x0N9lnkw9RVji6PXEytLPYh0NCPsDiuuKctPRl6VrA/edit?usp=drivesdk"
-      },
-      {
-        "label": "10",
-        "title": "我的女兒們很可愛 我的妻子很性感10",
-        "url": "https://docs.google.com/document/d/16JYEoGHV7ESC0oCwJmOIu50x1CMwFkYNOrTng_UADTo/edit?usp=drivesdk"
-      },
-      {
-        "label": "11",
-        "title": "我的女兒們很可愛 我的妻子很性感11",
-        "url": "https://docs.google.com/document/d/15lU-IetpGx3MwV4tFd1Eua1nzD9XSDhdXPT0-mwDCa0/edit?usp=drivesdk"
-      },
-      {
-        "label": "12",
-        "title": "我的女兒們很可愛 我的妻子很性感12",
-        "url": "https://docs.google.com/document/d/1lWdq5op-lULvGUbgKEl-wz26U9twkTl4Uh1nGYDmMa0/edit?usp=drivesdk"
-      },
-      {
-        "label": "13",
-        "title": "我的女兒們很可愛 我的妻子很性感13",
-        "url": "https://docs.google.com/document/d/1B1Za7q8fvt_Y3G2oJa5WJe5-K_fCCjTwYPA-dKBZb8c/edit?usp=drivesdk"
-      },
-      {
-        "label": "14",
-        "title": "我的女兒們很可愛 我的妻子很性感14",
-        "url": "https://docs.google.com/document/d/1glC58YDP06LUrv-695u7W-qtMXbJ--DpILH8cL8J0F0/edit?usp=drivesdk"
-      },
-      {
-        "label": "15",
-        "title": "我的女兒們很可愛 我的妻子很性感15",
-        "url": "https://docs.google.com/document/d/1x_eNIWnRGD6rrIuPKWDBMGlzPjVrVjLYCqFgwfoyR9I/edit?usp=drivesdk"
-      },
-      {
-        "label": "16",
-        "title": "我的女兒們很可愛 我的妻子很性感16",
-        "url": "https://docs.google.com/document/d/1jzr57NpVV-zXso3qIi-DxmJXIdBwvA5NjE9bkHG0Jv4/edit?usp=drivesdk"
-      },
-      {
-        "label": "17",
-        "title": "我的女兒們很可愛 我的妻子很性感17",
-        "url": "https://docs.google.com/document/d/1prNT7qExqHFB2oXOuv61p4P3COPTvvX6xfDz0bwAhWw/edit?usp=drivesdk"
+        "title": "仇恨命運",
+        "url": "https://docs.google.com/document/d/1HKp8cv1YsTI1ob5-tVEylkey5XvLoxAfQVjLOS7RvTo/edit?usp=drivesdk"
       }
     ]
   },
@@ -6423,22 +6504,142 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "noname",
+    "page": "真心",
     "status": "2.已完結",
-    "ko": "헤이트 데스트니",
-    "zh": "💰 仇恨命運",
-    "original": "https://www.postype.com/@untitle009/post/18292154",
-    "translation": "https://docs.google.com/document/d/1HKp8cv1YsTI1ob5-tVEylkey5XvLoxAfQVjLOS7RvTo/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "鳳梨",
+    "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
+    "zh": "💰 咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+    "original": "https://www.postype.com/@yuwon8318/post/17284602",
+    "translation": "https://docs.google.com/document/d/1xohWYP1FgtRSZbvPcNiQqS--ECjJ0ZbmT525j98xVzo/edit?usp=drivesdk",
+    "author": "진심（真心）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2024-12-25",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "1",
+        "title": "我的女兒們很可愛 我的妻子很性感1",
+        "url": "https://docs.google.com/document/d/1xohWYP1FgtRSZbvPcNiQqS--ECjJ0ZbmT525j98xVzo/edit?usp=drivesdk"
+      },
+      {
+        "label": "2",
+        "title": "我的女兒們很可愛 我的妻子很性感2",
+        "url": "https://docs.google.com/document/d/19qQNuvenz0FSVCsTIeWoRhJOpVlqI6LKyLHmeBHs2-I/edit?usp=drivesdk"
+      },
+      {
+        "label": "3",
+        "title": "我的女兒們很可愛 我的妻子很性感3",
+        "url": "https://docs.google.com/document/d/1e2gRkROyQFgZT_mj25hUmf6zmh6dPiuUzpjRMWiCv00/edit?usp=drivesdk"
+      },
+      {
+        "label": "4",
+        "title": "我的女兒們很可愛 我的妻子很性感4",
+        "url": "https://docs.google.com/document/d/1-WSytN4FkI1Df-s0BQU1bSkHW7_8briz1suCwN2Q46E/edit?usp=drivesdk"
+      },
+      {
+        "label": "5",
+        "title": "我的女兒們很可愛 我的妻子很性感5",
+        "url": "https://docs.google.com/document/d/1l0STUWxYRm5RASnxljsx9UAJk75uXvYfUIl9Ld3NdQE/edit?usp=drivesdk"
+      },
+      {
+        "label": "6",
+        "title": "我的女兒們很可愛 我的妻子很性感6",
+        "url": "https://docs.google.com/document/d/1oyHBa_YDZAVNrat0TBaJiARb4Yt36QGKBuzM1r3CqNM/edit?usp=drivesdk"
+      },
+      {
+        "label": "7",
+        "title": "我的女兒們很可愛 我的妻子很性感7",
+        "url": "https://docs.google.com/document/d/1v8yLbPJNCMu0AevOCaXb7FruQR5jc_acAMkUEZ6vN8Y/edit?usp=drivesdk"
+      },
+      {
+        "label": "8",
+        "title": "我的女兒們很可愛 我的妻子很性感8",
+        "url": "https://docs.google.com/document/d/1YPbQ838huHPoHA3ougl7MJJV1-rcIHLrnkPu5uFWa7k/edit?usp=drivesdk"
+      },
+      {
+        "label": "9",
+        "title": "我的女兒們很可愛 我的妻子很性感9",
+        "url": "https://docs.google.com/document/d/14x0N9lnkw9RVji6PXEytLPYh0NCPsDiuuKctPRl6VrA/edit?usp=drivesdk"
+      },
+      {
+        "label": "10",
+        "title": "我的女兒們很可愛 我的妻子很性感10",
+        "url": "https://docs.google.com/document/d/16JYEoGHV7ESC0oCwJmOIu50x1CMwFkYNOrTng_UADTo/edit?usp=drivesdk"
+      },
+      {
+        "label": "11",
+        "title": "我的女兒們很可愛 我的妻子很性感11",
+        "url": "https://docs.google.com/document/d/15lU-IetpGx3MwV4tFd1Eua1nzD9XSDhdXPT0-mwDCa0/edit?usp=drivesdk"
+      },
+      {
+        "label": "12",
+        "title": "我的女兒們很可愛 我的妻子很性感12",
+        "url": "https://docs.google.com/document/d/1lWdq5op-lULvGUbgKEl-wz26U9twkTl4Uh1nGYDmMa0/edit?usp=drivesdk"
+      },
+      {
+        "label": "13",
+        "title": "我的女兒們很可愛 我的妻子很性感13",
+        "url": "https://docs.google.com/document/d/1B1Za7q8fvt_Y3G2oJa5WJe5-K_fCCjTwYPA-dKBZb8c/edit?usp=drivesdk"
+      },
+      {
+        "label": "14",
+        "title": "我的女兒們很可愛 我的妻子很性感14",
+        "url": "https://docs.google.com/document/d/1glC58YDP06LUrv-695u7W-qtMXbJ--DpILH8cL8J0F0/edit?usp=drivesdk"
+      },
+      {
+        "label": "15",
+        "title": "我的女兒們很可愛 我的妻子很性感15",
+        "url": "https://docs.google.com/document/d/1x_eNIWnRGD6rrIuPKWDBMGlzPjVrVjLYCqFgwfoyR9I/edit?usp=drivesdk"
+      },
+      {
+        "label": "16",
+        "title": "我的女兒們很可愛 我的妻子很性感16",
+        "url": "https://docs.google.com/document/d/1jzr57NpVV-zXso3qIi-DxmJXIdBwvA5NjE9bkHG0Jv4/edit?usp=drivesdk"
+      },
+      {
+        "label": "17",
+        "title": "我的女兒們很可愛 我的妻子很性感17",
+        "url": "https://docs.google.com/document/d/1prNT7qExqHFB2oXOuv61p4P3COPTvvX6xfDz0bwAhWw/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "真心",
+    "status": "2.已完結",
+    "ko": "커피가 예쁘고 알바생이 맛있어요 S2番外-馬爾地夫篇",
+    "zh": "💰 咖啡夫妻S2番外-馬爾地夫篇",
+    "original": "https://www.postype.com/@yuwon8318/post/17805700",
+    "translation": "https://docs.google.com/document/d/1wA9sTNsbuyGU8ce5U8q-U7mZeJgokfrJ50wQmpEhc7w/edit?usp=drivesdk",
+    "author": "진심（真心）",
+    "translator": "貢丸",
     "note": "",
     "date": "2024-12-25",
     "paid": true,
     "episodes": [
       {
         "label": "閱讀",
-        "title": "仇恨命運",
-        "url": "https://docs.google.com/document/d/1HKp8cv1YsTI1ob5-tVEylkey5XvLoxAfQVjLOS7RvTo/edit?usp=drivesdk"
+        "title": "咖啡夫妻番外篇-馬爾地夫",
+        "url": "https://docs.google.com/document/d/1wA9sTNsbuyGU8ce5U8q-U7mZeJgokfrJ50wQmpEhc7w/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "真心",
+    "status": "2.已完結",
+    "ko": "커피가 예쁘고 알바생이 맛있어요 S2番外-為誰而辦的聖誕活動",
+    "zh": "💰 咖啡夫妻S2番外-為誰而辦的聖誕活動",
+    "original": "https://www.postype.com/@yuwon8318/post/18188109",
+    "translation": "https://docs.google.com/document/d/1NHcrOn1n4FUqdK7L05dKyFTlmV_2L__9x3PX_kM8oq4/edit?usp=drivesdk",
+    "author": "진심（真心）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2024-12-25",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "為誰而辦的聖誕活動",
+        "url": "https://docs.google.com/document/d/1NHcrOn1n4FUqdK7L05dKyFTlmV_2L__9x3PX_kM8oq4/edit?usp=drivesdk"
       }
     ]
   },
@@ -6530,6 +6731,26 @@ window.BOOK_DATA = [
   {
     "page": "雞蛋",
     "status": "2.已完結",
+    "ko": "키 크고 예쁜 여자라서 관심 있습니다",
+    "zh": "💰 那女生又高又漂亮，所以被吸引了",
+    "original": "https://www.postype.com/@eeggdanzii/post/17055339",
+    "translation": "https://docs.google.com/document/d/1oiiwr9ypTRp9RvxScdp2fDBNlKITZGThX2U69Vxe11A/edit?usp=drivesdk",
+    "author": "달걀（雞蛋）",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2024-12-21",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "那女生又高又漂亮，所以被吸引了",
+        "url": "https://docs.google.com/document/d/1oiiwr9ypTRp9RvxScdp2fDBNlKITZGThX2U69Vxe11A/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "雞蛋",
+    "status": "2.已完結",
     "ko": "주차 빌런",
     "zh": "違規停車惡棍",
     "original": "https://www.postype.com/@eeggdanzii/post/16324816",
@@ -6547,22 +6768,21 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "雞蛋",
+    "page": "其他老師",
     "status": "2.已完結",
-    "ko": "키 크고 예쁜 여자라서 관심 있습니다",
-    "zh": "💰 那女生又高又漂亮，所以被吸引了",
-    "original": "https://www.postype.com/@eeggdanzii/post/17055339",
-    "translation": "https://docs.google.com/document/d/1oiiwr9ypTRp9RvxScdp2fDBNlKITZGThX2U69Vxe11A/edit?usp=drivesdk",
-    "author": "달걀（雞蛋）",
+    "ko": "배터리가 부족합니다",
+    "zh": "電池快沒電了！記得盡快充電喔！",
+    "original": "https://www.postype.com/@rps-rrr/post/4763731",
+    "translation": "https://docs.google.com/document/d/1ZroCA5QCds5D5UHitD0Ak72C8XhheIcdIpuR2IE8SSY/edit?usp=drivesdk",
+    "author": "익룡（翼龍）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024-12-21",
-    "paid": true,
+    "date": "2024-12-19",
     "episodes": [
       {
         "label": "閱讀",
-        "title": "那女生又高又漂亮，所以被吸引了",
-        "url": "https://docs.google.com/document/d/1oiiwr9ypTRp9RvxScdp2fDBNlKITZGThX2U69Vxe11A/edit?usp=drivesdk"
+        "title": "電池快沒電了！記得盡快充電喔！",
+        "url": "https://docs.google.com/document/d/1ZroCA5QCds5D5UHitD0Ak72C8XhheIcdIpuR2IE8SSY/edit?usp=drivesdk"
       }
     ]
   },
@@ -6608,19 +6828,20 @@ window.BOOK_DATA = [
   {
     "page": "其他老師",
     "status": "2.已完結",
-    "ko": "배터리가 부족합니다",
-    "zh": "電池快沒電了！記得盡快充電喔！",
-    "original": "https://www.postype.com/@rps-rrr/post/4763731",
-    "translation": "https://docs.google.com/document/d/1ZroCA5QCds5D5UHitD0Ak72C8XhheIcdIpuR2IE8SSY/edit?usp=drivesdk",
-    "author": "익룡（翼龍）",
-    "translator": "鳳梨",
+    "ko": "교점 그리고 종점",
+    "zh": "💰 交點與終點",
+    "original": "https://www.postype.com/@allicaneat/post/17269519",
+    "translation": "https://docs.google.com/document/d/1vf0D1FXrhwA3tteAxsidP289Y4g-aiI5YYSH4jhO4VE/edit?usp=drivesdk",
+    "author": "톨（Tall）",
+    "translator": "貢丸",
     "note": "",
-    "date": "2024-12-19",
+    "date": "2024-12-18",
+    "paid": true,
     "episodes": [
       {
         "label": "閱讀",
-        "title": "電池快沒電了！記得盡快充電喔！",
-        "url": "https://docs.google.com/document/d/1ZroCA5QCds5D5UHitD0Ak72C8XhheIcdIpuR2IE8SSY/edit?usp=drivesdk"
+        "title": "交點與終點",
+        "url": "https://docs.google.com/document/d/1vf0D1FXrhwA3tteAxsidP289Y4g-aiI5YYSH4jhO4VE/edit?usp=drivesdk"
       }
     ]
   },
@@ -6644,26 +6865,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "교점 그리고 종점",
-    "zh": "💰 交點與終點",
-    "original": "https://www.postype.com/@allicaneat/post/17269519",
-    "translation": "https://docs.google.com/document/d/1vf0D1FXrhwA3tteAxsidP289Y4g-aiI5YYSH4jhO4VE/edit?usp=drivesdk",
-    "author": "톨（Tall）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2024-12-18",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "交點與終點",
-        "url": "https://docs.google.com/document/d/1vf0D1FXrhwA3tteAxsidP289Y4g-aiI5YYSH4jhO4VE/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "淨漢",
     "status": "2.已完結",
     "ko": "Cool and Hot",
@@ -6679,6 +6880,25 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "Cool and Hot",
         "url": "https://docs.google.com/document/d/1IXDTO-MidtCPr283eFkJGf3UFwEYEtQ2UCfeKWAOK3k/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "비정상 관찰 보고서",
+    "zh": "非正常觀察報告",
+    "original": "https://www.postype.com/@seol-cheong/post/18224305",
+    "translation": "https://docs.google.com/document/d/14eJqq6qWyDnqFA1lLo4gQLeykC1pZJtE_FOQ0EBtgHo/edit?usp=drivesdk",
+    "author": "꿀구마（蜜地瓜）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2024-12-17",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "非正常觀察報告書",
+        "url": "https://docs.google.com/document/d/14eJqq6qWyDnqFA1lLo4gQLeykC1pZJtE_FOQ0EBtgHo/edit?usp=drivesdk"
       }
     ]
   },
@@ -6738,145 +6958,6 @@ window.BOOK_DATA = [
         "label": "上集",
         "title": "OH! VICKY! YOU BLOW MY MIND!-上集",
         "url": "https://docs.google.com/document/d/1gnkkZ0xMyOYoC8ETZsHbJdFoD2ezpeMZdclBXB1ER9I/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "朴專家",
-    "status": "2.已完結",
-    "ko": "완벽한 세기의 커플",
-    "zh": "完美的世紀情侶",
-    "original": "https://www.postype.com/@ynseasonrps/post/15849517",
-    "translation": "https://docs.google.com/document/d/1SayNodSfIX9inW4yo1XynOZaFO7uA0ZpCd9Jh8fo50c/edit?usp=drive_link",
-    "author": "박프로",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2024-12-13"
-  },
-  {
-    "page": "朴專家",
-    "status": "2.已完結",
-    "ko": "아주 사적인 사업파트너",
-    "zh": "非常私密合夥人",
-    "original": "https://www.postype.com/@parkpro/series/1176712",
-    "translation": "https://docs.google.com/document/d/1xJ6_-0bcYQ5rNZWb4YxCfyCm660gCDut_NxvD3gIcIw/edit?usp=drivesdk",
-    "author": "박프로",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2024-12-13",
-    "episodes": [
-      {
-        "label": "EP1",
-        "title": "非常私密合夥人01",
-        "url": "https://docs.google.com/document/d/1xJ6_-0bcYQ5rNZWb4YxCfyCm660gCDut_NxvD3gIcIw/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP2",
-        "title": "非常私密合夥人02",
-        "url": "https://docs.google.com/document/d/1UXPqbjmusKsGfhBxbwFg6CVhcKIWhcfQkbY2iphrPEg/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP3",
-        "title": "非常私密合夥人03",
-        "url": "https://docs.google.com/document/d/14dfBCRZXiKupyD-b8mOdHpctwXDsf4xkl5Lu8lIjzqg/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP4",
-        "title": "非常私密合夥人04",
-        "url": "https://docs.google.com/document/d/1JOLiV1TpuNEsUL1NRBLCnkP1RZNVD2oR-An39yT_b1o/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP5",
-        "title": "非常私密合夥人05",
-        "url": "https://docs.google.com/document/d/112mig3JggfzMme-xNbh210OXzEulPo_qBMahx3cLUPg/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP6",
-        "title": "非常私密合夥人06",
-        "url": "https://docs.google.com/document/d/1c1EDnDW79xVnRy7CDSVVwQ4348HyB1pKKQKEn1mdI2w/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "朴專家",
-    "status": "2.已完結",
-    "ko": "서울의 잠 못 이루는 밤",
-    "zh": "首爾不眠夜",
-    "original": "https://www.postype.com/@parkpro/series/1176402",
-    "translation": "https://docs.google.com/document/d/1uro847faaPwX1v_LYuKK1sB1AVKzmKHwVfisagOOEx8/edit?usp=drivesdk",
-    "author": "박프로",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2024-12-13",
-    "episodes": [
-      {
-        "label": "上",
-        "title": "01 首爾不眠夜（上）",
-        "url": "https://docs.google.com/document/d/1uro847faaPwX1v_LYuKK1sB1AVKzmKHwVfisagOOEx8/edit?usp=drivesdk"
-      },
-      {
-        "label": "中",
-        "title": "02 首爾不眠夜（中）",
-        "url": "https://docs.google.com/document/d/1asvBgOJsu6WJN2oGfZqVpiCIG1-a2926DwxMlBnsU-c/edit?usp=drivesdk"
-      },
-      {
-        "label": "下",
-        "title": "03 首爾不眠夜（下）",
-        "url": "https://docs.google.com/document/d/1LcPLlJYgfF943ZZyn9n02I8lCce06WE8Hprt7XBczC4/edit?usp=drivesdk"
-      },
-      {
-        "label": "外傳",
-        "title": "04 首爾不眠夜（外傳）",
-        "url": "https://docs.google.com/document/d/19aRJSwyoum1-6vG1y-VgsSDLnF_TFjjRY5LGsFWhzjQ/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "朴專家",
-    "status": "2.已完結",
-    "ko": "Lavender Haze",
-    "zh": "Lavender Haze",
-    "original": "https://www.postype.com/@parkpro/series/1176401",
-    "translation": "https://docs.google.com/document/d/1FHktz1bOcbakRQAcLd9NgiGNn-2w-e7XjiU4yXToXIA/edit?usp=drivesdk",
-    "author": "박프로",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2024-12-13",
-    "episodes": [
-      {
-        "label": "上",
-        "title": "01 Lavender Haze 上",
-        "url": "https://docs.google.com/document/d/1FHktz1bOcbakRQAcLd9NgiGNn-2w-e7XjiU4yXToXIA/edit?usp=drivesdk"
-      },
-      {
-        "label": "中1",
-        "title": "02 Lavender Haze 中 (1/2)",
-        "url": "https://docs.google.com/document/d/1XkGrMpZES_Q7N08RhCjaCX18KTYcOGkT8QI_1NvjPME/edit?usp=drivesdk"
-      },
-      {
-        "label": "中2",
-        "title": "03 Lavender Haze 中 (2/2)",
-        "url": "https://docs.google.com/document/d/18CsjHa8C0B-lXE_T6iFW99HPopZkOAPEfwvTFTMsebg/edit?usp=drivesdk"
-      },
-      {
-        "label": "下1",
-        "title": "04 Lavender Haze 下 (1/2)",
-        "url": "https://docs.google.com/document/d/1Ckjw3jQO10Fu7XnU1KFuYAjOMIw41Amp0hbRiEMlPG0/edit?usp=drivesdk"
-      },
-      {
-        "label": "下2",
-        "title": "05 Lavender Haze 下 (2/2)",
-        "url": "https://docs.google.com/document/d/1jjmJBVCqXMY8LRoAewCC4T53KSuqzl8l3Cn3Ca9PdhU/edit?usp=drivesdk"
-      },
-      {
-        "label": "外傳1",
-        "title": "06 Lavender Haze 外傳 (1/2)",
-        "url": "https://docs.google.com/document/d/1HlIUAKRAsdkNPBCfrTcVYjuR2O3-3_nqFrfCvH0-Vek/edit?usp=drivesdk"
-      },
-      {
-        "label": "外傳2",
-        "title": "07 Lavender Haze 外傳 (2/2)",
-        "url": "https://docs.google.com/document/d/11p8yFloF1nmqBCSh7b9xwQUPCfd-7liRsKU98E7dtWA/edit?usp=drivesdk"
       }
     ]
   },
@@ -7131,6 +7212,190 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "朴專家",
+    "status": "2.已完結",
+    "ko": "완벽한 세기의 커플",
+    "zh": "完美的世紀情侶",
+    "original": "https://www.postype.com/@ynseasonrps/post/15849517",
+    "translation": "https://docs.google.com/document/d/1SayNodSfIX9inW4yo1XynOZaFO7uA0ZpCd9Jh8fo50c/edit?usp=drive_link",
+    "author": "박프로",
+    "translator": "不是蓋瑞🤓",
+    "note": "",
+    "date": "2024-12-13"
+  },
+  {
+    "page": "朴專家",
+    "status": "2.已完結",
+    "ko": "아주 사적인 사업파트너",
+    "zh": "非常私密合夥人",
+    "original": "https://www.postype.com/@parkpro/series/1176712",
+    "translation": "https://docs.google.com/document/d/1xJ6_-0bcYQ5rNZWb4YxCfyCm660gCDut_NxvD3gIcIw/edit?usp=drivesdk",
+    "author": "박프로",
+    "translator": "不是蓋瑞🤓",
+    "note": "",
+    "date": "2024-12-13",
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "非常私密合夥人01",
+        "url": "https://docs.google.com/document/d/1xJ6_-0bcYQ5rNZWb4YxCfyCm660gCDut_NxvD3gIcIw/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "非常私密合夥人02",
+        "url": "https://docs.google.com/document/d/1UXPqbjmusKsGfhBxbwFg6CVhcKIWhcfQkbY2iphrPEg/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "非常私密合夥人03",
+        "url": "https://docs.google.com/document/d/14dfBCRZXiKupyD-b8mOdHpctwXDsf4xkl5Lu8lIjzqg/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "非常私密合夥人04",
+        "url": "https://docs.google.com/document/d/1JOLiV1TpuNEsUL1NRBLCnkP1RZNVD2oR-An39yT_b1o/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP5",
+        "title": "非常私密合夥人05",
+        "url": "https://docs.google.com/document/d/112mig3JggfzMme-xNbh210OXzEulPo_qBMahx3cLUPg/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP6",
+        "title": "非常私密合夥人06",
+        "url": "https://docs.google.com/document/d/1c1EDnDW79xVnRy7CDSVVwQ4348HyB1pKKQKEn1mdI2w/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "朴專家",
+    "status": "2.已完結",
+    "ko": "서울의 잠 못 이루는 밤",
+    "zh": "首爾不眠夜",
+    "original": "https://www.postype.com/@parkpro/series/1176402",
+    "translation": "https://docs.google.com/document/d/1uro847faaPwX1v_LYuKK1sB1AVKzmKHwVfisagOOEx8/edit?usp=drivesdk",
+    "author": "박프로",
+    "translator": "不是蓋瑞🤓",
+    "note": "",
+    "date": "2024-12-13",
+    "episodes": [
+      {
+        "label": "上",
+        "title": "01 首爾不眠夜（上）",
+        "url": "https://docs.google.com/document/d/1uro847faaPwX1v_LYuKK1sB1AVKzmKHwVfisagOOEx8/edit?usp=drivesdk"
+      },
+      {
+        "label": "中",
+        "title": "02 首爾不眠夜（中）",
+        "url": "https://docs.google.com/document/d/1asvBgOJsu6WJN2oGfZqVpiCIG1-a2926DwxMlBnsU-c/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "03 首爾不眠夜（下）",
+        "url": "https://docs.google.com/document/d/1LcPLlJYgfF943ZZyn9n02I8lCce06WE8Hprt7XBczC4/edit?usp=drivesdk"
+      },
+      {
+        "label": "外傳",
+        "title": "04 首爾不眠夜（外傳）",
+        "url": "https://docs.google.com/document/d/19aRJSwyoum1-6vG1y-VgsSDLnF_TFjjRY5LGsFWhzjQ/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "朴專家",
+    "status": "2.已完結",
+    "ko": "Lavender Haze",
+    "zh": "Lavender Haze",
+    "original": "https://www.postype.com/@parkpro/series/1176401",
+    "translation": "https://docs.google.com/document/d/1FHktz1bOcbakRQAcLd9NgiGNn-2w-e7XjiU4yXToXIA/edit?usp=drivesdk",
+    "author": "박프로",
+    "translator": "不是蓋瑞🤓",
+    "note": "",
+    "date": "2024-12-13",
+    "episodes": [
+      {
+        "label": "上",
+        "title": "01 Lavender Haze 上",
+        "url": "https://docs.google.com/document/d/1FHktz1bOcbakRQAcLd9NgiGNn-2w-e7XjiU4yXToXIA/edit?usp=drivesdk"
+      },
+      {
+        "label": "中1",
+        "title": "02 Lavender Haze 中 (1/2)",
+        "url": "https://docs.google.com/document/d/1XkGrMpZES_Q7N08RhCjaCX18KTYcOGkT8QI_1NvjPME/edit?usp=drivesdk"
+      },
+      {
+        "label": "中2",
+        "title": "03 Lavender Haze 中 (2/2)",
+        "url": "https://docs.google.com/document/d/18CsjHa8C0B-lXE_T6iFW99HPopZkOAPEfwvTFTMsebg/edit?usp=drivesdk"
+      },
+      {
+        "label": "下1",
+        "title": "04 Lavender Haze 下 (1/2)",
+        "url": "https://docs.google.com/document/d/1Ckjw3jQO10Fu7XnU1KFuYAjOMIw41Amp0hbRiEMlPG0/edit?usp=drivesdk"
+      },
+      {
+        "label": "下2",
+        "title": "05 Lavender Haze 下 (2/2)",
+        "url": "https://docs.google.com/document/d/1jjmJBVCqXMY8LRoAewCC4T53KSuqzl8l3Cn3Ca9PdhU/edit?usp=drivesdk"
+      },
+      {
+        "label": "外傳1",
+        "title": "06 Lavender Haze 外傳 (1/2)",
+        "url": "https://docs.google.com/document/d/1HlIUAKRAsdkNPBCfrTcVYjuR2O3-3_nqFrfCvH0-Vek/edit?usp=drivesdk"
+      },
+      {
+        "label": "外傳2",
+        "title": "07 Lavender Haze 外傳 (2/2)",
+        "url": "https://docs.google.com/document/d/11p8yFloF1nmqBCSh7b9xwQUPCfd-7liRsKU98E7dtWA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "淨漢",
+    "status": "2.已完結",
+    "ko": "젖과 꿀이 흐르는, 너와 나의 밤",
+    "zh": "💰 流淌著奶與蜜的 你和我的夜晚",
+    "original": "https://www.postype.com/@garden-han/post/15460418",
+    "translation": "https://docs.google.com/document/d/1eKuF7ICtgFeThqgD6FthB59Bsn2Zy9txSQa2Jo6NaqA/edit?usp=drivesdk",
+    "author": "정한（淨漢）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2024-12-13",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "流淌著奶與蜜的 你和我的夜晚",
+        "url": "https://docs.google.com/document/d/1eKuF7ICtgFeThqgD6FthB59Bsn2Zy9txSQa2Jo6NaqA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "淨漢",
+    "status": "2.已完結",
+    "ko": "Triple XXX & SAFE XXX",
+    "zh": "💰 Triple XXX & SAFE XXX",
+    "original": "https://www.postype.com/@garden-han/post/17023637",
+    "translation": "https://docs.google.com/document/d/1ejcmcjwBtvNDcj1cSIqyITtQ_cb38tu346LrqBZZ_FQ/edit?usp=drivesdk",
+    "author": "정한（淨漢）",
+    "translator": "貢丸",
+    "note": "",
+    "date": "2024-12-13",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "01",
+        "title": "01 SAFE XXX",
+        "url": "https://docs.google.com/document/d/1ejcmcjwBtvNDcj1cSIqyITtQ_cb38tu346LrqBZZ_FQ/edit?usp=drivesdk"
+      },
+      {
+        "label": "02",
+        "title": "02 (續篇)Triple XXX",
+        "url": "https://docs.google.com/document/d/1SRR2kg3XIdNtmJNwzpMYPNfukX4EVzRQupurv5P4-S0/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "真心",
     "status": "2.已完結",
     "ko": "점호",
@@ -7297,51 +7562,6 @@ window.BOOK_DATA = [
         "label": "4",
         "title": "邊界Part4",
         "url": "https://docs.google.com/document/d/1X7-FyUwmd0iQUB3hpsef_fkcdI0mNL3XHH9CQutUStc/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "淨漢",
-    "status": "2.已完結",
-    "ko": "젖과 꿀이 흐르는, 너와 나의 밤",
-    "zh": "💰 流淌著奶與蜜的 你和我的夜晚",
-    "original": "https://www.postype.com/@garden-han/post/15460418",
-    "translation": "https://docs.google.com/document/d/1eKuF7ICtgFeThqgD6FthB59Bsn2Zy9txSQa2Jo6NaqA/edit?usp=drivesdk",
-    "author": "정한（淨漢）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2024-12-13",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "流淌著奶與蜜的 你和我的夜晚",
-        "url": "https://docs.google.com/document/d/1eKuF7ICtgFeThqgD6FthB59Bsn2Zy9txSQa2Jo6NaqA/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "淨漢",
-    "status": "2.已完結",
-    "ko": "Triple XXX & SAFE XXX",
-    "zh": "💰 Triple XXX & SAFE XXX",
-    "original": "https://www.postype.com/@garden-han/post/17023637",
-    "translation": "https://docs.google.com/document/d/1ejcmcjwBtvNDcj1cSIqyITtQ_cb38tu346LrqBZZ_FQ/edit?usp=drivesdk",
-    "author": "정한（淨漢）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2024-12-13",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "01",
-        "title": "01 SAFE XXX",
-        "url": "https://docs.google.com/document/d/1ejcmcjwBtvNDcj1cSIqyITtQ_cb38tu346LrqBZZ_FQ/edit?usp=drivesdk"
-      },
-      {
-        "label": "02",
-        "title": "02 (續篇)Triple XXX",
-        "url": "https://docs.google.com/document/d/1SRR2kg3XIdNtmJNwzpMYPNfukX4EVzRQupurv5P4-S0/edit?usp=drivesdk"
       }
     ]
   },
@@ -7683,139 +7903,6 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "大田西區文化中心",
         "url": "https://docs.google.com/document/d/1aaUCLeQE3yUAnrPPYj_hczwdQ34ASV0MhVGiLC1Ffcc/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "蜜地瓜",
-    "status": "2.已完結",
-    "ko": "헬인헤븐",
-    "zh": "Hell in heaven",
-    "original": "https://www.postype.com/@seol-cheong/post/21105452",
-    "translation": "https://docs.google.com/document/d/1U7BJGsVN0RZP7XjhnLrBJ1xvVPwUPyGwjQmIppIFKyM/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2025-12-16",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "Hell in heaven",
-        "url": "https://docs.google.com/document/d/1U7BJGsVN0RZP7XjhnLrBJ1xvVPwUPyGwjQmIppIFKyM/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "蜜地瓜",
-    "status": "2.已完結",
-    "ko": "미워도 다시 한번",
-    "zh": "即使討厭也再一次",
-    "original": "https://www.postype.com/@seol-cheong/post/16427619",
-    "translation": "https://docs.google.com/document/d/16BvwdvobKA8K-70k_IDPooFyb9tKbueZ9vLN69dD7-I/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2025-09-07",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "即使討厭也再一次",
-        "url": "https://docs.google.com/document/d/16BvwdvobKA8K-70k_IDPooFyb9tKbueZ9vLN69dD7-I/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "蜜地瓜",
-    "status": "2.已完結",
-    "ko": "베이비 록키",
-    "zh": "Baby Rocky",
-    "original": "https://www.postype.com/@seol-cheong/post/19224675",
-    "translation": "https://docs.google.com/document/d/1JIt3uXbqGMt7OmR8P7Alb_QOCcDirF0uSzxzEwnRVCU/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2025-07-27",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "Baby Rocky",
-        "url": "https://docs.google.com/document/d/1JIt3uXbqGMt7OmR8P7Alb_QOCcDirF0uSzxzEwnRVCU/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "蜜地瓜",
-    "status": "2.已完結",
-    "ko": "시절인연",
-    "zh": "時節姻緣（CP潔癖勿入）",
-    "original": "https://www.postype.com/@seol-cheong/post/16747698",
-    "translation": "https://docs.google.com/document/d/1fFn0Counh2sMoHO4VVL0Ezbwu-ORVrTervE7K6HbCaE/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2025-05-11",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "時節姻緣",
-        "url": "https://docs.google.com/document/d/1fFn0Counh2sMoHO4VVL0Ezbwu-ORVrTervE7K6HbCaE/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "蜜地瓜",
-    "status": "2.已完結",
-    "ko": "비온뒤 맑음",
-    "zh": "雨後轉晴",
-    "original": "https://www.postype.com/@seol-cheong/post/16877596",
-    "translation": "https://docs.google.com/document/d/1U59lryAv6q99ZwKAYIM7fKsgEyW8zuf2N0q8cR9Er9A/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2025-05-03",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "雨後轉晴",
-        "url": "https://docs.google.com/document/d/1U59lryAv6q99ZwKAYIM7fKsgEyW8zuf2N0q8cR9Er9A/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "蜜地瓜",
-    "status": "2.已完結",
-    "ko": "개가 되지 않는 법",
-    "zh": "不變成狗的方法",
-    "original": "https://www.postype.com/@seol-cheong/post/18699643",
-    "translation": "https://docs.google.com/document/d/1gjkvCr-TkIB3i7JruiHtnoj-ZHhoAH285oz3WD5yqX0/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2025-02-10",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "不變成狗的方法",
-        "url": "https://docs.google.com/document/d/1gjkvCr-TkIB3i7JruiHtnoj-ZHhoAH285oz3WD5yqX0/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "蜜地瓜",
-    "status": "2.已完結",
-    "ko": "비정상 관찰 보고서",
-    "zh": "非正常觀察報告",
-    "original": "https://www.postype.com/@seol-cheong/post/18224305",
-    "translation": "https://docs.google.com/document/d/14eJqq6qWyDnqFA1lLo4gQLeykC1pZJtE_FOQ0EBtgHo/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2024-12-17",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "非正常觀察報告書",
-        "url": "https://docs.google.com/document/d/14eJqq6qWyDnqFA1lLo4gQLeykC1pZJtE_FOQ0EBtgHo/edit?usp=drivesdk"
       }
     ]
   }
