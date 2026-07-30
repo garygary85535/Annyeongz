@@ -413,7 +413,7 @@
       margin: 0 0 5px;
       font-weight: 700;
       font-size: 16px;
-      padding-right: 86px;
+      padding-right: 128px;
       overflow-wrap: anywhere;
       display: -webkit-box;
       -webkit-line-clamp: 2;
@@ -485,9 +485,8 @@
       color: #a8d0f2;
     }
 
-    .fav {
+    .icon-action {
       position: absolute;
-      right: 9px;
       top: 9px;
       width: 30px;
       height: 30px;
@@ -503,15 +502,25 @@
       transition: transform .16s ease, background .16s ease, border-color .16s ease;
     }
 
-    .fav:hover {
+    .icon-action:hover {
       transform: translateY(-1px);
       background: var(--rose-soft);
       border-color: color-mix(in srgb, var(--rose) 46%, transparent);
     }
 
-    .fav[aria-pressed="true"] {
+    .icon-action[aria-pressed="true"] {
       background: var(--rose-soft);
       border-color: color-mix(in srgb, var(--rose) 54%, transparent);
+    }
+
+    .fav {
+      right: 44px;
+      color: var(--gold);
+    }
+
+    .read-done {
+      right: 9px;
+      color: var(--rose);
     }
 
     .card-actions {
@@ -1132,6 +1141,7 @@
   <script>
     const DATA = window.BOOK_DATA || [];
     const FAVORITE_STORAGE_KEY = "annyeongzFavoriteKeys";
+    const COMPLETED_STORAGE_KEY = "annyeongzCompletedKeys";
     const LEGACY_FAVORITE_STORAGE_KEY = "bookPrototypeFavs";
     const BOARD_STORAGE_KEY = "annyeongzBoardPosts";
 
@@ -1179,6 +1189,15 @@
       localStorage.setItem(FAVORITE_STORAGE_KEY, JSON.stringify([...state.favs]));
     }
 
+    function loadCompleted() {
+      const saved = readJsonStorage(COMPLETED_STORAGE_KEY, []);
+      return Array.isArray(saved) ? saved.map(String) : [];
+    }
+
+    function saveCompleted() {
+      localStorage.setItem(COMPLETED_STORAGE_KEY, JSON.stringify([...state.completed]));
+    }
+
     function loadBoardPosts() {
       const saved = readJsonStorage(BOARD_STORAGE_KEY, []);
       return Array.isArray(saved) ? saved : [];
@@ -1196,6 +1215,7 @@
       sort: "date-desc",
       user: JSON.parse(localStorage.getItem("bookPrototypeUser") || "null"),
       favs: new Set(loadFavorites()),
+      completed: new Set(loadCompleted()),
       boardPosts: loadBoardPosts()
     };
 
@@ -1311,11 +1331,13 @@
       const q = normalize(state.query);
       let items = DATA.filter(item => {
         const favoriteOK = state.page !== "我的最愛" || state.favs.has(favoriteKey(item));
-        const pageOK = state.page === "全部" || state.page === "我的最愛" || item.page === state.page;
+        const completedOK = state.page !== "已看完" || state.completed.has(favoriteKey(item));
+        const latestOK = state.page !== "最新建檔" || isShortStatusActive(item);
+        const pageOK = state.page === "全部" || state.page === "我的最愛" || state.page === "已看完" || state.page === "最新建檔" || item.page === state.page;
         const statusOK = state.status === "全部" || item.status === state.status;
         const updateOK = state.updateFilter === "全部" || shortStatusText(item) === state.updateFilter;
         const hay = normalize([item.zh, item.ko, item.author, item.translator, visibleNote(item), shortStatusText(item)].join(" "));
-        return favoriteOK && pageOK && statusOK && updateOK && (!q || hay.includes(q));
+        return favoriteOK && completedOK && latestOK && pageOK && statusOK && updateOK && (!q || hay.includes(q));
       });
 
       if (state.sort === "date-desc") items.sort((a, b) => dateKey(b) - dateKey(a));
@@ -1356,10 +1378,14 @@
     function renderTree() {
       const total = DATA.length;
       const favoriteCount = DATA.filter(item => state.favs.has(favoriteKey(item))).length;
+      const completedCount = DATA.filter(item => state.completed.has(favoriteKey(item))).length;
+      const latestCount = DATA.filter(isShortStatusActive).length;
       const pages = [
         { name: "留言板", count: state.boardPosts.length },
         { name: "全部", count: total },
+        { name: "最新建檔", count: latestCount },
         { name: "我的最愛", count: favoriteCount },
+        { name: "已看完", count: completedCount },
         ...pageCounts()
       ];
       el.tree.innerHTML = pages.map(p => `
@@ -1472,11 +1498,13 @@
       const id = DATA.indexOf(item);
       const key = favoriteKey(item);
       const fav = state.favs.has(key);
+      const completed = state.completed.has(key);
       return `
         <article class="card status-${statusClass(item)}" data-id="${id}" tabindex="0">
           <div class="card-actions">
             <a class="comment-link" href="#" data-comment-for="${id}">留言</a>
-            <button class="fav" type="button" data-fav="${id}" aria-label="${fav ? "取消收藏" : "收藏"}" aria-pressed="${fav}">${fav ? "♥" : "♡"}</button>
+            <button class="icon-action fav" type="button" data-fav="${id}" aria-label="${fav ? "取消收藏" : "收藏"}" aria-pressed="${fav}" title="${fav ? "取消收藏" : "收藏"}">${fav ? "★" : "☆"}</button>
+            <button class="icon-action read-done" type="button" data-completed="${id}" aria-label="${completed ? "取消已看完" : "標記已看完"}" aria-pressed="${completed}" title="${completed ? "取消已看完" : "標記已看完"}">${completed ? "♥" : "♡"}</button>
           </div>
           <h3 class="title">${item.zh}</h3>
           <div class="k-title">${item.ko}</div>
@@ -1613,9 +1641,9 @@
       }
       const items = visibleItems();
       el.grid.classList.remove("board-mode");
-      el.resultTitle.textContent = state.page === "全部" ? "全部作品" : state.page === "我的最愛" ? "我的最愛" : `#${state.page}`;
+      el.resultTitle.textContent = state.page === "全部" ? "全部作品" : state.page === "最新建檔" ? "最新建檔" : state.page === "我的最愛" ? "我的最愛" : state.page === "已看完" ? "已看完" : `#${state.page}`;
       el.countText.textContent = `${items.length} / ${DATA.length} 筆，依目前條件顯示`;
-      el.grid.innerHTML = items.length ? items.map(card).join("") : `<div class="empty">${state.page === "我的最愛" ? "還沒有收藏作品" : "找不到符合條件的作品"}</div>`;
+      el.grid.innerHTML = items.length ? items.map(card).join("") : `<div class="empty">${state.page === "我的最愛" ? "還沒有收藏作品" : state.page === "已看完" ? "還沒有標記已看完的作品" : state.page === "最新建檔" ? "七天內沒有新建檔作品" : "找不到符合條件的作品"}</div>`;
     }
 
     function render() {
@@ -1758,6 +1786,18 @@
         const key = favoriteKey(DATA[id]);
         state.favs.has(key) ? state.favs.delete(key) : state.favs.add(key);
         saveFavorites();
+        renderTree();
+        renderGrid();
+        return;
+      }
+
+      const completedButton = event.target.closest("[data-completed]");
+      if (completedButton) {
+        event.stopPropagation();
+        const id = Number(completedButton.dataset.completed);
+        const key = favoriteKey(DATA[id]);
+        state.completed.has(key) ? state.completed.delete(key) : state.completed.add(key);
+        saveCompleted();
         renderTree();
         renderGrid();
         return;

@@ -1,5 +1,86 @@
 window.BOOK_DATA = [
   {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "너의 등을 깨물고 싶어",
+    "zh": "💰 想咬你的背",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/13656566?show-original=true",
+    "translation": "https://docs.google.com/document/d/1gfYLl5Uko1HmumIxBChmn6N4CF2KalsSVkG3g5ip_kQ/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-30",
+    "paid": true
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "이글루",
+    "zh": "💰 冰屋",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/13919624",
+    "translation": "",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-30",
+    "paid": true
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "개는 노래하지 않는다 ",
+    "zh": "💰 狗是不會唱歌的",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/21390322",
+    "translation": "https://docs.google.com/document/d/15ewQOAcY-yMpxsHGWd7H0qEzaAnkDyIiNIObNM5_cDI/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-30",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "上",
+        "title": "狗是不會唱歌的 上",
+        "url": "https://docs.google.com/document/d/15ewQOAcY-yMpxsHGWd7H0qEzaAnkDyIiNIObNM5_cDI/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "狗是不會唱歌的 下",
+        "url": "https://docs.google.com/document/d/1_ZJDYkN_d5ta291qKc1-9NcW___aMsAm4P8zHFZt9Oc/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "저스트 웬즈데이",
+    "zh": "💰 Just Wednesday",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/16141100?show-original=true",
+    "translation": "https://docs.google.com/document/d/1uVL6isYhVKMqa0eXxtToUFdq2aOnRfCxQJuutBeuUus/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-30",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "上",
+        "title": "Just Wednesday 上",
+        "url": "https://docs.google.com/document/d/1uVL6isYhVKMqa0eXxtToUFdq2aOnRfCxQJuutBeuUus/edit?usp=drivesdk"
+      },
+      {
+        "label": "中",
+        "title": "Just Wednesday 中",
+        "url": "https://docs.google.com/document/d/1zi1CCoWTgQVCianWH81jsIM-3WfJ078IjGoGujvQ2uE/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "Just Wednesday 下",
+        "url": "https://docs.google.com/document/d/11olQl3S-o-0DsoJBqZMZ_iurHuBmbNQIau6ZztMuuNw/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "朴專家",
     "status": "0.連載中",
     "ko": "여자 자석",
