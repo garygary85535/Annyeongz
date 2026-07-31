@@ -1,5 +1,54 @@
 window.BOOK_DATA = [
   {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "엑설런트 프렌치",
+    "zh": "卓越法式",
+    "original": "https://www.postype.com/zh-hant/@drinkofsouthgod/post/17233015",
+    "translation": "https://docs.google.com/document/d/1vLZmvbO0amw1rpaNCTTSrsglRd7qCg3VDo-Kcseur6o/edit",
+    "author": "박시봉（朴時奉）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-07-31",
+    "episodes": [
+      {
+        "label": "1",
+        "title": "卓越法式 1",
+        "url": "https://docs.google.com/document/d/1vLZmvbO0amw1rpaNCTTSrsglRd7qCg3VDo-Kcseur6o/edit"
+      },
+      {
+        "label": "2",
+        "title": "卓越法式 2",
+        "url": "https://docs.google.com/document/d/1757nmJsnfAXoC6gmlf_QCkx8DWXdG_y3qcz0x-BRy_M/edit"
+      },
+      {
+        "label": "3",
+        "title": "卓越法式 3",
+        "url": "https://docs.google.com/document/d/1cUf1bicIjoLuSRc8CWTo2tfmLaX5nVGTY3kCm2BYh5M/edit"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "노럽노웻",
+    "zh": "💰 no love no wet",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/13801961?show-original=true",
+    "translation": "https://docs.google.com/document/d/1DNmXft4W40iP0eFInnYHZC3YFitadchSD9pIZ3RGZD0/edit",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-30",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "No love no wet",
+        "url": "https://docs.google.com/document/d/1DNmXft4W40iP0eFInnYHZC3YFitadchSD9pIZ3RGZD0/edit"
+      }
+    ]
+  },
+  {
     "page": "noname",
     "status": "2.已完結",
     "ko": "너의 등을 깨물고 싶어",
