@@ -357,6 +357,78 @@ window.BOOK_DATA = [
     "paid": true
   },
   {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "연애는 낭만",
+    "zh": "戀愛是浪漫（結婚是現實 外傳）",
+    "original": "https://www.postype.com/zh-hant/@srt-rps/post/13026976",
+    "translation": "https://docs.google.com/document/d/1Cur8elD5q-6xjOUNtw9LR_MftZjTF_fEItvyHv8kvyA/edit?usp=drivesdk",
+    "author": "로크（LOCK）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-01",
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "戀愛是浪漫 1",
+        "url": "https://docs.google.com/document/d/1Cur8elD5q-6xjOUNtw9LR_MftZjTF_fEItvyHv8kvyA/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "戀愛是浪漫 2",
+        "url": "https://docs.google.com/document/d/1Hl7fjQn-7airG-jh1p-1ScN8pO1uroWoeZ9XU6uil50/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "戀愛是浪漫 3",
+        "url": "https://docs.google.com/document/d/1qZ7b7Q3dGn9bBIYbXiwfZ82RNd9AyH840MZehVjnD-M/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "戀愛是浪漫 4",
+        "url": "https://docs.google.com/document/d/1R5-jx2b8tnnVeI-Wad5GnJBXyQHSlr6Ldyv15GPb7s8/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "어쩌면 결혼도 낭만",
+    "zh": "或許結婚也是浪漫（結婚是現實 婚後生活外傳）",
+    "original": "https://www.postype.com/zh-hant/@srt-rps/post/13437429",
+    "translation": "https://docs.google.com/document/d/1Tu5uolJKsXnkWyxu530KfnrSb9-pXmH3AS3E86NkvQ8/edit?usp=drivesdk",
+    "author": "로크（LOCK）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-01",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "或許結婚也是一種浪漫",
+        "url": "https://docs.google.com/document/d/1Tu5uolJKsXnkWyxu530KfnrSb9-pXmH3AS3E86NkvQ8/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "결혼은 현실",
+    "zh": "結婚是現實",
+    "original": "https://www.postype.com/zh-hant/@srt-rps/post/12911020",
+    "translation": "https://docs.google.com/document/d/1LpdFOTFFqOwEvEeG8IRi1MuqaJAplQIayKFeNN8aYv8/edit?usp=drivesdk",
+    "author": "로크（LOCK）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-01",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "婚姻是現實",
+        "url": "https://docs.google.com/document/d/1LpdFOTFFqOwEvEeG8IRi1MuqaJAplQIayKFeNN8aYv8/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "朴專家",
     "status": "2.已完結",
     "ko": "내가 바라는 나",
@@ -764,18 +836,6 @@ window.BOOK_DATA = [
         "url": "https://docs.google.com/document/d/1cUf1bicIjoLuSRc8CWTo2tfmLaX5nVGTY3kCm2BYh5M/edit"
       }
     ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "동서남북",
-    "zh": "東西南北",
-    "original": "",
-    "translation": "",
-    "author": "이단（一單）",
-    "translator": "postype原生",
-    "note": "@新入荷",
-    "date": "2026-07-31"
   },
   {
     "page": "noname",

@@ -1137,8 +1137,8 @@
       const q = normalize(state.query);
       let items = DATA.filter(item => {
         const favoriteOK = state.page !== "我的最愛" || state.favs.has(favoriteKey(item));
-        const latestOK = state.page !== "最新建檔" || isShortStatusActive(item);
-        const pageOK = state.page === "全部" || state.page === "我的最愛" || state.page === "最新建檔" || item.page === state.page;
+        const latestOK = true;
+        const pageOK = state.page === "全部" || state.page === "我的最愛" || item.page === state.page;
         const statusOK = state.status === "全部" || item.status === state.status;
         const updateOK = state.updateFilter === "全部" || shortStatusText(item) === state.updateFilter;
         const hay = normalize([item.zh, item.ko, item.author, item.translator, visibleNote(item), shortStatusText(item)].join(" "));
@@ -1183,10 +1183,8 @@
     function renderTree() {
       const total = DATA.length;
       const favoriteCount = DATA.filter(item => state.favs.has(favoriteKey(item))).length;
-      const latestCount = DATA.filter(isShortStatusActive).length;
       const pages = [
         { name: "全部", count: total },
-        { name: "最新建檔", count: latestCount },
         { name: "我的最愛", count: favoriteCount },
         ...pageCounts()
       ];
@@ -1330,9 +1328,9 @@
 
     function renderGrid() {
       const items = visibleItems();
-      el.resultTitle.textContent = state.page === "全部" ? "全部作品" : state.page === "最新建檔" ? "最新建檔" : state.page === "我的最愛" ? "我的最愛" : `#${state.page}`;
+      el.resultTitle.textContent = state.page === "全部" ? "全部作品" : state.page === "我的最愛" ? "我的最愛" : `#${state.page}`;
       el.countText.textContent = `${items.length} / ${DATA.length} 筆，依目前條件顯示`;
-      el.grid.innerHTML = items.length ? items.map(card).join("") : `<div class="empty">${state.page === "我的最愛" ? "還沒有收藏作品" : state.page === "最新建檔" ? "七天內沒有新建檔作品" : "找不到符合條件的作品"}</div>`;
+      el.grid.innerHTML = items.length ? items.map(card).join("") : `<div class="empty">${state.page === "我的最愛" ? "還沒有收藏作品" : "找不到符合條件的作品"}</div>`;
     }
 
     function render() {
