@@ -289,9 +289,9 @@ window.BOOK_DATA = [
     "status": "0.連載中",
     "ko": "사랑이 뭐길래",
     "zh": "愛是什麼",
-    "original": "https://www.postype.com/@seol-cheong/post/19590181",
+    "original": "",
     "translation": "https://docs.google.com/document/d/1lE047akE9jiJLzvlc-go0kPcxUBV1rYgnLJwa3NvsXs/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
+    "author": "",
     "translator": "鳳梨",
     "note": "",
     "date": "2025-07-07",
@@ -377,6 +377,222 @@ window.BOOK_DATA = [
     "translation": "https://drive.google.com/drive/folders/1i47eVbrikbmJ7B2YvQiu6cQ7MWihmSE6?usp=drive_link",
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "투핫걸",
+    "zh": "火辣雙姝",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/15644544?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1BWWrH5sxw5WKBZ1YldB_q4NE8Xp1vtQt?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "건축학개론",
+    "zh": "建築學概論",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/15567571?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1CsuCBBeTYw-36xrScz0pfdQafcvXlwNx?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "헤로인",
+    "zh": "海洛因",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/15567571?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1zpPL7O6nBv9XzJmOah7L7C6rDl0kOKRJ?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "오만과 편견",
+    "zh": "傲慢與偏見",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/16173987?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1Alc7yWGXKwPIQFNcwXIgGKmwUU5aqKdj?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "너는 내 킬러문항",
+    "zh": "你是我的最大難題",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/16337233?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/137mF7R6PIcqxYSGplYdh27w-LyyGe-_-?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "층간소음 주의",
+    "zh": "小心樓層噪音",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/16481783",
+    "translation": "https://drive.google.com/drive/folders/1ZinsNOATWZ03ValzvcjcjphS3l2IyaQ4?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "어른아이",
+    "zh": "孩子氣的大人",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/17032943?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/19-cmPB0h4PIZCNTJ4ib9TYMbRT0_7wR0?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "와퍼러버",
+    "zh": "華堡 Lover",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/17117685?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/175lgHjRsZ0BfjbQPpKtPRwRNmecDru70?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "목적지에 도착했습니다",
+    "zh": "您已抵達目的地",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/17667972?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1EQ0MxdSQH5yJ7_YjkWnzhnFO_nnrUppa?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "필요충분조건",
+    "zh": "必要充分條件",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/17897671?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/17suu9c-Q4raS8aValoQ1kU1st1ESFH0V?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "인간관계론",
+    "zh": "人際關係理論",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/18605522?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1SxCMmxu89zFUpoRL-3nsR6C-aPkYowiM?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "고래노래",
+    "zh": "鯨魚之歌",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/18930393",
+    "translation": "https://drive.google.com/drive/folders/1ot26LefYZEFmXPRpMR5AQmnkk1_CIk69?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "비정상 현상 보고서",
+    "zh": "非正常現象報告書（非正常現象觀察報告書 外傳）",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/18759165?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1zV6eXN3H-fecv3UlZcKzn5dRZYLp4Ybh?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "무신론적 실존주의",
+    "zh": "無神論存在主義",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/18438682?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1j7Q_6CvbqTDCxvni8WIndFCrSz2x8J9q?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "가장 보통의 연애",
+    "zh": "最平凡的戀愛",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/19171688?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1PjQHeTdfDU-w12BcSLGl_NelKf7p22KF?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "원형의 영원",
+    "zh": "圓形的永遠",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/19063401?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1VwJkrJWIijCRhEL0ExafUuvQvaOKwqUR?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "나무아미타불",
+    "zh": "南無阿彌陀佛（無神論存在主義 外傳）",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/21999454?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1EqUNe4vs_fnLpDXnGAmXvaF-buLGRhve?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "蜜地瓜",
+    "status": "2.已完結",
+    "ko": "연애는 무슨 연애",
+    "zh": "戀愛？談什麼戀愛",
+    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/20789907?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1rfJ-SuDA_MDPBrk-SQy_0SEdzQHTujwO?usp=drive_link",
+    "author": "",
+    "translator": "原生AI",
     "note": "@新入荷",
     "date": "2026-08-01"
   },
@@ -718,19 +934,36 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "차르봄바 러브",
     "zh": "沙皇炸彈之戀",
-    "original": "https://www.postype.com/@seol-cheong/post/16241791",
-    "translation": "https://docs.google.com/document/d/1ywOxOwaDgWQme2D-f6RrGCIWLcmMW1ytgnErI4cNsuI/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
+    "original": "",
+    "translation": "",
+    "author": "",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026-07-22",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "沙皇炸彈之戀(차르봄바 러브)_꿀구마",
-        "url": "https://docs.google.com/document/d/1ywOxOwaDgWQme2D-f6RrGCIWLcmMW1ytgnErI4cNsuI/edit?usp=drivesdk"
-      }
-    ]
+    "date": "2026-07-22"
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "냄새맡는 토끼",
+    "zh": "獸人系列2-聞味道的兔子",
+    "original": "",
+    "translation": "",
+    "author": "",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-21"
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "냄새나는 토끼",
+    "zh": "獸人系列3-有味道的兔子",
+    "original": "",
+    "translation": "",
+    "author": "",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-21"
   },
   {
     "page": "其他老師",
@@ -767,74 +1000,6 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "退出柏拉圖(엑시트 플라토닉)_익룡",
         "url": "https://docs.google.com/document/d/10hBoXYO3JFTdM4CIrBfK9qyv89T7HX0F8iwJpc5TvaQ/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "냄새맡는 토끼",
-    "zh": "獸人系列2-聞味道的兔子",
-    "original": "https://www.postype.com/@chzhtyzm/post/8757768",
-    "translation": "https://docs.google.com/document/d/1MZ82LIGG9_Oa1Hdn3-wdjCIIUtoZrIGBNoBwjbT3Kkc/edit?usp=drivesdk",
-    "author": "초코쇼크（巧克shock）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-21",
-    "episodes": [
-      {
-        "label": "1",
-        "title": "聞味道的兔子1",
-        "url": "https://docs.google.com/document/d/1MZ82LIGG9_Oa1Hdn3-wdjCIIUtoZrIGBNoBwjbT3Kkc/edit?usp=drivesdk"
-      },
-      {
-        "label": "2",
-        "title": "聞味道的兔子2",
-        "url": "https://docs.google.com/document/d/1mbH0tcLeiO6cz4bDaXrtb_jGXygviaWD5l0tDifXW1c/edit?usp=drivesdk"
-      },
-      {
-        "label": "3",
-        "title": "聞味道的兔子3",
-        "url": "https://docs.google.com/document/d/1aRcGPeC6gm-O5d1ZVA7PsqjhD6p1QUNzgmtWZH0tvPA/edit?usp=drivesdk"
-      },
-      {
-        "label": "4",
-        "title": "聞味道的兔子4",
-        "url": "https://docs.google.com/document/d/14cxAgD0kdjOoKTxpMNTerCq2Fxq0IZxQ_CJ6r2Mq-BM/edit?usp=drivesdk"
-      },
-      {
-        "label": "5",
-        "title": "聞味道的兔子5",
-        "url": "https://docs.google.com/document/d/1lF1SZ648q4Ls-kv3zsqUnnn6xGAbdTz-V0b83Ro2nkI/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "냄새나는 토끼",
-    "zh": "獸人系列3-有味道的兔子",
-    "original": "https://www.postype.com/@chzhtyzm/post/8921936",
-    "translation": "https://docs.google.com/document/d/1EY976O6W6ZPsTNCa81Ig8O9gG8xxuDjInAONA4hXjoU/edit?usp=drivesdk",
-    "author": "초코쇼크（巧克shock）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-07-21",
-    "episodes": [
-      {
-        "label": "1",
-        "title": "有味道的兔子1",
-        "url": "https://docs.google.com/document/d/1EY976O6W6ZPsTNCa81Ig8O9gG8xxuDjInAONA4hXjoU/edit?usp=drivesdk"
-      },
-      {
-        "label": "2",
-        "title": "有味道的兔子2",
-        "url": "https://docs.google.com/document/d/1l1Pbswy61gs5NNQAbU7IV9nSAdV8vqgOooHXKHaqCnk/edit?usp=drivesdk"
-      },
-      {
-        "label": "3",
-        "title": "有味道的兔子3",
-        "url": "https://docs.google.com/document/d/1xsfzEQHhqUJi746zB2Wb_bSYvjWd5RFalaoz3nlzzzI/edit?usp=drivesdk"
       }
     ]
   },
@@ -906,19 +1071,12 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "꿈은 이루어진다",
     "zh": "夢想成真",
-    "original": "https://www.postype.com/@seol-cheong/post/16836051",
-    "translation": "https://docs.google.com/document/d/1G56M6YqskBJBLnaNTuiM9jsXf5uIwhRxMewHmebSzmA/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
+    "original": "",
+    "translation": "",
+    "author": "",
     "translator": "鳳梨",
     "note": "",
-    "date": "2026-07-20",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "夢想成真",
-        "url": "https://docs.google.com/document/d/1G56M6YqskBJBLnaNTuiM9jsXf5uIwhRxMewHmebSzmA/edit?usp=drivesdk"
-      }
-    ]
+    "date": "2026-07-20"
   },
   {
     "page": "季刊",
@@ -2717,9 +2875,9 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "헬인헤븐",
     "zh": "Hell in heaven",
-    "original": "https://www.postype.com/@seol-cheong/post/21105452",
+    "original": "",
     "translation": "https://docs.google.com/document/d/1U7BJGsVN0RZP7XjhnLrBJ1xvVPwUPyGwjQmIppIFKyM/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
+    "author": "",
     "translator": "不是蓋瑞🤓",
     "note": "",
     "date": "2025-12-16",
@@ -2999,19 +3157,12 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "미워도 다시 한번",
     "zh": "即使討厭也再一次",
-    "original": "https://www.postype.com/@seol-cheong/post/16427619",
-    "translation": "https://docs.google.com/document/d/16BvwdvobKA8K-70k_IDPooFyb9tKbueZ9vLN69dD7-I/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
+    "original": "",
+    "translation": "",
+    "author": "",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-09-07",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "即使討厭也再一次",
-        "url": "https://docs.google.com/document/d/16BvwdvobKA8K-70k_IDPooFyb9tKbueZ9vLN69dD7-I/edit?usp=drivesdk"
-      }
-    ]
+    "date": "2025-09-07"
   },
   {
     "page": "플레인",
@@ -3350,19 +3501,12 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "베이비 록키",
     "zh": "Baby Rocky",
-    "original": "https://www.postype.com/@seol-cheong/post/19224675",
-    "translation": "https://docs.google.com/document/d/1JIt3uXbqGMt7OmR8P7Alb_QOCcDirF0uSzxzEwnRVCU/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
+    "original": "",
+    "translation": "",
+    "author": "",
     "translator": "貢丸",
     "note": "",
-    "date": "2025-07-27",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "Baby Rocky",
-        "url": "https://docs.google.com/document/d/1JIt3uXbqGMt7OmR8P7Alb_QOCcDirF0uSzxzEwnRVCU/edit?usp=drivesdk"
-      }
-    ]
+    "date": "2025-07-27"
   },
   {
     "page": "季刊",
@@ -4501,9 +4645,9 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "시절인연",
     "zh": "時節姻緣（CP潔癖勿入）",
-    "original": "https://www.postype.com/@seol-cheong/post/16747698",
+    "original": "",
     "translation": "https://docs.google.com/document/d/1fFn0Counh2sMoHO4VVL0Ezbwu-ORVrTervE7K6HbCaE/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
+    "author": "",
     "translator": "鳳梨",
     "note": "",
     "date": "2025-05-11",
@@ -4867,19 +5011,12 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "비온뒤 맑음",
     "zh": "雨後轉晴",
-    "original": "https://www.postype.com/@seol-cheong/post/16877596",
-    "translation": "https://docs.google.com/document/d/1U59lryAv6q99ZwKAYIM7fKsgEyW8zuf2N0q8cR9Er9A/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
+    "original": "",
+    "translation": "",
+    "author": "",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-05-03",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "雨後轉晴",
-        "url": "https://docs.google.com/document/d/1U59lryAv6q99ZwKAYIM7fKsgEyW8zuf2N0q8cR9Er9A/edit?usp=drivesdk"
-      }
-    ]
+    "date": "2025-05-03"
   },
   {
     "page": "淨漢",
@@ -5564,19 +5701,12 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "개가 되지 않는 법",
     "zh": "不變成狗的方法",
-    "original": "https://www.postype.com/@seol-cheong/post/18699643",
-    "translation": "https://docs.google.com/document/d/1gjkvCr-TkIB3i7JruiHtnoj-ZHhoAH285oz3WD5yqX0/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
+    "original": "",
+    "translation": "",
+    "author": "",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025-02-10",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "不變成狗的方法",
-        "url": "https://docs.google.com/document/d/1gjkvCr-TkIB3i7JruiHtnoj-ZHhoAH285oz3WD5yqX0/edit?usp=drivesdk"
-      }
-    ]
+    "date": "2025-02-10"
   },
   {
     "page": "其他老師",
@@ -7008,19 +7138,12 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "비정상 관찰 보고서",
     "zh": "非正常觀察報告",
-    "original": "https://www.postype.com/@seol-cheong/post/18224305",
-    "translation": "https://docs.google.com/document/d/14eJqq6qWyDnqFA1lLo4gQLeykC1pZJtE_FOQ0EBtgHo/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
+    "original": "",
+    "translation": "",
+    "author": "",
     "translator": "貢丸",
     "note": "",
-    "date": "2024-12-17",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "非正常觀察報告書",
-        "url": "https://docs.google.com/document/d/14eJqq6qWyDnqFA1lLo4gQLeykC1pZJtE_FOQ0EBtgHo/edit?usp=drivesdk"
-      }
-    ]
+    "date": "2024-12-17"
   },
   {
     "page": "其他老師",
