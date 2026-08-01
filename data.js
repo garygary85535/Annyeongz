@@ -8148,10 +8148,17 @@ window.BOOK_DATA = [
     "ko": "사건의 전말",
     "zh": "事件始末",
     "original": "https://www.postype.com/zh-hant/@parkpro/post/14020322",
-    "translation": "https://drive.google.com/drive/folders/1LNoc8hn2TkChN3l8dozRVvNQcmTuWHws?usp=drive_link",
+    "translation": "https://docs.google.com/document/d/1BEY_kGeY-_OI27zzzMqeAns8zK-kOkDVcOcwTCSe-ps/edit?usp=drivesdk",
     "author": "박프로（朴專家）",
     "translator": "postype原生AI",
     "note": "",
-    "date": ""
+    "date": "",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "事件始末",
+        "url": "https://docs.google.com/document/d/1BEY_kGeY-_OI27zzzMqeAns8zK-kOkDVcOcwTCSe-ps/edit?usp=drivesdk"
+      }
+    ]
   }
 ];
