@@ -1,184 +1,5 @@
 window.BOOK_DATA = [
   {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "엑설런트 프렌치",
-    "zh": "卓越法式",
-    "original": "https://www.postype.com/zh-hant/@drinkofsouthgod/post/17233015",
-    "translation": "https://docs.google.com/document/d/1vLZmvbO0amw1rpaNCTTSrsglRd7qCg3VDo-Kcseur6o/edit",
-    "author": "박시봉（朴時奉）",
-    "translator": "postype原生",
-    "note": "@新入荷",
-    "date": "2026-07-31",
-    "episodes": [
-      {
-        "label": "1",
-        "title": "卓越法式 1",
-        "url": "https://docs.google.com/document/d/1vLZmvbO0amw1rpaNCTTSrsglRd7qCg3VDo-Kcseur6o/edit"
-      },
-      {
-        "label": "2",
-        "title": "卓越法式 2",
-        "url": "https://docs.google.com/document/d/1757nmJsnfAXoC6gmlf_QCkx8DWXdG_y3qcz0x-BRy_M/edit"
-      },
-      {
-        "label": "3",
-        "title": "卓越法式 3",
-        "url": "https://docs.google.com/document/d/1cUf1bicIjoLuSRc8CWTo2tfmLaX5nVGTY3kCm2BYh5M/edit"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "노럽노웻",
-    "zh": "💰 no love no wet",
-    "original": "https://www.postype.com/zh-hant/@untitle009/post/13801961?show-original=true",
-    "translation": "https://docs.google.com/document/d/1DNmXft4W40iP0eFInnYHZC3YFitadchSD9pIZ3RGZD0/edit",
-    "author": "noname",
-    "translator": "postype原生AI",
-    "note": "@新入荷",
-    "date": "2026-07-30",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "No love no wet",
-        "url": "https://docs.google.com/document/d/1DNmXft4W40iP0eFInnYHZC3YFitadchSD9pIZ3RGZD0/edit"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "너의 등을 깨물고 싶어",
-    "zh": "💰 想咬你的背",
-    "original": "https://www.postype.com/zh-hant/@untitle009/post/13656566?show-original=true",
-    "translation": "https://docs.google.com/document/d/1gfYLl5Uko1HmumIxBChmn6N4CF2KalsSVkG3g5ip_kQ/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "postype原生AI",
-    "note": "@新入荷",
-    "date": "2026-07-30",
-    "paid": true
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "이글루",
-    "zh": "💰 冰屋",
-    "original": "https://www.postype.com/zh-hant/@untitle009/post/13919624",
-    "translation": "",
-    "author": "noname",
-    "translator": "postype原生AI",
-    "note": "@新入荷",
-    "date": "2026-07-30",
-    "paid": true
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "개는 노래하지 않는다 ",
-    "zh": "💰 狗是不會唱歌的",
-    "original": "https://www.postype.com/zh-hant/@untitle009/post/21390322",
-    "translation": "https://docs.google.com/document/d/15ewQOAcY-yMpxsHGWd7H0qEzaAnkDyIiNIObNM5_cDI/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "postype原生AI",
-    "note": "@新入荷",
-    "date": "2026-07-30",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "上",
-        "title": "狗是不會唱歌的 上",
-        "url": "https://docs.google.com/document/d/15ewQOAcY-yMpxsHGWd7H0qEzaAnkDyIiNIObNM5_cDI/edit?usp=drivesdk"
-      },
-      {
-        "label": "下",
-        "title": "狗是不會唱歌的 下",
-        "url": "https://docs.google.com/document/d/1_ZJDYkN_d5ta291qKc1-9NcW___aMsAm4P8zHFZt9Oc/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "저스트 웬즈데이",
-    "zh": "💰 Just Wednesday",
-    "original": "https://www.postype.com/zh-hant/@untitle009/post/16141100?show-original=true",
-    "translation": "https://docs.google.com/document/d/1uVL6isYhVKMqa0eXxtToUFdq2aOnRfCxQJuutBeuUus/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "postype原生AI",
-    "note": "@新入荷",
-    "date": "2026-07-30",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "上",
-        "title": "Just Wednesday 上",
-        "url": "https://docs.google.com/document/d/1uVL6isYhVKMqa0eXxtToUFdq2aOnRfCxQJuutBeuUus/edit?usp=drivesdk"
-      },
-      {
-        "label": "中",
-        "title": "Just Wednesday 中",
-        "url": "https://docs.google.com/document/d/1zi1CCoWTgQVCianWH81jsIM-3WfJ078IjGoGujvQ2uE/edit?usp=drivesdk"
-      },
-      {
-        "label": "下",
-        "title": "Just Wednesday 下",
-        "url": "https://docs.google.com/document/d/11olQl3S-o-0DsoJBqZMZ_iurHuBmbNQIau6ZztMuuNw/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "朴專家",
-    "status": "0.連載中",
-    "ko": "여자 자석",
-    "zh": "女人磁鐵",
-    "original": "https://www.postype.com/zh-hant/@parkpro/post/15946647",
-    "translation": "https://docs.google.com/document/d/1AQPXyxjt3xqC_MdyluRcv8XKorD9F38aSixLGP0WPp8/edit?usp=drivesdk",
-    "author": "박프로",
-    "translator": "postype原生AI",
-    "note": "@有更新",
-    "date": "2026-07-29",
-    "episodes": [
-      {
-        "label": "EP1",
-        "title": "女人磁鐵 1",
-        "url": "https://docs.google.com/document/d/1AQPXyxjt3xqC_MdyluRcv8XKorD9F38aSixLGP0WPp8/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP2",
-        "title": "女人磁鐵 2",
-        "url": "https://docs.google.com/document/d/1LFyCFY5CVEcU2VNF5ZQWQCQ_rg6QfQi6XXHaCLcBsyQ/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP3",
-        "title": "女人磁鐵 3",
-        "url": "https://docs.google.com/document/d/1gn1beDNjFYi2emHhY-88Mzz2kORZpG5Bzv-ntrF1GUE/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP4",
-        "title": "女人磁鐵 4",
-        "url": "https://docs.google.com/document/d/18fSeAsrK3CgrsV7JT88pgYwsNvXjqz-iR5SmOHz_8I8/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP5",
-        "title": "女人磁鐵 5",
-        "url": "https://docs.google.com/document/d/1yRv4KP98ngmPLNtyJmPrmYjqZghP9P2Av9SxPDCb_AU/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP6",
-        "title": "女人磁鐵 6",
-        "url": "https://docs.google.com/document/d/1thhtqM3xn75AYjSLbhx2ubuIM4LxWjPrin0bYuHWcQw/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP7",
-        "title": "女人磁鐵 7",
-        "url": "https://docs.google.com/document/d/1nWn-hh7uQTpZUSYQUVhJHGiDScHbTtDaaQ1O22Nj8cA/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "noname",
     "status": "0.連載中",
     "ko": "장르만 여의도",
@@ -528,32 +349,208 @@ window.BOOK_DATA = [
     "ko": "두 여자",
     "zh": "💰 兩個女人（~ep4）",
     "original": "https://www.postype.com/@blue-mountains/post/18301626",
-    "translation": "https://docs.google.com/document/d/1VtZsmNyaFmCGWaFtwvlXygTsv11sQDkDVwJNlLV1-ZY/edit?usp=drivesdk",
+    "translation": "",
     "author": "블루마운틴（藍山）",
     "translator": "貢丸",
     "note": "",
     "date": "2025-02-04",
+    "paid": true
+  },
+  {
+    "page": "朴專家",
+    "status": "2.已完結",
+    "ko": "내가 바라는 나",
+    "zh": "我所期盼的我",
+    "original": "https://www.postype.com/zh-hant/@parkpro/post/15009812?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1RPBQqIdBdkuOdi9WV4U6WrdNGAG5ezNC?usp=drive_link",
+    "author": "박프로（朴專家）",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "朴專家",
+    "status": "2.已完結",
+    "ko": "씨버러버",
+    "zh": "西博戀人",
+    "original": "https://www.postype.com/zh-hant/@parkpro/post/14986478",
+    "translation": "https://drive.google.com/drive/folders/1i47eVbrikbmJ7B2YvQiu6cQ7MWihmSE6?usp=drive_link",
+    "author": "박프로（朴專家）",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-08-01"
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "엑설런트 프렌치",
+    "zh": "卓越法式",
+    "original": "https://www.postype.com/zh-hant/@drinkofsouthgod/post/17233015",
+    "translation": "https://docs.google.com/document/d/1vLZmvbO0amw1rpaNCTTSrsglRd7qCg3VDo-Kcseur6o/edit",
+    "author": "박시봉（朴時奉）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-07-31",
+    "episodes": [
+      {
+        "label": "1",
+        "title": "卓越法式 1",
+        "url": "https://docs.google.com/document/d/1vLZmvbO0amw1rpaNCTTSrsglRd7qCg3VDo-Kcseur6o/edit"
+      },
+      {
+        "label": "2",
+        "title": "卓越法式 2",
+        "url": "https://docs.google.com/document/d/1757nmJsnfAXoC6gmlf_QCkx8DWXdG_y3qcz0x-BRy_M/edit"
+      },
+      {
+        "label": "3",
+        "title": "卓越法式 3",
+        "url": "https://docs.google.com/document/d/1cUf1bicIjoLuSRc8CWTo2tfmLaX5nVGTY3kCm2BYh5M/edit"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "동서남북",
+    "zh": "東西南北",
+    "original": "",
+    "translation": "",
+    "author": "이단（一單）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-07-31"
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "저스트 웬즈데이",
+    "zh": "💰 Just Wednesday",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/16141100?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1iwq7p_1rTwtokrtRyRDhZmJOQSzThPmX?usp=drive_link",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-30",
+    "paid": true
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "너의 등을 깨물고 싶어",
+    "zh": "💰 想咬你的背",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/13656566?show-original=true",
+    "translation": "https://docs.google.com/document/d/1gfYLl5Uko1HmumIxBChmn6N4CF2KalsSVkG3g5ip_kQ/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-30",
+    "paid": true
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "이글루",
+    "zh": "💰 冰屋",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/13919624",
+    "translation": "https://drive.google.com/drive/folders/1UFGMHg8l-V1NwleTJGyH87zpGwGn89YR?usp=drive_link",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-30",
+    "paid": true
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "개는 노래하지 않는다",
+    "zh": "💰 狗是不會唱歌的",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/21390322",
+    "translation": "https://docs.google.com/document/d/15ewQOAcY-yMpxsHGWd7H0qEzaAnkDyIiNIObNM5_cDI/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-30",
     "paid": true,
     "episodes": [
       {
+        "label": "上",
+        "title": "狗是不會唱歌的 上",
+        "url": "https://docs.google.com/document/d/15ewQOAcY-yMpxsHGWd7H0qEzaAnkDyIiNIObNM5_cDI/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "狗是不會唱歌的 下",
+        "url": "https://docs.google.com/document/d/1_ZJDYkN_d5ta291qKc1-9NcW___aMsAm4P8zHFZt9Oc/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "노럽노웻",
+    "zh": "💰 no love no wet",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/13801961?show-original=true",
+    "translation": "https://docs.google.com/document/d/1DNmXft4W40iP0eFInnYHZC3YFitadchSD9pIZ3RGZD0/edit",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-30",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "No love no wet",
+        "url": "https://docs.google.com/document/d/1DNmXft4W40iP0eFInnYHZC3YFitadchSD9pIZ3RGZD0/edit"
+      }
+    ]
+  },
+  {
+    "page": "朴專家",
+    "status": "2.已完結",
+    "ko": "여자 자석",
+    "zh": "女人磁鐵",
+    "original": "https://www.postype.com/zh-hant/@parkpro/post/15946647",
+    "translation": "https://docs.google.com/document/d/1AQPXyxjt3xqC_MdyluRcv8XKorD9F38aSixLGP0WPp8/edit?usp=drivesdk",
+    "author": "박프로（朴專家）",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-07-29",
+    "episodes": [
+      {
         "label": "EP1",
-        "title": "兩個女人1",
-        "url": "https://docs.google.com/document/d/1VtZsmNyaFmCGWaFtwvlXygTsv11sQDkDVwJNlLV1-ZY/edit?usp=drivesdk"
+        "title": "女人磁鐵 1",
+        "url": "https://docs.google.com/document/d/1AQPXyxjt3xqC_MdyluRcv8XKorD9F38aSixLGP0WPp8/edit?usp=drivesdk"
       },
       {
         "label": "EP2",
-        "title": "兩個女人2",
-        "url": "https://docs.google.com/document/d/1WYLXGspT_l_39CXP61fHMI8mZXfTrauBAkyajGS2E4c/edit?usp=drivesdk"
+        "title": "女人磁鐵 2",
+        "url": "https://docs.google.com/document/d/1LFyCFY5CVEcU2VNF5ZQWQCQ_rg6QfQi6XXHaCLcBsyQ/edit?usp=drivesdk"
       },
       {
         "label": "EP3",
-        "title": "兩個女人3",
-        "url": "https://docs.google.com/document/d/1ynvwilTGd6eGoNeOI15--38dFw967bIuyvJr-Pnc1bY/edit?usp=drivesdk"
+        "title": "女人磁鐵 3",
+        "url": "https://docs.google.com/document/d/1gn1beDNjFYi2emHhY-88Mzz2kORZpG5Bzv-ntrF1GUE/edit?usp=drivesdk"
       },
       {
         "label": "EP4",
-        "title": "兩個女人4",
-        "url": "https://docs.google.com/document/d/1S2MNhzRHAHr8NpuX1O4ipvYmXTWKG2X0iwvh_BrkLMk/edit?usp=drivesdk"
+        "title": "女人磁鐵 4",
+        "url": "https://docs.google.com/document/d/18fSeAsrK3CgrsV7JT88pgYwsNvXjqz-iR5SmOHz_8I8/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP5",
+        "title": "女人磁鐵 5",
+        "url": "https://docs.google.com/document/d/1yRv4KP98ngmPLNtyJmPrmYjqZghP9P2Av9SxPDCb_AU/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP6",
+        "title": "女人磁鐵 6",
+        "url": "https://docs.google.com/document/d/1thhtqM3xn75AYjSLbhx2ubuIM4LxWjPrin0bYuHWcQw/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP7",
+        "title": "女人磁鐵 7",
+        "url": "https://docs.google.com/document/d/1nWn-hh7uQTpZUSYQUVhJHGiDScHbTtDaaQ1O22Nj8cA/edit?usp=drivesdk"
       }
     ]
   },
@@ -598,25 +595,6 @@ window.BOOK_DATA = [
   {
     "page": "noname",
     "status": "2.已完結",
-    "ko": "러브 앤 피스",
-    "zh": "Love & Peace",
-    "original": "https://www.postype.com/@untitle009/post/9437347",
-    "translation": "https://docs.google.com/document/d/1hEM5NLleeZq3UmavtLEZPlADLVlKjA_5vza9m83akHY/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "鳳梨",
-    "note": "@新入荷",
-    "date": "2026-07-25",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "Love & Peace(러브 앤 피스)_noname",
-        "url": "https://docs.google.com/document/d/1hEM5NLleeZq3UmavtLEZPlADLVlKjA_5vza9m83akHY/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
     "ko": "구원따윈 필요 없어",
     "zh": "💰 不需要救贖",
     "original": "https://www.postype.com/@fifth230/post/22720839",
@@ -631,6 +609,25 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "不需要救贖",
         "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "러브 앤 피스",
+    "zh": "Love & Peace",
+    "original": "https://www.postype.com/@untitle009/post/9437347",
+    "translation": "https://docs.google.com/document/d/1hEM5NLleeZq3UmavtLEZPlADLVlKjA_5vza9m83akHY/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "鳳梨",
+    "note": "",
+    "date": "2026-07-25",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "Love & Peace(러브 앤 피스)_noname",
+        "url": "https://docs.google.com/document/d/1hEM5NLleeZq3UmavtLEZPlADLVlKjA_5vza9m83akHY/edit?usp=drivesdk"
       }
     ]
   },
@@ -2166,7 +2163,7 @@ window.BOOK_DATA = [
     "zh": "Pit-a-Pat",
     "original": "https://www.postype.com/@parkpro/series/1176393",
     "translation": "https://docs.google.com/document/d/1W8xYieNCGwCiilhABmAqwFSsjrVLYlLFC3fI0jxhv2I/edit?usp=drivesdk",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "鳳梨",
     "note": "",
     "date": "2026-06-19",
@@ -2210,7 +2207,7 @@ window.BOOK_DATA = [
     "zh": "off my chest",
     "original": "https://www.postype.com/@parkpro/post/13556931",
     "translation": "https://docs.google.com/document/d/1-l3K0UubLNKTzNT0Avh76HF-oWsZm2nR2x4V0DNU8LI/edit?usp=drivesdk",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "鳳梨",
     "note": "",
     "date": "2026-06-19",
@@ -2234,7 +2231,7 @@ window.BOOK_DATA = [
     "zh": "off my face (off my chest 番外)",
     "original": "https://www.postype.com/@parkpro/post/13766976",
     "translation": "https://docs.google.com/document/d/1RrYF6ihdfA2KVaC34u8l_JlYStxxWA65d1DJdEjwNMo/edit?usp=drivesdk",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "鳳梨",
     "note": "",
     "date": "2026-06-19",
@@ -2512,7 +2509,7 @@ window.BOOK_DATA = [
     "zh": "商業級傳奇演出",
     "original": "https://www.postype.com/@ynseasonrps/post/15290870",
     "translation": "https://docs.google.com/document/d/1m1U4Wc9NA-rHJWt1yGpIp7X6YBRcHaO9tHJUtYpjxNU/edit?usp=drivesdk",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
     "date": "2026-04-16",
@@ -2551,7 +2548,7 @@ window.BOOK_DATA = [
     "zh": "不是你 是你姐姐（含🌶️）",
     "original": "https://www.postype.com/@parkpro/series/1176398",
     "translation": "https://docs.google.com/document/d/1-Goi1HIRx8ud1Lc4GoflbFm-fNgbUlk6sPLhtH56Y-w/edit?usp=drivesdk",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
     "date": "2026-02-17",
@@ -2590,7 +2587,7 @@ window.BOOK_DATA = [
     "zh": "繞圈圈",
     "original": "https://www.postype.com/@parkpro/post/14235560",
     "translation": "https://docs.google.com/document/d/1cFgvxQeo4owL3wJOlK5grC_lBZ-ZtRB8a9vs58lEsBk/edit?usp=drivesdk",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
     "date": "2026-02-13",
@@ -2765,18 +2762,11 @@ window.BOOK_DATA = [
     "ko": "주임님, 주인님",
     "zh": "主任，主人",
     "original": "https://www.postype.com/@blue-mountains/post/21045398",
-    "translation": "https://docs.google.com/document/d/1bPuQ9Qw1IG-yx5K6KAVGtFiXWREmBYQv-siH-EXoL-E/edit?usp=drivesdk",
+    "translation": "",
     "author": "블루마운틴（藍山）",
     "translator": "不是蓋瑞🤓",
     "note": "",
-    "date": "2025-12-14",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "主任，主人",
-        "url": "https://docs.google.com/document/d/1bPuQ9Qw1IG-yx5K6KAVGtFiXWREmBYQv-siH-EXoL-E/edit?usp=drivesdk"
-      }
-    ]
+    "date": "2025-12-14"
   },
   {
     "page": "noname",
@@ -2805,7 +2795,7 @@ window.BOOK_DATA = [
     "zh": "育兒TV S2",
     "original": "https://www.postype.com/@parkpro/series/1176394",
     "translation": "https://docs.google.com/document/d/1YzHxukhewf8ufLT-3NHyEe-_NQf-uoGM1dbxtVxHVMQ/edit?usp=drivesdk",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
     "date": "2025-11-22",
@@ -3438,7 +3428,7 @@ window.BOOK_DATA = [
     "zh": "育兒TV S1",
     "original": "https://www.postype.com/@parkpro/series/1176394",
     "translation": "https://docs.google.com/document/d/1mUSuqthARlmIhQhhyxiqBKF3y15Pdz4hKcqcPNx7iS0/edit?usp=drivesdk",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
     "date": "2025-07-13",
@@ -6338,7 +6328,7 @@ window.BOOK_DATA = [
     "zh": "學期初的生日",
     "original": "https://www.postype.com/@parkpro/post/16549828",
     "translation": "https://docs.google.com/document/d/1gVIrRzr97MBXnoGRmOhsY1jDn7vRXw7v9wAYddbTsJU/edit?usp=drivesdk",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
     "date": "2025-01-01",
@@ -7173,18 +7163,11 @@ window.BOOK_DATA = [
     "ko": "for_everyoung10 liked your",
     "zh": "for_everyoung10 liked your",
     "original": "https://www.postype.com/@blue-mountains/post/18301630",
-    "translation": "https://docs.google.com/document/d/1XaROdrdVQUO-Lhl7jkXvyAE3HNyrgBYjXG5il-9A9dc/edit?usp=drivesdk",
+    "translation": "",
     "author": "블루마운틴（藍山）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2024-12-13",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "for_everyoung10 liked your",
-        "url": "https://docs.google.com/document/d/1XaROdrdVQUO-Lhl7jkXvyAE3HNyrgBYjXG5il-9A9dc/edit?usp=drivesdk"
-      }
-    ]
+    "date": "2024-12-13"
   },
   {
     "page": "其他老師",
@@ -7348,7 +7331,7 @@ window.BOOK_DATA = [
     "zh": "完美的世紀情侶",
     "original": "https://www.postype.com/@ynseasonrps/post/15849517",
     "translation": "https://docs.google.com/document/d/1SayNodSfIX9inW4yo1XynOZaFO7uA0ZpCd9Jh8fo50c/edit?usp=drive_link",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
     "date": "2024-12-13"
@@ -7360,7 +7343,7 @@ window.BOOK_DATA = [
     "zh": "非常私密合夥人",
     "original": "https://www.postype.com/@parkpro/series/1176712",
     "translation": "https://docs.google.com/document/d/1xJ6_-0bcYQ5rNZWb4YxCfyCm660gCDut_NxvD3gIcIw/edit?usp=drivesdk",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
     "date": "2024-12-13",
@@ -7404,7 +7387,7 @@ window.BOOK_DATA = [
     "zh": "首爾不眠夜",
     "original": "https://www.postype.com/@parkpro/series/1176402",
     "translation": "https://docs.google.com/document/d/1uro847faaPwX1v_LYuKK1sB1AVKzmKHwVfisagOOEx8/edit?usp=drivesdk",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
     "date": "2024-12-13",
@@ -7438,7 +7421,7 @@ window.BOOK_DATA = [
     "zh": "Lavender Haze",
     "original": "https://www.postype.com/@parkpro/series/1176401",
     "translation": "https://docs.google.com/document/d/1FHktz1bOcbakRQAcLd9NgiGNn-2w-e7XjiU4yXToXIA/edit?usp=drivesdk",
-    "author": "박프로",
+    "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",
     "date": "2024-12-13",
@@ -8035,5 +8018,17 @@ window.BOOK_DATA = [
         "url": "https://docs.google.com/document/d/1aaUCLeQE3yUAnrPPYj_hczwdQ34ASV0MhVGiLC1Ffcc/edit?usp=drivesdk"
       }
     ]
+  },
+  {
+    "page": "朴專家",
+    "status": "2.已完結",
+    "ko": "사건의 전말",
+    "zh": "事件始末",
+    "original": "https://www.postype.com/zh-hant/@parkpro/post/14020322",
+    "translation": "https://drive.google.com/drive/folders/1LNoc8hn2TkChN3l8dozRVvNQcmTuWHws?usp=drive_link",
+    "author": "박프로（朴專家）",
+    "translator": "postype原生AI",
+    "note": "",
+    "date": ""
   }
 ];

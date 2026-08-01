@@ -514,13 +514,8 @@
     }
 
     .fav {
-      right: 44px;
-      color: var(--gold);
-    }
-
-    .read-done {
       right: 9px;
-      color: var(--rose);
+      color: var(--gold);
     }
 
     .card-actions {
@@ -568,162 +563,6 @@
     .links a:hover, .modal-links a:hover {
       color: var(--rose);
       border-color: var(--rose);
-    }
-
-    .links a.comment-link,
-    .modal-links a.comment-link {
-      border-radius: 6px;
-      background: var(--ink);
-      border-color: var(--ink);
-      color: var(--bg);
-      font-weight: 700;
-      padding: 4px 9px;
-    }
-
-    .links a.comment-link:hover,
-    .modal-links a.comment-link:hover {
-      background: var(--rose);
-      border-color: var(--rose);
-      color: #fff;
-    }
-
-    .card-actions .comment-link {
-      display: grid;
-      place-items: center;
-      min-width: 38px;
-      height: 30px;
-      border-radius: 6px;
-      background: var(--ink);
-      border: 1px solid var(--ink);
-      color: var(--bg);
-      font-size: 11px;
-      font-weight: 700;
-      line-height: 1;
-      text-decoration: none;
-      padding: 0 7px;
-    }
-
-    .card-actions .comment-link:hover {
-      background: var(--rose);
-      border-color: var(--rose);
-      color: #fff;
-    }
-
-    .grid.board-mode {
-      display: block;
-    }
-
-    .board {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      box-shadow: var(--shadow);
-      padding: 14px;
-      scroll-margin-top: 92px;
-    }
-
-    .board-form {
-      display: grid;
-      grid-template-columns: minmax(100px, .35fr) minmax(140px, .5fr) minmax(190px, .8fr) 1fr auto;
-      gap: 8px;
-      align-items: start;
-      margin-bottom: 14px;
-    }
-
-    .board-form input,
-    .board-form select,
-    .board-form textarea {
-      width: 100%;
-      min-width: 0;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 9px 10px;
-      background: var(--bg);
-      color: var(--ink);
-      font: inherit;
-      font-size: 13px;
-    }
-
-    .board-form textarea {
-      min-height: 42px;
-      resize: vertical;
-    }
-
-    .board-list {
-      display: grid;
-      gap: 10px;
-    }
-
-    .board-post {
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 10px 11px;
-      background: color-mix(in srgb, var(--card) 86%, var(--bg));
-    }
-
-    .board-post-head {
-      display: flex;
-      justify-content: space-between;
-      gap: 10px;
-      color: var(--muted);
-      font-size: 12px;
-      margin-bottom: 7px;
-    }
-
-    .board-post-head strong {
-      color: var(--ink);
-      font-size: 13px;
-    }
-
-    .board-post-meta {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex: 0 0 auto;
-    }
-
-    .delete-post {
-      appearance: none;
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      padding: 3px 7px;
-      background: var(--bg);
-      color: var(--muted);
-      cursor: pointer;
-      font: inherit;
-      font-size: 12px;
-      line-height: 1.35;
-    }
-
-    .delete-post:hover {
-      border-color: var(--rose);
-      color: var(--rose);
-    }
-
-    .quote-btn {
-      appearance: none;
-      width: 100%;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 8px 9px;
-      background: var(--rose-soft);
-      color: var(--ink);
-      text-align: left;
-      cursor: pointer;
-      font: inherit;
-      font-size: 13px;
-      margin-bottom: 8px;
-    }
-
-    .quote-btn:hover {
-      border-color: var(--rose);
-    }
-
-    .board-message {
-      white-space: pre-wrap;
-      overflow-wrap: anywhere;
-      line-height: 1.6;
-      font-size: 14px;
     }
 
     .empty {
@@ -915,13 +754,6 @@
         grid-template-columns: 1fr 1fr;
       }
 
-      .board-form input,
-      .board-form select,
-      .board-form textarea,
-      .board-form button {
-        font-size: 16px;
-      }
-
       .shell {
         width: calc(100% - 18px);
         margin-top: 12px;
@@ -981,10 +813,6 @@
       .modal-links a {
         border-radius: 8px;
         padding: 8px 10px;
-      }
-
-      .board-form {
-        grid-template-columns: 1fr;
       }
 
       .modal-links {
@@ -1141,9 +969,7 @@
   <script>
     const DATA = window.BOOK_DATA || [];
     const FAVORITE_STORAGE_KEY = "annyeongzFavoriteKeys";
-    const COMPLETED_STORAGE_KEY = "annyeongzCompletedKeys";
     const LEGACY_FAVORITE_STORAGE_KEY = "bookPrototypeFavs";
-    const BOARD_STORAGE_KEY = "annyeongzBoardPosts";
 
     const USERS = [
       { email: "annyeongz", password: "annyeongz831901", name: "付費會員", role: "premium" },
@@ -1189,24 +1015,6 @@
       localStorage.setItem(FAVORITE_STORAGE_KEY, JSON.stringify([...state.favs]));
     }
 
-    function loadCompleted() {
-      const saved = readJsonStorage(COMPLETED_STORAGE_KEY, []);
-      return Array.isArray(saved) ? saved.map(String) : [];
-    }
-
-    function saveCompleted() {
-      localStorage.setItem(COMPLETED_STORAGE_KEY, JSON.stringify([...state.completed]));
-    }
-
-    function loadBoardPosts() {
-      const saved = readJsonStorage(BOARD_STORAGE_KEY, []);
-      return Array.isArray(saved) ? saved : [];
-    }
-
-    function saveBoardPosts() {
-      localStorage.setItem(BOARD_STORAGE_KEY, JSON.stringify(state.boardPosts.slice(0, 100)));
-    }
-
     const state = {
       page: "全部",
       status: "全部",
@@ -1214,9 +1022,7 @@
       query: "",
       sort: "date-desc",
       user: JSON.parse(localStorage.getItem("bookPrototypeUser") || "null"),
-      favs: new Set(loadFavorites()),
-      completed: new Set(loadCompleted()),
-      boardPosts: loadBoardPosts()
+      favs: new Set(loadFavorites())
     };
 
     const el = {
@@ -1331,13 +1137,12 @@
       const q = normalize(state.query);
       let items = DATA.filter(item => {
         const favoriteOK = state.page !== "我的最愛" || state.favs.has(favoriteKey(item));
-        const completedOK = state.page !== "已看完" || state.completed.has(favoriteKey(item));
         const latestOK = state.page !== "最新建檔" || isShortStatusActive(item);
-        const pageOK = state.page === "全部" || state.page === "我的最愛" || state.page === "已看完" || state.page === "最新建檔" || item.page === state.page;
+        const pageOK = state.page === "全部" || state.page === "我的最愛" || state.page === "最新建檔" || item.page === state.page;
         const statusOK = state.status === "全部" || item.status === state.status;
         const updateOK = state.updateFilter === "全部" || shortStatusText(item) === state.updateFilter;
         const hay = normalize([item.zh, item.ko, item.author, item.translator, visibleNote(item), shortStatusText(item)].join(" "));
-        return favoriteOK && completedOK && latestOK && pageOK && statusOK && updateOK && (!q || hay.includes(q));
+        return favoriteOK && latestOK && pageOK && statusOK && updateOK && (!q || hay.includes(q));
       });
 
       if (state.sort === "date-desc") items.sort((a, b) => dateKey(b) - dateKey(a));
@@ -1378,14 +1183,11 @@
     function renderTree() {
       const total = DATA.length;
       const favoriteCount = DATA.filter(item => state.favs.has(favoriteKey(item))).length;
-      const completedCount = DATA.filter(item => state.completed.has(favoriteKey(item))).length;
       const latestCount = DATA.filter(isShortStatusActive).length;
       const pages = [
-        { name: "留言板", count: state.boardPosts.length },
         { name: "全部", count: total },
         { name: "最新建檔", count: latestCount },
         { name: "我的最愛", count: favoriteCount },
-        { name: "已看完", count: completedCount },
         ...pageCounts()
       ];
       el.tree.innerHTML = pages.map(p => `
@@ -1498,13 +1300,10 @@
       const id = DATA.indexOf(item);
       const key = favoriteKey(item);
       const fav = state.favs.has(key);
-      const completed = state.completed.has(key);
       return `
         <article class="card status-${statusClass(item)}" data-id="${id}" tabindex="0">
           <div class="card-actions">
-            <a class="comment-link" href="#" data-comment-for="${id}">留言</a>
             <button class="icon-action fav" type="button" data-fav="${id}" aria-label="${fav ? "取消收藏" : "收藏"}" aria-pressed="${fav}" title="${fav ? "取消收藏" : "收藏"}">${fav ? "★" : "☆"}</button>
-            <button class="icon-action read-done" type="button" data-completed="${id}" aria-label="${completed ? "取消已看完" : "標記已看完"}" aria-pressed="${completed}" title="${completed ? "取消已看完" : "標記已看完"}">${completed ? "♥" : "♡"}</button>
           </div>
           <h3 class="title">${item.zh}</h3>
           <div class="k-title">${item.ko}</div>
@@ -1522,111 +1321,6 @@
       `;
     }
 
-    function boardQuoteEntries() {
-      const items = DATA
-        .map((item, id) => ({ item, id }))
-        .sort((a, b) => dateKey(b.item) - dateKey(a.item) || a.item.zh.localeCompare(b.item.zh, "zh-Hant"));
-      return items.flatMap(({ item, id }) => {
-        const haystack = [item.zh, item.ko, item.author, item.translator, item.page].join(" ");
-        const base = { value: `${id}|`, label: item.zh, haystack };
-        const episodes = Array.isArray(item.episodes)
-          ? item.episodes.map((episode, index) => ({
-              value: `${id}|${index}`,
-              label: `${item.zh} / ${episodeButtonText(episode)}`,
-              haystack: `${haystack} ${episodeButtonText(episode)} ${episode.title || ""} ${episode.label || ""}`
-            }))
-          : [];
-        return [base, ...episodes];
-      });
-    }
-
-    function boardQuoteOptions(query = "") {
-      const q = normalize(query);
-      const entries = boardQuoteEntries()
-        .filter(entry => !q || normalize(`${entry.label} ${entry.haystack}`).includes(q))
-        .slice(0, 160);
-      return [
-        `<option value="">不引用文章</option>`,
-        ...entries.map(entry => `<option value="${entry.value}">${escapeHtml(entry.label)}</option>`)
-      ].join("");
-    }
-
-    function formatPostTime(value) {
-      const date = new Date(value);
-      if (Number.isNaN(date.getTime())) return "";
-      return date.toLocaleString("zh-TW", {
-        month: "2-digit",
-        day: "2-digit",
-        hour: "2-digit",
-        minute: "2-digit"
-      });
-    }
-
-    function renderBoardPost(post) {
-      const workId = Number(post.workId);
-      const item = DATA[workId];
-      const episodeIndex = post.episodeIndex === "" || post.episodeIndex === null ? "" : Number(post.episodeIndex);
-      const episode = item && episodeIndex !== "" && item.episodes ? item.episodes[episodeIndex] : null;
-      const quote = item
-        ? `引用：《${item.zh}》${episode ? ` ${episodeButtonText(episode)}` : ""}`
-        : post.quoteTitle || "";
-      return `
-        <article class="board-post">
-          <div class="board-post-head">
-            <strong>${escapeHtml(post.nickname || "匿名")}</strong>
-            <span class="board-post-meta">
-              <span>${escapeHtml(formatPostTime(post.createdAt))}</span>
-              <button class="delete-post" type="button" data-delete-post="${escapeHtml(post.id)}">刪除</button>
-            </span>
-          </div>
-          ${quote ? `<button class="quote-btn" type="button" data-open-citation="${workId}" data-open-episode="${episodeIndex}">${escapeHtml(quote)}</button>` : ""}
-          <div class="board-message">${escapeHtml(post.message)}</div>
-        </article>
-      `;
-    }
-
-    function deleteBoardPost(id) {
-      const code = String(Math.floor(1000 + Math.random() * 9000));
-      const input = window.prompt(`請輸入驗證碼 ${code} 以確認刪除留言`);
-      if (input === null) return;
-      if (input.trim() !== code) {
-        window.alert("驗證碼不正確，留言未刪除。");
-        return;
-      }
-      state.boardPosts = state.boardPosts.filter(post => post.id !== id);
-      saveBoardPosts();
-      renderTree();
-      renderBoard();
-    }
-
-    function renderBoard() {
-      el.resultTitle.textContent = "留言板";
-      el.countText.textContent = `目前 ${state.boardPosts.length} 則留言。試用版只保存在這台裝置。`;
-      el.grid.classList.add("board-mode");
-      const presetId = state.boardPresetId;
-      const presetItem = DATA[presetId];
-      const presetSearch = presetItem ? presetItem.zh : "";
-      const presetValue = presetItem ? `${presetId}|` : "";
-      el.grid.innerHTML = `
-        <section class="board">
-          <form class="board-form" id="boardForm">
-            <input name="nickname" maxlength="20" placeholder="暱稱" required>
-            <input name="quoteSearch" placeholder="搜尋引用文章" value="${escapeHtml(presetSearch)}">
-            <select name="quote">${boardQuoteOptions(presetSearch)}</select>
-            <textarea name="message" maxlength="300" placeholder="想聊什麼？" required></textarea>
-            <button class="ctl" type="submit">送出</button>
-          </form>
-          <div class="board-list">
-            ${state.boardPosts.length ? state.boardPosts.map(renderBoardPost).join("") : `<div class="empty">還沒有留言</div>`}
-          </div>
-        </section>
-      `;
-      if (presetValue) {
-        const form = document.querySelector("#boardForm");
-        if (form && [...form.quote.options].some(option => option.value === presetValue)) form.quote.value = presetValue;
-      }
-    }
-
     function renderLatest() {
       const items = newArrivalItems().sort((a, b) => dateKey(b) - dateKey(a)).slice(0, 5);
       el.latest.innerHTML = items.length
@@ -1635,15 +1329,10 @@
     }
 
     function renderGrid() {
-      if (state.page === "留言板") {
-        renderBoard();
-        return;
-      }
       const items = visibleItems();
-      el.grid.classList.remove("board-mode");
-      el.resultTitle.textContent = state.page === "全部" ? "全部作品" : state.page === "最新建檔" ? "最新建檔" : state.page === "我的最愛" ? "我的最愛" : state.page === "已看完" ? "已看完" : `#${state.page}`;
+      el.resultTitle.textContent = state.page === "全部" ? "全部作品" : state.page === "最新建檔" ? "最新建檔" : state.page === "我的最愛" ? "我的最愛" : `#${state.page}`;
       el.countText.textContent = `${items.length} / ${DATA.length} 筆，依目前條件顯示`;
-      el.grid.innerHTML = items.length ? items.map(card).join("") : `<div class="empty">${state.page === "我的最愛" ? "還沒有收藏作品" : state.page === "已看完" ? "還沒有標記已看完的作品" : state.page === "最新建檔" ? "七天內沒有新建檔作品" : "找不到符合條件的作品"}</div>`;
+      el.grid.innerHTML = items.length ? items.map(card).join("") : `<div class="empty">${state.page === "我的最愛" ? "還沒有收藏作品" : state.page === "最新建檔" ? "七天內沒有新建檔作品" : "找不到符合條件的作品"}</div>`;
     }
 
     function render() {
@@ -1691,26 +1380,9 @@
       el.modalLinks.innerHTML = `
         ${protectedLink(item, "original", "原文連結")}
         ${item.episodes && item.episodes.length ? episodeLinks(item) : protectedLink(item, "translation", "譯文連結")}
-        <a class="comment-link" href="#" data-comment-for="${id}">去留言</a>
       `;
       el.modal.classList.add("open");
       el.modal.setAttribute("aria-hidden", "false");
-    }
-
-    function openBoardForItem(id) {
-      const item = DATA[id];
-      if (!item) return;
-      state.page = "留言板";
-      state.boardPresetId = id;
-      closeDetail();
-      render();
-      scrollToBoard();
-    }
-
-    function scrollToBoard() {
-      requestAnimationFrame(() => {
-        document.querySelector(".board")?.scrollIntoView({ behavior: "smooth", block: "start" });
-      });
     }
 
     function openProtected(id, kind) {
@@ -1768,7 +1440,6 @@
       if (pageButton) {
         state.page = pageButton.dataset.page;
         render();
-        if (state.page === "留言板") scrollToBoard();
         return;
       }
 
@@ -1791,18 +1462,6 @@
         return;
       }
 
-      const completedButton = event.target.closest("[data-completed]");
-      if (completedButton) {
-        event.stopPropagation();
-        const id = Number(completedButton.dataset.completed);
-        const key = favoriteKey(DATA[id]);
-        state.completed.has(key) ? state.completed.delete(key) : state.completed.add(key);
-        saveCompleted();
-        renderTree();
-        renderGrid();
-        return;
-      }
-
       const authorButton = event.target.closest("[data-author-search]");
       if (authorButton) {
         event.preventDefault();
@@ -1812,71 +1471,8 @@
         return;
       }
 
-      const commentButton = event.target.closest("[data-comment-for]");
-      if (commentButton) {
-        event.preventDefault();
-        event.stopPropagation();
-        openBoardForItem(Number(commentButton.dataset.commentFor));
-        return;
-      }
-
-      const deletePostButton = event.target.closest("[data-delete-post]");
-      if (deletePostButton) {
-        event.preventDefault();
-        event.stopPropagation();
-        deleteBoardPost(deletePostButton.dataset.deletePost);
-        return;
-      }
-
-      const citationButton = event.target.closest("[data-open-citation]");
-      if (citationButton) {
-        event.preventDefault();
-        event.stopPropagation();
-        const id = Number(citationButton.dataset.openCitation);
-        const episode = citationButton.dataset.openEpisode;
-        if (episode !== "" && DATA[id]?.episodes?.[Number(episode)]) {
-          openProtected(id, `episode:${episode}`);
-        } else {
-          openDetail(id);
-        }
-        return;
-      }
-
       const cardEl = event.target.closest("[data-id]");
       if (cardEl) openDetail(Number(cardEl.dataset.id));
-    });
-
-    document.addEventListener("submit", event => {
-      if (event.target.id !== "boardForm") return;
-      event.preventDefault();
-      const form = event.target;
-      const nickname = form.nickname.value.trim().slice(0, 20);
-      const message = form.message.value.trim().slice(0, 300);
-      const [workId = "", episodeIndex = ""] = String(form.quote.value || "").split("|");
-      if (!nickname || !message) return;
-      const item = DATA[Number(workId)];
-      const episode = item && episodeIndex !== "" && item.episodes ? item.episodes[Number(episodeIndex)] : null;
-      state.boardPosts.unshift({
-        id: `${Date.now()}-${Math.random().toString(16).slice(2)}`,
-        nickname,
-        message,
-        workId,
-        episodeIndex,
-        quoteTitle: item ? `${item.zh}${episode ? ` ${episodeButtonText(episode)}` : ""}` : "",
-        createdAt: new Date().toISOString()
-      });
-      saveBoardPosts();
-      renderTree();
-      renderBoard();
-    });
-
-    document.addEventListener("input", event => {
-      if (event.target.name !== "quoteSearch" || event.target.form?.id !== "boardForm") return;
-      state.boardPresetId = null;
-      const select = event.target.form.quote;
-      const current = select.value;
-      select.innerHTML = boardQuoteOptions(event.target.value);
-      if ([...select.options].some(option => option.value === current)) select.value = current;
     });
 
     el.loginForm.addEventListener("submit", event => {
