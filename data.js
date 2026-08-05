@@ -1,5 +1,34 @@
 window.BOOK_DATA = [
   {
+    "page": "雜食系",
+    "status": "0.連載中",
+    "ko": "Once Upon a Time",
+    "zh": "Once Upon a Time",
+    "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22613871",
+    "translation": "https://docs.google.com/document/d/144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo/edit?usp=drivesdk",
+    "author": "Void",
+    "translator": "postype原生AI",
+    "note": "@有更新",
+    "date": "2026-08-05",
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "Once Upon a Time 1",
+        "url": "https://docs.google.com/document/d/144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "Once Upon a Time 2",
+        "url": "https://docs.google.com/document/d/1uQGCz6bVVjk3RNElaEn6x98CzJ8G3coG9vH1j5m3sQg/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "Once Upon a Time 3",
+        "url": "https://docs.google.com/document/d/1iWG8-WnpCoBhz7f9jWHtoZBCrtYn9hVTWKFSorcDCGI/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "noname",
     "status": "0.連載中",
     "ko": "장르만 여의도",
@@ -355,6 +384,245 @@ window.BOOK_DATA = [
     "note": "",
     "date": "2025-02-04",
     "paid": true
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "고전문학의 이해",
+    "zh": "💰 古典文學賞析",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/21700973",
+    "translation": "https://docs.google.com/document/d/1ehnwQ9xqEez3rEg3h8W2fNG5tWAhTWDTn7Vg6N4Hrdk/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-05",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "古典文學概論",
+        "url": "https://docs.google.com/document/d/1ehnwQ9xqEez3rEg3h8W2fNG5tWAhTWDTn7Vg6N4Hrdk/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "오! 마이",
+    "zh": "Oh! My",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/7503483?show-original=true",
+    "translation": "https://docs.google.com/document/d/1yJlovg1TYGur5toKti_Xl9aAoKRYY1yp_F3_za5IMEA/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-05",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "Oh! My",
+        "url": "https://docs.google.com/document/d/1yJlovg1TYGur5toKti_Xl9aAoKRYY1yp_F3_za5IMEA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "우리 좀 어떻게 해봐",
+    "zh": "我們之間再想想辦法吧",
+    "original": "https://www.postype.com/zh-hant/@u91jinps/post/9275028?show-original=true",
+    "translation": "https://docs.google.com/document/d/19l_o5okwN1ULWPs7WguXi9311Qc150BZpBNtZPLhbWM/edit?usp=drivesdk",
+    "author": "윶페스합작（@U_pjisnps91）",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-05",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "我們之間再想想辦法吧",
+        "url": "https://docs.google.com/document/d/19l_o5okwN1ULWPs7WguXi9311Qc150BZpBNtZPLhbWM/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "유심론 (有心論)",
+    "zh": "有心論",
+    "original": "https://www.postype.com/zh-hant/@u91jinps/post/7935009",
+    "translation": "https://docs.google.com/document/d/1yEiRk_2j-S7n6aFUf8PHuwtbSp78P62V49qXHyDm_AA/edit?usp=drivesdk",
+    "author": "윶페스합작（@U_pjisnps91）",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-05",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "有心論",
+        "url": "https://docs.google.com/document/d/1yEiRk_2j-S7n6aFUf8PHuwtbSp78P62V49qXHyDm_AA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "雜食系",
+    "status": "2.已完結",
+    "ko": "옆집 아이",
+    "zh": "隔壁孩子",
+    "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22226157?show-original=true",
+    "translation": "https://docs.google.com/document/d/11P5nYRGg-B7qh2-KXIcZMtJk3UXr8OUgRsNy_v8axl0/edit?usp=drivesdk",
+    "author": "Void",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-05",
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "隔壁的孩子 1",
+        "url": "https://docs.google.com/document/d/11P5nYRGg-B7qh2-KXIcZMtJk3UXr8OUgRsNy_v8axl0/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "隔壁的孩子 2",
+        "url": "https://docs.google.com/document/d/1c5-aWiqyKiMkEt-LQAKeieDIdQFuhg5-IQUqADKpmQY/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "隔壁的孩子 3",
+        "url": "https://docs.google.com/document/d/1KwdvnEtyuXpHIT2f5f77OIHoiq2UrM5o04iX6jxzEgk/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "隔壁的孩子 4",
+        "url": "https://docs.google.com/document/d/15igux9_o3MDoVuMSxwpvKqJrzkVsj6bT_ArPyRUzn5k/edit?usp=drivesdk"
+      },
+      {
+        "label": "Epilogue",
+        "title": "隔壁的孩子 Epilogue",
+        "url": "https://docs.google.com/document/d/1phbrNfx_o0Vw3qIgOgl0jnv0H6iqTCEtmVQmeIPhdGs/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "雜食系",
+    "status": "2.已完結",
+    "ko": "One Night",
+    "zh": "One Night (含外傳)",
+    "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22025123",
+    "translation": "https://docs.google.com/document/d/16H23q1EwvDVIaEQMz9JxgOE17T6XDkxmYY0G_5xZL3k/edit?usp=drivesdk",
+    "author": "Void",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-05",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "One Night",
+        "url": "https://docs.google.com/document/d/16H23q1EwvDVIaEQMz9JxgOE17T6XDkxmYY0G_5xZL3k/edit?usp=drivesdk"
+      },
+      {
+        "label": "外傳",
+        "title": "That Night（One Night 外傳）",
+        "url": "https://docs.google.com/document/d/1ZV4FoR-tL13pVcu9Fd-_p2YECbtyRGgTwpyvD3fhJ0w/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "雜食系",
+    "status": "2.已完結",
+    "ko": "Relationship",
+    "zh": "💰 You're Mine",
+    "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22070229?show-original=true",
+    "translation": "https://docs.google.com/document/d/19S3Dtx3_cFUslzNMndFiX5XSqX8Ohb978rrcHJdQQDI/edit?usp=drivesdk",
+    "author": "Void",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-05",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "You’re Mine",
+        "url": "https://docs.google.com/document/d/19S3Dtx3_cFUslzNMndFiX5XSqX8Ohb978rrcHJdQQDI/edit?usp=drivesdk"
+      },
+      {
+        "label": "外傳",
+        "title": "Am I",
+        "url": "https://docs.google.com/document/d/1-o4EKaRy7iaZoT2VAkMepNQ9R2rm5UZo-dvUrz3siqc/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "雜食系",
+    "status": "2.已完結",
+    "ko": "What's After X",
+    "zh": "💰 What's After X",
+    "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22533445?show-original=true",
+    "translation": "https://docs.google.com/document/d/1sdkU2su4g4lXD1nfV7VMVekxt9QT3nantsS8x0rPKGU/edit?usp=drivesdk",
+    "author": "Void",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-05",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "What's After X",
+        "url": "https://docs.google.com/document/d/1sdkU2su4g4lXD1nfV7VMVekxt9QT3nantsS8x0rPKGU/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "안영원 아니고 장영원",
+    "zh": "不是安永遠，是張永遠",
+    "original": "https://www.postype.com/zh-hant/@wawhyrano/post/15326866",
+    "translation": "https://docs.google.com/document/d/15_pDB0KrM12OZalGD5N842edDmAtfEMntzhX-yUsz_8/edit?usp=drivesdk",
+    "author": "와이",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-02",
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "不是安永遠，是張永遠 1",
+        "url": "https://docs.google.com/document/d/15_pDB0KrM12OZalGD5N842edDmAtfEMntzhX-yUsz_8/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "不是安永遠，是張永遠 2",
+        "url": "https://docs.google.com/document/d/1D9gmAzhD0xkEqkDX5wIPh77YcY-v8nbCch9O1uHbo2g/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "不是安永遠，是張永遠 3",
+        "url": "https://docs.google.com/document/d/1gL0QXEJ7_DvmBpnTxA4vnBE_-TEj5vWO3M_1-71s9Ik/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "不是安永遠，是張永遠 4",
+        "url": "https://docs.google.com/document/d/1CUl9nYD_3eipJKB9vP3A2NGjWUfhxVk5Ols4uzbE_8E/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP5",
+        "title": "不是安永遠，是張永遠 5",
+        "url": "https://docs.google.com/document/d/1TD9-VemQQLmoA3AUn9bY77sfj1RFuyICyzL37DzeAhg/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP6",
+        "title": "不是安永遠，是張永遠 6",
+        "url": "https://docs.google.com/document/d/15Btf7JtmuIsJPg0BOzRAHO9cOCzre6_M6iPn5379Kgk/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP7",
+        "title": "不是安永遠，是張永遠 7 (完)",
+        "url": "https://docs.google.com/document/d/1daF-qQewDS7zKXNON4JP79Khb2-0ukSoXrFZ_KZfdw8/edit?usp=drivesdk"
+      },
+      {
+        "label": "外傳",
+        "title": "不是安永遠，是張永遠 (外)",
+        "url": "https://docs.google.com/document/d/1VS-R_9sg5JW0dxzPuEBUeEWpPvG5-I2TQiKhijxQaac/edit?usp=drivesdk"
+      }
+    ]
   },
   {
     "page": "其他老師",
@@ -966,6 +1234,26 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "구원따윈 필요 없어",
+    "zh": "💰 不需要救贖",
+    "original": "https://www.postype.com/@fifth230/post/22720839",
+    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-17",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "不需要救贖",
+        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "朴專家",
     "status": "2.已完結",
     "ko": "여자 자석",
@@ -974,7 +1262,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1AQPXyxjt3xqC_MdyluRcv8XKorD9F38aSixLGP0WPp8/edit?usp=drivesdk",
     "author": "박프로（朴專家）",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-29",
     "episodes": [
       {
@@ -1023,7 +1311,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1eUQzHzVb8G2jzMuXFed6IEQvWnZsG4_nafiY7VS0osk/edit?usp=drivesdk",
     "author": "고래（鯨魚）",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-29",
     "episodes": [
       {
@@ -1042,33 +1330,13 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/19gq1ieohh9S0WJuyG9gQbGXIDmIDMIkgpTXOAA4asd0/edit?usp=drivesdk",
     "author": "플레인（Plain）",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-29",
     "episodes": [
       {
         "label": "閱讀",
         "title": "死前想每天見到你",
         "url": "https://docs.google.com/document/d/19gq1ieohh9S0WJuyG9gQbGXIDmIDMIkgpTXOAA4asd0/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "구원따윈 필요 없어",
-    "zh": "💰 不需要救贖",
-    "original": "https://www.postype.com/@fifth230/post/22720839",
-    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
-    "date": "2026-07-17",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "不需要救贖",
-        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
       }
     ]
   },
