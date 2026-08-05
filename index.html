@@ -1137,13 +1137,14 @@
     function visibleItems() {
       const q = normalize(state.query);
       let items = DATA.filter(item => {
+        const mixedOK = state.page !== "全部" || item.page !== "雜食系";
         const favoriteOK = state.page !== "我的最愛" || state.favs.has(favoriteKey(item));
         const latestOK = true;
         const pageOK = state.page === "全部" || state.page === "我的最愛" || item.page === state.page;
         const statusOK = state.status === "全部" || item.status === state.status;
         const updateOK = state.updateFilter === "全部" || shortStatusText(item) === state.updateFilter;
         const hay = normalize([item.zh, item.ko, item.author, item.translator, visibleNote(item), shortStatusText(item)].join(" "));
-        return favoriteOK && latestOK && pageOK && statusOK && updateOK && (!q || hay.includes(q));
+        return mixedOK && favoriteOK && latestOK && pageOK && statusOK && updateOK && (!q || hay.includes(q));
       });
 
       if (state.sort === "date-desc") items.sort((a, b) => dateKey(b) - dateKey(a));
@@ -1153,7 +1154,7 @@
     }
 
     function newArrivalItems() {
-      return DATA.filter(item => shortStatusText(item) === "@新入荷");
+      return DATA.filter(item => item.page !== "雜食系" && shortStatusText(item) === "@新入荷");
     }
 
     function recentItems() {
