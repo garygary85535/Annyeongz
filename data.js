@@ -149,35 +149,6 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "플레인",
-    "status": "0.連載中",
-    "ko": "페이지를 찾을 수 없습니다",
-    "zh": "找不到頁面",
-    "original": "https://www.postype.com/@monochrome-film/post/22545325",
-    "translation": "https://docs.google.com/document/d/1Mk8xxMrNmOAUE4k6kM7RJkSESmlT-eIwnjjr63dkSJE/edit?usp=drivesdk",
-    "author": "플레인（Plain）",
-    "translator": "不是蓋瑞",
-    "note": "",
-    "date": "2026-07-18",
-    "episodes": [
-      {
-        "label": "EP1",
-        "title": "找不到頁面 1",
-        "url": "https://docs.google.com/document/d/1Mk8xxMrNmOAUE4k6kM7RJkSESmlT-eIwnjjr63dkSJE/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP2",
-        "title": "找不到頁面 2",
-        "url": "https://docs.google.com/document/d/1Sbsj2a3daoo5MsKjoplMUdhTQADrRbwPWKjKMgo_boQ/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP3",
-        "title": "找不到頁面 3",
-        "url": "https://docs.google.com/document/d/1ge5K2FlIAceznBDg8zLKg9CQIxZjr6Hhyk3Nqyi-jaI/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "其他老師",
     "status": "0.連載中",
     "ko": "마계 승계서열 1위가 내게 집착해서 곤란하다",
@@ -423,6 +394,18 @@ window.BOOK_DATA = [
         "url": "https://docs.google.com/document/d/1yJlovg1TYGur5toKti_Xl9aAoKRYY1yp_F3_za5IMEA/edit?usp=drivesdk"
       }
     ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "늑대와 파란",
+    "zh": "狼與藍",
+    "original": "https://www.postype.com/zh-hant/@u91jinps/post/7993427?show-original=true",
+    "translation": "https://drive.google.com/drive/folders/1n2malXFb_pgAyzmXTO59y_QFvae0Glxp?usp=drive_link",
+    "author": "윶페스합작（@U_pjisnps91）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-05"
   },
   {
     "page": "其他老師",
@@ -1777,6 +1760,50 @@ window.BOOK_DATA = [
         "label": "",
         "title": "Off limits_후뿌",
         "url": "https://docs.google.com/document/d/18kg9YXfso3jb20ipVq9iTcZSPr052yPotrt3QFO7VZo/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "플레인",
+    "status": "2.已完結",
+    "ko": "페이지를 찾을 수 없습니다",
+    "zh": "找不到頁面",
+    "original": "https://www.postype.com/@monochrome-film/post/22545325",
+    "translation": "https://docs.google.com/document/d/1Mk8xxMrNmOAUE4k6kM7RJkSESmlT-eIwnjjr63dkSJE/edit?usp=drivesdk",
+    "author": "플레인（Plain）",
+    "translator": "不是蓋瑞",
+    "note": "",
+    "date": "2026-07-18",
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "找不到頁面 1",
+        "url": "https://docs.google.com/document/d/1Mk8xxMrNmOAUE4k6kM7RJkSESmlT-eIwnjjr63dkSJE/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "找不到頁面 2",
+        "url": "https://docs.google.com/document/d/1Sbsj2a3daoo5MsKjoplMUdhTQADrRbwPWKjKMgo_boQ/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "找不到頁面 3",
+        "url": "https://docs.google.com/document/d/1ge5K2FlIAceznBDg8zLKg9CQIxZjr6Hhyk3Nqyi-jaI/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "找不到頁面 4",
+        "url": "https://docs.google.com/document/d/1PINWoJp8XnepVvH-8G-ysqPm_VLZi_KlAG9igOYphrw/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP5",
+        "title": "找不到頁面 5",
+        "url": "https://docs.google.com/document/d/1B0sx9BU0N3pzKnKKEiP37F1mQCx-JWAnQsefDiJk-a8/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP6",
+        "title": "無法找到頁面 6 完結",
+        "url": "https://docs.google.com/document/d/1hcadWMilLQcXg1B9UZxJZa3aFslmVNufcUWsaMP6e7g/edit?usp=drivesdk"
       }
     ]
   },

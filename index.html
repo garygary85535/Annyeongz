@@ -478,6 +478,7 @@
     .badge.ongoing { background: var(--blue-soft); color: var(--blue); }
     .badge.new { background: var(--gold-soft); color: var(--gold); }
     .badge.page { background: var(--rose-soft); color: var(--rose); }
+    .badge.page-mixed { background: #b72f3a; color: #fff; }
     .badge.paid { background: #e8effb; color: #315f96; }
 
     [data-theme="dark"] .badge.paid {
@@ -1207,9 +1208,10 @@
 
     function badges(item) {
       const cls = statusClass(item);
+      const pageClass = item.page === "雜食系" ? "page page-mixed" : "page";
       return `
         <span class="badge ${cls}">${statusText(item)}</span>
-        <span class="badge page">#${item.page}</span>
+        <span class="badge ${pageClass}">#${item.page}</span>
         ${item.paid ? `<span class="badge paid">付費</span>` : ""}
         ${item.folderFallback ? `<span class="badge paid">資料夾</span>` : ""}
         ${shortStatusText(item) ? `<span class="badge new">${shortStatusText(item)}</span>` : ""}
