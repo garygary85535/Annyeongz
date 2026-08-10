@@ -1,5 +1,24 @@
 window.BOOK_DATA = [
   {
+    "page": "其他老師",
+    "status": "0.連載中",
+    "ko": "스물하나, 스물",
+    "zh": "二十一，二十",
+    "original": "https://www.postype.com/zh-hant/@innoxious/post/22685283",
+    "translation": "https://docs.google.com/document/d/1qEocAw9INk3D23VxQGscAOIkjvm3PMUroH2jb9RQXVY/edit?usp=drivesdk",
+    "author": "IN",
+    "translator": "postype原生",
+    "note": "@有更新",
+    "date": "2026-08-10",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "二十一，二十（上）",
+        "url": "https://docs.google.com/document/d/1qEocAw9INk3D23VxQGscAOIkjvm3PMUroH2jb9RQXVY/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "雜食系",
     "status": "0.連載中",
     "ko": "Once Upon a Time",
@@ -359,6 +378,360 @@ window.BOOK_DATA = [
   {
     "page": "noname",
     "status": "2.已完結",
+    "ko": "롬바드로 가자",
+    "zh": "去倫巴底吧",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/8390516?show-original=true",
+    "translation": "https://docs.google.com/document/d/1Y0B8Cz-JrP_fW7hN9EbDU5f6pdwht00J_B-QV97nnfU/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-10",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "去倫巴底吧",
+        "url": "https://docs.google.com/document/d/1Y0B8Cz-JrP_fW7hN9EbDU5f6pdwht00J_B-QV97nnfU/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "몽중인",
+    "zh": "夢中人",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/9815195",
+    "translation": "https://docs.google.com/document/d/1oimf7O5-Aq1ezyvIH5J5C1mXueZUkxt2eNyvBO4nP4k/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-10",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "夢中人",
+        "url": "https://docs.google.com/document/d/1oimf7O5-Aq1ezyvIH5J5C1mXueZUkxt2eNyvBO4nP4k/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "어쩌다 스파이",
+    "zh": "誤打誤撞當上間諜",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/14145090",
+    "translation": "https://docs.google.com/document/d/1l-lSqz_dAxI16ggp9LZJOxsWAAjD6-mcAz_NIdCwqi4/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-10",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "誤打誤撞當上間諜",
+        "url": "https://docs.google.com/document/d/1l-lSqz_dAxI16ggp9LZJOxsWAAjD6-mcAz_NIdCwqi4/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "로맨스 매니지먼트 히어로",
+    "zh": "戀愛管理英雄",
+    "original": "https://www.postype.com/zh-hant/@cho-post/post/19906519",
+    "translation": "https://docs.google.com/document/d/1IBaIJPNT_fcOPHKOIrvyB-t4jUj0siAqAkmhcyJkMRA/edit?usp=drivesdk",
+    "author": "Cho",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-08-10",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "戀愛管理英雄",
+        "url": "https://docs.google.com/document/d/1IBaIJPNT_fcOPHKOIrvyB-t4jUj0siAqAkmhcyJkMRA/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "숙소에서",
+    "zh": "在宿舍",
+    "original": "https://www.postype.com/zh-hant/@innoxious/post/22073923?show-original=true",
+    "translation": "https://docs.google.com/document/d/1-mivNEh5bEzRPjx7-5y26fKiOhuNsjt_oOx5zqKTrLE/edit?usp=drivesdk",
+    "author": "IN",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-10",
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "在宿舍 1 feat. 廁所",
+        "url": "https://docs.google.com/document/d/1-mivNEh5bEzRPjx7-5y26fKiOhuNsjt_oOx5zqKTrLE/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "在宿舍 2 feat. 沙發",
+        "url": "https://docs.google.com/document/d/1HGilAONllr5JIunLiyTy2DA1ASGYXF6zRubAGZ2bVc8/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "在宿舍 3 feat. 停車場",
+        "url": "https://docs.google.com/document/d/1BK9VZrTQhzPX1xmvYtQjEgeqEv6o3XMwAn1wvlD0TWw/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "在宿舍 4 feat. 餐桌",
+        "url": "https://docs.google.com/document/d/1bZ1VBHqQtjiDScc3C-aO9pFvqeJQi05-jVHtLGw0jBY/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP5",
+        "title": "在宿舍 5 feat. 家",
+        "url": "https://docs.google.com/document/d/15AUszZKqt8bn0NkSSDwzQ4ItlpIr-u-CWmvDCe0X18w/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "雜食系",
+    "status": "2.已完結",
+    "ko": "합사",
+    "zh": "合租",
+    "original": "https://www.postype.com/zh-hant/@qpqpqp1/post/11467018?show-original=true",
+    "translation": "https://docs.google.com/document/d/1y58z87G970DPbhL5FiyuRk6jyno70aF_OkFhD9X8H9g/edit?usp=drivesdk",
+    "author": "벽라춘（碧螺春）",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-10",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "合租",
+        "url": "https://docs.google.com/document/d/1y58z87G970DPbhL5FiyuRk6jyno70aF_OkFhD9X8H9g/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "雜食系",
+    "status": "2.已完結",
+    "ko": "룸",
+    "zh": "Room",
+    "original": "https://www.postype.com/zh-hant/@couplez-hell/post/15792077",
+    "translation": "https://docs.google.com/document/d/1VXyuM0I46uudYvSEWirbB33Z3BpcJPOqdA_utg48vX0/edit?usp=drivesdk",
+    "author": "페슝깅（peshoong）",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-10",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "Room",
+        "url": "https://docs.google.com/document/d/1VXyuM0I46uudYvSEWirbB33Z3BpcJPOqdA_utg48vX0/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "뻔한 첫키스",
+    "zh": "老套的初吻",
+    "original": "https://www.postype.com/zh-hant/@yoominzzin/post/6713409?show-original=true",
+    "translation": "https://docs.google.com/document/d/1Vk71wMVP31QhRMoKJx94JZmLaFwxEvwp2mL1YJQ18IQ/edit?usp=drivesdk",
+    "author": "민무（閔無）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-08-09",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "老套的初吻",
+        "url": "https://docs.google.com/document/d/1Vk71wMVP31QhRMoKJx94JZmLaFwxEvwp2mL1YJQ18IQ/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "뻔한 데이트（+）",
+    "zh": "老套的約會（+）",
+    "original": "https://www.postype.com/zh-hant/@yoominzzin/post/5972229",
+    "translation": "https://docs.google.com/document/d/1oGGoQBy916aOA7CqsbBQY5vSvI-5LN5vC3LE0zTB7Ls/edit?usp=drivesdk",
+    "author": "민무（閔無）",
+    "translator": "鳳梨",
+    "note": "@新入荷",
+    "date": "2026-08-09",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "老套的約會（+）",
+        "url": "https://docs.google.com/document/d/1oGGoQBy916aOA7CqsbBQY5vSvI-5LN5vC3LE0zTB7Ls/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "독있감(독있는 감자라는 뜻)",
+    "zh": "有毒馬鈴薯",
+    "original": "https://www.postype.com/zh-hant/@qpqpqp1/post/16736354?show-original=true",
+    "translation": "https://docs.google.com/document/d/1HU4_fCzvwhyiodnoKsTmAEZ0loeU36JtyL14pVakJV0/edit?usp=drivesdk",
+    "author": "벽라춘（碧螺春）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-09",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "有毒馬鈴薯",
+        "url": "https://docs.google.com/document/d/1HU4_fCzvwhyiodnoKsTmAEZ0loeU36JtyL14pVakJV0/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "정확한 사랑의 실험",
+    "zh": "精準愛情實驗",
+    "original": "https://www.postype.com/zh-hant/@qpqpqp1/post/17143796",
+    "translation": "https://docs.google.com/document/d/1RExDWmQTEsQtWnbOtTCbcqVyjz3J37GEjU5CTOcCORQ/edit?usp=drivesdk",
+    "author": "벽라춘（碧螺春）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-09",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "精準愛情實驗",
+        "url": "https://docs.google.com/document/d/1RExDWmQTEsQtWnbOtTCbcqVyjz3J37GEjU5CTOcCORQ/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "의외의 재능충",
+    "zh": "意料之外的天才",
+    "original": "https://www.postype.com/zh-hant/@qpqpqp1/post/16797575",
+    "translation": "https://docs.google.com/document/d/1KVc4RroR_CcxdVoY9w_W9xhUTOL1im_8SmnJVq4novc/edit?usp=drivesdk",
+    "author": "벽라춘（碧螺春）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-09",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "意料之外的天才",
+        "url": "https://docs.google.com/document/d/1KVc4RroR_CcxdVoY9w_W9xhUTOL1im_8SmnJVq4novc/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "헤녀는 왜 그럴까",
+    "zh": "直女為什麼要這樣",
+    "original": "https://www.postype.com/zh-hant/@qpqpqp1/post/11839567",
+    "translation": "https://docs.google.com/document/d/18N2GMMek7n0ZP66ZCj7JWOVZnIUnPu_nzPMCP-MPj4w/edit?usp=drivesdk",
+    "author": "벽라춘（碧螺春）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-09",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "直女為什麼會那樣",
+        "url": "https://docs.google.com/document/d/18N2GMMek7n0ZP66ZCj7JWOVZnIUnPu_nzPMCP-MPj4w/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "넌 뭐가 문젠데",
+    "zh": "你到底有什麼毛病",
+    "original": "https://www.postype.com/zh-hant/@qpqpqp1/post/12406016",
+    "translation": "https://docs.google.com/document/d/1V3hZo16-XYkgGBczdeVfN-nlfEX8b1w2zIa-tbLIGMU/edit?usp=drivesdk",
+    "author": "벽라춘（碧螺春）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-09",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "你到底有什麼毛病",
+        "url": "https://docs.google.com/document/d/1V3hZo16-XYkgGBczdeVfN-nlfEX8b1w2zIa-tbLIGMU/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "래빗홀",
+    "zh": "兔子洞",
+    "original": "https://www.postype.com/zh-hant/@qpqpqp1/post/8244267",
+    "translation": "https://docs.google.com/document/d/16mUHAVu3-Ad4k849CSXICP3S32TR045yyyRCZfjsqH8/edit?usp=drivesdk",
+    "author": "벽라춘（碧螺春）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-09",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "兔子洞",
+        "url": "https://docs.google.com/document/d/16mUHAVu3-Ad4k849CSXICP3S32TR045yyyRCZfjsqH8/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "일탈(逸脫)",
+    "zh": "逸脫",
+    "original": "https://www.postype.com/zh-hant/@ilmskk/post/20795096?show-original=true",
+    "translation": "https://docs.google.com/document/d/1reaV3Nco_1BxBOHdI3ZESYCpMcaib3vQBJAKh0-nuJk/edit?usp=drivesdk",
+    "author": "Ｓ",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-09",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "逸脫",
+        "url": "https://docs.google.com/document/d/1reaV3Nco_1BxBOHdI3ZESYCpMcaib3vQBJAKh0-nuJk/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "雜食系",
+    "status": "2.已完結",
+    "ko": "두 사람",
+    "zh": "💰 兩人",
+    "original": "https://www.postype.com/zh-hant/@married21/post/21159422?related_post_id=21159422&show-original=true",
+    "translation": "https://docs.google.com/document/d/1rLCKJo5C_ZHHuF4q3zDIjg_ooNR4AkmTpk74IPt0BsM/edit?usp=drivesdk",
+    "author": "공주（公主）",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-09",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "上",
+        "title": "兩人 上",
+        "url": "https://docs.google.com/document/d/1rLCKJo5C_ZHHuF4q3zDIjg_ooNR4AkmTpk74IPt0BsM/edit?usp=drivesdk"
+      },
+      {
+        "label": "中",
+        "title": "兩人 中",
+        "url": "https://docs.google.com/document/d/1M20obM3-hTee_-eqC1vv7e2UgQ5AFjEel6qCRp_0ilk/edit?usp=drivesdk"
+      },
+      {
+        "label": "下",
+        "title": "兩人 下",
+        "url": "https://docs.google.com/document/d/19kDP5MIyq8lki2e81SSX3a9UrxU-iRzrxl257-tncfo/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
     "ko": "고전문학의 이해",
     "zh": "💰 古典文學賞析",
     "original": "https://www.postype.com/zh-hant/@untitle009/post/21700973",
@@ -401,11 +774,18 @@ window.BOOK_DATA = [
     "ko": "늑대와 파란",
     "zh": "狼與藍",
     "original": "https://www.postype.com/zh-hant/@u91jinps/post/7993427?show-original=true",
-    "translation": "https://drive.google.com/drive/folders/1n2malXFb_pgAyzmXTO59y_QFvae0Glxp?usp=drive_link",
+    "translation": "https://docs.google.com/document/d/1JK-UQ5sn1aH6YrK08_vgNMYkhrgp1ghTgMGRcMruV5o/edit?usp=drivesdk",
     "author": "윶페스합작（@U_pjisnps91）",
     "translator": "postype原生",
     "note": "@新入荷",
-    "date": "2026-08-05"
+    "date": "2026-08-05",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "狼與藍",
+        "url": "https://docs.google.com/document/d/1JK-UQ5sn1aH6YrK08_vgNMYkhrgp1ghTgMGRcMruV5o/edit?usp=drivesdk"
+      }
+    ]
   },
   {
     "page": "其他老師",
@@ -554,6 +934,26 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "구원따윈 필요 없어",
+    "zh": "💰 不需要救贖",
+    "original": "https://www.postype.com/@fifth230/post/22720839",
+    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-17",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "不需要救贖",
+        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "안영원 아니고 장영원",
@@ -562,7 +962,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/15_pDB0KrM12OZalGD5N842edDmAtfEMntzhX-yUsz_8/edit?usp=drivesdk",
     "author": "와이",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-02",
     "episodes": [
       {
@@ -616,7 +1016,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1Cur8elD5q-6xjOUNtw9LR_MftZjTF_fEItvyHv8kvyA/edit?usp=drivesdk",
     "author": "로크（LOCK）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -650,7 +1050,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1Tu5uolJKsXnkWyxu530KfnrSb9-pXmH3AS3E86NkvQ8/edit?usp=drivesdk",
     "author": "로크（LOCK）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -669,7 +1069,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1LpdFOTFFqOwEvEeG8IRi1MuqaJAplQIayKFeNN8aYv8/edit?usp=drivesdk",
     "author": "로크（LOCK）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -688,7 +1088,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1aA0nt3KSuTpdVrpuNdxyeMfnSHzrEKJXm0d1GzDr3gM/edit?usp=drivesdk",
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -707,7 +1107,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1qAv5YyFrh-ScUcUCvyIWXArUGSWr3WWIM6kEvMjcCGs/edit?usp=drivesdk",
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -726,7 +1126,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1Bbg-lWrHVVBkQ7r08UkcYKUqTEkpqSAjSfC-ECYZ5pc/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -745,7 +1145,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1XNFPmAiOL8VKjhcDheowK9lJhx2UOYa4DcCHz6N7D-A/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -764,7 +1164,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1NfigJMHLyxxLiOMyDgTclHO-qt8WhVY-ZB7ZEl-S1C8/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -783,7 +1183,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/16M-8Ow5h0B73gxARGDbEArakoOqOD3PBgMrn4GW9gR0/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -802,7 +1202,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1SryHgBRue-Y5dfmWo89g8azGvrUROkCyvBf3zUBozuk/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -821,7 +1221,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1vqz_Z2Mgt7Qm8RbHPu0qoGrJ-Jhlwoj7nSbcfy8tjww/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -840,7 +1240,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1Ue1lWwTBJLjt9Uilpyj9_RMTYutT8ieLlBzctkzs1io/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -859,7 +1259,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1i--plmDukShePWbArtIe2wZU48uuP8hiV9VxtM7HtHw/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -878,7 +1278,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1_4E2XofPgiJt4wJVx7iAgtU0CXifUzkLlPOejj16KcE/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -897,7 +1297,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1YA7MDO7DWgPx9vqt1I0e89hi9yqEM1xepNdaA1sgqlE/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -916,7 +1316,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1eoO8QllaYQwxj6x2lkPwkog6T5q43PUqtlyl77cstJs/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -935,7 +1335,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1CCLjLsg1SLbPMjIhKH_KVSHsTvZ_xm9bg2oty5ijcQc/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -954,7 +1354,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1bBTtmBroGPmoxkorUxDdXgXPFFMMU94_bDkubLEDe6Y/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -973,7 +1373,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1GePMPOd9hJ3jBF6mtVHtdXr0pb6Mefus7b_uEfqCOBc/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -992,7 +1392,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1tYwrmpAnk2wHg4vDrzcyjh0wJfy6Jrzs5ksm1fjHLh4/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -1011,7 +1411,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/18Y6X52w4lBo9hHMIzkKC3o-2CGZxx-1QVpzi-1J2pic/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -1030,7 +1430,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1YBnrZZZqCfLCr-une1S_HCr3hDHXPJqymDj3JwpyIQQ/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -1049,7 +1449,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1qA7ejSU6c5s6hpQys-AoFtFiG4BUgKr-NK1zlBIaqcY/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-01",
     "episodes": [
       {
@@ -1068,7 +1468,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1vLZmvbO0amw1rpaNCTTSrsglRd7qCg3VDo-Kcseur6o/edit",
     "author": "박시봉（朴時奉）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-31",
     "episodes": [
       {
@@ -1097,7 +1497,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1uVL6isYhVKMqa0eXxtToUFdq2aOnRfCxQJuutBeuUus/edit?usp=drivesdk",
     "author": "noname",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-30",
     "paid": true,
     "episodes": [
@@ -1127,7 +1527,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1gfYLl5Uko1HmumIxBChmn6N4CF2KalsSVkG3g5ip_kQ/edit?usp=drivesdk",
     "author": "noname",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-30",
     "paid": true
   },
@@ -1140,7 +1540,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1vWOpuB4jF3jM5bh9vFU7C17Gt82K4Ga6unMskA7Y63Y/edit?usp=drivesdk",
     "author": "noname",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-30",
     "paid": true,
     "episodes": [
@@ -1180,7 +1580,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/15ewQOAcY-yMpxsHGWd7H0qEzaAnkDyIiNIObNM5_cDI/edit?usp=drivesdk",
     "author": "noname",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-30",
     "paid": true,
     "episodes": [
@@ -1205,7 +1605,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1DNmXft4W40iP0eFInnYHZC3YFitadchSD9pIZ3RGZD0/edit",
     "author": "noname",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-07-30",
     "paid": true,
     "episodes": [
@@ -1213,26 +1613,6 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "No love no wet",
         "url": "https://docs.google.com/document/d/1DNmXft4W40iP0eFInnYHZC3YFitadchSD9pIZ3RGZD0/edit"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "구원따윈 필요 없어",
-    "zh": "💰 不需要救贖",
-    "original": "https://www.postype.com/@fifth230/post/22720839",
-    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
-    "date": "2026-07-17",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "不需要救贖",
-        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
       }
     ]
   },
@@ -5878,20 +6258,13 @@ window.BOOK_DATA = [
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "뻔한 첫사랑",
-    "zh": "顯而易見的初戀",
+    "zh": "老套的初戀",
     "original": "https://www.postype.com/@yoominzzin/post/4752838",
-    "translation": "https://docs.google.com/document/d/14-cxEFVYWMJgZPGroGI1hHEo_OSrvMIje6djoqxhx04/edit?usp=drivesdk",
+    "translation": "",
     "author": "민무（閔無）",
     "translator": "鳳梨",
     "note": "",
-    "date": "2025-03-04",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "顯而易見的初戀",
-        "url": "https://docs.google.com/document/d/14-cxEFVYWMJgZPGroGI1hHEo_OSrvMIje6djoqxhx04/edit?usp=drivesdk"
-      }
-    ]
+    "date": "2025-03-04"
   },
   {
     "page": "其他老師",
