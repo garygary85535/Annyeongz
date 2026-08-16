@@ -19,6 +19,26 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "已婚人士",
+    "status": "0.連載中",
+    "ko": "Requiem",
+    "zh": "💰 安魂曲",
+    "original": "https://www.postype.com/zh-hant/@nuttylife/post/21875005?show-original=true",
+    "translation": "https://docs.google.com/document/d/1YP-Knz9zHEUMNEGPY8rwBDeU7i1dH-97zLkQUaVfg_E/edit?usp=drivesdk",
+    "author": "유부비언（已婚人士）",
+    "translator": "postype原生AI",
+    "note": "@有更新",
+    "date": "2026-08-10",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "安魂曲 1",
+        "url": "https://docs.google.com/document/d/1YP-Knz9zHEUMNEGPY8rwBDeU7i1dH-97zLkQUaVfg_E/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "雜食系",
     "status": "0.連載中",
     "ko": "Once Upon a Time",
@@ -27,7 +47,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo/edit?usp=drivesdk",
     "author": "Void",
     "translator": "postype原生AI",
-    "note": "@有更新",
+    "note": "",
     "date": "2026-08-05",
     "episodes": [
       {
@@ -378,6 +398,50 @@ window.BOOK_DATA = [
   {
     "page": "noname",
     "status": "2.已完結",
+    "ko": "모순",
+    "zh": "💰 矛盾",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/22948349",
+    "translation": "https://docs.google.com/document/d/1rghcHuE-aqGDl-yhBFcRlU9l9En200ERz_vphrsdJac/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-16",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "矛盾",
+        "url": "https://docs.google.com/document/d/1rghcHuE-aqGDl-yhBFcRlU9l9En200ERz_vphrsdJac/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "雜食系",
+    "status": "2.已完結",
+    "ko": "Possession",
+    "zh": "Possession（+外傳）",
+    "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22940286",
+    "translation": "https://docs.google.com/document/d/1VggNhwbmzjppKvPxwVfc_NGBjLRW2NaudPF4Af5pX1Q/edit?usp=drivesdk",
+    "author": "Void",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-16",
+    "episodes": [
+      {
+        "label": "本篇",
+        "title": "Possession",
+        "url": "https://docs.google.com/document/d/1VggNhwbmzjppKvPxwVfc_NGBjLRW2NaudPF4Af5pX1Q/edit?usp=drivesdk"
+      },
+      {
+        "label": "外傳",
+        "title": "Possession +",
+        "url": "https://docs.google.com/document/d/1f0kXrF7FfeMgu_xc9ypMn6fb2GA8AMFn4uAHSDsPSC8/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
     "ko": "롬바드로 가자",
     "zh": "去倫巴底吧",
     "original": "https://www.postype.com/zh-hant/@untitle009/post/8390516?show-original=true",
@@ -512,6 +576,44 @@ window.BOOK_DATA = [
   {
     "page": "雜食系",
     "status": "2.已完結",
+    "ko": "김레이의 원죄",
+    "zh": "金怜的原罪",
+    "original": "https://www.postype.com/zh-hant/@qpqpqp1/post/11470122?show-original=true",
+    "translation": "https://docs.google.com/document/d/1fvMiQgzUiNJaWBxPcgjOlV5bXk266N2ezqcRmkyY304/edit?usp=drivesdk",
+    "author": "벽라춘（碧螺春）",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-10",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "金怜的原罪",
+        "url": "https://docs.google.com/document/d/1fvMiQgzUiNJaWBxPcgjOlV5bXk266N2ezqcRmkyY304/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "雜食系",
+    "status": "2.已完結",
+    "ko": "보건실에서",
+    "zh": "在保健室",
+    "original": "https://www.postype.com/zh-hant/@qpqpqp1/post/12340387?show-original=true",
+    "translation": "https://docs.google.com/document/d/15rYQU3xghy5dSKJq9vxmYE7A3llW3twFtAoUSqyTYS4/edit?usp=drivesdk",
+    "author": "벽라춘（碧螺春）",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-10",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "在保健室",
+        "url": "https://docs.google.com/document/d/15rYQU3xghy5dSKJq9vxmYE7A3llW3twFtAoUSqyTYS4/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "雜食系",
+    "status": "2.已完結",
     "ko": "룸",
     "zh": "Room",
     "original": "https://www.postype.com/zh-hant/@couplez-hell/post/15792077",
@@ -529,6 +631,26 @@ window.BOOK_DATA = [
     ]
   },
   {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "구원따윈 필요 없어",
+    "zh": "💰 不需要救贖",
+    "original": "https://www.postype.com/@fifth230/post/22720839",
+    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-17",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "不需要救贖",
+        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "뻔한 첫키스",
@@ -537,7 +659,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1Vk71wMVP31QhRMoKJx94JZmLaFwxEvwp2mL1YJQ18IQ/edit?usp=drivesdk",
     "author": "민무（閔無）",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-09",
     "episodes": [
       {
@@ -556,7 +678,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1oGGoQBy916aOA7CqsbBQY5vSvI-5LN5vC3LE0zTB7Ls/edit?usp=drivesdk",
     "author": "민무（閔無）",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-09",
     "episodes": [
       {
@@ -575,7 +697,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1HU4_fCzvwhyiodnoKsTmAEZ0loeU36JtyL14pVakJV0/edit?usp=drivesdk",
     "author": "벽라춘（碧螺春）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-09",
     "episodes": [
       {
@@ -594,7 +716,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1RExDWmQTEsQtWnbOtTCbcqVyjz3J37GEjU5CTOcCORQ/edit?usp=drivesdk",
     "author": "벽라춘（碧螺春）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-09",
     "episodes": [
       {
@@ -613,7 +735,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1KVc4RroR_CcxdVoY9w_W9xhUTOL1im_8SmnJVq4novc/edit?usp=drivesdk",
     "author": "벽라춘（碧螺春）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-09",
     "episodes": [
       {
@@ -632,7 +754,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/18N2GMMek7n0ZP66ZCj7JWOVZnIUnPu_nzPMCP-MPj4w/edit?usp=drivesdk",
     "author": "벽라춘（碧螺春）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-09",
     "episodes": [
       {
@@ -651,7 +773,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1V3hZo16-XYkgGBczdeVfN-nlfEX8b1w2zIa-tbLIGMU/edit?usp=drivesdk",
     "author": "벽라춘（碧螺春）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-09",
     "episodes": [
       {
@@ -670,7 +792,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/16mUHAVu3-Ad4k849CSXICP3S32TR045yyyRCZfjsqH8/edit?usp=drivesdk",
     "author": "벽라춘（碧螺春）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-09",
     "episodes": [
       {
@@ -689,7 +811,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1reaV3Nco_1BxBOHdI3ZESYCpMcaib3vQBJAKh0-nuJk/edit?usp=drivesdk",
     "author": "Ｓ",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-09",
     "episodes": [
       {
@@ -708,7 +830,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1rLCKJo5C_ZHHuF4q3zDIjg_ooNR4AkmTpk74IPt0BsM/edit?usp=drivesdk",
     "author": "공주（公主）",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-09",
     "paid": true,
     "episodes": [
@@ -738,7 +860,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1ehnwQ9xqEez3rEg3h8W2fNG5tWAhTWDTn7Vg6N4Hrdk/edit?usp=drivesdk",
     "author": "noname",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-05",
     "paid": true,
     "episodes": [
@@ -758,7 +880,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1yJlovg1TYGur5toKti_Xl9aAoKRYY1yp_F3_za5IMEA/edit?usp=drivesdk",
     "author": "noname",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-05",
     "episodes": [
       {
@@ -777,7 +899,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1JK-UQ5sn1aH6YrK08_vgNMYkhrgp1ghTgMGRcMruV5o/edit?usp=drivesdk",
     "author": "윶페스합작（@U_pjisnps91）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-05",
     "episodes": [
       {
@@ -796,7 +918,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/19l_o5okwN1ULWPs7WguXi9311Qc150BZpBNtZPLhbWM/edit?usp=drivesdk",
     "author": "윶페스합작（@U_pjisnps91）",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-05",
     "episodes": [
       {
@@ -815,7 +937,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1yEiRk_2j-S7n6aFUf8PHuwtbSp78P62V49qXHyDm_AA/edit?usp=drivesdk",
     "author": "윶페스합작（@U_pjisnps91）",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-05",
     "episodes": [
       {
@@ -834,7 +956,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/11P5nYRGg-B7qh2-KXIcZMtJk3UXr8OUgRsNy_v8axl0/edit?usp=drivesdk",
     "author": "Void",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-05",
     "episodes": [
       {
@@ -873,7 +995,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/16H23q1EwvDVIaEQMz9JxgOE17T6XDkxmYY0G_5xZL3k/edit?usp=drivesdk",
     "author": "Void",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-05",
     "episodes": [
       {
@@ -897,7 +1019,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/19S3Dtx3_cFUslzNMndFiX5XSqX8Ohb978rrcHJdQQDI/edit?usp=drivesdk",
     "author": "Void",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-05",
     "paid": true,
     "episodes": [
@@ -922,7 +1044,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1sdkU2su4g4lXD1nfV7VMVekxt9QT3nantsS8x0rPKGU/edit?usp=drivesdk",
     "author": "Void",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-05",
     "paid": true,
     "episodes": [
@@ -930,26 +1052,6 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "What's After X",
         "url": "https://docs.google.com/document/d/1sdkU2su4g4lXD1nfV7VMVekxt9QT3nantsS8x0rPKGU/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "구원따윈 필요 없어",
-    "zh": "💰 不需要救贖",
-    "original": "https://www.postype.com/@fifth230/post/22720839",
-    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
-    "date": "2026-07-17",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "不需要救贖",
-        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
       }
     ]
   },
