@@ -8,7 +8,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1qEocAw9INk3D23VxQGscAOIkjvm3PMUroH2jb9RQXVY/edit?usp=drivesdk",
     "author": "IN",
     "translator": "postype原生",
-    "note": "@有更新",
+    "note": "",
     "date": "2026-08-10",
     "episodes": [
       {
@@ -27,7 +27,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1YP-Knz9zHEUMNEGPY8rwBDeU7i1dH-97zLkQUaVfg_E/edit?usp=drivesdk",
     "author": "유부비언（已婚人士）",
     "translator": "postype原生AI",
-    "note": "@有更新",
+    "note": "",
     "date": "2026-08-10",
     "paid": true,
     "episodes": [
@@ -396,6 +396,84 @@ window.BOOK_DATA = [
     "paid": true
   },
   {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "보건쌤",
+    "zh": "保健老師（含外傳）",
+    "original": "https://www.postype.com/zh-hant/@901x831/post/15500569?show-original=true",
+    "translation": "https://docs.google.com/document/d/1wkvvuuy1a5Gc9UIf0huegzsOvP7YmnAJkQeMJrXivSk/edit?usp=drivesdk",
+    "author": "쩡우（鄭宇）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-19",
+    "episodes": [
+      {
+        "label": "本篇",
+        "title": "保健老師",
+        "url": "https://docs.google.com/document/d/1wkvvuuy1a5Gc9UIf0huegzsOvP7YmnAJkQeMJrXivSk/edit?usp=drivesdk"
+      },
+      {
+        "label": "番外",
+        "title": "保健老師番外篇 - 酒品",
+        "url": "https://docs.google.com/document/d/13_ZtReIOE3zWr7ij9gxe-EutugHY8K-8cG2_gZ0P2oU/edit?usp=drivesdk"
+      },
+      {
+        "label": "衍生篇",
+        "title": "保健老師衍生篇 - XX之日",
+        "url": "https://docs.google.com/document/d/1mkACyD4z4O5zZZ3SyvUijtQqlU0KLSeqsq25JRBXXjQ/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "배달왔습니다",
+    "zh": "外送到了喔",
+    "original": "https://www.postype.com/zh-hant/@901x831/post/21831284?show-original=true",
+    "translation": "https://docs.google.com/document/d/1n32tYY9FuOVi-b69tg5C4wVr-1LFKMQjUyo_3l-u7VE/edit?usp=drivesdk",
+    "author": "쩡우（鄭宇）",
+    "translator": "postype原生",
+    "note": "@新入荷",
+    "date": "2026-08-19",
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "外送到了喔 1",
+        "url": "https://docs.google.com/document/d/1n32tYY9FuOVi-b69tg5C4wVr-1LFKMQjUyo_3l-u7VE/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "外送到了喔 2",
+        "url": "https://docs.google.com/document/d/1a17SJZ_69c6V0mAIwl1QRXN_vg2vX-2JPxFLRFX5yCY/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "外送到了喔 3",
+        "url": "https://docs.google.com/document/d/1fAUF9MzlO-fRVyrvvaqNOFQn2lHJwoKrN8dzczzCzws/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "外送到了喔4",
+        "url": "https://docs.google.com/document/d/13eboKiYiQ4Ieplwnpq6YsZJ4mtwi50Czy90YzTIJQeA/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP5",
+        "title": "外送到了喔 5",
+        "url": "https://docs.google.com/document/d/1pr1Z_lEayCXmLyB30dnKAqxAb1_Tk_OL06L6N5Pdo78/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP5.5",
+        "title": "外送到了喔 5.5",
+        "url": "https://docs.google.com/document/d/1UsoxccFeni6NGGO4P8vZs4I4kYRKg3eqcqz-_Leehx0/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP6",
+        "title": "外送到了喔 6",
+        "url": "https://docs.google.com/document/d/1iSFHMtpaXfw9uYHNZXK6AtEo7NG7Pu_skO53-Cg35NU/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "noname",
     "status": "2.已完結",
     "ko": "모순",
@@ -414,6 +492,19 @@ window.BOOK_DATA = [
         "url": "https://docs.google.com/document/d/1rghcHuE-aqGDl-yhBFcRlU9l9En200ERz_vphrsdJac/edit?usp=drivesdk"
       }
     ]
+  },
+  {
+    "page": "其他老師",
+    "status": "2.已完結",
+    "ko": "헤테로 컴플렉스",
+    "zh": "💰 異性戀情結",
+    "original": "https://www.postype.com/zh-hant/@not-ace/post/20864900",
+    "translation": "",
+    "author": "참치（鮪魚）",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-16",
+    "paid": true
   },
   {
     "page": "雜食系",
@@ -442,13 +533,33 @@ window.BOOK_DATA = [
   {
     "page": "noname",
     "status": "2.已完結",
+    "ko": "구원따윈 필요 없어",
+    "zh": "💰 不需要救贖",
+    "original": "https://www.postype.com/@fifth230/post/22720839",
+    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-17",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "不需要救贖",
+        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
     "ko": "롬바드로 가자",
     "zh": "去倫巴底吧",
     "original": "https://www.postype.com/zh-hant/@untitle009/post/8390516?show-original=true",
     "translation": "https://docs.google.com/document/d/1Y0B8Cz-JrP_fW7hN9EbDU5f6pdwht00J_B-QV97nnfU/edit?usp=drivesdk",
     "author": "noname",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-10",
     "episodes": [
       {
@@ -467,7 +578,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1oimf7O5-Aq1ezyvIH5J5C1mXueZUkxt2eNyvBO4nP4k/edit?usp=drivesdk",
     "author": "noname",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-10",
     "episodes": [
       {
@@ -486,7 +597,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1l-lSqz_dAxI16ggp9LZJOxsWAAjD6-mcAz_NIdCwqi4/edit?usp=drivesdk",
     "author": "noname",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-10",
     "episodes": [
       {
@@ -505,7 +616,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1IBaIJPNT_fcOPHKOIrvyB-t4jUj0siAqAkmhcyJkMRA/edit?usp=drivesdk",
     "author": "Cho",
     "translator": "鳳梨",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-10",
     "episodes": [
       {
@@ -524,7 +635,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1-mivNEh5bEzRPjx7-5y26fKiOhuNsjt_oOx5zqKTrLE/edit?usp=drivesdk",
     "author": "IN",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-10",
     "episodes": [
       {
@@ -563,7 +674,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1y58z87G970DPbhL5FiyuRk6jyno70aF_OkFhD9X8H9g/edit?usp=drivesdk",
     "author": "벽라춘（碧螺春）",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-10",
     "episodes": [
       {
@@ -582,7 +693,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1fvMiQgzUiNJaWBxPcgjOlV5bXk266N2ezqcRmkyY304/edit?usp=drivesdk",
     "author": "벽라춘（碧螺春）",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-10",
     "episodes": [
       {
@@ -601,7 +712,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/15rYQU3xghy5dSKJq9vxmYE7A3llW3twFtAoUSqyTYS4/edit?usp=drivesdk",
     "author": "벽라춘（碧螺春）",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-10",
     "episodes": [
       {
@@ -620,33 +731,13 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1VXyuM0I46uudYvSEWirbB33Z3BpcJPOqdA_utg48vX0/edit?usp=drivesdk",
     "author": "페슝깅（peshoong）",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-10",
     "episodes": [
       {
         "label": "閱讀",
         "title": "Room",
         "url": "https://docs.google.com/document/d/1VXyuM0I46uudYvSEWirbB33Z3BpcJPOqdA_utg48vX0/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "구원따윈 필요 없어",
-    "zh": "💰 不需要救贖",
-    "original": "https://www.postype.com/@fifth230/post/22720839",
-    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
-    "date": "2026-07-17",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "不需要救贖",
-        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
       }
     ]
   },
