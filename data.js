@@ -64,6 +64,21 @@ window.BOOK_DATA = [
         "label": "EP3",
         "title": "Once Upon a Time 3",
         "url": "https://docs.google.com/document/d/1iWG8-WnpCoBhz7f9jWHtoZBCrtYn9hVTWKFSorcDCGI/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "Once Upon a Time 4",
+        "url": "https://docs.google.com/document/d/1DHWL9msQp_ebPXzvPKr_3M7e-Vzr4rcLvYPZtHrn15U/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP5",
+        "title": "Once Upon a Time 5",
+        "url": "https://docs.google.com/document/d/11xbuahQyN3p5Xs4AenalVg1hzLYOSR31euKV81bmJx0/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP6",
+        "title": "Once Upon a Time 6",
+        "url": "https://docs.google.com/document/d/186ds48Ou2bIM436sit9LIaFC0WA9fwzG10gxSa-d4ws/edit?usp=drivesdk"
       }
     ]
   },
