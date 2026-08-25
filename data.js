@@ -1,88 +1,5 @@
 window.BOOK_DATA = [
   {
-    "page": "其他老師",
-    "status": "0.連載中",
-    "ko": "스물하나, 스물",
-    "zh": "二十一，二十",
-    "original": "https://www.postype.com/zh-hant/@innoxious/post/22685283",
-    "translation": "https://docs.google.com/document/d/1qEocAw9INk3D23VxQGscAOIkjvm3PMUroH2jb9RQXVY/edit?usp=drivesdk",
-    "author": "IN",
-    "translator": "postype原生",
-    "note": "",
-    "date": "2026-08-10",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "二十一，二十（上）",
-        "url": "https://docs.google.com/document/d/1qEocAw9INk3D23VxQGscAOIkjvm3PMUroH2jb9RQXVY/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "已婚人士",
-    "status": "0.連載中",
-    "ko": "Requiem",
-    "zh": "💰 安魂曲",
-    "original": "https://www.postype.com/zh-hant/@nuttylife/post/21875005?show-original=true",
-    "translation": "https://docs.google.com/document/d/1YP-Knz9zHEUMNEGPY8rwBDeU7i1dH-97zLkQUaVfg_E/edit?usp=drivesdk",
-    "author": "유부비언（已婚人士）",
-    "translator": "postype原生AI",
-    "note": "",
-    "date": "2026-08-10",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "安魂曲 1",
-        "url": "https://docs.google.com/document/d/1YP-Knz9zHEUMNEGPY8rwBDeU7i1dH-97zLkQUaVfg_E/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "雜食系",
-    "status": "0.連載中",
-    "ko": "Once Upon a Time",
-    "zh": "Once Upon a Time",
-    "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22613871",
-    "translation": "https://docs.google.com/document/d/144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo/edit?usp=drivesdk",
-    "author": "Void",
-    "translator": "postype原生AI",
-    "note": "",
-    "date": "2026-08-05",
-    "episodes": [
-      {
-        "label": "EP1",
-        "title": "Once Upon a Time 1",
-        "url": "https://docs.google.com/document/d/144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP2",
-        "title": "Once Upon a Time 2",
-        "url": "https://docs.google.com/document/d/1uQGCz6bVVjk3RNElaEn6x98CzJ8G3coG9vH1j5m3sQg/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP3",
-        "title": "Once Upon a Time 3",
-        "url": "https://docs.google.com/document/d/1iWG8-WnpCoBhz7f9jWHtoZBCrtYn9hVTWKFSorcDCGI/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP4",
-        "title": "Once Upon a Time 4",
-        "url": "https://docs.google.com/document/d/1DHWL9msQp_ebPXzvPKr_3M7e-Vzr4rcLvYPZtHrn15U/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP5",
-        "title": "Once Upon a Time 5",
-        "url": "https://docs.google.com/document/d/11xbuahQyN3p5Xs4AenalVg1hzLYOSR31euKV81bmJx0/edit?usp=drivesdk"
-      },
-      {
-        "label": "EP6",
-        "title": "Once Upon a Time 6",
-        "url": "https://docs.google.com/document/d/186ds48Ou2bIM436sit9LIaFC0WA9fwzG10gxSa-d4ws/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
     "page": "noname",
     "status": "0.連載中",
     "ko": "장르만 여의도",
@@ -91,8 +8,8 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1zMnO_WFtMNndF_40yDP7Xqst5GtfO-JKW61Qh3vuM8M/edit?usp=drivesdk",
     "author": "noname",
     "translator": "鳳梨&不是蓋瑞🤓",
-    "note": "",
-    "date": "2026-07-22",
+    "note": "@有更新",
+    "date": "2026-08-25",
     "paid": true,
     "episodes": [
       {
@@ -199,6 +116,94 @@ window.BOOK_DATA = [
         "label": "EP20",
         "title": "汝矣島風雲20",
         "url": "https://docs.google.com/document/d/1EClaymp4DHHqdAq4Fz5kJAlZrYa8Rq4OYdd0eeU8TVE/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP21",
+        "title": "汝矣島風雲21",
+        "url": "https://docs.google.com/document/d/1PaGsyPEt1dXyVios6DK9roInIlKK7AitmwbYYfv2W5Y/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "其他老師",
+    "status": "0.連載中",
+    "ko": "스물하나, 스물",
+    "zh": "二十一，二十",
+    "original": "https://www.postype.com/zh-hant/@innoxious/post/22685283",
+    "translation": "https://docs.google.com/document/d/1qEocAw9INk3D23VxQGscAOIkjvm3PMUroH2jb9RQXVY/edit?usp=drivesdk",
+    "author": "IN",
+    "translator": "postype原生",
+    "note": "",
+    "date": "2026-08-10",
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "二十一，二十（上）",
+        "url": "https://docs.google.com/document/d/1qEocAw9INk3D23VxQGscAOIkjvm3PMUroH2jb9RQXVY/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "已婚人士",
+    "status": "0.連載中",
+    "ko": "Requiem",
+    "zh": "💰 安魂曲",
+    "original": "https://www.postype.com/zh-hant/@nuttylife/post/21875005?show-original=true",
+    "translation": "https://docs.google.com/document/d/1YP-Knz9zHEUMNEGPY8rwBDeU7i1dH-97zLkQUaVfg_E/edit?usp=drivesdk",
+    "author": "유부비언（已婚人士）",
+    "translator": "postype原生AI",
+    "note": "",
+    "date": "2026-08-10",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "安魂曲 1",
+        "url": "https://docs.google.com/document/d/1YP-Knz9zHEUMNEGPY8rwBDeU7i1dH-97zLkQUaVfg_E/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "雜食系",
+    "status": "0.連載中",
+    "ko": "Once Upon a Time",
+    "zh": "Once Upon a Time",
+    "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22613871",
+    "translation": "https://docs.google.com/document/d/144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo/edit?usp=drivesdk",
+    "author": "Void",
+    "translator": "postype原生AI",
+    "note": "",
+    "date": "2026-08-05",
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "Once Upon a Time 1",
+        "url": "https://docs.google.com/document/d/144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP2",
+        "title": "Once Upon a Time 2",
+        "url": "https://docs.google.com/document/d/1uQGCz6bVVjk3RNElaEn6x98CzJ8G3coG9vH1j5m3sQg/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP3",
+        "title": "Once Upon a Time 3",
+        "url": "https://docs.google.com/document/d/1iWG8-WnpCoBhz7f9jWHtoZBCrtYn9hVTWKFSorcDCGI/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP4",
+        "title": "Once Upon a Time 4",
+        "url": "https://docs.google.com/document/d/1DHWL9msQp_ebPXzvPKr_3M7e-Vzr4rcLvYPZtHrn15U/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP5",
+        "title": "Once Upon a Time 5",
+        "url": "https://docs.google.com/document/d/11xbuahQyN3p5Xs4AenalVg1hzLYOSR31euKV81bmJx0/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP6",
+        "title": "Once Upon a Time 6",
+        "url": "https://docs.google.com/document/d/186ds48Ou2bIM436sit9LIaFC0WA9fwzG10gxSa-d4ws/edit?usp=drivesdk"
       }
     ]
   },
@@ -491,13 +496,33 @@ window.BOOK_DATA = [
   {
     "page": "noname",
     "status": "2.已完結",
+    "ko": "구원따윈 필요 없어",
+    "zh": "💰 不需要救贖",
+    "original": "https://www.postype.com/@fifth230/post/22720839",
+    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-17",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "不需要救贖",
+        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
     "ko": "모순",
     "zh": "💰 矛盾",
     "original": "https://www.postype.com/zh-hant/@untitle009/post/22948349",
     "translation": "https://docs.google.com/document/d/1rghcHuE-aqGDl-yhBFcRlU9l9En200ERz_vphrsdJac/edit?usp=drivesdk",
     "author": "noname",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-16",
     "paid": true,
     "episodes": [
@@ -517,7 +542,7 @@ window.BOOK_DATA = [
     "translation": "",
     "author": "참치（鮪魚）",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-16",
     "paid": true
   },
@@ -530,7 +555,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1VggNhwbmzjppKvPxwVfc_NGBjLRW2NaudPF4Af5pX1Q/edit?usp=drivesdk",
     "author": "Void",
     "translator": "postype原生AI",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-16",
     "episodes": [
       {
@@ -542,26 +567,6 @@ window.BOOK_DATA = [
         "label": "外傳",
         "title": "Possession +",
         "url": "https://docs.google.com/document/d/1f0kXrF7FfeMgu_xc9ypMn6fb2GA8AMFn4uAHSDsPSC8/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "구원따윈 필요 없어",
-    "zh": "💰 不需要救贖",
-    "original": "https://www.postype.com/@fifth230/post/22720839",
-    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
-    "date": "2026-07-17",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "不需要救贖",
-        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
       }
     ]
   },
