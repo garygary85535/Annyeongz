@@ -204,6 +204,11 @@ window.BOOK_DATA = [
         "label": "EP6",
         "title": "Once Upon a Time 6",
         "url": "https://docs.google.com/document/d/186ds48Ou2bIM436sit9LIaFC0WA9fwzG10gxSa-d4ws/edit?usp=drivesdk"
+      },
+      {
+        "label": "EP7",
+        "title": "Once Upon a Time 7",
+        "url": "https://docs.google.com/document/d/1Q5pQMbtdMh6YvuOeHJXDCuHoKKnLtMrSJ9XzPoowmVg/edit?usp=drivesdk"
       }
     ]
   },
@@ -416,6 +421,46 @@ window.BOOK_DATA = [
     "paid": true
   },
   {
+    "page": "雜食系",
+    "status": "2.已完結",
+    "ko": "소원 (Make a Wish)",
+    "zh": "💰 夙願",
+    "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23059595",
+    "translation": "https://docs.google.com/document/d/1PupQZJFBW__71e4r4aVHIZIq8u-2amsFVavw0JimNr0/edit?usp=drivesdk",
+    "author": "Void",
+    "translator": "postype原生AI",
+    "note": "@新入荷",
+    "date": "2026-08-29",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "夙願",
+        "url": "https://docs.google.com/document/d/1PupQZJFBW__71e4r4aVHIZIq8u-2amsFVavw0JimNr0/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "page": "noname",
+    "status": "2.已完結",
+    "ko": "구원따윈 필요 없어",
+    "zh": "💰 不需要救贖",
+    "original": "https://www.postype.com/@fifth230/post/22720839",
+    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
+    "author": "noname",
+    "translator": "不是蓋瑞🤓",
+    "note": "@新入荷",
+    "date": "2026-07-17",
+    "paid": true,
+    "episodes": [
+      {
+        "label": "閱讀",
+        "title": "不需要救贖",
+        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
+      }
+    ]
+  },
+  {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "보건쌤",
@@ -424,7 +469,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1wkvvuuy1a5Gc9UIf0huegzsOvP7YmnAJkQeMJrXivSk/edit?usp=drivesdk",
     "author": "쩡우（鄭宇）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-19",
     "episodes": [
       {
@@ -453,7 +498,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/1n32tYY9FuOVi-b69tg5C4wVr-1LFKMQjUyo_3l-u7VE/edit?usp=drivesdk",
     "author": "쩡우（鄭宇）",
     "translator": "postype原生",
-    "note": "@新入荷",
+    "note": "",
     "date": "2026-08-19",
     "episodes": [
       {
@@ -490,26 +535,6 @@ window.BOOK_DATA = [
         "label": "EP6",
         "title": "外送到了喔 6",
         "url": "https://docs.google.com/document/d/1iSFHMtpaXfw9uYHNZXK6AtEo7NG7Pu_skO53-Cg35NU/edit?usp=drivesdk"
-      }
-    ]
-  },
-  {
-    "page": "noname",
-    "status": "2.已完結",
-    "ko": "구원따윈 필요 없어",
-    "zh": "💰 不需要救贖",
-    "original": "https://www.postype.com/@fifth230/post/22720839",
-    "translation": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk",
-    "author": "noname",
-    "translator": "不是蓋瑞🤓",
-    "note": "@新入荷",
-    "date": "2026-07-17",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "不需要救贖",
-        "url": "https://docs.google.com/document/d/1SXhu3i7r9viZKgrG2azkT83W2ElTX7oDfBw7Qhv8t6k/edit?usp=drivesdk"
       }
     ]
   },
