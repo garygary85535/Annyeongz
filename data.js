@@ -3,13 +3,14 @@ window.BOOK_DATA = [
     "page": "其他老師",
     "status": "0.連載中",
     "ko": "키스의 악마",
-    "zh": "接吻惡魔",
+    "zh": "💰 接吻惡魔",
     "original": "https://www.postype.com/zh-hant/@oh1oh-home/post/21986599",
     "translation": "https://docs.google.com/document/d/1IecJuSqROx3Fau7_SQT-7UPsnj1qxUe-WPRbVq0bisY/edit?usp=drivesdk",
     "author": "오일오",
     "translator": "postype原生",
     "note": "@有更新",
     "date": "2026-10-04",
+    "paid": true,
     "episodes": [
       {
         "label": "上",
