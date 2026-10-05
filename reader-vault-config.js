@@ -1,0 +1,1 @@
+window.READER_VAULT_CONFIG = {"version":1,"algorithm":"AES-256-GCM","kdf":"PBKDF2-SHA256","salt":"YqqhdDaj0tMOFS9xb246fQ==","iterations":600000,"verifier":{"iv":"nxgYC34d1Wj2kN/M","ciphertext":"W+PM9vqHkv/8m6M2dfkt0HyPYAZ01KfrAImoOA2Ojd9Co3Dn/hUwzA=="}};

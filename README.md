@@ -1,26 +1,9 @@
-# 書目宇宙 GitHub Pages 版
+# 加密站內閱讀器
 
-這個資料夾可以直接放到 GitHub repository 的根目錄，然後用 GitHub Pages 發布。
+文章與圖片採 AES-256-GCM 加密，密碼不包含在此封包中。閱讀密碼需另外告知讀者。
 
-建議 repository 名稱：
+密碼與解密金鑰只保留在頁面記憶體，重新整理後需再次輸入。閱讀進度及字級仍存在本機。
 
-```text
-Annyeongz
-```
+必須完整部署 index.html、data.js、reader.css、reader-vault.js、reader-vault-config.js、articles 與 assets。不可把原稿試版或舊明文文章檔上傳。
 
-發布後網址會像：
-
-```text
-https://你的-github-帳號.github.io/Annyeongz/
-```
-
-需要的檔案：
-
-- `index.html`
-- `data.js`
-
-GitHub Pages 設定：
-
-- Source: `Deploy from a branch`
-- Branch: `main`
-- Folder: `/ (root)`
+知道密碼的讀者仍可複製內容；Google 文件來源的分享權限需另行管理。

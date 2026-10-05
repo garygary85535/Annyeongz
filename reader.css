@@ -1,0 +1,16 @@
+.reading-tools { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; font-size: 14px; }
+.reading-tools label { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; }
+.reading-tools input[type=range] { width: 110px; }
+#readingProgress { margin-left: auto; font-variant-numeric: tabular-nums; }
+.reading-body { min-height: 0; min-width: 0; overflow-y: auto; overscroll-behavior: contain; background: #fff; color: #242c28; padding: 24px max(20px, calc((100% - 680px) / 2)); line-height: 1.95; overflow-wrap: anywhere; }
+.reading-body p { margin: 0 0 1em; white-space: pre-wrap; }
+.reading-table { overflow-x: auto; max-width: 100%; }
+.reading-table table { border-collapse: collapse; width: 100%; }
+.reading-table td { border: 1px solid #a1aca5; padding: 8px; vertical-align: top; }
+.reading-body .reading-bullet { padding-left: 1em; }
+.reading-body .reading-bullet::before { content: "• "; }
+.reading-body .reading-space { margin: 0; height: 1em; }
+.reading-body.reading-dark { background: #18221d; color: #edf2ee; }
+.reading-body:focus-visible { outline: 2px solid #377a5a; outline-offset: -2px; }
+@media (max-width: 820px) { .reader-sheet { height: 94dvh; max-height: 94dvh; padding: 10px; } .reading-body { padding: 18px 14px; } .reading-tools { gap: 8px; } }
+.reading-body img { display: block; max-width: 100%; height: auto; margin: 1rem auto; }

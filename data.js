@@ -4867,7 +4867,7 @@ window.BOOK_DATA = [
     "ko": "스타 뱅",
     "zh": "Star Bang",
     "original": "https://www.postype.com/@tjsgody/post/19092517",
-    "translation": "https://docs.google.com/document/d/13UxR5A9pupzN6dzRKPLGE87NL7iBh_M0/edit?usp=drivesdk",
+    "translation": "https://docs.google.com/document/d/13UxR5A9pupzN6dzRKPLGE87NL7iBh_M0yULvZVl4WFA/edit?usp=drivesdk",
     "author": "선（線）",
     "translator": "鳳梨",
     "note": "",
@@ -4876,7 +4876,7 @@ window.BOOK_DATA = [
       {
         "label": "閱讀",
         "title": "Star Bang",
-        "url": "https://docs.google.com/document/d/13UxR5A9pupzN6dzRKPLGE87NL7iBh_M0/edit?usp=drivesdk"
+        "url": "https://docs.google.com/document/d/13UxR5A9pupzN6dzRKPLGE87NL7iBh_M0yULvZVl4WFA/edit?usp=drivesdk"
       }
     ]
   },
@@ -6412,7 +6412,7 @@ window.BOOK_DATA = [
     "ko": "청춘 과도기",
     "zh": "青春過渡期",
     "original": "https://www.postype.com/@heresy/post/18928515",
-    "translation": "https://docs.google.com/document/d/1BbAXHvYy2ZK6Bdy4cL1LvZby7IqVTNW-kXAK6u8/edit?usp=drivesdk",
+    "translation": "https://docs.google.com/document/d/1BbAXHvYy2P0bHRzY2BOI57tNcR5T-3_EVTBYcwWy8ug/edit?usp=drivesdk",
     "author": "이단（一單）",
     "translator": "不是蓋瑞🤓",
     "note": "",
@@ -6421,7 +6421,7 @@ window.BOOK_DATA = [
       {
         "label": "閱讀",
         "title": "青春過渡期",
-        "url": "https://docs.google.com/document/d/1BbAXHvYy2ZK6Bdy4cL1LvZby7IqVTNW-kXAK6u8/edit?usp=drivesdk"
+        "url": "https://docs.google.com/document/d/1BbAXHvYy2P0bHRzY2BOI57tNcR5T-3_EVTBYcwWy8ug/edit?usp=drivesdk"
       }
     ]
   },
@@ -8703,7 +8703,7 @@ window.BOOK_DATA = [
     "ko": "완벽한 세기의 커플",
     "zh": "完美的世紀情侶",
     "original": "https://www.postype.com/@ynseasonrps/post/15849517",
-    "translation": "https://docs.google.com/document/d/1SayNodSfIX9inW4yo1XynOZaFO7uA0ZpCd9Jh8fo50c/edit?usp=drive_link",
+    "translation": "https://docs.google.com/document/d/1T3zLjtfwX0Tol7q3p0Fw3U2JuSW2ZFdo7t8cbKPjQX8/edit?usp=drive_link",
     "author": "박프로（朴專家）",
     "translator": "不是蓋瑞🤓",
     "note": "",

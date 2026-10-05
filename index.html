@@ -608,7 +608,7 @@
       padding: 14px;
       display: grid;
       grid-template-columns: minmax(0, 1fr);
-      grid-template-rows: auto 1fr;
+      grid-template-rows: auto auto minmax(0, 1fr);
       gap: 10px;
     }
 
@@ -852,6 +852,7 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="reader.css">
 </head>
 <body>
   <main class="auth-view" id="authView">
@@ -960,13 +961,20 @@
         </div>
         <button class="close" id="readerCloseBtn" type="button" aria-label="關閉">×</button>
       </div>
-      <iframe id="readerFrame" class="reader-frame" title="譯文預覽"></iframe>
+      <div class="reading-tools">
+        <label>字級 <input id="readingSize" type="range" min="16" max="28" value="20"></label>
+        <label><input id="readingDark" type="checkbox"> 深色閱讀</label>
+        <span id="readingProgress">0%</span>
+      </div>
+      <article id="readerFrame" class="reading-body" tabindex="0" aria-label="譯文內容"></article>
     </div>
   </div>
   <button class="to-top" id="toTopBtn" type="button" aria-label="回到頂端">↑</button>
   </div>
 
-  <script src="data.js?v=20261004-2012"></script>
+  <script src="reader-vault-config.js"></script>
+  <script src="reader-vault.js"></script>
+  <script src="data.js?v=reader-encrypted-v1"></script>
   <script>
     const DATA = window.BOOK_DATA || [];
     const FAVORITE_STORAGE_KEY = "annyeongzFavoriteKeys";
@@ -1415,21 +1423,137 @@
       window.alert("這篇需要付費會員或管理員權限。正式版會在後端檢查帳號權限。");
     }
 
-    function openReader(item, kind, url) {
+    let readingId = "";
+    let readingRequest = 0;
+    let readerUnlocked = false;
+    let readingImageObserver = null;
+    async function openReader(item, kind, url) {
+      if (!readerUnlocked) {
+        const password = window.prompt("請輸入閱讀密碼");
+        if (password === null) return;
+        try {
+          if (!await window.READER_VAULT.unlock(password)) { window.alert("閱讀密碼錯誤。"); return; }
+        } catch (error) { window.alert(error.message); return; }
+        readerUnlocked = true;
+      }
       const episodeIndex = kind.startsWith("episode:") ? Number(kind.split(":")[1]) : null;
       const episode = episodeIndex !== null ? item.episodes[episodeIndex] : null;
       el.readerTitle.textContent = item.zh;
       el.readerSub.textContent = episode ? `${item.ko} · ${episodeButtonText(episode)}` : item.ko;
-      el.readerFrame.src = url;
       el.reader.classList.add("open");
       el.reader.setAttribute("aria-hidden", "false");
+      const source = episode ? episode.url : item.translation;
+      const id = source.match(/(?:\/document\/d\/|\/file\/d\/)([^/?#]+)/)?.[1];
+      const request = ++readingRequest;
+      readingId = "";
+      el.readerFrame.textContent = "讀取中…";
+      document.body.style.overflow = "hidden";
+      try {
+        if (!id) throw new Error("這篇尚未建立站內閱讀內容。");
+        const article = await window.READER_VAULT.read(id);
+        if (request !== readingRequest) return;
+        if (readingImageObserver) readingImageObserver.disconnect();
+        window.READER_VAULT.releaseImages();
+        const imageSources = new WeakMap();
+        const loadImage = async img => {
+          try {
+            const source = imageSources.get(img);
+            const imageUrl = await window.READER_VAULT.image(source);
+            if (request === readingRequest && img.isConnected) img.src = imageUrl;
+          } catch { if (request === readingRequest) img.alt = "圖片載入失敗，請重新開啟文章。"; }
+        };
+        readingImageObserver = typeof IntersectionObserver !== "undefined" ? new IntersectionObserver(entries => {
+          for (const entry of entries) if (entry.isIntersecting) { readingImageObserver.unobserve(entry.target); loadImage(entry.target); }
+        }, { root: el.readerFrame, rootMargin: "400px" }) : null;
+        const pendingReaderImages = [];
+        const fragment = document.createDocumentFragment();
+        function renderBlock(block) {
+          if (block.table) {
+            const table = document.createElement("table");
+            for (const row of block.table) {
+              const tr = document.createElement("tr");
+              for (const cell of row) { const td = document.createElement("td"); cell.forEach(b => td.append(renderBlock(b))); tr.append(td); }
+              table.append(tr);
+            }
+            const wrap = document.createElement("div"); wrap.className = "reading-table"; wrap.append(table); return wrap;
+          }
+          const p = document.createElement(block.heading ? `h${Math.min(block.heading + 1, 6)}` : "p");
+          if (block.bullet) p.className = "reading-bullet";
+          for (const run of block.runs || []) {
+            if (run.image) {
+              const img = document.createElement("img");
+              imageSources.set(img, run.image);
+              pendingReaderImages.push(img);
+              img.alt = "文章圖片";
+              if (run.imageWidth && run.imageHeight) {
+                img.width = run.imageWidth;
+                img.height = run.imageHeight;
+              }
+              img.loading = "lazy";
+              img.decoding = "async";
+              p.append(img);
+              continue;
+            }
+            let node = document.createTextNode(run.text.replace(/\n$/, ""));
+            if (run.bold) { const b = document.createElement("strong"); b.append(node); node = b; }
+            if (run.italic) { const i = document.createElement("em"); i.append(node); node = i; }
+            if (run.underline) { const u = document.createElement("u"); u.append(node); node = u; }
+            p.append(node);
+          }
+          if (!p.textContent.trim() && !p.querySelector("img")) p.className = "reading-space";
+          return p;
+        }
+        for (const block of article.blocks) fragment.append(renderBlock(block));
+        el.readerFrame.replaceChildren(fragment);
+        for (const img of pendingReaderImages) { if (readingImageObserver) readingImageObserver.observe(img); else loadImage(img); }
+        readingId = id;
+        requestAnimationFrame(() => {
+          if (request !== readingRequest) return;
+          const ratio = Number(localStorage.getItem(`reading:${id}`)) || 0;
+          el.readerFrame.scrollTop = ratio * Math.max(0, el.readerFrame.scrollHeight - el.readerFrame.clientHeight);
+          updateReadingProgress();
+          el.readerFrame.focus();
+        });
+      } catch (error) {
+        if (request === readingRequest) el.readerFrame.textContent = error.message;
+      }
     }
 
     function closeReader() {
+      if (readingImageObserver) { readingImageObserver.disconnect(); readingImageObserver = null; }
+      window.READER_VAULT.releaseImages();
       el.reader.classList.remove("open");
       el.reader.setAttribute("aria-hidden", "true");
-      el.readerFrame.src = "about:blank";
+      ++readingRequest;
+      readingId = "";
+      el.readerFrame.replaceChildren();
+      document.body.style.overflow = "";
     }
+
+    function updateReadingProgress() {
+      if (!readingId) return;
+      const height = el.readerFrame.scrollHeight - el.readerFrame.clientHeight;
+      const ratio = height > 0 ? el.readerFrame.scrollTop / height : 1;
+      document.querySelector("#readingProgress").textContent = `${Math.round(ratio * 100)}%`;
+      localStorage.setItem(`reading:${readingId}`, String(ratio));
+    }
+    el.readerFrame.addEventListener("scroll", updateReadingProgress, { passive: true });
+    const sizeControl = document.querySelector("#readingSize");
+    sizeControl.value = localStorage.getItem("readingSize") || "20";
+    const setReadingSize = () => {
+      el.readerFrame.style.fontSize = `${sizeControl.value}px`;
+      localStorage.setItem("readingSize", sizeControl.value);
+    };
+    sizeControl.addEventListener("input", setReadingSize);
+    setReadingSize();
+    const darkControl = document.querySelector("#readingDark");
+    darkControl.checked = localStorage.getItem("readingDark") === "true";
+    const setReadingDark = () => {
+      el.readerFrame.classList.toggle("reading-dark", darkControl.checked);
+      localStorage.setItem("readingDark", String(darkControl.checked));
+    };
+    darkControl.addEventListener("change", setReadingDark);
+    setReadingDark();
 
     function closeDetail() {
       el.modal.classList.remove("open");
