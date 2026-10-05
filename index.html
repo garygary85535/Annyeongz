@@ -853,7 +853,28 @@
     }
   </style>
   <link rel="stylesheet" href="reader.css">
-</head>
+<style>
+[hidden]{display:none!important}
+blockquote[data-align="left"]{text-align:left}
+blockquote[data-align="center"]{text-align:center}
+blockquote[data-align="right"]{text-align:right}
+blockquote[data-quote]{margin:20px 0!important;padding:16px 20px!important;border:1px solid #cbd4ce!important;border-radius:6px;color:#26332d!important;max-width:100%;overflow-wrap:anywhere}
+blockquote[data-quote="gray"],blockquote[data-quote="blue"]{position:relative;width:fit-content;max-width:82%;border:0!important;padding:12px 18px!important;line-height:1.75;font-style:normal;white-space:pre-wrap}
+blockquote[data-quote="gray"]{background:#eef0f2;border-radius:18px 18px 18px 4px;margin:16px auto 16px 10px!important}
+blockquote[data-quote="blue"]{background:#326de6;color:#fff!important;border-radius:18px 18px 4px 18px;margin:16px 10px 16px auto!important}
+blockquote[data-quote="gray"]::after,blockquote[data-quote="blue"]::after{content:"";position:absolute;bottom:0;width:12px;height:15px;pointer-events:none}
+blockquote[data-quote="gray"]::after{left:-8px;background:#eef0f2;clip-path:polygon(100% 0,100% 100%,0 100%)}
+blockquote[data-quote="blue"]::after{right:-8px;background:#326de6;clip-path:polygon(0 0,100% 100%,0 100%)}
+blockquote[data-quote="gray"]:has(+ blockquote[data-quote="gray"])::after,
+blockquote[data-quote="blue"]:has(+ blockquote[data-quote="blue"])::after{display:none}
+blockquote[data-quote="gray"]:has(+ blockquote[data-quote="gray"]){border-bottom-left-radius:18px;margin-bottom:6px!important}
+blockquote[data-quote="blue"]:has(+ blockquote[data-quote="blue"]){border-bottom-right-radius:18px;margin-bottom:6px!important}
+blockquote[data-quote="gray"] + blockquote[data-quote="gray"],
+blockquote[data-quote="blue"] + blockquote[data-quote="blue"]{margin-top:6px!important}
+@media(max-width:600px){blockquote[data-quote="gray"],blockquote[data-quote="blue"]{max-width:88%;padding:10px 14px!important}}
+blockquote[data-quote] p:last-child{margin-bottom:0}
+blockquote[data-quote="border"] p,blockquote[data-quote="border"] div{margin:0!important}
+</style></head>
 <body>
   <main class="auth-view" id="authView">
     <section class="auth-card">
@@ -1479,6 +1500,7 @@
           }
           const p = document.createElement(block.heading ? `h${Math.min(block.heading + 1, 6)}` : "p");
           if (block.bullet) p.className = "reading-bullet";
+          if (block.quote) { const quote = document.createElement("blockquote"); quote.dataset.quote = block.quote; if (["left", "center", "right"].includes(block.align)) quote.dataset.align = block.align; for (const run of block.runs || []) { let n = document.createTextNode(run.text || ""); if (run.bold) { const b = document.createElement("strong"); b.append(n); n = b; } if (run.italic) { const i = document.createElement("em"); i.append(n); n = i; } if (run.underline) { const u = document.createElement("u"); u.append(n); n = u; } if (run.image) { const img = document.createElement("img"); imageSources.set(img, run.image); pendingReaderImages.push(img); img.alt = "文章圖片"; n = img; } quote.append(n); } return quote; }
           for (const run of block.runs || []) {
             if (run.image) {
               const img = document.createElement("img");
@@ -1498,6 +1520,7 @@
             if (run.bold) { const b = document.createElement("strong"); b.append(node); node = b; }
             if (run.italic) { const i = document.createElement("em"); i.append(node); node = i; }
             if (run.underline) { const u = document.createElement("u"); u.append(node); node = u; }
+            if (run.link && /^https?:\/\//i.test(run.link)) { const a = document.createElement("a"); a.href = run.link; a.target = "_blank"; a.rel = "noopener noreferrer"; a.append(node); node = a; }
             p.append(node);
           }
           if (!p.textContent.trim() && !p.querySelector("img")) p.className = "reading-space";
