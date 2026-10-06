@@ -58,7 +58,7 @@
   }
   async function image(source) {
     if (!key) throw new Error("請先輸入閱讀密碼。");
-    if (!/^assets\/[A-Za-z0-9_-]+\/\d+\.(png|jpe?g|gif|webp|bmp)$/.test(source)) throw new Error("圖片路徑不正確。");
+    if (!/^assets\/(?:[A-Za-z0-9_-]+\/\d+|local-[a-f0-9]{64})\.(png|jpe?g|gif|webp|bmp)$/.test(source)) throw new Error("圖片路徑不正確。");
     if (imageUrls.has(source)) return imageUrls.get(source);
     if (pendingImages.has(source)) return pendingImages.get(source);
     const generation = imageGeneration;
