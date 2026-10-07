@@ -877,8 +877,17 @@ blockquote[data-quote="blue"] + blockquote[data-quote="blue"]{margin-top:6px!imp
 @media(max-width:600px){blockquote[data-quote="gray"],blockquote[data-quote="blue"]{max-width:88%;padding:10px 14px!important}}
 blockquote[data-quote] p:last-child{margin-bottom:0}
 blockquote[data-quote="border"]{white-space:pre-wrap}
+.reading-table table:has(> tr:only-child > td:only-child > blockquote[data-quote="border"]) > tr > td,
+.reading-table table:has(> tbody:only-child > tr:only-child > td:only-child > blockquote[data-quote="border"]) > tbody > tr > td{border:0;padding:0}
 blockquote[data-quote="plain"]{border:0!important;border-left:3px solid #529166!important;border-radius:0!important;padding:0 0 0 20px!important;color:#52685a!important;white-space:pre-wrap}
 blockquote[data-quote="border"] p,blockquote[data-quote="border"] div{margin:0!important}
+</style><style>
+.youtube-block{position:relative;width:100%;aspect-ratio:16/9;min-height:200px;margin:24px 0;background:#edf1f2;border:1px solid #cbd4ce;border-radius:6px;overflow:hidden;display:grid;place-items:center;white-space:normal}
+.youtube-block iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.youtube-play{padding:12px 20px;background:#fff;color:#26332d;border:1px solid #cbd4ce;border-radius:5px;font:inherit;cursor:pointer}
+.youtube-actions{position:absolute;right:8px;top:8px;display:flex;gap:6px;z-index:1}
+.youtube-actions button{width:36px;height:36px;padding:0;background:#fff;border:1px solid #cbd4ce;border-radius:5px;color:#26332d;font:20px system-ui;cursor:pointer}
+.youtube-block [hidden]{display:none!important}
 </style></head>
 <body>
   <main class="auth-view" id="authView">
@@ -998,6 +1007,7 @@ blockquote[data-quote="border"] p,blockquote[data-quote="border"] div{margin:0!i
   <button class="to-top" id="toTopBtn" type="button" aria-label="回到頂端">↑</button>
   </div>
 
+  <script src="youtube-media.js"></script>
   <script src="reader-vault-config.js"></script>
   <script src="reader-vault.js?v=20261006-local-images"></script>
   <script src="data.js?v=reader-encrypted-v1"></script>
@@ -1472,6 +1482,7 @@ blockquote[data-quote="border"] p,blockquote[data-quote="border"] div{margin:0!i
       const id = source.match(/(?:\/document\/d\/|\/file\/d\/)([^/?#]+)/)?.[1];
       const request = ++readingRequest;
       readingId = "";
+      window.YouTubeMedia.stop(el.readerFrame);
       el.readerFrame.textContent = "讀取中…";
       document.body.style.overflow = "hidden";
       try {
@@ -1494,6 +1505,7 @@ blockquote[data-quote="border"] p,blockquote[data-quote="border"] div{margin:0!i
         const pendingReaderImages = [];
         const fragment = document.createDocumentFragment();
         function renderBlock(block) {
+          if (block.youtube) return window.YouTubeMedia.create(block.youtube);
           if (block.table) {
             const table = document.createElement("table");
             for (const row of block.table) {
@@ -1548,6 +1560,7 @@ blockquote[data-quote="border"] p,blockquote[data-quote="border"] div{margin:0!i
     }
 
     function closeReader() {
+      window.YouTubeMedia.stop(el.readerFrame);
       if (readingImageObserver) { readingImageObserver.disconnect(); readingImageObserver = null; }
       window.READER_VAULT.releaseImages();
       el.reader.classList.remove("open");
