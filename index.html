@@ -888,6 +888,32 @@ blockquote[data-quote="border"] p,blockquote[data-quote="border"] div{margin:0!i
 .youtube-actions{position:absolute;right:8px;top:8px;display:flex;gap:6px;z-index:1}
 .youtube-actions button{width:36px;height:36px;padding:0;background:#fff;border:1px solid #cbd4ce;border-radius:5px;color:#26332d;font:20px system-ui;cursor:pointer}
 .youtube-block [hidden]{display:none!important}
+.soundcloud-block{aspect-ratio:auto;height:166px;min-height:166px}
+.soundcloud-error{position:absolute;bottom:0;background:#fff;font:14px system-ui;padding:4px}
+</style><style>
+:is(#editor,.article-content,.reading-body){font-family:system-ui,sans-serif;font-size:20px;line-height:1.95;color:#242c28;overflow-wrap:anywhere;white-space:pre-wrap;letter-spacing:0}
+#editor,.article-content{max-width:680px;margin-inline:auto}
+:is(#editor,.article-content,.reading-body) :is(p,li){margin:0 0 1em;white-space:pre-wrap;min-height:1.95em}
+#editor>div:not(.reading-table):not(.youtube-block){margin:0 0 1em;white-space:pre-wrap;min-height:1.95em}
+:is(#editor,.article-content,.reading-body) :is(h2,h3,h4,h5,h6){line-height:1.4;margin:1em 0 .6em;font-weight:700;white-space:pre-wrap}
+:is(#editor,.article-content,.reading-body) h2{font-size:1.5em}
+:is(#editor,.article-content,.reading-body) h3{font-size:1.25em}
+:is(#editor,.article-content,.reading-body) :is(h4,h5,h6){font-size:1.1em}
+:is(#editor,.article-content,.reading-body) :is(ul,ol){margin:0 0 1em;padding-left:1.5em;white-space:normal}
+:is(#editor,.article-content,.reading-body) li{margin-bottom:0}
+:is(#editor,.article-content,.reading-body) img{display:block;max-width:100%;height:auto;margin:1rem auto}
+:is(#editor,.article-content,.reading-body) table{border-collapse:collapse;width:100%;white-space:normal}
+:is(#editor,.article-content,.reading-body) :is(td,th){border:1px solid #a1aca5;padding:8px;vertical-align:top}
+:is(#editor,.article-content,.reading-body) blockquote :is(p,div){margin:0!important;min-height:0;line-height:inherit}
+:is(#editor,.article-content,.reading-body) blockquote :is(p,div):empty{min-height:1lh}
+:is(#editor,.article-content,.reading-body) a{color:#286343;text-decoration:underline}
+:is(#editor,.article-content,.reading-body) blockquote[data-quote="blue"] a{color:#fff}
+:is(#editor,.article-content,.reading-body) [data-align="left"]{text-align:left}
+:is(#editor,.article-content,.reading-body) [data-align="center"]{text-align:center}
+:is(#editor,.article-content,.reading-body) [data-align="right"]{text-align:right}
+.reading-table{overflow-x:auto;max-width:100%;white-space:normal}
+.reading-body.reading-dark{color:#edf2ee!important}
+dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:3}
 </style></head>
 <body>
   <main class="auth-view" id="authView">
@@ -1008,6 +1034,7 @@ blockquote[data-quote="border"] p,blockquote[data-quote="border"] div{margin:0!i
   </div>
 
   <script src="youtube-media.js"></script>
+  <script src="article-format.js"></script>
   <script src="reader-vault-config.js"></script>
   <script src="reader-vault.js?v=20261006-local-images"></script>
   <script src="data.js?v=reader-encrypted-v1"></script>
@@ -1504,46 +1531,7 @@ blockquote[data-quote="border"] p,blockquote[data-quote="border"] div{margin:0!i
         }, { root: el.readerFrame, rootMargin: "400px" }) : null;
         const pendingReaderImages = [];
         const fragment = document.createDocumentFragment();
-        function renderBlock(block) {
-          if (block.youtube) return window.YouTubeMedia.create(block.youtube);
-          if (block.table) {
-            const table = document.createElement("table");
-            for (const row of block.table) {
-              const tr = document.createElement("tr");
-              for (const cell of row) { const td = document.createElement("td"); cell.forEach(b => td.append(renderBlock(b))); tr.append(td); }
-              table.append(tr);
-            }
-            const wrap = document.createElement("div"); wrap.className = "reading-table"; wrap.append(table); return wrap;
-          }
-          const p = document.createElement(block.heading ? `h${Math.min(block.heading + 1, 6)}` : "p");
-          if (block.bullet) p.className = "reading-bullet";
-          if (block.quote) { const quote = document.createElement("blockquote"); quote.dataset.quote = block.quote; if (["left", "center", "right"].includes(block.align)) quote.dataset.align = block.align; for (const run of block.runs || []) { let n = document.createTextNode(run.text || ""); if (run.bold) { const b = document.createElement("strong"); b.append(n); n = b; } if (run.italic) { const i = document.createElement("em"); i.append(n); n = i; } if (run.underline) { const u = document.createElement("u"); u.append(n); n = u; } if (run.image) { const img = document.createElement("img"); imageSources.set(img, run.image); pendingReaderImages.push(img); img.alt = "文章圖片"; n = img; } quote.append(n); } return quote; }
-          for (const run of block.runs || []) {
-            if (run.image) {
-              const img = document.createElement("img");
-              imageSources.set(img, run.image);
-              pendingReaderImages.push(img);
-              img.alt = "文章圖片";
-              if (run.imageWidth && run.imageHeight) {
-                img.width = run.imageWidth;
-                img.height = run.imageHeight;
-              }
-              img.loading = "lazy";
-              img.decoding = "async";
-              p.append(img);
-              continue;
-            }
-            let node = document.createTextNode(run.text.replace(/\n$/, ""));
-            if (run.bold) { const b = document.createElement("strong"); b.append(node); node = b; }
-            if (run.italic) { const i = document.createElement("em"); i.append(node); node = i; }
-            if (run.underline) { const u = document.createElement("u"); u.append(node); node = u; }
-            if (run.link && /^https?:\/\//i.test(run.link)) { const a = document.createElement("a"); a.href = run.link; a.target = "_blank"; a.rel = "noopener noreferrer"; a.append(node); node = a; }
-            p.append(node);
-          }
-          if (!p.textContent.trim() && !p.querySelector("img")) p.className = "reading-space";
-          return p;
-        }
-        for (const block of article.blocks) fragment.append(renderBlock(block));
+        fragment.append(window.ArticleFormat.renderAll(article.blocks, { image(img, source) { imageSources.set(img, source); pendingReaderImages.push(img); img.loading = "lazy"; img.decoding = "async"; } }));
         el.readerFrame.replaceChildren(fragment);
         for (const img of pendingReaderImages) { if (readingImageObserver) readingImageObserver.observe(img); else loadImage(img); }
         readingId = id;
