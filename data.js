@@ -1026,15 +1026,29 @@ window.BOOK_DATA = [
         "label": "EP1",
         "title": "莫名其妙的戀愛傳聞 01",
         "url": "https://docs.google.com/document/d/19OQxIiasobUtSBKCMH6qvVezsEielJ_GbAC30ilhfuo/edit?usp=drivesdk",
+        "original": "",
         "articleId": "19OQxIiasobUtSBKCMH6qvVezsEielJ_GbAC30ilhfuo",
-        "_episodeId": "ep-2a1e5da4ef89a2232892"
+        "pricePoints": null,
+        "_episodeId": "ep-2a1e5da4ef89a2232892",
+        "destinyItemId": "",
+        "destinyTitle": "莫名其妙的戀愛傳聞",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP2",
         "title": "莫名其妙的戀愛傳聞 02",
         "url": "https://docs.google.com/document/d/1aXZTz5T62DVX7fHvz7HYbCSNSQ4GXYqoBwb3zsZSYRc/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1aXZTz5T62DVX7fHvz7HYbCSNSQ4GXYqoBwb3zsZSYRc",
-        "_episodeId": "ep-509c5ddd585d098350f7"
+        "pricePoints": null,
+        "_episodeId": "ep-509c5ddd585d098350f7",
+        "destinyItemId": "",
+        "destinyTitle": "莫名其妙的戀愛傳聞",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-ec0d692b0fab3f6fc1d3",
@@ -1055,7 +1069,11 @@ window.BOOK_DATA = [
     "knownPricePoints": 0,
     "unpricedEpisodes": 2,
     "pricePoints": null,
-    "pricingMode": "episodes"
+    "pricingMode": "episodes",
+    "createdAt": "2026-10-10T17:38:22.682Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-10T17:38:22.688Z"
   },
   {
     "page": "其他老師",
@@ -1651,28 +1669,43 @@ window.BOOK_DATA = [
         "label": "本篇",
         "title": "保健老師",
         "url": "https://docs.google.com/document/d/1wkvvuuy1a5Gc9UIf0huegzsOvP7YmnAJkQeMJrXivSk/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@901x831/post/15500569",
         "articleId": "1wkvvuuy1a5Gc9UIf0huegzsOvP7YmnAJkQeMJrXivSk",
+        "pricePoints": 0,
         "_episodeId": "ep-2fe8f86b257c84a08088",
         "destinyItemId": "item-61a20351d983fd7e92a5",
-        "original": "https://www.postype.com/zh-hant/@901x831/post/15500569",
         "destinyTitle": "保健老師",
         "destinyKo": "보건쌤",
         "destinyDeleted": false,
-        "pricePoints": 0
+        "includeDestiny": true
       },
       {
-        "label": "番外",
-        "title": "保健老師番外篇 - 酒品",
-        "url": "https://docs.google.com/document/d/13_ZtReIOE3zWr7ij9gxe-EutugHY8K-8cG2_gZ0P2oU/edit?usp=drivesdk",
+        "label": "番外篇-酒品",
+        "title": "保健老師",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@901x831/post/16146171",
         "articleId": "13_ZtReIOE3zWr7ij9gxe-EutugHY8K-8cG2_gZ0P2oU",
-        "_episodeId": "ep-aaa8250361e774191aa1"
+        "pricePoints": 0,
+        "_episodeId": "ep-item-a4cc802653a59c132180",
+        "destinyItemId": "item-a4cc802653a59c132180",
+        "destinyTitle": "保健老師",
+        "destinyKo": "보건쌤",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
-        "label": "衍生篇",
-        "title": "保健老師衍生篇 - XX之日",
-        "url": "https://docs.google.com/document/d/1mkACyD4z4O5zZZ3SyvUijtQqlU0KLSeqsq25JRBXXjQ/edit?usp=drivesdk",
+        "label": "衍生篇-XX之日",
+        "title": "保健老師",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@901x831/post/16442687",
         "articleId": "1mkACyD4z4O5zZZ3SyvUijtQqlU0KLSeqsq25JRBXXjQ",
-        "_episodeId": "ep-8892b2cfa001d085c80b"
+        "pricePoints": 500,
+        "_episodeId": "ep-item-b6ed28e808a15ba9b31b",
+        "destinyItemId": "item-b6ed28e808a15ba9b31b",
+        "destinyTitle": "保健老師",
+        "destinyKo": "보건쌤",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-60852b3d983e8b7dff76",
@@ -1687,12 +1720,18 @@ window.BOOK_DATA = [
       "文章狀態: 完結"
     ],
     "characters": [
-      "安：高中保健室老師\n員：高中生"
+      "安：高中保健室老師",
+      "員：高中生"
     ],
     "knownPricePoints": 500,
-    "unpricedEpisodes": 2,
-    "pricePoints": null,
-    "pricingMode": "episodes"
+    "unpricedEpisodes": 0,
+    "pricePoints": 500,
+    "pricingMode": "episodes",
+    "createdAt": "2026-10-10T16:46:29.785Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "保健老師（含外傳）",
+    "updatedAt": "2026-10-10T16:47:00.726Z"
   },
   {
     "page": "其他老師",
@@ -1886,7 +1925,13 @@ window.BOOK_DATA = [
     "knownPricePoints": 1000,
     "unpricedEpisodes": 0,
     "pricePoints": 1000,
-    "pricingMode": "episodes"
+    "pricingMode": "episodes",
+    "createdAt": "2026-10-10T16:47:30.650Z",
+    "articleId": "",
+    "hidden": false,
+    "destinyTitle": "異性戀情結",
+    "characters": [],
+    "updatedAt": "2026-10-10T16:47:30.656Z"
   },
   {
     "page": "雜食系",
@@ -1904,21 +1949,29 @@ window.BOOK_DATA = [
         "label": "本篇",
         "title": "Possession",
         "url": "https://docs.google.com/document/d/1VggNhwbmzjppKvPxwVfc_NGBjLRW2NaudPF4Af5pX1Q/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1VggNhwbmzjppKvPxwVfc_NGBjLRW2NaudPF4Af5pX1Q",
-        "_episodeId": "ep-0ab1a4c594f78d917cef"
+        "pricePoints": null,
+        "_episodeId": "ep-0ab1a4c594f78d917cef",
+        "destinyItemId": "",
+        "destinyTitle": "Possession",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "外傳",
         "title": "Possession +",
         "url": "https://docs.google.com/document/d/1f0kXrF7FfeMgu_xc9ypMn6fb2GA8AMFn4uAHSDsPSC8/edit?usp=drivesdk",
-        "articleId": "1f0kXrF7FfeMgu_xc9ypMn6fb2GA8AMFn4uAHSDsPSC8",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22952018",
+        "articleId": "1f0kXrF7FfeMgu_xc9ypMn6fb2GA8AMFn4uAHSDsPSC8",
         "pricePoints": 300,
         "_episodeId": "ep-6db3bb7c5af5a0819a20",
         "destinyItemId": "item-0ea6b24dfc8e03891f6f",
-        "destinyTitle": "Possession+",
+        "destinyTitle": "Possession",
         "destinyKo": "Possession+",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-91a3256cb6406528cf5b",
@@ -1939,8 +1992,14 @@ window.BOOK_DATA = [
       "文章狀態: 完結"
     ],
     "characters": [
-      "🐱高中生\n🐹黑道大小姐"
-    ]
+      "🐱高中生",
+      "🐹黑道大小姐"
+    ],
+    "createdAt": "2026-10-10T17:36:31.309Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-10T17:36:31.314Z"
   },
   {
     "page": "noname",
@@ -2090,16 +2149,36 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "戀愛管理英雄",
         "url": "https://docs.google.com/document/d/1IBaIJPNT_fcOPHKOIrvyB-t4jUj0siAqAkmhcyJkMRA/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@cho-post/post/19906519?show-original=true",
         "articleId": "1IBaIJPNT_fcOPHKOIrvyB-t4jUj0siAqAkmhcyJkMRA",
-        "_episodeId": "ep-ed9d8e8768b8eed2b735"
+        "pricePoints": 0,
+        "_episodeId": "ep-ed9d8e8768b8eed2b735",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-739d847228b1c0ce2a01",
     "_favoriteKey": "https://docs.google.com/document/d/1IBaIJPNT_fcOPHKOIrvyB-t4jUj0siAqAkmhcyJkMRA/edit?usp=drivesdk",
     "articleId": "1IBaIJPNT_fcOPHKOIrvyB-t4jUj0siAqAkmhcyJkMRA",
     "includeShelf": true,
-    "includeDestiny": false,
-    "recommendations": []
+    "includeDestiny": true,
+    "recommendations": [],
+    "createdAt": "2026-10-10T16:55:04.841Z",
+    "paid": false,
+    "hidden": false,
+    "destinyDeleted": false,
+    "destinyId": "P0461",
+    "destinyTitle": "",
+    "pricePoints": 0,
+    "tags": [],
+    "characters": [],
+    "pricingMode": "episodes",
+    "knownPricePoints": 0,
+    "unpricedEpisodes": 0,
+    "updatedAt": "2026-10-10T16:55:11.288Z"
   },
   {
     "page": "其他老師",
@@ -2735,13 +2814,18 @@ window.BOOK_DATA = [
     "date": "2026-08-09",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "本篇",
         "title": "逸脫",
         "url": "https://docs.google.com/document/d/1reaV3Nco_1BxBOHdI3ZESYCpMcaib3vQBJAKh0-nuJk/edit?usp=drivesdk",
-        "articleId": "1reaV3Nco_1BxBOHdI3ZESYCpMcaib3vQBJAKh0-nuJk",
         "original": "https://www.postype.com/zh-hant/@ilmskk/post/20795096?show-original=true",
+        "articleId": "1reaV3Nco_1BxBOHdI3ZESYCpMcaib3vQBJAKh0-nuJk",
         "pricePoints": 0,
-        "_episodeId": "ep-fb971dd73a5664693aa8"
+        "_episodeId": "ep-fb971dd73a5664693aa8",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-cf4bd2f3922e37261a9a",
@@ -2752,8 +2836,17 @@ window.BOOK_DATA = [
     "unpricedEpisodes": 0,
     "pricePoints": 0,
     "includeShelf": true,
-    "includeDestiny": false,
-    "recommendations": []
+    "includeDestiny": true,
+    "recommendations": [],
+    "createdAt": "2026-10-10T16:49:22.237Z",
+    "paid": false,
+    "hidden": false,
+    "destinyDeleted": false,
+    "destinyId": "P0460",
+    "destinyTitle": "",
+    "tags": [],
+    "characters": [],
+    "updatedAt": "2026-10-10T16:50:18.324Z"
   },
   {
     "page": "雜食系",
@@ -2772,25 +2865,43 @@ window.BOOK_DATA = [
         "label": "上",
         "title": "兩人 上",
         "url": "https://docs.google.com/document/d/1rLCKJo5C_ZHHuF4q3zDIjg_ooNR4AkmTpk74IPt0BsM/edit?usp=drivesdk",
-        "articleId": "1rLCKJo5C_ZHHuF4q3zDIjg_ooNR4AkmTpk74IPt0BsM",
         "original": "https://www.postype.com/zh-hant/@married21/post/21159422?related_post_id=21159422&show-original=true",
-        "_episodeId": "ep-0769ce724d0a803136c0"
+        "articleId": "1rLCKJo5C_ZHHuF4q3zDIjg_ooNR4AkmTpk74IPt0BsM",
+        "pricePoints": null,
+        "_episodeId": "ep-0769ce724d0a803136c0",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "中",
         "title": "兩人 中",
         "url": "https://docs.google.com/document/d/1M20obM3-hTee_-eqC1vv7e2UgQ5AFjEel6qCRp_0ilk/edit?usp=drivesdk",
-        "articleId": "1M20obM3-hTee_-eqC1vv7e2UgQ5AFjEel6qCRp_0ilk",
         "original": "https://www.postype.com/zh-hant/@married21/post/21179295",
-        "_episodeId": "ep-042fa227c57d6ce836d8"
+        "articleId": "1M20obM3-hTee_-eqC1vv7e2UgQ5AFjEel6qCRp_0ilk",
+        "pricePoints": null,
+        "_episodeId": "ep-042fa227c57d6ce836d8",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "下",
         "title": "兩人 下",
         "url": "https://docs.google.com/document/d/19kDP5MIyq8lki2e81SSX3a9UrxU-iRzrxl257-tncfo/edit?usp=drivesdk",
-        "articleId": "19kDP5MIyq8lki2e81SSX3a9UrxU-iRzrxl257-tncfo",
         "original": "https://www.postype.com/zh-hant/@married21/post/21233133",
-        "_episodeId": "ep-918fb99b6d86f02d8694"
+        "articleId": "19kDP5MIyq8lki2e81SSX3a9UrxU-iRzrxl257-tncfo",
+        "pricePoints": null,
+        "_episodeId": "ep-918fb99b6d86f02d8694",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-e73bf128f865aecb99c6",
@@ -2801,8 +2912,22 @@ window.BOOK_DATA = [
     "unpricedEpisodes": 3,
     "pricePoints": null,
     "includeShelf": true,
-    "includeDestiny": false,
-    "recommendations": []
+    "includeDestiny": true,
+    "recommendations": [
+      "雜食系 (其他CP)"
+    ],
+    "createdAt": "2026-10-10T17:00:41.961Z",
+    "hidden": false,
+    "destinyDeleted": true,
+    "destinyId": "P0462",
+    "destinyTitle": "",
+    "tags": [
+      "🐱🐹"
+    ],
+    "characters": [
+      "🐱🐹"
+    ],
+    "updatedAt": "2026-10-10T17:02:09.401Z"
   },
   {
     "page": "noname",
@@ -3042,67 +3167,78 @@ window.BOOK_DATA = [
         "label": "EP1",
         "title": "隔壁的孩子 1",
         "url": "https://docs.google.com/document/d/11P5nYRGg-B7qh2-KXIcZMtJk3UXr8OUgRsNy_v8axl0/edit?usp=drivesdk",
-        "articleId": "11P5nYRGg-B7qh2-KXIcZMtJk3UXr8OUgRsNy_v8axl0",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22226157",
+        "articleId": "11P5nYRGg-B7qh2-KXIcZMtJk3UXr8OUgRsNy_v8axl0",
         "pricePoints": 0,
         "_episodeId": "ep-9b00dde3e92fdfbcd898",
         "destinyItemId": "item-7991a276cb77b383ae49",
         "destinyTitle": "隔壁小孩",
         "destinyKo": "옆집 아이",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP2",
         "title": "隔壁的孩子 2",
         "url": "https://docs.google.com/document/d/1c5-aWiqyKiMkEt-LQAKeieDIdQFuhg5-IQUqADKpmQY/edit?usp=drivesdk",
-        "articleId": "1c5-aWiqyKiMkEt-LQAKeieDIdQFuhg5-IQUqADKpmQY",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22245392",
+        "articleId": "1c5-aWiqyKiMkEt-LQAKeieDIdQFuhg5-IQUqADKpmQY",
         "pricePoints": 0,
         "_episodeId": "ep-073ca2d715a4c8667533",
         "destinyItemId": "item-38f3446196c9e37a8114",
         "destinyTitle": "隔壁小孩",
         "destinyKo": "옆집 아이",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP3",
         "title": "隔壁的孩子 3",
         "url": "https://docs.google.com/document/d/1KwdvnEtyuXpHIT2f5f77OIHoiq2UrM5o04iX6jxzEgk/edit?usp=drivesdk",
-        "articleId": "1KwdvnEtyuXpHIT2f5f77OIHoiq2UrM5o04iX6jxzEgk",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22245429",
+        "articleId": "1KwdvnEtyuXpHIT2f5f77OIHoiq2UrM5o04iX6jxzEgk",
         "pricePoints": 0,
         "_episodeId": "ep-17554f867b6ec1188375",
         "destinyItemId": "item-eefc749f89d119907f65",
         "destinyTitle": "隔壁小孩",
         "destinyKo": "옆집 아이",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP4",
         "title": "隔壁的孩子 4",
         "url": "https://docs.google.com/document/d/15igux9_o3MDoVuMSxwpvKqJrzkVsj6bT_ArPyRUzn5k/edit?usp=drivesdk",
-        "articleId": "15igux9_o3MDoVuMSxwpvKqJrzkVsj6bT_ArPyRUzn5k",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22274014",
+        "articleId": "15igux9_o3MDoVuMSxwpvKqJrzkVsj6bT_ArPyRUzn5k",
         "pricePoints": 500,
         "_episodeId": "ep-4dcffa3c3f706282743d",
         "destinyItemId": "item-46b7ba5773147978cb20",
         "destinyTitle": "隔壁小孩",
         "destinyKo": "옆집 아이",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "Epilogue",
         "title": "隔壁的孩子 Epilogue",
         "url": "https://docs.google.com/document/d/1phbrNfx_o0Vw3qIgOgl0jnv0H6iqTCEtmVQmeIPhdGs/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22279701",
         "articleId": "1phbrNfx_o0Vw3qIgOgl0jnv0H6iqTCEtmVQmeIPhdGs",
-        "_episodeId": "ep-a4cbadcc59753abb94fa"
+        "pricePoints": null,
+        "_episodeId": "ep-a4cbadcc59753abb94fa",
+        "destinyItemId": "",
+        "destinyTitle": "隔壁小孩",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-8be41f262f1d06639587",
     "_favoriteKey": "https://docs.google.com/document/d/11P5nYRGg-B7qh2-KXIcZMtJk3UXr8OUgRsNy_v8axl0/edit?usp=drivesdk",
     "articleId": "11P5nYRGg-B7qh2-KXIcZMtJk3UXr8OUgRsNy_v8axl0",
     "pricingMode": "episodes",
-    "knownPricePoints": 1200,
+    "knownPricePoints": 500,
     "unpricedEpisodes": 1,
     "pricePoints": null,
     "includeShelf": true,
@@ -3116,8 +3252,14 @@ window.BOOK_DATA = [
       "文章狀態: 完結"
     ],
     "characters": [
-      "🐱年上，🐹年下"
-    ]
+      "🐱年上",
+      "🐹年下"
+    ],
+    "createdAt": "2026-10-10T16:58:59.125Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-10T16:58:59.129Z"
   },
   {
     "page": "雜食系",
@@ -3194,33 +3336,41 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "You’re Mine",
         "title": "You’re Mine",
         "url": "https://docs.google.com/document/d/19S3Dtx3_cFUslzNMndFiX5XSqX8Ohb978rrcHJdQQDI/edit?usp=drivesdk",
+        "original": "",
         "articleId": "19S3Dtx3_cFUslzNMndFiX5XSqX8Ohb978rrcHJdQQDI",
-        "_episodeId": "ep-ec5f99537d0611e9d0a7"
+        "pricePoints": 0,
+        "_episodeId": "ep-ec5f99537d0611e9d0a7",
+        "destinyItemId": "",
+        "destinyTitle": "Relationship",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
-        "label": "外傳",
+        "label": "Am I",
         "title": "Am I",
         "url": "https://docs.google.com/document/d/1-o4EKaRy7iaZoT2VAkMepNQ9R2rm5UZo-dvUrz3siqc/edit?usp=drivesdk",
-        "articleId": "1-o4EKaRy7iaZoT2VAkMepNQ9R2rm5UZo-dvUrz3siqc",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22095478?show-original=true",
+        "articleId": "1-o4EKaRy7iaZoT2VAkMepNQ9R2rm5UZo-dvUrz3siqc",
         "pricePoints": 500,
         "_episodeId": "ep-5b22dc66a5e9b705fe34",
         "destinyItemId": "item-6540fd6a9651499c7f4b",
         "destinyTitle": "Relationship",
         "destinyKo": "Relationship",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-bdd039b9feab0a1edd24",
     "_favoriteKey": "https://docs.google.com/document/d/19S3Dtx3_cFUslzNMndFiX5XSqX8Ohb978rrcHJdQQDI/edit?usp=drivesdk",
     "articleId": "19S3Dtx3_cFUslzNMndFiX5XSqX8Ohb978rrcHJdQQDI",
     "pricingMode": "episodes",
-    "knownPricePoints": 1000,
-    "unpricedEpisodes": 1,
-    "pricePoints": null,
+    "knownPricePoints": 500,
+    "unpricedEpisodes": 0,
+    "pricePoints": 500,
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [
@@ -3233,8 +3383,13 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "🐱保鑣，🐹夫人"
-    ]
+      "🐱保鑣",
+      "🐹夫人"
+    ],
+    "createdAt": "2026-10-10T16:51:20.439Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-10T16:52:32.515Z"
   },
   {
     "page": "雜食系",
@@ -3253,14 +3408,15 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "What's After X",
         "url": "https://docs.google.com/document/d/1sdkU2su4g4lXD1nfV7VMVekxt9QT3nantsS8x0rPKGU/edit?usp=drivesdk",
-        "articleId": "1sdkU2su4g4lXD1nfV7VMVekxt9QT3nantsS8x0rPKGU",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22533445",
+        "articleId": "1sdkU2su4g4lXD1nfV7VMVekxt9QT3nantsS8x0rPKGU",
         "pricePoints": 300,
         "_episodeId": "ep-0901fbd536dcaff85c07",
         "destinyItemId": "item-0bbf5567a8cb9b700c07",
         "destinyTitle": "What's After X",
         "destinyKo": "What's After X",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-c0853fac585aaa7de2c9",
@@ -3282,7 +3438,11 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "🐱🐹"
-    ]
+    ],
+    "createdAt": "2026-10-10T17:36:56.584Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-10T17:36:56.589Z"
   },
   {
     "page": "其他老師",
@@ -5298,8 +5458,15 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "青山別曲",
         "url": "https://docs.google.com/document/d/1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1q9KlVT8p_w561eWa3wdJ9VNTlbvopodpozWyNGEwzBg",
-        "_episodeId": "ep-4e62718892cb22dd022e"
+        "pricePoints": null,
+        "_episodeId": "ep-4e62718892cb22dd022e",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-b05fdf123718fd618819",
@@ -5322,7 +5489,12 @@ window.BOOK_DATA = [
     "knownPricePoints": 0,
     "unpricedEpisodes": 1,
     "pricePoints": null,
-    "pricingMode": "episodes"
+    "pricingMode": "episodes",
+    "createdAt": "2026-10-10T17:02:02.313Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-10T17:02:02.314Z"
   },
   {
     "page": "其他老師",
@@ -5568,7 +5740,78 @@ window.BOOK_DATA = [
     "date": "2026-07-21",
     "_id": "work-74cbd99c99167b32bc48",
     "_favoriteKey": "其他老師::냄새맡는 토끼::獸人系列2-聞味道的兔子::초코쇼크（巧克shock）",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "1",
+        "title": "獸人系列2-聞味道的兔子",
+        "url": "",
+        "original": "https://www.postype.com/@chzhtyzm/post/8757768",
+        "articleId": "local-2af93e36-69ea-4421-917a-f4f3289eac85",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-446fef66c8f56333922e",
+        "destinyItemId": "item-446fef66c8f56333922e",
+        "destinyTitle": "獸人系列2-聞味道的兔子",
+        "destinyKo": "냄새맡는 토끼",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "2",
+        "title": "獸人系列2-聞味道的兔子",
+        "url": "",
+        "original": "https://www.postype.com/@chzhtyzm/post/8796270",
+        "articleId": "local-5e4b78a7-42a5-47c0-9c53-0e1fd4bdaa04",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-8c17288948f2fc730ea3",
+        "destinyItemId": "item-8c17288948f2fc730ea3",
+        "destinyTitle": "獸人系列2-聞味道的兔子",
+        "destinyKo": "냄새맡는 토끼",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "3",
+        "title": "獸人系列2-聞味道的兔子",
+        "url": "",
+        "original": "https://www.postype.com/@chzhtyzm/post/8828694",
+        "articleId": "local-b6c1a9a6-796c-44c9-8962-15bc101323d0",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-9a27f3a4a320b5356863",
+        "destinyItemId": "item-9a27f3a4a320b5356863",
+        "destinyTitle": "獸人系列2-聞味道的兔子",
+        "destinyKo": "냄새맡는 토끼",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "4",
+        "title": "獸人系列2-聞味道的兔子",
+        "url": "",
+        "original": "https://www.postype.com/@chzhtyzm/post/8864843",
+        "articleId": "local-6c95671e-0b35-4bf2-bf32-99bfbb7fedfb",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-d344745610424890e166",
+        "destinyItemId": "item-d344745610424890e166",
+        "destinyTitle": "獸人系列2-聞味道的兔子",
+        "destinyKo": "냄새맡는 토끼",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "5",
+        "title": "獸人系列2-聞味道的兔子",
+        "url": "",
+        "original": "https://www.postype.com/@chzhtyzm/post/8896580",
+        "articleId": "local-885f23e9-5024-4875-8d8e-cf9de64d5ce2",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-00be1e428a5758a1f75f",
+        "destinyItemId": "item-00be1e428a5758a1f75f",
+        "destinyTitle": "獸人系列2-聞味道的兔子",
+        "destinyKo": "냄새맡는 토끼",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [],
@@ -5580,7 +5823,14 @@ window.BOOK_DATA = [
     "knownPricePoints": 0,
     "unpricedEpisodes": 0,
     "pricePoints": 0,
-    "pricingMode": "episodes"
+    "pricingMode": "episodes",
+    "createdAt": "2026-10-10T17:04:25.033Z",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-10T17:12:01.106Z"
   },
   {
     "page": "其他老師",
@@ -5595,7 +5845,50 @@ window.BOOK_DATA = [
     "date": "2026-07-21",
     "_id": "work-701d66c4147844b78f92",
     "_favoriteKey": "其他老師::냄새나는 토끼::獸人系列3-有味道的兔子::초코쇼크（巧克shock）",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "1",
+        "title": "獸人系列3-有味道的兔子",
+        "url": "",
+        "original": "https://www.postype.com/@chzhtyzm/post/8921936",
+        "articleId": "local-40be75de-f1b8-4cc3-bdc6-3a11dd431f80",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-91e4e8852ad1d015f703",
+        "destinyItemId": "item-91e4e8852ad1d015f703",
+        "destinyTitle": "獸人系列3-有味道的兔子",
+        "destinyKo": "냄새나는 토끼",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "2",
+        "title": "獸人系列3-有味道的兔子",
+        "url": "",
+        "original": "https://www.postype.com/@chzhtyzm/post/8945419",
+        "articleId": "local-98dae69d-712f-42a4-a52c-ca8d3c94206b",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-e3a206968d87fb73901a",
+        "destinyItemId": "item-e3a206968d87fb73901a",
+        "destinyTitle": "獸人系列3-有味道的兔子",
+        "destinyKo": "냄새나는 토끼",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "3",
+        "title": "獸人系列3-有味道的兔子",
+        "url": "",
+        "original": "https://www.postype.com/@chzhtyzm/post/8996262",
+        "articleId": "local-3c399b7c-8e96-4a05-91b0-8dc08340e463",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-d5d27c23af64530492d4",
+        "destinyItemId": "item-d5d27c23af64530492d4",
+        "destinyTitle": "獸人系列3-有味道的兔子",
+        "destinyKo": "냄새나는 토끼",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [],
@@ -5607,7 +5900,14 @@ window.BOOK_DATA = [
     "knownPricePoints": 0,
     "unpricedEpisodes": 0,
     "pricePoints": 0,
-    "pricingMode": "episodes"
+    "pricingMode": "episodes",
+    "createdAt": "2026-10-10T17:12:22.268Z",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-10T17:15:06.539Z"
   },
   {
     "page": "noname",
@@ -5746,8 +6046,15 @@ window.BOOK_DATA = [
         "label": "",
         "title": "充電完成",
         "url": "https://docs.google.com/document/d/1_8XCaxO7bS5Z7jPjS7K3y1o4SAOy4EdyPS_khHzFKyM/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@rps-rrr/post/4769019",
         "articleId": "1_8XCaxO7bS5Z7jPjS7K3y1o4SAOy4EdyPS_khHzFKyM",
-        "_episodeId": "ep-b12672e103e85a95f98a"
+        "pricePoints": 0,
+        "_episodeId": "ep-b12672e103e85a95f98a",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-f2a05229013a905ab809",
@@ -5762,9 +6069,15 @@ window.BOOK_DATA = [
       "文章狀態: 完結"
     ],
     "knownPricePoints": 0,
-    "unpricedEpisodes": 1,
-    "pricePoints": null,
-    "pricingMode": "episodes"
+    "unpricedEpisodes": 0,
+    "pricePoints": 0,
+    "pricingMode": "episodes",
+    "createdAt": "2026-10-10T17:40:41.976Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-10T17:40:53.800Z"
   },
   {
     "page": "蜜地瓜",
@@ -6570,71 +6883,141 @@ window.BOOK_DATA = [
         "label": "EP1",
         "title": "01 就這樣([윶녕윶] 이렇게)_내내",
         "url": "https://docs.google.com/document/d/11x2qezpJv_WbTuEij4ew50HAmcpHca-WzHhy6ffMjuQ/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@naenae1029/post/4602938?show-original=true",
         "articleId": "11x2qezpJv_WbTuEij4ew50HAmcpHca-WzHhy6ffMjuQ",
-        "_episodeId": "ep-b015e8f541faac8e269c"
+        "pricePoints": 0,
+        "_episodeId": "ep-b015e8f541faac8e269c",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP2",
         "title": "02 就那樣([윶녕윶] 그렇게 (이렇게 번외))_내내",
         "url": "https://docs.google.com/document/d/1YKC49VrzCYgZrBotNPwdHTMyYTE1wJuokN_E_tf3KdA/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@naenae1029/post/4664443",
         "articleId": "1YKC49VrzCYgZrBotNPwdHTMyYTE1wJuokN_E_tf3KdA",
-        "_episodeId": "ep-956a06453f240db3a789"
+        "pricePoints": 0,
+        "_episodeId": "ep-956a06453f240db3a789",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP3",
         "title": "03 那般([윶녕윶] 저렇게 (그렇게 번외))_내내",
         "url": "https://docs.google.com/document/d/1YzPUypBqFrX0BEuDa3dzYQARrgsj0KXyZbByoL8CgY8/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@naenae1029/post/4775697",
         "articleId": "1YzPUypBqFrX0BEuDa3dzYQARrgsj0KXyZbByoL8CgY8",
-        "_episodeId": "ep-d00d301c089aa03a61a6"
+        "pricePoints": 0,
+        "_episodeId": "ep-d00d301c089aa03a61a6",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP4",
         "title": "04 就這麼樣 上([윶녕윶] 요렇게 上)_내내",
         "url": "https://docs.google.com/document/d/1CPt0z3VWNMzW5re5jAWNkpWEB9Xty1JGZAoNDmmLII0/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@naenae1029/post/7049532",
         "articleId": "1CPt0z3VWNMzW5re5jAWNkpWEB9Xty1JGZAoNDmmLII0",
-        "_episodeId": "ep-cdeb6bd79b052ce5af93"
+        "pricePoints": 1000,
+        "_episodeId": "ep-cdeb6bd79b052ce5af93",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP5",
         "title": "05 就這麼樣 中([윶녕윶] 요렇게 中)_내내",
         "url": "https://docs.google.com/document/d/1fqhfaV2AzEFNvvaKMHpG-b96G25SFWjMT9ljol7Z4M4/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@naenae1029/post/7049558",
         "articleId": "1fqhfaV2AzEFNvvaKMHpG-b96G25SFWjMT9ljol7Z4M4",
-        "_episodeId": "ep-b567aac048937438ae84"
+        "pricePoints": 1000,
+        "_episodeId": "ep-b567aac048937438ae84",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP6",
         "title": "06 就這麼樣 下([윶녕윶] 요렇게下)_내내",
         "url": "https://docs.google.com/document/d/1FG-uZfua8QA-7FIuPvoYRGoAYnVEEmFq0eClIgDbT7c/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@naenae1029/post/7049572",
         "articleId": "1FG-uZfua8QA-7FIuPvoYRGoAYnVEEmFq0eClIgDbT7c",
-        "_episodeId": "ep-f67caf5f33f5f8a1ec0c"
+        "pricePoints": 1000,
+        "_episodeId": "ep-f67caf5f33f5f8a1ec0c",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP7",
         "title": "07 就這麼著([윶녕윶] 그냥 이렇게 (저렇게 번외))_내내",
         "url": "https://docs.google.com/document/d/1mpqBdR4Ziv73fty3xYX8DWgZPTc8gg3wExKsTJ-HUsY/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@naenae1029/post/12244953",
         "articleId": "1mpqBdR4Ziv73fty3xYX8DWgZPTc8gg3wExKsTJ-HUsY",
-        "_episodeId": "ep-ceddfa74126881cbae41"
+        "pricePoints": null,
+        "_episodeId": "ep-ceddfa74126881cbae41",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP8",
         "title": "08 就那麼著([윶녕윶] 그냥 그렇게 (그냥 이렇게 번외))_내내",
         "url": "https://docs.google.com/document/d/18ufRtf_jkg7EG0zgDCnD3wdTJE_Q4nQ2dW6GLw4MJ5A/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@naenae1029/post/12258088",
         "articleId": "18ufRtf_jkg7EG0zgDCnD3wdTJE_Q4nQ2dW6GLw4MJ5A",
-        "_episodeId": "ep-f9951b219e0be12a1043"
+        "pricePoints": null,
+        "_episodeId": "ep-f9951b219e0be12a1043",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP9",
         "title": "09 就那般著 上([윶녕윶] 그냥 저렇게 上 (그냥 그렇게 번외))_내내",
         "url": "https://docs.google.com/document/d/1VzEXi6_34KhvVjODZiaY14zHBc2NAseNXd_8HD6NlMQ/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@naenae1029/post/12328867",
         "articleId": "1VzEXi6_34KhvVjODZiaY14zHBc2NAseNXd_8HD6NlMQ",
-        "_episodeId": "ep-923eae7ac4a2fed4f090"
+        "pricePoints": null,
+        "_episodeId": "ep-923eae7ac4a2fed4f090",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP10",
         "title": "10 就那般著 下([윶녕윶] 그냥 저렇게 下 (그냥 그렇게 번외))_내내",
         "url": "https://docs.google.com/document/d/1MFFUSJbdoSVFKECGboj050VKerSG0tjJPH8hZTglvqI/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@naenae1029/post/13248679",
         "articleId": "1MFFUSJbdoSVFKECGboj050VKerSG0tjJPH8hZTglvqI",
-        "_episodeId": "ep-e2d14214042c55f95100"
+        "pricePoints": null,
+        "_episodeId": "ep-e2d14214042c55f95100",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-e48cd326d2767426cd04",
@@ -6660,9 +7043,14 @@ window.BOOK_DATA = [
       "安：學生/上班族 / 員：學生/上班族"
     ],
     "knownPricePoints": 3000,
-    "unpricedEpisodes": 10,
+    "unpricedEpisodes": 4,
     "pricePoints": null,
-    "pricingMode": "episodes"
+    "pricingMode": "episodes",
+    "createdAt": "2026-10-10T17:45:22.474Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-10T17:46:22.749Z"
   },
   {
     "page": "其他老師",
