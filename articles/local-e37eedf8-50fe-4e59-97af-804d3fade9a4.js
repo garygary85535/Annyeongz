@@ -1,0 +1,2 @@
+window.READER_PAYLOADS = window.READER_PAYLOADS || {};
+window.READER_PAYLOADS["local-e37eedf8-50fe-4e59-97af-804d3fade9a4"] = {"iv":"H1M40r+uLPzKBHv+","ciphertext":"qKv1eFCCd/jFFCfXGsgU6X6+zCHmo9QG6J/ZUWJQSVzc0TNL8oqo+y9JaQo10MZgkF+KtpjdmrkQjh45Ro2VAV6opxKkWvMrG7gJZRsOV9/AfcxuRq1ue4a09zaSAdI7kMVXcfu4/CW13cO0zwtQTvWnIWMw/5JD8QrtvEUFJ1DeSlX5zmf83ST5HZq8EoUB6xJfy144ta+8k0T2KNJ++P3yxwi+dlwplyXoQMworkJ48lTx8nnHxrejuybBbzKt"};

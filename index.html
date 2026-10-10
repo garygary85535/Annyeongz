@@ -911,10 +911,15 @@ blockquote[data-quote="border"] p,blockquote[data-quote="border"] div{margin:0!i
 :is(#editor,.article-content,.reading-body) [data-align="left"]{text-align:left}
 :is(#editor,.article-content,.reading-body) [data-align="center"]{text-align:center}
 :is(#editor,.article-content,.reading-body) [data-align="right"]{text-align:right}
+:is(#editor,.article-content,.reading-body) [data-font="sans"]{font-family:system-ui,"PingFang TC","Microsoft JhengHei",sans-serif}
+:is(#editor,.article-content,.reading-body) [data-font="serif"]{font-family:"Songti TC","Noto Serif CJK TC","PMingLiU",serif}
+:is(#editor,.article-content,.reading-body) [data-font="kai"]{font-family:"BiauKai","DFKai-SB","KaiTi","STKaiti",serif}
 .reading-table{overflow-x:auto;max-width:100%;white-space:normal}
+:is(#editor,.article-content,.reading-body) .reading-table table:has(> tr:only-child > td:only-child > blockquote[data-quote="border"]) > tr > td,
+:is(#editor,.article-content,.reading-body) .reading-table table:has(> tbody:only-child > tr:only-child > td:only-child > blockquote[data-quote="border"]) > tbody > tr > td{border:0;padding:0}
 .reading-body.reading-dark{color:#edf2ee!important}
 dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:3}
-</style></head>
+</style><style>#readerChineseControl{display:flex;gap:0}#readerChineseControl button{min-width:48px;min-height:36px;padding:5px 10px;border:1px solid #ccd6ce;border-radius:0;background:#fff;color:#26332d;font:inherit;cursor:pointer}#readerChineseControl button:first-child{border-radius:5px 0 0 5px}#readerChineseControl button:last-child{border-radius:0 5px 5px 0}#readerChineseControl button[aria-pressed="true"]{background:#286343;color:#fff}#readerChineseControl button:disabled{opacity:.5;cursor:wait}</style><style>#readerFrame,#readerFrame *{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}#readerFrame :is(input,textarea,[contenteditable="true"]){-webkit-user-select:text;user-select:text}</style></head>
 <body>
   <main class="auth-view" id="authView">
     <section class="auth-card">
@@ -1023,6 +1028,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
         <button class="close" id="readerCloseBtn" type="button" aria-label="關閉">×</button>
       </div>
       <div class="reading-tools">
+        <div id="readerChineseControl" role="group" aria-label="文字版本"><button type="button" data-chinese="traditional" aria-pressed="true">繁體</button><button type="button" data-chinese="simplified" aria-pressed="false">简体</button></div>
         <label>字級 <input id="readingSize" type="range" min="16" max="28" value="20"></label>
         <label><input id="readingDark" type="checkbox"> 深色閱讀</label>
         <span id="readingProgress">0%</span>
@@ -1035,11 +1041,14 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
 
   <script src="youtube-media.js"></script>
   <script src="article-format.js"></script>
+  <script src="reader-chinese.js"></script>
+  <script src="reader-content-guard.js"></script>
   <script src="reader-vault-config.js"></script>
   <script src="reader-vault.js?v=20261006-local-images"></script>
-  <script src="data.js?v=reader-encrypted-v1"></script>
+  <script src="data.js?v=03c9081bb8dd"></script>
   <script>
     const DATA = window.BOOK_DATA || [];
+    function escapeHTML(value) { return String(value ?? "").replace(/[&<>"']/g, c => ({38:"&amp;",60:"&lt;",62:"&gt;",34:"&quot;",39:"&#39;"}[c.charCodeAt(0)])); }
     const FAVORITE_STORAGE_KEY = "annyeongzFavoriteKeys";
     const LEGACY_FAVORITE_STORAGE_KEY = "bookPrototypeFavs";
 
@@ -1056,7 +1065,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
     };
 
     function favoriteKey(item) {
-      return String(item.translation || item.original || [item.page, item.ko, item.zh, item.author].join("::"));
+      return String(item._favoriteKey || item.translation || item.original || [item.page, item.ko, item.zh, item.author].join("::"));
     }
 
     function readJsonStorage(key, fallback) {
@@ -1214,7 +1223,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
         const pageOK = state.page === "全部" || state.page === "我的最愛" || item.page === state.page;
         const statusOK = state.status === "全部" || item.status === state.status;
         const updateOK = state.updateFilter === "全部" || shortStatusText(item) === state.updateFilter;
-        const hay = normalize([item.zh, item.ko, item.author, item.translator, visibleNote(item), shortStatusText(item)].join(" "));
+        const hay = normalize([item.zh, item.ko, item.author, item.translator, visibleNote(item), ...(item.tags || []), ...(item.characters || []), shortStatusText(item)].join(" "));
         return mixedOK && favoriteOK && latestOK && pageOK && statusOK && updateOK && (!q || hay.includes(q));
       });
 
@@ -1262,8 +1271,8 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
         ...pageCounts()
       ];
       el.tree.innerHTML = pages.map(p => `
-        <button type="button" class="${state.page === p.name ? "active" : ""}" data-page="${p.name}">
-          <span>${p.name === "全部" ? "書目總覽" : p.name}</span>
+        <button type="button" class="${state.page === p.name ? "active" : ""}" data-page="${escapeHTML(p.name)}">
+          <span>${escapeHTML(p.name === "全部" ? "書目總覽" : p.name)}</span>
           <span class="count">${p.count}</span>
         </button>
       `).join("");
@@ -1272,8 +1281,8 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
     function renderStatusFilters() {
       const statuses = ["全部", ...new Set(DATA.map(item => item.status))];
       el.statusFilters.innerHTML = statuses.map(status => `
-        <button type="button" class="chip ${state.status === status ? "active" : ""}" data-status="${status}">
-          ${status === "全部" ? "全部" : statusText({ status })}
+        <button type="button" class="chip ${state.status === status ? "active" : ""}" data-status="${escapeHTML(status)}">
+          ${status === "全部" ? "全部" : escapeHTML(statusText({ status }))}
         </button>
       `).join("");
     }
@@ -1282,12 +1291,12 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
       const cls = statusClass(item);
       const pageClass = item.page === "雜食系" ? "page page-mixed" : "page";
       return `
-        <span class="badge ${cls}">${statusText(item)}</span>
-        <span class="badge ${pageClass}">#${item.page}</span>
-        ${item.paid ? `<span class="badge paid">付費</span>` : ""}
+        <span class="badge ${cls}">${escapeHTML(statusText(item))}</span>
+        <span class="badge ${pageClass}">#${escapeHTML(item.page)}</span>
+        ${item.paid ? `<span class="badge paid">${Number.isSafeInteger(item.pricePoints) ? item.pricePoints + " P" : "付費"}</span>` : ""}
         ${item.folderFallback ? `<span class="badge paid">資料夾</span>` : ""}
         ${shortStatusText(item) ? `<span class="badge new">${shortStatusText(item)}</span>` : ""}
-        ${visibleNote(item) ? `<span class="badge new">${visibleNote(item)}</span>` : ""}
+        ${visibleNote(item) ? `<span class="badge new">${escapeHTML(visibleNote(item))}</span>` : ""}
       `;
     }
 
@@ -1310,7 +1319,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
     function episodeButtonText(episode) {
       const label = String((episode && episode.label) || "").trim();
       const title = String((episode && episode.title) || "").trim();
-      return title || label || "閱讀";
+      return (title || label || "閱讀") + (Number.isSafeInteger(episode?.pricePoints) && episode.pricePoints > 0 ? " · " + episode.pricePoints + " P" : "");
     }
 
     function blockedFolderLink(label) {
@@ -1318,7 +1327,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
     }
 
     function authorSearchButton(item) {
-      return `<button class="text-action" type="button" data-author-search="${DATA.indexOf(item)}">${item.author || "未填"}</button>`;
+      return `<button class="text-action" type="button" data-author-search="${DATA.indexOf(item)}">${escapeHTML(item.author || "未填")}</button>`;
     }
 
     function searchAuthor(author) {
@@ -1334,18 +1343,18 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
 
     function protectedLink(item, kind, label) {
       const url = kind === "original" ? item.original : item.translation;
-      if (!url) return "";
+      if (!url && !(kind !== "original" && item.articleId)) return "";
       if (kind !== "original" && isDriveFolder(url)) {
         return blockedFolderLink(label);
       }
       if (item.paid && !canRead(item)) {
         return `<a href="#" onclick="event.preventDefault();event.stopPropagation();showAccessDenied()">${label}</a>`;
       }
-      if (kind !== "original" && previewUrl(url)) {
+      if (kind !== "original" && (item.articleId || previewUrl(url))) {
         return `<a href="#" onclick="event.preventDefault();event.stopPropagation();openProtected(${DATA.indexOf(item)}, '${kind}')">${label}</a>`;
       }
       if (!item.paid) {
-        return `<a href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${label}</a>`;
+        return `<a href="${escapeHTML(url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${label}</a>`;
       }
       return `<a href="#" onclick="event.preventDefault();event.stopPropagation();openProtected(${DATA.indexOf(item)}, '${kind}')">${label}</a>`;
     }
@@ -1353,18 +1362,18 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
     function episodeLinks(item) {
       if (!item.episodes || !item.episodes.length) return "";
       return item.episodes.map((episode, index) => {
-        if (!episode.url) return "";
+        if (!episode.url && !episode.articleId) return "";
         const text = episodeButtonText(episode);
         if (item.paid && !canRead(item)) {
-          return `<a href="#" onclick="event.preventDefault();event.stopPropagation();showAccessDenied()">${text}</a>`;
+          return `<a href="#" onclick="event.preventDefault();event.stopPropagation();showAccessDenied()">${escapeHTML(text)}</a>`;
         }
         if (isDriveFolder(episode.url)) {
           return blockedFolderLink("");
         }
-        if (!item.paid && !previewUrl(episode.url)) {
-          return `<a href="${episode.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${text}</a>`;
+        if (!episode.articleId && !item.paid && !previewUrl(episode.url)) {
+          return `<a href="${escapeHTML(episode.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHTML(text)}</a>`;
         }
-        return `<a href="#" onclick="event.preventDefault();event.stopPropagation();openProtected(${DATA.indexOf(item)}, 'episode:${index}')">${text}</a>`;
+        return `<a href="#" onclick="event.preventDefault();event.stopPropagation();openProtected(${DATA.indexOf(item)}, 'episode:${index}')">${escapeHTML(text)}</a>`;
       }).join("");
     }
 
@@ -1377,13 +1386,14 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
           <div class="card-actions">
             <button class="icon-action fav" type="button" data-fav="${id}" aria-label="${fav ? "取消收藏" : "收藏"}" aria-pressed="${fav}" title="${fav ? "取消收藏" : "收藏"}">${fav ? "★" : "☆"}</button>
           </div>
-          <h3 class="title">${item.zh}</h3>
-          <div class="k-title">${item.ko}</div>
+          <h3 class="title">${escapeHTML(item.zh)}</h3>
+          <div class="k-title">${escapeHTML(item.ko)}</div>
+          <div class="local-metadata">${[...(item.characters || []), ...(item.tags || [])].map(value => `<span class="badge">${escapeHTML(value)}</span>`).join(" ")}</div>
           <div class="badges">${badges(item)}</div>
           <div class="meta">
             <span>原作：${authorSearchButton(item)}</span>
             <span>翻譯：${item.translator || "未填"}</span>
-            <span>日期：${item.date}</span>
+            <span>日期：${escapeHTML(item.date)}</span>
           </div>
           <div class="links">
             ${protectedLink(item, "original", "原文")}
@@ -1396,7 +1406,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
     function renderLatest() {
       const items = newArrivalItems().sort((a, b) => dateKey(b) - dateKey(a)).slice(0, 5);
       el.latest.innerHTML = items.length
-        ? items.map(item => `<button class="small-card" type="button" data-id="${DATA.indexOf(item)}"><b>${item.zh}</b><span>#${item.page} · ${item.date}</span></button>`).join("")
+        ? items.map(item => `<button class="small-card" type="button" data-id="${DATA.indexOf(item)}"><b>${escapeHTML(item.zh)}</b><span>#${escapeHTML(item.page)} · ${escapeHTML(item.date)}</span></button>`).join("")
         : `<div class="empty">目前沒有新入荷作品</div>`;
     }
 
@@ -1440,13 +1450,16 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
       el.modalSub.textContent = item.ko;
       el.modalBadges.innerHTML = badges(item);
       el.modalRows.innerHTML = [
-        row("分頁", "#" + item.page),
-        row("狀態", statusText(item)),
+        row("分頁", escapeHTML("#" + item.page)),
+        row("狀態", escapeHTML(statusText(item))),
         row("原作", authorSearchButton(item)),
-        row("翻譯", item.translator),
+        row("翻譯", escapeHTML(item.translator)),
         row("付費", item.paid ? "是，需付費會員或管理員" : "否"),
         row("譯文", item.episodes && item.episodes.length ? "分集文件預覽" : item.folderFallback ? "尚未建立文件預覽" : "直連 Word/Docs"),
-        row("備註", [shortStatusText(item), visibleNote(item)].filter(Boolean).join(" ")),
+        row("備註", escapeHTML([shortStatusText(item), visibleNote(item)].filter(Boolean).join(" "))),
+        row("作品總收費", Number.isSafeInteger(item.pricePoints) ? item.pricePoints + " P" : item.unpricedEpisodes ? "已確認 " + item.knownPricePoints + " P，另有 " + item.unpricedEpisodes + " 集尚未確認" : ""),
+        row("角色設定", escapeHTML((item.characters || []).join("、"))),
+        row("標籤", escapeHTML((item.tags || []).join("、"))),
         row("日期", item.date)
       ].join("");
       el.modalLinks.innerHTML = `
@@ -1463,7 +1476,8 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
       const url = kind.startsWith("episode:")
         ? item.episodes[Number(kind.split(":")[1])]?.url
         : kind === "original" ? item.original : item.translation;
-      if (!url) return;
+      const localArticleId = kind === "original" ? "" : kind.startsWith("episode:") ? item.episodes[Number(kind.split(":")[1])]?.articleId : item.articleId;
+      if (!url && !localArticleId) return;
       if (kind !== "original" && isDriveFolder(url)) {
         window.alert("為了避免露出資料夾目錄，這篇需要先建立可預覽的文件連結。");
         return;
@@ -1473,7 +1487,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
         return;
       }
       if (kind !== "original") {
-        const embedded = previewUrl(url);
+        const embedded = localArticleId || previewUrl(url);
         if (embedded) {
           openReader(item, kind, embedded);
           return;
@@ -1502,15 +1516,19 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
       const episodeIndex = kind.startsWith("episode:") ? Number(kind.split(":")[1]) : null;
       const episode = episodeIndex !== null ? item.episodes[episodeIndex] : null;
       el.readerTitle.textContent = item.zh;
-      el.readerSub.textContent = episode ? `${item.ko} · ${episodeButtonText(episode)}` : item.ko;
+      el.readerSub.textContent = episode ? `${escapeHTML(item.ko)} · ${episodeButtonText(episode)}` : item.ko;
       el.reader.classList.add("open");
       el.reader.setAttribute("aria-hidden", "false");
-      const source = episode ? episode.url : item.translation;
-      const id = source.match(/(?:\/document\/d\/|\/file\/d\/)([^/?#]+)/)?.[1];
+      const source = (episode ? episode.url : item.translation) || "";
+      const id = (episode ? episode.articleId : item.articleId) || source.match(/(?:\/document\/d\/|\/file\/d\/)([^/?#]+)/)?.[1];
       const request = ++readingRequest;
       readingId = "";
+      window.ReaderChinese.reset();
       window.YouTubeMedia.stop(el.readerFrame);
       el.readerFrame.textContent = "讀取中…";
+      el.readerFrame.scrollTop = 0;
+      el.readerFrame.closest('.reader-sheet').scrollTop = 0;
+      document.querySelector('#readingProgress').textContent = '0%';
       document.body.style.overflow = "hidden";
       try {
         if (!id) throw new Error("這篇尚未建立站內閱讀內容。");
@@ -1533,14 +1551,15 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
         const fragment = document.createDocumentFragment();
         fragment.append(window.ArticleFormat.renderAll(article.blocks, { image(img, source) { imageSources.set(img, source); pendingReaderImages.push(img); img.loading = "lazy"; img.decoding = "async"; } }));
         el.readerFrame.replaceChildren(fragment);
+        window.ReaderChinese.capture();
+        el.readerFrame.scrollTop = 0;
         for (const img of pendingReaderImages) { if (readingImageObserver) readingImageObserver.observe(img); else loadImage(img); }
         readingId = id;
         requestAnimationFrame(() => {
           if (request !== readingRequest) return;
-          const ratio = Number(localStorage.getItem(`reading:${id}`)) || 0;
-          el.readerFrame.scrollTop = ratio * Math.max(0, el.readerFrame.scrollHeight - el.readerFrame.clientHeight);
+          el.readerFrame.scrollTop = 0;
           updateReadingProgress();
-          el.readerFrame.focus();
+          el.readerFrame.focus({ preventScroll: true });
         });
       } catch (error) {
         if (request === readingRequest) el.readerFrame.textContent = error.message;
@@ -1548,6 +1567,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
     }
 
     function closeReader() {
+      window.ReaderChinese.reset();
       window.YouTubeMedia.stop(el.readerFrame);
       if (readingImageObserver) { readingImageObserver.disconnect(); readingImageObserver = null; }
       window.READER_VAULT.releaseImages();
@@ -1564,7 +1584,6 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
       const height = el.readerFrame.scrollHeight - el.readerFrame.clientHeight;
       const ratio = height > 0 ? el.readerFrame.scrollTop / height : 1;
       document.querySelector("#readingProgress").textContent = `${Math.round(ratio * 100)}%`;
-      localStorage.setItem(`reading:${readingId}`, String(ratio));
     }
     el.readerFrame.addEventListener("scroll", updateReadingProgress, { passive: true });
     const sizeControl = document.querySelector("#readingSize");

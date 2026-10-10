@@ -1,5 +1,17 @@
 (function bootstrap(root) {
   'use strict';
+  const fonts = {
+    sans: 'system-ui, "PingFang TC", "Microsoft JhengHei", sans-serif',
+    serif: '"Songti TC", "Noto Serif CJK TC", "PMingLiU", serif',
+    kai: '"BiauKai", "DFKai-SB", "KaiTi", "STKaiti", serif'
+  };
+  function fontKey(value) { const normalized = String(value || '').replace(/["']/g, '').toLowerCase().replace(/\s/g, ''); return Object.keys(fonts).find(key => fonts[key].replace(/["']/g, '').toLowerCase().replace(/\s/g, '') === normalized); }
+  function validFontSize(value) { return Number.isFinite(value) && value >= 8 && value <= 96; }
+  function elementFontSize(node) {
+    const raw = node.dataset.fontSize, css = node.style.fontSize;
+    const value = raw ? Number(raw) : /^\d+(\.\d+)?px$/.test(css) ? parseFloat(css) : /^\d+(\.\d+)?em$/.test(css) ? parseFloat(css) * 20 : 0;
+    return validFontSize(value) ? value : null;
+  }
   function render(block, options = {}) {
     const d = options.document || root.document;
     if (block.soundcloud) return root.YouTubeMedia.createSoundCloud(block.soundcloud, d, !!options.editable);
@@ -24,6 +36,12 @@
         if (options.image) options.image(node, run.image); else node.src = run.image;
       } else {
         node = d.createTextNode(run.text || '');
+        if (fonts[run.font]) { const span = d.createElement('span'); span.dataset.font = run.font; span.append(node); node = span; }
+        if (validFontSize(run.fontSize)) {
+          const span = d.createElement('span'); span.dataset.fontSize = run.fontSize;
+          const headingScale = !block.quote && block.heading ? block.heading === 1 ? 1.5 : block.heading === 2 ? 1.25 : 1.1 : 1;
+          span.style.fontSize = (run.fontSize / (20 * headingScale)) + 'em'; span.append(node); node = span;
+        }
         for (const [flag, tag] of [['bold', 'strong'], ['italic', 'em'], ['underline', 'u'], ['strike', 's']]) {
           if (run[flag]) { const wrap = d.createElement(tag); wrap.append(node); node = wrap; }
         }
@@ -66,6 +84,9 @@
       if (tag === 'BR') return [{ text: '\n', ...flags }];
       if (['P', 'DIV'].includes(tag) && node.childNodes.length === 1 && node.firstChild.nodeName === 'BR') return [];
       const next = { ...flags };
+      const font = node.dataset.font || fontKey(node.getAttribute('face') || node.style.fontFamily);
+      if (fonts[font]) next.font = font;
+      const size = elementFontSize(node); if (size !== null) next.fontSize = size;
       if (['B', 'STRONG'].includes(tag)) next.bold = true;
       if (['I', 'EM'].includes(tag)) next.italic = true;
       if (tag === 'U') next.underline = true;
@@ -95,5 +116,5 @@
     }
     flush(); return blocks;
   }
-  root.ArticleFormat = { render, renderAll, fromDOM, source: '(' + bootstrap.toString() + ')(window);' };
+  root.ArticleFormat = { render, renderAll, fromDOM, fonts, fontKey, validFontSize, elementFontSize, source: '(' + bootstrap.toString() + ')(window);' };
 })(window);
