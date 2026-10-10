@@ -100,7 +100,7 @@ window.BOOK_DATA = [
     "page": "雜食系",
     "status": "0.連載中",
     "ko": "Once Upon a Time",
-    "zh": "Once Upon a Time",
+    "zh": "💰Once Upon a Time",
     "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22613871",
     "translation": "https://docs.google.com/document/d/144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo/edit?usp=drivesdk",
     "author": "Void",
@@ -112,160 +112,192 @@ window.BOOK_DATA = [
         "label": "EP1",
         "title": "Once Upon a Time 1",
         "url": "https://docs.google.com/document/d/144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo/edit?usp=drivesdk",
-        "articleId": "144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22613871",
+        "articleId": "144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo",
         "pricePoints": 0,
         "_episodeId": "ep-a1d370698714f99acde0",
         "destinyItemId": "item-40275adffeddeb98bc7b",
         "destinyTitle": "Once Upon a Time",
         "destinyKo": "Once Upon a Time",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP2",
         "title": "Once Upon a Time 2",
         "url": "https://docs.google.com/document/d/1uQGCz6bVVjk3RNElaEn6x98CzJ8G3coG9vH1j5m3sQg/edit?usp=drivesdk",
-        "articleId": "1uQGCz6bVVjk3RNElaEn6x98CzJ8G3coG9vH1j5m3sQg",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22650896",
+        "articleId": "1uQGCz6bVVjk3RNElaEn6x98CzJ8G3coG9vH1j5m3sQg",
         "pricePoints": 0,
         "_episodeId": "ep-2c3a9127a9babfffdf92",
         "destinyItemId": "item-21f2a715db24d01ad1c6",
         "destinyTitle": "Once Upon a Time",
         "destinyKo": "Once Upon a Time",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP3",
         "title": "Once Upon a Time 3",
         "url": "https://docs.google.com/document/d/1iWG8-WnpCoBhz7f9jWHtoZBCrtYn9hVTWKFSorcDCGI/edit?usp=drivesdk",
-        "articleId": "1iWG8-WnpCoBhz7f9jWHtoZBCrtYn9hVTWKFSorcDCGI",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22660961",
+        "articleId": "1iWG8-WnpCoBhz7f9jWHtoZBCrtYn9hVTWKFSorcDCGI",
         "pricePoints": 0,
         "_episodeId": "ep-92fce19ce0d00a21e408",
         "destinyItemId": "item-86386ea1293370fae132",
         "destinyTitle": "Once Upon a Time",
         "destinyKo": "Once Upon a Time",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP4",
         "title": "Once Upon a Time 4",
         "url": "https://docs.google.com/document/d/1DHWL9msQp_ebPXzvPKr_3M7e-Vzr4rcLvYPZtHrn15U/edit?usp=drivesdk",
-        "articleId": "1DHWL9msQp_ebPXzvPKr_3M7e-Vzr4rcLvYPZtHrn15U",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22670647",
+        "articleId": "1DHWL9msQp_ebPXzvPKr_3M7e-Vzr4rcLvYPZtHrn15U",
         "pricePoints": 0,
         "_episodeId": "ep-44939351a9c099d4fd4e",
         "destinyItemId": "item-9dc86fae70e6527d51bd",
         "destinyTitle": "Once Upon a Time",
         "destinyKo": "Once Upon a Time",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP5",
         "title": "Once Upon a Time 5",
         "url": "https://docs.google.com/document/d/11xbuahQyN3p5Xs4AenalVg1hzLYOSR31euKV81bmJx0/edit?usp=drivesdk",
-        "articleId": "11xbuahQyN3p5Xs4AenalVg1hzLYOSR31euKV81bmJx0",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22699992",
+        "articleId": "11xbuahQyN3p5Xs4AenalVg1hzLYOSR31euKV81bmJx0",
         "pricePoints": 0,
         "_episodeId": "ep-60f8e8c71b26da7ee2e0",
         "destinyItemId": "item-93481f92643a1f26038b",
         "destinyTitle": "Once Upon a Time",
         "destinyKo": "Once Upon a Time",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP6",
         "title": "Once Upon a Time 6",
         "url": "https://docs.google.com/document/d/186ds48Ou2bIM436sit9LIaFC0WA9fwzG10gxSa-d4ws/edit?usp=drivesdk",
-        "articleId": "186ds48Ou2bIM436sit9LIaFC0WA9fwzG10gxSa-d4ws",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22802995",
+        "articleId": "186ds48Ou2bIM436sit9LIaFC0WA9fwzG10gxSa-d4ws",
         "pricePoints": 0,
         "_episodeId": "ep-3e7b79041fa5a668fa83",
         "destinyItemId": "item-f2bb27078b5cf7e0c0b8",
         "destinyTitle": "Once Upon a Time",
         "destinyKo": "Once Upon a Time",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP7",
         "title": "Once Upon a Time 7",
         "url": "https://docs.google.com/document/d/1Q5pQMbtdMh6YvuOeHJXDCuHoKKnLtMrSJ9XzPoowmVg/edit?usp=drivesdk",
-        "articleId": "1Q5pQMbtdMh6YvuOeHJXDCuHoKKnLtMrSJ9XzPoowmVg",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22833332",
+        "articleId": "1Q5pQMbtdMh6YvuOeHJXDCuHoKKnLtMrSJ9XzPoowmVg",
         "pricePoints": 0,
         "_episodeId": "ep-3bef4e02bc99f3ad95e8",
         "destinyItemId": "item-6da366cac635f8e1c39a",
         "destinyTitle": "Once Upon a Time",
         "destinyKo": "Once Upon a Time",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP8",
         "title": "Once Upon a Time 8",
         "url": "https://docs.google.com/document/d/1TkpZB2R47cxeCRxt5TaWpDzZskM2YdotKYwNuqGCekc/edit?usp=drivesdk",
-        "articleId": "1TkpZB2R47cxeCRxt5TaWpDzZskM2YdotKYwNuqGCekc",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22872724",
+        "articleId": "1TkpZB2R47cxeCRxt5TaWpDzZskM2YdotKYwNuqGCekc",
         "pricePoints": 0,
         "_episodeId": "ep-62b9a3693dec36794d8a",
         "destinyItemId": "item-60990a396e018f262ddd",
         "destinyTitle": "Once Upon a Time",
         "destinyKo": "Once Upon a Time",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP9",
         "title": "Once Upon a Time 9",
         "url": "https://docs.google.com/document/d/1TWeIjStaOX4ptNmzc6XTge-bPxLecLWXw-4Yp-cll-Y/edit?usp=drivesdk",
-        "articleId": "1TWeIjStaOX4ptNmzc6XTge-bPxLecLWXw-4Yp-cll-Y",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22963553",
+        "articleId": "1TWeIjStaOX4ptNmzc6XTge-bPxLecLWXw-4Yp-cll-Y",
         "pricePoints": 0,
         "_episodeId": "ep-e81e8cdb242d942c3136",
         "destinyItemId": "item-cc1cfd53eb1ed66c6626",
         "destinyTitle": "Once Upon a Time",
         "destinyKo": "Once Upon a Time",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "外傳 1",
         "title": "Once Upon a Time A Wolf by Night",
         "url": "https://docs.google.com/document/d/1EZjO4QPJTMiji37zX-Z_Op4Hwohp5LAYL0KGj8qXeg4/edit?usp=drivesdk",
-        "articleId": "1EZjO4QPJTMiji37zX-Z_Op4Hwohp5LAYL0KGj8qXeg4",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23139378",
+        "articleId": "1EZjO4QPJTMiji37zX-Z_Op4Hwohp5LAYL0KGj8qXeg4",
         "pricePoints": 700,
         "_episodeId": "ep-7bf351b18c630f040aa5",
         "destinyItemId": "item-3a074e0bf6e02687d415",
         "destinyTitle": "Once Upon a Time",
         "destinyKo": "Once Upon a Time",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "外傳 2",
-        "title": "Once Upon a Time 清晨的戀人",
+        "title": "Once Upon a Time A Lover by Morning",
         "url": "https://docs.google.com/document/d/1BIfeDAzGctVjsaDEz-XhT0DN3dc669PjlxAghN_IzmI/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22915556",
         "articleId": "1BIfeDAzGctVjsaDEz-XhT0DN3dc669PjlxAghN_IzmI",
-        "_episodeId": "ep-f9a1a22d525cce61ca20"
+        "pricePoints": 300,
+        "_episodeId": "ep-f9a1a22d525cce61ca20",
+        "destinyItemId": "",
+        "destinyTitle": "Once Upon a Time",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP10",
         "title": "Once Upon a Time 10",
         "url": "https://docs.google.com/document/d/1rSPrQDT17FS6qddf8Npsu7HeAAAk0kp5PATD2evEXUQ/edit?usp=drivesdk",
-        "articleId": "1rSPrQDT17FS6qddf8Npsu7HeAAAk0kp5PATD2evEXUQ",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23181862",
+        "articleId": "1rSPrQDT17FS6qddf8Npsu7HeAAAk0kp5PATD2evEXUQ",
         "pricePoints": 0,
         "_episodeId": "ep-692926fe25cfc98eb10f",
         "destinyItemId": "item-13ddc054900b61d43d53",
         "destinyTitle": "Once Upon a Time",
         "destinyKo": "Once Upon a Time",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "",
+        "title": "Once Upon a Time：Off the Leash",
+        "url": "",
+        "original": "",
+        "articleId": "local-4bde3b82-b9c5-469b-a788-0f56b7b0d5e6",
+        "pricePoints": 200,
+        "_episodeId": "ep-ca1d3b1b-1dc4-4304-8c72-a1bf749dc4fa",
+        "destinyItemId": "",
+        "destinyTitle": "Once Upon a Time",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-44b885cfc3c1eee4f23b",
     "_favoriteKey": "https://docs.google.com/document/d/144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo/edit?usp=drivesdk",
     "articleId": "144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo",
     "pricingMode": "episodes",
-    "knownPricePoints": 1000,
-    "unpricedEpisodes": 1,
-    "pricePoints": null,
+    "knownPricePoints": 1200,
+    "unpricedEpisodes": 0,
+    "pricePoints": 1200,
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [
@@ -277,8 +309,14 @@ window.BOOK_DATA = [
       "文章狀態: 連載中"
     ],
     "characters": [
-      "🐱公爵，🐹公主"
-    ]
+      "🐱公爵",
+      "🐹公主"
+    ],
+    "createdAt": "2026-10-10T16:20:25.266Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-10T16:43:22.089Z"
   },
   {
     "page": "noname",
@@ -4494,7 +4532,7 @@ window.BOOK_DATA = [
     "pricingMode": "episodes",
     "knownPricePoints": 0,
     "unpricedEpisodes": 0,
-    "updatedAt": "2026-10-10T12:09:05.420Z"
+    "updatedAt": "2026-10-10T12:25:34.337Z"
   },
   {
     "page": "其他老師",
