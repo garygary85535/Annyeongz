@@ -1140,118 +1140,141 @@ window.BOOK_DATA = [
         "label": "EP1",
         "title": "愛是什麼1",
         "url": "https://docs.google.com/document/d/1lE047akE9jiJLzvlc-go0kPcxUBV1rYgnLJwa3NvsXs/edit?usp=drivesdk",
-        "articleId": "1lE047akE9jiJLzvlc-go0kPcxUBV1rYgnLJwa3NvsXs",
         "original": "https://www.postype.com/@seol-cheong/post/19590181",
+        "articleId": "1lE047akE9jiJLzvlc-go0kPcxUBV1rYgnLJwa3NvsXs",
         "pricePoints": 0,
         "_episodeId": "ep-da1b2a79aaef702d0088",
         "destinyItemId": "item-89df1dfa8dda5da6ae0a",
         "destinyTitle": "愛是什麼",
         "destinyKo": "사랑이 뭐길래",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP2",
         "title": "愛是什麼2",
         "url": "https://docs.google.com/document/d/1dPY0fqEzpzDMkgWA7wedgGyJaNEr9oq5FUjqUfECc0M/edit?usp=drivesdk",
-        "articleId": "1dPY0fqEzpzDMkgWA7wedgGyJaNEr9oq5FUjqUfECc0M",
         "original": "https://www.postype.com/zh-hant/@seol-cheong/post/19590641",
+        "articleId": "1dPY0fqEzpzDMkgWA7wedgGyJaNEr9oq5FUjqUfECc0M",
         "pricePoints": 0,
         "_episodeId": "ep-3822bda96afa1a2e0d72",
         "destinyItemId": "item-11d25bb8b011ef1946e3",
         "destinyTitle": "愛是什麼",
         "destinyKo": "사랑이 뭐길래",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP3",
         "title": "愛是什麼3",
         "url": "https://docs.google.com/document/d/1W_54EMr0E3sSkoVBn9mL8L7DLKPsYalVfd_dwYCx1ao/edit?usp=drivesdk",
-        "articleId": "1W_54EMr0E3sSkoVBn9mL8L7DLKPsYalVfd_dwYCx1ao",
         "original": "https://www.postype.com/zh-hant/@seol-cheong/post/19623864",
+        "articleId": "1W_54EMr0E3sSkoVBn9mL8L7DLKPsYalVfd_dwYCx1ao",
         "pricePoints": 0,
         "_episodeId": "ep-a85aaeb1e435f331ffe2",
         "destinyItemId": "item-a349f348397f965293a5",
         "destinyTitle": "愛是什麼",
         "destinyKo": "사랑이 뭐길래",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP4",
         "title": "愛是什麼4",
         "url": "https://docs.google.com/document/d/14qvV3foiFMcmDkOfDHqPpN2GsO-fJbQlU_RdIXMdZTs/edit?usp=drivesdk",
-        "articleId": "14qvV3foiFMcmDkOfDHqPpN2GsO-fJbQlU_RdIXMdZTs",
         "original": "https://www.postype.com/zh-hant/@seol-cheong/post/19629858",
+        "articleId": "14qvV3foiFMcmDkOfDHqPpN2GsO-fJbQlU_RdIXMdZTs",
         "pricePoints": 0,
         "_episodeId": "ep-4722a1d0ea91ead68030",
         "destinyItemId": "item-a5b202eaffca6a70b72e",
         "destinyTitle": "愛是什麼",
         "destinyKo": "사랑이 뭐길래",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP5",
         "title": "愛是什麼5",
         "url": "https://docs.google.com/document/d/1-sjrbhFGbR0rPjR68dPKW5DbI5eOFCQs6-RTARO8xOo/edit?usp=drivesdk",
-        "articleId": "1-sjrbhFGbR0rPjR68dPKW5DbI5eOFCQs6-RTARO8xOo",
         "original": "https://www.postype.com/zh-hant/@seol-cheong/post/19630825",
+        "articleId": "1-sjrbhFGbR0rPjR68dPKW5DbI5eOFCQs6-RTARO8xOo",
         "pricePoints": 0,
         "_episodeId": "ep-c709fe87a17dd8a80e5e",
         "destinyItemId": "item-fcf27a8cf7f42572d827",
         "destinyTitle": "愛是什麼",
         "destinyKo": "사랑이 뭐길래",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP6",
         "title": "愛是什麼6",
         "url": "https://docs.google.com/document/d/1aQU-b5lSJD4tnWADvL8x2xOcSLnvyiUI31tGMgMmzxQ/edit?usp=drivesdk",
-        "articleId": "1aQU-b5lSJD4tnWADvL8x2xOcSLnvyiUI31tGMgMmzxQ",
         "original": "https://www.postype.com/zh-hant/@seol-cheong/post/19631545",
+        "articleId": "1aQU-b5lSJD4tnWADvL8x2xOcSLnvyiUI31tGMgMmzxQ",
         "pricePoints": 0,
         "_episodeId": "ep-f7c75de8b6154a2a9434",
         "destinyItemId": "item-5bc14a067051ff198d7a",
         "destinyTitle": "愛是什麼",
         "destinyKo": "사랑이 뭐길래",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP7",
         "title": "愛是什麼7",
         "url": "https://docs.google.com/document/d/1ryXR_NGsZTLAJw2Dtf_iiq4wu68N8cP_tPILBUT1XcI/edit?usp=drivesdk",
-        "articleId": "1ryXR_NGsZTLAJw2Dtf_iiq4wu68N8cP_tPILBUT1XcI",
         "original": "https://www.postype.com/zh-hant/@seol-cheong/post/19633288",
+        "articleId": "1ryXR_NGsZTLAJw2Dtf_iiq4wu68N8cP_tPILBUT1XcI",
         "pricePoints": 0,
         "_episodeId": "ep-966e9734dd1af24197d2",
         "destinyItemId": "item-7baca69b75b1dd13c11f",
         "destinyTitle": "愛是什麼",
         "destinyKo": "사랑이 뭐길래",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP8",
         "title": "愛是什麼8",
         "url": "https://docs.google.com/document/d/1Ogh0wb2iI01yHlWBDbWy0E_htBdOyuMIYe3A2vC_9bE/edit?usp=drivesdk",
-        "articleId": "1Ogh0wb2iI01yHlWBDbWy0E_htBdOyuMIYe3A2vC_9bE",
         "original": "https://www.postype.com/zh-hant/@seol-cheong/post/19686063",
+        "articleId": "1Ogh0wb2iI01yHlWBDbWy0E_htBdOyuMIYe3A2vC_9bE",
         "pricePoints": 200,
         "_episodeId": "ep-88f535b2cf1f04d3867a",
         "destinyItemId": "item-5d549f426087c9ab3fe2",
         "destinyTitle": "愛是什麼",
         "destinyKo": "사랑이 뭐길래",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP9",
         "title": "愛是什麼9",
         "url": "https://docs.google.com/document/d/18nauP4QkNmtNx0OQG_oOoUZ5IoIeUJHcMvyp49z1RlU/edit?usp=drivesdk",
-        "articleId": "18nauP4QkNmtNx0OQG_oOoUZ5IoIeUJHcMvyp49z1RlU",
         "original": "https://www.postype.com/zh-hant/@seol-cheong/post/19853178",
+        "articleId": "18nauP4QkNmtNx0OQG_oOoUZ5IoIeUJHcMvyp49z1RlU",
         "pricePoints": 0,
         "_episodeId": "ep-7a490f0152022ca8f54b",
         "destinyItemId": "item-17c322163a1f98994269",
         "destinyTitle": "愛是什麼",
         "destinyKo": "사랑이 뭐길래",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "10",
+        "title": "愛是什麼",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@seol-cheong/post/20896631",
+        "articleId": "local-950f9075-c388-4e9f-ae44-4cab52087c52",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-4ea52e82fa5ff9e2b5f3",
+        "destinyItemId": "item-4ea52e82fa5ff9e2b5f3",
+        "destinyTitle": "愛是什麼",
+        "destinyKo": "사랑이 뭐길래",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-9654ed31b134ac0678f9",
@@ -1278,7 +1301,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：樂團吉他手 / 員：舞蹈系學生"
-    ]
+    ],
+    "createdAt": "2026-10-11T07:47:46.352Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-11T08:00:45.986Z"
   },
   {
     "page": "其他老師",
@@ -1976,7 +2004,36 @@ window.BOOK_DATA = [
     "paid": true,
     "_id": "work-37a735372b2dcdf7bdd5",
     "_favoriteKey": "https://www.postype.com/zh-hant/@not-ace/post/20864900",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "上",
+        "title": "異性戀情結",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@not-ace/post/20864900?show-original=true",
+        "articleId": "local-884cd2cc-7d55-44db-96a7-78115b85062a",
+        "pricePoints": 500,
+        "_episodeId": "ep-item-8e170fe8198247602de3",
+        "destinyItemId": "item-8e170fe8198247602de3",
+        "destinyTitle": "異性戀情結",
+        "destinyKo": "헤테로 컴플렉스",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "下",
+        "title": "異性戀情結",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@not-ace/post/21302350",
+        "articleId": "local-70fecbff-5239-4f69-ac2a-0fb07c331c5d",
+        "pricePoints": 500,
+        "_episodeId": "ep-item-0926672aac20d9b0505f",
+        "destinyItemId": "item-0926672aac20d9b0505f",
+        "destinyTitle": "異性戀情結",
+        "destinyKo": "헤테로 컴플렉스",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [],
@@ -1994,7 +2051,7 @@ window.BOOK_DATA = [
     "hidden": false,
     "destinyTitle": "異性戀情結",
     "characters": [],
-    "updatedAt": "2026-10-10T16:47:30.656Z"
+    "updatedAt": "2026-10-11T07:24:46.115Z"
   },
   {
     "page": "雜食系",
@@ -4494,56 +4551,6 @@ window.BOOK_DATA = [
   {
     "page": "蜜地瓜",
     "status": "2.已完結",
-    "ko": "비정상 현상 보고서",
-    "zh": "非正常現象報告書（非正常現象觀察報告書 外傳）",
-    "original": "https://www.postype.com/zh-hant/@seol-cheong/post/18759165?show-original=true",
-    "translation": "https://docs.google.com/document/d/1bBTtmBroGPmoxkorUxDdXgXPFFMMU94_bDkubLEDe6Y/edit?usp=drivesdk",
-    "author": "꿀구마（蜜地瓜）",
-    "translator": "原生AI",
-    "note": "",
-    "date": "2026-08-01",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "非正常現象報告書（非正常觀察報告書 外傳）",
-        "url": "https://docs.google.com/document/d/1bBTtmBroGPmoxkorUxDdXgXPFFMMU94_bDkubLEDe6Y/edit?usp=drivesdk",
-        "articleId": "1bBTtmBroGPmoxkorUxDdXgXPFFMMU94_bDkubLEDe6Y",
-        "original": "https://www.postype.com/zh-hant/@seol-cheong/post/18759165?show-original=true",
-        "pricePoints": 0,
-        "_episodeId": "ep-63f0721722c70020b122",
-        "destinyItemId": "item-978b736ea5117092486e",
-        "destinyTitle": "非正常現象報告書（非正常現象觀察報告書 外傳）",
-        "destinyKo": "비정상 현상 보고서",
-        "destinyDeleted": false
-      }
-    ],
-    "_id": "work-41562e258909200f950e",
-    "_favoriteKey": "https://docs.google.com/document/d/1bBTtmBroGPmoxkorUxDdXgXPFFMMU94_bDkubLEDe6Y/edit?usp=drivesdk",
-    "articleId": "1bBTtmBroGPmoxkorUxDdXgXPFFMMU94_bDkubLEDe6Y",
-    "pricingMode": "episodes",
-    "knownPricePoints": 0,
-    "unpricedEpisodes": 0,
-    "pricePoints": 0,
-    "includeShelf": true,
-    "includeDestiny": true,
-    "recommendations": [],
-    "destinyId": "P0419",
-    "destinyDeleted": false,
-    "tags": [
-      "命定站賀文合集: 2025831901Annyeongz生日慶祝活動",
-      "文章狀態: 完結",
-      "文章篇幅: 中篇",
-      "文章類型: 都市現實",
-      "結局: HE",
-      "背景設定: 校園"
-    ],
-    "characters": [
-      "安：大學生/高中生\n員：復讀生/高中生"
-    ]
-  },
-  {
-    "page": "蜜地瓜",
-    "status": "2.已完結",
     "ko": "무신론적 실존주의",
     "zh": "無神論存在主義",
     "original": "https://www.postype.com/zh-hant/@seol-cheong/post/18438682?show-original=true",
@@ -4668,7 +4675,7 @@ window.BOOK_DATA = [
     ]
   },
   {
-    "page": "蜜地瓜",
+    "page": "雜食系",
     "status": "2.已完結",
     "ko": "나무아미타불",
     "zh": "南無阿彌陀佛（無神論存在主義 外傳）",
@@ -4683,14 +4690,15 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "南無阿彌陀佛",
         "url": "https://docs.google.com/document/d/1YBnrZZZqCfLCr-une1S_HCr3hDHXPJqymDj3JwpyIQQ/edit?usp=drivesdk",
-        "articleId": "1YBnrZZZqCfLCr-une1S_HCr3hDHXPJqymDj3JwpyIQQ",
         "original": "https://www.postype.com/zh-hant/@seol-cheong/post/21999454?show-original=true",
+        "articleId": "1YBnrZZZqCfLCr-une1S_HCr3hDHXPJqymDj3JwpyIQQ",
         "pricePoints": 0,
         "_episodeId": "ep-1255c7f3792dbcbadb07",
         "destinyItemId": "item-bb65cd9f6ee7522efaae",
         "destinyTitle": "南無阿彌陀佛（無神論存在主義 外傳）",
         "destinyKo": "나무아미타불",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-e15c2ddc3680cb9542c2",
@@ -4702,12 +4710,22 @@ window.BOOK_DATA = [
     "pricePoints": 0,
     "includeShelf": true,
     "includeDestiny": true,
-    "recommendations": [],
+    "recommendations": [
+      "雜食系 (其他CP)"
+    ],
     "destinyId": "P0424",
     "destinyDeleted": false,
     "tags": [
       "文章狀態: 完結"
-    ]
+    ],
+    "createdAt": "2026-10-11T08:11:06.953Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [
+      "安秋"
+    ],
+    "updatedAt": "2026-10-11T08:11:06.953Z"
   },
   {
     "page": "蜜地瓜",
@@ -5699,7 +5717,22 @@ window.BOOK_DATA = [
     "date": "2026-07-22",
     "_id": "work-e37b51d9593f3ed037a1",
     "_favoriteKey": "蜜地瓜::차르봄바 러브::沙皇炸彈之戀::꿀구마（蜜地瓜）",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "沙皇炸彈之戀",
+        "url": "",
+        "original": "https://www.postype.com/@seol-cheong/post/16241791",
+        "articleId": "local-7b64135e-49ed-440c-8ece-3cfbbc7532e4",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-563e4683b741e2caa047",
+        "destinyItemId": "item-563e4683b741e2caa047",
+        "destinyTitle": "沙皇炸彈之戀",
+        "destinyKo": "차르봄바 러브",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "pricePoints": 0,
     "pricingMode": "episodes",
     "includeShelf": true,
@@ -5717,7 +5750,13 @@ window.BOOK_DATA = [
       "安：代理 / 員：新進職員"
     ],
     "knownPricePoints": 0,
-    "unpricedEpisodes": 0
+    "unpricedEpisodes": 0,
+    "createdAt": "2026-10-11T08:12:12.746Z",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-11T08:13:13.267Z"
   },
   {
     "page": "其他老師",
@@ -6173,7 +6212,22 @@ window.BOOK_DATA = [
     "date": "2026-07-20",
     "_id": "work-81d3335bf176e68dacf4",
     "_favoriteKey": "蜜地瓜::꿈은 이루어진다::夢想成真::꿀구마（蜜地瓜）",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "夢想成真",
+        "url": "",
+        "original": "https://www.postype.com/@seol-cheong/post/16836051",
+        "articleId": "local-a78fdd24-2530-47e8-956a-3f8b7b3901d3",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-7b26507b942f37375c04",
+        "destinyItemId": "item-7b26507b942f37375c04",
+        "destinyTitle": "夢想成真",
+        "destinyKo": "꿈은 이루어진다",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "pricePoints": 0,
     "pricingMode": "episodes",
     "includeShelf": true,
@@ -6188,7 +6242,14 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "knownPricePoints": 0,
-    "unpricedEpisodes": 0
+    "unpricedEpisodes": 0,
+    "createdAt": "2026-10-11T07:25:42.477Z",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-11T07:25:42.569Z"
   },
   {
     "page": "季刊",
@@ -9551,82 +9612,6 @@ window.BOOK_DATA = [
   {
     "page": "朴專家",
     "status": "2.已完結",
-    "ko": "off my chest",
-    "zh": "off my chest",
-    "original": "https://www.postype.com/@parkpro/post/13556931",
-    "translation": "https://docs.google.com/document/d/1-l3K0UubLNKTzNT0Avh76HF-oWsZm2nR2x4V0DNU8LI/edit?usp=drivesdk",
-    "author": "박프로（朴專家）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-06-19",
-    "episodes": [
-      {
-        "label": "上",
-        "title": "01 Off My Chest 上",
-        "url": "https://docs.google.com/document/d/1-l3K0UubLNKTzNT0Avh76HF-oWsZm2nR2x4V0DNU8LI/edit?usp=drivesdk",
-        "original": "https://www.postype.com/zh-hant/@parkpro/post/13556931",
-        "articleId": "1-l3K0UubLNKTzNT0Avh76HF-oWsZm2nR2x4V0DNU8LI",
-        "pricePoints": 0,
-        "_episodeId": "ep-648b2f9232f43bcba90c",
-        "destinyItemId": "item-0ae6d14085e1f3a896ad",
-        "destinyTitle": "off my chest 上",
-        "destinyKo": "Off My Chest 上",
-        "destinyDeleted": false,
-        "includeDestiny": true
-      },
-      {
-        "label": "下",
-        "title": "02 Off My Chest 下",
-        "url": "https://docs.google.com/document/d/1U6tJeasJ3dhLY6kZd5TwPSpMq65sWzJxT2jDyI0cmlA/edit?usp=drivesdk",
-        "original": "https://www.postype.com/zh-hant/@parkpro/post/13623708",
-        "articleId": "1U6tJeasJ3dhLY6kZd5TwPSpMq65sWzJxT2jDyI0cmlA",
-        "pricePoints": 0,
-        "_episodeId": "ep-0cd9211330aea8e016a6",
-        "destinyItemId": "item-13405a32bbee55cb114c",
-        "destinyTitle": "off my chest 下",
-        "destinyKo": "Off My Chest 下",
-        "destinyDeleted": false,
-        "includeDestiny": true
-      }
-    ],
-    "_id": "work-e1b0d655ca58cccf1768",
-    "_favoriteKey": "https://docs.google.com/document/d/1-l3K0UubLNKTzNT0Avh76HF-oWsZm2nR2x4V0DNU8LI/edit?usp=drivesdk",
-    "articleId": "1-l3K0UubLNKTzNT0Avh76HF-oWsZm2nR2x4V0DNU8LI",
-    "pricingMode": "episodes",
-    "knownPricePoints": 0,
-    "unpricedEpisodes": 0,
-    "pricePoints": 0,
-    "includeShelf": true,
-    "includeDestiny": true,
-    "recommendations": [
-      "寶藏作家"
-    ],
-    "destinyId": "P0358",
-    "destinyDeleted": false,
-    "tags": [
-      "CP配對: 安/員",
-      "CP配對: 員/安",
-      "CP配對: 互攻",
-      "分級: CP潔癖勿入",
-      "分級: 🚗轎車",
-      "情感梗: 青梅",
-      "文章狀態: 完結+番外",
-      "文章篇幅: 中篇",
-      "文章類型: 都市現實",
-      "結局: HE"
-    ],
-    "characters": [
-      "安：上班族 / 員：上班族"
-    ],
-    "createdAt": "2026-10-10T18:18:07.731Z",
-    "paid": false,
-    "hidden": false,
-    "destinyTitle": "",
-    "updatedAt": "2026-10-10T18:18:07.733Z"
-  },
-  {
-    "page": "朴專家",
-    "status": "2.已完結",
     "ko": "off my face (off my chest 번외)",
     "zh": "off my face (包含off my chest 番外)",
     "original": "https://www.postype.com/@parkpro/post/13766976",
@@ -9642,7 +9627,7 @@ window.BOOK_DATA = [
         "url": "https://docs.google.com/document/d/1RrYF6ihdfA2KVaC34u8l_JlYStxxWA65d1DJdEjwNMo/edit?usp=drivesdk",
         "original": "",
         "articleId": "1RrYF6ihdfA2KVaC34u8l_JlYStxxWA65d1DJdEjwNMo",
-        "pricePoints": null,
+        "pricePoints": 0,
         "_episodeId": "ep-9f18d20e52b8e2c9e196",
         "destinyItemId": "",
         "destinyTitle": "",
@@ -9656,11 +9641,39 @@ window.BOOK_DATA = [
         "url": "https://docs.google.com/document/d/1OY3XGXnpkmIBfCtrSu7PD6qQsuUKrNvtjgpaurO5KyY/edit?usp=drivesdk",
         "original": "",
         "articleId": "1OY3XGXnpkmIBfCtrSu7PD6qQsuUKrNvtjgpaurO5KyY",
-        "pricePoints": null,
+        "pricePoints": 0,
         "_episodeId": "ep-5455e625857f4aa41af0",
         "destinyItemId": "",
         "destinyTitle": "",
         "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "番外上",
+        "title": "off my face 上 (off my chest 番外)",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@parkpro/post/13766976",
+        "articleId": "1RrYF6ihdfA2KVaC34u8l_JlYStxxWA65d1DJdEjwNMo",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-48c8caf9d31cb8c72594",
+        "destinyItemId": "item-48c8caf9d31cb8c72594",
+        "destinyTitle": "off my face 上 (off my chest 番外)",
+        "destinyKo": "Off My Face 上 (Off My Chest 번외)",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "番外下",
+        "title": "off my face 下 (off my chest 番外)",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@parkpro/post/13914672",
+        "articleId": "1OY3XGXnpkmIBfCtrSu7PD6qQsuUKrNvtjgpaurO5KyY",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-437fcca4c8511d700306",
+        "destinyItemId": "item-437fcca4c8511d700306",
+        "destinyTitle": "off my face 下 (off my chest 番外)",
+        "destinyKo": "Off My Face 下 (Off My Chest 번외)",
         "destinyDeleted": false,
         "includeDestiny": true
       }
@@ -9691,14 +9704,14 @@ window.BOOK_DATA = [
       "安：上班族 / 員：上班族"
     ],
     "knownPricePoints": 0,
-    "unpricedEpisodes": 2,
-    "pricePoints": null,
+    "unpricedEpisodes": 0,
+    "pricePoints": 0,
     "pricingMode": "episodes",
     "createdAt": "2026-10-10T18:18:34.515Z",
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-10T18:18:34.519Z"
+    "updatedAt": "2026-10-11T08:39:01.621Z"
   },
   {
     "page": "其他老師",
@@ -10876,7 +10889,7 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "헬인헤븐",
     "zh": "Hell in heaven",
-    "original": "",
+    "original": "https://www.postype.com/@seol-cheong/post/21105452",
     "translation": "https://docs.google.com/document/d/1U7BJGsVN0RZP7XjhnLrBJ1xvVPwUPyGwjQmIppIFKyM/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
     "translator": "不是蓋瑞🤓",
@@ -10887,14 +10900,15 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "Hell in heaven",
         "url": "https://docs.google.com/document/d/1U7BJGsVN0RZP7XjhnLrBJ1xvVPwUPyGwjQmIppIFKyM/edit?usp=drivesdk",
-        "articleId": "1U7BJGsVN0RZP7XjhnLrBJ1xvVPwUPyGwjQmIppIFKyM",
         "original": "https://www.postype.com/@seol-cheong/post/21105452",
+        "articleId": "1U7BJGsVN0RZP7XjhnLrBJ1xvVPwUPyGwjQmIppIFKyM",
         "pricePoints": 0,
         "_episodeId": "ep-588118bdb7cd34649060",
         "destinyItemId": "item-3895eac98452ee68ec97",
         "destinyTitle": "Hell in heaven",
         "destinyKo": "헬인헤븐",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-321818b4e73ebb63ee0b",
@@ -10920,7 +10934,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：精神病患者 / 員：精神病患者"
-    ]
+    ],
+    "createdAt": "2026-10-11T08:14:20.846Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-11T08:14:20.853Z"
   },
   {
     "page": "noname",
@@ -10987,7 +11006,22 @@ window.BOOK_DATA = [
     "date": "2025-12-14",
     "_id": "work-5fced2782fca075fa0a4",
     "_favoriteKey": "https://www.postype.com/@blue-mountains/post/21045398",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "主任，主人",
+        "url": "",
+        "original": "https://www.postype.com/@blue-mountains/post/21045398",
+        "articleId": "local-d6268e92-0eff-46bf-9739-7f200fc41491",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-834ab4593e94a6eab579",
+        "destinyItemId": "item-834ab4593e94a6eab579",
+        "destinyTitle": "主任，主人",
+        "destinyKo": "주임님, 주인님",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "pricePoints": 0,
     "pricingMode": "episodes",
     "includeShelf": true,
@@ -11008,7 +11042,13 @@ window.BOOK_DATA = [
       "安：開發部主任 / 員：企劃部社員"
     ],
     "knownPricePoints": 0,
-    "unpricedEpisodes": 0
+    "unpricedEpisodes": 0,
+    "createdAt": "2026-10-11T07:28:09.915Z",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-11T07:28:10.018Z"
   },
   {
     "page": "noname",
@@ -12568,7 +12608,22 @@ window.BOOK_DATA = [
     "date": "2025-07-27",
     "_id": "work-459c7545edda4b5c6fa9",
     "_favoriteKey": "蜜地瓜::베이비 록키::Baby Rocky::꿀구마（蜜地瓜）",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "Baby Rocky",
+        "url": "",
+        "original": "https://www.postype.com/@seol-cheong/post/19224675",
+        "articleId": "local-75ad81d1-a511-40e6-9b3d-9c93dbf957bb",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-869135f5a160983274bf",
+        "destinyItemId": "item-869135f5a160983274bf",
+        "destinyTitle": "Baby Rocky",
+        "destinyKo": "베이비 록키",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "pricePoints": 0,
     "pricingMode": "episodes",
     "includeShelf": true,
@@ -12587,7 +12642,13 @@ window.BOOK_DATA = [
       "安：拳擊手 / 員：大學生"
     ],
     "knownPricePoints": 0,
-    "unpricedEpisodes": 0
+    "unpricedEpisodes": 0,
+    "createdAt": "2026-10-11T07:29:15.656Z",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-11T07:29:15.983Z"
   },
   {
     "page": "季刊",
@@ -16344,7 +16405,22 @@ window.BOOK_DATA = [
     "date": "2025-05-03",
     "_id": "work-21067dbac175d92b849f",
     "_favoriteKey": "蜜地瓜::비온뒤 맑음::雨後轉晴::꿀구마（蜜地瓜）",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "雨後轉晴",
+        "url": "",
+        "original": "https://www.postype.com/@seol-cheong/post/16877596",
+        "articleId": "local-da0b777c-eaf6-4920-9a7b-b4820a5374f6",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-410cf92ab39f8b90f03d",
+        "destinyItemId": "item-410cf92ab39f8b90f03d",
+        "destinyTitle": "雨後轉晴",
+        "destinyKo": "비온뒤 맑음",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "pricePoints": 0,
     "pricingMode": "episodes",
     "includeShelf": true,
@@ -16363,7 +16439,13 @@ window.BOOK_DATA = [
       "安：醫生 / 員：醫生"
     ],
     "knownPricePoints": 0,
-    "unpricedEpisodes": 0
+    "unpricedEpisodes": 0,
+    "createdAt": "2026-10-11T07:31:18.220Z",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-11T07:32:20.835Z"
   },
   {
     "page": "淨漢",
@@ -18139,7 +18221,22 @@ window.BOOK_DATA = [
     "date": "2025-02-10",
     "_id": "work-6e38c45f4c25f36ac2b7",
     "_favoriteKey": "蜜地瓜::개가 되지 않는 법::不變成狗的方法::꿀구마（蜜地瓜）",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "不變成狗的方法",
+        "url": "",
+        "original": "https://www.postype.com/@seol-cheong/post/18699643",
+        "articleId": "local-e4c8c593-06e4-4703-9367-1b7f6f9a1937",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-cf147255a002cbb7bed7",
+        "destinyItemId": "item-cf147255a002cbb7bed7",
+        "destinyTitle": "不變成狗的方法",
+        "destinyKo": "개가 되지 않는 법",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "pricePoints": 0,
     "pricingMode": "episodes",
     "includeShelf": true,
@@ -18159,7 +18256,13 @@ window.BOOK_DATA = [
       "安：體大生 / 員：高中舞者"
     ],
     "knownPricePoints": 0,
-    "unpricedEpisodes": 0
+    "unpricedEpisodes": 0,
+    "createdAt": "2026-10-11T07:32:57.680Z",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-11T07:32:57.825Z"
   },
   {
     "page": "其他老師",
@@ -21592,7 +21695,7 @@ window.BOOK_DATA = [
     "page": "蜜地瓜",
     "status": "2.已完結",
     "ko": "비정상 관찰 보고서",
-    "zh": "非正常觀察報告",
+    "zh": "非正常觀察報告書",
     "original": "https://www.postype.com/@seol-cheong/post/18224305",
     "translation": "",
     "author": "꿀구마（蜜地瓜）",
@@ -21601,7 +21704,36 @@ window.BOOK_DATA = [
     "date": "2024-12-17",
     "_id": "work-d09c625794c4b5b7b412",
     "_favoriteKey": "蜜地瓜::비정상 관찰 보고서::非正常觀察報告::꿀구마（蜜地瓜）",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "非正常觀察報告書",
+        "url": "",
+        "original": "https://www.postype.com/@seol-cheong/post/18224305",
+        "articleId": "local-c2ae4a1e-2bcc-4e53-a3e0-c24149569d28",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-c122151f54aea7f818eb",
+        "destinyItemId": "item-c122151f54aea7f818eb",
+        "destinyTitle": "非正常觀察報告書",
+        "destinyKo": "비정상 관찰 보고서",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "外傳",
+        "title": "非正常現象報告書（非正常觀察報告書 外傳）",
+        "url": "",
+        "original": "https://www.postype.com/ko/@seol-cheong/post/18759165",
+        "articleId": "1bBTtmBroGPmoxkorUxDdXgXPFFMMU94_bDkubLEDe6Y",
+        "pricePoints": 0,
+        "_episodeId": "ep-883050df-335d-48c4-b583-ffa299bddedb",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "pricePoints": 0,
     "pricingMode": "episodes",
     "includeShelf": true,
@@ -21622,7 +21754,13 @@ window.BOOK_DATA = [
       "安：高中生 / 員：高中生"
     ],
     "knownPricePoints": 0,
-    "unpricedEpisodes": 0
+    "unpricedEpisodes": 0,
+    "createdAt": "2026-10-11T07:35:30.138Z",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-11T07:39:15.742Z"
   },
   {
     "page": "其他老師",
@@ -22421,7 +22559,22 @@ window.BOOK_DATA = [
     "_id": "work-58e8490284aad59abe5a",
     "_favoriteKey": "https://docs.google.com/document/d/1T3zLjtfwX0Tol7q3p0Fw3U2JuSW2ZFdo7t8cbKPjQX8/edit?usp=drive_link",
     "articleId": "1T3zLjtfwX0Tol7q3p0Fw3U2JuSW2ZFdo7t8cbKPjQX8",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "完美的世紀情侶",
+        "url": "",
+        "original": "https://www.postype.com/@ynseasonrps/post/15849517",
+        "articleId": "1T3zLjtfwX0Tol7q3p0Fw3U2JuSW2ZFdo7t8cbKPjQX8",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-d076f8bebdbedb303063",
+        "destinyItemId": "item-d076f8bebdbedb303063",
+        "destinyTitle": "完美的世紀情侶",
+        "destinyKo": "완벽한 세기의 커플",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "pricePoints": 0,
     "pricingMode": "episodes",
     "includeShelf": true,
@@ -22444,7 +22597,12 @@ window.BOOK_DATA = [
       "安：學生/飾品設計師 / 員：公主/皇后"
     ],
     "knownPricePoints": 0,
-    "unpricedEpisodes": 0
+    "unpricedEpisodes": 0,
+    "createdAt": "2026-10-11T08:37:35.363Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-11T08:37:35.364Z"
   },
   {
     "page": "朴專家",
@@ -22527,123 +22685,6 @@ window.BOOK_DATA = [
     "unpricedEpisodes": 6,
     "pricePoints": null,
     "pricingMode": "episodes"
-  },
-  {
-    "page": "朴專家",
-    "status": "2.已完結",
-    "ko": "서울의 잠 못 이루는 밤",
-    "zh": "首爾不眠夜",
-    "original": "https://www.postype.com/@parkpro/series/1176402",
-    "translation": "https://docs.google.com/document/d/1uro847faaPwX1v_LYuKK1sB1AVKzmKHwVfisagOOEx8/edit?usp=drivesdk",
-    "author": "박프로（朴專家）",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2024-12-13",
-    "episodes": [
-      {
-        "label": "上",
-        "title": "01 首爾不眠夜（上）",
-        "url": "https://docs.google.com/document/d/1uro847faaPwX1v_LYuKK1sB1AVKzmKHwVfisagOOEx8/edit?usp=drivesdk",
-        "articleId": "1uro847faaPwX1v_LYuKK1sB1AVKzmKHwVfisagOOEx8",
-        "_episodeId": "ep-e39d61317d4d522dd949"
-      },
-      {
-        "label": "中",
-        "title": "02 首爾不眠夜（中）",
-        "url": "https://docs.google.com/document/d/1asvBgOJsu6WJN2oGfZqVpiCIG1-a2926DwxMlBnsU-c/edit?usp=drivesdk",
-        "articleId": "1asvBgOJsu6WJN2oGfZqVpiCIG1-a2926DwxMlBnsU-c",
-        "_episodeId": "ep-9531a0996b8461974653"
-      },
-      {
-        "label": "下",
-        "title": "03 首爾不眠夜（下）",
-        "url": "https://docs.google.com/document/d/1LcPLlJYgfF943ZZyn9n02I8lCce06WE8Hprt7XBczC4/edit?usp=drivesdk",
-        "articleId": "1LcPLlJYgfF943ZZyn9n02I8lCce06WE8Hprt7XBczC4",
-        "_episodeId": "ep-77aa885f6621fbceb027"
-      },
-      {
-        "label": "外傳",
-        "title": "04 首爾不眠夜（外傳）",
-        "url": "https://docs.google.com/document/d/19aRJSwyoum1-6vG1y-VgsSDLnF_TFjjRY5LGsFWhzjQ/edit?usp=drivesdk",
-        "articleId": "19aRJSwyoum1-6vG1y-VgsSDLnF_TFjjRY5LGsFWhzjQ",
-        "_episodeId": "ep-0303cfc5eaa5dee9f9cf"
-      }
-    ],
-    "_id": "work-9e31cbbd89215b7f2541",
-    "_favoriteKey": "https://docs.google.com/document/d/1uro847faaPwX1v_LYuKK1sB1AVKzmKHwVfisagOOEx8/edit?usp=drivesdk",
-    "articleId": "1uro847faaPwX1v_LYuKK1sB1AVKzmKHwVfisagOOEx8",
-    "includeShelf": true,
-    "includeDestiny": false,
-    "recommendations": []
-  },
-  {
-    "page": "朴專家",
-    "status": "2.已完結",
-    "ko": "Lavender Haze",
-    "zh": "Lavender Haze",
-    "original": "https://www.postype.com/@parkpro/series/1176401",
-    "translation": "https://docs.google.com/document/d/1FHktz1bOcbakRQAcLd9NgiGNn-2w-e7XjiU4yXToXIA/edit?usp=drivesdk",
-    "author": "박프로（朴專家）",
-    "translator": "不是蓋瑞🤓",
-    "note": "",
-    "date": "2024-12-13",
-    "episodes": [
-      {
-        "label": "上",
-        "title": "01 Lavender Haze 上",
-        "url": "https://docs.google.com/document/d/1FHktz1bOcbakRQAcLd9NgiGNn-2w-e7XjiU4yXToXIA/edit?usp=drivesdk",
-        "articleId": "1FHktz1bOcbakRQAcLd9NgiGNn-2w-e7XjiU4yXToXIA",
-        "_episodeId": "ep-48f906fb84dbed65e4da"
-      },
-      {
-        "label": "中1",
-        "title": "02 Lavender Haze 中 (1/2)",
-        "url": "https://docs.google.com/document/d/1XkGrMpZES_Q7N08RhCjaCX18KTYcOGkT8QI_1NvjPME/edit?usp=drivesdk",
-        "articleId": "1XkGrMpZES_Q7N08RhCjaCX18KTYcOGkT8QI_1NvjPME",
-        "_episodeId": "ep-0128efaa045925842807"
-      },
-      {
-        "label": "中2",
-        "title": "03 Lavender Haze 中 (2/2)",
-        "url": "https://docs.google.com/document/d/18CsjHa8C0B-lXE_T6iFW99HPopZkOAPEfwvTFTMsebg/edit?usp=drivesdk",
-        "articleId": "18CsjHa8C0B-lXE_T6iFW99HPopZkOAPEfwvTFTMsebg",
-        "_episodeId": "ep-e8ef5f0a23c5412c7a5d"
-      },
-      {
-        "label": "下1",
-        "title": "04 Lavender Haze 下 (1/2)",
-        "url": "https://docs.google.com/document/d/1Ckjw3jQO10Fu7XnU1KFuYAjOMIw41Amp0hbRiEMlPG0/edit?usp=drivesdk",
-        "articleId": "1Ckjw3jQO10Fu7XnU1KFuYAjOMIw41Amp0hbRiEMlPG0",
-        "_episodeId": "ep-5f3dfc8d8197e3490c55"
-      },
-      {
-        "label": "下2",
-        "title": "05 Lavender Haze 下 (2/2)",
-        "url": "https://docs.google.com/document/d/1jjmJBVCqXMY8LRoAewCC4T53KSuqzl8l3Cn3Ca9PdhU/edit?usp=drivesdk",
-        "articleId": "1jjmJBVCqXMY8LRoAewCC4T53KSuqzl8l3Cn3Ca9PdhU",
-        "_episodeId": "ep-800d3deb0a0b457a94e9"
-      },
-      {
-        "label": "外傳1",
-        "title": "06 Lavender Haze 外傳 (1/2)",
-        "url": "https://docs.google.com/document/d/1HlIUAKRAsdkNPBCfrTcVYjuR2O3-3_nqFrfCvH0-Vek/edit?usp=drivesdk",
-        "articleId": "1HlIUAKRAsdkNPBCfrTcVYjuR2O3-3_nqFrfCvH0-Vek",
-        "_episodeId": "ep-71a0d0eb802e6dc9e012"
-      },
-      {
-        "label": "外傳2",
-        "title": "07 Lavender Haze 外傳 (2/2)",
-        "url": "https://docs.google.com/document/d/11p8yFloF1nmqBCSh7b9xwQUPCfd-7liRsKU98E7dtWA/edit?usp=drivesdk",
-        "articleId": "11p8yFloF1nmqBCSh7b9xwQUPCfd-7liRsKU98E7dtWA",
-        "_episodeId": "ep-d1748fecc458c78653b6"
-      }
-    ],
-    "_id": "work-458dd7779f4aadc3d6a7",
-    "_favoriteKey": "https://docs.google.com/document/d/1FHktz1bOcbakRQAcLd9NgiGNn-2w-e7XjiU4yXToXIA/edit?usp=drivesdk",
-    "articleId": "1FHktz1bOcbakRQAcLd9NgiGNn-2w-e7XjiU4yXToXIA",
-    "includeShelf": true,
-    "includeDestiny": false,
-    "recommendations": []
   },
   {
     "page": "淨漢",
