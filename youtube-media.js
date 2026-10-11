@@ -64,15 +64,18 @@
     const play = doc.createElement('button');
     play.type = 'button'; play.dataset.youtubePlay = ''; play.className = 'youtube-play'; play.title = '播放 YouTube 影片';
     play.textContent = '▶ YouTube'; play.setAttribute('aria-label', '播放 YouTube 影片');
-    play.onclick = () => {
-      stop(doc);
+    function load(exclusive = false) {
+      if (tile.querySelector('iframe')) return;
+      if (exclusive) stop(doc);
       const frame = doc.createElement('iframe');
       frame.src = `https://www.youtube-nocookie.com/embed/${video.id}?playsinline=1&start=${video.start || 0}`;
       frame.title = 'YouTube 影片'; frame.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen'; frame.allowFullscreen = true;
       frame.referrerPolicy = 'strict-origin-when-cross-origin';
       play.hidden = true; tile.append(frame); active.add(frame);
-    };
+    }
+    play.onclick = () => load(true);
     tile.append(play);
+    if (!editable) load();
     if (editable) {
       const tools = doc.createElement('div'); tools.className = 'youtube-actions';
       for (const [action, label, icon] of [['edit', '修改 YouTube 連結', '↗'], ['delete', '刪除影片', '×']]) {
@@ -98,8 +101,9 @@
     tile.dataset.soundcloudUrl = audio.url; tile.dataset.soundcloudStart = String(audio.start || 0); tile.contentEditable = 'false';
     const play = doc.createElement('button'); play.type = 'button'; play.className = 'youtube-play'; play.dataset.soundcloudPlay = '';
     play.textContent = '▶ SoundCloud'; play.title = '載入 SoundCloud 音樂'; play.setAttribute('aria-label', play.title);
-    play.onclick = () => {
-      stop(doc);
+    function load(exclusive = false) {
+      if (tile.querySelector('iframe')) return;
+      if (exclusive) stop(doc);
       const src = new URL('https://w.soundcloud.com/player/');
       src.search = new URLSearchParams({ url: audio.url, auto_play: 'false', visual: 'false', show_comments: 'false' }).toString();
       const frame = doc.createElement('iframe'); frame.src = src.href; frame.title = 'SoundCloud 音樂'; frame.allow = 'autoplay'; frame.referrerPolicy = 'strict-origin-when-cross-origin';
@@ -109,8 +113,10 @@
         const widget = SC.Widget(frame);
         widget.bind(SC.Widget.Events.READY, () => { if (frame.isConnected) widget.seekTo(audio.start * 1000); });
       }).catch(() => { if (frame.isConnected) { const note = doc.createElement('span'); note.className = 'soundcloud-error'; note.textContent = '起播時間無法設定，可直接使用播放器。'; tile.append(note); } });
-    };
+    }
+    play.onclick = () => load(true);
     tile.append(play);
+    if (!editable) load();
     if (editable) {
       const tools = doc.createElement('div'); tools.className = 'youtube-actions';
       for (const [action, label, icon] of [['edit', '修改 SoundCloud 連結', '↗'], ['delete', '刪除音樂', '×']]) {

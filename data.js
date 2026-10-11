@@ -1284,7 +1284,7 @@ window.BOOK_DATA = [
     "page": "其他老師",
     "status": "0.連載中",
     "ko": "두 여자",
-    "zh": "💰 兩個女人（~ep4）",
+    "zh": "💰 兩個女人",
     "original": "https://www.postype.com/@blue-mountains/post/18301626",
     "translation": "",
     "author": "블루마운틴（藍山）",
@@ -1294,7 +1294,64 @@ window.BOOK_DATA = [
     "paid": true,
     "_id": "work-3613af0465e9f3526ebe",
     "_favoriteKey": "https://www.postype.com/@blue-mountains/post/18301626",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "01",
+        "title": "兩個女人",
+        "url": "",
+        "original": "https://www.postype.com/@blue-mountains/post/18301626",
+        "articleId": "local-faa81938-65b6-44aa-8f3b-2835e391042d",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-fed3bffc6bbada3357ff",
+        "destinyItemId": "item-fed3bffc6bbada3357ff",
+        "destinyTitle": "兩個女人",
+        "destinyKo": "두 여자",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "02",
+        "title": "兩個女人",
+        "url": "",
+        "original": "https://www.postype.com/@blue-mountains/post/18302746",
+        "articleId": "local-a777da12-8d0c-42f6-8e3b-e5880841aa2a",
+        "pricePoints": 1000,
+        "_episodeId": "ep-item-87d53729af587135a1dc",
+        "destinyItemId": "item-87d53729af587135a1dc",
+        "destinyTitle": "兩個女人",
+        "destinyKo": "두 여자",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "03",
+        "title": "兩個女人",
+        "url": "",
+        "original": "https://www.postype.com/@blue-mountains/post/18358756",
+        "articleId": "local-af925ad8-f504-4dfc-a4fb-d581ee7f8566",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-d91007b977dd304d96e3",
+        "destinyItemId": "item-d91007b977dd304d96e3",
+        "destinyTitle": "兩個女人",
+        "destinyKo": "두 여자",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "04",
+        "title": "兩個女人",
+        "url": "",
+        "original": "https://www.postype.com/@blue-mountains/post/18428280",
+        "articleId": "local-e361c7ba-b8d2-4e54-a9ec-9575de504616",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-d26e493f656eac68e123",
+        "destinyItemId": "item-d26e493f656eac68e123",
+        "destinyTitle": "兩個女人",
+        "destinyKo": "두 여자",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [],
@@ -1312,12 +1369,18 @@ window.BOOK_DATA = [
       "文章類型: 都市現實"
     ],
     "characters": [
-      "安：主廚/偵探\n員：上班族"
+      "安：主廚/偵探",
+      "員：上班族"
     ],
     "knownPricePoints": 1000,
     "unpricedEpisodes": 0,
     "pricePoints": 1000,
-    "pricingMode": "episodes"
+    "pricingMode": "episodes",
+    "createdAt": "2026-10-11T04:35:02.114Z",
+    "articleId": "",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-11T04:41:40.382Z"
   },
   {
     "page": "noname",
@@ -11998,183 +12061,365 @@ window.BOOK_DATA = [
         "label": "EP01",
         "title": "無法抗拒的性感書呆子 01",
         "url": "https://docs.google.com/document/d/1bPmEdGCpWv_fUUy_gQR-2XizYC86CoydRkrT-xqd-Vk/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1bPmEdGCpWv_fUUy_gQR-2XizYC86CoydRkrT-xqd-Vk",
-        "_episodeId": "ep-ed57eefe605294b61c12"
+        "pricePoints": null,
+        "_episodeId": "ep-ed57eefe605294b61c12",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP02",
         "title": "無法抗拒的性感書呆子 02",
         "url": "https://docs.google.com/document/d/1rAVeC3fPrvtr2lWcoKq6FG0blvCV8kUOW9aRiUAc-IE/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1rAVeC3fPrvtr2lWcoKq6FG0blvCV8kUOW9aRiUAc-IE",
-        "_episodeId": "ep-3d18eb88321cbef526df"
+        "pricePoints": null,
+        "_episodeId": "ep-3d18eb88321cbef526df",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP03",
         "title": "無法抗拒的性感書呆子 03",
         "url": "https://docs.google.com/document/d/1qLFJf6bT97VjZ53JDnUy8P58ZY27q7H-OKiiwk6hIVw/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1qLFJf6bT97VjZ53JDnUy8P58ZY27q7H-OKiiwk6hIVw",
-        "_episodeId": "ep-9828b09bf414aa96a4f1"
+        "pricePoints": null,
+        "_episodeId": "ep-9828b09bf414aa96a4f1",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP04",
         "title": "無法抗拒的性感書呆子 04",
         "url": "https://docs.google.com/document/d/17ELU8j1PI2MLd1Kye5_RXPPqUmfFDismzWe7o6OVzl0/edit?usp=drivesdk",
+        "original": "",
         "articleId": "17ELU8j1PI2MLd1Kye5_RXPPqUmfFDismzWe7o6OVzl0",
-        "_episodeId": "ep-b8ca247dfd0e51d45ad0"
+        "pricePoints": null,
+        "_episodeId": "ep-b8ca247dfd0e51d45ad0",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP05",
         "title": "無法抗拒的性感書呆子 05",
         "url": "https://docs.google.com/document/d/1V_rFUbFnL1pu3t7-rfDtofH6udGHkjrWzNwGBNlqtug/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1V_rFUbFnL1pu3t7-rfDtofH6udGHkjrWzNwGBNlqtug",
-        "_episodeId": "ep-c99a4bae0d9e65d99f0d"
+        "pricePoints": null,
+        "_episodeId": "ep-c99a4bae0d9e65d99f0d",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP05.1",
         "title": "無法抗拒的性感書呆子 05.1",
         "url": "https://docs.google.com/document/d/1KpRxgO507Qq5RlO3tbwT4Lvr1cz4Ud5M5wk2Z9_RHQQ/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1KpRxgO507Qq5RlO3tbwT4Lvr1cz4Ud5M5wk2Z9_RHQQ",
-        "_episodeId": "ep-73818340f994060769d0"
+        "pricePoints": null,
+        "_episodeId": "ep-73818340f994060769d0",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP06",
         "title": "無法抗拒的性感書呆子 06",
         "url": "https://docs.google.com/document/d/132qePEqJSWnFOEPwMsdRashnnGJGqmVGWtjaxdBGnSg/edit?usp=drivesdk",
+        "original": "",
         "articleId": "132qePEqJSWnFOEPwMsdRashnnGJGqmVGWtjaxdBGnSg",
-        "_episodeId": "ep-de90f9d52a544fe9fdc1"
+        "pricePoints": null,
+        "_episodeId": "ep-de90f9d52a544fe9fdc1",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP07",
         "title": "無法抗拒的性感書呆子 07",
         "url": "https://docs.google.com/document/d/1az8IGV69Qt1XbRpc5-8xoxgKQaxSI4z90xf3cvtbqbs/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1az8IGV69Qt1XbRpc5-8xoxgKQaxSI4z90xf3cvtbqbs",
-        "_episodeId": "ep-3d929574c04e5b6c3dce"
+        "pricePoints": null,
+        "_episodeId": "ep-3d929574c04e5b6c3dce",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP07.1",
         "title": "無法抗拒的性感書呆子 07.1",
         "url": "https://docs.google.com/document/d/1tVmh7Hsm6N8nFYX1IiAaokMotjm0KMZFHJu8qp0x-kw/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1tVmh7Hsm6N8nFYX1IiAaokMotjm0KMZFHJu8qp0x-kw",
-        "_episodeId": "ep-2c54fea03d401c83b954"
+        "pricePoints": null,
+        "_episodeId": "ep-2c54fea03d401c83b954",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP08",
         "title": "無法抗拒的性感書呆子 08",
         "url": "https://docs.google.com/document/d/1LnZf_YidzW1NxjVZqkWuDeBXa3XuPSHbqjHJ23RVj8g/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1LnZf_YidzW1NxjVZqkWuDeBXa3XuPSHbqjHJ23RVj8g",
-        "_episodeId": "ep-fade49d541fe3e3116ef"
+        "pricePoints": null,
+        "_episodeId": "ep-fade49d541fe3e3116ef",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP09",
         "title": "無法抗拒的性感書呆子 09",
         "url": "https://docs.google.com/document/d/1ChgW0yrDx89aeebnhd2r4a5Ms0BWe38SktgkAWmXx8M/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1ChgW0yrDx89aeebnhd2r4a5Ms0BWe38SktgkAWmXx8M",
-        "_episodeId": "ep-7bef38378cf2cdc7fd9a"
+        "pricePoints": null,
+        "_episodeId": "ep-7bef38378cf2cdc7fd9a",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP09.1",
         "title": "無法抗拒的性感書呆子 09.1",
         "url": "https://docs.google.com/document/d/1W32oLVyxWIAuuU295HUAU9oHOx5I729Wp9bncMgMgLo/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1W32oLVyxWIAuuU295HUAU9oHOx5I729Wp9bncMgMgLo",
-        "_episodeId": "ep-4486e0fadfda76d15718"
+        "pricePoints": null,
+        "_episodeId": "ep-4486e0fadfda76d15718",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP10",
         "title": "無法抗拒的性感書呆子 10",
         "url": "https://docs.google.com/document/d/1_zJ24zfZ2zwlzCF6HOXXgYGxibX-_yBHPbJ9uMU9oEM/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1_zJ24zfZ2zwlzCF6HOXXgYGxibX-_yBHPbJ9uMU9oEM",
-        "_episodeId": "ep-1339f98aa90319290b26"
+        "pricePoints": null,
+        "_episodeId": "ep-1339f98aa90319290b26",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP11",
         "title": "無法抗拒的性感書呆子 11",
         "url": "https://docs.google.com/document/d/1MqT5mh6DG_-LbVqKkXA1cVXICJ5FIyA60x4RMIoXQDo/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1MqT5mh6DG_-LbVqKkXA1cVXICJ5FIyA60x4RMIoXQDo",
-        "_episodeId": "ep-be98da0ad5c88c715f32"
+        "pricePoints": null,
+        "_episodeId": "ep-be98da0ad5c88c715f32",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP11.1",
         "title": "無法抗拒的性感書呆子 11.1",
         "url": "https://docs.google.com/document/d/12rtTp4KIy_0WncrSPxgf3nNyxgoJ_Gc0KNCkAryRaw4/edit?usp=drivesdk",
+        "original": "",
         "articleId": "12rtTp4KIy_0WncrSPxgf3nNyxgoJ_Gc0KNCkAryRaw4",
-        "_episodeId": "ep-4041acf00e00f732c692"
+        "pricePoints": null,
+        "_episodeId": "ep-4041acf00e00f732c692",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP14",
         "title": "無法抗拒的性感書呆子 14",
         "url": "https://docs.google.com/document/d/1k7f2IGDHnhS3QW-3x4WNVt-dum7MbFPbO5TOOUQw8BU/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1k7f2IGDHnhS3QW-3x4WNVt-dum7MbFPbO5TOOUQw8BU",
-        "_episodeId": "ep-40cc78a1344a61555ea7"
+        "pricePoints": null,
+        "_episodeId": "ep-40cc78a1344a61555ea7",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP15",
         "title": "無法抗拒的性感書呆子 15",
         "url": "https://docs.google.com/document/d/1yrvoTmD1qjT2vBZBzs_qQbBnKEL493WeVuwKDm3T6VA/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1yrvoTmD1qjT2vBZBzs_qQbBnKEL493WeVuwKDm3T6VA",
-        "_episodeId": "ep-7e2a54b1c336e0363c72"
+        "pricePoints": null,
+        "_episodeId": "ep-7e2a54b1c336e0363c72",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP15.1",
         "title": "無法抗拒的性感書呆子 15.1",
         "url": "https://docs.google.com/document/d/1L6j5guucRNWklZBQooTc4jm834ur2I5GKNqDRQOEC8o/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1L6j5guucRNWklZBQooTc4jm834ur2I5GKNqDRQOEC8o",
-        "_episodeId": "ep-8bf47e6c39a2897952cd"
+        "pricePoints": null,
+        "_episodeId": "ep-8bf47e6c39a2897952cd",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP16",
         "title": "無法抗拒的性感書呆子 16",
         "url": "https://docs.google.com/document/d/1-r4FChLO0Uo4d1IvskDh6AC1G7RQRIlTqsuZ6e4VILs/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1-r4FChLO0Uo4d1IvskDh6AC1G7RQRIlTqsuZ6e4VILs",
-        "_episodeId": "ep-0c7ea1112a4f51d16265"
+        "pricePoints": null,
+        "_episodeId": "ep-0c7ea1112a4f51d16265",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP17",
         "title": "無法抗拒的性感書呆子 17",
         "url": "https://docs.google.com/document/d/1nxFyoeaE3lGzBSjLNiLpouwyimizHFoUZ2Q6bix14-4/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1nxFyoeaE3lGzBSjLNiLpouwyimizHFoUZ2Q6bix14-4",
-        "_episodeId": "ep-ac6f82eb1c9cce4c7986"
+        "pricePoints": null,
+        "_episodeId": "ep-ac6f82eb1c9cce4c7986",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "EP18",
         "title": "無法抗拒的性感書呆子 18(完)",
         "url": "https://docs.google.com/document/d/1p67ZrA7HTmhOD1aF7cskHxqs2m9hQHHB9feKAvfYYrs/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1p67ZrA7HTmhOD1aF7cskHxqs2m9hQHHB9feKAvfYYrs",
-        "_episodeId": "ep-56ddd02bca8bdcc3e92c"
+        "pricePoints": null,
+        "_episodeId": "ep-56ddd02bca8bdcc3e92c",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "番外",
         "title": "無法抗拒的性感書呆子（番外）",
         "url": "https://docs.google.com/document/d/1FFtZNanJvTT67A_T62aIplKfxZqdYDWpe5U7Cbp_cto/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1FFtZNanJvTT67A_T62aIplKfxZqdYDWpe5U7Cbp_cto",
-        "_episodeId": "ep-a166e44c0b4ac260de6d"
+        "pricePoints": null,
+        "_episodeId": "ep-a166e44c0b4ac260de6d",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "外傳1",
         "title": "無法抗拒的性感書呆子 外傳(1)",
         "url": "https://docs.google.com/document/d/1JnEWGUdTVBCC6QYo5XIBK7wHZwPxv5RHJagIl7cXy9I/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1JnEWGUdTVBCC6QYo5XIBK7wHZwPxv5RHJagIl7cXy9I",
-        "_episodeId": "ep-b6810ee969877a6fb37f"
+        "pricePoints": null,
+        "_episodeId": "ep-b6810ee969877a6fb37f",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "外傳2",
         "title": "無法抗拒的性感書呆子 外傳(2)",
         "url": "https://docs.google.com/document/d/129HkhEnCAwX-NGM22TZNrzTMKZayrFHG2W1YLUIRyGw/edit?usp=drivesdk",
+        "original": "",
         "articleId": "129HkhEnCAwX-NGM22TZNrzTMKZayrFHG2W1YLUIRyGw",
-        "_episodeId": "ep-909b20b21751e434d6c1"
+        "pricePoints": null,
+        "_episodeId": "ep-909b20b21751e434d6c1",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "外傳3",
         "title": "無法抗拒的性感書呆子 外傳(3) 如果",
         "url": "https://docs.google.com/document/d/1W0zaYeUifhielrNJc2YXoyRm08TDDBUEvX2dpFzwx9c/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1W0zaYeUifhielrNJc2YXoyRm08TDDBUEvX2dpFzwx9c",
-        "_episodeId": "ep-c1ee5dc63a10967f632e"
+        "pricePoints": null,
+        "_episodeId": "ep-c1ee5dc63a10967f632e",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "外傳4",
         "title": "無法抗拒的性感書呆子 外傳(4)",
         "url": "https://docs.google.com/document/d/1RQfKhguCYVumixmbjkMeDJWu_rHFfx9aBU3R3xMhc4U/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1RQfKhguCYVumixmbjkMeDJWu_rHFfx9aBU3R3xMhc4U",
-        "_episodeId": "ep-b9c4697f9a0470f3c306"
+        "pricePoints": null,
+        "_episodeId": "ep-b9c4697f9a0470f3c306",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-d061e4cd61d2ca4de3f2",
@@ -12189,7 +12434,8 @@ window.BOOK_DATA = [
     "destinyDeleted": false,
     "tags": [
       "CP配對: 安/員",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
       "分級: 玩具",
@@ -12206,7 +12452,11 @@ window.BOOK_DATA = [
     "knownPricePoints": 7000,
     "unpricedEpisodes": 26,
     "pricePoints": null,
-    "pricingMode": "episodes"
+    "pricingMode": "episodes",
+    "createdAt": "2026-10-11T04:45:06.331Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-11T04:45:24.950Z"
   },
   {
     "page": "真心",
