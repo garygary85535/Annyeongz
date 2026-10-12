@@ -1871,7 +1871,7 @@ window.BOOK_DATA = [
       },
       {
         "label": "番外篇-酒品",
-        "title": "保健老師",
+        "title": "保健老師番外篇 - 酒品",
         "url": "",
         "original": "https://www.postype.com/zh-hant/@901x831/post/16146171",
         "articleId": "13_ZtReIOE3zWr7ij9gxe-EutugHY8K-8cG2_gZ0P2oU",
@@ -1885,7 +1885,7 @@ window.BOOK_DATA = [
       },
       {
         "label": "衍生篇-XX之日",
-        "title": "保健老師",
+        "title": "保健老師衍生篇 - XX之日",
         "url": "",
         "original": "https://www.postype.com/zh-hant/@901x831/post/16442687",
         "articleId": "1mkACyD4z4O5zZZ3SyvUijtQqlU0KLSeqsq25JRBXXjQ",
@@ -1921,7 +1921,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "保健老師（含外傳）",
-    "updatedAt": "2026-10-10T18:11:31.575Z"
+    "updatedAt": "2026-10-12T08:10:02.881Z"
   },
   {
     "page": "其他老師",
@@ -2690,7 +2690,7 @@ window.BOOK_DATA = [
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "독있감(독있는 감자라는 뜻)",
-    "zh": "有毒馬鈴薯",
+    "zh": "💰有毒馬鈴薯",
     "original": "https://www.postype.com/zh-hant/@qpqpqp1/post/16736354?show-original=true",
     "translation": "https://docs.google.com/document/d/1HU4_fCzvwhyiodnoKsTmAEZ0loeU36JtyL14pVakJV0/edit?usp=drivesdk",
     "author": "벽라춘（碧螺春）",
@@ -2702,10 +2702,15 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "有毒馬鈴薯",
         "url": "https://docs.google.com/document/d/1HU4_fCzvwhyiodnoKsTmAEZ0loeU36JtyL14pVakJV0/edit?usp=drivesdk",
-        "articleId": "1HU4_fCzvwhyiodnoKsTmAEZ0loeU36JtyL14pVakJV0",
         "original": "https://www.postype.com/zh-hant/@qpqpqp1/post/16736354?show-original=true",
+        "articleId": "1HU4_fCzvwhyiodnoKsTmAEZ0loeU36JtyL14pVakJV0",
         "pricePoints": 1000,
-        "_episodeId": "ep-9245358c3aab543ed053"
+        "_episodeId": "ep-9245358c3aab543ed053",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-f79d6d0eac2f87ee2df4",
@@ -2716,8 +2721,17 @@ window.BOOK_DATA = [
     "unpricedEpisodes": 0,
     "pricePoints": 1000,
     "includeShelf": true,
-    "includeDestiny": false,
-    "recommendations": []
+    "includeDestiny": true,
+    "recommendations": [],
+    "createdAt": "2026-10-12T08:23:00.149Z",
+    "paid": false,
+    "hidden": false,
+    "destinyDeleted": false,
+    "destinyId": "P0466",
+    "destinyTitle": "",
+    "tags": [],
+    "characters": [],
+    "updatedAt": "2026-10-12T08:23:00.150Z"
   },
   {
     "page": "其他老師",
@@ -3839,7 +3853,7 @@ window.BOOK_DATA = [
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "결혼은 현실",
-    "zh": "結婚是現實",
+    "zh": "婚姻是現實",
     "original": "https://www.postype.com/zh-hant/@srt-rps/post/12911020",
     "translation": "https://docs.google.com/document/d/1LpdFOTFFqOwEvEeG8IRi1MuqaJAplQIayKFeNN8aYv8/edit?usp=drivesdk",
     "author": "로크（LOCK）",
@@ -3851,14 +3865,15 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "婚姻是現實",
         "url": "https://docs.google.com/document/d/1LpdFOTFFqOwEvEeG8IRi1MuqaJAplQIayKFeNN8aYv8/edit?usp=drivesdk",
-        "articleId": "1LpdFOTFFqOwEvEeG8IRi1MuqaJAplQIayKFeNN8aYv8",
         "original": "https://www.postype.com/zh-hant/@srt-rps/post/12911020",
+        "articleId": "1LpdFOTFFqOwEvEeG8IRi1MuqaJAplQIayKFeNN8aYv8",
         "pricePoints": 0,
         "_episodeId": "ep-9c7cdbadabc6db8c77b3",
         "destinyItemId": "item-c5cd37b278dd0cb38076",
         "destinyTitle": "結婚是現實",
         "destinyKo": "결혼은 현실",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-3b2005527449998b64e8",
@@ -3881,8 +3896,14 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：英語教師\n員：律師"
-    ]
+      "安：英語教師",
+      "員：律師"
+    ],
+    "createdAt": "2026-10-12T08:11:21.140Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:11:21.149Z"
   },
   {
     "page": "朴專家",
@@ -5771,16 +5792,17 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "啃與被啃的戀愛(뜯고 뜯기는 연애)_댕그라미",
+        "title": "啃與被啃的戀愛",
         "url": "https://docs.google.com/document/d/1H7lf8361fI9d6nr0ITud9og_x44ymWU7nN7WaeRiUGY/edit?usp=drivesdk",
-        "articleId": "1H7lf8361fI9d6nr0ITud9og_x44ymWU7nN7WaeRiUGY",
         "original": "https://www.postype.com/@coolpieces/post/7463378",
+        "articleId": "1H7lf8361fI9d6nr0ITud9og_x44ymWU7nN7WaeRiUGY",
         "pricePoints": 0,
         "_episodeId": "ep-d5fec69caef3ff4363c4",
         "destinyItemId": "item-d2c2cac2f37ee1bc91ea",
         "destinyTitle": "啃與被啃的戀愛",
         "destinyKo": "뜯고 뜯기는 연애",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-5b46aa5f9fc93a705b56",
@@ -5805,7 +5827,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：高中生 / 員：高中生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:19:05.075Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:19:05.075Z"
   },
   {
     "page": "其他老師",
@@ -6094,29 +6121,31 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "上",
-        "title": "桂花樹花蔭下 上(계화나무 꽃 그늘 아래 上)_noname",
+        "title": "桂花樹花蔭下 - 上集",
         "url": "https://docs.google.com/document/d/1PtrnG0gSglRQq9zApVsy9qFNnxr-JdD83OXM2hl9_Ho/edit?usp=drivesdk",
-        "articleId": "1PtrnG0gSglRQq9zApVsy9qFNnxr-JdD83OXM2hl9_Ho",
         "original": "https://www.postype.com/@untitle009/post/6553295",
+        "articleId": "1PtrnG0gSglRQq9zApVsy9qFNnxr-JdD83OXM2hl9_Ho",
         "pricePoints": 1000,
         "_episodeId": "ep-13ffed5d5d66b32bb7dc",
         "destinyItemId": "item-44c2d1acc301f492b283",
-        "destinyTitle": "桂花樹花蔭下",
+        "destinyTitle": "桂花樹花蔭下 - 上集",
         "destinyKo": "계화나무 꽃 그늘 아래 上",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "下",
-        "title": "桂花樹花蔭下 下(계화나무 꽃 그늘 아래 下)_noname",
+        "title": "桂花樹花蔭下 - 下集",
         "url": "https://docs.google.com/document/d/1C4ggY5RiCvw3-4Q2du1i4ljyEdYZS1JWxWq-Jq6ajl0/edit?usp=drivesdk",
-        "articleId": "1C4ggY5RiCvw3-4Q2du1i4ljyEdYZS1JWxWq-Jq6ajl0",
         "original": "https://www.postype.com/@untitle009/post/6596418",
+        "articleId": "1C4ggY5RiCvw3-4Q2du1i4ljyEdYZS1JWxWq-Jq6ajl0",
         "pricePoints": 1500,
         "_episodeId": "ep-7ca60fd8fe6ba9c23e16",
         "destinyItemId": "item-ae8f2efa9f8c81970caf",
-        "destinyTitle": "桂花樹花蔭下",
+        "destinyTitle": "桂花樹花蔭下 - 下集",
         "destinyKo": "계화나무 꽃 그늘 아래 下",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-d1c762211e36cf2df8fd",
@@ -6146,8 +6175,13 @@ window.BOOK_DATA = [
       "題材梗: 女扮男"
     ],
     "characters": [
-      "安：女扮男裝狀元郎/大學生\n員：騙婚假新娘/大學生"
-    ]
+      "安：女扮男裝狀元郎/大學生",
+      "員：騙婚假新娘/大學生"
+    ],
+    "createdAt": "2026-10-12T08:13:11.186Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:13:11.198Z"
   },
   {
     "page": "其他老師",
@@ -6263,17 +6297,18 @@ window.BOOK_DATA = [
     "date": "2026-07-18",
     "episodes": [
       {
-        "label": "",
-        "title": "願你再次來到我身邊(그대 다시 내게)_노네임",
+        "label": "1",
+        "title": "願你再次來到我身邊",
         "url": "https://docs.google.com/document/d/1FVQCrEsOsrIy3TvSSZ1OPF1XrdWkx6K0_dI1d3tfYVI/edit?usp=drivesdk",
-        "articleId": "1FVQCrEsOsrIy3TvSSZ1OPF1XrdWkx6K0_dI1d3tfYVI",
         "original": "https://www.postype.com/@ynseasonrps/post/14004901",
+        "articleId": "1FVQCrEsOsrIy3TvSSZ1OPF1XrdWkx6K0_dI1d3tfYVI",
         "pricePoints": 0,
         "_episodeId": "ep-c09775922c370ae93123",
         "destinyItemId": "item-1722701a4390d58d5f9f",
         "destinyTitle": "願你再次來到我身邊",
         "destinyKo": "그대 다시 내게",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-5cd35853e83f81f535b3",
@@ -6302,7 +6337,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：上班族 / 員：博物館職員"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:25:16.993Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:25:16.994Z"
   },
   {
     "page": "季刊",
@@ -6317,17 +6357,18 @@ window.BOOK_DATA = [
     "date": "2026-07-18",
     "episodes": [
       {
-        "label": "",
-        "title": "Waikiki 夏日醜聞(와이키키 썸머 스캔들)_도교",
+        "label": "1",
+        "title": "Waikiki 夏日醜聞",
         "url": "https://docs.google.com/document/d/1E3lwsH1VsUntNvo5Xxipw7s6YSK0bNKyUzMx35iNnZU/edit?usp=drivesdk",
-        "articleId": "1E3lwsH1VsUntNvo5Xxipw7s6YSK0bNKyUzMx35iNnZU",
         "original": "https://www.postype.com/@ynseasonrps/post/14007041",
+        "articleId": "1E3lwsH1VsUntNvo5Xxipw7s6YSK0bNKyUzMx35iNnZU",
         "pricePoints": 0,
         "_episodeId": "ep-d8855298555a4bcc5a63",
         "destinyItemId": "item-a477c42ccb322d254b72",
         "destinyTitle": "Waikiki 夏日醜聞",
         "destinyKo": "와이키키 썸머 스캔들",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-8491863fca8217c3f779",
@@ -6350,7 +6391,13 @@ window.BOOK_DATA = [
       "文章類型: 都市現實",
       "結局: HE",
       "계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 Winter"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:25:24.145Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-12T08:25:24.145Z"
   },
   {
     "page": "季刊",
@@ -6365,17 +6412,18 @@ window.BOOK_DATA = [
     "date": "2026-07-18",
     "episodes": [
       {
-        "label": "",
-        "title": "末日稜鏡(아포칼립스 프리즘)_로크",
+        "label": "1",
+        "title": "末日稜鏡",
         "url": "https://docs.google.com/document/d/11KcdJp5XbVuUd3I-_zYDoSoGHFKHQSc1m_0czLHKv0c/edit?usp=drivesdk",
-        "articleId": "11KcdJp5XbVuUd3I-_zYDoSoGHFKHQSc1m_0czLHKv0c",
         "original": "https://www.postype.com/@ynseasonrps/post/14009166",
+        "articleId": "11KcdJp5XbVuUd3I-_zYDoSoGHFKHQSc1m_0czLHKv0c",
         "pricePoints": 0,
         "_episodeId": "ep-12a7d042130da9268f9f",
         "destinyItemId": "item-fdf02bd6ba072691c0fa",
         "destinyTitle": "末日稜鏡",
         "destinyKo": "아포칼립스 프리즘",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-704e1f52f6bc7e7ad2be",
@@ -6404,7 +6452,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：大學生 / 員：高中生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:25:30.336Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:25:30.337Z"
   },
   {
     "page": "季刊",
@@ -6419,17 +6472,18 @@ window.BOOK_DATA = [
     "date": "2026-07-18",
     "episodes": [
       {
-        "label": "",
-        "title": "別後愛(이별후애)_롸댕",
+        "label": "1",
+        "title": "別後愛",
         "url": "https://docs.google.com/document/d/1Z2kpzBbbjy5cfe06EH-o8c6wJ8K-hTWX620VfI6pKQ8/edit?usp=drivesdk",
-        "articleId": "1Z2kpzBbbjy5cfe06EH-o8c6wJ8K-hTWX620VfI6pKQ8",
         "original": "https://www.postype.com/@ynseasonrps/post/14010268",
+        "articleId": "1Z2kpzBbbjy5cfe06EH-o8c6wJ8K-hTWX620VfI6pKQ8",
         "pricePoints": 0,
         "_episodeId": "ep-e472d6500f77d3f0fa3b",
         "destinyItemId": "item-d969aeb6bf7897b2e2c7",
         "destinyTitle": "別後愛",
         "destinyKo": "이별후애",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-be37b40120e5e5aaa8f6",
@@ -6455,7 +6509,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：大學生 / 員：大學生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:13:30.374Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:21:19.800Z"
   },
   {
     "page": "季刊",
@@ -6471,16 +6530,17 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "",
-        "title": "奶油烘焙坊(버터 베이커리)_逐格翻譯",
+        "title": "奶油烘焙坊",
         "url": "https://docs.google.com/document/d/1yao7foo8P6edml4DIxqoRvmRgJziQdk6mkWH-6sA5mA/edit?usp=drivesdk",
-        "articleId": "1yao7foo8P6edml4DIxqoRvmRgJziQdk6mkWH-6sA5mA",
         "original": "https://www.postype.com/@ynseasonrps/post/14009283",
+        "articleId": "1yao7foo8P6edml4DIxqoRvmRgJziQdk6mkWH-6sA5mA",
         "pricePoints": 0,
         "_episodeId": "ep-7df57651e10009098a63",
         "destinyItemId": "item-b3278c7c50cb66d30daa",
         "destinyTitle": "奶油烘焙坊",
         "destinyKo": "버터 베이커리",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-01f9649e38162c400dee",
@@ -6507,7 +6567,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：依每篇故事設定 / 員：依每篇故事設定"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:13:43.025Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:13:43.026Z"
   },
   {
     "page": "季刊",
@@ -6523,16 +6588,17 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "",
-        "title": "220225_소온",
+        "title": "220225",
         "url": "https://docs.google.com/document/d/1PRrfw938TEbwJubOLYiHy8CaccHBNYFsIWKQgSughFk/edit?usp=drivesdk",
-        "articleId": "1PRrfw938TEbwJubOLYiHy8CaccHBNYFsIWKQgSughFk",
         "original": "https://www.postype.com/@ynseasonrps/post/14009367",
+        "articleId": "1PRrfw938TEbwJubOLYiHy8CaccHBNYFsIWKQgSughFk",
         "pricePoints": 0,
         "_episodeId": "ep-e1f9064d720d2d62180d",
         "destinyItemId": "item-e90e6effd6eab974e0be",
         "destinyTitle": "220225",
         "destinyKo": "220225",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-cb90ebf7659b7d518890",
@@ -6559,7 +6625,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：Multi指揮官 / 員：ZERO 隊哨兵指揮官"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:14:55.280Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:14:55.288Z"
   },
   {
     "page": "季刊",
@@ -6574,17 +6645,18 @@ window.BOOK_DATA = [
     "date": "2026-07-18",
     "episodes": [
       {
-        "label": "",
-        "title": "一、二、三（然後，開始戀愛吧）(하나 둘 셋 (그리고 사랑을 시작하자))_아딜로",
+        "label": "1",
+        "title": "一、二、三（然後，開始戀愛吧）",
         "url": "https://docs.google.com/document/d/1_jCrVANx9r5s5CmEQ4qEsAhvEUIoVgaFfwptEWVC4RE/edit?usp=drivesdk",
-        "articleId": "1_jCrVANx9r5s5CmEQ4qEsAhvEUIoVgaFfwptEWVC4RE",
         "original": "https://www.postype.com/@ynseasonrps/post/14004920",
+        "articleId": "1_jCrVANx9r5s5CmEQ4qEsAhvEUIoVgaFfwptEWVC4RE",
         "pricePoints": 0,
         "_episodeId": "ep-78dd55517936028c494e",
         "destinyItemId": "item-6ef7325fe25175943e24",
         "destinyTitle": "一、二、三（然後，開始戀愛吧）",
         "destinyKo": "하나 둘 셋 (그리고 사랑을 시작하자)",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-facb9e8cc88275389b50",
@@ -6612,7 +6684,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：攝影師 / 員：音樂劇演員"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:23:40.913Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:23:40.914Z"
   },
   {
     "page": "季刊",
@@ -6627,17 +6704,18 @@ window.BOOK_DATA = [
     "date": "2026-07-18",
     "episodes": [
       {
-        "label": "",
-        "title": "資源回收物請務必分類回收(재활용품은 반드시 분리수거를 합시다)_익명2",
+        "label": "1",
+        "title": "資源回收物請務必分類回收",
         "url": "https://docs.google.com/document/d/1KKkpkYZIfPoP0b9MjoT6yRvhHuM00qCRvMA6m_CrQsg/edit?usp=drivesdk",
-        "articleId": "1KKkpkYZIfPoP0b9MjoT6yRvhHuM00qCRvMA6m_CrQsg",
         "original": "https://www.postype.com/@ynseasonrps/post/14012515",
+        "articleId": "1KKkpkYZIfPoP0b9MjoT6yRvhHuM00qCRvMA6m_CrQsg",
         "pricePoints": 0,
         "_episodeId": "ep-d71777e3ff0810db69f9",
         "destinyItemId": "item-a338ff3345f92a2a4a2c",
         "destinyTitle": "資源回收物請務必分類回收",
         "destinyKo": "재활용품은 반드시 분리수거를 합시다",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-75fd308ef7eb71694ac7",
@@ -6665,7 +6743,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：仿生人 / 員：逃出鳥籠的金絲雀"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:26:04.810Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:26:04.810Z"
   },
   {
     "page": "季刊",
@@ -6680,19 +6763,39 @@ window.BOOK_DATA = [
     "date": "2026-07-18",
     "episodes": [
       {
-        "label": "",
-        "title": "外地人的結局(외지인의 결말)_일오",
+        "label": "本篇",
+        "title": "外地人的結局",
         "url": "https://docs.google.com/document/d/1b6QCF38v3KLekSP0r3nSz1cZYeVeHpTBrMEKRq8LuWs/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@ynseasonrps/post/14004908",
         "articleId": "1b6QCF38v3KLekSP0r3nSz1cZYeVeHpTBrMEKRq8LuWs",
-        "_episodeId": "ep-03ad6359fb381f6444f2"
+        "pricePoints": null,
+        "_episodeId": "ep-03ad6359fb381f6444f2",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-122da5f2fdcbd66f3305",
     "_favoriteKey": "https://docs.google.com/document/d/1b6QCF38v3KLekSP0r3nSz1cZYeVeHpTBrMEKRq8LuWs/edit?usp=drivesdk",
     "articleId": "1b6QCF38v3KLekSP0r3nSz1cZYeVeHpTBrMEKRq8LuWs",
     "includeShelf": true,
-    "includeDestiny": false,
-    "recommendations": []
+    "includeDestiny": true,
+    "recommendations": [],
+    "createdAt": "2026-10-12T08:15:08.227Z",
+    "paid": false,
+    "hidden": false,
+    "destinyDeleted": false,
+    "destinyId": "P0464",
+    "destinyTitle": "",
+    "pricePoints": null,
+    "tags": [],
+    "characters": [],
+    "pricingMode": "episodes",
+    "knownPricePoints": 0,
+    "unpricedEpisodes": 1,
+    "updatedAt": "2026-10-12T08:15:57.679Z"
   },
   {
     "page": "季刊",
@@ -6707,17 +6810,18 @@ window.BOOK_DATA = [
     "date": "2026-07-18",
     "episodes": [
       {
-        "label": "",
-        "title": "Off limits_후뿌",
+        "label": "1",
+        "title": "Off limits",
         "url": "https://docs.google.com/document/d/18kg9YXfso3jb20ipVq9iTcZSPr052yPotrt3QFO7VZo/edit?usp=drivesdk",
-        "articleId": "18kg9YXfso3jb20ipVq9iTcZSPr052yPotrt3QFO7VZo",
         "original": "https://www.postype.com/@ynseasonrps/post/14020920",
+        "articleId": "18kg9YXfso3jb20ipVq9iTcZSPr052yPotrt3QFO7VZo",
         "pricePoints": 0,
         "_episodeId": "ep-d41161a61d9fe894d778",
         "destinyItemId": "item-cd899ef0ccf920396e5f",
         "destinyTitle": "Off limits",
         "destinyKo": "Off limits",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-655488b84ca68243016f",
@@ -6743,7 +6847,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：退役軍人 / 員：舞女"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:25:46.059Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:25:46.060Z"
   },
   {
     "page": "noname",
@@ -6759,7 +6868,22 @@ window.BOOK_DATA = [
     "_id": "work-486b0d4cc69d76d7820f",
     "_favoriteKey": "https://docs.google.com/document/d/1U0d9qVa-4N4WPMNhm48SvIDMkoBLxTZFyFbjXwVEEFw/edit?usp=drivesdk",
     "articleId": "1U0d9qVa-4N4WPMNhm48SvIDMkoBLxTZFyFbjXwVEEFw",
-    "episodes": [],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "即使如此還是愛妳",
+        "url": "",
+        "original": "https://www.postype.com/@untitle009/post/7446469",
+        "articleId": "1U0d9qVa-4N4WPMNhm48SvIDMkoBLxTZFyFbjXwVEEFw",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-9c43bbe2741ea2372c8f",
+        "destinyItemId": "item-9c43bbe2741ea2372c8f",
+        "destinyTitle": "即使如此還是愛妳",
+        "destinyKo": "그래도 사랑해",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
     "pricePoints": 0,
     "pricingMode": "episodes",
     "includeShelf": true,
@@ -6776,10 +6900,16 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：小說家\n員：上班族"
+      "安：小說家",
+      "員：上班族"
     ],
     "knownPricePoints": 0,
-    "unpricedEpisodes": 0
+    "unpricedEpisodes": 0,
+    "createdAt": "2026-10-12T08:16:24.142Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:17:08.229Z"
   },
   {
     "page": "其他老師",
@@ -6935,17 +7065,18 @@ window.BOOK_DATA = [
     "date": "2026-07-15",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "回家的路(집으로 가는 길)_댕그라미",
+        "label": "回家的路",
+        "title": "回家的路",
         "url": "https://docs.google.com/document/d/1AJ6STU7-Lf8ghH2p0fSCk3lMEdwz02fV/edit?usp=drivesdk",
-        "articleId": "1AJ6STU7-Lf8ghH2p0fSCk3lMEdwz02fV",
         "original": "https://www.postype.com/@coolpieces/post/5786852",
+        "articleId": "1AJ6STU7-Lf8ghH2p0fSCk3lMEdwz02fV",
         "pricePoints": 0,
         "_episodeId": "ep-e525414d2c12b26985a6",
         "destinyItemId": "item-cb36c0db4f5dab597502",
-        "destinyTitle": "找找看",
+        "destinyTitle": "回家的路",
         "destinyKo": "숨은그림찾기",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-b3a9a36cd529ae755c7b",
@@ -6969,7 +7100,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：學生 / 員：學生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:17:59.652Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:17:59.652Z"
   },
   {
     "page": "其他老師",
@@ -6984,17 +7120,18 @@ window.BOOK_DATA = [
     "date": "2026-07-15",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "找找看(숨은그림찾기)_댕그라미",
+        "label": "1",
+        "title": "找找看",
         "url": "https://docs.google.com/document/d/1MUhzu1IEtBOdB9WYkRDqrr9asa0JHZiJ/edit?usp=drivesdk",
-        "articleId": "1MUhzu1IEtBOdB9WYkRDqrr9asa0JHZiJ",
         "original": "https://www.postype.com/@coolpieces/post/6792275",
+        "articleId": "1MUhzu1IEtBOdB9WYkRDqrr9asa0JHZiJ",
         "pricePoints": 0,
         "_episodeId": "ep-d2753878c4b4ab99ad1c",
         "destinyItemId": "item-4586931fdf8f19b3364b",
-        "destinyTitle": "回家的路",
+        "destinyTitle": "找找看",
         "destinyKo": "집으로 가는 길",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-2bc5d49d2c0a36491411",
@@ -7018,7 +7155,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：大學生 / 員：大學生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:18:28.662Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:18:45.843Z"
   },
   {
     "page": "其他老師",
@@ -7034,7 +7176,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "EP1",
-        "title": "01 就這樣([윶녕윶] 이렇게)_내내",
+        "title": "01 就這樣",
         "url": "https://docs.google.com/document/d/11x2qezpJv_WbTuEij4ew50HAmcpHca-WzHhy6ffMjuQ/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@naenae1029/post/4602938?show-original=true",
         "articleId": "11x2qezpJv_WbTuEij4ew50HAmcpHca-WzHhy6ffMjuQ",
@@ -7048,7 +7190,7 @@ window.BOOK_DATA = [
       },
       {
         "label": "EP2",
-        "title": "02 就那樣([윶녕윶] 그렇게 (이렇게 번외))_내내",
+        "title": "02 就那樣",
         "url": "https://docs.google.com/document/d/1YKC49VrzCYgZrBotNPwdHTMyYTE1wJuokN_E_tf3KdA/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@naenae1029/post/4664443",
         "articleId": "1YKC49VrzCYgZrBotNPwdHTMyYTE1wJuokN_E_tf3KdA",
@@ -7062,7 +7204,7 @@ window.BOOK_DATA = [
       },
       {
         "label": "EP3",
-        "title": "03 那般([윶녕윶] 저렇게 (그렇게 번외))_내내",
+        "title": "03 那般",
         "url": "https://docs.google.com/document/d/1YzPUypBqFrX0BEuDa3dzYQARrgsj0KXyZbByoL8CgY8/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@naenae1029/post/4775697",
         "articleId": "1YzPUypBqFrX0BEuDa3dzYQARrgsj0KXyZbByoL8CgY8",
@@ -7076,7 +7218,7 @@ window.BOOK_DATA = [
       },
       {
         "label": "EP4",
-        "title": "04 就這麼樣 上([윶녕윶] 요렇게 上)_내내",
+        "title": "04 就這麼樣 上",
         "url": "https://docs.google.com/document/d/1CPt0z3VWNMzW5re5jAWNkpWEB9Xty1JGZAoNDmmLII0/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@naenae1029/post/7049532",
         "articleId": "1CPt0z3VWNMzW5re5jAWNkpWEB9Xty1JGZAoNDmmLII0",
@@ -7090,7 +7232,7 @@ window.BOOK_DATA = [
       },
       {
         "label": "EP5",
-        "title": "05 就這麼樣 中([윶녕윶] 요렇게 中)_내내",
+        "title": "05 就這麼樣 中",
         "url": "https://docs.google.com/document/d/1fqhfaV2AzEFNvvaKMHpG-b96G25SFWjMT9ljol7Z4M4/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@naenae1029/post/7049558",
         "articleId": "1fqhfaV2AzEFNvvaKMHpG-b96G25SFWjMT9ljol7Z4M4",
@@ -7104,7 +7246,7 @@ window.BOOK_DATA = [
       },
       {
         "label": "EP6",
-        "title": "06 就這麼樣 下([윶녕윶] 요렇게下)_내내",
+        "title": "06 就這麼樣 下",
         "url": "https://docs.google.com/document/d/1FG-uZfua8QA-7FIuPvoYRGoAYnVEEmFq0eClIgDbT7c/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@naenae1029/post/7049572",
         "articleId": "1FG-uZfua8QA-7FIuPvoYRGoAYnVEEmFq0eClIgDbT7c",
@@ -7118,7 +7260,7 @@ window.BOOK_DATA = [
       },
       {
         "label": "EP7",
-        "title": "07 就這麼著([윶녕윶] 그냥 이렇게 (저렇게 번외))_내내",
+        "title": "07 就這麼著",
         "url": "https://docs.google.com/document/d/1mpqBdR4Ziv73fty3xYX8DWgZPTc8gg3wExKsTJ-HUsY/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@naenae1029/post/12244953",
         "articleId": "1mpqBdR4Ziv73fty3xYX8DWgZPTc8gg3wExKsTJ-HUsY",
@@ -7132,7 +7274,7 @@ window.BOOK_DATA = [
       },
       {
         "label": "EP8",
-        "title": "08 就那麼著([윶녕윶] 그냥 그렇게 (그냥 이렇게 번외))_내내",
+        "title": "08 就那麼著",
         "url": "https://docs.google.com/document/d/18ufRtf_jkg7EG0zgDCnD3wdTJE_Q4nQ2dW6GLw4MJ5A/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@naenae1029/post/12258088",
         "articleId": "18ufRtf_jkg7EG0zgDCnD3wdTJE_Q4nQ2dW6GLw4MJ5A",
@@ -7146,7 +7288,7 @@ window.BOOK_DATA = [
       },
       {
         "label": "EP9",
-        "title": "09 就那般著 上([윶녕윶] 그냥 저렇게 上 (그냥 그렇게 번외))_내내",
+        "title": "09 就那般著 上",
         "url": "https://docs.google.com/document/d/1VzEXi6_34KhvVjODZiaY14zHBc2NAseNXd_8HD6NlMQ/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@naenae1029/post/12328867",
         "articleId": "1VzEXi6_34KhvVjODZiaY14zHBc2NAseNXd_8HD6NlMQ",
@@ -7160,7 +7302,7 @@ window.BOOK_DATA = [
       },
       {
         "label": "EP10",
-        "title": "10 就那般著 下([윶녕윶] 그냥 저렇게 下 (그냥 그렇게 번외))_내내",
+        "title": "10 就那般著 下",
         "url": "https://docs.google.com/document/d/1MFFUSJbdoSVFKECGboj050VKerSG0tjJPH8hZTglvqI/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@naenae1029/post/13248679",
         "articleId": "1MFFUSJbdoSVFKECGboj050VKerSG0tjJPH8hZTglvqI",
@@ -7203,7 +7345,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-10T17:46:22.749Z"
+    "updatedAt": "2026-10-12T08:20:43.880Z"
   },
   {
     "page": "其他老師",
@@ -7219,16 +7361,17 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "通往夏天的捷徑(여름으로 가는 지름길)_댕그라미",
+        "title": "通往夏天的捷徑",
         "url": "https://docs.google.com/document/d/1FaK1ULUCjYLo0n94Du3k3mXFx41Xw1CjszyJTuFYCwc/edit?usp=drivesdk",
-        "articleId": "1FaK1ULUCjYLo0n94Du3k3mXFx41Xw1CjszyJTuFYCwc",
         "original": "https://www.postype.com/@coolpieces/post/5316864",
+        "articleId": "1FaK1ULUCjYLo0n94Du3k3mXFx41Xw1CjszyJTuFYCwc",
         "pricePoints": 0,
         "_episodeId": "ep-697a88b8ab5d321e4dd9",
         "destinyItemId": "item-6e910a3e0f80b7a8ebcc",
         "destinyTitle": "通往夏天的捷徑",
         "destinyKo": "여름으로 가는 지름길",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-0235360ab1c65e894a67",
@@ -7253,7 +7396,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：網球選手 / 員：新人演員"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:19:11.744Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:19:11.744Z"
   },
   {
     "page": "季刊",
@@ -7268,11 +7416,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "始終如一的告白(한결같은 고백)_MJ",
+        "label": "1",
+        "title": "始終如一的告白",
         "url": "https://docs.google.com/document/d/1vLvXV9N3_ZEaMvXtPrE_CCU1JwQzg7i1tJgGY9hBZgs/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1vLvXV9N3_ZEaMvXtPrE_CCU1JwQzg7i1tJgGY9hBZgs",
-        "_episodeId": "ep-e9a61b8fa7a86bb259f7"
+        "pricePoints": null,
+        "_episodeId": "ep-e9a61b8fa7a86bb259f7",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-f8847ceab7c74bc63723",
@@ -7280,7 +7435,20 @@ window.BOOK_DATA = [
     "articleId": "1vLvXV9N3_ZEaMvXtPrE_CCU1JwQzg7i1tJgGY9hBZgs",
     "includeShelf": true,
     "includeDestiny": false,
-    "recommendations": []
+    "recommendations": [],
+    "createdAt": "2026-10-12T08:25:54.189Z",
+    "paid": false,
+    "hidden": false,
+    "destinyDeleted": false,
+    "destinyId": "",
+    "destinyTitle": "",
+    "pricePoints": null,
+    "tags": [],
+    "characters": [],
+    "pricingMode": "episodes",
+    "knownPricePoints": 0,
+    "unpricedEpisodes": 1,
+    "updatedAt": "2026-10-12T08:25:54.190Z"
   },
   {
     "page": "季刊",
@@ -7295,17 +7463,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "抓狂戀愛或安張戀愛(환장 연애 혹은 안장 연애)_OCB",
+        "label": "1",
+        "title": "抓狂戀愛或安張戀愛",
         "url": "https://docs.google.com/document/d/1D_rI2K53nzKwz-MemDRNz5mBCIaYX9muMXvVx2Ca5g0/edit?usp=drivesdk",
-        "articleId": "1D_rI2K53nzKwz-MemDRNz5mBCIaYX9muMXvVx2Ca5g0",
         "original": "https://www.postype.com/@ynseasonrps/post/15849810",
+        "articleId": "1D_rI2K53nzKwz-MemDRNz5mBCIaYX9muMXvVx2Ca5g0",
         "pricePoints": 0,
         "_episodeId": "ep-3824bd1e8bd9740d7baa",
         "destinyItemId": "item-d093363029bcef38d7b0",
         "destinyTitle": "抓狂戀愛或安張戀愛",
         "destinyKo": "환장 연애 혹은 안장 연애",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-2eb0e32a8a7f42a9e653",
@@ -7330,7 +7499,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：藝人 / 員：藝人"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:26:19.799Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:26:19.799Z"
   },
   {
     "page": "季刊",
@@ -7345,17 +7519,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "天生單戀(본투비 짝사랑)_OCB",
+        "label": "1",
+        "title": "天生單戀",
         "url": "https://docs.google.com/document/d/16rA3efT6wnz6TjV3GomnxrsAC5RgSrL3nvsmVxwV-NI/edit?usp=drivesdk",
-        "articleId": "16rA3efT6wnz6TjV3GomnxrsAC5RgSrL3nvsmVxwV-NI",
         "original": "https://www.postype.com/@ynseasonrps/post/17539947",
+        "articleId": "16rA3efT6wnz6TjV3GomnxrsAC5RgSrL3nvsmVxwV-NI",
         "pricePoints": 0,
         "_episodeId": "ep-7b91ddd93742a46c6c40",
         "destinyItemId": "item-9a8d03fe1abdfe5b3961",
         "destinyTitle": "天生單戀",
         "destinyKo": "본투비 짝사랑",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-e29feb5c53119e6422b0",
@@ -7382,7 +7557,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：麵包店養女 / 員：上班族"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:26:27.458Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:26:27.458Z"
   },
   {
     "page": "季刊",
@@ -7397,17 +7577,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "Twin Sister Trouble(트윈 시스터 트러블)_kiddii",
+        "label": "1",
+        "title": "Twin Sister Trouble",
         "url": "https://docs.google.com/document/d/1Emhuqhc0JssVM145igVCME7fYi0lXVg3DRxjiYDd-II/edit?usp=drivesdk",
-        "articleId": "1Emhuqhc0JssVM145igVCME7fYi0lXVg3DRxjiYDd-II",
         "original": "https://www.postype.com/@ynseasonrps/post/15859388",
+        "articleId": "1Emhuqhc0JssVM145igVCME7fYi0lXVg3DRxjiYDd-II",
         "pricePoints": 0,
         "_episodeId": "ep-d34939b1ddab13c19b80",
         "destinyItemId": "item-97114d4185b0f93e007d",
         "destinyTitle": "Twin Sister Trouble",
         "destinyKo": "트윈 시스터 트러블",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-8b293d8ad3f8a1579004",
@@ -7432,7 +7613,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：安家雙胞胎妹妹/學生 / 員：張家妹妹/學生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:25:00.010Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:25:00.010Z"
   },
   {
     "page": "季刊",
@@ -7447,17 +7633,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "討人厭的女人(재수 없는 여자)_노네임",
+        "label": "1",
+        "title": "討人厭的女人",
         "url": "https://docs.google.com/document/d/1OQwSseQ5vNpgMomTaBjDbxGcXNrq5e2DNvtXFglX-6A/edit?usp=drivesdk",
-        "articleId": "1OQwSseQ5vNpgMomTaBjDbxGcXNrq5e2DNvtXFglX-6A",
         "original": "https://www.postype.com/@ynseasonrps/post/17540356",
+        "articleId": "1OQwSseQ5vNpgMomTaBjDbxGcXNrq5e2DNvtXFglX-6A",
         "pricePoints": 0,
         "_episodeId": "ep-8531b28a66b7499b8171",
         "destinyItemId": "item-99b1ac113b0a9e630f8a",
         "destinyTitle": "討人厭的女人",
         "destinyKo": "재수 없는 여자",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-fef3e3dfd81071a442ee",
@@ -7483,7 +7670,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：菜鳥記者 / 員：冷臉上司"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:26:36.193Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:26:36.194Z"
   },
   {
     "page": "季刊",
@@ -7498,17 +7690,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "Kissing_고래",
+        "label": "1",
+        "title": "Kissing",
         "url": "https://docs.google.com/document/d/1a4KeK4UQPteJo-btpgFBIbeduwTGhNfW79gMTXLY468/edit?usp=drivesdk",
-        "articleId": "1a4KeK4UQPteJo-btpgFBIbeduwTGhNfW79gMTXLY468",
         "original": "https://www.postype.com/@ynseasonrps/post/15851603",
+        "articleId": "1a4KeK4UQPteJo-btpgFBIbeduwTGhNfW79gMTXLY468",
         "pricePoints": 0,
         "_episodeId": "ep-0da92475c61107db7792",
         "destinyItemId": "item-508628011039364fb9ca",
         "destinyTitle": "Kissing",
         "destinyKo": "Kissing",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-f7858746aaaba6d06c2d",
@@ -7538,7 +7731,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：能力者 / 員：本部長/集團繼承人"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:26:41.942Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:26:41.942Z"
   },
   {
     "page": "季刊",
@@ -7553,17 +7751,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "住在月亮上的思念(달에 사는 그리움(愛))_귀인",
+        "label": "1",
+        "title": "住在月亮上的思念",
         "url": "https://docs.google.com/document/d/1jWWkAyzG8ye8cPF5RE6x4POvJJQGQky63dRGD_guljY/edit?usp=drivesdk",
-        "articleId": "1jWWkAyzG8ye8cPF5RE6x4POvJJQGQky63dRGD_guljY",
         "original": "https://www.postype.com/@ynseasonrps/post/15848338",
+        "articleId": "1jWWkAyzG8ye8cPF5RE6x4POvJJQGQky63dRGD_guljY",
         "pricePoints": 0,
         "_episodeId": "ep-0cb62cf724f4462633e4",
         "destinyItemId": "item-4e5521fca805974d73b6",
         "destinyTitle": "住在月亮上的思念",
         "destinyKo": "달에 사는 그리움(愛)",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-3aecaae1cf88a7e50460",
@@ -7591,7 +7790,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：后羿/射箭國手 / 員：姮娥/復健科醫師"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:23:51.187Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:26:47.005Z"
   },
   {
     "page": "季刊",
@@ -7606,17 +7810,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "愛在馬場洞(사랑은 마장동에서)_도교",
+        "label": "1",
+        "title": "愛在馬場洞",
         "url": "https://docs.google.com/document/d/1iLmo3rOYQGbAAx0lJwWN2YyEm62kxFOsiS1oqb9e5zM/edit?usp=drivesdk",
-        "articleId": "1iLmo3rOYQGbAAx0lJwWN2YyEm62kxFOsiS1oqb9e5zM",
         "original": "https://www.postype.com/@ynseasonrps/post/17540112",
+        "articleId": "1iLmo3rOYQGbAAx0lJwWN2YyEm62kxFOsiS1oqb9e5zM",
         "pricePoints": 0,
         "_episodeId": "ep-bd670d3e20a962ba6ca6",
         "destinyItemId": "item-7820011d24ea01a8cdd9",
         "destinyTitle": "愛在馬場洞",
         "destinyKo": "사랑은 마장동에서",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-a56b95ff9ad078f2fb13",
@@ -7641,7 +7846,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：大學生/吸血鬼 / 員：大學新生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:26:51.480Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:26:54.978Z"
   },
   {
     "page": "季刊",
@@ -7656,17 +7866,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "致聖誕老人(산타에게)_무민",
+        "label": "1",
+        "title": "致聖誕老人",
         "url": "https://docs.google.com/document/d/18zmi0zaLANU_8e3lnxoqgrLaJtdJnGduZbCWru6hCXA/edit?usp=drivesdk",
-        "articleId": "18zmi0zaLANU_8e3lnxoqgrLaJtdJnGduZbCWru6hCXA",
         "original": "https://www.postype.com/@ynseasonrps/post/15855487",
+        "articleId": "18zmi0zaLANU_8e3lnxoqgrLaJtdJnGduZbCWru6hCXA",
         "pricePoints": 0,
         "_episodeId": "ep-ab7731b4dedad70ddab5",
         "destinyItemId": "item-97c5b76e603abf098b9d",
         "destinyTitle": "致聖誕老人",
         "destinyKo": "산타에게",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-65e5c66538a030ef86a3",
@@ -7691,7 +7902,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：聖誕老人 / 員：兔子獸人"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:26:58.637Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:27:05.237Z"
   },
   {
     "page": "季刊",
@@ -7706,17 +7922,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "頭獎的獎金是愛(잭팟의 상금은 사랑)_빠보리따",
+        "label": "1",
+        "title": "頭獎的獎金是愛",
         "url": "https://docs.google.com/document/d/14R7oUh4dcKHDzk5txJAYiL6-fIHCAXrA4TlEzblAVyc/edit?usp=drivesdk",
-        "articleId": "14R7oUh4dcKHDzk5txJAYiL6-fIHCAXrA4TlEzblAVyc",
         "original": "https://www.postype.com/@ynseasonrps/post/17539881",
+        "articleId": "14R7oUh4dcKHDzk5txJAYiL6-fIHCAXrA4TlEzblAVyc",
         "pricePoints": 0,
         "_episodeId": "ep-37e404e0169034069116",
         "destinyItemId": "item-1137c00c05582f080d7b",
         "destinyTitle": "頭獎的獎金是愛",
         "destinyKo": "잭팟의 상금은 사랑",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-f5c1dd5e5aacc3cc93f9",
@@ -7742,7 +7959,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：賭客 / 員：荷官"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:27:10.086Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:27:14.024Z"
   },
   {
     "page": "季刊",
@@ -7757,17 +7979,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "Y U LOVE KITTY_아딜로",
+        "label": "1",
+        "title": "Y U LOVE KITTY",
         "url": "https://docs.google.com/document/d/1aFb8_VxxXqM7uQp_O041U6h4baS-wVuZKGrhFiJ11Yo/edit?usp=drivesdk",
-        "articleId": "1aFb8_VxxXqM7uQp_O041U6h4baS-wVuZKGrhFiJ11Yo",
         "original": "https://www.postype.com/@ynseasonrps/post/15855844",
+        "articleId": "1aFb8_VxxXqM7uQp_O041U6h4baS-wVuZKGrhFiJ11Yo",
         "pricePoints": 0,
         "_episodeId": "ep-b8d39ecb78da6b048a32",
         "destinyItemId": "item-eba8af892f441b4ab3fc",
         "destinyTitle": "Y U LOVE KITTY",
         "destinyKo": "Y U LOVE KITTY",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-2cf9d9fb3553e980a357",
@@ -7794,7 +8017,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：Y/B級嚮導 / 員：Kitty/D級哨兵"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:27:20.601Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:27:20.601Z"
   },
   {
     "page": "季刊",
@@ -7809,17 +8037,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "戀愛體質(로맨스가 체질)_와이",
+        "label": "1",
+        "title": "戀愛體質",
         "url": "https://docs.google.com/document/d/1JfBESS0b_nIf2TsKrFbZLWftdricBvpBLKg_c82qkdk/edit?usp=drivesdk",
-        "articleId": "1JfBESS0b_nIf2TsKrFbZLWftdricBvpBLKg_c82qkdk",
         "original": "https://www.postype.com/@ynseasonrps/post/15848376",
+        "articleId": "1JfBESS0b_nIf2TsKrFbZLWftdricBvpBLKg_c82qkdk",
         "pricePoints": 0,
         "_episodeId": "ep-3867c2f5c8ad72691ddb",
         "destinyItemId": "item-968e15954fb675027a78",
         "destinyTitle": "戀愛體質",
         "destinyKo": "로맨스가 체질",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-57dd21a2810b545d1d5e",
@@ -7843,7 +8072,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：青年會長 / 員：演員"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:27:27.396Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:27:27.397Z"
   },
   {
     "page": "季刊",
@@ -7858,17 +8092,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "Shine With Me_유갱",
+        "label": "1",
+        "title": "Shine With Me",
         "url": "https://docs.google.com/document/d/138RzIsaavHRapM6XwBsN4_49-EXtNIslVi8kz5Z3rWo/edit?usp=drivesdk",
-        "articleId": "138RzIsaavHRapM6XwBsN4_49-EXtNIslVi8kz5Z3rWo",
         "original": "https://www.postype.com/@ynseasonrps/post/15848306",
+        "articleId": "138RzIsaavHRapM6XwBsN4_49-EXtNIslVi8kz5Z3rWo",
         "pricePoints": 0,
         "_episodeId": "ep-44b160ab68e0475d5f56",
         "destinyItemId": "item-cfc017fe5247a9bc8a45",
         "destinyTitle": "Shine With Me",
         "destinyKo": "Shine With Me",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-0e72681e809e4a1d9f7f",
@@ -7892,7 +8127,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：北韓特殊部隊隊長 / 員：脫北者/藝人"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:27:36.711Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:27:36.711Z"
   },
   {
     "page": "季刊",
@@ -7907,17 +8147,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "乙方的苦衷(을의 사정)_윤비",
+        "label": "1",
+        "title": "乙方的苦衷",
         "url": "https://docs.google.com/document/d/18X6ljj4TycRbxvwGYGb9Jj7V2Di2Um4sJtElHRGv8EQ/edit?usp=drivesdk",
-        "articleId": "18X6ljj4TycRbxvwGYGb9Jj7V2Di2Um4sJtElHRGv8EQ",
         "original": "https://www.postype.com/@ynseasonrps/post/17539911",
+        "articleId": "18X6ljj4TycRbxvwGYGb9Jj7V2Di2Um4sJtElHRGv8EQ",
         "pricePoints": 0,
         "_episodeId": "ep-3552888cdf8badd25916",
         "destinyItemId": "item-5295a8b671ffc16ac96b",
         "destinyTitle": "乙方的苦衷",
         "destinyKo": "을의 사정",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-2386d4b442355188f576",
@@ -7944,7 +8185,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：資工系學姊 / 員：國文系新生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:27:48.648Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:27:48.648Z"
   },
   {
     "page": "季刊",
@@ -7959,17 +8205,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "Helleborus_익명1",
+        "label": "1",
+        "title": "Helleborus",
         "url": "https://docs.google.com/document/d/1eFndJe9x1emu-SzHWI-K0upI71vbsFN4FYhl3dSWdy8/edit?usp=drivesdk",
-        "articleId": "1eFndJe9x1emu-SzHWI-K0upI71vbsFN4FYhl3dSWdy8",
         "original": "https://www.postype.com/@ynseasonrps/post/15851446",
+        "articleId": "1eFndJe9x1emu-SzHWI-K0upI71vbsFN4FYhl3dSWdy8",
         "pricePoints": 0,
         "_episodeId": "ep-61aa4dcd0154a565f419",
         "destinyItemId": "item-f19837e3497eabb44d82",
         "destinyTitle": "Helleborus",
         "destinyKo": "Helleborus",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-e95a9fa3141b71fdff7a",
@@ -7999,7 +8246,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：大學生 / 員：上班族"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:27:55.455Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:27:55.456Z"
   },
   {
     "page": "季刊",
@@ -8014,17 +8266,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "10.901.831.034_익명1",
+        "label": "1",
+        "title": "10.901.831.034",
         "url": "https://docs.google.com/document/d/1HcpNq8Libh2_jabMx38Ua6sj_3MvJViLYKh-mtVdCCs/edit?usp=drivesdk",
-        "articleId": "1HcpNq8Libh2_jabMx38Ua6sj_3MvJViLYKh-mtVdCCs",
         "original": "https://www.postype.com/@ynseasonrps/post/17540052",
+        "articleId": "1HcpNq8Libh2_jabMx38Ua6sj_3MvJViLYKh-mtVdCCs",
         "pricePoints": 0,
         "_episodeId": "ep-3d6988bac53b5c62daba",
         "destinyItemId": "item-4c819176f9e91bb103c8",
         "destinyTitle": "10.901.831.034",
         "destinyKo": "10.901.831.034",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-2ed3a1df50884bda493c",
@@ -8046,7 +8299,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "員：上班族"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:28:01.520Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:28:01.521Z"
   },
   {
     "page": "季刊",
@@ -8061,17 +8319,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "玩家(Player)_익명2",
+        "label": "1",
+        "title": "玩家(Player)",
         "url": "https://docs.google.com/document/d/1gOVcVMRVSHOwuYrXxXNAZEbj3hI1iBrOI-nFFUvjOCM/edit?usp=drivesdk",
-        "articleId": "1gOVcVMRVSHOwuYrXxXNAZEbj3hI1iBrOI-nFFUvjOCM",
         "original": "https://www.postype.com/@ynseasonrps/post/17540189",
+        "articleId": "1gOVcVMRVSHOwuYrXxXNAZEbj3hI1iBrOI-nFFUvjOCM",
         "pricePoints": 0,
         "_episodeId": "ep-d1a1703904cfe4e91d2d",
         "destinyItemId": "item-e3a9ddfcafd782162f3f",
         "destinyTitle": "玩家",
         "destinyKo": "Player",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-107dfedc2041165a4a13",
@@ -8098,7 +8357,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：數學系學生 / 員：英語系學生兼助教"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:28:06.621Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:28:08.188Z"
   },
   {
     "page": "季刊",
@@ -8113,17 +8377,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "茶房，樂境(다방, 낙경)_정한",
+        "label": "1",
+        "title": "茶房，樂境",
         "url": "https://docs.google.com/document/d/1mIfHpX0Wfyl0ijYHLLHgo2Pf-YiW8pMJfDwDv2kdQg8/edit?usp=drivesdk",
-        "articleId": "1mIfHpX0Wfyl0ijYHLLHgo2Pf-YiW8pMJfDwDv2kdQg8",
         "original": "https://www.postype.com/@ynseasonrps/post/15859334",
+        "articleId": "1mIfHpX0Wfyl0ijYHLLHgo2Pf-YiW8pMJfDwDv2kdQg8",
         "pricePoints": 0,
         "_episodeId": "ep-2b8827d8464157db20a8",
         "destinyItemId": "item-44dd718580467dec56ce",
         "destinyTitle": "茶房，樂境",
         "destinyKo": "다방, 낙경",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-904dd1f0b44224ca0d0d",
@@ -8149,7 +8414,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：政外系學生 / 員：法文才女"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:28:15.961Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:28:15.962Z"
   },
   {
     "page": "季刊",
@@ -8164,17 +8434,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "不要泡麵，要 Netflix(라면 말고, 넷플릭스)_정한",
+        "label": "1",
+        "title": "不要泡麵，要 Netflix",
         "url": "https://docs.google.com/document/d/1xFrguk7cZGZ6r4EPRRstAmRxkXhanZlMr_jNYL2q8dE/edit?usp=drivesdk",
-        "articleId": "1xFrguk7cZGZ6r4EPRRstAmRxkXhanZlMr_jNYL2q8dE",
         "original": "https://www.postype.com/@ynseasonrps/post/17540454",
+        "articleId": "1xFrguk7cZGZ6r4EPRRstAmRxkXhanZlMr_jNYL2q8dE",
         "pricePoints": 0,
         "_episodeId": "ep-d408e86fb8cf3501acb1",
         "destinyItemId": "item-8dc996c4d405883c4467",
         "destinyTitle": "不要泡麵，要 Netflix",
         "destinyKo": "라면 말고, 넷플릭스",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-420759d896108f40e723",
@@ -8199,7 +8470,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：退役狙擊手 / 員：留級高中生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:28:26.721Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:28:26.721Z"
   },
   {
     "page": "季刊",
@@ -8214,17 +8490,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "偶像與虛像(우상과 허상)_지학",
+        "label": "1",
+        "title": "偶像與虛像",
         "url": "https://docs.google.com/document/d/1UYE7CSoShmb29ssMJ-H62i5YcROI2a-JqCNBUbeBGS8/edit?usp=drivesdk",
-        "articleId": "1UYE7CSoShmb29ssMJ-H62i5YcROI2a-JqCNBUbeBGS8",
         "original": "https://www.postype.com/@ynseasonrps/post/17540254",
+        "articleId": "1UYE7CSoShmb29ssMJ-H62i5YcROI2a-JqCNBUbeBGS8",
         "pricePoints": 0,
         "_episodeId": "ep-891cc19c18796f3944c9",
         "destinyItemId": "item-80d741805f79db56846b",
         "destinyTitle": "偶像與虛像",
         "destinyKo": "우상과 허상",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-dd9f396a73e98386f0f3",
@@ -8249,7 +8526,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：高中生/廚師 / 員：高中生/大學生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:28:33.550Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:28:33.551Z"
   },
   {
     "page": "季刊",
@@ -8264,17 +8546,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "Cherry blossom_진심",
+        "label": "1",
+        "title": "Cherry blossom",
         "url": "https://docs.google.com/document/d/1Wqf4QXZ4P8_jPue0JjXnw97xmpHUrTk0yA88yQCaaUU/edit?usp=drivesdk",
-        "articleId": "1Wqf4QXZ4P8_jPue0JjXnw97xmpHUrTk0yA88yQCaaUU",
         "original": "https://www.postype.com/@ynseasonrps/post/15848356",
+        "articleId": "1Wqf4QXZ4P8_jPue0JjXnw97xmpHUrTk0yA88yQCaaUU",
         "pricePoints": 0,
         "_episodeId": "ep-78674aac97596ad7f998",
         "destinyItemId": "item-eda8f4ec07406a4a0f7b",
         "destinyTitle": "Cherry blossom",
         "destinyKo": "Cherry blossom",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-365a898bbbc6a45b8383",
@@ -8299,7 +8582,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：高中生 / 員：高中生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:28:38.506Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:28:38.507Z"
   },
   {
     "page": "季刊",
@@ -8314,17 +8602,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "Merry Christmas(메리 크리스마스)_쩡우",
+        "label": "1",
+        "title": "Merry Christmas",
         "url": "https://docs.google.com/document/d/1Dve9z2zDNHFWUyogrAC4f8X2cbCLzN689Saq2_Hd48k/edit?usp=drivesdk",
-        "articleId": "1Dve9z2zDNHFWUyogrAC4f8X2cbCLzN689Saq2_Hd48k",
         "original": "https://www.postype.com/@ynseasonrps/post/15848311",
+        "articleId": "1Dve9z2zDNHFWUyogrAC4f8X2cbCLzN689Saq2_Hd48k",
         "pricePoints": 0,
         "_episodeId": "ep-39d92d17e6e947218b9c",
         "destinyItemId": "item-b4a9a89a21b54cfc7050",
         "destinyTitle": "Merry Christmas",
         "destinyKo": "메리 크리스마스",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-d768e3f0445bcbe9d3a5",
@@ -8351,7 +8640,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：聖誕老人"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:28:44.637Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:28:44.637Z"
   },
   {
     "page": "季刊",
@@ -8366,17 +8660,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "一週內把安公爵追到手的方法(일주일 안에 안공작을 꼬시는 방법)_초초",
+        "label": "1",
+        "title": "一週內把安公爵追到手的方法",
         "url": "https://docs.google.com/document/d/1MSBwspvc7_2r5hJlcqU4FtYWuGE7H4BWuBIABUb15Wk/edit?usp=drivesdk",
-        "articleId": "1MSBwspvc7_2r5hJlcqU4FtYWuGE7H4BWuBIABUb15Wk",
         "original": "https://www.postype.com/@ynseasonrps/post/17540320",
+        "articleId": "1MSBwspvc7_2r5hJlcqU4FtYWuGE7H4BWuBIABUb15Wk",
         "pricePoints": 0,
         "_episodeId": "ep-5b2d532686385ff325dc",
         "destinyItemId": "item-009370037c82f3471e73",
         "destinyTitle": "一週內把安公爵追到手的方法",
         "destinyKo": "일주일 안에 안공작을 꼬시는 방법",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-339052884e9291dd0edf",
@@ -8401,7 +8696,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：公爵 / 員：子爵么女"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:28:52.242Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:28:52.242Z"
   },
   {
     "page": "季刊",
@@ -8416,17 +8716,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "Dear My Villain(디어 마이 빌런)_코드",
+        "label": "1",
+        "title": "Dear My Villain",
         "url": "https://docs.google.com/document/d/14jXg6ofwoEP0irM_J0UzqDalnMOJ-f-dgiUj8eQgZcU/edit?usp=drivesdk",
-        "articleId": "14jXg6ofwoEP0irM_J0UzqDalnMOJ-f-dgiUj8eQgZcU",
         "original": "https://www.postype.com/@ynseasonrps/post/15848331",
+        "articleId": "14jXg6ofwoEP0irM_J0UzqDalnMOJ-f-dgiUj8eQgZcU",
         "pricePoints": 0,
         "_episodeId": "ep-5495feb3a2b77c8d4bde",
         "destinyItemId": "item-982550e022e19a387880",
         "destinyTitle": "Dear My Villain",
         "destinyKo": "디어 마이 빌런",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-6848df02563da2c4347b",
@@ -8451,7 +8752,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：能力者隊長 / 員：能力者隊員/隊長"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:28:58.642Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:28:58.642Z"
   },
   {
     "page": "季刊",
@@ -8466,17 +8772,18 @@ window.BOOK_DATA = [
     "date": "2026-07-12",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "那個人，那份愛(그 사람, 그 사랑)_코드",
+        "label": "1",
+        "title": "那個人，那份愛",
         "url": "https://docs.google.com/document/d/1qptyIdeROjvnRlcqLe2JOz0IeV3S0HN0Ms2C8jNOtgw/edit?usp=drivesdk",
-        "articleId": "1qptyIdeROjvnRlcqLe2JOz0IeV3S0HN0Ms2C8jNOtgw",
         "original": "https://www.postype.com/@ynseasonrps/post/17539836",
+        "articleId": "1qptyIdeROjvnRlcqLe2JOz0IeV3S0HN0Ms2C8jNOtgw",
         "pricePoints": 0,
         "_episodeId": "ep-8d914069b0776efa5c4b",
         "destinyItemId": "item-f0e9fba31b5aaf854905",
         "destinyTitle": "那個人，那份愛",
         "destinyKo": "그 사람, 그 사랑",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-9840cc540fc578d9096d",
@@ -8501,7 +8808,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：室長/殺手 / 員：高中生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:29:07.531Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:29:07.531Z"
   },
   {
     "page": "플레인",
@@ -8583,17 +8895,18 @@ window.BOOK_DATA = [
     "date": "2026-07-10",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "辣醬年糕串(떡꼬치)_OCB",
+        "label": "1",
+        "title": "辣醬年糕串",
         "url": "https://docs.google.com/document/d/1_Bf6wvR7o1-tDThDhBZFqq1pltn8SiRNFABhpyfMW4M/edit?usp=drivesdk",
-        "articleId": "1_Bf6wvR7o1-tDThDhBZFqq1pltn8SiRNFABhpyfMW4M",
         "original": "https://www.postype.com/@ynseasonrps/post/15290849",
+        "articleId": "1_Bf6wvR7o1-tDThDhBZFqq1pltn8SiRNFABhpyfMW4M",
         "pricePoints": 0,
         "_episodeId": "ep-2fd89b1bfc7452e1cd32",
         "destinyItemId": "item-9ccedaa55b063211d481",
         "destinyTitle": "辣醬年糕串",
         "destinyKo": "떡꼬치",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-0414a1a07ad78ffbc325",
@@ -8622,7 +8935,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：家教老師/上班族 / 員：大學生/美妝吃播主"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:29:14.571Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:29:14.571Z"
   },
   {
     "page": "季刊",
@@ -8637,17 +8955,18 @@ window.BOOK_DATA = [
     "date": "2026-07-10",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "純愛與殉愛：巡愛(순애와 순애 _ 巡愛)_도교",
+        "label": "1",
+        "title": "純愛與殉愛：巡愛",
         "url": "https://docs.google.com/document/d/1ysm8FCPITxv709XZeU8T9T9-dixJi5oUC2f7xvZSrMw/edit?usp=drivesdk",
-        "articleId": "1ysm8FCPITxv709XZeU8T9T9-dixJi5oUC2f7xvZSrMw",
         "original": "https://www.postype.com/@ynseasonrps/post/15290809",
+        "articleId": "1ysm8FCPITxv709XZeU8T9T9-dixJi5oUC2f7xvZSrMw",
         "pricePoints": 0,
         "_episodeId": "ep-f6a3316eee7a7673becb",
         "destinyItemId": "item-d09248376860966b8975",
         "destinyTitle": "純愛與殉愛：巡愛",
         "destinyKo": "순애와 순애 : 巡愛",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-414399a1bcc48f8553a2",
@@ -8673,13 +8992,18 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：大學生 / 員：大學生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:29:21.866Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:29:21.867Z"
   },
   {
     "page": "季刊",
     "status": "2.已完結",
     "ko": "비즈니스 레쥬언드 퍼포몬쓰",
-    "zh": "Business Legend Performance",
+    "zh": "商業級傳奇演出",
     "original": "https://www.postype.com/@ynseasonrps/post/15290870",
     "translation": "https://docs.google.com/document/d/1LQ3lB4QJOnMqEH-kKcSOa7ihbu30CZwRkziesP1y70k/edit?usp=drivesdk",
     "author": "박프로",
@@ -8688,11 +9012,18 @@ window.BOOK_DATA = [
     "date": "2026-07-10",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "Business Legend Performance(비즈니스 레쥬언드 퍼포몬쓰)_박프로",
+        "label": "1",
+        "title": "商業級傳奇演出",
         "url": "https://docs.google.com/document/d/1LQ3lB4QJOnMqEH-kKcSOa7ihbu30CZwRkziesP1y70k/edit?usp=drivesdk",
-        "articleId": "1LQ3lB4QJOnMqEH-kKcSOa7ihbu30CZwRkziesP1y70k",
-        "_episodeId": "ep-f08b67f4e76d2f14b2ab"
+        "original": "",
+        "articleId": "1m1U4Wc9NA-rHJWt1yGpIp7X6YBRcHaO9tHJUtYpjxNU",
+        "pricePoints": null,
+        "_episodeId": "ep-f08b67f4e76d2f14b2ab",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-b832cabb65678a58f17d",
@@ -8718,7 +9049,12 @@ window.BOOK_DATA = [
     "knownPricePoints": 0,
     "unpricedEpisodes": 1,
     "pricePoints": null,
-    "pricingMode": "episodes"
+    "pricingMode": "episodes",
+    "createdAt": "2026-10-12T08:29:35.843Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:30:22.241Z"
   },
   {
     "page": "季刊",
@@ -8733,17 +9069,18 @@ window.BOOK_DATA = [
     "date": "2026-07-10",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "船村恰恰恰(뱃마을 차차차)_와이",
+        "label": "1",
+        "title": "船村恰恰恰",
         "url": "https://docs.google.com/document/d/1swUiuz4n5CmQQ9hVTrTNPm-0SoGlvPHGJwpoh1BGTq8/edit?usp=drivesdk",
-        "articleId": "1swUiuz4n5CmQQ9hVTrTNPm-0SoGlvPHGJwpoh1BGTq8",
         "original": "https://www.postype.com/@ynseasonrps/post/15290778",
+        "articleId": "1swUiuz4n5CmQQ9hVTrTNPm-0SoGlvPHGJwpoh1BGTq8",
         "pricePoints": 0,
         "_episodeId": "ep-41a6dfb30215b76bb49b",
         "destinyItemId": "item-317b161c4715bd427035",
         "destinyTitle": "船村恰恰恰",
         "destinyKo": "뱃마을 차차차",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-60cce3158e11505ea751",
@@ -8768,7 +9105,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：退役軍人 / 員：人魚"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:30:48.857Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:30:48.858Z"
   },
   {
     "page": "季刊",
@@ -8783,17 +9125,18 @@ window.BOOK_DATA = [
     "date": "2026-07-10",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "One More Time(원 모어 타임)_익명",
+        "label": "1",
+        "title": "One More Time",
         "url": "https://docs.google.com/document/d/1KMnC6TTb4TzbpPVZvWB86K9FXAa8qXCPat29V6Y0Pd0/edit?usp=drivesdk",
-        "articleId": "1KMnC6TTb4TzbpPVZvWB86K9FXAa8qXCPat29V6Y0Pd0",
         "original": "https://www.postype.com/@ynseasonrps/post/15290892",
+        "articleId": "1KMnC6TTb4TzbpPVZvWB86K9FXAa8qXCPat29V6Y0Pd0",
         "pricePoints": 0,
         "_episodeId": "ep-4c88a57d3d7708190691",
         "destinyItemId": "item-e12a66d9471e60d0d452",
         "destinyTitle": "One More Time",
         "destinyKo": "원 모어 타임",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-1e3cff5c83381718560e",
@@ -8818,7 +9161,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：無名樂團主唱 / 員：家喻戶曉藝人"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:30:57.470Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:30:57.470Z"
   },
   {
     "page": "季刊",
@@ -8833,17 +9181,18 @@ window.BOOK_DATA = [
     "date": "2026-07-10",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "散發水果香的肥皂(과일향 나는 비누)_키퍼",
+        "label": "1",
+        "title": "散發水果香的肥皂",
         "url": "https://docs.google.com/document/d/1tC8a9mtjQltU1rEj2W0vOSZUBpmyOoY34Mk0ulewAdY/edit?usp=drivesdk",
-        "articleId": "1tC8a9mtjQltU1rEj2W0vOSZUBpmyOoY34Mk0ulewAdY",
         "original": "https://www.postype.com/@ynseasonrps/post/15297524",
+        "articleId": "1tC8a9mtjQltU1rEj2W0vOSZUBpmyOoY34Mk0ulewAdY",
         "pricePoints": 0,
         "_episodeId": "ep-fc3469d59d75d2cfad68",
         "destinyItemId": "item-cc42ba51052ba029973a",
         "destinyTitle": "散發水果香的肥皂",
         "destinyKo": "과일향 나는 비누",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-ab67a3e2be6f1bef5f50",
@@ -8868,7 +9217,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：婢女 / 員：千金"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:31:04.619Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:31:04.619Z"
   },
   {
     "page": "季刊",
@@ -8883,19 +9237,39 @@ window.BOOK_DATA = [
     "date": "2026-07-08",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "初戀(첫사랑)_두르비",
+        "label": "1",
+        "title": "初戀(첫사랑)",
         "url": "https://docs.google.com/document/d/1gEyRsneHJQuSPY9uNk-6E0SUhm6BKDhsjtq-dsdQ--Q/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@ynseasonrps/post/14650826",
         "articleId": "1gEyRsneHJQuSPY9uNk-6E0SUhm6BKDhsjtq-dsdQ--Q",
-        "_episodeId": "ep-11d4bcc5e06f69b6055f"
+        "pricePoints": 0,
+        "_episodeId": "ep-11d4bcc5e06f69b6055f",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-f1f2a8103962be89dae6",
     "_favoriteKey": "https://docs.google.com/document/d/1gEyRsneHJQuSPY9uNk-6E0SUhm6BKDhsjtq-dsdQ--Q/edit?usp=drivesdk",
     "articleId": "1gEyRsneHJQuSPY9uNk-6E0SUhm6BKDhsjtq-dsdQ--Q",
     "includeShelf": true,
-    "includeDestiny": false,
-    "recommendations": []
+    "includeDestiny": true,
+    "recommendations": [],
+    "createdAt": "2026-10-12T08:31:11.053Z",
+    "paid": false,
+    "hidden": false,
+    "destinyDeleted": false,
+    "destinyId": "P0467",
+    "destinyTitle": "",
+    "pricePoints": 0,
+    "tags": [],
+    "characters": [],
+    "pricingMode": "episodes",
+    "knownPricePoints": 0,
+    "unpricedEpisodes": 0,
+    "updatedAt": "2026-10-12T08:31:45.717Z"
   },
   {
     "page": "季刊",
@@ -8910,17 +9284,18 @@ window.BOOK_DATA = [
     "date": "2026-07-08",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "與你共度夜晚(밤을 너와)_라니",
+        "label": "1",
+        "title": "與你共度夜晚",
         "url": "https://docs.google.com/document/d/1Xa6OAUXbC0IsuM3MxKE721XOv_rVWNycptDhh_ZATMM/edit?usp=drivesdk",
-        "articleId": "1Xa6OAUXbC0IsuM3MxKE721XOv_rVWNycptDhh_ZATMM",
         "original": "https://www.postype.com/@ynseasonrps/post/14649300",
+        "articleId": "1Xa6OAUXbC0IsuM3MxKE721XOv_rVWNycptDhh_ZATMM",
         "pricePoints": 0,
         "_episodeId": "ep-be191234998428ad2f32",
         "destinyItemId": "item-4edd4fcc8f178f48ab65",
         "destinyTitle": "與你共度夜晚",
         "destinyKo": "밤을 너와",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-457f4155c5272e0196e1",
@@ -8944,7 +9319,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：大學生 / 員：大學生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:31:52.883Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:31:52.884Z"
   },
   {
     "page": "季刊",
@@ -8960,18 +9340,38 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "你和我(너 그리고 나)_롸댕",
+        "title": "你和我",
         "url": "https://docs.google.com/document/d/10nIp7Tter0ugBD0Q-l9h3DAeareHO-JCIlIHBVsVwho/edit?usp=drivesdk",
+        "original": "",
         "articleId": "10nIp7Tter0ugBD0Q-l9h3DAeareHO-JCIlIHBVsVwho",
-        "_episodeId": "ep-89527096387604bd0429"
+        "pricePoints": null,
+        "_episodeId": "ep-89527096387604bd0429",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-3ce858b51aa52fa2a60e",
     "_favoriteKey": "https://docs.google.com/document/d/10nIp7Tter0ugBD0Q-l9h3DAeareHO-JCIlIHBVsVwho/edit?usp=drivesdk",
     "articleId": "10nIp7Tter0ugBD0Q-l9h3DAeareHO-JCIlIHBVsVwho",
     "includeShelf": true,
-    "includeDestiny": false,
-    "recommendations": []
+    "includeDestiny": true,
+    "recommendations": [],
+    "createdAt": "2026-10-12T08:21:46.494Z",
+    "paid": false,
+    "hidden": false,
+    "destinyDeleted": false,
+    "destinyId": "P0465",
+    "destinyTitle": "",
+    "pricePoints": null,
+    "tags": [],
+    "characters": [],
+    "pricingMode": "episodes",
+    "knownPricePoints": 0,
+    "unpricedEpisodes": 1,
+    "updatedAt": "2026-10-12T08:21:46.495Z"
   },
   {
     "page": "季刊",
@@ -8986,17 +9386,18 @@ window.BOOK_DATA = [
     "date": "2026-07-08",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "天氣預報(일기예보)_불미",
+        "label": "1",
+        "title": "天氣預報",
         "url": "https://docs.google.com/document/d/10c8tADlUvMqR4Deh8VZQHi6R5LzmxhANGFrReywlGx8/edit?usp=drivesdk",
-        "articleId": "10c8tADlUvMqR4Deh8VZQHi6R5LzmxhANGFrReywlGx8",
         "original": "https://www.postype.com/@ynseasonrps/post/14661854",
+        "articleId": "10c8tADlUvMqR4Deh8VZQHi6R5LzmxhANGFrReywlGx8",
         "pricePoints": 0,
         "_episodeId": "ep-0ec48c017baa50598055",
         "destinyItemId": "item-ee568c85fc7db05522b7",
         "destinyTitle": "天氣預報",
         "destinyKo": "일기예보",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-041f5499da9ec0f8b38a",
@@ -9022,7 +9423,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：學生 / 員：學生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:32:03.026Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:32:03.027Z"
   },
   {
     "page": "季刊",
@@ -9037,17 +9443,18 @@ window.BOOK_DATA = [
     "date": "2026-07-08",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "未成熟(미성숙)_소온",
+        "label": "1",
+        "title": "未成熟(미성숙)",
         "url": "https://docs.google.com/document/d/15-puRKmhGGCY4Pzqe9UzZ37i-JzW4y1oZGTR26ynAuY/edit?usp=drivesdk",
-        "articleId": "15-puRKmhGGCY4Pzqe9UzZ37i-JzW4y1oZGTR26ynAuY",
         "original": "https://www.postype.com/@ynseasonrps/post/14649308",
+        "articleId": "15-puRKmhGGCY4Pzqe9UzZ37i-JzW4y1oZGTR26ynAuY",
         "pricePoints": 0,
         "_episodeId": "ep-35c8a429e7aaa6d29310",
         "destinyItemId": "item-604745551779e12f21e4",
         "destinyTitle": "未成熟",
         "destinyKo": "미성숙",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-53cab9300c56f01e6356",
@@ -9074,7 +9481,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：組長 / 員：上班族"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:32:09.588Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:32:09.588Z"
   },
   {
     "page": "季刊",
@@ -9089,17 +9501,18 @@ window.BOOK_DATA = [
     "date": "2026-07-08",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "你的四季(당신의 사계)_정한",
+        "label": "1",
+        "title": "你的四季",
         "url": "https://docs.google.com/document/d/1elfaxvVbmbL-rXXyBaAS0egEzx0OQay0IwIBbU9nGTU/edit?usp=drivesdk",
-        "articleId": "1elfaxvVbmbL-rXXyBaAS0egEzx0OQay0IwIBbU9nGTU",
         "original": "https://www.postype.com/@ynseasonrps/post/14649296",
+        "articleId": "1elfaxvVbmbL-rXXyBaAS0egEzx0OQay0IwIBbU9nGTU",
         "pricePoints": 0,
         "_episodeId": "ep-72ac4df65cd9238757bc",
         "destinyItemId": "item-5321c2803ade12f1aac2",
         "destinyTitle": "你的四季",
         "destinyKo": "당신의 사계",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-e145fc89039bace0084d",
@@ -9127,7 +9540,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：美術生/畫家 / 員：舞蹈系學生/舞蹈系教授"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:32:16.524Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:32:16.525Z"
   },
   {
     "page": "季刊",
@@ -9142,17 +9560,18 @@ window.BOOK_DATA = [
     "date": "2026-07-08",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "仲夏夜之騷動(한여름 밤의 소동)_해류",
+        "label": "1",
+        "title": "仲夏夜之騷動",
         "url": "https://docs.google.com/document/d/1GDhtQzw4Z61XHIbnUq30u56ykHuPsKyyNNNEAvWwKxY/edit?usp=drivesdk",
-        "articleId": "1GDhtQzw4Z61XHIbnUq30u56ykHuPsKyyNNNEAvWwKxY",
         "original": "https://www.postype.com/@ynseasonrps/post/14650825",
+        "articleId": "1GDhtQzw4Z61XHIbnUq30u56ykHuPsKyyNNNEAvWwKxY",
         "pricePoints": 0,
         "_episodeId": "ep-f5e40ecd2cae8884c8c5",
         "destinyItemId": "item-beca53539d4b6f022c96",
         "destinyTitle": "仲夏夜之騷動",
         "destinyKo": "한여름 밤의 소동",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-0cd028b669a9e3983945",
@@ -9176,7 +9595,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：學生 / 員：學生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:32:21.972Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:32:21.972Z"
   },
   {
     "page": "noname",
@@ -9248,17 +9672,18 @@ window.BOOK_DATA = [
     "date": "2026-07-05",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "初戀魔咒(첫사랑 징크스)_소온",
+        "label": "1",
+        "title": "初戀魔咒",
         "url": "https://docs.google.com/document/d/1OzWdtY5sa1qU0N2_9cH_ts5z8MhhYlzIGIo_LuIwun8/edit?usp=drivesdk",
-        "articleId": "1OzWdtY5sa1qU0N2_9cH_ts5z8MhhYlzIGIo_LuIwun8",
         "original": "https://www.postype.com/@ynseasonrps/post/13439587",
+        "articleId": "1OzWdtY5sa1qU0N2_9cH_ts5z8MhhYlzIGIo_LuIwun8",
         "pricePoints": 0,
         "_episodeId": "ep-dd88d4c45396d83f49d9",
         "destinyItemId": "item-c85468fd1272fb733240",
         "destinyTitle": "初戀魔咒",
         "destinyKo": "첫사랑 징크스",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-26d88962bdada485519e",
@@ -9283,7 +9708,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：高中生 / 員：高中生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:32:27.978Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:32:27.978Z"
   },
   {
     "page": "季刊",
@@ -9298,17 +9728,18 @@ window.BOOK_DATA = [
     "date": "2026-07-05",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "愛情就是時機！(사랑은 타이밍!)_익명2",
+        "label": "1",
+        "title": "愛情就是時機！",
         "url": "https://docs.google.com/document/d/1NSkhsRsq6celdB-SpQA62HtUULuxqdQqR1AAJ_OLFbM/edit?usp=drivesdk",
-        "articleId": "1NSkhsRsq6celdB-SpQA62HtUULuxqdQqR1AAJ_OLFbM",
         "original": "https://www.postype.com/@ynseasonrps/post/13439534",
+        "articleId": "1NSkhsRsq6celdB-SpQA62HtUULuxqdQqR1AAJ_OLFbM",
         "pricePoints": 0,
         "_episodeId": "ep-51faf81b1b0d7cea6219",
         "destinyItemId": "item-cbaaa2df66547f9547d4",
         "destinyTitle": "愛情就是時機！",
         "destinyKo": "사랑은 타이밍!",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-d42b8aacbe4d944d5212",
@@ -9333,7 +9764,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：藝人 / 員：藝人"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:32:33.522Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:32:33.522Z"
   },
   {
     "page": "季刊",
@@ -9348,17 +9784,18 @@ window.BOOK_DATA = [
     "date": "2026-07-05",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "Punch Drunk Melo(펀치 드렁크 멜로)_테이",
+        "label": "1",
+        "title": "Punch Drunk Melo",
         "url": "https://docs.google.com/document/d/1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o/edit?usp=drivesdk",
-        "articleId": "1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o",
         "original": "https://www.postype.com/@ynseasonrps/post/13448478",
+        "articleId": "1UOJNQaV3ndAI7M0FjlYwEqPo9_4J_-3CVrvfOMzVm0o",
         "pricePoints": 0,
         "_episodeId": "ep-95320a26242529a6ddc6",
         "destinyItemId": "item-72ed91572d5814fe0d12",
         "destinyTitle": "Punch Drunk Melo",
         "destinyKo": "펀치 드렁크 멜로",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-3e15ebbd303c5c2cace4",
@@ -9383,7 +9820,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：大學生/吉他社成員 / 員：大學生/吉他社成員"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:32:39.923Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:32:39.924Z"
   },
   {
     "page": "noname",
@@ -12662,17 +13104,18 @@ window.BOOK_DATA = [
     "date": "2025-07-13",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "1",
         "title": "3年Never Die",
         "url": "https://docs.google.com/document/d/1mbLtyJu6jF0Nk8JwOVIsHlRHGm4c4mBR7n3q3i-bERk/edit?usp=drivesdk",
-        "articleId": "1mbLtyJu6jF0Nk8JwOVIsHlRHGm4c4mBR7n3q3i-bERk",
         "original": "https://www.postype.com/@ynseasonrps/post/13450348",
+        "articleId": "1mbLtyJu6jF0Nk8JwOVIsHlRHGm4c4mBR7n3q3i-bERk",
         "pricePoints": 0,
         "_episodeId": "ep-9aaf33a9a93e1e4f97b8",
         "destinyItemId": "item-3f87f4cfe29b93fb36d8",
         "destinyTitle": "3年Never Die",
         "destinyKo": "3년네버다이",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-97606b8f6c15fbd01ab5",
@@ -12697,7 +13140,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：大學生 / 員：留學生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:32:46.832Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:32:46.833Z"
   },
   {
     "page": "季刊",
@@ -12712,17 +13160,18 @@ window.BOOK_DATA = [
     "date": "2025-07-13",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "1",
         "title": "總有一天，我們就那樣生活吧",
         "url": "https://docs.google.com/document/d/1uBwYqIIW1tjbDafGx44-Oa48JXbt2Ida7TYJKb_5R9w/edit?usp=drivesdk",
-        "articleId": "1uBwYqIIW1tjbDafGx44-Oa48JXbt2Ida7TYJKb_5R9w",
         "original": "https://www.postype.com/@ynseasonrps/post/13450322",
+        "articleId": "1uBwYqIIW1tjbDafGx44-Oa48JXbt2Ida7TYJKb_5R9w",
         "pricePoints": 0,
         "_episodeId": "ep-eed1cced457c98632ba4",
         "destinyItemId": "item-762cf5c7ac9c64b0d60b",
         "destinyTitle": "總有一天，我們就那樣生活吧",
         "destinyKo": "언젠가 우리 그렇게 살자",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-4419305aecf7d6e013c8",
@@ -12749,7 +13198,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：高中生 / 員：高中生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:32:50.621Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:32:50.621Z"
   },
   {
     "page": "季刊",
@@ -12764,17 +13218,18 @@ window.BOOK_DATA = [
     "date": "2025-07-13",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "1",
         "title": "我們要怎麼辦",
         "url": "https://docs.google.com/document/d/1dSGFbnN13T1TIU8Mwp0bG652yw__pGpjyQL1EOQnClU/edit?usp=drivesdk",
-        "articleId": "1dSGFbnN13T1TIU8Mwp0bG652yw__pGpjyQL1EOQnClU",
         "original": "https://www.postype.com/@ynseasonrps/post/13450287",
+        "articleId": "1dSGFbnN13T1TIU8Mwp0bG652yw__pGpjyQL1EOQnClU",
         "pricePoints": 0,
         "_episodeId": "ep-44647c251f804f6bda2a",
         "destinyItemId": "item-9c6f807fe86bf64f8f38",
         "destinyTitle": "我們要怎麼辦",
         "destinyKo": "우리가 어떻게",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-d79bed0a8c97806ca3ee",
@@ -12799,7 +13254,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：待業中 / 員：上班族"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:32:54.380Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:32:54.380Z"
   },
   {
     "page": "朴專家",
@@ -15048,17 +15508,18 @@ window.BOOK_DATA = [
     "date": "2025-05-18",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "純愛與殉愛(순애와 순애)_도교",
+        "label": "1",
+        "title": "純愛與殉愛",
         "url": "https://docs.google.com/document/d/1c4Cf6IqyMcWlJg3NKWyYj5OSISgQo8JhSuWrxFGmY10/edit?usp=drivesdk",
-        "articleId": "1c4Cf6IqyMcWlJg3NKWyYj5OSISgQo8JhSuWrxFGmY10",
         "original": "https://www.postype.com/@ynseasonrps/post/13442656",
+        "articleId": "1c4Cf6IqyMcWlJg3NKWyYj5OSISgQo8JhSuWrxFGmY10",
         "pricePoints": 0,
         "_episodeId": "ep-aa799846ad37362c5b18",
         "destinyItemId": "item-b0970476fee0d99f7656",
         "destinyTitle": "純愛與殉愛",
         "destinyKo": "순애와 순애",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-20e5ca0f82089752510d",
@@ -15085,7 +15546,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：大學生 / 員：大學生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:33:05.822Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:33:05.823Z"
   },
   {
     "page": "其他老師",
@@ -15198,17 +15664,18 @@ window.BOOK_DATA = [
     "date": "2025-05-17",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "1",
         "title": "炭烤香腸口味的法蘭克",
         "url": "https://docs.google.com/document/d/163yWFjepx2hhfsOp-jHVul1T5cS-OLsnFd4CPOGZajk/edit?usp=drivesdk",
-        "articleId": "163yWFjepx2hhfsOp-jHVul1T5cS-OLsnFd4CPOGZajk",
         "original": "https://www.postype.com/@ynseasonrps/post/13009137",
+        "articleId": "163yWFjepx2hhfsOp-jHVul1T5cS-OLsnFd4CPOGZajk",
         "pricePoints": 0,
         "_episodeId": "ep-8e1e37d9c17dd68f91f3",
         "destinyItemId": "item-3e2c1aaf89299e9d4b7d",
         "destinyTitle": "炭烤香腸口味的法蘭克",
         "destinyKo": "숯불구이맛후랑크",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-e612c0fa0bbf3e0e5f18",
@@ -15232,7 +15699,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：求職人 / 員：打工人"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:33:10.015Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:33:10.015Z"
   },
   {
     "page": "真心",
@@ -15332,17 +15804,18 @@ window.BOOK_DATA = [
     "date": "2025-05-15",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "1",
         "title": "理解季節",
         "url": "https://docs.google.com/document/d/1Sz2zJdnMUWFxu4pCVd0ClnBw66f_KtthfvFN2RKwHbY/edit?usp=drivesdk",
-        "articleId": "1Sz2zJdnMUWFxu4pCVd0ClnBw66f_KtthfvFN2RKwHbY",
         "original": "https://www.postype.com/@ynseasonrps/post/13009130",
+        "articleId": "1Sz2zJdnMUWFxu4pCVd0ClnBw66f_KtthfvFN2RKwHbY",
         "pricePoints": 0,
         "_episodeId": "ep-38bc8f24cce72f67be16",
         "destinyItemId": "item-b1e80cb53ea79a6cb41a",
         "destinyTitle": "理解季節",
         "destinyKo": "계절의 이해",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-35752f5b2c61abbd8f17",
@@ -15367,7 +15840,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：上班族 / 員：大學生"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:33:14.869Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:33:14.869Z"
   },
   {
     "page": "季刊",
@@ -15382,17 +15860,18 @@ window.BOOK_DATA = [
     "date": "2025-05-12",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "1",
         "title": "夏天的定義",
         "url": "https://docs.google.com/document/d/1Bxhh7S9QC7przFRxImKEcXpRiGfj14QzmtxUvss4fF8/edit?usp=drivesdk",
-        "articleId": "1Bxhh7S9QC7przFRxImKEcXpRiGfj14QzmtxUvss4fF8",
         "original": "https://www.postype.com/@ynseasonrps/post/13009139",
+        "articleId": "1Bxhh7S9QC7przFRxImKEcXpRiGfj14QzmtxUvss4fF8",
         "pricePoints": 0,
         "_episodeId": "ep-f62e66a3346ec633181a",
         "destinyItemId": "item-7038b9532d60a0f2bcce",
         "destinyTitle": "夏天的定義",
         "destinyKo": "여름의 정의",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-912366a642e54645e71c",
@@ -15417,7 +15896,12 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "安：青梅 / 員：青梅"
-    ]
+    ],
+    "createdAt": "2026-10-12T08:33:18.881Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:33:18.882Z"
   },
   {
     "page": "noname",
@@ -22063,17 +22547,18 @@ window.BOOK_DATA = [
     "date": "2024-12-13",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "採錄_chat-gpt",
+        "label": "1",
+        "title": "採錄",
         "url": "https://docs.google.com/document/d/1WcQZVP611XVL9eiJaTUBBLMe491dNZYNOdU1Hp4S29g/edit?usp=drivesdk",
-        "articleId": "1WcQZVP611XVL9eiJaTUBBLMe491dNZYNOdU1Hp4S29g",
         "original": "https://www.postype.com/@drinkofsouthgod/post/17119264",
+        "articleId": "1WcQZVP611XVL9eiJaTUBBLMe491dNZYNOdU1Hp4S29g",
         "pricePoints": 0,
         "_episodeId": "ep-a40473d2ac101c11d2e8",
         "destinyItemId": "item-867d764de61ef89a6136",
         "destinyTitle": "採錄",
         "destinyKo": "채록(採錄)",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-9baa0f14f1095f3b16c2",
@@ -22098,8 +22583,14 @@ window.BOOK_DATA = [
       "結局: OE"
     ],
     "characters": [
-      "安：祠堂長\n員：祠堂舞者"
-    ]
+      "安：祠堂長",
+      "員：祠堂舞者"
+    ],
+    "createdAt": "2026-10-12T08:23:59.022Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T08:24:19.670Z"
   },
   {
     "page": "其他老師",
