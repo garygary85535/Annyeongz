@@ -913,6 +913,8 @@
     [data-theme="dark"] .badge{box-shadow:inset 0 1px #ffffff08}
   </style>
   <style id="compactShelfActions">
+    #modalLinks .episode-detail{display:flex;flex-direction:column;gap:5px;min-width:0;max-width:100%;align-items:stretch}
+    #modalLinks .episode-word-count{font-size:12px;line-height:1.5;color:var(--muted);text-align:center;overflow-wrap:anywhere}
     .card .links.card-quick-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;max-height:none;overflow:visible;margin-top:auto;padding-top:14px}
     .card-quick-links>a,.card-quick-links>.link-disabled,.card-quick-links>.detail-link{display:block;min-width:0;width:100%;height:34px;min-height:34px;max-height:34px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center;padding:7px 6px;line-height:18px;font-size:11px;border:1px solid var(--line);border-radius:4px}
     .card-quick-links>.detail-link{background:var(--rose-soft);border-color:transparent;color:var(--rose);cursor:pointer;font-weight:700}
@@ -1111,7 +1113,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
   <script src="reader-content-guard.js"></script>
   <script src="reader-vault-config.js"></script>
   <script src="reader-vault.js?v=20261006-local-images"></script>
-  <script src="data.js?v=a4df694967b1"></script>
+  <script src="data.js?v=a2a233c9add1"></script>
   <script>
     const DATA = window.BOOK_DATA || [];
     function escapeHTML(value) { return String(value ?? "").replace(/[&<>"']/g, c => ({38:"&amp;",60:"&lt;",62:"&gt;",34:"&quot;",39:"&#39;"}[c.charCodeAt(0)])); }
@@ -1425,7 +1427,11 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
       return `<a href="#" onclick="event.preventDefault();event.stopPropagation();openProtected(${DATA.indexOf(item)}, '${kind}')">${label}</a>`;
     }
 
-    function episodeLinks(item, limit = Infinity) {
+    function wordCountText(count) {
+      return Number.isSafeInteger(count) && count >= 0 ? count.toLocaleString("zh-TW") + " 字" : "尚無字數資料";
+    }
+
+    function episodeLinks(item, limit = Infinity, showCounts = false) {
       if (!item.episodes || !item.episodes.length) return "";
       return item.episodes.map((episode, index) => {
         if (!episode.url && !episode.articleId) return "";
@@ -1440,7 +1446,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
           return `<a href="${escapeHTML(episode.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHTML(text)}</a>`;
         }
         return `<a href="#" onclick="event.preventDefault();event.stopPropagation();openProtected(${DATA.indexOf(item)}, 'episode:${index}')">${escapeHTML(text)}</a>`;
-      }).filter(Boolean).slice(0, limit).join("");
+      }).map((link, index) => link && showCounts ? `<span class="episode-detail">${link}<small class="episode-word-count">${wordCountText(item.episodes[index].wordCount)}</small></span>` : link).filter(Boolean).slice(0, limit).join("");
     }
 
     function card(item) {
@@ -1530,7 +1536,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
       ].join("");
       el.modalLinks.innerHTML = `
         ${protectedLink(item, "original", "原文連結")}
-        ${item.episodes && item.episodes.length ? episodeLinks(item) : protectedLink(item, "translation", "譯文連結")}
+        ${item.episodes && item.episodes.length ? episodeLinks(item, Infinity, true) : `<span class="episode-detail">${protectedLink(item, "translation", "譯文連結")}<small class="episode-word-count">${wordCountText(item.wordCount)}</small></span>`}
       `;
       el.modal.classList.add("open");
       el.modal.setAttribute("aria-hidden", "false");

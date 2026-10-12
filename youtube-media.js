@@ -6,7 +6,9 @@
   function parseSoundCloud(value) {
     let url;
     try { url = new URL(value.trim()); } catch { throw Error('請貼上完整的 SoundCloud 歌曲網址。'); }
-    if (!['http:', 'https:'].includes(url.protocol) || !['soundcloud.com', 'www.soundcloud.com'].includes(url.hostname) || url.username || url.password || url.port || !/^\/[\w-]+\/[\w-]+\/?$/.test(url.pathname) || url.pathname.split('/')[2] === 'sets') throw Error('請使用 SoundCloud 單首歌曲的完整分享連結。');
+    const track = /^\/[\w-]+\/(?!sets\/?$)[\w-]+\/?$/.test(url.pathname);
+    const playlist = /^\/[\w-]+\/sets\/[\w-]+\/?$/.test(url.pathname);
+    if (!['http:', 'https:'].includes(url.protocol) || !['soundcloud.com', 'www.soundcloud.com'].includes(url.hostname) || url.username || url.password || url.port || (!track && !playlist)) throw Error('請使用 SoundCloud 歌曲或播放清單的完整分享連結。');
     const t = new URLSearchParams(url.hash.slice(1)).get('t') || url.searchParams.get('t') || '0';
     if (!/^\d+(?::[0-5]\d){0,2}$/.test(t)) throw Error('音樂開始時間不正確。');
     const start = t.split(':').reduce((n, part) => n * 60 + Number(part), 0);
@@ -98,15 +100,17 @@
   function createSoundCloud(audio, doc = document, editable = false) {
     if (!validSoundCloud(audio)) throw Error('SoundCloud 音樂資料不正確。');
     const tile = doc.createElement('div'); tile.className = 'youtube-block soundcloud-block';
+    const playlist = new URL(audio.url).pathname.split('/')[2] === 'sets';
+    if (playlist) { tile.classList.add('soundcloud-playlist'); tile.style.height = '450px'; tile.style.minHeight = '450px'; }
     tile.dataset.soundcloudUrl = audio.url; tile.dataset.soundcloudStart = String(audio.start || 0); tile.contentEditable = 'false';
     const play = doc.createElement('button'); play.type = 'button'; play.className = 'youtube-play'; play.dataset.soundcloudPlay = '';
-    play.textContent = '▶ SoundCloud'; play.title = '載入 SoundCloud 音樂'; play.setAttribute('aria-label', play.title);
+    play.textContent = playlist ? '▶ SoundCloud 播放清單' : '▶ SoundCloud'; play.title = playlist ? '載入 SoundCloud 播放清單' : '載入 SoundCloud 音樂'; play.setAttribute('aria-label', play.title);
     function load(exclusive = false) {
       if (tile.querySelector('iframe')) return;
       if (exclusive) stop(doc);
       const src = new URL('https://w.soundcloud.com/player/');
       src.search = new URLSearchParams({ url: audio.url, auto_play: 'false', visual: 'false', show_comments: 'false' }).toString();
-      const frame = doc.createElement('iframe'); frame.src = src.href; frame.title = 'SoundCloud 音樂'; frame.allow = 'autoplay'; frame.referrerPolicy = 'strict-origin-when-cross-origin';
+      const frame = doc.createElement('iframe'); frame.src = src.href; frame.title = playlist ? 'SoundCloud 播放清單' : 'SoundCloud 音樂'; frame.allow = 'autoplay'; frame.referrerPolicy = 'strict-origin-when-cross-origin';
       play.hidden = true; tile.append(frame); active.add(frame);
       if (audio.start) loadSoundCloudAPI(doc).then(SC => {
         if (!frame.isConnected) return;
