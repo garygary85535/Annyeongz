@@ -1,5 +1,104 @@
 window.BOOK_DATA = [
   {
+    "_id": "work-cdc5802c-46db-4a0a-b2fd-d93bb450449a",
+    "createdAt": "2026-10-12T06:37:52.364Z",
+    "zh": "老套系列",
+    "ko": "뻔한 시리즈",
+    "page": "其他老師",
+    "author": "민무（閔無）",
+    "translator": "鳳梨",
+    "status": "2.已完結",
+    "note": "@新入荷",
+    "date": "2026-10-12",
+    "original": "https://www.postype.com/zh-hant/@yoominzzin/post/6713409",
+    "translation": "",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "includeShelf": true,
+    "includeDestiny": true,
+    "destinyDeleted": false,
+    "destinyId": "P0463",
+    "destinyTitle": "",
+    "recommendations": [],
+    "pricePoints": null,
+    "_favoriteKey": "work-cdc5802c-46db-4a0a-b2fd-d93bb450449a",
+    "tags": [
+      "情感梗: 青梅",
+      "文章狀態: 完結+番外",
+      "文章篇幅: 短篇",
+      "文章類型: 都市現實",
+      "結局: HE",
+      "背景設定: 校園"
+    ],
+    "characters": [
+      "安：高中生",
+      "員：高中生"
+    ],
+    "episodes": [
+      {
+        "label": "01 老套的初吻",
+        "title": "老套系列 - 老套的初吻",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@yoominzzin/post/6713409",
+        "articleId": "1Vk71wMVP31QhRMoKJx94JZmLaFwxEvwp2mL1YJQ18IQ",
+        "pricePoints": 0,
+        "_episodeId": "ep-ed596019-2113-4454-a4f8-d6cdac02515b",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "01 老套的約會(+)",
+        "title": "老套系列 - 老套的約會(+)",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@yoominzzin/post/5972229",
+        "articleId": "1oGGoQBy916aOA7CqsbBQY5vSvI-5LN5vC3LE0zTB7Ls",
+        "pricePoints": 0,
+        "_episodeId": "ep-1351be72-602b-4677-b0ca-41564e2a15a2",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "03 老套的初戀",
+        "title": "老套系列 - 老套的初戀",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@yoominzzin/post/4752838",
+        "articleId": "local-d65189c3-1cad-4bbf-94bf-2cd2d914aee4",
+        "pricePoints": null,
+        "_episodeId": "ep-36a02e01-d71d-47a7-8794-7d89fd4c5bb4",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      },
+      {
+        "label": "04 老套的初戀 外傳",
+        "title": "老套系列 - 老套的初戀 外傳",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@yoominzzin/post/8419130",
+        "articleId": "local-6472766b-749f-46df-a413-6f823b0e923b",
+        "pricePoints": 2000,
+        "_episodeId": "ep-7e68a2d0-682b-4cfd-b4c6-d8040623d756",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
+      }
+    ],
+    "pricingMode": "episodes",
+    "updatedAt": "2026-10-12T07:55:17.482Z",
+    "knownPricePoints": 2000,
+    "unpricedEpisodes": 1
+  },
+  {
     "_id": "work-50224595-6fc7-4788-91ef-7d00de983d92",
     "zh": "💰 總不可能在夜店遇見愛情吧",
     "ko": "클럽에서 사랑을 만날 수는 없잖아",
@@ -2585,106 +2684,6 @@ window.BOOK_DATA = [
     ],
     "characters": [
       "🐱🐹"
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "뻔한 첫키스",
-    "zh": "老套的初吻",
-    "original": "https://www.postype.com/zh-hant/@yoominzzin/post/6713409?show-original=true",
-    "translation": "https://docs.google.com/document/d/1Vk71wMVP31QhRMoKJx94JZmLaFwxEvwp2mL1YJQ18IQ/edit?usp=drivesdk",
-    "author": "민무（閔無）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-08-09",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "老套的初吻",
-        "url": "https://docs.google.com/document/d/1Vk71wMVP31QhRMoKJx94JZmLaFwxEvwp2mL1YJQ18IQ/edit?usp=drivesdk",
-        "articleId": "1Vk71wMVP31QhRMoKJx94JZmLaFwxEvwp2mL1YJQ18IQ",
-        "original": "https://www.postype.com/zh-hant/@yoominzzin/post/6713409",
-        "pricePoints": 0,
-        "_episodeId": "ep-ff4a0d89e336a34fb3c5",
-        "destinyItemId": "item-bd7474ba17ab7045d7e9",
-        "destinyTitle": "老套的初吻",
-        "destinyKo": "뻔한 첫키스",
-        "destinyDeleted": false
-      }
-    ],
-    "_id": "work-1ccec56886bc4043ca8b",
-    "_favoriteKey": "https://docs.google.com/document/d/1Vk71wMVP31QhRMoKJx94JZmLaFwxEvwp2mL1YJQ18IQ/edit?usp=drivesdk",
-    "articleId": "1Vk71wMVP31QhRMoKJx94JZmLaFwxEvwp2mL1YJQ18IQ",
-    "pricingMode": "episodes",
-    "knownPricePoints": 0,
-    "unpricedEpisodes": 0,
-    "pricePoints": 0,
-    "includeShelf": true,
-    "includeDestiny": true,
-    "recommendations": [],
-    "destinyId": "P0162",
-    "destinyDeleted": false,
-    "tags": [
-      "情感梗: 青梅",
-      "文章狀態: 完結+番外",
-      "文章篇幅: 短篇",
-      "文章類型: 都市現實",
-      "結局: HE",
-      "背景設定: 校園"
-    ],
-    "characters": [
-      "安：高中生\n員：高中生"
-    ]
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "뻔한 데이트（+）",
-    "zh": "老套的約會（+）",
-    "original": "https://www.postype.com/zh-hant/@yoominzzin/post/5972229",
-    "translation": "https://docs.google.com/document/d/1oGGoQBy916aOA7CqsbBQY5vSvI-5LN5vC3LE0zTB7Ls/edit?usp=drivesdk",
-    "author": "민무（閔無）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2026-08-09",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "老套的約會（+）",
-        "url": "https://docs.google.com/document/d/1oGGoQBy916aOA7CqsbBQY5vSvI-5LN5vC3LE0zTB7Ls/edit?usp=drivesdk",
-        "articleId": "1oGGoQBy916aOA7CqsbBQY5vSvI-5LN5vC3LE0zTB7Ls",
-        "original": "https://www.postype.com/zh-hant/@yoominzzin/post/5972229",
-        "pricePoints": 0,
-        "_episodeId": "ep-47215c1f5ba41ec5bcdf",
-        "destinyItemId": "item-5af3639b38374bcb4e9d",
-        "destinyTitle": "老套的約會（+）",
-        "destinyKo": "뻔한 데이트（+）",
-        "destinyDeleted": false
-      }
-    ],
-    "_id": "work-611eb4af67ff3b06d4ad",
-    "_favoriteKey": "https://docs.google.com/document/d/1oGGoQBy916aOA7CqsbBQY5vSvI-5LN5vC3LE0zTB7Ls/edit?usp=drivesdk",
-    "articleId": "1oGGoQBy916aOA7CqsbBQY5vSvI-5LN5vC3LE0zTB7Ls",
-    "pricingMode": "episodes",
-    "knownPricePoints": 0,
-    "unpricedEpisodes": 0,
-    "pricePoints": 0,
-    "includeShelf": true,
-    "includeDestiny": true,
-    "recommendations": [],
-    "destinyId": "P0162",
-    "destinyDeleted": false,
-    "tags": [
-      "情感梗: 青梅",
-      "文章狀態: 完結+番外",
-      "文章篇幅: 短篇",
-      "文章類型: 都市現實",
-      "結局: HE",
-      "背景設定: 校園"
-    ],
-    "characters": [
-      "安：高中生\n員：高中生"
     ]
   },
   {
@@ -14797,47 +14796,57 @@ window.BOOK_DATA = [
         "label": "上",
         "title": "晚春-上",
         "url": "https://docs.google.com/document/d/1eC4xyymygNJHcy8IDDSEtaw7S5MFSZstdr1H0Pz_aVA/edit?usp=drivesdk",
-        "articleId": "1eC4xyymygNJHcy8IDDSEtaw7S5MFSZstdr1H0Pz_aVA",
         "original": "https://www.postype.com/@yoominzzin/post/5261918",
+        "articleId": "1eC4xyymygNJHcy8IDDSEtaw7S5MFSZstdr1H0Pz_aVA",
         "pricePoints": 0,
         "_episodeId": "ep-e9e9e50543088fdc3d3a",
         "destinyItemId": "item-19ac02137d8e48e1ebfb",
         "destinyTitle": "晚春",
         "destinyKo": "만춘",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
-        "label": "下",
-        "title": "晚春-下(番外一)",
+        "label": "下(+番外)",
+        "title": "晚春-下(+番外)",
         "url": "https://docs.google.com/document/d/1hXdNUHNU4cGiwyI27hsbbI9Ks2QVvoHJ-M5EHGxUBRk/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@yoominzzin/post/5261952",
         "articleId": "1hXdNUHNU4cGiwyI27hsbbI9Ks2QVvoHJ-M5EHGxUBRk",
-        "_episodeId": "ep-834fb280c9cb8456d89c"
+        "pricePoints": 500,
+        "_episodeId": "ep-834fb280c9cb8456d89c",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "番外二",
         "title": "晚春-番外二(行宮的冬天)",
         "url": "https://docs.google.com/document/d/13MnXaBgFvSJtPgwijphFxUBZwZkJ3pmgyrQSkaw_v4s/edit?usp=drivesdk",
-        "articleId": "13MnXaBgFvSJtPgwijphFxUBZwZkJ3pmgyrQSkaw_v4s",
         "original": "https://www.postype.com/@yoominzzin/post/8461188",
+        "articleId": "13MnXaBgFvSJtPgwijphFxUBZwZkJ3pmgyrQSkaw_v4s",
         "pricePoints": 2000,
         "_episodeId": "ep-d8af00ac190b33b3c5b8",
         "destinyItemId": "item-fdfe0af73895a5326ab5",
-        "destinyTitle": "晚春",
+        "destinyTitle": "",
         "destinyKo": "만춘",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       },
       {
         "label": "番外三",
         "title": "晚春-番外三(講武)",
         "url": "https://docs.google.com/document/d/1ybKN56oxdWB_hcmVet9Bp_5nanWAGNFqYNeXKx5WT-s/edit?usp=drivesdk",
-        "articleId": "1ybKN56oxdWB_hcmVet9Bp_5nanWAGNFqYNeXKx5WT-s",
         "original": "https://www.postype.com/@yoominzzin/post/18590304",
+        "articleId": "1ybKN56oxdWB_hcmVet9Bp_5nanWAGNFqYNeXKx5WT-s",
         "pricePoints": 1000,
         "_episodeId": "ep-dae47e8c492fa79088e0",
         "destinyItemId": "item-1c3146cda781beb07900",
-        "destinyTitle": "晚春",
+        "destinyTitle": "",
         "destinyKo": "만춘",
-        "destinyDeleted": false
+        "destinyDeleted": false,
+        "includeDestiny": true
       }
     ],
     "_id": "work-f4c1b47112ee876bd0f6",
@@ -14845,8 +14854,8 @@ window.BOOK_DATA = [
     "articleId": "1eC4xyymygNJHcy8IDDSEtaw7S5MFSZstdr1H0Pz_aVA",
     "pricingMode": "episodes",
     "knownPricePoints": 3500,
-    "unpricedEpisodes": 1,
-    "pricePoints": null,
+    "unpricedEpisodes": 0,
+    "pricePoints": 3500,
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [],
@@ -14862,8 +14871,14 @@ window.BOOK_DATA = [
       "背景設定: 東方架空"
     ],
     "characters": [
-      "安：陛下\n員：中殿"
-    ]
+      "安：陛下",
+      "員：中殿"
+    ],
+    "createdAt": "2026-10-12T07:56:12.795Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-12T07:57:15.395Z"
   },
   {
     "page": "플레인",
@@ -17283,41 +17298,6 @@ window.BOOK_DATA = [
     "knownPricePoints": 1000,
     "unpricedEpisodes": 0,
     "pricePoints": 1000,
-    "pricingMode": "episodes"
-  },
-  {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "뻔한 첫사랑",
-    "zh": "老套的初戀",
-    "original": "https://www.postype.com/@yoominzzin/post/4752838",
-    "translation": "",
-    "author": "민무（閔無）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2025-03-04",
-    "_id": "work-1fb748b8e2c94fab9e7c",
-    "_favoriteKey": "https://www.postype.com/@yoominzzin/post/4752838",
-    "episodes": [],
-    "includeShelf": true,
-    "includeDestiny": true,
-    "recommendations": [],
-    "destinyId": "P0162",
-    "destinyDeleted": false,
-    "tags": [
-      "情感梗: 青梅",
-      "文章狀態: 完結+番外",
-      "文章篇幅: 短篇",
-      "文章類型: 都市現實",
-      "結局: HE",
-      "背景設定: 校園"
-    ],
-    "characters": [
-      "安：高中生\n員：高中生"
-    ],
-    "knownPricePoints": 2000,
-    "unpricedEpisodes": 0,
-    "pricePoints": 2000,
     "pricingMode": "episodes"
   },
   {
