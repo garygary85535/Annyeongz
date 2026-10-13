@@ -1,5 +1,60 @@
 window.BOOK_DATA = [
   {
+    "_id": "work-1418eca2-ef1c-4d6b-bd48-5fd683ac0f4c",
+    "createdAt": "2026-10-13T12:11:01.871Z",
+    "zh": "💰深山閨秀傳",
+    "ko": "산중아씨뎐",
+    "page": "雜食系",
+    "author": "Void",
+    "translator": "原生postype",
+    "status": "0.連載中",
+    "note": "@新入荷",
+    "date": "2026-10-13",
+    "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23215129?show-original=true",
+    "translation": "",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "includeShelf": true,
+    "includeDestiny": true,
+    "destinyDeleted": false,
+    "destinyId": "P0471",
+    "destinyTitle": "",
+    "recommendations": [
+      "雜食系 (其他CP)"
+    ],
+    "pricePoints": null,
+    "_favoriteKey": "work-1418eca2-ef1c-4d6b-bd48-5fd683ac0f4c",
+    "tags": [
+      "古裝"
+    ],
+    "characters": [
+      "🐱🐹"
+    ],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "深山閨秀傳",
+        "url": "",
+        "original": "",
+        "articleId": "local-6dbb0c1c-9a75-4560-a57e-ddc5c76c6c78",
+        "pricePoints": null,
+        "_episodeId": "ep-38757f8a-7504-4419-8d94-a26758485d62",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 15787
+      }
+    ],
+    "pricingMode": "episodes",
+    "updatedAt": "2026-10-13T12:40:08.780Z",
+    "knownPricePoints": 0,
+    "unpricedEpisodes": 1,
+    "wordCount": null
+  },
+  {
     "_id": "work-cdc5802c-46db-4a0a-b2fd-d93bb450449a",
     "createdAt": "2026-10-12T06:37:52.364Z",
     "zh": "老套系列",
@@ -37,7 +92,7 @@ window.BOOK_DATA = [
     ],
     "episodes": [
       {
-        "label": "01 老套的初吻",
+        "label": "01",
         "title": "老套系列 - 老套的初吻",
         "url": "",
         "original": "https://www.postype.com/zh-hant/@yoominzzin/post/6713409",
@@ -52,7 +107,7 @@ window.BOOK_DATA = [
         "wordCount": 3444
       },
       {
-        "label": "01 老套的約會(+)",
+        "label": "02",
         "title": "老套系列 - 老套的約會(+)",
         "url": "",
         "original": "https://www.postype.com/zh-hant/@yoominzzin/post/5972229",
@@ -67,7 +122,7 @@ window.BOOK_DATA = [
         "wordCount": 7521
       },
       {
-        "label": "03 老套的初戀",
+        "label": "03",
         "title": "老套系列 - 老套的初戀",
         "url": "",
         "original": "https://www.postype.com/zh-hant/@yoominzzin/post/4752838",
@@ -79,10 +134,10 @@ window.BOOK_DATA = [
         "destinyKo": "",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 10528
+        "wordCount": 5589
       },
       {
-        "label": "04 老套的初戀 外傳",
+        "label": "04",
         "title": "老套系列 - 老套的初戀 外傳",
         "url": "",
         "original": "https://www.postype.com/zh-hant/@yoominzzin/post/8419130",
@@ -98,7 +153,7 @@ window.BOOK_DATA = [
       }
     ],
     "pricingMode": "episodes",
-    "updatedAt": "2026-10-12T14:21:59.718Z",
+    "updatedAt": "2026-10-13T10:22:32.528Z",
     "knownPricePoints": 2000,
     "unpricedEpisodes": 0,
     "wordCount": null
@@ -157,31 +212,33 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "接吻惡魔 上",
         "url": "https://docs.google.com/document/d/1IecJuSqROx3Fau7_SQT-7UPsnj1qxUe-WPRbVq0bisY/edit?usp=drivesdk",
-        "articleId": "1IecJuSqROx3Fau7_SQT-7UPsnj1qxUe-WPRbVq0bisY",
         "original": "https://www.postype.com/zh-hant/@oh1oh-home/post/21986599?show-original=true",
+        "articleId": "1IecJuSqROx3Fau7_SQT-7UPsnj1qxUe-WPRbVq0bisY",
         "pricePoints": 0,
         "_episodeId": "ep-194c9319d5c1cac7c896",
         "destinyItemId": "item-506a3725f21d9c4a967c",
-        "destinyTitle": "接吻惡魔",
+        "destinyTitle": "",
         "destinyKo": "키스의 악마",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 3749
       },
       {
-        "label": "中",
+        "label": "2",
         "title": "接吻惡魔 中",
         "url": "https://docs.google.com/document/d/11sgNyJvjmqtZnAaNr8Tm2Kg3SKq4qInEnzzEfqzBu3U/edit?usp=drivesdk",
-        "articleId": "11sgNyJvjmqtZnAaNr8Tm2Kg3SKq4qInEnzzEfqzBu3U",
         "original": "https://www.postype.com/zh-hant/@oh1oh-home/post/22033888",
+        "articleId": "11sgNyJvjmqtZnAaNr8Tm2Kg3SKq4qInEnzzEfqzBu3U",
         "pricePoints": 1000,
         "_episodeId": "ep-8534c3c38019cd70a7a6",
         "destinyItemId": "item-7f6289970cb4f8b2b350",
-        "destinyTitle": "接吻惡魔",
+        "destinyTitle": "",
         "destinyKo": "키스의 악마",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7170
       }
     ],
@@ -201,8 +258,13 @@ window.BOOK_DATA = [
       "文章狀態: 連載中"
     ],
     "characters": [
-      "安：青梅竹馬\n員：青梅竹馬"
+      "安：青梅竹馬",
+      "員：青梅竹馬"
     ],
+    "createdAt": "2026-10-13T10:24:16.314Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T10:24:16.344Z",
     "wordCount": 3749
   },
   {
@@ -398,7 +460,7 @@ window.BOOK_DATA = [
         "wordCount": 9929
       },
       {
-        "label": "",
+        "label": "外傳 3",
         "title": "Once Upon a Time：Off the Leash",
         "url": "",
         "original": "",
@@ -438,7 +500,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-10T18:12:25.118Z",
+    "updatedAt": "2026-10-13T12:40:51.532Z",
     "wordCount": 11423
   },
   {
@@ -848,17 +910,18 @@ window.BOOK_DATA = [
     "date": "2026-08-10",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "1",
         "title": "二十一，二十（上）",
         "url": "https://docs.google.com/document/d/1qEocAw9INk3D23VxQGscAOIkjvm3PMUroH2jb9RQXVY/edit?usp=drivesdk",
-        "articleId": "1qEocAw9INk3D23VxQGscAOIkjvm3PMUroH2jb9RQXVY",
         "original": "https://www.postype.com/zh-hant/@innoxious/post/22685283",
+        "articleId": "1qEocAw9INk3D23VxQGscAOIkjvm3PMUroH2jb9RQXVY",
         "pricePoints": 500,
         "_episodeId": "ep-70f913f9f156b91e1a74",
         "destinyItemId": "item-95dbeb5f31602f93e535",
-        "destinyTitle": "二十一，二十",
+        "destinyTitle": "",
         "destinyKo": "스물하나, 스물",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7678
       }
     ],
@@ -878,8 +941,14 @@ window.BOOK_DATA = [
       "文章狀態: 連載中"
     ],
     "characters": [
-      "安：大學生（渣）\n員：大學生"
+      "安：大學生（渣）",
+      "員：大學生"
     ],
+    "createdAt": "2026-10-13T10:24:34.172Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T10:24:34.176Z",
     "wordCount": 7678
   },
   {
@@ -896,17 +965,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "1",
         "title": "安魂曲 1",
         "url": "https://docs.google.com/document/d/1YP-Knz9zHEUMNEGPY8rwBDeU7i1dH-97zLkQUaVfg_E/edit?usp=drivesdk",
-        "articleId": "1YP-Knz9zHEUMNEGPY8rwBDeU7i1dH-97zLkQUaVfg_E",
         "original": "https://www.postype.com/zh-hant/@nuttylife/post/21875005?show-original=true",
+        "articleId": "1YP-Knz9zHEUMNEGPY8rwBDeU7i1dH-97zLkQUaVfg_E",
         "pricePoints": 500,
         "_episodeId": "ep-57e3ee18b0a12e5024a0",
         "destinyItemId": "item-9ae97ac2e86f878ebd6c",
-        "destinyTitle": "安魂曲",
+        "destinyTitle": "",
         "destinyKo": "Requiem",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4767
       }
     ],
@@ -925,6 +995,11 @@ window.BOOK_DATA = [
     "tags": [
       "文章狀態: 連載中"
     ],
+    "createdAt": "2026-10-13T10:24:46.668Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-13T10:24:46.673Z",
     "wordCount": 4767
   },
   {
@@ -940,31 +1015,33 @@ window.BOOK_DATA = [
     "date": "2026-07-10",
     "episodes": [
       {
-        "label": "上",
-        "title": "01 魔界繼承順位第一名對我很執著好困擾喔 上",
+        "label": "1",
+        "title": "魔界繼承順位第一名對我很執著好困擾喔 上",
         "url": "https://docs.google.com/document/d/1X6SfqjIGZHb1Q7w6UevrZZuU2tGG-DlCdi6bXYXmnK8/edit?usp=drivesdk",
-        "articleId": "1X6SfqjIGZHb1Q7w6UevrZZuU2tGG-DlCdi6bXYXmnK8",
         "original": "https://www.postype.com/@iveseen/post/20970284",
+        "articleId": "1X6SfqjIGZHb1Q7w6UevrZZuU2tGG-DlCdi6bXYXmnK8",
         "pricePoints": 0,
         "_episodeId": "ep-2dac9fa06d03b3242d1a",
         "destinyItemId": "item-a98fd31f40511602d6ba",
-        "destinyTitle": "魔界第一順位繼承人對我很執著好困擾喔",
+        "destinyTitle": "",
         "destinyKo": "마계 승계서열 1위가 내게 집착해서 곤란하다",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8495
       },
       {
-        "label": "中",
-        "title": "02 魔界繼承順位第一名對我很執著好困擾喔 中",
+        "label": "2",
+        "title": "魔界繼承順位第一名對我很執著好困擾喔 中",
         "url": "https://docs.google.com/document/d/1GLTs70WaezcNSN0n6UdBoOV9teJIrZF_hkhIVcU98yY/edit?usp=drivesdk",
-        "articleId": "1GLTs70WaezcNSN0n6UdBoOV9teJIrZF_hkhIVcU98yY",
         "original": "https://www.postype.com/@iveseen/post/20992140",
+        "articleId": "1GLTs70WaezcNSN0n6UdBoOV9teJIrZF_hkhIVcU98yY",
         "pricePoints": 0,
         "_episodeId": "ep-a69694dc8fe893efa4d8",
         "destinyItemId": "item-6cfe8caeb6d22b00e3c4",
-        "destinyTitle": "魔界第一順位繼承人對我很執著好困擾喔",
+        "destinyTitle": "",
         "destinyKo": "마계 승계서열 1위가 내게 집착해서 곤란하다",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7254
       }
     ],
@@ -988,6 +1065,11 @@ window.BOOK_DATA = [
     "characters": [
       "安：魔界人 / 員：魔界公主"
     ],
+    "createdAt": "2026-10-13T10:25:09.197Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T10:25:18.690Z",
     "wordCount": 8495
   },
   {
@@ -1529,7 +1611,7 @@ window.BOOK_DATA = [
     "_favoriteKey": "https://www.postype.com/@blue-mountains/post/18301626",
     "episodes": [
       {
-        "label": "01",
+        "label": "1",
         "title": "兩個女人1",
         "url": "",
         "original": "https://www.postype.com/@blue-mountains/post/18301626",
@@ -1544,7 +1626,7 @@ window.BOOK_DATA = [
         "wordCount": 12852
       },
       {
-        "label": "02",
+        "label": "2",
         "title": "兩個女人2",
         "url": "",
         "original": "https://www.postype.com/@blue-mountains/post/18302746",
@@ -1559,7 +1641,7 @@ window.BOOK_DATA = [
         "wordCount": 10562
       },
       {
-        "label": "03",
+        "label": "3",
         "title": "兩個女人3",
         "url": "",
         "original": "https://www.postype.com/@blue-mountains/post/18358756",
@@ -1574,7 +1656,7 @@ window.BOOK_DATA = [
         "wordCount": 10540
       },
       {
-        "label": "04",
+        "label": "4",
         "title": "兩個女人4",
         "url": "",
         "original": "https://www.postype.com/@blue-mountains/post/18428280",
@@ -1617,7 +1699,7 @@ window.BOOK_DATA = [
     "articleId": "",
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T14:28:25.067Z",
+    "updatedAt": "2026-10-13T11:47:13.263Z",
     "wordCount": null
   },
   {
@@ -2049,7 +2131,7 @@ window.BOOK_DATA = [
     "date": "2026-08-19",
     "episodes": [
       {
-        "label": "本篇",
+        "label": "1",
         "title": "保健老師",
         "url": "https://docs.google.com/document/d/1wkvvuuy1a5Gc9UIf0huegzsOvP7YmnAJkQeMJrXivSk/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@901x831/post/15500569",
@@ -2057,14 +2139,14 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-2fe8f86b257c84a08088",
         "destinyItemId": "item-61a20351d983fd7e92a5",
-        "destinyTitle": "本篇",
+        "destinyTitle": "",
         "destinyKo": "보건쌤",
         "destinyDeleted": false,
         "includeDestiny": true,
         "wordCount": 11967
       },
       {
-        "label": "番外篇-酒品",
+        "label": "2",
         "title": "保健老師番外篇 - 酒品",
         "url": "",
         "original": "https://www.postype.com/zh-hant/@901x831/post/16146171",
@@ -2072,14 +2154,14 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-item-a4cc802653a59c132180",
         "destinyItemId": "item-a4cc802653a59c132180",
-        "destinyTitle": "番外篇-酒品",
+        "destinyTitle": "",
         "destinyKo": "보건쌤",
         "destinyDeleted": false,
         "includeDestiny": true,
         "wordCount": 5767
       },
       {
-        "label": "衍生篇-XX之日",
+        "label": "3",
         "title": "保健老師衍生篇 - XX之日",
         "url": "",
         "original": "https://www.postype.com/zh-hant/@901x831/post/16442687",
@@ -2087,7 +2169,7 @@ window.BOOK_DATA = [
         "pricePoints": 500,
         "_episodeId": "ep-item-b6ed28e808a15ba9b31b",
         "destinyItemId": "item-b6ed28e808a15ba9b31b",
-        "destinyTitle": "衍生篇-XX之日",
+        "destinyTitle": "",
         "destinyKo": "보건쌤",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -2117,7 +2199,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "保健老師（含外傳）",
-    "updatedAt": "2026-10-12T08:10:02.881Z",
+    "updatedAt": "2026-10-13T10:25:55.043Z",
     "wordCount": 11967
   },
   {
@@ -3440,17 +3522,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "古典文學概論",
+        "label": "本篇",
+        "title": "古典文學賞析",
         "url": "https://docs.google.com/document/d/1ehnwQ9xqEez3rEg3h8W2fNG5tWAhTWDTn7Vg6N4Hrdk/edit?usp=drivesdk",
-        "articleId": "1ehnwQ9xqEez3rEg3h8W2fNG5tWAhTWDTn7Vg6N4Hrdk",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/21700973",
+        "articleId": "1ehnwQ9xqEez3rEg3h8W2fNG5tWAhTWDTn7Vg6N4Hrdk",
+        "pricePoints": 200,
         "_episodeId": "ep-d757b916906730031071",
         "destinyItemId": "item-68d923c81ccf7544e57b",
-        "destinyTitle": "古典文學賞析",
+        "destinyTitle": "",
         "destinyKo": "고전문학의 이해",
         "destinyDeleted": false,
-        "pricePoints": 200,
+        "includeDestiny": true,
         "wordCount": 9633
       }
     ],
@@ -3469,6 +3552,11 @@ window.BOOK_DATA = [
     "tags": [
       "文章狀態: 完結"
     ],
+    "createdAt": "2026-10-13T11:35:46.707Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-13T11:35:46.713Z",
     "wordCount": 9633
   },
   {
@@ -3693,7 +3781,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-9b00dde3e92fdfbcd898",
         "destinyItemId": "item-7991a276cb77b383ae49",
-        "destinyTitle": "隔壁小孩",
+        "destinyTitle": "",
         "destinyKo": "옆집 아이",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -3708,7 +3796,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-073ca2d715a4c8667533",
         "destinyItemId": "item-38f3446196c9e37a8114",
-        "destinyTitle": "隔壁小孩",
+        "destinyTitle": "",
         "destinyKo": "옆집 아이",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -3723,7 +3811,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-17554f867b6ec1188375",
         "destinyItemId": "item-eefc749f89d119907f65",
-        "destinyTitle": "隔壁小孩",
+        "destinyTitle": "",
         "destinyKo": "옆집 아이",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -3738,14 +3826,14 @@ window.BOOK_DATA = [
         "pricePoints": 500,
         "_episodeId": "ep-4dcffa3c3f706282743d",
         "destinyItemId": "item-46b7ba5773147978cb20",
-        "destinyTitle": "隔壁小孩",
+        "destinyTitle": "",
         "destinyKo": "옆집 아이",
         "destinyDeleted": false,
         "includeDestiny": true,
         "wordCount": 14497
       },
       {
-        "label": "Epilogue",
+        "label": "EP5",
         "title": "隔壁的孩子 Epilogue",
         "url": "https://docs.google.com/document/d/1phbrNfx_o0Vw3qIgOgl0jnv0H6iqTCEtmVQmeIPhdGs/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22279701",
@@ -3753,7 +3841,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-a4cbadcc59753abb94fa",
         "destinyItemId": "",
-        "destinyTitle": "隔壁小孩",
+        "destinyTitle": "",
         "destinyKo": "",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -3785,7 +3873,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T14:41:21.847Z",
+    "updatedAt": "2026-10-13T11:36:15.884Z",
     "wordCount": 12178
   },
   {
@@ -3801,7 +3889,7 @@ window.BOOK_DATA = [
     "date": "2026-08-05",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "1",
         "title": "One Night",
         "url": "https://docs.google.com/document/d/16H23q1EwvDVIaEQMz9JxgOE17T6XDkxmYY0G_5xZL3k/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22025123",
@@ -3809,14 +3897,14 @@ window.BOOK_DATA = [
         "pricePoints": 200,
         "_episodeId": "ep-3cee99e017180f7b0cdf",
         "destinyItemId": "item-c120ce5fe4a3a250e8a5",
-        "destinyTitle": "One Night",
+        "destinyTitle": "",
         "destinyKo": "One Night",
         "destinyDeleted": false,
         "includeDestiny": true,
         "wordCount": 9247
       },
       {
-        "label": "外傳",
+        "label": "2",
         "title": "That Night（One Night 外傳）",
         "url": "https://docs.google.com/document/d/1ZV4FoR-tL13pVcu9Fd-_p2YECbtyRGgTwpyvD3fhJ0w/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22047438",
@@ -3824,7 +3912,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-337ee43c857bdb8b5369",
         "destinyItemId": "item-26035e2be7f591620f41",
-        "destinyTitle": "That Night（One Night外傳）",
+        "destinyTitle": "",
         "destinyKo": "That Night（One Night 외전）",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -3856,7 +3944,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T14:41:41.174Z",
+    "updatedAt": "2026-10-13T11:36:37.677Z",
     "wordCount": 9247
   },
   {
@@ -3873,7 +3961,7 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "You’re Mine",
+        "label": "1",
         "title": "You’re Mine",
         "url": "https://docs.google.com/document/d/19S3Dtx3_cFUslzNMndFiX5XSqX8Ohb978rrcHJdQQDI/edit?usp=drivesdk",
         "original": "",
@@ -3881,14 +3969,14 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-ec5f99537d0611e9d0a7",
         "destinyItemId": "",
-        "destinyTitle": "Relationship",
+        "destinyTitle": "",
         "destinyKo": "",
         "destinyDeleted": false,
         "includeDestiny": true,
         "wordCount": 7101
       },
       {
-        "label": "Am I",
+        "label": "2",
         "title": "Am I",
         "url": "https://docs.google.com/document/d/1-o4EKaRy7iaZoT2VAkMepNQ9R2rm5UZo-dvUrz3siqc/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22095478?show-original=true",
@@ -3896,7 +3984,7 @@ window.BOOK_DATA = [
         "pricePoints": 500,
         "_episodeId": "ep-5b22dc66a5e9b705fe34",
         "destinyItemId": "item-6540fd6a9651499c7f4b",
-        "destinyTitle": "Relationship",
+        "destinyTitle": "",
         "destinyKo": "Relationship",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -3928,7 +4016,7 @@ window.BOOK_DATA = [
     "createdAt": "2026-10-10T16:51:20.439Z",
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-10T16:52:32.515Z",
+    "updatedAt": "2026-10-13T11:37:16.602Z",
     "wordCount": 7101
   },
   {
@@ -4446,7 +4534,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-e3242281f4694f258d5a",
         "destinyItemId": "item-2e93e7ceaf2a2aebf673",
-        "destinyTitle": "西博戀人",
+        "destinyTitle": "",
         "destinyKo": "씨버러버",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -4482,7 +4570,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T15:39:54.596Z",
+    "updatedAt": "2026-10-13T11:52:59.242Z",
     "wordCount": 13413
   },
   {
@@ -5172,7 +5260,7 @@ window.BOOK_DATA = [
     "page": "蜜地瓜",
     "status": "2.已完結",
     "ko": "원형의 영원",
-    "zh": "圓形的永遠",
+    "zh": "圓形的永恆",
     "original": "https://www.postype.com/zh-hant/@seol-cheong/post/19063401?show-original=true",
     "translation": "https://docs.google.com/document/d/18Y6X52w4lBo9hHMIzkKC3o-2CGZxx-1QVpzi-1J2pic/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
@@ -5181,17 +5269,18 @@ window.BOOK_DATA = [
     "date": "2026-08-01",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "圓形的永恆",
         "url": "https://docs.google.com/document/d/18Y6X52w4lBo9hHMIzkKC3o-2CGZxx-1QVpzi-1J2pic/edit?usp=drivesdk",
-        "articleId": "18Y6X52w4lBo9hHMIzkKC3o-2CGZxx-1QVpzi-1J2pic",
         "original": "https://www.postype.com/zh-hant/@seol-cheong/post/19063401?show-original=true",
+        "articleId": "18Y6X52w4lBo9hHMIzkKC3o-2CGZxx-1QVpzi-1J2pic",
         "pricePoints": 0,
         "_episodeId": "ep-1d1f66160e6c13cb0743",
         "destinyItemId": "item-2ab6ff1db95f42d8f7b3",
-        "destinyTitle": "圓形的永遠",
+        "destinyTitle": "",
         "destinyKo": "원형의 영원",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 12528
       }
     ],
@@ -5210,6 +5299,12 @@ window.BOOK_DATA = [
     "tags": [
       "文章狀態: 完結"
     ],
+    "createdAt": "2026-10-13T11:43:01.354Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-13T11:43:06.996Z",
     "wordCount": 12528
   },
   {
@@ -5226,7 +5321,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "閱讀",
-        "title": "南無阿彌陀佛",
+        "title": "南無阿彌陀佛（無神論存在主義 外傳）安秋",
         "url": "https://docs.google.com/document/d/1YBnrZZZqCfLCr-une1S_HCr3hDHXPJqymDj3JwpyIQQ/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@seol-cheong/post/21999454?show-original=true",
         "articleId": "1YBnrZZZqCfLCr-une1S_HCr3hDHXPJqymDj3JwpyIQQ",
@@ -5264,7 +5359,7 @@ window.BOOK_DATA = [
     "characters": [
       "安秋"
     ],
-    "updatedAt": "2026-10-11T08:11:06.953Z",
+    "updatedAt": "2026-10-13T11:43:46.959Z",
     "wordCount": 8544
   },
   {
@@ -5337,7 +5432,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-c43f7c53d4825d29ccb7",
         "destinyItemId": "item-ea27281a8553ed853a00",
-        "destinyTitle": "卓越法式",
+        "destinyTitle": "",
         "destinyKo": "엑설런트 프렌치",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -5352,7 +5447,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-10118cc2c7fdbfc005b7",
         "destinyItemId": "item-f4ba3eb72df1b7c690bf",
-        "destinyTitle": "卓越法式",
+        "destinyTitle": "",
         "destinyKo": "엑설런트 프렌치",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -5367,7 +5462,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-abd69cc6b54652bc9548",
         "destinyItemId": "item-6eea45a8acc4767ce7bb",
-        "destinyTitle": "卓越法式",
+        "destinyTitle": "",
         "destinyKo": "엑설런트 프렌치",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -5394,7 +5489,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T14:45:05.982Z",
+    "updatedAt": "2026-10-13T11:44:12.924Z",
     "wordCount": 7792
   },
   {
@@ -5411,45 +5506,48 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "Just Wednesday 上",
         "url": "https://docs.google.com/document/d/1uVL6isYhVKMqa0eXxtToUFdq2aOnRfCxQJuutBeuUus/edit?usp=drivesdk",
-        "articleId": "1uVL6isYhVKMqa0eXxtToUFdq2aOnRfCxQJuutBeuUus",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/16141100?show-original=true",
+        "articleId": "1uVL6isYhVKMqa0eXxtToUFdq2aOnRfCxQJuutBeuUus",
         "pricePoints": 1500,
         "_episodeId": "ep-07a5b230aa60c893ed96",
         "destinyItemId": "item-b98fb9ce59b504376f5e",
-        "destinyTitle": "Just Wednesday",
+        "destinyTitle": "",
         "destinyKo": "저스트 웬즈데이",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 17079
       },
       {
-        "label": "中",
+        "label": "2",
         "title": "Just Wednesday 中",
         "url": "https://docs.google.com/document/d/1zi1CCoWTgQVCianWH81jsIM-3WfJ078IjGoGujvQ2uE/edit?usp=drivesdk",
-        "articleId": "1zi1CCoWTgQVCianWH81jsIM-3WfJ078IjGoGujvQ2uE",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/16198975",
+        "articleId": "1zi1CCoWTgQVCianWH81jsIM-3WfJ078IjGoGujvQ2uE",
         "pricePoints": 1500,
         "_episodeId": "ep-0d069dc2ec3b92538b68",
         "destinyItemId": "item-bbc4e720da2b5f34bffd",
-        "destinyTitle": "Just Wednesday",
+        "destinyTitle": "",
         "destinyKo": "저스트 웬즈데이",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 13409
       },
       {
-        "label": "下",
+        "label": "3",
         "title": "Just Wednesday 下",
         "url": "https://docs.google.com/document/d/11olQl3S-o-0DsoJBqZMZ_iurHuBmbNQIau6ZztMuuNw/edit?usp=drivesdk",
-        "articleId": "11olQl3S-o-0DsoJBqZMZ_iurHuBmbNQIau6ZztMuuNw",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/16245030",
+        "articleId": "11olQl3S-o-0DsoJBqZMZ_iurHuBmbNQIau6ZztMuuNw",
         "pricePoints": 1500,
         "_episodeId": "ep-d7885fb5a53e43eb0bd9",
         "destinyItemId": "item-bd9d22aa50f92c2c3c1c",
-        "destinyTitle": "Just Wednesday",
+        "destinyTitle": "",
         "destinyKo": "저스트 웬즈데이",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 14576
       }
     ],
@@ -5481,6 +5579,10 @@ window.BOOK_DATA = [
     "characters": [
       "安：自由業者 / 員：上班族"
     ],
+    "createdAt": "2026-10-13T11:44:32.658Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:44:32.661Z",
     "wordCount": 17079
   },
   {
@@ -5557,70 +5659,75 @@ window.BOOK_DATA = [
         "label": "EP1",
         "title": "冰屋 1",
         "url": "https://docs.google.com/document/d/1vWOpuB4jF3jM5bh9vFU7C17Gt82K4Ga6unMskA7Y63Y/edit?usp=drivesdk",
-        "articleId": "1vWOpuB4jF3jM5bh9vFU7C17Gt82K4Ga6unMskA7Y63Y",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/13919624",
+        "articleId": "1vWOpuB4jF3jM5bh9vFU7C17Gt82K4Ga6unMskA7Y63Y",
         "pricePoints": 1000,
         "_episodeId": "ep-b68d01846c92d527584d",
         "destinyItemId": "item-19963d3a86a947688b97",
-        "destinyTitle": "冰屋",
+        "destinyTitle": "",
         "destinyKo": "이글루",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 10917
       },
       {
         "label": "EP2",
         "title": "冰屋 2",
         "url": "https://docs.google.com/document/d/1tYkJYTOtr457oi2TEasVbOYiZNlPpCIQOs4XSehVWN4/edit?usp=drivesdk",
-        "articleId": "1tYkJYTOtr457oi2TEasVbOYiZNlPpCIQOs4XSehVWN4",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/13942022",
+        "articleId": "1tYkJYTOtr457oi2TEasVbOYiZNlPpCIQOs4XSehVWN4",
         "pricePoints": 1000,
         "_episodeId": "ep-3c3020b72501f2c84efd",
         "destinyItemId": "item-d5ff8237bd5dc4cee075",
-        "destinyTitle": "冰屋",
+        "destinyTitle": "",
         "destinyKo": "이글루",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 17032
       },
       {
         "label": "EP3",
         "title": "冰屋 3",
         "url": "https://docs.google.com/document/d/1xlrfq_Ts_YrTmjbVf-0OGZFw-08FwaWi_zfR7R7RhmQ/edit?usp=drivesdk",
-        "articleId": "1xlrfq_Ts_YrTmjbVf-0OGZFw-08FwaWi_zfR7R7RhmQ",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/13956004",
+        "articleId": "1xlrfq_Ts_YrTmjbVf-0OGZFw-08FwaWi_zfR7R7RhmQ",
         "pricePoints": 1500,
         "_episodeId": "ep-b970e75e8ef3f8dc51e7",
         "destinyItemId": "item-7ff4c515b0c05e160d51",
-        "destinyTitle": "冰屋",
+        "destinyTitle": "",
         "destinyKo": "이글루",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 13950
       },
       {
         "label": "EP4",
         "title": "冰屋 4",
         "url": "https://docs.google.com/document/d/1ERElhz97esjbtN4KRYq895S8MtmT2OrjvW7ocRNnshk/edit?usp=drivesdk",
-        "articleId": "1ERElhz97esjbtN4KRYq895S8MtmT2OrjvW7ocRNnshk",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/13980165",
+        "articleId": "1ERElhz97esjbtN4KRYq895S8MtmT2OrjvW7ocRNnshk",
         "pricePoints": 1500,
         "_episodeId": "ep-49c5fad7bfedb88a3032",
         "destinyItemId": "item-98ee50bc79aa9765d722",
-        "destinyTitle": "冰屋",
+        "destinyTitle": "",
         "destinyKo": "이글루",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 14273
       },
       {
         "label": "EP5",
         "title": "冰屋 5 (完結)",
         "url": "https://docs.google.com/document/d/1dF8v0i6lkZQ2NC7-0OzAtQQZ7Ze6kIUHDCRKzGYzreY/edit?usp=drivesdk",
-        "articleId": "1dF8v0i6lkZQ2NC7-0OzAtQQZ7Ze6kIUHDCRKzGYzreY",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/13980227",
+        "articleId": "1dF8v0i6lkZQ2NC7-0OzAtQQZ7Ze6kIUHDCRKzGYzreY",
         "pricePoints": 1000,
         "_episodeId": "ep-d1c090d686308d3fbec1",
         "destinyItemId": "item-f89450f04ccbe42e738f",
-        "destinyTitle": "冰屋",
+        "destinyTitle": "",
         "destinyKo": "이글루",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8425
       }
     ],
@@ -5646,6 +5753,10 @@ window.BOOK_DATA = [
     "characters": [
       "待人工補充"
     ],
+    "createdAt": "2026-10-13T11:45:00.880Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:45:00.881Z",
     "wordCount": 10917
   },
   {
@@ -5662,31 +5773,33 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "狗是不會唱歌的 上",
         "url": "https://docs.google.com/document/d/15ewQOAcY-yMpxsHGWd7H0qEzaAnkDyIiNIObNM5_cDI/edit?usp=drivesdk",
-        "articleId": "15ewQOAcY-yMpxsHGWd7H0qEzaAnkDyIiNIObNM5_cDI",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/21390322?show-original=true",
+        "articleId": "15ewQOAcY-yMpxsHGWd7H0qEzaAnkDyIiNIObNM5_cDI",
         "pricePoints": 2000,
         "_episodeId": "ep-1b640fd2edfb3d4e7d3f",
         "destinyItemId": "item-6d69e37f3a52c02e5467",
-        "destinyTitle": "狗是不會唱歌的",
+        "destinyTitle": "",
         "destinyKo": "개는 노래하지 않는다",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 35150
       },
       {
-        "label": "下",
+        "label": "2",
         "title": "狗是不會唱歌的 下",
         "url": "https://docs.google.com/document/d/1_ZJDYkN_d5ta291qKc1-9NcW___aMsAm4P8zHFZt9Oc/edit?usp=drivesdk",
-        "articleId": "1_ZJDYkN_d5ta291qKc1-9NcW___aMsAm4P8zHFZt9Oc",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/21390325",
+        "articleId": "1_ZJDYkN_d5ta291qKc1-9NcW___aMsAm4P8zHFZt9Oc",
         "pricePoints": 2000,
         "_episodeId": "ep-caf42984d480efd8cde4",
         "destinyItemId": "item-624eac87023f8b4d506f",
-        "destinyTitle": "狗是不會唱歌的",
+        "destinyTitle": "",
         "destinyKo": "개는 노래하지 않는다",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 22387
       }
     ],
@@ -5712,6 +5825,10 @@ window.BOOK_DATA = [
     "characters": [
       "待人工補充"
     ],
+    "createdAt": "2026-10-13T11:45:24.196Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:45:24.196Z",
     "wordCount": 35150
   },
   {
@@ -5728,7 +5845,7 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "No love no wet",
+        "label": "1",
         "title": "No love no wet",
         "url": "https://docs.google.com/document/d/1DNmXft4W40iP0eFInnYHZC3YFitadchSD9pIZ3RGZD0/edit",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/13801961?show-original=true",
@@ -5736,14 +5853,14 @@ window.BOOK_DATA = [
         "pricePoints": 2000,
         "_episodeId": "ep-d2a81d4116483006e470",
         "destinyItemId": "item-e1629833eb355d2f06a1",
-        "destinyTitle": "no love no wet",
+        "destinyTitle": "",
         "destinyKo": "노럽노웻",
         "destinyDeleted": false,
         "includeDestiny": true,
         "wordCount": 9570
       },
       {
-        "label": "no love no wet +",
+        "label": "2",
         "title": "no love no wet +",
         "url": "",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/13845592",
@@ -5788,7 +5905,7 @@ window.BOOK_DATA = [
     "createdAt": "2026-10-10T18:38:22.277Z",
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T14:26:10.408Z",
+    "updatedAt": "2026-10-13T11:46:23.649Z",
     "wordCount": 9570
   },
   {
@@ -5930,7 +6047,7 @@ window.BOOK_DATA = [
     "page": "鯨魚",
     "status": "2.已完結",
     "ko": "Passionate A&W",
-    "zh": "Passionate A&W",
+    "zh": "💰Passionate A&W",
     "original": "https://www.postype.com/zh-hant/@ynseasonrps/post/15290772?show-original=true",
     "translation": "https://docs.google.com/document/d/1eUQzHzVb8G2jzMuXFed6IEQvWnZsG4_nafiY7VS0osk/edit?usp=drivesdk",
     "author": "고래（鯨魚）",
@@ -5939,27 +6056,58 @@ window.BOOK_DATA = [
     "date": "2026-07-29",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "1",
         "title": "Passionate A&W",
         "url": "https://docs.google.com/document/d/1eUQzHzVb8G2jzMuXFed6IEQvWnZsG4_nafiY7VS0osk/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1eUQzHzVb8G2jzMuXFed6IEQvWnZsG4_nafiY7VS0osk",
-        "original": "https://www.postype.com/@ynseasonrps/post/15290772",
         "pricePoints": 0,
         "_episodeId": "ep-22733c14550a030fbab5",
         "destinyItemId": "item-16b80620b06b943ac7a6",
-        "destinyTitle": "Passionate A&W",
+        "destinyTitle": "",
         "destinyKo": "Passionate A&W",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 11074
+      },
+      {
+        "label": "2",
+        "title": "Passionate A&W 外傳1-麵包",
+        "url": "",
+        "original": "",
+        "articleId": "1ZAxXhhXFaI2vJ_kCAfpUj30BHKj4hYlgS-DZ5t_Qpzw",
+        "pricePoints": 3,
+        "_episodeId": "ep-1292dcfa-aecf-4406-a8bb-b65a32f3a2b9",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 4923
+      },
+      {
+        "label": "3",
+        "title": "Passionate A&W 外傳2-告別之旅",
+        "url": "",
+        "original": "",
+        "articleId": "1DOHzIw3rQ0hi699ZprDw7Bdw0avmKzTXTWuf3SAUtp4",
+        "pricePoints": 500,
+        "_episodeId": "ep-dbfa7760-88c2-431c-97e7-492218b191c1",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 8024
       }
     ],
     "_id": "work-3f0c080ca9c84e5c1061",
     "_favoriteKey": "https://docs.google.com/document/d/1eUQzHzVb8G2jzMuXFed6IEQvWnZsG4_nafiY7VS0osk/edit?usp=drivesdk",
     "articleId": "1eUQzHzVb8G2jzMuXFed6IEQvWnZsG4_nafiY7VS0osk",
     "pricingMode": "episodes",
-    "knownPricePoints": 0,
+    "knownPricePoints": 503,
     "unpricedEpisodes": 0,
-    "pricePoints": 0,
+    "pricePoints": 503,
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [],
@@ -5969,7 +6117,8 @@ window.BOOK_DATA = [
       "CP配對: 安/員",
       "CP配對: 員/安",
       "CP配對: 互攻",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
       "分級: SM",
@@ -5984,60 +6133,12 @@ window.BOOK_DATA = [
     "characters": [
       "安：戲劇電影系四年級 / 員：文藝創作系三年級"
     ],
+    "createdAt": "2026-10-13T12:56:54.577Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:58:30.749Z",
     "wordCount": 11074
-  },
-  {
-    "page": "플레인",
-    "status": "2.已完結",
-    "ko": "죽기 전에 매일 보고 싶어",
-    "zh": "死之前想每天見面 (死之前至少想見一次 - 外傳)",
-    "original": "https://www.postype.com/zh-hant/@monochrome-film/post/20217937?show-original=true",
-    "translation": "https://docs.google.com/document/d/19gq1ieohh9S0WJuyG9gQbGXIDmIDMIkgpTXOAA4asd0/edit?usp=drivesdk",
-    "author": "플레인（Plain）",
-    "translator": "postype原生AI",
-    "note": "",
-    "date": "2026-07-29",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "死前想每天見到你",
-        "url": "https://docs.google.com/document/d/19gq1ieohh9S0WJuyG9gQbGXIDmIDMIkgpTXOAA4asd0/edit?usp=drivesdk",
-        "articleId": "19gq1ieohh9S0WJuyG9gQbGXIDmIDMIkgpTXOAA4asd0",
-        "original": "https://www.postype.com/zh-hant/@monochrome-film/post/20217937?show-original=true",
-        "pricePoints": 0,
-        "_episodeId": "ep-931260587a49d0f4be92",
-        "destinyItemId": "item-5406ef6fcd45bacad067",
-        "destinyTitle": "死之前想每天見面 (死之前至少想見一次 - 外傳)",
-        "destinyKo": "죽기 전에 매일 보고 싶어",
-        "destinyDeleted": false,
-        "wordCount": 8526
-      }
-    ],
-    "_id": "work-b039f614376e16fc2bd6",
-    "_favoriteKey": "https://docs.google.com/document/d/19gq1ieohh9S0WJuyG9gQbGXIDmIDMIkgpTXOAA4asd0/edit?usp=drivesdk",
-    "articleId": "19gq1ieohh9S0WJuyG9gQbGXIDmIDMIkgpTXOAA4asd0",
-    "pricingMode": "episodes",
-    "knownPricePoints": 0,
-    "unpricedEpisodes": 0,
-    "pricePoints": 0,
-    "includeShelf": true,
-    "includeDestiny": true,
-    "recommendations": [
-      "蓋瑞推薦"
-    ],
-    "destinyId": "P0391",
-    "destinyDeleted": false,
-    "tags": [
-      "分級: CP潔癖勿入",
-      "文章狀態: 完結+番外",
-      "文章篇幅: 中篇",
-      "文章類型: 都市現實",
-      "結局: HE"
-    ],
-    "characters": [
-      "安：上班族 / 員：團體偶像"
-    ],
-    "wordCount": 8526
   },
   {
     "page": "noname",
@@ -8359,7 +8460,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-8531b28a66b7499b8171",
         "destinyItemId": "item-99b1ac113b0a9e630f8a",
-        "destinyTitle": "討人厭的女人",
+        "destinyTitle": "",
         "destinyKo": "재수 없는 여자",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -8394,7 +8495,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T15:09:35.464Z",
+    "updatedAt": "2026-10-13T11:47:18.491Z",
     "wordCount": 19189
   },
   {
@@ -8600,7 +8701,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-ab7731b4dedad70ddab5",
         "destinyItemId": "item-97c5b76e603abf098b9d",
-        "destinyTitle": "致聖誕老人",
+        "destinyTitle": "",
         "destinyKo": "산타에게",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -8634,7 +8735,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T15:11:26.403Z",
+    "updatedAt": "2026-10-13T12:42:32.336Z",
     "wordCount": 1784
   },
   {
@@ -9062,14 +9163,14 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "單集",
-        "title": "玩家(Player)",
+        "title": "玩家",
         "url": "https://docs.google.com/document/d/1gOVcVMRVSHOwuYrXxXNAZEbj3hI1iBrOI-nFFUvjOCM/edit?usp=drivesdk",
         "original": "https://www.postype.com/@ynseasonrps/post/17540189",
         "articleId": "1gOVcVMRVSHOwuYrXxXNAZEbj3hI1iBrOI-nFFUvjOCM",
         "pricePoints": 0,
         "_episodeId": "ep-d1a1703904cfe4e91d2d",
         "destinyItemId": "item-e3a9ddfcafd782162f3f",
-        "destinyTitle": "玩家",
+        "destinyTitle": "",
         "destinyKo": "Player",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -9105,7 +9206,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T15:12:40.771Z",
+    "updatedAt": "2026-10-13T11:52:23.670Z",
     "wordCount": 9543
   },
   {
@@ -9916,7 +10017,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-4c88a57d3d7708190691",
         "destinyItemId": "item-e12a66d9471e60d0d452",
-        "destinyTitle": "One More Time",
+        "destinyTitle": "",
         "destinyKo": "원 모어 타임",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -9950,7 +10051,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T15:14:48.288Z",
+    "updatedAt": "2026-10-13T11:36:46.359Z",
     "wordCount": 4057
   },
   {
@@ -10239,7 +10340,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "單集",
-        "title": "未成熟(미성숙)",
+        "title": "未成熟",
         "url": "https://docs.google.com/document/d/15-puRKmhGGCY4Pzqe9UzZ37i-JzW4y1oZGTR26ynAuY/edit?usp=drivesdk",
         "original": "https://www.postype.com/@ynseasonrps/post/14649308",
         "articleId": "15-puRKmhGGCY4Pzqe9UzZ37i-JzW4y1oZGTR26ynAuY",
@@ -10282,7 +10383,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T15:15:25.316Z",
+    "updatedAt": "2026-10-13T11:52:14.285Z",
     "wordCount": 9949
   },
   {
@@ -11906,78 +12007,78 @@ window.BOOK_DATA = [
     "date": "2026-02-17",
     "episodes": [
       {
-        "label": "EP1",
+        "label": "1",
         "title": "不是你 是你姐姐 ep1",
         "url": "https://docs.google.com/document/d/1-Goi1HIRx8ud1Lc4GoflbFm-fNgbUlk6sPLhtH56Y-w/edit?usp=drivesdk",
-        "articleId": "1-Goi1HIRx8ud1Lc4GoflbFm-fNgbUlk6sPLhtH56Y-w",
-        "_episodeId": "ep-86dd6f4076d83de3ddc1",
         "original": "https://www.postype.com/zh-hant/@parkpro/post/14288593",
+        "articleId": "1-Goi1HIRx8ud1Lc4GoflbFm-fNgbUlk6sPLhtH56Y-w",
         "pricePoints": 0,
+        "_episodeId": "ep-86dd6f4076d83de3ddc1",
         "destinyItemId": "item-397e630cc8b059cb321a",
-        "destinyTitle": "不是你 是你姐姐 1/4",
+        "destinyTitle": "",
         "destinyKo": "너 말고 니 언니 (1/4)",
-        "includeDestiny": true,
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6501
       },
       {
-        "label": "EP2",
+        "label": "2",
         "title": "不是你 是你姐姐 ep2",
         "url": "https://docs.google.com/document/d/1b_cZldusfRlFmhtaEx9tlQT66DumWJZK68P6M2P9aVU/edit?usp=drivesdk",
-        "articleId": "1b_cZldusfRlFmhtaEx9tlQT66DumWJZK68P6M2P9aVU",
-        "_episodeId": "ep-3c9246b2837a238ccf7a",
         "original": "https://www.postype.com/zh-hant/@parkpro/post/14825758",
+        "articleId": "1b_cZldusfRlFmhtaEx9tlQT66DumWJZK68P6M2P9aVU",
         "pricePoints": 0,
+        "_episodeId": "ep-3c9246b2837a238ccf7a",
         "destinyItemId": "item-4ebffeaa97abd771c232",
-        "destinyTitle": "不是你 是你姐姐 2/4",
+        "destinyTitle": "",
         "destinyKo": "너 말고 니 언니 (2/4)",
-        "includeDestiny": true,
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7590
       },
       {
-        "label": "EP3",
+        "label": "3",
         "title": "不是你 是你姐姐 ep3",
         "url": "https://docs.google.com/document/d/1i7uBYeanoSXFOJYkxyD28G98BhPtt-9IqYHOjFjN3-k/edit?usp=drivesdk",
-        "articleId": "1i7uBYeanoSXFOJYkxyD28G98BhPtt-9IqYHOjFjN3-k",
-        "_episodeId": "ep-5b89a3f8690c9ab91a7e",
         "original": "https://www.postype.com/zh-hant/@parkpro/post/14881187",
+        "articleId": "1i7uBYeanoSXFOJYkxyD28G98BhPtt-9IqYHOjFjN3-k",
         "pricePoints": 0,
+        "_episodeId": "ep-5b89a3f8690c9ab91a7e",
         "destinyItemId": "item-16fbc70212457bd5eb4d",
-        "destinyTitle": "不是你 是你姐姐 3/4",
+        "destinyTitle": "",
         "destinyKo": "너 말고 니 언니 (3/4)",
-        "includeDestiny": true,
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8594
       },
       {
-        "label": "EP4",
+        "label": "4",
         "title": "不是你 是你姐姐 ep4",
         "url": "https://docs.google.com/document/d/1reJUB9ddzb_Dq1SUeRKVwLbjfa7dv_yI3OeUq-w0TqM/edit?usp=drivesdk",
-        "articleId": "1reJUB9ddzb_Dq1SUeRKVwLbjfa7dv_yI3OeUq-w0TqM",
-        "_episodeId": "ep-09cbacb0fb91b4bc2e1f",
         "original": "https://www.postype.com/zh-hant/@parkpro/post/14930213",
+        "articleId": "1reJUB9ddzb_Dq1SUeRKVwLbjfa7dv_yI3OeUq-w0TqM",
         "pricePoints": 0,
+        "_episodeId": "ep-09cbacb0fb91b4bc2e1f",
         "destinyItemId": "item-13b79fb2d1f10f058064",
-        "destinyTitle": "不是你 是你姐姐 4/4",
+        "destinyTitle": "",
         "destinyKo": "너 말고 니 언니 (4/4)",
-        "includeDestiny": true,
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 9032
       },
       {
-        "label": "番外",
+        "label": "5",
         "title": "不是你 是你姐姐🌶️ 番外",
         "url": "https://docs.google.com/document/d/1-gnW6gbe1tdSgmjSBmzfZ3BGE2uA57b7viXE5prrGv0/edit?usp=drivesdk",
-        "articleId": "1-gnW6gbe1tdSgmjSBmzfZ3BGE2uA57b7viXE5prrGv0",
-        "_episodeId": "ep-b0ade0a14bf56f076ef9",
         "original": "https://www.postype.com/zh-hant/@parkpro/post/14928668",
+        "articleId": "1-gnW6gbe1tdSgmjSBmzfZ3BGE2uA57b7viXE5prrGv0",
         "pricePoints": 0,
+        "_episodeId": "ep-b0ade0a14bf56f076ef9",
         "destinyItemId": "item-5cdaf897973c7855d30c",
-        "destinyTitle": "不是你 是你姐姐 Spicy Ver.",
+        "destinyTitle": "",
         "destinyKo": "너 말고 니 언니 (Spicy Ver.)",
-        "includeDestiny": true,
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8440
       }
     ],
@@ -12007,6 +12108,9 @@ window.BOOK_DATA = [
     "unpricedEpisodes": 0,
     "pricePoints": 0,
     "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:50:52.202Z",
     "wordCount": 6501
   },
   {
@@ -12085,142 +12189,152 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "EP1",
-        "title": "戀人與因緣-1",
+        "title": "戀人與緣分-1",
         "url": "https://docs.google.com/document/d/12RaB0BqjypN71K4ZlfGEWsCEi8Nn_hNyquNazsEWEMY/edit?usp=drivesdk",
-        "articleId": "12RaB0BqjypN71K4ZlfGEWsCEi8Nn_hNyquNazsEWEMY",
         "original": "https://www.postype.com/@untitle009/post/20844506",
+        "articleId": "12RaB0BqjypN71K4ZlfGEWsCEi8Nn_hNyquNazsEWEMY",
         "pricePoints": 0,
         "_episodeId": "ep-1509c3276490a401c9b6",
         "destinyItemId": "item-218fcd9a844d0039e10d",
-        "destinyTitle": "戀人與緣分",
+        "destinyTitle": "",
         "destinyKo": "연인과 인연 1",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 18832
       },
       {
         "label": "EP2",
         "title": "戀人與緣分-2",
         "url": "https://docs.google.com/document/d/1CkPeZ4fx18C7pq5KjeGXHQGZmBZxGnCcZVglrPh_hNI/edit?usp=drivesdk",
-        "articleId": "1CkPeZ4fx18C7pq5KjeGXHQGZmBZxGnCcZVglrPh_hNI",
         "original": "https://www.postype.com/@untitle009/post/20868616",
+        "articleId": "1CkPeZ4fx18C7pq5KjeGXHQGZmBZxGnCcZVglrPh_hNI",
         "pricePoints": 0,
         "_episodeId": "ep-d0b12099bcc639dfd95b",
         "destinyItemId": "item-87bfdd86ce78809d53f7",
-        "destinyTitle": "戀人與緣分",
+        "destinyTitle": "",
         "destinyKo": "연인과 인연 2",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 11052
       },
       {
         "label": "EP3",
         "title": "戀人與緣分-3",
         "url": "https://docs.google.com/document/d/1OfL95N783JMJ09AViPE4ecxihdqhkTd47Q2FgEyrQp8/edit?usp=drivesdk",
-        "articleId": "1OfL95N783JMJ09AViPE4ecxihdqhkTd47Q2FgEyrQp8",
         "original": "https://www.postype.com/@untitle009/post/20895577",
+        "articleId": "1OfL95N783JMJ09AViPE4ecxihdqhkTd47Q2FgEyrQp8",
         "pricePoints": 500,
         "_episodeId": "ep-f8d2d2ab32c78aac3229",
         "destinyItemId": "item-c1dc292e6c0429f98c1b",
-        "destinyTitle": "戀人與緣分",
+        "destinyTitle": "",
         "destinyKo": "연인과 인연 3",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 9753
       },
       {
         "label": "EP4",
         "title": "戀人與緣分-4",
         "url": "https://docs.google.com/document/d/1EJJv7LVYXBt06Hq55nT2APRTaNh-nBIpk4Nk9QphM-I/edit?usp=drivesdk",
-        "articleId": "1EJJv7LVYXBt06Hq55nT2APRTaNh-nBIpk4Nk9QphM-I",
         "original": "https://www.postype.com/@untitle009/post/20920116",
+        "articleId": "1EJJv7LVYXBt06Hq55nT2APRTaNh-nBIpk4Nk9QphM-I",
         "pricePoints": 1000,
         "_episodeId": "ep-41140c5962de24d2cfbb",
         "destinyItemId": "item-ad1edc8174279229b109",
-        "destinyTitle": "戀人與緣分",
+        "destinyTitle": "",
         "destinyKo": "연인과 인연 4",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 15282
       },
       {
         "label": "EP5",
         "title": "戀人與緣分-5",
         "url": "https://docs.google.com/document/d/1k71MthZ5palSsacNycZMuGm-DCJy0zEUNyI9phMqcAM/edit?usp=drivesdk",
-        "articleId": "1k71MthZ5palSsacNycZMuGm-DCJy0zEUNyI9phMqcAM",
         "original": "https://www.postype.com/@untitle009/post/20964047",
+        "articleId": "1k71MthZ5palSsacNycZMuGm-DCJy0zEUNyI9phMqcAM",
         "pricePoints": 1000,
         "_episodeId": "ep-627e26770e9157426e6e",
         "destinyItemId": "item-a20bd9e309cd8608fb4f",
-        "destinyTitle": "戀人與緣分",
+        "destinyTitle": "",
         "destinyKo": "연인과 인연 5",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 13806
       },
       {
         "label": "EP6",
         "title": "戀人與緣分-6",
         "url": "https://docs.google.com/document/d/1SY3RImA5T1CJKAkv86zeHohDuWGUguqg-qc_3w-eaXw/edit?usp=drivesdk",
-        "articleId": "1SY3RImA5T1CJKAkv86zeHohDuWGUguqg-qc_3w-eaXw",
         "original": "https://www.postype.com/@untitle009/post/20999684",
+        "articleId": "1SY3RImA5T1CJKAkv86zeHohDuWGUguqg-qc_3w-eaXw",
         "pricePoints": 1000,
         "_episodeId": "ep-2cccd01551ef0124f346",
         "destinyItemId": "item-4704197c9477a98d299f",
-        "destinyTitle": "戀人與緣分",
+        "destinyTitle": "",
         "destinyKo": "연인과 인연 6",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 11397
       },
       {
         "label": "EP7",
         "title": "戀人與緣分-7",
         "url": "https://docs.google.com/document/d/1Ey5V3gegxvuIe1RWkxuOh2q5U38CboPfXdTwLvuZhKU/edit?usp=drivesdk",
-        "articleId": "1Ey5V3gegxvuIe1RWkxuOh2q5U38CboPfXdTwLvuZhKU",
         "original": "https://www.postype.com/@untitle009/post/21068547",
+        "articleId": "1Ey5V3gegxvuIe1RWkxuOh2q5U38CboPfXdTwLvuZhKU",
         "pricePoints": 1000,
         "_episodeId": "ep-4d9f248311b977116a42",
         "destinyItemId": "item-24d2b6850916321948df",
-        "destinyTitle": "戀人與緣分",
+        "destinyTitle": "",
         "destinyKo": "연인과 인연 7",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 16302
       },
       {
         "label": "EP8",
         "title": "戀人與緣分-8",
         "url": "https://docs.google.com/document/d/14X8Be0cOLGTpxu7SsII0OijQ1i26O2tEzpoMJZ341Qo/edit?usp=drivesdk",
-        "articleId": "14X8Be0cOLGTpxu7SsII0OijQ1i26O2tEzpoMJZ341Qo",
         "original": "https://www.postype.com/@untitle009/post/21131311",
+        "articleId": "14X8Be0cOLGTpxu7SsII0OijQ1i26O2tEzpoMJZ341Qo",
         "pricePoints": 1000,
         "_episodeId": "ep-a70005dec366c372f0e2",
         "destinyItemId": "item-59adacaa7dc7a636a337",
-        "destinyTitle": "戀人與緣分",
+        "destinyTitle": "",
         "destinyKo": "연인과 인연 8",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 10514
       },
       {
         "label": "EP9",
         "title": "戀人與緣分-9",
         "url": "https://docs.google.com/document/d/1poIarUtubgoot3Bz-L1HXPOwah8xee12yhDVjBU3xSo/edit?usp=drivesdk",
-        "articleId": "1poIarUtubgoot3Bz-L1HXPOwah8xee12yhDVjBU3xSo",
         "original": "https://www.postype.com/@untitle009/post/21182252",
+        "articleId": "1poIarUtubgoot3Bz-L1HXPOwah8xee12yhDVjBU3xSo",
         "pricePoints": 0,
         "_episodeId": "ep-7eba1cb7b17325d2e74b",
         "destinyItemId": "item-ba1ac617c22bb6b978b3",
-        "destinyTitle": "戀人與緣分",
+        "destinyTitle": "",
         "destinyKo": "연인과 인연 9",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8663
       },
       {
         "label": "EP10",
         "title": "戀人與緣分-10",
         "url": "https://docs.google.com/document/d/18yT1J04gcsIO6m1PXvEVgFYXYjL_mWy0WXw4P6lhBtM/edit?usp=drivesdk",
-        "articleId": "18yT1J04gcsIO6m1PXvEVgFYXYjL_mWy0WXw4P6lhBtM",
         "original": "https://www.postype.com/zh-hant/@untitle009/post/21287634",
+        "articleId": "18yT1J04gcsIO6m1PXvEVgFYXYjL_mWy0WXw4P6lhBtM",
         "pricePoints": 0,
         "_episodeId": "ep-ebbeea2f5dd2e423c77d",
         "destinyItemId": "item-68e2e57caa611e426011",
-        "destinyTitle": "戀人與緣分",
+        "destinyTitle": "",
         "destinyKo": "연인과 인연 10",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 11240
       }
     ],
@@ -12252,8 +12366,13 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：上班族\n員：自由業者"
+      "安：上班族",
+      "員：自由業者"
     ],
+    "createdAt": "2026-10-12T16:30:30.224Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:52:54.048Z",
     "wordCount": 18832
   },
   {
@@ -12442,25 +12561,33 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "本篇",
+        "label": "1",
         "title": "瑪利亞",
         "url": "https://docs.google.com/document/d/1bw0OxeJguiur6bXcqAKz-Mb4-i2gpFaDdHXjiWBuyac/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1bw0OxeJguiur6bXcqAKz-Mb4-i2gpFaDdHXjiWBuyac",
+        "pricePoints": null,
         "_episodeId": "ep-29dde4702ff23f988232",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 3190
       },
       {
-        "label": "頭紗篇",
+        "label": "2",
         "title": "瑪利亞－頭紗",
         "url": "https://docs.google.com/document/d/1AEoSNjjW0GkEA-zwpBjz4p8NgIlYXODlmeCrBHtzQA8/edit?usp=drivesdk",
-        "articleId": "1AEoSNjjW0GkEA-zwpBjz4p8NgIlYXODlmeCrBHtzQA8",
         "original": "https://www.postype.com/zh-hant/@fifth230/post/21102771",
+        "articleId": "1AEoSNjjW0GkEA-zwpBjz4p8NgIlYXODlmeCrBHtzQA8",
         "pricePoints": 200,
         "_episodeId": "ep-f7a8fb3c108287ee701e",
         "destinyItemId": "item-ab7887867f86e0cf8dd1",
         "destinyTitle": "Maria－頭紗",
         "destinyKo": "마리아 - 베일",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4327
       }
     ],
@@ -12481,6 +12608,11 @@ window.BOOK_DATA = [
     "tags": [
       "文章狀態: 完結"
     ],
+    "createdAt": "2026-10-13T11:53:16.732Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-13T11:53:16.734Z",
     "wordCount": 3190
   },
   {
@@ -12789,7 +12921,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-5ac652c8b229a98ea8ff",
         "destinyItemId": "item-c366a29928fe1c300f5c",
-        "destinyTitle": "I’ll be back",
+        "destinyTitle": "",
         "destinyKo": "아윌비백",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -12822,7 +12954,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T15:35:47.931Z",
+    "updatedAt": "2026-10-13T11:53:29.772Z",
     "wordCount": 7940
   },
   {
@@ -13165,7 +13297,7 @@ window.BOOK_DATA = [
         "pricePoints": 1000,
         "_episodeId": "ep-8d39d65033a7e6678ae7",
         "destinyItemId": "item-41fd3c6cd1331dbdb82b",
-        "destinyTitle": "狼與魔女",
+        "destinyTitle": "",
         "destinyKo": "늑대와 마녀",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -13200,7 +13332,7 @@ window.BOOK_DATA = [
     "createdAt": "2026-10-12T15:36:42.114Z",
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T15:36:42.115Z",
+    "updatedAt": "2026-10-13T12:42:26.451Z",
     "wordCount": 12850
   },
   {
@@ -13679,7 +13811,7 @@ window.BOOK_DATA = [
         "label": "EP4",
         "title": "在死之前，至少想見一次 4",
         "url": "https://docs.google.com/document/d/1cZXiNOe814vN0kvHu5arRpWahvSGxzT9_UEu0K9JQ1w/edit?usp=drivesdk",
-        "original": "",
+        "original": "https://www.postype.com/zh-hant/@monochrome-film/post/20060177",
         "articleId": "1cZXiNOe814vN0kvHu5arRpWahvSGxzT9_UEu0K9JQ1w",
         "pricePoints": null,
         "_episodeId": "ep-3d017dae0d43b2fce61a",
@@ -13689,6 +13821,21 @@ window.BOOK_DATA = [
         "destinyDeleted": false,
         "includeDestiny": true,
         "wordCount": 7363
+      },
+      {
+        "label": "死（4）",
+        "title": "死之前想每天見面（死之前至少想見一次 - 外傳）",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@monochrome-film/post/20217937",
+        "articleId": "19gq1ieohh9S0WJuyG9gQbGXIDmIDMIkgpTXOAA4asd0",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-1aea2cd1aa3370cfd775",
+        "destinyItemId": "item-1aea2cd1aa3370cfd775",
+        "destinyTitle": "",
+        "destinyKo": "죽기 전에 한 번은 보고 싶어 死",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 8526
       }
     ],
     "_id": "work-b894e0bde4aaf8113098",
@@ -13717,7 +13864,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T15:42:57.882Z",
+    "updatedAt": "2026-10-13T11:50:20.370Z",
     "wordCount": 7158
   },
   {
@@ -13776,7 +13923,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 3",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 11906
+        "wordCount": 11892
       },
       {
         "label": "4",
@@ -14190,59 +14337,63 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "01 結 上",
         "url": "https://docs.google.com/document/d/1fpyJ4EWyAuhYy6Q1wp3SfB-5efl3J83hACQrpINzSe4/edit?usp=drivesdk",
-        "articleId": "1fpyJ4EWyAuhYy6Q1wp3SfB-5efl3J83hACQrpINzSe4",
         "original": "https://www.postype.com/@yuwon8318/post/19484121",
+        "articleId": "1fpyJ4EWyAuhYy6Q1wp3SfB-5efl3J83hACQrpINzSe4",
         "pricePoints": 1000,
         "_episodeId": "ep-b12699629ec157f3e4f9",
         "destinyItemId": "item-fc530c5add10a4caf8ce",
-        "destinyTitle": "結",
+        "destinyTitle": "",
         "destinyKo": "결",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 21829
       },
       {
-        "label": "中",
+        "label": "2",
         "title": "02 結 中",
         "url": "https://docs.google.com/document/d/1_xdGAiSEwYacEeMZ39DC-KFdQqpAjerrPnHLwKm2wLw/edit?usp=drivesdk",
-        "articleId": "1_xdGAiSEwYacEeMZ39DC-KFdQqpAjerrPnHLwKm2wLw",
         "original": "https://www.postype.com/@yuwon8318/post/19726381",
+        "articleId": "1_xdGAiSEwYacEeMZ39DC-KFdQqpAjerrPnHLwKm2wLw",
         "pricePoints": 1000,
         "_episodeId": "ep-8e0b87bd9db592270e0b",
         "destinyItemId": "item-709cb42a3d7cc0d7657d",
-        "destinyTitle": "結",
+        "destinyTitle": "",
         "destinyKo": "결",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 22433
       },
       {
-        "label": "下",
+        "label": "3",
         "title": "03 結 下",
         "url": "https://docs.google.com/document/d/1Qfe68fHmFGq90819LNpE-1XvHtSniDWRoRymfEMCgMc/edit?usp=drivesdk",
-        "articleId": "1Qfe68fHmFGq90819LNpE-1XvHtSniDWRoRymfEMCgMc",
         "original": "https://www.postype.com/@yuwon8318/post/19822437",
+        "articleId": "1Qfe68fHmFGq90819LNpE-1XvHtSniDWRoRymfEMCgMc",
         "pricePoints": 1000,
         "_episodeId": "ep-cd108bdce5f265f16c29",
         "destinyItemId": "item-ef23dbfbc9fce0e0769d",
-        "destinyTitle": "結",
+        "destinyTitle": "",
         "destinyKo": "결",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 31615
       },
       {
-        "label": "外傳",
+        "label": "4",
         "title": "04 結 外傳",
         "url": "https://docs.google.com/document/d/1bphr5a3Qej3IIYSsmCnpxyJCabixcd-nn8wztLzYGyo/edit?usp=drivesdk",
-        "articleId": "1bphr5a3Qej3IIYSsmCnpxyJCabixcd-nn8wztLzYGyo",
         "original": "https://www.postype.com/@yuwon8318/post/19956947",
+        "articleId": "1bphr5a3Qej3IIYSsmCnpxyJCabixcd-nn8wztLzYGyo",
         "pricePoints": 1000,
         "_episodeId": "ep-be6947b3a55e3b43a72c",
         "destinyItemId": "item-debd4449180b450d4a1f",
-        "destinyTitle": "結",
+        "destinyTitle": "",
         "destinyKo": "결",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 14308
       }
     ],
@@ -14274,8 +14425,13 @@ window.BOOK_DATA = [
       "類型世界觀: ABO"
     ],
     "characters": [
-      "安：新進員工\n員：次長"
+      "安：新進員工",
+      "員：次長"
     ],
+    "createdAt": "2026-10-13T11:54:24.925Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:54:24.926Z",
     "wordCount": 21829
   },
   {
@@ -14924,14 +15080,15 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "別叫前輩，叫姐姐吧",
         "url": "https://docs.google.com/document/d/1vJfqOVxIaTg1ZzarsM2jR6GsNVZNzTB-coXdCLdCcZ4/edit?usp=drivesdk",
-        "articleId": "1vJfqOVxIaTg1ZzarsM2jR6GsNVZNzTB-coXdCLdCcZ4",
         "original": "https://www.postype.com/@eeggdanzii/post/17876787",
+        "articleId": "1vJfqOVxIaTg1ZzarsM2jR6GsNVZNzTB-coXdCLdCcZ4",
         "pricePoints": 0,
         "_episodeId": "ep-ebafd86559284329a66b",
         "destinyItemId": "item-1bf376470797647d6b95",
-        "destinyTitle": "不是前輩，叫姐姐",
+        "destinyTitle": "",
         "destinyKo": "선배 말고 언니",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 18412
       }
     ],
@@ -14958,8 +15115,14 @@ window.BOOK_DATA = [
       "背景設定: 校園"
     ],
     "characters": [
-      "安：大學生\n員：大學生"
+      "安：大學生",
+      "員：大學生"
     ],
+    "createdAt": "2026-10-13T11:54:36.621Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:54:36.622Z",
     "wordCount": 18412
   },
   {
@@ -15016,8 +15179,8 @@ window.BOOK_DATA = [
   {
     "page": "鯨魚",
     "status": "2.已完結",
-    "ko": "신데렐라 프롬프트 - 외전",
-    "zh": "💰 灰姑娘觸發器－外傳&spin-off",
+    "ko": "신데렐라 프롬프트",
+    "zh": "💰 灰姑娘觸發器（含外傳&spin-off）",
     "original": "https://www.postype.com/@golae0831/post/16314096",
     "translation": "https://docs.google.com/document/d/1WzWEHadmPOV7FljGmxgRrg8fo1zwF0Ehqu2jcyMxwFk/edit?usp=drivesdk",
     "author": "고래（鯨魚）",
@@ -15027,26 +15190,154 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "外傳",
-        "title": "灰姑娘觸發器 - 外傳",
-        "url": "https://docs.google.com/document/d/1WzWEHadmPOV7FljGmxgRrg8fo1zwF0Ehqu2jcyMxwFk/edit?usp=drivesdk",
-        "articleId": "1WzWEHadmPOV7FljGmxgRrg8fo1zwF0Ehqu2jcyMxwFk",
-        "original": "https://www.postype.com/zh-hant/@golae0831/post/16314096",
-        "pricePoints": 500,
-        "_episodeId": "ep-50aa74e23a5d7cb23368",
-        "destinyItemId": "item-fa99fa4eda018433fb59",
-        "destinyTitle": "灰姑娘觸發器－外傳",
-        "destinyKo": "신데렐라 프롬프트 - 외전",
+        "label": "1",
+        "title": "灰姑娘觸發器1",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@golae0831/post/15477835",
+        "articleId": "local-858fa05e-661d-4f5b-9bdb-20838bc97d3a",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-4847183c4d4792892406",
+        "destinyItemId": "item-4847183c4d4792892406",
+        "destinyTitle": "灰姑娘觸發器1",
+        "destinyKo": "신데렐라 프롬프트",
         "destinyDeleted": false,
-        "wordCount": 5250
+        "includeDestiny": true,
+        "wordCount": 4998
       },
       {
-        "label": "spin off",
-        "title": "灰姑娘觸發器 - spin off (by匿名)",
-        "url": "https://docs.google.com/document/d/1x1sRxkaoOK5FdcPqxCFtnwF28iXov1smPU5PLIdEMHI/edit?usp=drivesdk",
+        "label": "2",
+        "title": "灰姑娘觸發器2",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@golae0831/post/15515116",
+        "articleId": "local-f561f8d1-79ed-41cd-b70a-d58b08405543",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-ed9cbb596c3dd01db0ef",
+        "destinyItemId": "item-ed9cbb596c3dd01db0ef",
+        "destinyTitle": "灰姑娘觸發器2",
+        "destinyKo": "신데렐라 프롬프트",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 4854
+      },
+      {
+        "label": "3",
+        "title": "灰姑娘觸發器3",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@golae0831/post/15515116",
+        "articleId": "local-0201ee23-eb7b-49de-ad82-af76d6a4d549",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-734b4408175947cafb7c",
+        "destinyItemId": "item-734b4408175947cafb7c",
+        "destinyTitle": "灰姑娘觸發器3",
+        "destinyKo": "신데렐라 프롬프트",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 6942
+      },
+      {
+        "label": "4",
+        "title": "灰姑娘觸發器4",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@golae0831/post/15601947",
+        "articleId": "local-728155c0-5f4b-4053-8eb2-21f8a76b4c59",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-8c4f253d3ee9946c9db1",
+        "destinyItemId": "item-8c4f253d3ee9946c9db1",
+        "destinyTitle": "灰姑娘觸發器4",
+        "destinyKo": "신데렐라 프롬프트",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 6849
+      },
+      {
+        "label": "5",
+        "title": "灰姑娘觸發器5",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@golae0831/post/15723770",
+        "articleId": "local-a397e3c0-92c0-4c0a-a616-9096ad843662",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-08f3a1d4f9c03e877945",
+        "destinyItemId": "item-08f3a1d4f9c03e877945",
+        "destinyTitle": "灰姑娘觸發器5",
+        "destinyKo": "신데렐라 프롬프트",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 6151
+      },
+      {
+        "label": "6",
+        "title": "灰姑娘觸發器6",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@golae0831/post/15977293",
+        "articleId": "local-3518c3a4-cccf-41b8-9979-77b94c568a1a",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-26fba51a78904d9b8dff",
+        "destinyItemId": "item-26fba51a78904d9b8dff",
+        "destinyTitle": "灰姑娘觸發器6",
+        "destinyKo": "신데렐라 프롬프트",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 6385
+      },
+      {
+        "label": "7",
+        "title": "灰姑娘觸發器7",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@golae0831/post/16032758",
+        "articleId": "local-f8fb98c6-be2e-4c57-849d-5f176b53d002",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-7694485c7354e1f204c8",
+        "destinyItemId": "item-7694485c7354e1f204c8",
+        "destinyTitle": "灰姑娘觸發器7",
+        "destinyKo": "신데렐라 프롬프트",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 9072
+      },
+      {
+        "label": "8",
+        "title": "灰姑娘觸發器8",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@golae0831/post/16084366",
+        "articleId": "local-3d29ac5f-e94d-461a-b8fe-2cc1efdc7b2d",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-53b9e5920dac9b018f99",
+        "destinyItemId": "item-53b9e5920dac9b018f99",
+        "destinyTitle": "灰姑娘觸發器8",
+        "destinyKo": "신데렐라 프롬프트",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 8591
+      },
+      {
+        "label": "9",
+        "title": "灰姑娘觸發器 (spin-off)",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@golae0831/post/16315480",
         "articleId": "1x1sRxkaoOK5FdcPqxCFtnwF28iXov1smPU5PLIdEMHI",
-        "_episodeId": "ep-7a2ee9dba032edda9c6c",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-b29c4b222f8f1deac328",
+        "destinyItemId": "item-b29c4b222f8f1deac328",
+        "destinyTitle": "灰姑娘觸發器 (spin-off)",
+        "destinyKo": "신데렐라 프롬프트 - 스핀 오프",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8650
+      },
+      {
+        "label": "10",
+        "title": "灰姑娘觸發器 外傳",
+        "url": "",
+        "original": "",
+        "articleId": "1WzWEHadmPOV7FljGmxgRrg8fo1zwF0Ehqu2jcyMxwFk",
+        "pricePoints": 500,
+        "_episodeId": "ep-77041a6f-1e98-403e-98d0-856edc94c239",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 5250
       }
     ],
     "_id": "work-727f80855090d9c6c13a",
@@ -15054,8 +15345,8 @@ window.BOOK_DATA = [
     "articleId": "1WzWEHadmPOV7FljGmxgRrg8fo1zwF0Ehqu2jcyMxwFk",
     "pricingMode": "episodes",
     "knownPricePoints": 500,
-    "unpricedEpisodes": 1,
-    "pricePoints": null,
+    "unpricedEpisodes": 0,
+    "pricePoints": 500,
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [],
@@ -15076,6 +15367,10 @@ window.BOOK_DATA = [
     "characters": [
       "安：工程師 / 員：家政保母"
     ],
+    "createdAt": "2026-10-13T11:57:40.994Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:01:50.948Z",
     "wordCount": 5250
   },
   {
@@ -15148,14 +15443,15 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "Give or Take",
         "url": "https://docs.google.com/document/d/1Vyqzqf98Gt6ue_77p5b-EAoTgB-08lXoM0G8ITs0vIY/edit?usp=drivesdk",
-        "articleId": "1Vyqzqf98Gt6ue_77p5b-EAoTgB-08lXoM0G8ITs0vIY",
         "original": "https://www.postype.com/@83-inch/post/17217642",
+        "articleId": "1Vyqzqf98Gt6ue_77p5b-EAoTgB-08lXoM0G8ITs0vIY",
         "pricePoints": 500,
         "_episodeId": "ep-a6dc1eb6f4cf64429f8c",
         "destinyItemId": "item-a6bacfc1bc246b7f7a2c",
-        "destinyTitle": "Give or take",
+        "destinyTitle": "",
         "destinyKo": "Give or take",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8413
       }
     ],
@@ -15184,8 +15480,13 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：喝酒關係的社區姐姐\n員：喝酒關係的社區妹妹"
+      "安：喝酒關係的社區姐姐",
+      "員：喝酒關係的社區妹妹"
     ],
+    "createdAt": "2026-10-13T12:02:13.905Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:02:13.905Z",
     "wordCount": 8413
   },
   {
@@ -15201,11 +15502,18 @@ window.BOOK_DATA = [
     "date": "2025-06-24",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "Black Fantasy",
         "url": "https://docs.google.com/document/d/1tb7oVybiI9F26khsyfzi1AZ8YiqhA901eJi7sfZDpO0/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1tb7oVybiI9F26khsyfzi1AZ8YiqhA901eJi7sfZDpO0",
+        "pricePoints": null,
         "_episodeId": "ep-a2cb25c7fcd7740e2d2c",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 16094
       }
     ],
@@ -15230,6 +15538,11 @@ window.BOOK_DATA = [
     "unpricedEpisodes": 1,
     "pricePoints": null,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T15:20:03.236Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T15:20:03.236Z",
     "wordCount": 16094
   },
   {
@@ -15493,43 +15806,6 @@ window.BOOK_DATA = [
     "wordCount": 12241
   },
   {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "신데렐라 프롬프트 - 스핀 오프",
-    "zh": "灰姑娘觸發器－spin off",
-    "original": "https://www.postype.com/@golae0831/post/16315480",
-    "translation": "https://docs.google.com/document/d/1WzWEHadmPOV7FljGmxgRrg8fo1zwF0Ehqu2jcyMxwFk/edit?usp=drivesdk",
-    "author": "匿名",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2025-06-18",
-    "episodes": [
-      {
-        "label": "外傳",
-        "title": "灰姑娘觸發器 - 外傳",
-        "url": "https://docs.google.com/document/d/1WzWEHadmPOV7FljGmxgRrg8fo1zwF0Ehqu2jcyMxwFk/edit?usp=drivesdk",
-        "articleId": "1WzWEHadmPOV7FljGmxgRrg8fo1zwF0Ehqu2jcyMxwFk",
-        "_episodeId": "ep-06e326952787f1c1cf98",
-        "wordCount": 5250
-      },
-      {
-        "label": "spin off",
-        "title": "灰姑娘觸發器 - spin off (by匿名)",
-        "url": "https://docs.google.com/document/d/1x1sRxkaoOK5FdcPqxCFtnwF28iXov1smPU5PLIdEMHI/edit?usp=drivesdk",
-        "articleId": "1x1sRxkaoOK5FdcPqxCFtnwF28iXov1smPU5PLIdEMHI",
-        "_episodeId": "ep-58d8cc549ab673d7c288",
-        "wordCount": 8650
-      }
-    ],
-    "_id": "work-2971012bf4a9b093933d",
-    "_favoriteKey": "https://docs.google.com/document/d/1WzWEHadmPOV7FljGmxgRrg8fo1zwF0Ehqu2jcyMxwFk/edit?usp=drivesdk",
-    "articleId": "1WzWEHadmPOV7FljGmxgRrg8fo1zwF0Ehqu2jcyMxwFk",
-    "includeShelf": true,
-    "includeDestiny": false,
-    "recommendations": [],
-    "wordCount": 5250
-  },
-  {
     "page": "雞蛋",
     "status": "2.已完結",
     "ko": "8년째 연애 중 외전",
@@ -15592,59 +15868,63 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "A",
+        "label": "1",
         "title": "後方警報 A",
         "url": "https://docs.google.com/document/d/1Vc7YCnLRxi93bYMu4OuWsBYR8lNDC0DMRq-nIenNrA4/edit?usp=drivesdk",
-        "articleId": "1Vc7YCnLRxi93bYMu4OuWsBYR8lNDC0DMRq-nIenNrA4",
         "original": "https://www.postype.com/@not-ace/post/15915200",
+        "articleId": "1Vc7YCnLRxi93bYMu4OuWsBYR8lNDC0DMRq-nIenNrA4",
         "pricePoints": 500,
         "_episodeId": "ep-07dd114f52a1ff0cdef5",
         "destinyItemId": "item-c5e53f6312a9677f02f6",
-        "destinyTitle": "後方注意",
+        "destinyTitle": "",
         "destinyKo": "후방주의보",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5223
       },
       {
-        "label": "B",
+        "label": "2",
         "title": "後方警報 B",
         "url": "https://docs.google.com/document/d/16GHd3Iet36_qJajK-lq3vouDw8ukZoL4Pjrhv3wCuCc/edit?usp=drivesdk",
-        "articleId": "16GHd3Iet36_qJajK-lq3vouDw8ukZoL4Pjrhv3wCuCc",
         "original": "https://www.postype.com/@not-ace/post/15915799",
+        "articleId": "16GHd3Iet36_qJajK-lq3vouDw8ukZoL4Pjrhv3wCuCc",
         "pricePoints": 500,
         "_episodeId": "ep-2c8bcf2bc0a7c90b1930",
         "destinyItemId": "item-0daba3fd3d7b449b0d81",
-        "destinyTitle": "後方注意",
+        "destinyTitle": "",
         "destinyKo": "후방주의보",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7728
       },
       {
-        "label": "C",
+        "label": "3",
         "title": "後方警報 C",
         "url": "https://docs.google.com/document/d/13ikZJpBqsuc7UzywPgJFVjasZq1XI0DWiKXas5JItFo/edit?usp=drivesdk",
-        "articleId": "13ikZJpBqsuc7UzywPgJFVjasZq1XI0DWiKXas5JItFo",
         "original": "https://www.postype.com/@not-ace/post/15922174",
+        "articleId": "13ikZJpBqsuc7UzywPgJFVjasZq1XI0DWiKXas5JItFo",
         "pricePoints": 500,
         "_episodeId": "ep-1231c5868933ca83e219",
         "destinyItemId": "item-fb75469a18e1fa73b80b",
-        "destinyTitle": "後方注意",
+        "destinyTitle": "",
         "destinyKo": "후방주의보",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6131
       },
       {
-        "label": "D",
+        "label": "4",
         "title": "後方警報 D",
         "url": "https://docs.google.com/document/d/1wbtxIzlUevwoFKlA98mCEXFNYAh5H0qKu9dlcHaoFWk/edit?usp=drivesdk",
-        "articleId": "1wbtxIzlUevwoFKlA98mCEXFNYAh5H0qKu9dlcHaoFWk",
         "original": "https://www.postype.com/@not-ace/post/15924588",
+        "articleId": "1wbtxIzlUevwoFKlA98mCEXFNYAh5H0qKu9dlcHaoFWk",
         "pricePoints": 500,
         "_episodeId": "ep-4e6713c23a9021c03e5b",
         "destinyItemId": "item-04d01748ff9cdc883570",
-        "destinyTitle": "後方注意",
+        "destinyTitle": "",
         "destinyKo": "후방주의보",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4244
       }
     ],
@@ -15664,7 +15944,8 @@ window.BOOK_DATA = [
       "CP配對: 安/員",
       "CP配對: 員/安",
       "CP配對: 互攻",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
       "分級: SM",
@@ -15677,6 +15958,11 @@ window.BOOK_DATA = [
       "結局: HE",
       "類型世界觀: ABO"
     ],
+    "createdAt": "2026-10-13T12:02:37.865Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-13T12:02:37.866Z",
     "wordCount": 5223
   },
   {
@@ -15919,14 +16205,15 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "狼的誘惑",
         "url": "https://docs.google.com/document/d/1jg83CMKXw05RpN6Fg36-KmmXC-tqKH7m-8fbLEqohOo/edit?usp=drivesdk",
-        "articleId": "1jg83CMKXw05RpN6Fg36-KmmXC-tqKH7m-8fbLEqohOo",
         "original": "https://www.postype.com/@realpersonslashmemo/post/12621281",
+        "articleId": "1jg83CMKXw05RpN6Fg36-KmmXC-tqKH7m-8fbLEqohOo",
         "pricePoints": 1000,
         "_episodeId": "ep-f0a9ce6b6ce963b4a101",
         "destinyItemId": "item-23775084a1e91951290e",
-        "destinyTitle": "狼的誘惑",
+        "destinyTitle": "",
         "destinyKo": "늑대의 유혹",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5508
       }
     ],
@@ -15953,8 +16240,13 @@ window.BOOK_DATA = [
       "類型世界觀: 獸轉/獸人"
     ],
     "characters": [
-      "安：小狼\n員：大學生"
+      "安：小狼",
+      "員：大學生"
     ],
+    "createdAt": "2026-10-13T12:42:29.197Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:42:29.197Z",
     "wordCount": 5508
   },
   {
@@ -16086,17 +16378,18 @@ window.BOOK_DATA = [
     "date": "2025-06-08",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "欸抖 Stop it!",
         "url": "https://docs.google.com/document/d/1M2hc09H07wG3ptoAaDKxWkFzXTm7tZ8CNSQnvTX7NcU/edit?usp=drivesdk",
-        "articleId": "1M2hc09H07wG3ptoAaDKxWkFzXTm7tZ8CNSQnvTX7NcU",
         "original": "https://www.postype.com/@ayjjwy0304/post/19381738",
+        "articleId": "1M2hc09H07wG3ptoAaDKxWkFzXTm7tZ8CNSQnvTX7NcU",
         "pricePoints": 500,
         "_episodeId": "ep-bd4a8888ee1639a1e794",
         "destinyItemId": "item-ab9c78ae95658f6742b6",
-        "destinyTitle": "欸抖 stop it!",
+        "destinyTitle": "",
         "destinyKo": "에또 스타핏!",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 21704
       }
     ],
@@ -16121,8 +16414,14 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：大學生\n員：御宅族"
+      "安：大學生",
+      "員：御宅族"
     ],
+    "createdAt": "2026-10-13T12:02:52.136Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:02:52.136Z",
     "wordCount": 21704
   },
   {
@@ -16139,59 +16438,63 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "01 屏住呼吸，LOVE DIVE！上",
         "url": "https://docs.google.com/document/d/1JV7_qX2djPJjmOu69lh5RsSfkwnHi71VHvibhp35OhY/edit?usp=drivesdk",
-        "articleId": "1JV7_qX2djPJjmOu69lh5RsSfkwnHi71VHvibhp35OhY",
         "original": "https://www.postype.com/@monochrome-film/post/19392608",
+        "articleId": "1JV7_qX2djPJjmOu69lh5RsSfkwnHi71VHvibhp35OhY",
         "pricePoints": 0,
         "_episodeId": "ep-84e4e5a645282f67c8e7",
         "destinyItemId": "item-fa378ccdcc0d9e7f3409",
-        "destinyTitle": "屏住呼吸 LOVE DIVE!",
+        "destinyTitle": "",
         "destinyKo": "숨 참고 LOVE DIVE!",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 9849
       },
       {
-        "label": "中",
+        "label": "2",
         "title": "02 屏住呼吸，LOVE DIVE！中",
         "url": "https://docs.google.com/document/d/1__TnbNWc45eLMvLAUsvVShDrr5onF72UoqnQCFRFiX4/edit?usp=drivesdk",
-        "articleId": "1__TnbNWc45eLMvLAUsvVShDrr5onF72UoqnQCFRFiX4",
         "original": "https://www.postype.com/zh-hant/@monochrome-film/post/19396784",
+        "articleId": "1__TnbNWc45eLMvLAUsvVShDrr5onF72UoqnQCFRFiX4",
         "pricePoints": 0,
         "_episodeId": "ep-870285bbd3c33d348209",
         "destinyItemId": "item-d44f73c1ceb7153ea2d7",
-        "destinyTitle": "屏住呼吸 LOVE DIVE!",
+        "destinyTitle": "",
         "destinyKo": "숨 참고 LOVE DIVE!",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 9211
       },
       {
-        "label": "下",
+        "label": "3",
         "title": "03 屏住呼吸，LOVE DIVE！下",
         "url": "https://docs.google.com/document/d/1AHbdS5C6b94HzdQwU3XhRltW_h2yzcJhIVyy_2e6sbI/edit?usp=drivesdk",
-        "articleId": "1AHbdS5C6b94HzdQwU3XhRltW_h2yzcJhIVyy_2e6sbI",
         "original": "https://www.postype.com/zh-hant/@monochrome-film/post/19468681",
+        "articleId": "1AHbdS5C6b94HzdQwU3XhRltW_h2yzcJhIVyy_2e6sbI",
         "pricePoints": 0,
         "_episodeId": "ep-95e7bab7c21d167d3640",
         "destinyItemId": "item-7556d09b7ff6bfe34efe",
-        "destinyTitle": "屏住呼吸 LOVE DIVE!",
+        "destinyTitle": "",
         "destinyKo": "숨 참고 LOVE DIVE!",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 9412
       },
       {
-        "label": "外傳",
+        "label": "4",
         "title": "04 屏住呼吸，LOVE DIVE！外傳",
         "url": "https://docs.google.com/document/d/1hQ7YSBwhJ8NWS83yVFPeKmgARNIScB_p9zdR5omPg0Q/edit?usp=drivesdk",
-        "articleId": "1hQ7YSBwhJ8NWS83yVFPeKmgARNIScB_p9zdR5omPg0Q",
         "original": "https://www.postype.com/zh-hant/@monochrome-film/post/19525618",
+        "articleId": "1hQ7YSBwhJ8NWS83yVFPeKmgARNIScB_p9zdR5omPg0Q",
         "pricePoints": 500,
         "_episodeId": "ep-392d8afbae056b020339",
         "destinyItemId": "item-21901c214f4efabb0357",
-        "destinyTitle": "屏住呼吸 LOVE DIVE! 外傳",
+        "destinyTitle": "",
         "destinyKo": "숨 참고 LOVE DIVE!",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 10724
       }
     ],
@@ -16221,13 +16524,17 @@ window.BOOK_DATA = [
     "characters": [
       "安：上班族 / 員：上班族"
     ],
+    "createdAt": "2026-10-13T12:03:17.237Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:03:17.238Z",
     "wordCount": 9849
   },
   {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "전방주의보",
-    "zh": "💰 前方警報（掛件、束縛調教警告 ）",
+    "zh": "💰 前方警報",
     "original": "https://www.postype.com/@not-ace/post/19518093",
     "translation": "https://docs.google.com/document/d/1IkGkX3W9Hn6ZRfA5PGDtwdVbTMLvac8ORV7kcJDCv38/edit?usp=drivesdk",
     "author": "참치（鮪魚）",
@@ -16237,17 +16544,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "前方警報",
         "url": "https://docs.google.com/document/d/1IkGkX3W9Hn6ZRfA5PGDtwdVbTMLvac8ORV7kcJDCv38/edit?usp=drivesdk",
-        "articleId": "1IkGkX3W9Hn6ZRfA5PGDtwdVbTMLvac8ORV7kcJDCv38",
         "original": "https://www.postype.com/@not-ace/post/19518093",
+        "articleId": "1IkGkX3W9Hn6ZRfA5PGDtwdVbTMLvac8ORV7kcJDCv38",
         "pricePoints": 700,
         "_episodeId": "ep-045d3aefee71469b84ff",
         "destinyItemId": "item-1800b9c2cc67cea0610f",
-        "destinyTitle": "前方警報（掛件、束縛調教警告 ）",
+        "destinyTitle": "",
         "destinyKo": "전방주의보",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 9253
       }
     ],
@@ -16267,7 +16575,8 @@ window.BOOK_DATA = [
       "CP配對: 安/員",
       "CP配對: 員/安",
       "CP配對: 互攻",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
       "分級: SM",
@@ -16280,6 +16589,14 @@ window.BOOK_DATA = [
       "結局: HE",
       "類型世界觀: ABO"
     ],
+    "createdAt": "2026-10-13T12:41:43.811Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [
+      "掛件",
+      "束縛調教警告"
+    ],
+    "updatedAt": "2026-10-13T12:41:50.949Z",
     "wordCount": 9253
   },
   {
@@ -16494,7 +16811,7 @@ window.BOOK_DATA = [
     "date": "2025-05-24",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "兔子在汪汪叫",
         "url": "https://docs.google.com/document/d/14TamlMkaXG9Fno9tv2UhmsE4l2qNPM727_czzI5h058/edit?usp=drivesdk",
         "original": "https://www.postype.com/@chzhtyzm/post/7918481",
@@ -16502,7 +16819,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-d31eb748aa9131dfb9ce",
         "destinyItemId": "item-95ec56f12bbdd9465616",
-        "destinyTitle": "獸人系列1-兔子在汪汪叫",
+        "destinyTitle": "",
         "destinyKo": "토끼가 멍멍",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -16534,7 +16851,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-10T18:13:48.785Z",
+    "updatedAt": "2026-10-13T12:42:13.787Z",
     "wordCount": 6974
   },
   {
@@ -16603,7 +16920,7 @@ window.BOOK_DATA = [
     "date": "2025-05-22",
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "晚春-上",
         "url": "https://docs.google.com/document/d/1eC4xyymygNJHcy8IDDSEtaw7S5MFSZstdr1H0Pz_aVA/edit?usp=drivesdk",
         "original": "https://www.postype.com/@yoominzzin/post/5261918",
@@ -16611,14 +16928,14 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-e9e9e50543088fdc3d3a",
         "destinyItemId": "item-19ac02137d8e48e1ebfb",
-        "destinyTitle": "晚春",
+        "destinyTitle": "",
         "destinyKo": "만춘",
         "destinyDeleted": false,
         "includeDestiny": true,
         "wordCount": 15026
       },
       {
-        "label": "下(+番外)",
+        "label": "2",
         "title": "晚春-下(+番外)",
         "url": "https://docs.google.com/document/d/1hXdNUHNU4cGiwyI27hsbbI9Ks2QVvoHJ-M5EHGxUBRk/edit?usp=drivesdk",
         "original": "https://www.postype.com/zh-hant/@yoominzzin/post/5261952",
@@ -16633,8 +16950,8 @@ window.BOOK_DATA = [
         "wordCount": 14698
       },
       {
-        "label": "番外二",
-        "title": "晚春-番外二(行宮的冬天)",
+        "label": "3",
+        "title": "晚春 番外-行宮的冬天",
         "url": "https://docs.google.com/document/d/13MnXaBgFvSJtPgwijphFxUBZwZkJ3pmgyrQSkaw_v4s/edit?usp=drivesdk",
         "original": "https://www.postype.com/@yoominzzin/post/8461188",
         "articleId": "13MnXaBgFvSJtPgwijphFxUBZwZkJ3pmgyrQSkaw_v4s",
@@ -16648,8 +16965,8 @@ window.BOOK_DATA = [
         "wordCount": 7406
       },
       {
-        "label": "番外三",
-        "title": "晚春-番外三(講武)",
+        "label": "4",
+        "title": "晚春 番外-講武",
         "url": "https://docs.google.com/document/d/1ybKN56oxdWB_hcmVet9Bp_5nanWAGNFqYNeXKx5WT-s/edit?usp=drivesdk",
         "original": "https://www.postype.com/@yoominzzin/post/18590304",
         "articleId": "1ybKN56oxdWB_hcmVet9Bp_5nanWAGNFqYNeXKx5WT-s",
@@ -16692,7 +17009,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T07:57:15.395Z",
+    "updatedAt": "2026-10-13T15:19:36.965Z",
     "wordCount": 15026
   },
   {
@@ -16980,17 +17297,18 @@ window.BOOK_DATA = [
     "date": "2025-05-17",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "東西南北",
         "url": "https://docs.google.com/document/d/1Jm084m4oTlYkZCxo_xgWdieKxTyAD1V6ClyMOhXovxU/edit?usp=drivesdk",
-        "articleId": "1Jm084m4oTlYkZCxo_xgWdieKxTyAD1V6ClyMOhXovxU",
         "original": "https://www.postype.com/@sohanso/post/19373978",
+        "articleId": "1Jm084m4oTlYkZCxo_xgWdieKxTyAD1V6ClyMOhXovxU",
         "pricePoints": 0,
         "_episodeId": "ep-2aaf1ae6f14d11da8305",
         "destinyItemId": "item-a2e4963ef551da142198",
-        "destinyTitle": "東南西北",
+        "destinyTitle": "",
         "destinyKo": "동서남북",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8675
       }
     ],
@@ -17014,8 +17332,14 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：上班族\n員：上班族"
+      "安：上班族",
+      "員：上班族"
     ],
+    "createdAt": "2026-10-13T12:43:20.167Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:43:20.167Z",
     "wordCount": 8675
   },
   {
@@ -17089,45 +17413,48 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "01 間隙 上",
         "url": "https://docs.google.com/document/d/11DKG8q2Y_mRhJ3zxF8KXTFoLNiRPj7Euqwq815XdYEo/edit?usp=drivesdk",
-        "articleId": "11DKG8q2Y_mRhJ3zxF8KXTFoLNiRPj7Euqwq815XdYEo",
         "original": "https://www.postype.com/@yuwon8318/post/19360808",
+        "articleId": "11DKG8q2Y_mRhJ3zxF8KXTFoLNiRPj7Euqwq815XdYEo",
         "pricePoints": 1000,
         "_episodeId": "ep-805d421cf692349a9aa0",
         "destinyItemId": "item-e9016d97e7f53ddb3c5b",
-        "destinyTitle": "間隙",
+        "destinyTitle": "",
         "destinyKo": "틈",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 21313
       },
       {
-        "label": "中",
+        "label": "2",
         "title": "02 間隙 中",
         "url": "https://docs.google.com/document/d/114jLeO5TO7stQ5GfUxs0W0oa9WUwsTp82IVg0DskAvk/edit?usp=drivesdk",
-        "articleId": "114jLeO5TO7stQ5GfUxs0W0oa9WUwsTp82IVg0DskAvk",
         "original": "https://www.postype.com/@yuwon8318/post/19393707",
+        "articleId": "114jLeO5TO7stQ5GfUxs0W0oa9WUwsTp82IVg0DskAvk",
         "pricePoints": 1000,
         "_episodeId": "ep-d028bbf6abf872c0366f",
         "destinyItemId": "item-13b12f8d5b5108f14553",
-        "destinyTitle": "間隙",
+        "destinyTitle": "",
         "destinyKo": "틈",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 21315
       },
       {
-        "label": "下",
+        "label": "3",
         "title": "03 間隙 下",
         "url": "https://docs.google.com/document/d/1tCpgazZfSun29WW3CGD8rxjtA3V2x49bG0IfHf9LCqI/edit?usp=drivesdk",
-        "articleId": "1tCpgazZfSun29WW3CGD8rxjtA3V2x49bG0IfHf9LCqI",
         "original": "https://www.postype.com/@yuwon8318/post/19424855",
+        "articleId": "1tCpgazZfSun29WW3CGD8rxjtA3V2x49bG0IfHf9LCqI",
         "pricePoints": 1000,
         "_episodeId": "ep-60c613c1858744ceab47",
         "destinyItemId": "item-5a688c11cced3b18b40a",
-        "destinyTitle": "間隙",
+        "destinyTitle": "",
         "destinyKo": "틈",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 39875
       }
     ],
@@ -17160,8 +17487,13 @@ window.BOOK_DATA = [
       "類型世界觀: ABO"
     ],
     "characters": [
-      "安：安企業繼承人\n員：國務總理么女"
+      "安：安企業繼承人",
+      "員：國務總理么女"
     ],
+    "createdAt": "2026-10-13T12:43:43.185Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:43:43.185Z",
     "wordCount": 21313
   },
   {
@@ -17294,17 +17626,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "Astral Mix",
         "url": "https://docs.google.com/document/d/1Lb_oC0NDFnGU3BElKP5VFJANcogWSHxJ1BOvq8PmX2Y/edit?usp=drivesdk",
-        "articleId": "1Lb_oC0NDFnGU3BElKP5VFJANcogWSHxJ1BOvq8PmX2Y",
         "original": "https://www.postype.com/@untitle009/post/8223590",
+        "articleId": "1Lb_oC0NDFnGU3BElKP5VFJANcogWSHxJ1BOvq8PmX2Y",
         "pricePoints": 1500,
         "_episodeId": "ep-ee6e5fb7e600ebfea8c0",
         "destinyItemId": "item-593bc343c4a18b515b83",
-        "destinyTitle": "Astarl Mix",
+        "destinyTitle": "",
         "destinyKo": "아스트랄 믹스",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 38195
       }
     ],
@@ -17333,13 +17666,17 @@ window.BOOK_DATA = [
     "characters": [
       "安：跆拳道選手 / 員：模特兒"
     ],
+    "createdAt": "2026-10-13T12:43:55.794Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:43:55.795Z",
     "wordCount": 38195
   },
   {
     "page": "蜜地瓜",
     "status": "2.已完結",
     "ko": "시절인연",
-    "zh": "時節姻緣（CP潔癖勿入）",
+    "zh": "時節姻緣",
     "original": "",
     "translation": "https://docs.google.com/document/d/1fFn0Counh2sMoHO4VVL0Ezbwu-ORVrTervE7K6HbCaE/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
@@ -17348,17 +17685,18 @@ window.BOOK_DATA = [
     "date": "2025-05-11",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "時節姻緣",
         "url": "https://docs.google.com/document/d/1fFn0Counh2sMoHO4VVL0Ezbwu-ORVrTervE7K6HbCaE/edit?usp=drivesdk",
-        "articleId": "1fFn0Counh2sMoHO4VVL0Ezbwu-ORVrTervE7K6HbCaE",
         "original": "https://www.postype.com/@seol-cheong/post/16747698",
+        "articleId": "1fFn0Counh2sMoHO4VVL0Ezbwu-ORVrTervE7K6HbCaE",
         "pricePoints": 0,
         "_episodeId": "ep-6c888b5c895080b2cfb2",
         "destinyItemId": "item-9905f5cc41b739aa385a",
-        "destinyTitle": "時節姻緣（CP潔癖勿入）",
+        "destinyTitle": "時節姻緣",
         "destinyKo": "시절인연",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 18587
       }
     ],
@@ -17386,6 +17724,11 @@ window.BOOK_DATA = [
     "characters": [
       "安：大學生 / 員：大學生"
     ],
+    "createdAt": "2026-10-13T12:44:12.259Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:44:26.131Z",
     "wordCount": 18587
   },
   {
@@ -17657,31 +18000,33 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "9,one-上",
         "url": "https://docs.google.com/document/d/15mWyFjJsSsuNnzOlBQiX0ScD_QuWojESZO-I3T3ZL4M/edit?usp=drivesdk",
-        "articleId": "15mWyFjJsSsuNnzOlBQiX0ScD_QuWojESZO-I3T3ZL4M",
         "original": "https://www.postype.com/@nuttylife/post/19394840",
+        "articleId": "15mWyFjJsSsuNnzOlBQiX0ScD_QuWojESZO-I3T3ZL4M",
         "pricePoints": 700,
         "_episodeId": "ep-d21dbfc60ea264f745ef",
         "destinyItemId": "item-5d57112810db988a02d2",
-        "destinyTitle": "9,one 上",
+        "destinyTitle": "",
         "destinyKo": "9, one 上",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 9627
       },
       {
-        "label": "下",
+        "label": "2",
         "title": "9,one-下",
         "url": "https://docs.google.com/document/d/14gnONsErkI8tbpsCO99K8K9GLf7K9oXrqFLDlELlNS8/edit?usp=drivesdk",
-        "articleId": "14gnONsErkI8tbpsCO99K8K9GLf7K9oXrqFLDlELlNS8",
         "original": "https://www.postype.com/@nuttylife/post/19318824",
+        "articleId": "14gnONsErkI8tbpsCO99K8K9GLf7K9oXrqFLDlELlNS8",
         "pricePoints": 700,
         "_episodeId": "ep-fc3241cd184a2677f420",
         "destinyItemId": "item-73e147c75ff4aab68bd0",
-        "destinyTitle": "9,one 下",
+        "destinyTitle": "",
         "destinyKo": "9, one 下",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 10378
       }
     ],
@@ -17707,6 +18052,10 @@ window.BOOK_DATA = [
     "characters": [
       "安：上班族 / 員：大學生"
     ],
+    "createdAt": "2026-10-13T11:36:58.013Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:36:58.014Z",
     "wordCount": 9627
   },
   {
@@ -17802,8 +18151,8 @@ window.BOOK_DATA = [
   {
     "page": "noname",
     "status": "2.已完結",
-    "ko": "멜팅 쇼콜라 하이틴-上+下",
-    "zh": "Melt Chocolate Highteen-上+下",
+    "ko": "멜팅 쇼콜라 하이틴",
+    "zh": "Melt Chocolate Highteen",
     "original": "https://www.postype.com/@untitle009/post/9577634",
     "translation": "https://docs.google.com/document/d/1j9OOSE9ELkT9jqxpfHagDFycrsIgGwnaYYEnxdvv_YQ/edit?usp=drivesdk",
     "author": "noname",
@@ -17812,20 +18161,34 @@ window.BOOK_DATA = [
     "date": "2025-05-04",
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "Melting Chocolat Highteen-上",
         "url": "https://docs.google.com/document/d/1j9OOSE9ELkT9jqxpfHagDFycrsIgGwnaYYEnxdvv_YQ/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@untitle009/post/9577634",
         "articleId": "1j9OOSE9ELkT9jqxpfHagDFycrsIgGwnaYYEnxdvv_YQ",
+        "pricePoints": null,
         "_episodeId": "ep-f384cf0d148fb1e126d4",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 30578
       },
       {
-        "label": "下",
+        "label": "2",
         "title": "Melting Chocolat Highteen-下",
         "url": "https://docs.google.com/document/d/1AfevBOqApotIcwQufFuzGhYOC6O8swaOqPZeVmmzDTI/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@untitle009/post/9589860",
         "articleId": "1AfevBOqApotIcwQufFuzGhYOC6O8swaOqPZeVmmzDTI",
+        "pricePoints": null,
         "_episodeId": "ep-2cc636b1c89aceeeaf37",
-        "wordCount": 24151
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 24150
       }
     ],
     "_id": "work-f4fdb06417dc742dbdc4",
@@ -17853,6 +18216,11 @@ window.BOOK_DATA = [
     "unpricedEpisodes": 2,
     "pricePoints": null,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T15:16:24.509Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T15:18:04.122Z",
     "wordCount": 30578
   },
   {
@@ -17977,330 +18345,360 @@ window.BOOK_DATA = [
         "label": "1",
         "title": "第一次面對女兒的青春期 1",
         "url": "https://docs.google.com/document/d/1kHaNMakBhwvpn36pX8TD1ZetLaVNWWiGLgyiST-16hA/edit?usp=drivesdk",
-        "articleId": "1kHaNMakBhwvpn36pX8TD1ZetLaVNWWiGLgyiST-16hA",
         "original": "https://www.postype.com/@yuwon8318/post/18316337",
+        "articleId": "1kHaNMakBhwvpn36pX8TD1ZetLaVNWWiGLgyiST-16hA",
         "pricePoints": 0,
         "_episodeId": "ep-daf1f2b98e14fc43a1dd",
         "destinyItemId": "item-66cf49431a856b3e4b7a",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7337
       },
       {
         "label": "2",
         "title": "第一次面對女兒的青春期 2",
         "url": "https://docs.google.com/document/d/1bV_1wSWkDV-qWq312s-9XpNRf0ukhSjm0H0iJvYWvqI/edit?usp=drivesdk",
-        "articleId": "1bV_1wSWkDV-qWq312s-9XpNRf0ukhSjm0H0iJvYWvqI",
         "original": "https://www.postype.com/@yuwon8318/post/18332386",
+        "articleId": "1bV_1wSWkDV-qWq312s-9XpNRf0ukhSjm0H0iJvYWvqI",
         "pricePoints": 0,
         "_episodeId": "ep-43ce9aea1fde58f0db94",
         "destinyItemId": "item-743a38c222341e3d630f",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6269
       },
       {
         "label": "3",
         "title": "第一次面對女兒的青春期 3",
         "url": "https://docs.google.com/document/d/1FgrNJVepSrIubcFtoPWpj6chhW5bAH2U_3eImIWn8-c/edit?usp=drivesdk",
-        "articleId": "1FgrNJVepSrIubcFtoPWpj6chhW5bAH2U_3eImIWn8-c",
         "original": "https://www.postype.com/@yuwon8318/post/18340585",
+        "articleId": "1FgrNJVepSrIubcFtoPWpj6chhW5bAH2U_3eImIWn8-c",
         "pricePoints": 0,
         "_episodeId": "ep-aee5e3a47859403caa7f",
         "destinyItemId": "item-91e15d217624ba037bd5",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6090
       },
       {
         "label": "4",
         "title": "第一次面對女兒的青春期 4",
         "url": "https://docs.google.com/document/d/1A0KQeNDdbiAhesELjSFtAwvSJrvtX-K53tSKBJQHZrg/edit?usp=drivesdk",
-        "articleId": "1A0KQeNDdbiAhesELjSFtAwvSJrvtX-K53tSKBJQHZrg",
         "original": "https://www.postype.com/@yuwon8318/post/18348690",
+        "articleId": "1A0KQeNDdbiAhesELjSFtAwvSJrvtX-K53tSKBJQHZrg",
         "pricePoints": 0,
         "_episodeId": "ep-e51391087f3ccf070076",
         "destinyItemId": "item-aa5e82b4f3461e019b79",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6160
       },
       {
         "label": "5",
         "title": "第一次面對女兒的青春期 5",
         "url": "https://docs.google.com/document/d/1grNLQsIupGHbl9-m5_geU-DTwXD-qpKaMnlhKkE0oBc/edit?usp=drivesdk",
-        "articleId": "1grNLQsIupGHbl9-m5_geU-DTwXD-qpKaMnlhKkE0oBc",
         "original": "https://www.postype.com/@yuwon8318/post/18384017",
+        "articleId": "1grNLQsIupGHbl9-m5_geU-DTwXD-qpKaMnlhKkE0oBc",
         "pricePoints": 0,
         "_episodeId": "ep-5606f9525749ddcc26a0",
         "destinyItemId": "item-80084dde99cd711f1368",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6116
       },
       {
         "label": "6",
         "title": "第一次面對女兒的青春期 6",
         "url": "https://docs.google.com/document/d/1aqythGxU9ia5bFQipjzYk-TrdFmAsem9KfUZlhiw4tk/edit?usp=drivesdk",
-        "articleId": "1aqythGxU9ia5bFQipjzYk-TrdFmAsem9KfUZlhiw4tk",
         "original": "https://www.postype.com/@yuwon8318/post/18446612",
+        "articleId": "1aqythGxU9ia5bFQipjzYk-TrdFmAsem9KfUZlhiw4tk",
         "pricePoints": 0,
         "_episodeId": "ep-e32ab81597858e809a98",
         "destinyItemId": "item-72c917fa8edb555ebcd9",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6853
       },
       {
         "label": "7",
         "title": "第一次面對女兒的青春期 7",
         "url": "https://docs.google.com/document/d/12F0lB9Y28sHJ0jTiJw3B8hJyPXPYoOR8dfSK5ksTcHk/edit?usp=drivesdk",
-        "articleId": "12F0lB9Y28sHJ0jTiJw3B8hJyPXPYoOR8dfSK5ksTcHk",
         "original": "https://www.postype.com/@yuwon8318/post/18568354",
+        "articleId": "12F0lB9Y28sHJ0jTiJw3B8hJyPXPYoOR8dfSK5ksTcHk",
         "pricePoints": 500,
         "_episodeId": "ep-4e4c688b77244aa6947c",
         "destinyItemId": "item-748d6d4f726d8d449d3c",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7083
       },
       {
         "label": "8",
         "title": "第一次面對女兒的青春期 8",
         "url": "https://docs.google.com/document/d/1RzZ_NzCUnk-r_6PC2kV4LkwsHymd3qzGFUaYcG8A8e0/edit?usp=drivesdk",
-        "articleId": "1RzZ_NzCUnk-r_6PC2kV4LkwsHymd3qzGFUaYcG8A8e0",
         "original": "https://www.postype.com/@yuwon8318/post/18595239",
+        "articleId": "1RzZ_NzCUnk-r_6PC2kV4LkwsHymd3qzGFUaYcG8A8e0",
         "pricePoints": 0,
         "_episodeId": "ep-ad2baaf58b210e37ec13",
         "destinyItemId": "item-33f2c57d1b1397bb1509",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6550
       },
       {
         "label": "9",
         "title": "第一次面對女兒的青春期 9",
         "url": "https://docs.google.com/document/d/1Qr4mccR4SsCau5XPNXZJF_hsVRbqeJDJxp0wnwLwEPw/edit?usp=drivesdk",
-        "articleId": "1Qr4mccR4SsCau5XPNXZJF_hsVRbqeJDJxp0wnwLwEPw",
         "original": "https://www.postype.com/@yuwon8318/post/18595326",
+        "articleId": "1Qr4mccR4SsCau5XPNXZJF_hsVRbqeJDJxp0wnwLwEPw",
         "pricePoints": 0,
         "_episodeId": "ep-c6b07b785fc13e80d953",
         "destinyItemId": "item-bee47d1e2e5a0e244331",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6746
       },
       {
         "label": "10",
         "title": "第一次面對女兒的青春期 10",
         "url": "https://docs.google.com/document/d/1BDdg_fScm7aK7cU2MZvV6wfEsb1rXM39AHqOMuLNuFI/edit?usp=drivesdk",
-        "articleId": "1BDdg_fScm7aK7cU2MZvV6wfEsb1rXM39AHqOMuLNuFI",
         "original": "https://www.postype.com/@yuwon8318/post/18635738",
+        "articleId": "1BDdg_fScm7aK7cU2MZvV6wfEsb1rXM39AHqOMuLNuFI",
         "pricePoints": 0,
         "_episodeId": "ep-3b9b87f3a95e47d592bf",
         "destinyItemId": "item-ef24ae290ecd5b9f42ed",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5186
       },
       {
         "label": "11",
         "title": "第一次面對女兒的青春期 11",
         "url": "https://docs.google.com/document/d/1oMp9sw93dojTtqztHr45jmbb5PaM8aOXMhP19jh3RVU/edit?usp=drivesdk",
-        "articleId": "1oMp9sw93dojTtqztHr45jmbb5PaM8aOXMhP19jh3RVU",
         "original": "https://www.postype.com/@yuwon8318/post/18636586",
+        "articleId": "1oMp9sw93dojTtqztHr45jmbb5PaM8aOXMhP19jh3RVU",
         "pricePoints": 500,
         "_episodeId": "ep-9252a90fd772127e4d4b",
         "destinyItemId": "item-a991850d25cff8ef319c",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7623
       },
       {
         "label": "12",
         "title": "第一次面對女兒的青春期 12",
         "url": "https://docs.google.com/document/d/1QbpdN6BwR6d8D_pdO8O3WuJ2dg9Bw-No9VuB1gpXEQ8/edit?usp=drivesdk",
-        "articleId": "1QbpdN6BwR6d8D_pdO8O3WuJ2dg9Bw-No9VuB1gpXEQ8",
         "original": "https://www.postype.com/@yuwon8318/post/18679454",
+        "articleId": "1QbpdN6BwR6d8D_pdO8O3WuJ2dg9Bw-No9VuB1gpXEQ8",
         "pricePoints": 0,
         "_episodeId": "ep-f1b659d0f289f959b13a",
         "destinyItemId": "item-cabf4e453e2dd68bb61f",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5571
       },
       {
         "label": "13",
         "title": "第一次面對女兒的青春期 13",
         "url": "https://docs.google.com/document/d/1BADxyTkNGIFgVQpAasY1ZDLTTfn8kSgsq1slOJd_W2k/edit?usp=drivesdk",
-        "articleId": "1BADxyTkNGIFgVQpAasY1ZDLTTfn8kSgsq1slOJd_W2k",
         "original": "https://www.postype.com/@yuwon8318/post/18758765",
+        "articleId": "1BADxyTkNGIFgVQpAasY1ZDLTTfn8kSgsq1slOJd_W2k",
         "pricePoints": 0,
         "_episodeId": "ep-05d0fd09d4c847f41b3c",
         "destinyItemId": "item-6d8d34daf26bbbae0d56",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5967
       },
       {
         "label": "14",
         "title": "第一次面對女兒的青春期 14",
         "url": "https://docs.google.com/document/d/1Y95j-mYlk1jFL8P0B37j1qKmhJZjMuGdDD4FtmOWCT4/edit?usp=drivesdk",
-        "articleId": "1Y95j-mYlk1jFL8P0B37j1qKmhJZjMuGdDD4FtmOWCT4",
         "original": "https://www.postype.com/@yuwon8318/post/18780454",
+        "articleId": "1Y95j-mYlk1jFL8P0B37j1qKmhJZjMuGdDD4FtmOWCT4",
         "pricePoints": 0,
         "_episodeId": "ep-51aa379620326e72c0ea",
         "destinyItemId": "item-357f0c35a20d108d7965",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6800
       },
       {
         "label": "15",
         "title": "第一次面對女兒的青春期 15",
         "url": "https://docs.google.com/document/d/1WOTfil3QMzpfuPLEqdVv9n3_lhJPCIKUZl_DXDh45G4/edit?usp=drivesdk",
-        "articleId": "1WOTfil3QMzpfuPLEqdVv9n3_lhJPCIKUZl_DXDh45G4",
         "original": "https://www.postype.com/@yuwon8318/post/18913131",
+        "articleId": "1WOTfil3QMzpfuPLEqdVv9n3_lhJPCIKUZl_DXDh45G4",
         "pricePoints": 0,
         "_episodeId": "ep-c3692ac862f63e093444",
         "destinyItemId": "item-7689b977e45e61ddbe64",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5417
       },
       {
         "label": "16",
         "title": "第一次面對女兒的青春期 16",
         "url": "https://docs.google.com/document/d/1qPTTF1D-2nbSoW2DHLmvX_pW3pLk5BA_HOQ_lHY5IyM/edit?usp=drivesdk",
-        "articleId": "1qPTTF1D-2nbSoW2DHLmvX_pW3pLk5BA_HOQ_lHY5IyM",
         "original": "https://www.postype.com/@yuwon8318/post/18931675",
+        "articleId": "1qPTTF1D-2nbSoW2DHLmvX_pW3pLk5BA_HOQ_lHY5IyM",
         "pricePoints": 0,
         "_episodeId": "ep-20d0da600d2519025708",
         "destinyItemId": "item-b30f057bb30bb04f7cde",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5919
       },
       {
         "label": "17",
         "title": "第一次面對女兒的青春期 17",
         "url": "https://docs.google.com/document/d/1OLDK4-9_RYLOWbFDeZBBaTdOwJZ-3gN1Tk3UX43ya5A/edit?usp=drivesdk",
-        "articleId": "1OLDK4-9_RYLOWbFDeZBBaTdOwJZ-3gN1Tk3UX43ya5A",
         "original": "https://www.postype.com/@yuwon8318/post/18975090",
+        "articleId": "1OLDK4-9_RYLOWbFDeZBBaTdOwJZ-3gN1Tk3UX43ya5A",
         "pricePoints": 500,
         "_episodeId": "ep-10010a7c79386ab0bba0",
         "destinyItemId": "item-3f8b6717d9da9ff52940",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5443
       },
       {
         "label": "18",
         "title": "第一次面對女兒的青春期 18",
         "url": "https://docs.google.com/document/d/1x5EEzZPMZoFVer3WUUITmdQoH-htEELhVRfoW3RqieY/edit?usp=drivesdk",
-        "articleId": "1x5EEzZPMZoFVer3WUUITmdQoH-htEELhVRfoW3RqieY",
         "original": "https://www.postype.com/@yuwon8318/post/18991150",
+        "articleId": "1x5EEzZPMZoFVer3WUUITmdQoH-htEELhVRfoW3RqieY",
         "pricePoints": 0,
         "_episodeId": "ep-a0f2f9160aa0378d2da3",
         "destinyItemId": "item-c1bc3a42262b17fb5780",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5913
       },
       {
         "label": "19",
         "title": "第一次面對女兒的青春期 19",
         "url": "https://docs.google.com/document/d/1zaWK6l6bXFyPpVcz6gLqJ8_n2sPae8iD32Zgrb80jvc/edit?usp=drivesdk",
-        "articleId": "1zaWK6l6bXFyPpVcz6gLqJ8_n2sPae8iD32Zgrb80jvc",
         "original": "https://www.postype.com/@yuwon8318/post/19011489",
+        "articleId": "1zaWK6l6bXFyPpVcz6gLqJ8_n2sPae8iD32Zgrb80jvc",
         "pricePoints": 0,
         "_episodeId": "ep-93322433a2f3ff37a4f4",
         "destinyItemId": "item-66bdf09a3e9536c44b9e",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7063
       },
       {
         "label": "20",
         "title": "第一次面對女兒的青春期 20",
         "url": "https://docs.google.com/document/d/12hzjFF1HPBDF1takeLtMDraP4GgQA8wXrfvVtu2faY0/edit?usp=drivesdk",
-        "articleId": "12hzjFF1HPBDF1takeLtMDraP4GgQA8wXrfvVtu2faY0",
         "original": "https://www.postype.com/@yuwon8318/post/19122708",
+        "articleId": "12hzjFF1HPBDF1takeLtMDraP4GgQA8wXrfvVtu2faY0",
         "pricePoints": 500,
         "_episodeId": "ep-21c069a8001d390e3aba",
         "destinyItemId": "item-ae105410c3eae3467c7f",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6717
       },
       {
         "label": "21",
         "title": "第一次面對女兒的青春期 21",
         "url": "https://docs.google.com/document/d/1Tq2MU-p1p7BZ6JGg44o35WDpg3P8RupUiOnFkNDArQ0/edit?usp=drivesdk",
-        "articleId": "1Tq2MU-p1p7BZ6JGg44o35WDpg3P8RupUiOnFkNDArQ0",
         "original": "https://www.postype.com/@yuwon8318/post/19129708",
+        "articleId": "1Tq2MU-p1p7BZ6JGg44o35WDpg3P8RupUiOnFkNDArQ0",
         "pricePoints": 0,
         "_episodeId": "ep-56de1a9238b53c00c4fc",
         "destinyItemId": "item-a36ed9e5da35cb275938",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6000
       },
       {
         "label": "22",
         "title": "第一次面對女兒的青春期 22",
         "url": "https://docs.google.com/document/d/1W7PvdkCa7EBWboLCORqFXqRiDvnwf93u4mjYlkx40Mo/edit?usp=drivesdk",
-        "articleId": "1W7PvdkCa7EBWboLCORqFXqRiDvnwf93u4mjYlkx40Mo",
         "original": "https://www.postype.com/@yuwon8318/post/19161596",
+        "articleId": "1W7PvdkCa7EBWboLCORqFXqRiDvnwf93u4mjYlkx40Mo",
         "pricePoints": 0,
         "_episodeId": "ep-82a8050e1d5cc73cc787",
         "destinyItemId": "item-00563c256d5c4dc04970",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6128
       },
       {
         "label": "23",
         "title": "第一次面對女兒的青春期 23",
         "url": "https://docs.google.com/document/d/1G7_os_9rLV9eCccz6D-766cO72ZPFa7pN1G4-oimwdE/edit?usp=drivesdk",
-        "articleId": "1G7_os_9rLV9eCccz6D-766cO72ZPFa7pN1G4-oimwdE",
         "original": "https://www.postype.com/@yuwon8318/post/19225786",
+        "articleId": "1G7_os_9rLV9eCccz6D-766cO72ZPFa7pN1G4-oimwdE",
         "pricePoints": 0,
         "_episodeId": "ep-4c597cc7d8889747bccc",
         "destinyItemId": "item-3c85fea541516248fece",
-        "destinyTitle": "咖啡夫妻S3-第一次面對女兒的青春期",
+        "destinyTitle": "",
         "destinyKo": "딸의 사춘기는 처음이라서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6429
       },
       {
         "label": "24",
         "title": "第一次面對女兒的青春期 24",
         "url": "https://docs.google.com/document/d/1zmpbbuVfEcsLMneC9j2m5Qw07jvCqJj04Jhny_Uo7Yo/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@yuwon8318/post/19346997",
         "articleId": "1zmpbbuVfEcsLMneC9j2m5Qw07jvCqJj04Jhny_Uo7Yo",
+        "pricePoints": null,
         "_episodeId": "ep-9685c37ee3624b8cce48",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5701
       }
     ],
@@ -18319,6 +18717,11 @@ window.BOOK_DATA = [
     "tags": [
       "文章狀態: 完結"
     ],
+    "createdAt": "2026-10-13T12:46:15.500Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-13T12:46:15.507Z",
     "wordCount": 7337
   },
   {
@@ -18507,17 +18910,18 @@ window.BOOK_DATA = [
     "date": "2025-04-17",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "901 Not found",
+        "label": "單集",
+        "title": "901:Not Found",
         "url": "https://docs.google.com/document/d/1lCjP31vz_IJriSvTk3nqkRav1-46K8pyM97JPTWotvw/edit?usp=drivesdk",
-        "articleId": "1lCjP31vz_IJriSvTk3nqkRav1-46K8pyM97JPTWotvw",
         "original": "https://www.postype.com/@yuwon8318/post/19094635",
+        "articleId": "1lCjP31vz_IJriSvTk3nqkRav1-46K8pyM97JPTWotvw",
         "pricePoints": 0,
         "_episodeId": "ep-c119186f0c53fe9a617b",
         "destinyItemId": "item-09c66106b50caa3ab277",
-        "destinyTitle": "901:Not Found",
+        "destinyTitle": "",
         "destinyKo": "901:Not Found",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 21185
       }
     ],
@@ -18541,8 +18945,14 @@ window.BOOK_DATA = [
       "類型世界觀: 仿生人"
     ],
     "characters": [
-      "安：仿生人\n員：博士"
+      "安：仿生人",
+      "員：博士"
     ],
+    "createdAt": "2026-10-13T12:50:13.551Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:50:13.552Z",
     "wordCount": 21185
   },
   {
@@ -18613,56 +19023,60 @@ window.BOOK_DATA = [
         "label": "EP1",
         "title": "Crack 1",
         "url": "https://docs.google.com/document/d/1dzI3JwmKnO4-Cg1Bmzx_gcKkw23HC6d2EJ1GiixUvoo/edit?usp=drivesdk",
-        "articleId": "1dzI3JwmKnO4-Cg1Bmzx_gcKkw23HC6d2EJ1GiixUvoo",
         "original": "https://www.postype.com/@nuttylife/post/18935662",
+        "articleId": "1dzI3JwmKnO4-Cg1Bmzx_gcKkw23HC6d2EJ1GiixUvoo",
         "pricePoints": 700,
         "_episodeId": "ep-c41d18eb4ba7a4e8a6c6",
         "destinyItemId": "item-b73ef25ea276eb8bcdab",
-        "destinyTitle": "Crack 1",
+        "destinyTitle": "",
         "destinyKo": "Crack 1.",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 12184
       },
       {
         "label": "EP2",
         "title": "Crack 2",
         "url": "https://docs.google.com/document/d/1d2BgGB7Gp0qA_8khHVpqrSfPueLbIMpRaYqvD1GA7go/edit?usp=drivesdk",
-        "articleId": "1d2BgGB7Gp0qA_8khHVpqrSfPueLbIMpRaYqvD1GA7go",
         "original": "https://www.postype.com/@nuttylife/post/18949727",
+        "articleId": "1d2BgGB7Gp0qA_8khHVpqrSfPueLbIMpRaYqvD1GA7go",
         "pricePoints": 700,
         "_episodeId": "ep-0be62226277b119c6dc2",
         "destinyItemId": "item-2c5cdc064d931aee723c",
-        "destinyTitle": "Crack 2",
+        "destinyTitle": "",
         "destinyKo": "Crack 2.",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 12529
       },
       {
         "label": "EP3",
         "title": "Crack 3",
         "url": "https://docs.google.com/document/d/1sxpUQhXNI6bsfR53HGTh4OSHY3u6XBAhLJY-iwtInmg/edit?usp=drivesdk",
-        "articleId": "1sxpUQhXNI6bsfR53HGTh4OSHY3u6XBAhLJY-iwtInmg",
         "original": "https://www.postype.com/@nuttylife/post/19002663",
+        "articleId": "1sxpUQhXNI6bsfR53HGTh4OSHY3u6XBAhLJY-iwtInmg",
         "pricePoints": 700,
         "_episodeId": "ep-cd5a919bb5627882f4de",
         "destinyItemId": "item-395bf32a5231e91c7490",
-        "destinyTitle": "Crack 3",
+        "destinyTitle": "",
         "destinyKo": "Crack 3.",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 12623
       },
       {
         "label": "EP4",
         "title": "Crack 4",
         "url": "https://docs.google.com/document/d/1awLcRu9vYunW1iqWN909p9cf_lQRQ8hy6D0dbEBCfXk/edit?usp=drivesdk",
-        "articleId": "1awLcRu9vYunW1iqWN909p9cf_lQRQ8hy6D0dbEBCfXk",
         "original": "https://www.postype.com/@nuttylife/post/19115237",
+        "articleId": "1awLcRu9vYunW1iqWN909p9cf_lQRQ8hy6D0dbEBCfXk",
         "pricePoints": 700,
         "_episodeId": "ep-ef812ddedf989d5d2487",
         "destinyItemId": "item-5912c6f4bcbfae113e63",
-        "destinyTitle": "Crack 4（完）",
+        "destinyTitle": "",
         "destinyKo": "Crack 4. (完)",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 11318
       }
     ],
@@ -18679,7 +19093,8 @@ window.BOOK_DATA = [
     "destinyId": "P0381",
     "destinyDeleted": false,
     "tags": [
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: CP潔癖勿入",
       "分級: 💰付費內容",
       "文章狀態: 完結",
@@ -18691,6 +19106,10 @@ window.BOOK_DATA = [
     "characters": [
       "安：毒梟之女 / 員：法官之女/醫生"
     ],
+    "createdAt": "2026-10-13T12:50:31.929Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:50:31.930Z",
     "wordCount": 12184
   },
   {
@@ -18706,17 +19125,18 @@ window.BOOK_DATA = [
     "date": "2025-03-30",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "Run to You",
         "url": "https://docs.google.com/document/d/1h6P42gJPonBiLoSEc8Ys5ii9kVNL47OhFyCHOGjx_B8/edit?usp=drivesdk",
-        "articleId": "1h6P42gJPonBiLoSEc8Ys5ii9kVNL47OhFyCHOGjx_B8",
         "original": "https://www.postype.com/@heresy/post/18801087",
+        "articleId": "1h6P42gJPonBiLoSEc8Ys5ii9kVNL47OhFyCHOGjx_B8",
         "pricePoints": 0,
         "_episodeId": "ep-4238adc603b177499179",
         "destinyItemId": "item-c077af3cba311b27f718",
-        "destinyTitle": "Run to you",
+        "destinyTitle": "",
         "destinyKo": "런투유",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 17151
       }
     ],
@@ -18740,8 +19160,14 @@ window.BOOK_DATA = [
       "背景設定: 末日"
     ],
     "characters": [
-      "安：疫苗研究對象\n員：流行病調查官"
+      "安：疫苗研究對象",
+      "員：流行病調查官"
     ],
+    "createdAt": "2026-10-13T11:37:35.000Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:50:43.379Z",
     "wordCount": 17151
   },
   {
@@ -18803,7 +19229,7 @@ window.BOOK_DATA = [
     "zh": "小心車 小心狗 小心兔子",
     "original": "https://www.postype.com/@jjj-eoheung/post/13140122",
     "translation": "https://docs.google.com/document/d/1Vc0EPX8AUUKq6pfFJgzfSc_o_YeADFQSSaGGEzq4_YY/edit?usp=drivesdk",
-    "author": "임네닉\nX: JOEJOENJOE",
+    "author": "임네닉X: JOEJOENJOE",
     "translator": "不是蓋瑞🤓",
     "note": "",
     "date": "2025-03-21",
@@ -18812,78 +19238,90 @@ window.BOOK_DATA = [
         "label": "EP1",
         "title": "小心車 小心狗 小心兔子 01",
         "url": "https://docs.google.com/document/d/1Vc0EPX8AUUKq6pfFJgzfSc_o_YeADFQSSaGGEzq4_YY/edit?usp=drivesdk",
-        "articleId": "1Vc0EPX8AUUKq6pfFJgzfSc_o_YeADFQSSaGGEzq4_YY",
         "original": "https://www.postype.com/@jjj-eoheung/post/13140122",
+        "articleId": "1Vc0EPX8AUUKq6pfFJgzfSc_o_YeADFQSSaGGEzq4_YY",
         "pricePoints": 0,
         "_episodeId": "ep-b7ba19d7b30d28944008",
         "destinyItemId": "item-e54554b24e1cb3a892ef",
-        "destinyTitle": "小心車 小心狗 小心兔子",
+        "destinyTitle": "",
         "destinyKo": "차조심 개조심 토끼조심",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 15197
       },
       {
         "label": "EP2",
         "title": "小心車 小心狗 小心兔子 02",
         "url": "https://docs.google.com/document/d/1Mh4-KaT0LLbHW3jFcfx0vTmjKG5F_S4nUqmMqfICDyk/edit?usp=drivesdk",
-        "articleId": "1Mh4-KaT0LLbHW3jFcfx0vTmjKG5F_S4nUqmMqfICDyk",
         "original": "https://www.postype.com/@jjj-eoheung/post/13236203",
+        "articleId": "1Mh4-KaT0LLbHW3jFcfx0vTmjKG5F_S4nUqmMqfICDyk",
         "pricePoints": 0,
         "_episodeId": "ep-029883e5e07478555178",
         "destinyItemId": "item-abb6da0d8fe1bd697636",
-        "destinyTitle": "小心車 小心狗 小心兔子",
+        "destinyTitle": "",
         "destinyKo": "차조심 개조심 토끼조심",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 15346
       },
       {
         "label": "EP3",
         "title": "小心車 小心狗 小心兔子 03",
         "url": "https://docs.google.com/document/d/1DjYuetBD8Qifx8ukMTLrRbWyD8hPFrIifUvZLGq76H8/edit?usp=drivesdk",
-        "articleId": "1DjYuetBD8Qifx8ukMTLrRbWyD8hPFrIifUvZLGq76H8",
         "original": "https://www.postype.com/@jjj-eoheung/post/14170442",
+        "articleId": "1DjYuetBD8Qifx8ukMTLrRbWyD8hPFrIifUvZLGq76H8",
         "pricePoints": 0,
         "_episodeId": "ep-6e9854b4bf3e00518537",
         "destinyItemId": "item-f080d2b18c2c0531ed7a",
-        "destinyTitle": "小心車 小心狗 小心兔子",
+        "destinyTitle": "",
         "destinyKo": "차조심 개조심 토끼조심",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 14865
       },
       {
         "label": "EP4",
         "title": "小心車 小心狗 小心兔子 04",
         "url": "https://docs.google.com/document/d/1DUz15qGC4b0OuFRuDeVRLGEYV9NmlpmACFNIUz3PH8A/edit?usp=drivesdk",
-        "articleId": "1DUz15qGC4b0OuFRuDeVRLGEYV9NmlpmACFNIUz3PH8A",
         "original": "https://www.postype.com/@jjj-eoheung/post/15697991",
+        "articleId": "1DUz15qGC4b0OuFRuDeVRLGEYV9NmlpmACFNIUz3PH8A",
         "pricePoints": 0,
         "_episodeId": "ep-81f6ee384a031f5437ef",
         "destinyItemId": "item-5a874b0775283153e702",
-        "destinyTitle": "小心車 小心狗 小心兔子",
+        "destinyTitle": "",
         "destinyKo": "차조심 개조심 토끼조심",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 9544
       },
       {
         "label": "EP5",
         "title": "小心車 小心狗 小心兔子 05 （完）",
         "url": "https://docs.google.com/document/d/1FYyRn2YcTD0xyVRk5bxtuMvDW3_p-gBkKlwgBDtjiiU/edit?usp=drivesdk",
-        "articleId": "1FYyRn2YcTD0xyVRk5bxtuMvDW3_p-gBkKlwgBDtjiiU",
         "original": "https://www.postype.com/@jjj-eoheung/post/17001056",
+        "articleId": "1FYyRn2YcTD0xyVRk5bxtuMvDW3_p-gBkKlwgBDtjiiU",
         "pricePoints": 0,
         "_episodeId": "ep-cd6449f1bd8c0f07e5b4",
         "destinyItemId": "item-0416bcca82791da1fa4b",
-        "destinyTitle": "小心車 小心狗 小心兔子",
+        "destinyTitle": "",
         "destinyKo": "차조심 개조심 토끼조심",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8974
       },
       {
         "label": "後記",
         "title": "作者後記",
         "url": "https://docs.google.com/document/d/12Q34LrWvv0y7iHimcqWntM8Ve2egMI-gM-MURxhsqK8/edit?usp=drivesdk",
+        "original": "",
         "articleId": "12Q34LrWvv0y7iHimcqWntM8Ve2egMI-gM-MURxhsqK8",
+        "pricePoints": null,
         "_episodeId": "ep-95ce0aa5bd5a2c5c8a37",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 1401
       }
     ],
@@ -18913,8 +19351,14 @@ window.BOOK_DATA = [
       "背景設定: 校園"
     ],
     "characters": [
-      "安：學生\n員：學生"
+      "安：學生",
+      "員：學生"
     ],
+    "createdAt": "2026-10-13T11:45:46.055Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:45:46.057Z",
     "wordCount": 15197
   },
   {
@@ -18931,31 +19375,33 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "犬與狼的時間 上",
         "url": "https://docs.google.com/document/d/1UAvMkOnSXU6kzOkq2pueKD087QPoZvOL_pV3qQF_760/edit?usp=drivesdk",
-        "articleId": "1UAvMkOnSXU6kzOkq2pueKD087QPoZvOL_pV3qQF_760",
         "original": "https://www.postype.com/@yuwon8318/post/18783878",
+        "articleId": "1UAvMkOnSXU6kzOkq2pueKD087QPoZvOL_pV3qQF_760",
         "pricePoints": 0,
         "_episodeId": "ep-cdd481bce5a4f3800b38",
         "destinyItemId": "item-77865ea3660dfc8495b0",
-        "destinyTitle": "犬與狼的時間",
+        "destinyTitle": "",
         "destinyKo": "개와 늑대의 시간",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 23420
       },
       {
-        "label": "下",
+        "label": "2",
         "title": "犬與狼的時間 下",
         "url": "https://docs.google.com/document/d/1W_MeKvInIj8wWs7m9eiTlidMGAASTdIUgUF3bPPRpXQ/edit?usp=drivesdk",
-        "articleId": "1W_MeKvInIj8wWs7m9eiTlidMGAASTdIUgUF3bPPRpXQ",
         "original": "https://www.postype.com/@yuwon8318/post/19041075",
+        "articleId": "1W_MeKvInIj8wWs7m9eiTlidMGAASTdIUgUF3bPPRpXQ",
         "pricePoints": 1000,
         "_episodeId": "ep-8aa6b61491fde33ad69d",
         "destinyItemId": "item-bb8869218ed44081088d",
-        "destinyTitle": "犬與狼的時間",
+        "destinyTitle": "",
         "destinyKo": "개와 늑대의 시간",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 21819
       }
     ],
@@ -18981,8 +19427,13 @@ window.BOOK_DATA = [
       "結局: OE"
     ],
     "characters": [
-      "安：刑警\n員：社長"
+      "安：刑警",
+      "員：社長"
     ],
+    "createdAt": "2026-10-13T12:51:04.212Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:51:04.212Z",
     "wordCount": 23420
   },
   {
@@ -19214,17 +19665,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "1",
         "title": "戀愛的溫度",
         "url": "https://docs.google.com/document/d/1EGBCXeCDzH0LU62MqLGxtZfyPsjD4ORr3SV8lBR9rwU/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@rainbowpalette/post/18917507",
         "articleId": "1EGBCXeCDzH0LU62MqLGxtZfyPsjD4ORr3SV8lBR9rwU",
+        "pricePoints": 500,
         "_episodeId": "ep-6ccb1641ac19991af995",
         "destinyItemId": "item-38a996ec99f5bd5812cd",
-        "original": "https://www.postype.com/@rainbowpalette/post/18917507",
         "destinyTitle": "戀愛的溫度",
         "destinyKo": "연애의 온도",
         "destinyDeleted": false,
-        "pricePoints": 500,
+        "includeDestiny": true,
         "wordCount": 12611
       }
     ],
@@ -19245,12 +19697,17 @@ window.BOOK_DATA = [
       "背景設定: 現實向"
     ],
     "characters": [
-      "安：藝人\n員：藝人"
+      "安：藝人",
+      "員：藝人"
     ],
-    "knownPricePoints": 1000,
+    "knownPricePoints": 500,
     "unpricedEpisodes": 0,
-    "pricePoints": 1000,
+    "pricePoints": 500,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T15:15:33.849Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T15:15:33.884Z",
     "wordCount": 12611
   },
   {
@@ -19367,7 +19824,7 @@ window.BOOK_DATA = [
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "계약 위반",
-    "zh": "💰 契約違反（上+下+外傳）",
+    "zh": "💰 契約違反",
     "original": "https://www.postype.com/@03ppiyak04/post/15795404",
     "translation": "https://docs.google.com/document/d/1d96bSelS7L3oDsTHDMcCP2IgVenSSa-VokoxdATjXHI/edit?usp=drivesdk",
     "author": "🐥",
@@ -19377,27 +19834,48 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "契約違反(上)",
         "url": "https://docs.google.com/document/d/1d96bSelS7L3oDsTHDMcCP2IgVenSSa-VokoxdATjXHI/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1d96bSelS7L3oDsTHDMcCP2IgVenSSa-VokoxdATjXHI",
+        "pricePoints": null,
         "_episodeId": "ep-611b4edae48e31a78a81",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 12876
       },
       {
-        "label": "下",
+        "label": "2",
         "title": "契約違反(下)",
         "url": "https://docs.google.com/document/d/18ZkR9RMtQW_whlRCkzHgqeVXentjo3-wvGNeyHRr3zg/edit?usp=drivesdk",
+        "original": "",
         "articleId": "18ZkR9RMtQW_whlRCkzHgqeVXentjo3-wvGNeyHRr3zg",
+        "pricePoints": null,
         "_episodeId": "ep-1fa1fe7d42e44296d994",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 13112
       },
       {
-        "label": "外傳",
+        "label": "3",
         "title": "契約違反(外傳)",
         "url": "https://docs.google.com/document/d/1rckPDI1lUKDvS8K87kl0vyI3x3DtPiZk9mDzosSEBYs/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1rckPDI1lUKDvS8K87kl0vyI3x3DtPiZk9mDzosSEBYs",
+        "pricePoints": 500,
         "_episodeId": "ep-dc519ef516938323d377",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 12697
       }
     ],
@@ -19423,71 +19901,15 @@ window.BOOK_DATA = [
     "characters": [
       "安：藝人 / 員：藝人"
     ],
-    "knownPricePoints": 0,
-    "unpricedEpisodes": 3,
+    "knownPricePoints": 500,
+    "unpricedEpisodes": 2,
     "pricePoints": null,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T15:14:21.294Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T15:14:56.907Z",
     "wordCount": 12876
-  },
-  {
-    "page": "鯨魚",
-    "status": "2.已完結",
-    "ko": "Passionate A&W 외전 1 - 빵",
-    "zh": "Passionate A&W 外傳1-飯",
-    "original": "https://www.postype.com/@golae0831/post/15413585",
-    "translation": "https://docs.google.com/document/d/1ZAxXhhXFaI2vJ_kCAfpUj30BHKj4hYlgS-DZ5t_Qpzw/edit?usp=drivesdk",
-    "author": "고래（鯨魚）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2025-03-01",
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "Passionate A&W 外傳1-麵包",
-        "url": "https://docs.google.com/document/d/1ZAxXhhXFaI2vJ_kCAfpUj30BHKj4hYlgS-DZ5t_Qpzw/edit?usp=drivesdk",
-        "articleId": "1ZAxXhhXFaI2vJ_kCAfpUj30BHKj4hYlgS-DZ5t_Qpzw",
-        "original": "https://www.postype.com/@golae0831/post/15413585",
-        "pricePoints": 0,
-        "_episodeId": "ep-0316060c9674f47e87db",
-        "destinyItemId": "item-9acd0819051f3d6bfc15",
-        "destinyTitle": "Passionate A&W 外傳1-麵包",
-        "destinyKo": "Passionate A&W 외전 1 - 빵",
-        "destinyDeleted": false,
-        "wordCount": 4923
-      }
-    ],
-    "_id": "work-9488b8bcfc9d9b6e7a7c",
-    "_favoriteKey": "https://docs.google.com/document/d/1ZAxXhhXFaI2vJ_kCAfpUj30BHKj4hYlgS-DZ5t_Qpzw/edit?usp=drivesdk",
-    "articleId": "1ZAxXhhXFaI2vJ_kCAfpUj30BHKj4hYlgS-DZ5t_Qpzw",
-    "pricingMode": "episodes",
-    "knownPricePoints": 0,
-    "unpricedEpisodes": 0,
-    "pricePoints": 0,
-    "includeShelf": true,
-    "includeDestiny": true,
-    "recommendations": [],
-    "destinyId": "P0223",
-    "destinyDeleted": false,
-    "tags": [
-      "CP配對: 安/員",
-      "CP配對: 員/安",
-      "CP配對: 互攻",
-      "分級: 尺度大、謹慎閱讀",
-      "分級: 💰付費內容",
-      "分級: 🏎️賽車",
-      "分級: SM",
-      "分級: 玩具",
-      "文章狀態: 完結+番外",
-      "文章篇幅: 中篇",
-      "文章類型: 都市現實",
-      "結局: HE",
-      "背景設定: 校園",
-      "계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 Summer"
-    ],
-    "characters": [
-      "安：戲劇電影系四年級 / 員：文藝創作系三年級"
-    ],
-    "wordCount": 4923
   },
   {
     "page": "其他老師",
@@ -19609,11 +20031,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "阿爾法攻略作戰",
         "url": "https://docs.google.com/document/d/17U-aFoi6WIghw2By832GAS7LgA5tA4odvPzLuUPMkV0/edit?usp=drivesdk",
+        "original": "",
         "articleId": "17U-aFoi6WIghw2By832GAS7LgA5tA4odvPzLuUPMkV0",
+        "pricePoints": null,
         "_episodeId": "ep-596375d4ccc3e319ee88",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8109
       }
     ],
@@ -19637,12 +20066,17 @@ window.BOOK_DATA = [
       "類型世界觀: ABO"
     ],
     "characters": [
-      "安：學姊\n員：學妹"
+      "安：學姊",
+      "員：學妹"
     ],
     "knownPricePoints": 0,
     "unpricedEpisodes": 1,
     "pricePoints": null,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T15:15:57.277Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T15:15:57.277Z",
     "wordCount": 8109
   },
   {
@@ -19658,31 +20092,33 @@ window.BOOK_DATA = [
     "date": "2025-02-26",
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "Midnight in florence-上",
         "url": "https://docs.google.com/document/d/10Cjbduvya7uJLPjy0mVlR5xxOB9jAoAIRctJ08bJXsk/edit?usp=drivesdk",
-        "articleId": "10Cjbduvya7uJLPjy0mVlR5xxOB9jAoAIRctJ08bJXsk",
         "original": "https://www.postype.com/@yuwon8318/post/17106025",
+        "articleId": "10Cjbduvya7uJLPjy0mVlR5xxOB9jAoAIRctJ08bJXsk",
         "pricePoints": 0,
         "_episodeId": "ep-7daba44f5da0fafc883d",
         "destinyItemId": "item-9788d7b83499dfb24f98",
-        "destinyTitle": "Midnight in Florence",
+        "destinyTitle": "",
         "destinyKo": "Midnight in Florence",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 24241
       },
       {
-        "label": "下",
+        "label": "2",
         "title": "Midnight in Florence-下",
         "url": "https://docs.google.com/document/d/19XIHgNswFEUW9abKCJ8pVjXorICVdGQR2sFzVpvU9nw/edit?usp=drivesdk",
-        "articleId": "19XIHgNswFEUW9abKCJ8pVjXorICVdGQR2sFzVpvU9nw",
         "original": "https://www.postype.com/@yuwon8318/post/17130590",
+        "articleId": "19XIHgNswFEUW9abKCJ8pVjXorICVdGQR2sFzVpvU9nw",
         "pricePoints": 0,
         "_episodeId": "ep-05171c31da9c0184fadd",
         "destinyItemId": "item-dd6b7b89d753aabac0cb",
-        "destinyTitle": "Midnight in Florence",
+        "destinyTitle": "",
         "destinyKo": "Midnight in Florence",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4994
       }
     ],
@@ -19706,8 +20142,14 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：導遊\n員：上班族"
+      "安：導遊",
+      "員：上班族"
     ],
+    "createdAt": "2026-10-13T12:51:15.964Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:51:15.966Z",
     "wordCount": 24241
   },
   {
@@ -19724,17 +20166,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "那個冬天的回憶錄",
         "url": "https://docs.google.com/document/d/1UgM86SFXEi4jj3RhYNhdF910Ulv7NOxyALXIihcLu3w/edit?usp=drivesdk",
-        "articleId": "1UgM86SFXEi4jj3RhYNhdF910Ulv7NOxyALXIihcLu3w",
         "original": "https://www.postype.com/@allicaneat/post/18460205",
+        "articleId": "1UgM86SFXEi4jj3RhYNhdF910Ulv7NOxyALXIihcLu3w",
         "pricePoints": 500,
         "_episodeId": "ep-ee2b416ac920b5959d92",
         "destinyItemId": "item-802333a23a8f7f9a0760",
-        "destinyTitle": "那個冬天回憶錄",
+        "destinyTitle": "",
         "destinyKo": "그 겨울에 대한 회고록",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 12672
       }
     ],
@@ -19761,8 +20204,13 @@ window.BOOK_DATA = [
       "背景設定: 末日"
     ],
     "characters": [
-      "安：自由業\n員：上班族"
+      "安：自由業",
+      "員：上班族"
     ],
+    "createdAt": "2026-10-13T12:51:29.690Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:51:29.690Z",
     "wordCount": 12672
   },
   {
@@ -19779,39 +20227,48 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "01 密會 上",
         "url": "https://docs.google.com/document/d/14CjVCQzZgZjNvZBACtrerbI_OHzr2MPiFEnpw4aaFY0/edit?usp=drivesdk",
-        "articleId": "14CjVCQzZgZjNvZBACtrerbI_OHzr2MPiFEnpw4aaFY0",
         "original": "https://www.postype.com/@yuwon8318/post/18662337",
+        "articleId": "14CjVCQzZgZjNvZBACtrerbI_OHzr2MPiFEnpw4aaFY0",
         "pricePoints": 1000,
         "_episodeId": "ep-6bb93741f7e75119674e",
         "destinyItemId": "item-897e024278e0dba50f0d",
-        "destinyTitle": "密會",
+        "destinyTitle": "",
         "destinyKo": "밀회",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 24050
       },
       {
-        "label": "下",
+        "label": "2",
         "title": "02 密會 下",
         "url": "https://docs.google.com/document/d/1xAfz6mN6G-17zV3TMqWF3T6lPGyopmwiScg4dGjzGMM/edit?usp=drivesdk",
-        "articleId": "1xAfz6mN6G-17zV3TMqWF3T6lPGyopmwiScg4dGjzGMM",
         "original": "https://www.postype.com/@yuwon8318/post/18707229",
+        "articleId": "1xAfz6mN6G-17zV3TMqWF3T6lPGyopmwiScg4dGjzGMM",
         "pricePoints": 1000,
         "_episodeId": "ep-e84070c974cf752dc726",
         "destinyItemId": "item-cc4a278007aefc3749bf",
-        "destinyTitle": "密會",
+        "destinyTitle": "",
         "destinyKo": "밀회",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 27955
       },
       {
-        "label": "後續",
+        "label": "3",
         "title": "03 密會 -美國後續故事",
         "url": "https://docs.google.com/document/d/169MuhXHdCKccxU_COJHdpaQ_p9xCE-ZA4szO_EQp6pc/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@yuwon8318/post/18949121",
         "articleId": "169MuhXHdCKccxU_COJHdpaQ_p9xCE-ZA4szO_EQp6pc",
+        "pricePoints": 1000,
         "_episodeId": "ep-ee1f2d4a694eef3fbcbe",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 16798
       }
     ],
@@ -19820,8 +20277,8 @@ window.BOOK_DATA = [
     "articleId": "14CjVCQzZgZjNvZBACtrerbI_OHzr2MPiFEnpw4aaFY0",
     "pricingMode": "episodes",
     "knownPricePoints": 3000,
-    "unpricedEpisodes": 1,
-    "pricePoints": null,
+    "unpricedEpisodes": 0,
+    "pricePoints": 3000,
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [],
@@ -19839,15 +20296,20 @@ window.BOOK_DATA = [
       "背景設定: 辦公室"
     ],
     "characters": [
-      "安：代理\n員：組長"
+      "安：代理",
+      "員：組長"
     ],
+    "createdAt": "2026-10-13T12:52:07.205Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:52:07.210Z",
     "wordCount": 24050
   },
   {
     "page": "其他老師",
     "status": "2.已完結",
-    "ko": "어둠의 틈, 공백의 끝（上+下）",
-    "zh": "黑暗的縫隙,空白的盡頭",
+    "ko": "어둠의 틈, 공백의 끝",
+    "zh": "💰黑暗的縫隙,空白的盡頭",
     "original": "https://www.postype.com/@yoominzzin/post/18772901",
     "translation": "https://docs.google.com/document/d/1F0NLHg9h90g_VkWqC94A5IyTKa6dj87SIKKCbTrajsQ/edit?usp=drivesdk",
     "author": "민무（閔無）",
@@ -19856,31 +20318,33 @@ window.BOOK_DATA = [
     "date": "2025-02-19",
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "黑暗的縫隙，空白的盡頭（上）",
         "url": "https://docs.google.com/document/d/1F0NLHg9h90g_VkWqC94A5IyTKa6dj87SIKKCbTrajsQ/edit?usp=drivesdk",
-        "articleId": "1F0NLHg9h90g_VkWqC94A5IyTKa6dj87SIKKCbTrajsQ",
         "original": "https://www.postype.com/@yoominzzin/post/18772901",
+        "articleId": "1F0NLHg9h90g_VkWqC94A5IyTKa6dj87SIKKCbTrajsQ",
         "pricePoints": 500,
         "_episodeId": "ep-bb6ef4faaefecf460478",
         "destinyItemId": "item-92f3577900e056660b67",
-        "destinyTitle": "黑暗的縫隙,空白的盡頭",
+        "destinyTitle": "",
         "destinyKo": "어둠의 틈, 공백의 끝 上",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 25912
       },
       {
-        "label": "下",
+        "label": "2",
         "title": "黑暗的縫隙，空白的盡頭（下）",
         "url": "https://docs.google.com/document/d/17QCKcgmV0fPF-GagmEHwg8LsujJABJpxVen3NUpKLhw/edit?usp=drivesdk",
-        "articleId": "17QCKcgmV0fPF-GagmEHwg8LsujJABJpxVen3NUpKLhw",
         "original": "https://www.postype.com/@yoominzzin/post/18773164",
+        "articleId": "17QCKcgmV0fPF-GagmEHwg8LsujJABJpxVen3NUpKLhw",
         "pricePoints": 0,
         "_episodeId": "ep-7357af448e51ddbf09ed",
         "destinyItemId": "item-206b232023e07f6fa27e",
-        "destinyTitle": "黑暗的縫隙,空白的盡頭",
+        "destinyTitle": "",
         "destinyKo": "어둠의 틈, 공백의 끝 下",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 17239
       }
     ],
@@ -19906,8 +20370,14 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：律師\n員：律師"
+      "安：律師",
+      "員：律師"
     ],
+    "createdAt": "2026-10-13T12:52:32.630Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:52:32.632Z",
     "wordCount": 25912
   },
   {
@@ -20036,17 +20506,18 @@ window.BOOK_DATA = [
     "date": "2025-02-17",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "安家的楊平解酒湯",
         "url": "https://docs.google.com/document/d/1odGSDmu0U4zmHK4NlR0WfWkaagiXOhI0lFNsFCfdDKY/edit?usp=drivesdk",
-        "articleId": "1odGSDmu0U4zmHK4NlR0WfWkaagiXOhI0lFNsFCfdDKY",
         "original": "https://www.postype.com/@garden-han/post/15737713",
+        "articleId": "1odGSDmu0U4zmHK4NlR0WfWkaagiXOhI0lFNsFCfdDKY",
         "pricePoints": 0,
         "_episodeId": "ep-55b4fe7d9a63af09dd66",
         "destinyItemId": "item-6ac92ab177fd12848265",
-        "destinyTitle": "安家的楊平解酒湯",
+        "destinyTitle": "",
         "destinyKo": "안가네 양평해장국",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 11916
       }
     ],
@@ -20071,8 +20542,14 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：解酒湯店老闆\n員：學生"
+      "安：解酒湯店老闆",
+      "員：學生"
     ],
+    "createdAt": "2026-10-13T13:12:28.419Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:12:28.419Z",
     "wordCount": 11916
   },
   {
@@ -20142,17 +20619,18 @@ window.BOOK_DATA = [
     "date": "2025-02-12",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "越過地平線",
         "url": "https://docs.google.com/document/d/1WcmGe_bcle8_eG2B3GKkn1SNYIkqwg66DM_fIdl4spM/edit?usp=drivesdk",
-        "articleId": "1WcmGe_bcle8_eG2B3GKkn1SNYIkqwg66DM_fIdl4spM",
         "original": "https://www.postype.com/@nuttylife/post/18318222",
+        "articleId": "1WcmGe_bcle8_eG2B3GKkn1SNYIkqwg66DM_fIdl4spM",
         "pricePoints": 0,
         "_episodeId": "ep-8b9586015b00a9139822",
         "destinyItemId": "item-dbfad358ed60d2ae161b",
-        "destinyTitle": "超越地平線",
+        "destinyTitle": "",
         "destinyKo": "지평선을 넘어서",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 11594
       }
     ],
@@ -20177,6 +20655,11 @@ window.BOOK_DATA = [
     "characters": [
       "安：大學生 / 員：大學生/設計師"
     ],
+    "createdAt": "2026-10-13T12:52:46.105Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:52:46.106Z",
     "wordCount": 11594
   },
   {
@@ -20202,7 +20685,7 @@ window.BOOK_DATA = [
         "pricePoints": 0,
         "_episodeId": "ep-item-cf147255a002cbb7bed7",
         "destinyItemId": "item-cf147255a002cbb7bed7",
-        "destinyTitle": "不變成狗的方法",
+        "destinyTitle": "",
         "destinyKo": "개가 되지 않는 법",
         "destinyDeleted": false,
         "includeDestiny": true,
@@ -20234,7 +20717,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-11T07:32:57.825Z",
+    "updatedAt": "2026-10-13T11:45:50.578Z",
     "wordCount": null
   },
   {
@@ -20305,17 +20788,18 @@ window.BOOK_DATA = [
     "date": "2025-01-26",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "三葉草的願望",
         "url": "https://docs.google.com/document/d/1Y1cG0NJpeAzFlZOMOFzHOcLUh8YiJOi8SuFM1Rg-EQQ/edit?usp=drivesdk",
-        "articleId": "1Y1cG0NJpeAzFlZOMOFzHOcLUh8YiJOi8SuFM1Rg-EQQ",
         "original": "https://www.postype.com/@srt-rps/post/12738888",
+        "articleId": "1Y1cG0NJpeAzFlZOMOFzHOcLUh8YiJOi8SuFM1Rg-EQQ",
         "pricePoints": 500,
         "_episodeId": "ep-c6f2fab3726a9ea45bcc",
         "destinyItemId": "item-78e06f68d1c4b74975aa",
-        "destinyTitle": "三葉幸運草的願望",
+        "destinyTitle": "",
         "destinyKo": "클로버의 바람",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 34851
       }
     ],
@@ -20339,8 +20823,14 @@ window.BOOK_DATA = [
       "類型世界觀: 哨嚮"
     ],
     "characters": [
-      "安：哨兵\n員：嚮導"
+      "安：哨兵",
+      "員：嚮導"
     ],
+    "createdAt": "2026-10-13T12:53:02.680Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:53:02.680Z",
     "wordCount": 34851
   },
   {
@@ -20400,8 +20890,8 @@ window.BOOK_DATA = [
   {
     "page": "淨漢",
     "status": "2.已完結",
-    "ko": "논호림 論虎林",
-    "zh": "論虎林",
+    "ko": "논호림",
+    "zh": "論虎林",
     "original": "https://www.postype.com/@garden-han/post/15460874",
     "translation": "https://docs.google.com/document/d/11koHPMhYmcBRtRvRrqRo5kXZQ-EtioI-NtGheuJWBZM/edit?usp=drivesdk",
     "author": "정한（淨漢）",
@@ -20410,17 +20900,18 @@ window.BOOK_DATA = [
     "date": "2025-01-22",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "論虎林",
         "url": "https://docs.google.com/document/d/11koHPMhYmcBRtRvRrqRo5kXZQ-EtioI-NtGheuJWBZM/edit?usp=drivesdk",
-        "articleId": "11koHPMhYmcBRtRvRrqRo5kXZQ-EtioI-NtGheuJWBZM",
         "original": "https://www.postype.com/@garden-han/post/15460874",
+        "articleId": "11koHPMhYmcBRtRvRrqRo5kXZQ-EtioI-NtGheuJWBZM",
         "pricePoints": 0,
         "_episodeId": "ep-af7b03de49954ad7d4d2",
         "destinyItemId": "item-e0609a7bfd9073f4eebd",
-        "destinyTitle": "論虎林",
+        "destinyTitle": "",
         "destinyKo": "논호림 論虎林",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 21352
       }
     ],
@@ -20447,15 +20938,21 @@ window.BOOK_DATA = [
       "계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 Summer"
     ],
     "characters": [
-      "安：獵戶之女\n員：山君之女"
+      "安：獵戶之女",
+      "員：山君之女"
     ],
+    "createdAt": "2026-10-13T12:53:31.481Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:53:31.482Z",
     "wordCount": 21352
   },
   {
     "page": "星光",
     "status": "2.已完結",
-    "ko": "단편썰1-정략결혼 썰 & 단편썰2-정략결혼 썰",
-    "zh": "💰 短篇小說集1, 2",
+    "ko": "단편썰-정략결혼 썰",
+    "zh": "💰 短篇小說集1-3",
     "original": "https://www.postype.com/@pactory/post/17861353",
     "translation": "https://docs.google.com/document/d/1nTCm_BAP5yxT3kiPNxhDQCWwKB5hj5DqK3N34_FYjVo/edit?usp=drivesdk",
     "author": "별빛（星光）",
@@ -20465,20 +20962,49 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "短篇1",
+        "label": "1",
         "title": "短篇小說1",
         "url": "https://docs.google.com/document/d/1nTCm_BAP5yxT3kiPNxhDQCWwKB5hj5DqK3N34_FYjVo/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@pactory/post/17861353",
         "articleId": "1nTCm_BAP5yxT3kiPNxhDQCWwKB5hj5DqK3N34_FYjVo",
+        "pricePoints": 1000,
         "_episodeId": "ep-a44023691bc9421a9560",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 11757
       },
       {
-        "label": "短篇2",
+        "label": "2",
         "title": "短篇小說2",
         "url": "https://docs.google.com/document/d/1lgDA9c2sBjIDJyVW4-HXeSJ12m5AlR39uTLzrDjr4Pc/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@pactory/post/17869834",
         "articleId": "1lgDA9c2sBjIDJyVW4-HXeSJ12m5AlR39uTLzrDjr4Pc",
+        "pricePoints": 1000,
         "_episodeId": "ep-df1c26baadf1f04df1e2",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 10055
+      },
+      {
+        "label": "3",
+        "title": "短篇小說3",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@pactory/post/18122359",
+        "articleId": "1IeB2KQseFDvy7T9yr-lDsQXNVjSYvUGBW3Wx8ZFT2rw",
+        "pricePoints": 1000,
+        "_episodeId": "ep-52c2c694-2030-41f2-942b-5d7b50e90bf6",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 21431
       }
     ],
     "_id": "work-93d03f95ee4a3cdbced0",
@@ -20500,13 +21026,15 @@ window.BOOK_DATA = [
       "類型世界觀: ABO",
       "類型世界觀: Futa"
     ],
-    "characters": [
-      "安：倒閉中小業之女\n員：大企業家族棄女"
-    ],
-    "knownPricePoints": 2000,
-    "unpricedEpisodes": 2,
-    "pricePoints": null,
+    "characters": [],
+    "knownPricePoints": 3000,
+    "unpricedEpisodes": 0,
+    "pricePoints": 3000,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T13:00:35.065Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:04:30.713Z",
     "wordCount": 11757
   },
   {
@@ -20574,11 +21102,18 @@ window.BOOK_DATA = [
     "date": "2025-01-15",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "告白交織",
         "url": "https://docs.google.com/document/d/1LFOwOO3ZBdJXRJLHt5atOFa9aqA-0n7rjx9EH96i6-4/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1LFOwOO3ZBdJXRJLHt5atOFa9aqA-0n7rjx9EH96i6-4",
+        "pricePoints": null,
         "_episodeId": "ep-b9236096d76ed8e607b2",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 15826
       }
     ],
@@ -20605,6 +21140,11 @@ window.BOOK_DATA = [
     "unpricedEpisodes": 1,
     "pricePoints": null,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T15:13:50.357Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T15:13:50.357Z",
     "wordCount": 15826
   },
   {
@@ -20624,24 +21164,45 @@ window.BOOK_DATA = [
         "label": "EP1",
         "title": "WHATEVER! 1",
         "url": "https://docs.google.com/document/d/15XUAF7kcO7s_Z2--L1_-JiGZ8EU4_NxvHlNKvJhFTRo/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@allicaneat/post/18068458",
         "articleId": "15XUAF7kcO7s_Z2--L1_-JiGZ8EU4_NxvHlNKvJhFTRo",
+        "pricePoints": 0,
         "_episodeId": "ep-ca99b642c27de3c22716",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 19857
       },
       {
         "label": "EP2",
         "title": "WHATEVER! 2",
         "url": "https://docs.google.com/document/d/1JvnbO4mrq-mcnJKGkWZV64_QlqXQUtOAd6D5BOYqLWM/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@allicaneat/post/18351058",
         "articleId": "1JvnbO4mrq-mcnJKGkWZV64_QlqXQUtOAd6D5BOYqLWM",
+        "pricePoints": 0,
         "_episodeId": "ep-ccfe5a4c457c3de3cf8d",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 13308
       },
       {
         "label": "EP3",
         "title": "WHATEVER! 3",
         "url": "https://docs.google.com/document/d/16CxFDkpth58C4UOZoY_m7dsUBHdMtkZNqjjkEHWeGpI/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@allicaneat/post/18378945",
         "articleId": "16CxFDkpth58C4UOZoY_m7dsUBHdMtkZNqjjkEHWeGpI",
+        "pricePoints": 0,
         "_episodeId": "ep-56777099a1946cb784ed",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 12760
       }
     ],
@@ -20664,12 +21225,17 @@ window.BOOK_DATA = [
       "背景設定: 校園"
     ],
     "characters": [
-      "安：大學生\n員：大學生"
+      "安：大學生",
+      "員：大學生"
     ],
-    "knownPricePoints": 1500,
-    "unpricedEpisodes": 3,
-    "pricePoints": null,
+    "knownPricePoints": 0,
+    "unpricedEpisodes": 0,
+    "pricePoints": 0,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T15:13:33.438Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T15:13:33.441Z",
     "wordCount": 19857
   },
   {
@@ -20756,17 +21322,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "我的丈夫的女人",
         "url": "https://docs.google.com/document/d/1hz9U-vnKuNa4jyEJX98UErnzTjS8QfLaPdupadgB-Cs/edit?usp=drivesdk",
-        "articleId": "1hz9U-vnKuNa4jyEJX98UErnzTjS8QfLaPdupadgB-Cs",
         "original": "https://www.postype.com/@yuwon8318/post/17728013",
+        "articleId": "1hz9U-vnKuNa4jyEJX98UErnzTjS8QfLaPdupadgB-Cs",
         "pricePoints": 1000,
         "_episodeId": "ep-c3e43c9eaa5839643d05",
         "destinyItemId": "item-1b2bea90e6d3e20d5225",
-        "destinyTitle": "我丈夫的女人",
+        "destinyTitle": "",
         "destinyKo": "내 남편의 여자",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 29991
       }
     ],
@@ -20784,7 +21351,8 @@ window.BOOK_DATA = [
     "destinyDeleted": false,
     "tags": [
       "CP配對: 安/員",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: CP潔癖勿入",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
@@ -20796,15 +21364,20 @@ window.BOOK_DATA = [
       "結局: OE"
     ],
     "characters": [
-      "安：代表妻子\n員：代表祕書"
+      "安：代表妻子",
+      "員：代表祕書"
     ],
+    "createdAt": "2026-10-13T11:47:26.146Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:47:26.147Z",
     "wordCount": 29991
   },
   {
     "page": "其他老師",
     "status": "2.已完結",
     "ko": "핫앤콜드",
-    "zh": "Hot and cold",
+    "zh": "💰Hot and cold",
     "original": "https://www.postype.com/@dxg7783/post/6214756",
     "translation": "https://docs.google.com/document/d/1PI9L7bBhTjIeA791ktnwDNmDwnXOttDu7Z2TsmOSDXM/edit?usp=drivesdk",
     "author": "개（狗）",
@@ -20816,14 +21389,15 @@ window.BOOK_DATA = [
         "label": "閱讀",
         "title": "Hot and Cold",
         "url": "https://docs.google.com/document/d/1PI9L7bBhTjIeA791ktnwDNmDwnXOttDu7Z2TsmOSDXM/edit?usp=drivesdk",
-        "articleId": "1PI9L7bBhTjIeA791ktnwDNmDwnXOttDu7Z2TsmOSDXM",
         "original": "https://www.postype.com/@dxg7783/post/6214756",
+        "articleId": "1PI9L7bBhTjIeA791ktnwDNmDwnXOttDu7Z2TsmOSDXM",
         "pricePoints": 1000,
         "_episodeId": "ep-59a639a0542dfb37c33b",
         "destinyItemId": "item-d5b6c7d1f7cf31603342",
-        "destinyTitle": "Hot and cold",
+        "destinyTitle": "",
         "destinyKo": "핫앤콜드",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7774
       }
     ],
@@ -20847,8 +21421,14 @@ window.BOOK_DATA = [
       "背景設定: 校園"
     ],
     "characters": [
-      "安：大學生\n員：大學生"
+      "安：大學生",
+      "員：大學生"
     ],
+    "createdAt": "2026-10-13T11:46:01.834Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:46:01.834Z",
     "wordCount": 7774
   },
   {
@@ -20967,200 +21547,375 @@ window.BOOK_DATA = [
         "label": "EP1",
         "title": "Say You Love Me-1",
         "url": "https://docs.google.com/document/d/1Hn1BnRPoMji3yum9p-Jt-dDgjMdQf2CEqQng2pNGKV0/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1Hn1BnRPoMji3yum9p-Jt-dDgjMdQf2CEqQng2pNGKV0",
+        "pricePoints": null,
         "_episodeId": "ep-7b63cd4ae74126d7a16f",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5605
       },
       {
         "label": "EP2",
         "title": "Say You Love Me-2",
         "url": "https://docs.google.com/document/d/1SyBY4CS1JLCxYX4o6hErWtw6uPoIca7RRLPAE3vPNMw/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1SyBY4CS1JLCxYX4o6hErWtw6uPoIca7RRLPAE3vPNMw",
+        "pricePoints": null,
         "_episodeId": "ep-27ebfab6f9541a14b699",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5182
       },
       {
         "label": "EP3",
         "title": "Say You Love Me-3",
         "url": "https://docs.google.com/document/d/1wA1iKSwiHbyypm21sGoNDyfhDSLMUvSSdWKlVj1LCUw/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1wA1iKSwiHbyypm21sGoNDyfhDSLMUvSSdWKlVj1LCUw",
+        "pricePoints": null,
         "_episodeId": "ep-a590887a7cbd3141c765",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4624
       },
       {
         "label": "EP4",
         "title": "Say You Love Me-4",
         "url": "https://docs.google.com/document/d/1nqXKFAeHxRF3EKpMthAvKCFrS9_rhV8oFIKvpVYHqDk/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1nqXKFAeHxRF3EKpMthAvKCFrS9_rhV8oFIKvpVYHqDk",
+        "pricePoints": null,
         "_episodeId": "ep-619ccd17dbcf8d4fa1ea",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4422
       },
       {
         "label": "EP5",
         "title": "Say You Love Me-5",
         "url": "https://docs.google.com/document/d/19Lm5OqIYekD4yaiLIgW47xrNEPbzsgMNFamO5cY84rI/edit?usp=drivesdk",
+        "original": "",
         "articleId": "19Lm5OqIYekD4yaiLIgW47xrNEPbzsgMNFamO5cY84rI",
+        "pricePoints": null,
         "_episodeId": "ep-aeec5a7fc791dd56f962",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5831
       },
       {
         "label": "EP6",
         "title": "Say You Love Me-6",
         "url": "https://docs.google.com/document/d/1kUqEta_CvmsPJearfBU3l_oprv-7E4AFnfRZ7T9e3d4/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1kUqEta_CvmsPJearfBU3l_oprv-7E4AFnfRZ7T9e3d4",
+        "pricePoints": null,
         "_episodeId": "ep-d3f633bab639ef7406f3",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4503
       },
       {
         "label": "EP7",
         "title": "Say You Love Me-7",
         "url": "https://docs.google.com/document/d/1xWI00FwDZHvd7ekPQgkJStFERL8uxwk_BfTv8fAMoSk/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1xWI00FwDZHvd7ekPQgkJStFERL8uxwk_BfTv8fAMoSk",
+        "pricePoints": null,
         "_episodeId": "ep-9a8bfe183f0b29706d92",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5897
       },
       {
         "label": "EP8",
         "title": "Say You Love Me-8",
         "url": "https://docs.google.com/document/d/1ezBZUrXCb46jPW8wDm2V5YdRLupylMmKs0Crd4E9eog/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1ezBZUrXCb46jPW8wDm2V5YdRLupylMmKs0Crd4E9eog",
+        "pricePoints": null,
         "_episodeId": "ep-d0b459c98b5b2dc5cb57",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7643
       },
       {
         "label": "EP9",
         "title": "Say You Love Me-9",
         "url": "https://docs.google.com/document/d/18xH9oy-RXVF_hFex2hbvpWR8C8d8Kj0LsTEx9N6iWUU/edit?usp=drivesdk",
+        "original": "",
         "articleId": "18xH9oy-RXVF_hFex2hbvpWR8C8d8Kj0LsTEx9N6iWUU",
+        "pricePoints": null,
         "_episodeId": "ep-bbb71c84431db550835d",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6474
       },
       {
         "label": "EP10",
         "title": "Say You Love Me-10",
         "url": "https://docs.google.com/document/d/1PYfqXzK0nExMrB3b7e-9Wa3ww2GEitctBLXKcvfOhUY/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1PYfqXzK0nExMrB3b7e-9Wa3ww2GEitctBLXKcvfOhUY",
+        "pricePoints": null,
         "_episodeId": "ep-d1fda718a9eee7e2d287",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7706
       },
       {
         "label": "EP11",
         "title": "Say You Love Me-11",
         "url": "https://docs.google.com/document/d/11IKU6GJqz0pI5PzqQ1ipVfYcdlUsWatgp3s-WOk0pp8/edit?usp=drivesdk",
+        "original": "",
         "articleId": "11IKU6GJqz0pI5PzqQ1ipVfYcdlUsWatgp3s-WOk0pp8",
+        "pricePoints": null,
         "_episodeId": "ep-1dc2c51819813596b6bf",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5673
       },
       {
         "label": "EP12",
         "title": "Say You Love Me-12",
         "url": "https://docs.google.com/document/d/1oeuJdxv3yXcAe45EM_vBsJP_44_J4857eaulj8j4C8k/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1oeuJdxv3yXcAe45EM_vBsJP_44_J4857eaulj8j4C8k",
+        "pricePoints": null,
         "_episodeId": "ep-56cefd7ee6c939f929ee",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4607
       },
       {
         "label": "EP13",
         "title": "Say You Love Me-13",
         "url": "https://docs.google.com/document/d/1Qo7DE_tQwObwVzs_PrJskkJgCAAkIWI4fU7u4OLlFh8/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1Qo7DE_tQwObwVzs_PrJskkJgCAAkIWI4fU7u4OLlFh8",
+        "pricePoints": null,
         "_episodeId": "ep-c0b9768d0d02964ef323",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5610
       },
       {
         "label": "EP14",
         "title": "Say You Love Me-14",
         "url": "https://docs.google.com/document/d/19kRKsFcEko0x2v6r5g2RIRa5Ak94uJOnnAOQwXuUUO0/edit?usp=drivesdk",
+        "original": "",
         "articleId": "19kRKsFcEko0x2v6r5g2RIRa5Ak94uJOnnAOQwXuUUO0",
+        "pricePoints": null,
         "_episodeId": "ep-c0956a801e4ee09f16e0",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6631
       },
       {
         "label": "EP15",
         "title": "Say You Love Me-15",
         "url": "https://docs.google.com/document/d/1d05kF4EBnPvRRxHfJTXfkyBtI94qKt660C3yMPv7G7g/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1d05kF4EBnPvRRxHfJTXfkyBtI94qKt660C3yMPv7G7g",
+        "pricePoints": null,
         "_episodeId": "ep-43d3e230622d35464991",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8259
       },
       {
         "label": "EP16",
         "title": "Say You Love Me-16",
         "url": "https://docs.google.com/document/d/1jqlhKFDyc2QislKBb8mUs-eaE4AsyODa9G5ujC6DeTQ/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1jqlhKFDyc2QislKBb8mUs-eaE4AsyODa9G5ujC6DeTQ",
+        "pricePoints": null,
         "_episodeId": "ep-fc9c113d9072ed3fda2f",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5288
       },
       {
         "label": "EP17",
         "title": "Say You Love Me-17",
         "url": "https://docs.google.com/document/d/1X4YVgQyg3Yfh0CxBIPB8AvZQfQnwbAr9IOwm8-oGmkY/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1X4YVgQyg3Yfh0CxBIPB8AvZQfQnwbAr9IOwm8-oGmkY",
+        "pricePoints": null,
         "_episodeId": "ep-371a28a5a804c5e8437c",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7113
       },
       {
         "label": "EP18",
         "title": "Say You Love Me-18",
         "url": "https://docs.google.com/document/d/1XMT40OVgoevLjYtnMYDaTphsT4Nl_o7VHRmOB6JA1Mk/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1XMT40OVgoevLjYtnMYDaTphsT4Nl_o7VHRmOB6JA1Mk",
+        "pricePoints": null,
         "_episodeId": "ep-9194cef440c9ec375655",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6954
       },
       {
         "label": "EP19",
         "title": "Say You Love Me-19",
         "url": "https://docs.google.com/document/d/1uUQOMBLbZw5bRzFib6HAhRgIVVS5M1H_DipOfzFL0hA/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1uUQOMBLbZw5bRzFib6HAhRgIVVS5M1H_DipOfzFL0hA",
+        "pricePoints": null,
         "_episodeId": "ep-c0811103f4aad00f49db",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6802
       },
       {
         "label": "EP20",
         "title": "Say You Love Me-20",
         "url": "https://docs.google.com/document/d/1P-9hlTaR20qkojL9g5bYhvZjpOIpXJL7yjMvizpeQAI/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1P-9hlTaR20qkojL9g5bYhvZjpOIpXJL7yjMvizpeQAI",
+        "pricePoints": null,
         "_episodeId": "ep-c62b7769273f6396c0f7",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6937
       },
       {
         "label": "EP21",
         "title": "Say You Love Me-21 (完)",
         "url": "https://docs.google.com/document/d/17fBsrl9IQkHtK3z7XHUrxyk1Z_s7b9OtCzGLrWUp9jU/edit?usp=drivesdk",
+        "original": "",
         "articleId": "17fBsrl9IQkHtK3z7XHUrxyk1Z_s7b9OtCzGLrWUp9jU",
+        "pricePoints": null,
         "_episodeId": "ep-16a7b73058870153db0d",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7269
       },
       {
         "label": "番外1",
         "title": "Say You Love Me 番外-1",
         "url": "https://docs.google.com/document/d/1jL2lqS9RStP7a6gRplJMXn-S1NeCSYJcKs18tfEVBCc/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1jL2lqS9RStP7a6gRplJMXn-S1NeCSYJcKs18tfEVBCc",
+        "pricePoints": null,
         "_episodeId": "ep-6fb480755dbb9b8ee3ed",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5326
       },
       {
         "label": "番外2",
         "title": "Say You Love Me 番外-2",
         "url": "https://docs.google.com/document/d/1LIAJQpJN40knaqEB0oq88QrkNFr-lylqiZRQhL3HD5w/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1LIAJQpJN40knaqEB0oq88QrkNFr-lylqiZRQhL3HD5w",
+        "pricePoints": null,
         "_episodeId": "ep-c92ede5e6afc8d9547ba",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5486
       },
       {
         "label": "番外3",
         "title": "Say You Love Me 番外-3",
         "url": "https://docs.google.com/document/d/1M4An1SUUlcw94r1pbvPCDIN5ze0k6ZAyYJgWE3cYvXM/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1M4An1SUUlcw94r1pbvPCDIN5ze0k6ZAyYJgWE3cYvXM",
+        "pricePoints": null,
         "_episodeId": "ep-40935859117243ee6c6d",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5795
       },
       {
         "label": "番外4",
         "title": "Say You Love Me 番外-4",
         "url": "https://docs.google.com/document/d/1sPJFRuh-XsXvcxilqwg5xvmb4XwNTEjYciPs2YdIcAU/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1sPJFRuh-XsXvcxilqwg5xvmb4XwNTEjYciPs2YdIcAU",
+        "pricePoints": null,
         "_episodeId": "ep-5c1ed5e2740311e97a87",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6066
       }
     ],
@@ -21185,19 +21940,24 @@ window.BOOK_DATA = [
       "背景設定: 辦公室"
     ],
     "characters": [
-      "安：代理\n員：室長"
+      "安：代理",
+      "員：室長"
     ],
     "knownPricePoints": 0,
     "unpricedEpisodes": 25,
     "pricePoints": null,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T11:38:21.640Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:38:21.641Z",
     "wordCount": 5605
   },
   {
     "page": "noname",
     "status": "2.已完結",
     "ko": "나의 지랄 맞은 뮤즈",
-    "zh": "💰 我的瘋狂繆思",
+    "zh": "💰 我發狂的繆斯",
     "original": "https://www.postype.com/@untitle009/post/8596074",
     "translation": "https://docs.google.com/document/d/1VgW7j4DlFuqMGsPqapH9uQ5609-fGl2PLMsSIpHLZx8/edit?usp=drivesdk",
     "author": "noname",
@@ -21207,44 +21967,34 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "EP1",
-        "title": "我發狂的繆斯01",
+        "label": "1",
+        "title": "我發狂的繆斯",
         "url": "https://docs.google.com/document/d/1VgW7j4DlFuqMGsPqapH9uQ5609-fGl2PLMsSIpHLZx8/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@untitle009/post/8596074",
         "articleId": "1VgW7j4DlFuqMGsPqapH9uQ5609-fGl2PLMsSIpHLZx8",
+        "pricePoints": 2000,
         "_episodeId": "ep-5519bc8f8b0461808915",
-        "wordCount": 8519
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 25530
       },
       {
-        "label": "EP2",
-        "title": "我發狂的繆斯02",
-        "url": "https://docs.google.com/document/d/1RmORiT8rJH6pd3xVMBfJ8DGnHpZkVhX96FhShDqEIos/edit?usp=drivesdk",
-        "articleId": "1RmORiT8rJH6pd3xVMBfJ8DGnHpZkVhX96FhShDqEIos",
-        "_episodeId": "ep-25eed2e45d351431f9e3",
-        "wordCount": 7408
-      },
-      {
-        "label": "EP3",
-        "title": "我發狂的繆斯03",
-        "url": "https://docs.google.com/document/d/1EgurTZy23ugeE0Jo4ETb7xsqHogKP82JuygT3i4rI3g/edit?usp=drivesdk",
-        "articleId": "1EgurTZy23ugeE0Jo4ETb7xsqHogKP82JuygT3i4rI3g",
-        "_episodeId": "ep-ff6a0eed238526832e5d",
-        "wordCount": 7531
-      },
-      {
-        "label": "EP4",
-        "title": "我發狂的繆斯04",
-        "url": "https://docs.google.com/document/d/14CP86BACKMA9T0s7upuAu_TX_Srklfk2LYWES1x4Xc8/edit?usp=drivesdk",
-        "articleId": "14CP86BACKMA9T0s7upuAu_TX_Srklfk2LYWES1x4Xc8",
-        "_episodeId": "ep-1abf8506e3bf69203925",
-        "wordCount": 2093
-      },
-      {
-        "label": "番外",
-        "title": "我發狂的繆斯番外-身體上的繆斯",
+        "label": "2",
+        "title": "我發狂的繆斯  番外-Muse on the Body",
         "url": "https://docs.google.com/document/d/1U6zmuwLgp2ME3YZK9WEXFX-Q5Ek4semB2msLvqpym_k/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@untitle009/post/13656577",
         "articleId": "1U6zmuwLgp2ME3YZK9WEXFX-Q5Ek4semB2msLvqpym_k",
+        "pricePoints": 500,
         "_episodeId": "ep-b5fa6531470b271a5b7b",
-        "wordCount": 7108
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 7120
       }
     ],
     "_id": "work-a20d433b4d056b2235d1",
@@ -21271,17 +22021,21 @@ window.BOOK_DATA = [
     "characters": [
       "安：美術家 / 員：千金"
     ],
-    "knownPricePoints": 2000,
-    "unpricedEpisodes": 5,
-    "pricePoints": null,
+    "knownPricePoints": 2500,
+    "unpricedEpisodes": 0,
+    "pricePoints": 2500,
     "pricingMode": "episodes",
-    "wordCount": 8519
+    "createdAt": "2026-10-13T15:01:35.819Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T15:12:05.393Z",
+    "wordCount": 25530
   },
   {
     "page": "其他老師",
     "status": "2.已完結",
-    "ko": "지워지지 않을 우리의 이름은 上+下",
-    "zh": "💰 無法抹去的我們的名字 上+下",
+    "ko": "지워지지 않을 우리의 이름은",
+    "zh": "💰 無法抹去的我們的名字",
     "original": "https://www.postype.com/@search010/post/16228931",
     "translation": "https://docs.google.com/document/d/1xCICjeeprJZxdH2dekCV-9io-kRfspU7wJs-3I-ZOFk/edit?usp=drivesdk",
     "author": "code",
@@ -21291,19 +22045,33 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "無法抹去的我們的名字 上",
         "url": "https://docs.google.com/document/d/1xCICjeeprJZxdH2dekCV-9io-kRfspU7wJs-3I-ZOFk/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1xCICjeeprJZxdH2dekCV-9io-kRfspU7wJs-3I-ZOFk",
+        "pricePoints": null,
         "_episodeId": "ep-4de58c85d5461109744c",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7164
       },
       {
-        "label": "下",
+        "label": "2",
         "title": "無法抹去的我們的名字 下",
         "url": "https://docs.google.com/document/d/1zwo8qOFWC7GJA1rRoRR6ONPD6xQoxKQYZPBBSJSIvCo/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1zwo8qOFWC7GJA1rRoRR6ONPD6xQoxKQYZPBBSJSIvCo",
+        "pricePoints": null,
         "_episodeId": "ep-3ea2da9bd9262575ed00",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6034
       }
     ],
@@ -21317,7 +22085,8 @@ window.BOOK_DATA = [
     "destinyDeleted": true,
     "tags": [
       "CP配對: 安/員",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
       "情感梗: 偽骨科",
@@ -21331,6 +22100,11 @@ window.BOOK_DATA = [
     "unpricedEpisodes": 2,
     "pricePoints": null,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T15:01:10.494Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-13T15:01:10.495Z",
     "wordCount": 7164
   },
   {
@@ -21347,31 +22121,33 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "本篇",
+        "label": "1",
         "title": "分離焦慮",
         "url": "https://docs.google.com/document/d/1N6danpj9K77ajCjoEhOrxPeRBwmHDtj8tZ-LbuY7o00/edit?usp=drivesdk",
-        "articleId": "1N6danpj9K77ajCjoEhOrxPeRBwmHDtj8tZ-LbuY7o00",
         "original": "https://www.postype.com/@eeggdanzii/post/18008102",
+        "articleId": "1N6danpj9K77ajCjoEhOrxPeRBwmHDtj8tZ-LbuY7o00",
         "pricePoints": 0,
         "_episodeId": "ep-8b31ad64cf4520dda577",
         "destinyItemId": "item-8d22e23790d962090b0b",
-        "destinyTitle": "分離焦慮",
+        "destinyTitle": "",
         "destinyKo": "분리불안",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 24637
       },
       {
-        "label": "外傳",
+        "label": "2",
         "title": "分離焦慮 外傳",
         "url": "https://docs.google.com/document/d/1IDgh8o6rUc3b3tKp0zyRFRDJFBMKd9OS2UHfCYPYPNU/edit?usp=drivesdk",
-        "articleId": "1IDgh8o6rUc3b3tKp0zyRFRDJFBMKd9OS2UHfCYPYPNU",
         "original": "https://www.postype.com/@eeggdanzii/post/18401255",
+        "articleId": "1IDgh8o6rUc3b3tKp0zyRFRDJFBMKd9OS2UHfCYPYPNU",
         "pricePoints": 500,
         "_episodeId": "ep-c7326fdc020280afac9d",
         "destinyItemId": "item-c37890f46926aacc721d",
-        "destinyTitle": "分離焦慮（含外傳）",
+        "destinyTitle": "",
         "destinyKo": "분리불안 외전",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 13300
       }
     ],
@@ -21399,8 +22175,13 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：工程師\n員：上班族"
+      "安：工程師",
+      "員：上班族"
     ],
+    "createdAt": "2026-10-13T12:53:51.402Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:53:51.404Z",
     "wordCount": 24637
   },
   {
@@ -21530,17 +22311,31 @@ window.BOOK_DATA = [
         "label": "本篇",
         "title": "RESET",
         "url": "https://docs.google.com/document/d/1o_wvugcNB8ppVNz61E1ieoWLBcQh0abtHKJ4BLWDieQ/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@cho-post/post/17390673",
         "articleId": "1o_wvugcNB8ppVNz61E1ieoWLBcQh0abtHKJ4BLWDieQ",
+        "pricePoints": 0,
         "_episodeId": "ep-04a958cbb3e1b0b43527",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7532
       },
       {
         "label": "外傳",
         "title": "RESET 外傳",
         "url": "https://docs.google.com/document/d/1gQJ1ujFCmeE6PrtwRkwx1YI93kE8ZaxaXWinXFJplyA/edit?usp=drivesdk",
+        "original": "https://www.postype.com/zh-hant/@cho-post/post/18238716",
         "articleId": "1gQJ1ujFCmeE6PrtwRkwx1YI93kE8ZaxaXWinXFJplyA",
+        "pricePoints": 100,
         "_episodeId": "ep-b8f287ba2ebad0e8216c",
-        "wordCount": 3147
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 3146
       }
     ],
     "_id": "work-ca83cfff220def44c9ea",
@@ -21552,7 +22347,8 @@ window.BOOK_DATA = [
     "destinyId": "P0141",
     "destinyDeleted": false,
     "tags": [
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "形式/性質: OOC",
       "文章狀態: 完結",
@@ -21562,12 +22358,17 @@ window.BOOK_DATA = [
       "題材梗: 強制愛"
     ],
     "characters": [
-      "安：逃跑小狗\n員：富豪千金"
+      "安：逃跑小狗",
+      "員：富豪千金"
     ],
-    "knownPricePoints": 500,
-    "unpricedEpisodes": 2,
-    "pricePoints": null,
+    "knownPricePoints": 100,
+    "unpricedEpisodes": 0,
+    "pricePoints": 100,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T14:58:01.502Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T14:59:59.147Z",
     "wordCount": 7532
   },
   {
@@ -21697,11 +22498,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "主禱文",
         "url": "https://docs.google.com/document/d/1P2LztKjxv5JkpcrtSRLFZFshykh7PLVet5snFcBCnzk/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1P2LztKjxv5JkpcrtSRLFZFshykh7PLVet5snFcBCnzk",
+        "pricePoints": null,
         "_episodeId": "ep-66b26504d2b4fdb50a2a",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4868
       }
     ],
@@ -21715,7 +22523,8 @@ window.BOOK_DATA = [
     "destinyDeleted": true,
     "tags": [
       "CP配對: 安/員",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
       "文章狀態: 完結",
@@ -21724,12 +22533,17 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：高中生\n員：高中生"
+      "安：高中生",
+      "員：高中生"
     ],
     "knownPricePoints": 0,
     "unpricedEpisodes": 1,
     "pricePoints": null,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T14:56:25.795Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T14:56:25.796Z",
     "wordCount": 4868
   },
   {
@@ -21795,126 +22609,135 @@ window.BOOK_DATA = [
         "label": "1",
         "title": "片尾字幕 01",
         "url": "https://docs.google.com/document/d/1Qo1PcTKSVJJQOB1Svu7ihdu36umpjiI4RqVkYg8_03s/edit?usp=drivesdk",
-        "articleId": "1Qo1PcTKSVJJQOB1Svu7ihdu36umpjiI4RqVkYg8_03s",
         "original": "https://www.postype.com/@eeggdanzii/post/17688799",
+        "articleId": "1Qo1PcTKSVJJQOB1Svu7ihdu36umpjiI4RqVkYg8_03s",
         "pricePoints": 0,
         "_episodeId": "ep-fd3c86e8f4c4dcade183",
         "destinyItemId": "item-398f980421682bb696c3",
-        "destinyTitle": "片尾字幕",
+        "destinyTitle": "",
         "destinyKo": "엔딩 크레딧 1",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5558
       },
       {
         "label": "2",
         "title": "片尾字幕 02",
         "url": "https://docs.google.com/document/d/1V308XJgbbrw3t0XYy-FKnBJjd81KJwbR-KGzUy2hPOs/edit?usp=drivesdk",
-        "articleId": "1V308XJgbbrw3t0XYy-FKnBJjd81KJwbR-KGzUy2hPOs",
         "original": "https://www.postype.com/@eeggdanzii/post/17688970",
+        "articleId": "1V308XJgbbrw3t0XYy-FKnBJjd81KJwbR-KGzUy2hPOs",
         "pricePoints": 0,
         "_episodeId": "ep-5e68ee3a661d53aded62",
         "destinyItemId": "item-a0726d3a23d51dab01cb",
-        "destinyTitle": "片尾字幕",
+        "destinyTitle": "",
         "destinyKo": "엔딩 크레딧 2",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6198
       },
       {
         "label": "3",
         "title": "片尾字幕 03",
         "url": "https://docs.google.com/document/d/18nuFIYpcXtKnp7o4CgGjwSzSkSpuC2T90uyG2DYX2jQ/edit?usp=drivesdk",
-        "articleId": "18nuFIYpcXtKnp7o4CgGjwSzSkSpuC2T90uyG2DYX2jQ",
         "original": "https://www.postype.com/@eeggdanzii/post/17689252",
+        "articleId": "18nuFIYpcXtKnp7o4CgGjwSzSkSpuC2T90uyG2DYX2jQ",
         "pricePoints": 0,
         "_episodeId": "ep-1c35005f1c70ddb45250",
         "destinyItemId": "item-8f24c7ba460808e3e993",
-        "destinyTitle": "片尾字幕",
+        "destinyTitle": "",
         "destinyKo": "엔딩 크레딧 3",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6928
       },
       {
         "label": "4",
         "title": "片尾字幕 04",
         "url": "https://docs.google.com/document/d/1QCCodwV2tLRaiy7QjCA_fzrJat6ng3P1KUBBllem2Ik/edit?usp=drivesdk",
-        "articleId": "1QCCodwV2tLRaiy7QjCA_fzrJat6ng3P1KUBBllem2Ik",
         "original": "https://www.postype.com/@eeggdanzii/post/17689258",
+        "articleId": "1QCCodwV2tLRaiy7QjCA_fzrJat6ng3P1KUBBllem2Ik",
         "pricePoints": 0,
         "_episodeId": "ep-43b4004bef8cbd269c84",
         "destinyItemId": "item-6c59955cec2ec3d501b9",
-        "destinyTitle": "片尾字幕",
+        "destinyTitle": "",
         "destinyKo": "엔딩 크레딧 4",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7575
       },
       {
         "label": "5",
         "title": "片尾字幕 05",
         "url": "https://docs.google.com/document/d/1iueSU1Qe3qhi-8_A93a2onGLj9sQ9bPzw2TWUKjed10/edit?usp=drivesdk",
-        "articleId": "1iueSU1Qe3qhi-8_A93a2onGLj9sQ9bPzw2TWUKjed10",
         "original": "https://www.postype.com/@eeggdanzii/post/17701949",
+        "articleId": "1iueSU1Qe3qhi-8_A93a2onGLj9sQ9bPzw2TWUKjed10",
         "pricePoints": 0,
         "_episodeId": "ep-3b0e052781c413594c41",
         "destinyItemId": "item-514b5eb8a1ac9838e915",
-        "destinyTitle": "片尾字幕",
+        "destinyTitle": "",
         "destinyKo": "엔딩 크레딧 5",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7059
       },
       {
         "label": "6",
         "title": "片尾字幕 06",
         "url": "https://docs.google.com/document/d/1kwuNOF0Go5P7vlnHgX20VPddGfu3OdndxbCgVhyoziA/edit?usp=drivesdk",
-        "articleId": "1kwuNOF0Go5P7vlnHgX20VPddGfu3OdndxbCgVhyoziA",
         "original": "https://www.postype.com/@eeggdanzii/post/17734322",
+        "articleId": "1kwuNOF0Go5P7vlnHgX20VPddGfu3OdndxbCgVhyoziA",
         "pricePoints": 0,
         "_episodeId": "ep-2b65c7bd24467ec8b8a3",
         "destinyItemId": "item-5c1010e7117ad9fee672",
-        "destinyTitle": "片尾字幕",
+        "destinyTitle": "",
         "destinyKo": "엔딩 크레딧 6",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6353
       },
       {
         "label": "7",
         "title": "片尾字幕 07",
         "url": "https://docs.google.com/document/d/1_DPeb02VRX6YJFoIQKAlzl2cRMS6g1tysWi0t1P9k7A/edit?usp=drivesdk",
-        "articleId": "1_DPeb02VRX6YJFoIQKAlzl2cRMS6g1tysWi0t1P9k7A",
         "original": "https://www.postype.com/@eeggdanzii/post/17827928",
+        "articleId": "1_DPeb02VRX6YJFoIQKAlzl2cRMS6g1tysWi0t1P9k7A",
         "pricePoints": 0,
         "_episodeId": "ep-f7b95fee29ee59fec0c9",
         "destinyItemId": "item-95b947f90707c80d0d80",
-        "destinyTitle": "片尾字幕",
+        "destinyTitle": "",
         "destinyKo": "엔딩 크레딧 7",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6617
       },
       {
         "label": "8",
         "title": "片尾字幕 08",
         "url": "https://docs.google.com/document/d/17iVrWuhWOK2PnPccuIUW_iAUVhBBVyF8qtWu6qyLaVM/edit?usp=drivesdk",
-        "articleId": "17iVrWuhWOK2PnPccuIUW_iAUVhBBVyF8qtWu6qyLaVM",
         "original": "https://www.postype.com/@eeggdanzii/post/17828235",
+        "articleId": "17iVrWuhWOK2PnPccuIUW_iAUVhBBVyF8qtWu6qyLaVM",
         "pricePoints": 0,
         "_episodeId": "ep-a38f8a3c142c3a182c6e",
         "destinyItemId": "item-3635d20ec94dce49ded1",
-        "destinyTitle": "片尾字幕",
+        "destinyTitle": "",
         "destinyKo": "엔딩 크레딧 8",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6280
       },
       {
         "label": "9",
         "title": "片尾字幕 09",
         "url": "https://docs.google.com/document/d/1C8ZvWoqWr2xmcfe3fKiqnq63DNiWpm0vxaYxzQVwAAk/edit?usp=drivesdk",
-        "articleId": "1C8ZvWoqWr2xmcfe3fKiqnq63DNiWpm0vxaYxzQVwAAk",
         "original": "https://www.postype.com/@eeggdanzii/post/17820216",
+        "articleId": "1C8ZvWoqWr2xmcfe3fKiqnq63DNiWpm0vxaYxzQVwAAk",
         "pricePoints": 0,
         "_episodeId": "ep-b783f9a4c4a247477f51",
         "destinyItemId": "item-2da5f83eec0c68ef3ca6",
-        "destinyTitle": "片尾字幕",
+        "destinyTitle": "",
         "destinyKo": "엔딩 크레딧 9 (完)",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6628
       }
     ],
@@ -21940,8 +22763,14 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：警察\n員：演員"
+      "安：警察",
+      "員：演員"
     ],
+    "createdAt": "2026-10-13T12:54:16.800Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:54:16.801Z",
     "wordCount": 5558
   },
   {
@@ -22043,17 +22872,18 @@ window.BOOK_DATA = [
     "date": "2025-01-01",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "學期初的生日 (愚人節改編)",
         "url": "https://docs.google.com/document/d/1gVIrRzr97MBXnoGRmOhsY1jDn7vRXw7v9wAYddbTsJU/edit?usp=drivesdk",
-        "articleId": "1gVIrRzr97MBXnoGRmOhsY1jDn7vRXw7v9wAYddbTsJU",
         "original": "https://www.postype.com/@parkpro/post/16549828",
+        "articleId": "1gVIrRzr97MBXnoGRmOhsY1jDn7vRXw7v9wAYddbTsJU",
         "pricePoints": 0,
         "_episodeId": "ep-7a35af72a6498f50e948",
         "destinyItemId": "item-ba3f3ffe24842ed4ed9a",
-        "destinyTitle": "學期初的生日",
+        "destinyTitle": "",
         "destinyKo": "개강에 생일",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5389
       }
     ],
@@ -22083,6 +22913,11 @@ window.BOOK_DATA = [
     "characters": [
       "安：學生教育軍事團 / 員：大學生"
     ],
+    "createdAt": "2026-10-13T12:54:29.923Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:54:29.924Z",
     "wordCount": 5389
   },
   {
@@ -22300,17 +23135,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "ARE YOU THERE，EUGENE？",
         "url": "https://docs.google.com/document/d/1__P6LK2M_McMfs_wYtPhcLqpZsJYz30tOjV_K43ZEf8/edit?usp=drivesdk",
-        "articleId": "1__P6LK2M_McMfs_wYtPhcLqpZsJYz30tOjV_K43ZEf8",
         "original": "https://www.postype.com/@xi3ad4wl671x/post/7560468",
+        "articleId": "1__P6LK2M_McMfs_wYtPhcLqpZsJYz30tOjV_K43ZEf8",
         "pricePoints": 1000,
         "_episodeId": "ep-db0db06cb90b6768d549",
         "destinyItemId": "item-23b5280133fe9604583a",
-        "destinyTitle": "ARE YOU THERE，EUGENE？",
+        "destinyTitle": "",
         "destinyKo": "ARE YOU THERE, EUGENE?",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 15062
       }
     ],
@@ -22335,8 +23171,13 @@ window.BOOK_DATA = [
       "背景設定: 辦公室"
     ],
     "characters": [
-      "安：上班族\n員：上班族"
+      "安：上班族",
+      "員：上班族"
     ],
+    "createdAt": "2026-10-13T11:39:08.813Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:39:08.814Z",
     "wordCount": 15062
   },
   {
@@ -22422,67 +23263,6 @@ window.BOOK_DATA = [
     "wordCount": 6081
   },
   {
-    "page": "鯨魚",
-    "status": "2.已完結",
-    "ko": "Passionate A&W 외전 2 - 이별여행",
-    "zh": "💰 Passionate A&W 外傳2-告別之旅",
-    "original": "https://www.postype.com/@golae0831/post/17049980",
-    "translation": "https://docs.google.com/document/d/1DOHzIw3rQ0hi699ZprDw7Bdw0avmKzTXTWuf3SAUtp4/edit?usp=drivesdk",
-    "author": "고래（鯨魚）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2024-12-28",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "Passionate A&W 外傳2告別之旅",
-        "url": "https://docs.google.com/document/d/1DOHzIw3rQ0hi699ZprDw7Bdw0avmKzTXTWuf3SAUtp4/edit?usp=drivesdk",
-        "articleId": "1DOHzIw3rQ0hi699ZprDw7Bdw0avmKzTXTWuf3SAUtp4",
-        "original": "https://www.postype.com/@golae0831/post/17049980",
-        "pricePoints": 500,
-        "_episodeId": "ep-79f61c5610ced9cb1f96",
-        "destinyItemId": "item-7ddc8251623b21b1b4ac",
-        "destinyTitle": "Passionate A&W 外傳2-告別之旅",
-        "destinyKo": "Passionate A&W 외전 2 - 이별여행",
-        "destinyDeleted": false,
-        "wordCount": 8024
-      }
-    ],
-    "_id": "work-7e6e839227a961ee1b17",
-    "_favoriteKey": "https://docs.google.com/document/d/1DOHzIw3rQ0hi699ZprDw7Bdw0avmKzTXTWuf3SAUtp4/edit?usp=drivesdk",
-    "articleId": "1DOHzIw3rQ0hi699ZprDw7Bdw0avmKzTXTWuf3SAUtp4",
-    "pricingMode": "episodes",
-    "knownPricePoints": 500,
-    "unpricedEpisodes": 0,
-    "pricePoints": 500,
-    "includeShelf": true,
-    "includeDestiny": true,
-    "recommendations": [],
-    "destinyId": "P0223",
-    "destinyDeleted": false,
-    "tags": [
-      "CP配對: 安/員",
-      "CP配對: 員/安",
-      "CP配對: 互攻",
-      "分級: 尺度大、謹慎閱讀",
-      "分級: 💰付費內容",
-      "分級: 🏎️賽車",
-      "分級: SM",
-      "分級: 玩具",
-      "文章狀態: 完結+番外",
-      "文章篇幅: 中篇",
-      "文章類型: 都市現實",
-      "結局: HE",
-      "背景設定: 校園",
-      "계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 Summer"
-    ],
-    "characters": [
-      "安：戲劇電影系四年級 / 員：文藝創作系三年級"
-    ],
-    "wordCount": 8024
-  },
-  {
     "page": "noname",
     "status": "2.已完結",
     "ko": "헤이트 데스트니",
@@ -22556,274 +23336,300 @@ window.BOOK_DATA = [
         "label": "1",
         "title": "咖啡很迷人，店員也很美味1",
         "url": "https://docs.google.com/document/d/13xoYRJi_levujIwMgq8454GbT42UU7U_wY-JThrvcMo/edit?usp=drivesdk",
-        "articleId": "13xoYRJi_levujIwMgq8454GbT42UU7U_wY-JThrvcMo",
         "original": "https://www.postype.com/@yuwon8318/post/16799803",
+        "articleId": "13xoYRJi_levujIwMgq8454GbT42UU7U_wY-JThrvcMo",
         "pricePoints": 0,
         "_episodeId": "ep-86031669d9a1a9239319",
         "destinyItemId": "item-f658b3991be92514b470",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6205
       },
       {
         "label": "2",
         "title": "咖啡很迷人，店員也很美味2",
         "url": "https://docs.google.com/document/d/1Wb4XfCFiFAArE423fcQqw4NP63Dbv8YM6y5ovsdz5Jg/edit?usp=drivesdk",
-        "articleId": "1Wb4XfCFiFAArE423fcQqw4NP63Dbv8YM6y5ovsdz5Jg",
         "original": "https://www.postype.com/@yuwon8318/post/16808468",
+        "articleId": "1Wb4XfCFiFAArE423fcQqw4NP63Dbv8YM6y5ovsdz5Jg",
         "pricePoints": 0,
         "_episodeId": "ep-5dd3b40e37477d66c60c",
         "destinyItemId": "item-a952f56df7e2e2a1c9b3",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7087
       },
       {
         "label": "3",
         "title": "咖啡很迷人，店員也很美味3",
         "url": "https://docs.google.com/document/d/1r0Ha42RzladujBX4ZtigTWRyPZ2TVOTIQE1nMKvRXz4/edit?usp=drivesdk",
-        "articleId": "1r0Ha42RzladujBX4ZtigTWRyPZ2TVOTIQE1nMKvRXz4",
         "original": "https://www.postype.com/@yuwon8318/post/16818149",
+        "articleId": "1r0Ha42RzladujBX4ZtigTWRyPZ2TVOTIQE1nMKvRXz4",
         "pricePoints": 0,
         "_episodeId": "ep-9603695b179a4b1b6bdb",
         "destinyItemId": "item-8a8bc790ce0addb3cda7",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6909
       },
       {
         "label": "4",
         "title": "咖啡很迷人，店員也很美味4",
         "url": "https://docs.google.com/document/d/18h2W6FE1s-YqpRlsZ-9UGmejfkNFpHWcPoMB0iS4WNs/edit?usp=drivesdk",
-        "articleId": "18h2W6FE1s-YqpRlsZ-9UGmejfkNFpHWcPoMB0iS4WNs",
         "original": "https://www.postype.com/@yuwon8318/post/16834724",
+        "articleId": "18h2W6FE1s-YqpRlsZ-9UGmejfkNFpHWcPoMB0iS4WNs",
         "pricePoints": 0,
         "_episodeId": "ep-f29878ef5bec8c91782b",
         "destinyItemId": "item-aa515d2d15661962bed0",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5865
       },
       {
         "label": "5",
         "title": "咖啡很迷人，店員也很美味5",
         "url": "https://docs.google.com/document/d/127yfEcRvYJtm5j8efj2nAgiIZchW1SU9iwe7HJz2JfU/edit?usp=drivesdk",
-        "articleId": "127yfEcRvYJtm5j8efj2nAgiIZchW1SU9iwe7HJz2JfU",
         "original": "https://www.postype.com/@yuwon8318/post/16843112",
+        "articleId": "127yfEcRvYJtm5j8efj2nAgiIZchW1SU9iwe7HJz2JfU",
         "pricePoints": 0,
         "_episodeId": "ep-47a9d85e20aa3aa0b66d",
         "destinyItemId": "item-7776be8a32018fb805e6",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7391
       },
       {
         "label": "6",
         "title": "咖啡很迷人，店員也很美味6",
         "url": "https://docs.google.com/document/d/1y15_igdkIGmzXlFHwh1xDPCZ3N9GMLiCrT_1WZl6YJ4/edit?usp=drivesdk",
-        "articleId": "1y15_igdkIGmzXlFHwh1xDPCZ3N9GMLiCrT_1WZl6YJ4",
         "original": "https://www.postype.com/@yuwon8318/post/16852872",
+        "articleId": "1y15_igdkIGmzXlFHwh1xDPCZ3N9GMLiCrT_1WZl6YJ4",
         "pricePoints": 0,
         "_episodeId": "ep-f702fdfe6b4a8ca5923b",
         "destinyItemId": "item-4cbac30167fac7ac570c",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6313
       },
       {
         "label": "7",
         "title": "咖啡很迷人，店員也很美味7",
         "url": "https://docs.google.com/document/d/1a3Bz_baRBOs5PNiv4msYpLAnQbTlHJxXH6cdctoBTo4/edit?usp=drivesdk",
-        "articleId": "1a3Bz_baRBOs5PNiv4msYpLAnQbTlHJxXH6cdctoBTo4",
         "original": "https://www.postype.com/@yuwon8318/post/16857142",
+        "articleId": "1a3Bz_baRBOs5PNiv4msYpLAnQbTlHJxXH6cdctoBTo4",
         "pricePoints": 0,
         "_episodeId": "ep-be4f6f35b9ffe0a4ca34",
         "destinyItemId": "item-2bde662b292ea0b58c9a",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7282
       },
       {
         "label": "8",
         "title": "咖啡很迷人，店員也很美味8",
         "url": "https://docs.google.com/document/d/1huhfx2H8gX-kB0tTGtj-iUM_oHPQ0GT9nmJGgjvVVq0/edit?usp=drivesdk",
-        "articleId": "1huhfx2H8gX-kB0tTGtj-iUM_oHPQ0GT9nmJGgjvVVq0",
         "original": "https://www.postype.com/@yuwon8318/post/16867852",
+        "articleId": "1huhfx2H8gX-kB0tTGtj-iUM_oHPQ0GT9nmJGgjvVVq0",
         "pricePoints": 0,
         "_episodeId": "ep-530e25e9f6caa5489bd5",
         "destinyItemId": "item-bd3ed1730d84927f695d",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6510
       },
       {
         "label": "9",
         "title": "咖啡很迷人，店員也很美味9",
         "url": "https://docs.google.com/document/d/1BL6icJ9Z_06l97CBw41--Iaz-GEN8DN7SGj7tby00Ls/edit?usp=drivesdk",
-        "articleId": "1BL6icJ9Z_06l97CBw41--Iaz-GEN8DN7SGj7tby00Ls",
         "original": "https://www.postype.com/@yuwon8318/post/16879003",
+        "articleId": "1BL6icJ9Z_06l97CBw41--Iaz-GEN8DN7SGj7tby00Ls",
         "pricePoints": 500,
         "_episodeId": "ep-e48cd046a6a5290d493d",
         "destinyItemId": "item-350b898c95f27afd66b5",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4986
       },
       {
         "label": "10",
         "title": "咖啡很迷人，店員也很美味10",
         "url": "https://docs.google.com/document/d/1Bsfy-fYtu3SIx5sEnG2j3C9c7Ay9F0HglmB45sH8_d8/edit?usp=drivesdk",
-        "articleId": "1Bsfy-fYtu3SIx5sEnG2j3C9c7Ay9F0HglmB45sH8_d8",
         "original": "https://www.postype.com/@yuwon8318/post/16881518",
+        "articleId": "1Bsfy-fYtu3SIx5sEnG2j3C9c7Ay9F0HglmB45sH8_d8",
         "pricePoints": 0,
         "_episodeId": "ep-f1deec7dc6ee316dd65b",
         "destinyItemId": "item-c1eff6f3f0c6220a3a7b",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6400
       },
       {
         "label": "11",
         "title": "咖啡很迷人，店員也很美味11",
         "url": "https://docs.google.com/document/d/14fCpRjsq8-onZt1yb9fW3wYDgC-y5dzlssOV6Usf1Rg/edit?usp=drivesdk",
-        "articleId": "14fCpRjsq8-onZt1yb9fW3wYDgC-y5dzlssOV6Usf1Rg",
         "original": "https://www.postype.com/@yuwon8318/post/16886841",
+        "articleId": "14fCpRjsq8-onZt1yb9fW3wYDgC-y5dzlssOV6Usf1Rg",
         "pricePoints": 500,
         "_episodeId": "ep-89f0abd58aaeabc8d054",
         "destinyItemId": "item-10d08094c7b54992ef5c",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5873
       },
       {
         "label": "12",
         "title": "咖啡很迷人，店員也很美味12",
         "url": "https://docs.google.com/document/d/1coQc3JVEN2Q3z1gJkxWFtb-YpkyciGXhnbQlWM3JRnQ/edit?usp=drivesdk",
-        "articleId": "1coQc3JVEN2Q3z1gJkxWFtb-YpkyciGXhnbQlWM3JRnQ",
         "original": "https://www.postype.com/@yuwon8318/post/16909632",
+        "articleId": "1coQc3JVEN2Q3z1gJkxWFtb-YpkyciGXhnbQlWM3JRnQ",
         "pricePoints": 0,
         "_episodeId": "ep-4a802085df1dfbeb279b",
         "destinyItemId": "item-229009bdec65e6d33c52",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5923
       },
       {
         "label": "13",
         "title": "咖啡很迷人，店員也很美味13",
         "url": "https://docs.google.com/document/d/1M0f41gwBofxws_AFZY_1y-Peg7ZYg8QW6rUicZJYIMU/edit?usp=drivesdk",
-        "articleId": "1M0f41gwBofxws_AFZY_1y-Peg7ZYg8QW6rUicZJYIMU",
         "original": "https://www.postype.com/@yuwon8318/post/16915157",
+        "articleId": "1M0f41gwBofxws_AFZY_1y-Peg7ZYg8QW6rUicZJYIMU",
         "pricePoints": 0,
         "_episodeId": "ep-185a25afea818d713971",
         "destinyItemId": "item-5ff5a21d175abc9c3cdc",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6307
       },
       {
         "label": "14",
         "title": "咖啡很迷人，店員也很美味14",
         "url": "https://docs.google.com/document/d/1StnY4_OA713JXR597T3p4N7atUeDQ1uHmrYPTDbiNzk/edit?usp=drivesdk",
-        "articleId": "1StnY4_OA713JXR597T3p4N7atUeDQ1uHmrYPTDbiNzk",
         "original": "https://www.postype.com/@yuwon8318/post/16920512",
+        "articleId": "1StnY4_OA713JXR597T3p4N7atUeDQ1uHmrYPTDbiNzk",
         "pricePoints": 0,
         "_episodeId": "ep-b965fd17f514d2d8f925",
         "destinyItemId": "item-459afe7e350581f82731",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6487
       },
       {
         "label": "15",
         "title": "咖啡很迷人，店員也很美味15",
         "url": "https://docs.google.com/document/d/1sFHxUy9rYQpriIfbGsiiLiHUZf176uLc7O3bogXv4yM/edit?usp=drivesdk",
-        "articleId": "1sFHxUy9rYQpriIfbGsiiLiHUZf176uLc7O3bogXv4yM",
         "original": "https://www.postype.com/@yuwon8318/post/16927250",
+        "articleId": "1sFHxUy9rYQpriIfbGsiiLiHUZf176uLc7O3bogXv4yM",
         "pricePoints": 0,
         "_episodeId": "ep-102d58e989a0a8b58194",
         "destinyItemId": "item-3e3855bc8b48e2f4b93d",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5879
       },
       {
         "label": "16",
         "title": "咖啡很迷人，店員也很美味16",
         "url": "https://docs.google.com/document/d/1h64cae_9fFmSDyqFTcM5FTgRx5SW7c3wiOR8azE0vtQ/edit?usp=drivesdk",
-        "articleId": "1h64cae_9fFmSDyqFTcM5FTgRx5SW7c3wiOR8azE0vtQ",
         "original": "https://www.postype.com/@yuwon8318/post/16935016",
+        "articleId": "1h64cae_9fFmSDyqFTcM5FTgRx5SW7c3wiOR8azE0vtQ",
         "pricePoints": 0,
         "_episodeId": "ep-917ac8020b909adb4aad",
         "destinyItemId": "item-6812d308f6486abc83a5",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6318
       },
       {
         "label": "17",
         "title": "咖啡很迷人，店員也很美味17",
         "url": "https://docs.google.com/document/d/1EKSOx-oBFfb8xSUYsgXTgv5zHmpS3Hz9Z9fhtSo009s/edit?usp=drivesdk",
-        "articleId": "1EKSOx-oBFfb8xSUYsgXTgv5zHmpS3Hz9Z9fhtSo009s",
         "original": "https://www.postype.com/@yuwon8318/post/16940803",
+        "articleId": "1EKSOx-oBFfb8xSUYsgXTgv5zHmpS3Hz9Z9fhtSo009s",
         "pricePoints": 500,
         "_episodeId": "ep-f21584ddfa6d3f85fe2d",
         "destinyItemId": "item-26e45d122b8b17c8e4bc",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6249
       },
       {
         "label": "18",
         "title": "咖啡很迷人，店員也很美味18",
         "url": "https://docs.google.com/document/d/1BdE0_sqA0MOf-i0jkSqQAkxfKUdJOeCANjFuTFIhcDk/edit?usp=drivesdk",
-        "articleId": "1BdE0_sqA0MOf-i0jkSqQAkxfKUdJOeCANjFuTFIhcDk",
         "original": "https://www.postype.com/@yuwon8318/post/16945006",
+        "articleId": "1BdE0_sqA0MOf-i0jkSqQAkxfKUdJOeCANjFuTFIhcDk",
         "pricePoints": 0,
         "_episodeId": "ep-a8e4975ada5d1993cca9",
         "destinyItemId": "item-dcae1eeb5ee17c30b4e1",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6900
       },
       {
         "label": "19",
         "title": "咖啡很迷人，店員也很美味19",
         "url": "https://docs.google.com/document/d/1feIePyknmolwEIBOnpv_RFxr1Zaiitqcc2rHdD0Vx9E/edit?usp=drivesdk",
-        "articleId": "1feIePyknmolwEIBOnpv_RFxr1Zaiitqcc2rHdD0Vx9E",
         "original": "https://www.postype.com/@yuwon8318/post/16958144",
+        "articleId": "1feIePyknmolwEIBOnpv_RFxr1Zaiitqcc2rHdD0Vx9E",
         "pricePoints": 0,
         "_episodeId": "ep-bf3080ab8e0cef530a96",
         "destinyItemId": "item-9c05ea9cc87a9f8fad8f",
-        "destinyTitle": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+        "destinyTitle": "",
         "destinyKo": "커피가 예쁘고 알바생이 맛있어요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6433
       },
       {
         "label": "20",
         "title": "咖啡很迷人，店員也很美味20",
         "url": "https://docs.google.com/document/d/1nCqCAwg6dlWn8Gfkzu4BB7DeTGZQ8-pP0UoZn2LKjQA/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@yuwon8318/post/16962960",
         "articleId": "1nCqCAwg6dlWn8Gfkzu4BB7DeTGZQ8-pP0UoZn2LKjQA",
+        "pricePoints": null,
         "_episodeId": "ep-3624347f7d41e56b37e0",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5808
       }
     ],
@@ -22855,8 +23661,13 @@ window.BOOK_DATA = [
       "題材梗: 育兒"
     ],
     "characters": [
-      "安：百貨公司社長\n員：咖啡廳兼職"
+      "安：百貨公司社長",
+      "員：咖啡廳兼職"
     ],
+    "createdAt": "2026-10-13T12:47:43.498Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T12:47:43.504Z",
     "wordCount": 6205
   },
   {
@@ -22876,232 +23687,255 @@ window.BOOK_DATA = [
         "label": "1",
         "title": "我的女兒們很可愛 我的妻子很性感1",
         "url": "https://docs.google.com/document/d/1xohWYP1FgtRSZbvPcNiQqS--ECjJ0ZbmT525j98xVzo/edit?usp=drivesdk",
-        "articleId": "1xohWYP1FgtRSZbvPcNiQqS--ECjJ0ZbmT525j98xVzo",
         "original": "https://www.postype.com/@yuwon8318/post/17284602",
+        "articleId": "1xohWYP1FgtRSZbvPcNiQqS--ECjJ0ZbmT525j98xVzo",
         "pricePoints": 0,
         "_episodeId": "ep-ac29e6ffb39afea74774",
         "destinyItemId": "item-558ba6885f064ba6a82b",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6472
       },
       {
         "label": "2",
         "title": "我的女兒們很可愛 我的妻子很性感2",
         "url": "https://docs.google.com/document/d/19qQNuvenz0FSVCsTIeWoRhJOpVlqI6LKyLHmeBHs2-I/edit?usp=drivesdk",
-        "articleId": "19qQNuvenz0FSVCsTIeWoRhJOpVlqI6LKyLHmeBHs2-I",
         "original": "https://www.postype.com/@yuwon8318/post/17302479",
+        "articleId": "19qQNuvenz0FSVCsTIeWoRhJOpVlqI6LKyLHmeBHs2-I",
         "pricePoints": 0,
         "_episodeId": "ep-61efeec2203049ce016f",
         "destinyItemId": "item-8d90b380efb6e78af4f7",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6954
       },
       {
         "label": "3",
         "title": "我的女兒們很可愛 我的妻子很性感3",
         "url": "https://docs.google.com/document/d/1e2gRkROyQFgZT_mj25hUmf6zmh6dPiuUzpjRMWiCv00/edit?usp=drivesdk",
-        "articleId": "1e2gRkROyQFgZT_mj25hUmf6zmh6dPiuUzpjRMWiCv00",
         "original": "https://www.postype.com/@yuwon8318/post/17315783",
+        "articleId": "1e2gRkROyQFgZT_mj25hUmf6zmh6dPiuUzpjRMWiCv00",
         "pricePoints": 0,
         "_episodeId": "ep-59cb4e6b746b8755616b",
         "destinyItemId": "item-eca2e45651824aa2b08f",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5622
       },
       {
         "label": "4",
         "title": "我的女兒們很可愛 我的妻子很性感4",
         "url": "https://docs.google.com/document/d/1-WSytN4FkI1Df-s0BQU1bSkHW7_8briz1suCwN2Q46E/edit?usp=drivesdk",
-        "articleId": "1-WSytN4FkI1Df-s0BQU1bSkHW7_8briz1suCwN2Q46E",
         "original": "https://www.postype.com/@yuwon8318/post/17325618",
+        "articleId": "1-WSytN4FkI1Df-s0BQU1bSkHW7_8briz1suCwN2Q46E",
         "pricePoints": 500,
         "_episodeId": "ep-b3a8abea0cd783c72a42",
         "destinyItemId": "item-9f5331d86c06d7224be4",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5108
       },
       {
         "label": "5",
         "title": "我的女兒們很可愛 我的妻子很性感5",
         "url": "https://docs.google.com/document/d/1l0STUWxYRm5RASnxljsx9UAJk75uXvYfUIl9Ld3NdQE/edit?usp=drivesdk",
-        "articleId": "1l0STUWxYRm5RASnxljsx9UAJk75uXvYfUIl9Ld3NdQE",
         "original": "https://www.postype.com/@yuwon8318/post/17337290",
+        "articleId": "1l0STUWxYRm5RASnxljsx9UAJk75uXvYfUIl9Ld3NdQE",
         "pricePoints": 0,
         "_episodeId": "ep-7c06b9fa02bf1578e490",
         "destinyItemId": "item-455fb33ba403df20ec07",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5697
       },
       {
         "label": "6",
         "title": "我的女兒們很可愛 我的妻子很性感6",
         "url": "https://docs.google.com/document/d/1oyHBa_YDZAVNrat0TBaJiARb4Yt36QGKBuzM1r3CqNM/edit?usp=drivesdk",
-        "articleId": "1oyHBa_YDZAVNrat0TBaJiARb4Yt36QGKBuzM1r3CqNM",
         "original": "https://www.postype.com/@yuwon8318/post/17347956",
+        "articleId": "1oyHBa_YDZAVNrat0TBaJiARb4Yt36QGKBuzM1r3CqNM",
         "pricePoints": 0,
         "_episodeId": "ep-d7aacb3efd8f636f99c9",
         "destinyItemId": "item-9111a731d61f5c675a9c",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6891
       },
       {
         "label": "7",
         "title": "我的女兒們很可愛 我的妻子很性感7",
         "url": "https://docs.google.com/document/d/1v8yLbPJNCMu0AevOCaXb7FruQR5jc_acAMkUEZ6vN8Y/edit?usp=drivesdk",
-        "articleId": "1v8yLbPJNCMu0AevOCaXb7FruQR5jc_acAMkUEZ6vN8Y",
         "original": "https://www.postype.com/@yuwon8318/post/17416714",
+        "articleId": "1v8yLbPJNCMu0AevOCaXb7FruQR5jc_acAMkUEZ6vN8Y",
         "pricePoints": 0,
         "_episodeId": "ep-0cc4170b2206198bbb12",
         "destinyItemId": "item-e2f77e41ae84eeaf0fe3",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5512
       },
       {
         "label": "8",
         "title": "我的女兒們很可愛 我的妻子很性感8",
         "url": "https://docs.google.com/document/d/1YPbQ838huHPoHA3ougl7MJJV1-rcIHLrnkPu5uFWa7k/edit?usp=drivesdk",
-        "articleId": "1YPbQ838huHPoHA3ougl7MJJV1-rcIHLrnkPu5uFWa7k",
         "original": "https://www.postype.com/@yuwon8318/post/17433250",
+        "articleId": "1YPbQ838huHPoHA3ougl7MJJV1-rcIHLrnkPu5uFWa7k",
         "pricePoints": 500,
         "_episodeId": "ep-16a1d8c1d1fb2317ad12",
         "destinyItemId": "item-c47b043c98657a9e428a",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5102
       },
       {
         "label": "9",
         "title": "我的女兒們很可愛 我的妻子很性感9",
         "url": "https://docs.google.com/document/d/14x0N9lnkw9RVji6PXEytLPYh0NCPsDiuuKctPRl6VrA/edit?usp=drivesdk",
-        "articleId": "14x0N9lnkw9RVji6PXEytLPYh0NCPsDiuuKctPRl6VrA",
         "original": "https://www.postype.com/@yuwon8318/post/17444683",
+        "articleId": "14x0N9lnkw9RVji6PXEytLPYh0NCPsDiuuKctPRl6VrA",
         "pricePoints": 0,
         "_episodeId": "ep-1b16af12a20ff6c89339",
         "destinyItemId": "item-80c923507c7070c34c26",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6052
       },
       {
         "label": "10",
         "title": "我的女兒們很可愛 我的妻子很性感10",
         "url": "https://docs.google.com/document/d/16JYEoGHV7ESC0oCwJmOIu50x1CMwFkYNOrTng_UADTo/edit?usp=drivesdk",
-        "articleId": "16JYEoGHV7ESC0oCwJmOIu50x1CMwFkYNOrTng_UADTo",
         "original": "https://www.postype.com/@yuwon8318/post/17454308",
+        "articleId": "16JYEoGHV7ESC0oCwJmOIu50x1CMwFkYNOrTng_UADTo",
         "pricePoints": 0,
         "_episodeId": "ep-830217d241fa58303227",
         "destinyItemId": "item-068ca36f8705ac86e1f8",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6093
       },
       {
         "label": "11",
         "title": "我的女兒們很可愛 我的妻子很性感11",
         "url": "https://docs.google.com/document/d/15lU-IetpGx3MwV4tFd1Eua1nzD9XSDhdXPT0-mwDCa0/edit?usp=drivesdk",
-        "articleId": "15lU-IetpGx3MwV4tFd1Eua1nzD9XSDhdXPT0-mwDCa0",
         "original": "https://www.postype.com/@yuwon8318/post/17465256",
+        "articleId": "15lU-IetpGx3MwV4tFd1Eua1nzD9XSDhdXPT0-mwDCa0",
         "pricePoints": 0,
         "_episodeId": "ep-d7f3688efd6ad5a4282b",
         "destinyItemId": "item-2799d5d3ac73915e5828",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5516
       },
       {
         "label": "12",
         "title": "我的女兒們很可愛 我的妻子很性感12",
         "url": "https://docs.google.com/document/d/1lWdq5op-lULvGUbgKEl-wz26U9twkTl4Uh1nGYDmMa0/edit?usp=drivesdk",
-        "articleId": "1lWdq5op-lULvGUbgKEl-wz26U9twkTl4Uh1nGYDmMa0",
         "original": "https://www.postype.com/@yuwon8318/post/17480941",
+        "articleId": "1lWdq5op-lULvGUbgKEl-wz26U9twkTl4Uh1nGYDmMa0",
         "pricePoints": 0,
         "_episodeId": "ep-5e0ed69aad6acc3419a3",
         "destinyItemId": "item-62ebcfdb18ff2734ce12",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5881
       },
       {
         "label": "13",
         "title": "我的女兒們很可愛 我的妻子很性感13",
         "url": "https://docs.google.com/document/d/1B1Za7q8fvt_Y3G2oJa5WJe5-K_fCCjTwYPA-dKBZb8c/edit?usp=drivesdk",
-        "articleId": "1B1Za7q8fvt_Y3G2oJa5WJe5-K_fCCjTwYPA-dKBZb8c",
         "original": "https://www.postype.com/@yuwon8318/post/17494527",
+        "articleId": "1B1Za7q8fvt_Y3G2oJa5WJe5-K_fCCjTwYPA-dKBZb8c",
         "pricePoints": 500,
         "_episodeId": "ep-578def5e350daa1fee46",
         "destinyItemId": "item-5ebd0b08b379f6770f36",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7197
       },
       {
         "label": "14",
         "title": "我的女兒們很可愛 我的妻子很性感14",
         "url": "https://docs.google.com/document/d/1glC58YDP06LUrv-695u7W-qtMXbJ--DpILH8cL8J0F0/edit?usp=drivesdk",
-        "articleId": "1glC58YDP06LUrv-695u7W-qtMXbJ--DpILH8cL8J0F0",
         "original": "https://www.postype.com/@yuwon8318/post/17504732",
+        "articleId": "1glC58YDP06LUrv-695u7W-qtMXbJ--DpILH8cL8J0F0",
         "pricePoints": 0,
         "_episodeId": "ep-f60883e7cff404211e1e",
         "destinyItemId": "item-9a18174b13f2a1762bdb",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5381
       },
       {
         "label": "15",
         "title": "我的女兒們很可愛 我的妻子很性感15",
         "url": "https://docs.google.com/document/d/1x_eNIWnRGD6rrIuPKWDBMGlzPjVrVjLYCqFgwfoyR9I/edit?usp=drivesdk",
-        "articleId": "1x_eNIWnRGD6rrIuPKWDBMGlzPjVrVjLYCqFgwfoyR9I",
         "original": "https://www.postype.com/@yuwon8318/post/17536529",
+        "articleId": "1x_eNIWnRGD6rrIuPKWDBMGlzPjVrVjLYCqFgwfoyR9I",
         "pricePoints": 0,
         "_episodeId": "ep-8c9029ca87c2dc55357a",
         "destinyItemId": "item-34f1b7074ca65391120c",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5274
       },
       {
         "label": "16",
         "title": "我的女兒們很可愛 我的妻子很性感16",
         "url": "https://docs.google.com/document/d/1jzr57NpVV-zXso3qIi-DxmJXIdBwvA5NjE9bkHG0Jv4/edit?usp=drivesdk",
-        "articleId": "1jzr57NpVV-zXso3qIi-DxmJXIdBwvA5NjE9bkHG0Jv4",
         "original": "https://www.postype.com/@yuwon8318/post/17555538",
+        "articleId": "1jzr57NpVV-zXso3qIi-DxmJXIdBwvA5NjE9bkHG0Jv4",
         "pricePoints": 500,
         "_episodeId": "ep-ce646fd311694a3d9c8e",
         "destinyItemId": "item-fdf9ceb2eedc73a97de7",
-        "destinyTitle": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+        "destinyTitle": "",
         "destinyKo": "딸내미들이 귀엽고 와이프가 섹시해요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5931
       },
       {
         "label": "17",
         "title": "我的女兒們很可愛 我的妻子很性感17",
         "url": "https://docs.google.com/document/d/1prNT7qExqHFB2oXOuv61p4P3COPTvvX6xfDz0bwAhWw/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@yuwon8318/post/17581219",
         "articleId": "1prNT7qExqHFB2oXOuv61p4P3COPTvvX6xfDz0bwAhWw",
+        "pricePoints": null,
         "_episodeId": "ep-a485cee15bb0047b97b1",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5042
       }
     ],
@@ -23120,6 +23954,11 @@ window.BOOK_DATA = [
     "tags": [
       "文章狀態: 完結"
     ],
+    "createdAt": "2026-10-13T12:49:03.079Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-13T12:49:03.085Z",
     "wordCount": 6472
   },
   {
@@ -23136,11 +23975,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "咖啡夫妻番外篇-馬爾地夫",
-        "url": "https://docs.google.com/document/d/1wA9sTNsbuyGU8ce5U8q-U7mZeJgokfrJ50wQmpEhc7w/edit?usp=drivesdk",
+        "label": "單集",
+        "title": "咖啡夫妻S2番外-馬爾地夫篇",
+        "url": "",
+        "original": "https://www.postype.com/@yuwon8318/post/17805700",
         "articleId": "1wA9sTNsbuyGU8ce5U8q-U7mZeJgokfrJ50wQmpEhc7w",
-        "_episodeId": "ep-70768254363714e24c29",
+        "pricePoints": 1000,
+        "_episodeId": "ep-item-75053230694d97390a6c",
+        "destinyItemId": "item-75053230694d97390a6c",
+        "destinyTitle": "咖啡夫妻S2番外-馬爾地夫篇",
+        "destinyKo": "커피가 예쁘고 알바생이 맛있어요 S2番外-馬爾地夫篇",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 39947
       }
     ],
@@ -23156,9 +24002,14 @@ window.BOOK_DATA = [
       "文章狀態: 完結"
     ],
     "knownPricePoints": 1000,
-    "unpricedEpisodes": 1,
-    "pricePoints": null,
+    "unpricedEpisodes": 0,
+    "pricePoints": 1000,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T12:49:21.718Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-13T12:49:21.718Z",
     "wordCount": 39947
   },
   {
@@ -23175,11 +24026,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "為誰而辦的聖誕活動",
-        "url": "https://docs.google.com/document/d/1NHcrOn1n4FUqdK7L05dKyFTlmV_2L__9x3PX_kM8oq4/edit?usp=drivesdk",
+        "label": "單集",
+        "title": "咖啡夫妻S2番外-為誰而辦的聖誕活動",
+        "url": "",
+        "original": "https://www.postype.com/@yuwon8318/post/18188109",
         "articleId": "1NHcrOn1n4FUqdK7L05dKyFTlmV_2L__9x3PX_kM8oq4",
-        "_episodeId": "ep-64b7df2214da5ffbc096",
+        "pricePoints": 2000,
+        "_episodeId": "ep-item-4d2a482bdfeb7755916e",
+        "destinyItemId": "item-4d2a482bdfeb7755916e",
+        "destinyTitle": "咖啡夫妻S2番外-為誰而辦的聖誕活動",
+        "destinyKo": "커피가 예쁘고 알바생이 맛있어요 S2番外-為誰而辦的聖誕活動",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 48383
       }
     ],
@@ -23195,66 +24053,15 @@ window.BOOK_DATA = [
       "文章狀態: 完結"
     ],
     "knownPricePoints": 2000,
-    "unpricedEpisodes": 1,
-    "pricePoints": null,
-    "pricingMode": "episodes",
-    "wordCount": 48383
-  },
-  {
-    "page": "星光",
-    "status": "2.已完結",
-    "ko": "단편썰3-정략결혼 썰",
-    "zh": "💰 短篇小說集3-聯姻故事",
-    "original": "https://www.postype.com/@pactory/post/18122359",
-    "translation": "https://docs.google.com/document/d/1IeB2KQseFDvy7T9yr-lDsQXNVjSYvUGBW3Wx8ZFT2rw/edit?usp=drivesdk",
-    "author": "별빛（星光）",
-    "translator": "貢丸",
-    "note": "",
-    "date": "2024-12-23",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "閱讀",
-        "title": "聯姻故事",
-        "url": "https://docs.google.com/document/d/1IeB2KQseFDvy7T9yr-lDsQXNVjSYvUGBW3Wx8ZFT2rw/edit?usp=drivesdk",
-        "articleId": "1IeB2KQseFDvy7T9yr-lDsQXNVjSYvUGBW3Wx8ZFT2rw",
-        "original": "https://www.postype.com/@pactory/post/18122359",
-        "pricePoints": 1000,
-        "_episodeId": "ep-d5467ee1fa878759b3ba",
-        "destinyItemId": "item-26069286c5d7c643883f",
-        "destinyTitle": "短篇小說集3",
-        "destinyKo": "단편썰 3",
-        "destinyDeleted": false,
-        "wordCount": 21427
-      }
-    ],
-    "_id": "work-9225525cb662c0c514f0",
-    "_favoriteKey": "https://docs.google.com/document/d/1IeB2KQseFDvy7T9yr-lDsQXNVjSYvUGBW3Wx8ZFT2rw/edit?usp=drivesdk",
-    "articleId": "1IeB2KQseFDvy7T9yr-lDsQXNVjSYvUGBW3Wx8ZFT2rw",
-    "pricingMode": "episodes",
-    "knownPricePoints": 1000,
     "unpricedEpisodes": 0,
-    "pricePoints": 1000,
-    "includeShelf": true,
-    "includeDestiny": true,
-    "recommendations": [],
-    "destinyId": "P0288",
-    "destinyDeleted": false,
-    "tags": [
-      "CP配對: 安/員",
-      "分級: 💰付費內容",
-      "分級: 🏎️賽車",
-      "文章狀態: 完結",
-      "文章篇幅: 中篇",
-      "文章類型: 都市現實",
-      "結局: OE",
-      "類型世界觀: ABO",
-      "類型世界觀: Futa"
-    ],
-    "characters": [
-      "安：倒閉中小業之女\n員：大企業家族棄女"
-    ],
-    "wordCount": 21427
+    "pricePoints": 2000,
+    "pricingMode": "episodes",
+    "createdAt": "2026-10-13T12:49:33.664Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [],
+    "updatedAt": "2026-10-13T12:49:39.550Z",
+    "wordCount": 48383
   },
   {
     "page": "真心",
@@ -23273,134 +24080,150 @@ window.BOOK_DATA = [
         "label": "EP1",
         "title": "飯店經理1",
         "url": "https://docs.google.com/document/d/1zb4MzaanIzeEigKA-zprqwrNkRWEjP5vi4YTzOomxEI/edit?usp=drivesdk",
-        "articleId": "1zb4MzaanIzeEigKA-zprqwrNkRWEjP5vi4YTzOomxEI",
         "original": "https://www.postype.com/@yuwon8318/post/15855616",
+        "articleId": "1zb4MzaanIzeEigKA-zprqwrNkRWEjP5vi4YTzOomxEI",
         "pricePoints": 0,
         "_episodeId": "ep-ada29b7e1b8961c2cc33",
         "destinyItemId": "item-df029414375010c89e9f",
-        "destinyTitle": "飯店經理",
+        "destinyTitle": "",
         "destinyKo": "호텔리어",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4704
       },
       {
         "label": "EP2",
         "title": "飯店經理2",
         "url": "https://docs.google.com/document/d/16R5UfaTKXhU88h78rlWEyAIwl59oU0tbGIYgHWp2whk/edit?usp=drivesdk",
-        "articleId": "16R5UfaTKXhU88h78rlWEyAIwl59oU0tbGIYgHWp2whk",
         "original": "https://www.postype.com/@yuwon8318/post/15890744",
+        "articleId": "16R5UfaTKXhU88h78rlWEyAIwl59oU0tbGIYgHWp2whk",
         "pricePoints": 0,
         "_episodeId": "ep-5e20994af850525466ef",
         "destinyItemId": "item-79b285e3d49547ff7cdd",
-        "destinyTitle": "飯店經理",
+        "destinyTitle": "",
         "destinyKo": "호텔리어",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6621
       },
       {
         "label": "EP3",
         "title": "飯店經理3",
         "url": "https://docs.google.com/document/d/1PW8cmWgRn0meZBHpRY-aXzHdk2a_7Xi3fjyZarad_fU/edit?usp=drivesdk",
-        "articleId": "1PW8cmWgRn0meZBHpRY-aXzHdk2a_7Xi3fjyZarad_fU",
         "original": "https://www.postype.com/@yuwon8318/post/15902557",
+        "articleId": "1PW8cmWgRn0meZBHpRY-aXzHdk2a_7Xi3fjyZarad_fU",
         "pricePoints": 0,
         "_episodeId": "ep-90ae42a4a0cb85fd7db5",
         "destinyItemId": "item-534c851474028db9f75c",
-        "destinyTitle": "飯店經理",
+        "destinyTitle": "",
         "destinyKo": "호텔리어",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4710
       },
       {
         "label": "EP4",
         "title": "飯店經理4",
         "url": "https://docs.google.com/document/d/16yQLviehpkl0Q3qGqPAkm0h9euYfniMC4X4LwtzzAq4/edit?usp=drivesdk",
-        "articleId": "16yQLviehpkl0Q3qGqPAkm0h9euYfniMC4X4LwtzzAq4",
         "original": "https://www.postype.com/@yuwon8318/post/15927722",
+        "articleId": "16yQLviehpkl0Q3qGqPAkm0h9euYfniMC4X4LwtzzAq4",
         "pricePoints": 0,
         "_episodeId": "ep-726badfe2fbbc1887eea",
         "destinyItemId": "item-1a86ddb09693eef4773e",
-        "destinyTitle": "飯店經理",
+        "destinyTitle": "",
         "destinyKo": "호텔리어",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4681
       },
       {
         "label": "EP5",
         "title": "飯店經理5",
         "url": "https://docs.google.com/document/d/11Ofh5Bplse7gBLXAcPf-BLjMoyrMxrQIzwNFLRCV9zQ/edit?usp=drivesdk",
-        "articleId": "11Ofh5Bplse7gBLXAcPf-BLjMoyrMxrQIzwNFLRCV9zQ",
         "original": "https://www.postype.com/@yuwon8318/post/15958073",
+        "articleId": "11Ofh5Bplse7gBLXAcPf-BLjMoyrMxrQIzwNFLRCV9zQ",
         "pricePoints": 0,
         "_episodeId": "ep-38487c1ba1aa3b8fe1d6",
         "destinyItemId": "item-63285c3f371f5b0313bd",
-        "destinyTitle": "飯店經理",
+        "destinyTitle": "",
         "destinyKo": "호텔리어",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4848
       },
       {
         "label": "EP6",
         "title": "飯店經理6",
         "url": "https://docs.google.com/document/d/1fAtTRFl83rUuqm15ftxtWa1wHWCIzCy3Wacgn114Su8/edit?usp=drivesdk",
-        "articleId": "1fAtTRFl83rUuqm15ftxtWa1wHWCIzCy3Wacgn114Su8",
         "original": "https://www.postype.com/@yuwon8318/post/15992227",
+        "articleId": "1fAtTRFl83rUuqm15ftxtWa1wHWCIzCy3Wacgn114Su8",
         "pricePoints": 0,
         "_episodeId": "ep-5bfdca3bdfc4e5c2fe88",
         "destinyItemId": "item-1eb1fc7f8a92d7279c9e",
-        "destinyTitle": "飯店經理",
+        "destinyTitle": "",
         "destinyKo": "호텔리어",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7276
       },
       {
         "label": "EP7",
         "title": "飯店經理7",
         "url": "https://docs.google.com/document/d/1IndB22V0Ybi-8vLHnQQdsm9RnYtQsl4tdmioTxZUA-I/edit?usp=drivesdk",
-        "articleId": "1IndB22V0Ybi-8vLHnQQdsm9RnYtQsl4tdmioTxZUA-I",
         "original": "https://www.postype.com/@yuwon8318/post/16022174",
+        "articleId": "1IndB22V0Ybi-8vLHnQQdsm9RnYtQsl4tdmioTxZUA-I",
         "pricePoints": 0,
         "_episodeId": "ep-a78c1b365e4bb7d17a09",
         "destinyItemId": "item-28b7ba1082d7d84c6654",
-        "destinyTitle": "飯店經理",
+        "destinyTitle": "",
         "destinyKo": "호텔리어",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5848
       },
       {
         "label": "EP8",
         "title": "飯店經理8",
         "url": "https://docs.google.com/document/d/1PD1IjkxGdsM4y8joBlas6YlCpCEJK-T7tzEiJSV_OkE/edit?usp=drivesdk",
-        "articleId": "1PD1IjkxGdsM4y8joBlas6YlCpCEJK-T7tzEiJSV_OkE",
         "original": "https://www.postype.com/@yuwon8318/post/16022391",
+        "articleId": "1PD1IjkxGdsM4y8joBlas6YlCpCEJK-T7tzEiJSV_OkE",
         "pricePoints": 0,
         "_episodeId": "ep-e9af4bfc40ad39e30468",
         "destinyItemId": "item-eba95d487f8096f53216",
-        "destinyTitle": "飯店經理",
+        "destinyTitle": "",
         "destinyKo": "호텔리어",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5949
       },
       {
         "label": "EP9",
         "title": "飯店經理9",
         "url": "https://docs.google.com/document/d/1E6EiLttCa7mbbGNfrilwT7lxAmhiqwTigoZg6JM0qjY/edit?usp=drivesdk",
-        "articleId": "1E6EiLttCa7mbbGNfrilwT7lxAmhiqwTigoZg6JM0qjY",
         "original": "https://www.postype.com/@yuwon8318/post/16023467",
+        "articleId": "1E6EiLttCa7mbbGNfrilwT7lxAmhiqwTigoZg6JM0qjY",
         "pricePoints": 500,
         "_episodeId": "ep-b9f0f5229c1adcb842c6",
         "destinyItemId": "item-898cb085b5b888830d91",
-        "destinyTitle": "飯店經理",
+        "destinyTitle": "",
         "destinyKo": "호텔리어",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5421
       },
       {
         "label": "EP10",
         "title": "飯店經理10",
         "url": "https://docs.google.com/document/d/1K5pA9hFWfi_L6vTOHc0pj_xi-CYfJcngJJRAT61Mfek/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@yuwon8318/post/16023469",
         "articleId": "1K5pA9hFWfi_L6vTOHc0pj_xi-CYfJcngJJRAT61Mfek",
+        "pricePoints": 500,
         "_episodeId": "ep-94bf889d98775b867582",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6136
       }
     ],
@@ -23409,8 +24232,8 @@ window.BOOK_DATA = [
     "articleId": "1zb4MzaanIzeEigKA-zprqwrNkRWEjP5vi4YTzOomxEI",
     "pricingMode": "episodes",
     "knownPricePoints": 1000,
-    "unpricedEpisodes": 1,
-    "pricePoints": null,
+    "unpricedEpisodes": 0,
+    "pricePoints": 1000,
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [],
@@ -23429,6 +24252,10 @@ window.BOOK_DATA = [
     "characters": [
       "安：專務 / 員：財閥公主"
     ],
+    "createdAt": "2026-10-13T13:05:36.189Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:05:36.190Z",
     "wordCount": 4704
   },
   {
@@ -23928,61 +24755,6 @@ window.BOOK_DATA = [
     "wordCount": null
   },
   {
-    "page": "其他老師",
-    "status": "2.已完結",
-    "ko": "OH! VICKY! YOU BLOW MY MIND!（下）",
-    "zh": "💰 OH! VICKY! YOU BLOW MY MIND!（下）",
-    "original": "https://www.postype.com/@xi3ad4wl671x/post/7450035",
-    "translation": "https://docs.google.com/document/d/1ZNlxRtSZOxHridFHcVGsPtz-jYCQcGIC-HZ7aMuuG8g/edit?usp=drivesdk",
-    "author": "삼사（三司）",
-    "translator": "鳳梨",
-    "note": "",
-    "date": "2024-12-16",
-    "paid": true,
-    "episodes": [
-      {
-        "label": "下集",
-        "title": "OH! VICKY! YOU BLOW MY MIND!-下集",
-        "url": "https://docs.google.com/document/d/1ZNlxRtSZOxHridFHcVGsPtz-jYCQcGIC-HZ7aMuuG8g/edit?usp=drivesdk",
-        "articleId": "1ZNlxRtSZOxHridFHcVGsPtz-jYCQcGIC-HZ7aMuuG8g",
-        "original": "https://www.postype.com/@xi3ad4wl671x/post/7450035",
-        "pricePoints": 1500,
-        "_episodeId": "ep-932fcaac1e9b3241a949",
-        "destinyItemId": "item-102db08d1a7b19a412bc",
-        "destinyTitle": "OH! VICKY! YOU BLOW MY MIND!（下）",
-        "destinyKo": "OH! VICKY! YOU BLOW MY MIND! 下",
-        "destinyDeleted": false,
-        "wordCount": 31272
-      }
-    ],
-    "_id": "work-19f5645e2107274b2938",
-    "_favoriteKey": "https://docs.google.com/document/d/1ZNlxRtSZOxHridFHcVGsPtz-jYCQcGIC-HZ7aMuuG8g/edit?usp=drivesdk",
-    "articleId": "1ZNlxRtSZOxHridFHcVGsPtz-jYCQcGIC-HZ7aMuuG8g",
-    "pricingMode": "episodes",
-    "knownPricePoints": 1500,
-    "unpricedEpisodes": 0,
-    "pricePoints": 1500,
-    "includeShelf": true,
-    "includeDestiny": true,
-    "recommendations": [
-      "蓋瑞推薦"
-    ],
-    "destinyId": "P0128",
-    "destinyDeleted": false,
-    "tags": [
-      "分級: 💰付費內容",
-      "文章狀態: 完結+番外",
-      "文章篇幅: 長篇",
-      "文章類型: 都市現實",
-      "結局: HE",
-      "背景設定: 辦公室"
-    ],
-    "characters": [
-      "安：上班族\n員：上班族"
-    ],
-    "wordCount": 31272
-  },
-  {
     "page": "雞蛋",
     "status": "2.已完結",
     "ko": "여수 밤바다",
@@ -24040,8 +24812,8 @@ window.BOOK_DATA = [
   {
     "page": "其他老師",
     "status": "2.已完結",
-    "ko": "OH! VICKY! YOU BLOW MY MIND!（上）",
-    "zh": "💰 OH! VICKY! YOU BLOW MY MIND!（上）",
+    "ko": "OH! VICKY! YOU BLOW MY MIND!",
+    "zh": "💰 OH! VICKY! YOU BLOW MY MIND!",
     "original": "https://www.postype.com/@xi3ad4wl671x/post/7368666",
     "translation": "https://docs.google.com/document/d/1gnkkZ0xMyOYoC8ETZsHbJdFoD2ezpeMZdclBXB1ER9I/edit?usp=drivesdk",
     "author": "삼사（三司）",
@@ -24051,27 +24823,58 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上集",
+        "label": "1",
         "title": "OH! VICKY! YOU BLOW MY MIND!-上集",
         "url": "https://docs.google.com/document/d/1gnkkZ0xMyOYoC8ETZsHbJdFoD2ezpeMZdclBXB1ER9I/edit?usp=drivesdk",
-        "articleId": "1gnkkZ0xMyOYoC8ETZsHbJdFoD2ezpeMZdclBXB1ER9I",
         "original": "https://www.postype.com/@xi3ad4wl671x/post/7368666",
+        "articleId": "1gnkkZ0xMyOYoC8ETZsHbJdFoD2ezpeMZdclBXB1ER9I",
         "pricePoints": 1500,
         "_episodeId": "ep-b2cb72f861ce7af24fe6",
         "destinyItemId": "item-9be8de729b6ff81692ba",
         "destinyTitle": "OH! VICKY! YOU BLOW MY MIND!（上）",
         "destinyKo": "OH! VICKY! YOU BLOW MY MIND! 上",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 35521
+      },
+      {
+        "label": "2",
+        "title": "OH! VICKY! YOU BLOW MY MIND!-下集",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@xi3ad4wl671x/post/7450035",
+        "articleId": "1ZNlxRtSZOxHridFHcVGsPtz-jYCQcGIC-HZ7aMuuG8g",
+        "pricePoints": 1500,
+        "_episodeId": "ep-80aaa4a6-e7b6-4304-908b-0939189bbc97",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 31272
+      },
+      {
+        "label": "3",
+        "title": "ARE YOU THERE，EUGENE？（OH! VICKY! YOU BLOW MY MIND!外傳）",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@xi3ad4wl671x/post/7560468?show-original=true",
+        "articleId": "1__P6LK2M_McMfs_wYtPhcLqpZsJYz30tOjV_K43ZEf8",
+        "pricePoints": 1000,
+        "_episodeId": "ep-8ce73854-4aa4-423c-a2b6-63e33beefc3e",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 15062
       }
     ],
     "_id": "work-e728885d4f69aa4717d2",
     "_favoriteKey": "https://docs.google.com/document/d/1gnkkZ0xMyOYoC8ETZsHbJdFoD2ezpeMZdclBXB1ER9I/edit?usp=drivesdk",
     "articleId": "1gnkkZ0xMyOYoC8ETZsHbJdFoD2ezpeMZdclBXB1ER9I",
     "pricingMode": "episodes",
-    "knownPricePoints": 1500,
+    "knownPricePoints": 4000,
     "unpricedEpisodes": 0,
-    "pricePoints": 1500,
+    "pricePoints": 4000,
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [
@@ -24088,8 +24891,13 @@ window.BOOK_DATA = [
       "背景設定: 辦公室"
     ],
     "characters": [
-      "安：上班族\n員：上班族"
+      "安：上班族",
+      "員：上班族"
     ],
+    "createdAt": "2026-10-13T11:40:20.463Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T11:42:29.894Z",
     "wordCount": 35521
   },
   {
@@ -24105,17 +24913,18 @@ window.BOOK_DATA = [
     "date": "2024-12-13",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "朋友的戀愛腦罪",
         "url": "https://docs.google.com/document/d/1-2okmS5Tx2KgqWqyB99WVvDKjSi7nDp3ZhTQ_ocW1G0/edit?usp=drivesdk",
-        "articleId": "1-2okmS5Tx2KgqWqyB99WVvDKjSi7nDp3ZhTQ_ocW1G0",
         "original": "https://www.postype.com/@cho-post/post/16934947",
+        "articleId": "1-2okmS5Tx2KgqWqyB99WVvDKjSi7nDp3ZhTQ_ocW1G0",
         "pricePoints": 0,
         "_episodeId": "ep-7c3090ef4b3f544098b3",
         "destinyItemId": "item-b539cecacaaf35598574",
-        "destinyTitle": "朋友們的戀愛腦罪",
+        "destinyTitle": "",
         "destinyKo": "친구들이 커퀴인게 죄",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4724
       }
     ],
@@ -24140,8 +24949,14 @@ window.BOOK_DATA = [
       "背景設定: 校園"
     ],
     "characters": [
-      "安：學生\n員：學生"
+      "安：學生",
+      "員：學生"
     ],
+    "createdAt": "2026-10-13T13:05:50.489Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:05:50.489Z",
     "wordCount": 4724
   },
   {
@@ -24209,18 +25024,19 @@ window.BOOK_DATA = [
     "date": "2024-12-13",
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "搭公車的高中生_chat-gpt",
+        "label": "單集",
+        "title": "搭公車的高中生",
         "url": "https://docs.google.com/document/d/125GjU6HtfB3aeVHygnbyU4M6QQvPAC_9rZZaecd34o4/edit?usp=drivesdk",
-        "articleId": "125GjU6HtfB3aeVHygnbyU4M6QQvPAC_9rZZaecd34o4",
         "original": "https://www.postype.com/@01--------9/post/15778627",
+        "articleId": "125GjU6HtfB3aeVHygnbyU4M6QQvPAC_9rZZaecd34o4",
         "pricePoints": 0,
         "_episodeId": "ep-7e5d4adea158da2bd4c5",
         "destinyItemId": "item-44e4f58e9c00d0c93eb9",
-        "destinyTitle": "搭公車的高中生",
+        "destinyTitle": "",
         "destinyKo": "버스 타는 고딩",
         "destinyDeleted": false,
-        "wordCount": 19399
+        "includeDestiny": true,
+        "wordCount": 19398
       }
     ],
     "_id": "work-67c0eee1530ef9bd03e1",
@@ -24243,9 +25059,15 @@ window.BOOK_DATA = [
       "背景設定: 校園"
     ],
     "characters": [
-      "安：高中生\n員：高中生"
+      "安：高中生",
+      "員：高中生"
     ],
-    "wordCount": 19399
+    "createdAt": "2026-10-13T13:06:05.154Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:06:17.026Z",
+    "wordCount": 19398
   },
   {
     "page": "其他老師",
@@ -24351,11 +25173,18 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "MEDIA TYPE",
         "url": "https://docs.google.com/document/d/1TXvWUD1lqt-GINZKjjzCU45fCBzyoTpC28m12Ktb2bA/edit?usp=drivesdk",
+        "original": "",
         "articleId": "1TXvWUD1lqt-GINZKjjzCU45fCBzyoTpC28m12Ktb2bA",
+        "pricePoints": null,
         "_episodeId": "ep-a26d1f752f2c6f30c7d3",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 29772
       }
     ],
@@ -24376,12 +25205,17 @@ window.BOOK_DATA = [
       "背景設定: 校園"
     ],
     "characters": [
-      "安：高中生/大學生\n員：高中生/演員"
+      "安：高中生/大學生",
+      "員：高中生/演員"
     ],
     "knownPricePoints": 0,
     "unpricedEpisodes": 1,
     "pricePoints": null,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T14:56:05.861Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T14:56:05.863Z",
     "wordCount": 29772
   },
   {
@@ -24491,68 +25325,92 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "1",
-        "title": "妳和我之間2.0-1",
+        "title": "妳和我之間1",
         "url": "https://docs.google.com/document/d/1uxof0y7l079G0rJHt5LMCVOkSKEK5roJH24ZfgVv470/edit?usp=drivesdk",
-        "articleId": "1uxof0y7l079G0rJHt5LMCVOkSKEK5roJH24ZfgVv470",
         "original": "https://www.postype.com/@pactory/post/17945720",
+        "articleId": "1uxof0y7l079G0rJHt5LMCVOkSKEK5roJH24ZfgVv470",
         "pricePoints": 1000,
         "_episodeId": "ep-60df9d3ac55d1adbc12d",
         "destinyItemId": "item-3bd2ebbc0da1637f34e1",
-        "destinyTitle": "你和我之間",
+        "destinyTitle": "",
         "destinyKo": "너와 나 사이에1",
         "destinyDeleted": false,
-        "wordCount": 32692
+        "includeDestiny": true,
+        "wordCount": 32691
       },
       {
         "label": "2",
-        "title": "妳和我之間2.0-2",
+        "title": "妳和我之間2",
         "url": "https://docs.google.com/document/d/1Z7I5Wph4jZp1uEqVklJFq0nVcuhHW84jPMqoRPshWGo/edit?usp=drivesdk",
-        "articleId": "1Z7I5Wph4jZp1uEqVklJFq0nVcuhHW84jPMqoRPshWGo",
         "original": "https://www.postype.com/@pactory/post/17949340",
+        "articleId": "1Z7I5Wph4jZp1uEqVklJFq0nVcuhHW84jPMqoRPshWGo",
         "pricePoints": 1000,
         "_episodeId": "ep-90efeaa1f5613400d1b1",
         "destinyItemId": "item-68f7919df7022346a074",
-        "destinyTitle": "你和我之間",
+        "destinyTitle": "",
         "destinyKo": "너와 나 사이에 2",
         "destinyDeleted": false,
-        "wordCount": 26371
+        "includeDestiny": true,
+        "wordCount": 26370
       },
       {
         "label": "3",
-        "title": "妳和我之間2.0-3",
+        "title": "妳和我之間3",
         "url": "https://docs.google.com/document/d/1t6AQ3p8DSPtVDHwQcbbwNITyXy9lAReB75WcL5tbaYI/edit?usp=drivesdk",
-        "articleId": "1t6AQ3p8DSPtVDHwQcbbwNITyXy9lAReB75WcL5tbaYI",
         "original": "https://www.postype.com/@pactory/post/17969810",
+        "articleId": "1t6AQ3p8DSPtVDHwQcbbwNITyXy9lAReB75WcL5tbaYI",
         "pricePoints": 1000,
         "_episodeId": "ep-77c6b4c4a8234cc26ff5",
         "destinyItemId": "item-a0018616b0e55c0ac4a4",
-        "destinyTitle": "你和我之間",
+        "destinyTitle": "",
         "destinyKo": "너와 나 사이에 3(完)",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 20780
       },
       {
-        "label": "外傳1",
-        "title": "外傳 1) 將妳我之間變成「我們」",
-        "url": "https://docs.google.com/document/d/1huxdNiTs_vWt57ideqG6uEO-LmPII2LTFeV2gADl1uU/edit?usp=drivesdk",
+        "label": "4",
+        "title": "妳和我之間 外傳 1) 將妳我之間變成「我們」",
+        "url": "",
+        "original": "",
         "articleId": "1huxdNiTs_vWt57ideqG6uEO-LmPII2LTFeV2gADl1uU",
-        "_episodeId": "ep-baa9d2577c1ac3efd0d6",
+        "pricePoints": 0,
+        "_episodeId": "ep-8b788f89-e104-4cc4-a424-68ec0359843d",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 3266
       },
       {
-        "label": "外傳2",
-        "title": "外傳 2) You and Me 2.0",
-        "url": "https://docs.google.com/document/d/1ebiysyRIlI1vMgpdAuUDd4r36bjSROALho19MsH2B4g/edit?usp=drivesdk",
+        "label": "5",
+        "title": "妳和我之間 外傳 2) You and Me 2.0",
+        "url": "",
+        "original": "",
         "articleId": "1ebiysyRIlI1vMgpdAuUDd4r36bjSROALho19MsH2B4g",
-        "_episodeId": "ep-76bbee66c4582217ab7a",
+        "pricePoints": 0,
+        "_episodeId": "ep-062f0917-adc1-4eb7-828e-8026841279f0",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 1126
       },
       {
-        "label": "外傳3",
-        "title": "外傳 3) 跨越宇宙的你與我 2.0",
-        "url": "https://docs.google.com/document/d/1pwzL8z1QxGBhc-cvEY-oDEAIfO6pk_8IshFJWl2ZRms/edit?usp=drivesdk",
+        "label": "6",
+        "title": "妳和我之間 外傳 3) 跨越宇宙的你與我 2.0",
+        "url": "",
+        "original": "",
         "articleId": "1pwzL8z1QxGBhc-cvEY-oDEAIfO6pk_8IshFJWl2ZRms",
-        "_episodeId": "ep-1ea758c9194b5e5f837b",
+        "pricePoints": 0,
+        "_episodeId": "ep-011611e8-4841-4843-910d-535322b50853",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 4696
       }
     ],
@@ -24561,8 +25419,8 @@ window.BOOK_DATA = [
     "articleId": "1uxof0y7l079G0rJHt5LMCVOkSKEK5roJH24ZfgVv470",
     "pricingMode": "episodes",
     "knownPricePoints": 3000,
-    "unpricedEpisodes": 3,
-    "pricePoints": null,
+    "unpricedEpisodes": 0,
+    "pricePoints": 3000,
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [],
@@ -24570,7 +25428,8 @@ window.BOOK_DATA = [
     "destinyDeleted": false,
     "tags": [
       "CP配對: 安/員",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
       "情感梗: 青梅",
@@ -24581,9 +25440,14 @@ window.BOOK_DATA = [
       "類型世界觀: Futa"
     ],
     "characters": [
-      "安：精神健康科醫師\n員：出版社員工"
+      "安：精神健康科醫師",
+      "員：出版社員工"
     ],
-    "wordCount": 32692
+    "createdAt": "2026-10-13T13:07:19.581Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T14:55:36.385Z",
+    "wordCount": 32691
   },
   {
     "page": "星光",
@@ -24825,51 +25689,93 @@ window.BOOK_DATA = [
     "date": "2024-12-13",
     "episodes": [
       {
-        "label": "EP1",
-        "title": "非常私密合夥人01",
-        "url": "https://docs.google.com/document/d/1xJ6_-0bcYQ5rNZWb4YxCfyCm660gCDut_NxvD3gIcIw/edit?usp=drivesdk",
+        "label": "1",
+        "title": "非常私密合夥人 1/6",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@parkpro/post/15484132",
         "articleId": "1xJ6_-0bcYQ5rNZWb4YxCfyCm660gCDut_NxvD3gIcIw",
-        "_episodeId": "ep-60455b0fd5ed6c857012",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-94953c9ff81e37fb2db3",
+        "destinyItemId": "item-94953c9ff81e37fb2db3",
+        "destinyTitle": "非常私密合夥人 1/6",
+        "destinyKo": "아주 사적인 사업파트너 (1/6)",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6107
       },
       {
-        "label": "EP2",
-        "title": "非常私密合夥人02",
-        "url": "https://docs.google.com/document/d/1UXPqbjmusKsGfhBxbwFg6CVhcKIWhcfQkbY2iphrPEg/edit?usp=drivesdk",
+        "label": "2",
+        "title": "非常私密合夥人 2/6",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@parkpro/post/15495732",
         "articleId": "1UXPqbjmusKsGfhBxbwFg6CVhcKIWhcfQkbY2iphrPEg",
-        "_episodeId": "ep-1c9d1ae9187f42ba7d1a",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-f366188ef33a348fea15",
+        "destinyItemId": "item-f366188ef33a348fea15",
+        "destinyTitle": "非常私密合夥人 2/6",
+        "destinyKo": "아주 사적인 사업파트너 (2/6)",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 9831
       },
       {
-        "label": "EP3",
-        "title": "非常私密合夥人03",
-        "url": "https://docs.google.com/document/d/14dfBCRZXiKupyD-b8mOdHpctwXDsf4xkl5Lu8lIjzqg/edit?usp=drivesdk",
+        "label": "3",
+        "title": "非常私密合夥人 3/6",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@parkpro/post/15523471",
         "articleId": "14dfBCRZXiKupyD-b8mOdHpctwXDsf4xkl5Lu8lIjzqg",
-        "_episodeId": "ep-6dc7e7079c06696dd503",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-fb065ac0211e4b0b7aa9",
+        "destinyItemId": "item-fb065ac0211e4b0b7aa9",
+        "destinyTitle": "非常私密合夥人 3/6",
+        "destinyKo": "아주 사적인 사업파트너 (3/6)",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7056
       },
       {
-        "label": "EP4",
-        "title": "非常私密合夥人04",
-        "url": "https://docs.google.com/document/d/1JOLiV1TpuNEsUL1NRBLCnkP1RZNVD2oR-An39yT_b1o/edit?usp=drivesdk",
+        "label": "4",
+        "title": "非常私密合夥人 4/6",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@parkpro/post/15559334",
         "articleId": "1JOLiV1TpuNEsUL1NRBLCnkP1RZNVD2oR-An39yT_b1o",
-        "_episodeId": "ep-8d7b9826ceee91c25e44",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-f9d02551c6a85e5a60d0",
+        "destinyItemId": "item-f9d02551c6a85e5a60d0",
+        "destinyTitle": "非常私密合夥人 4/6",
+        "destinyKo": "아주 사적인 사업파트너 (4/6)",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7878
       },
       {
-        "label": "EP5",
-        "title": "非常私密合夥人05",
-        "url": "https://docs.google.com/document/d/112mig3JggfzMme-xNbh210OXzEulPo_qBMahx3cLUPg/edit?usp=drivesdk",
+        "label": "5",
+        "title": "非常私密合夥人 5/6",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@parkpro/post/15654615",
         "articleId": "112mig3JggfzMme-xNbh210OXzEulPo_qBMahx3cLUPg",
-        "_episodeId": "ep-4bc7764be0e15e3910d0",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-c76f6cc6ff0d14cd8ef8",
+        "destinyItemId": "item-c76f6cc6ff0d14cd8ef8",
+        "destinyTitle": "非常私密合夥人 5/6",
+        "destinyKo": "아주 사적인 사업파트너 (5/6)",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6704
       },
       {
-        "label": "EP6",
-        "title": "非常私密合夥人06",
-        "url": "https://docs.google.com/document/d/1c1EDnDW79xVnRy7CDSVVwQ4348HyB1pKKQKEn1mdI2w/edit?usp=drivesdk",
+        "label": "6",
+        "title": "非常私密合夥人 6/6",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@parkpro/post/15753632",
         "articleId": "1c1EDnDW79xVnRy7CDSVVwQ4348HyB1pKKQKEn1mdI2w",
-        "_episodeId": "ep-4e8c1de2c3cb083b57e0",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-9413bada53b76294bfe6",
+        "destinyItemId": "item-9413bada53b76294bfe6",
+        "destinyTitle": "非常私密合夥人 6/6",
+        "destinyKo": "아주 사적인 사업파트너 (6/6)",
+        "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5807
       }
     ],
@@ -24896,9 +25802,14 @@ window.BOOK_DATA = [
       "安：咖啡廳甜點師 / 員：咖啡廳老闆/編輯"
     ],
     "knownPricePoints": 0,
-    "unpricedEpisodes": 6,
-    "pricePoints": null,
+    "unpricedEpisodes": 0,
+    "pricePoints": 0,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T14:51:27.267Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T14:51:27.269Z",
     "wordCount": 6107
   },
   {
@@ -24969,28 +25880,30 @@ window.BOOK_DATA = [
         "label": "01",
         "title": "01 SAFE XXX",
         "url": "https://docs.google.com/document/d/1ejcmcjwBtvNDcj1cSIqyITtQ_cb38tu346LrqBZZ_FQ/edit?usp=drivesdk",
-        "articleId": "1ejcmcjwBtvNDcj1cSIqyITtQ_cb38tu346LrqBZZ_FQ",
         "original": "https://www.postype.com/@garden-han/post/15605460",
+        "articleId": "1ejcmcjwBtvNDcj1cSIqyITtQ_cb38tu346LrqBZZ_FQ",
         "pricePoints": 1000,
         "_episodeId": "ep-31541db2be71a405882d",
         "destinyItemId": "item-2d2a54db7d6e2f5f8657",
-        "destinyTitle": "SAFE XXX",
+        "destinyTitle": "",
         "destinyKo": "SAFE XXX",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 16746
       },
       {
         "label": "02",
         "title": "02 (續篇)Triple XXX",
         "url": "https://docs.google.com/document/d/1SRR2kg3XIdNtmJNwzpMYPNfukX4EVzRQupurv5P4-S0/edit?usp=drivesdk",
-        "articleId": "1SRR2kg3XIdNtmJNwzpMYPNfukX4EVzRQupurv5P4-S0",
         "original": "https://www.postype.com/@garden-han/post/17023637",
+        "articleId": "1SRR2kg3XIdNtmJNwzpMYPNfukX4EVzRQupurv5P4-S0",
         "pricePoints": 1000,
         "_episodeId": "ep-395b42e2ed865b14abcd",
         "destinyItemId": "item-be6ef5a9e16c5a4aa423",
-        "destinyTitle": "Triple XXX: after SAFE XXX",
+        "destinyTitle": "",
         "destinyKo": "Triple XXX: after SAFE XXX",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 13530
       }
     ],
@@ -25008,7 +25921,8 @@ window.BOOK_DATA = [
     "destinyDeleted": false,
     "tags": [
       "CP配對: 安/員",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
       "分級: SM",
@@ -25019,8 +25933,13 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：藥師\n員：俱樂部老闆"
+      "安：藥師",
+      "員：俱樂部老闆"
     ],
+    "createdAt": "2026-10-13T13:09:42.854Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:09:42.858Z",
     "wordCount": 16746
   },
   {
@@ -25097,23 +26016,16 @@ window.BOOK_DATA = [
         "label": "本篇",
         "title": "25局完封勝",
         "url": "https://docs.google.com/document/d/1BRFVgU_Ne0QiXrz31Kx7MPbIkM6YPLeIQX5k5c8YwxI/edit?usp=drivesdk",
-        "articleId": "1BRFVgU_Ne0QiXrz31Kx7MPbIkM6YPLeIQX5k5c8YwxI",
         "original": "https://www.postype.com/@yuwon8318/post/17914431",
+        "articleId": "1BRFVgU_Ne0QiXrz31Kx7MPbIkM6YPLeIQX5k5c8YwxI",
         "pricePoints": 1500,
         "_episodeId": "ep-a2898a076282d6cb67e2",
         "destinyItemId": "item-8e3f0bd8a7b7d1224bb1",
         "destinyTitle": "25局完封勝",
         "destinyKo": "25이닝 완봉승",
         "destinyDeleted": false,
-        "wordCount": 53183
-      },
-      {
-        "label": "員瑛Ver",
-        "title": "25局完封勝 員瑛Ver",
-        "url": "https://docs.google.com/document/d/1JSJKchakrNy2b4fuEPjUyfny14qK0gcJopuoN5FvKQM/edit?usp=drivesdk",
-        "articleId": "1JSJKchakrNy2b4fuEPjUyfny14qK0gcJopuoN5FvKQM",
-        "_episodeId": "ep-6471ccf812d9ed5e12de",
-        "wordCount": 13170
+        "includeDestiny": true,
+        "wordCount": 53181
       }
     ],
     "_id": "work-9ff70e4ca83fc909e146",
@@ -25121,8 +26033,8 @@ window.BOOK_DATA = [
     "articleId": "1BRFVgU_Ne0QiXrz31Kx7MPbIkM6YPLeIQX5k5c8YwxI",
     "pricingMode": "episodes",
     "knownPricePoints": 1500,
-    "unpricedEpisodes": 1,
-    "pricePoints": null,
+    "unpricedEpisodes": 0,
+    "pricePoints": 1500,
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [],
@@ -25130,7 +26042,8 @@ window.BOOK_DATA = [
     "destinyDeleted": false,
     "tags": [
       "CP配對: 安/員",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
       "分級: 玩具",
@@ -25142,7 +26055,11 @@ window.BOOK_DATA = [
     "characters": [
       "安：王牌投手 / 員：培訓師"
     ],
-    "wordCount": 53183
+    "createdAt": "2026-10-13T13:14:03.147Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:15:32.937Z",
+    "wordCount": 53181
   },
   {
     "page": "真心",
@@ -25161,154 +26078,165 @@ window.BOOK_DATA = [
         "label": "EP1",
         "title": "雨中盛開的花1",
         "url": "https://docs.google.com/document/d/1c-KrMVYdhcvuX4a26mNWj_6Ds-AkUoSQAfnfdtGzJ_w/edit?usp=drivesdk",
-        "articleId": "1c-KrMVYdhcvuX4a26mNWj_6Ds-AkUoSQAfnfdtGzJ_w",
         "original": "https://www.postype.com/@yuwon8318/post/16999325",
+        "articleId": "1c-KrMVYdhcvuX4a26mNWj_6Ds-AkUoSQAfnfdtGzJ_w",
         "pricePoints": 0,
         "_episodeId": "ep-3a186f3f637764b6a67a",
         "destinyItemId": "item-17be3e82381d43c3d61e",
-        "destinyTitle": "雨中盛開的花",
+        "destinyTitle": "",
         "destinyKo": "우(雨)중에 피어난 꽃",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6163
       },
       {
         "label": "EP2",
         "title": "雨中盛開的花2",
         "url": "https://docs.google.com/document/d/1nitbgWMnWtKBhZVGRvsK192Cbn0g8fN7hVTSU9oOe5E/edit?usp=drivesdk",
-        "articleId": "1nitbgWMnWtKBhZVGRvsK192Cbn0g8fN7hVTSU9oOe5E",
         "original": "https://www.postype.com/@yuwon8318/post/17004844",
+        "articleId": "1nitbgWMnWtKBhZVGRvsK192Cbn0g8fN7hVTSU9oOe5E",
         "pricePoints": 200,
         "_episodeId": "ep-cba03c7b81c348fb9cc2",
         "destinyItemId": "item-3ee184bd627613071609",
-        "destinyTitle": "雨中盛開的花",
+        "destinyTitle": "",
         "destinyKo": "우(雨)중에 피어난 꽃",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6364
       },
       {
         "label": "EP3",
         "title": "雨中盛開的花3",
         "url": "https://docs.google.com/document/d/1kKIaX68QzeQdSHX0YWKUh2GKph9xKXmq-CrrBCvQyps/edit?usp=drivesdk",
-        "articleId": "1kKIaX68QzeQdSHX0YWKUh2GKph9xKXmq-CrrBCvQyps",
         "original": "https://www.postype.com/@yuwon8318/post/17009836",
+        "articleId": "1kKIaX68QzeQdSHX0YWKUh2GKph9xKXmq-CrrBCvQyps",
         "pricePoints": 0,
         "_episodeId": "ep-4074eec69e209c71d961",
         "destinyItemId": "item-7a4b8bc92993c621e844",
-        "destinyTitle": "雨中盛開的花",
+        "destinyTitle": "",
         "destinyKo": "우(雨)중에 피어난 꽃",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5778
       },
       {
         "label": "EP4",
         "title": "雨中盛開的花4",
         "url": "https://docs.google.com/document/d/19QCXQ9YzrxcKnv0TTKS9Jp7D_trXL3cq5eUaP0oL7Oo/edit?usp=drivesdk",
-        "articleId": "19QCXQ9YzrxcKnv0TTKS9Jp7D_trXL3cq5eUaP0oL7Oo",
         "original": "https://www.postype.com/@yuwon8318/post/17015504",
+        "articleId": "19QCXQ9YzrxcKnv0TTKS9Jp7D_trXL3cq5eUaP0oL7Oo",
         "pricePoints": 0,
         "_episodeId": "ep-034f3a9f69308c636c43",
         "destinyItemId": "item-aaa4731a40d84bc6b5f9",
-        "destinyTitle": "雨中盛開的花",
+        "destinyTitle": "",
         "destinyKo": "우(雨)중에 피어난 꽃",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5805
       },
       {
         "label": "EP5",
         "title": "雨中盛開的花5",
         "url": "https://docs.google.com/document/d/1lOP-ld7X6Jl3s0onibTp8KUwvA5x9vth4EhsdIXpTKU/edit?usp=drivesdk",
-        "articleId": "1lOP-ld7X6Jl3s0onibTp8KUwvA5x9vth4EhsdIXpTKU",
         "original": "https://www.postype.com/@yuwon8318/post/17018356",
+        "articleId": "1lOP-ld7X6Jl3s0onibTp8KUwvA5x9vth4EhsdIXpTKU",
         "pricePoints": 200,
         "_episodeId": "ep-46c834ef0236feed1aff",
         "destinyItemId": "item-2bfde08ca2dd5077619d",
-        "destinyTitle": "雨中盛開的花",
+        "destinyTitle": "",
         "destinyKo": "우(雨)중에 피어난 꽃",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6745
       },
       {
         "label": "EP6",
         "title": "雨中盛開的花6",
         "url": "https://docs.google.com/document/d/1EpanKmAO2dnJlK7YP4pKUs4fFm1GJi5wbjpXEOwom9M/edit?usp=drivesdk",
-        "articleId": "1EpanKmAO2dnJlK7YP4pKUs4fFm1GJi5wbjpXEOwom9M",
         "original": "https://www.postype.com/@yuwon8318/post/17031768",
+        "articleId": "1EpanKmAO2dnJlK7YP4pKUs4fFm1GJi5wbjpXEOwom9M",
         "pricePoints": 500,
         "_episodeId": "ep-18fe205325e17b629ab1",
         "destinyItemId": "item-0117fb77075b688f2d93",
-        "destinyTitle": "雨中盛開的花",
+        "destinyTitle": "",
         "destinyKo": "우(雨)중에 피어난 꽃",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6361
       },
       {
         "label": "EP7",
         "title": "雨中盛開的花7",
         "url": "https://docs.google.com/document/d/1Fm0og6g_OJMyS_uhJXHaahPIa3s1u2E4xwprRKDj38M/edit?usp=drivesdk",
-        "articleId": "1Fm0og6g_OJMyS_uhJXHaahPIa3s1u2E4xwprRKDj38M",
         "original": "https://www.postype.com/@yuwon8318/post/17034141",
+        "articleId": "1Fm0og6g_OJMyS_uhJXHaahPIa3s1u2E4xwprRKDj38M",
         "pricePoints": 500,
         "_episodeId": "ep-bcdaa29b8b8e8753ffd3",
         "destinyItemId": "item-eb06329fcf0fa1ff3eae",
-        "destinyTitle": "雨中盛開的花",
+        "destinyTitle": "",
         "destinyKo": "우(雨)중에 피어난 꽃",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5742
       },
       {
         "label": "EP8",
         "title": "雨中盛開的花8",
         "url": "https://docs.google.com/document/d/1XiyRrXBDZdrUj5xYD0hHgTFJ1wFFPlXB-mgzxJuh52c/edit?usp=drivesdk",
-        "articleId": "1XiyRrXBDZdrUj5xYD0hHgTFJ1wFFPlXB-mgzxJuh52c",
         "original": "https://www.postype.com/@yuwon8318/post/17043326",
+        "articleId": "1XiyRrXBDZdrUj5xYD0hHgTFJ1wFFPlXB-mgzxJuh52c",
         "pricePoints": 0,
         "_episodeId": "ep-bb2bceb7d5eb2e1fe243",
         "destinyItemId": "item-d2b3d8637a5aa981dbc7",
-        "destinyTitle": "雨中盛開的花",
+        "destinyTitle": "",
         "destinyKo": "우(雨)중에 피어난 꽃",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6819
       },
       {
         "label": "EP9",
         "title": "雨中盛開的花9",
         "url": "https://docs.google.com/document/d/1zNSwOmBaiRF8oB3QUuB0B7nWwUPgRmb8KRmecFt-oMw/edit?usp=drivesdk",
-        "articleId": "1zNSwOmBaiRF8oB3QUuB0B7nWwUPgRmb8KRmecFt-oMw",
         "original": "https://www.postype.com/@yuwon8318/post/17049395",
+        "articleId": "1zNSwOmBaiRF8oB3QUuB0B7nWwUPgRmb8KRmecFt-oMw",
         "pricePoints": 0,
         "_episodeId": "ep-c3aaf58c8094a696a536",
         "destinyItemId": "item-a734bd32ec224451889c",
-        "destinyTitle": "雨中盛開的花",
+        "destinyTitle": "",
         "destinyKo": "우(雨)중에 피어난 꽃",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5804
       },
       {
         "label": "EP10",
         "title": "雨中盛開的花10",
         "url": "https://docs.google.com/document/d/13yJVmlByAywlFOJcypleP_Rum1BXeya7P1dgYps6nbg/edit?usp=drivesdk",
-        "articleId": "13yJVmlByAywlFOJcypleP_Rum1BXeya7P1dgYps6nbg",
         "original": "https://www.postype.com/@yuwon8318/post/17056710",
+        "articleId": "13yJVmlByAywlFOJcypleP_Rum1BXeya7P1dgYps6nbg",
         "pricePoints": 700,
         "_episodeId": "ep-1833e3129104b2188b48",
         "destinyItemId": "item-bd1cf947d5f08b44fe86",
-        "destinyTitle": "雨中盛開的花",
+        "destinyTitle": "",
         "destinyKo": "우(雨)중에 피어난 꽃",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6152
       },
       {
         "label": "EP11",
         "title": "雨中盛開的花11(完)",
         "url": "https://docs.google.com/document/d/15vnTUB_uqsxQteBUOxJ5-rviEXzmgoOK2cPrsQzMDg0/edit?usp=drivesdk",
-        "articleId": "15vnTUB_uqsxQteBUOxJ5-rviEXzmgoOK2cPrsQzMDg0",
         "original": "https://www.postype.com/@yuwon8318/post/17063796",
+        "articleId": "15vnTUB_uqsxQteBUOxJ5-rviEXzmgoOK2cPrsQzMDg0",
         "pricePoints": 0,
         "_episodeId": "ep-c09e9d4e2fde9bdced31",
         "destinyItemId": "item-5fb65f16d8d8bb0f4285",
-        "destinyTitle": "雨中盛開的花",
+        "destinyTitle": "",
         "destinyKo": "우(雨)중에 피어난 꽃",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5853
       }
     ],
@@ -25338,6 +26266,10 @@ window.BOOK_DATA = [
     "characters": [
       "安：世子/殿下 / 員：侍女/中殿"
     ],
+    "createdAt": "2026-10-13T13:10:10.946Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:10:10.947Z",
     "wordCount": 6163
   },
   {
@@ -25413,36 +26345,19 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "1",
-        "title": "邊界part1",
-        "url": "https://docs.google.com/document/d/1Lvq-fg1zUA61vigCFoevOBwCT-aRz7m0l_uwEtFCs6E/edit?usp=drivesdk",
-        "articleId": "1Lvq-fg1zUA61vigCFoevOBwCT-aRz7m0l_uwEtFCs6E",
-        "_episodeId": "ep-8b1f314d1b2dce289287",
-        "wordCount": 13937
-      },
-      {
-        "label": "2",
-        "title": "邊界part2",
-        "url": "https://docs.google.com/document/d/1Z5ggfVfz5dDKs9zHoQrUxLIXDZuwx_CBPGdH4qSLkg0/edit?usp=drivesdk",
-        "articleId": "1Z5ggfVfz5dDKs9zHoQrUxLIXDZuwx_CBPGdH4qSLkg0",
-        "_episodeId": "ep-a7bec9c953bc0e6b71a3",
-        "wordCount": 14343
-      },
-      {
-        "label": "3",
-        "title": "邊界Part3",
-        "url": "https://docs.google.com/document/d/1GRSL5lViEGN8ezTJawLGUPkIpH5obcUJ_UCaHgr3KHs/edit?usp=drivesdk",
-        "articleId": "1GRSL5lViEGN8ezTJawLGUPkIpH5obcUJ_UCaHgr3KHs",
-        "_episodeId": "ep-6d342e1179cbe66ba1d8",
-        "wordCount": 19543
-      },
-      {
-        "label": "4",
-        "title": "邊界Part4",
-        "url": "https://docs.google.com/document/d/1X7-FyUwmd0iQUB3hpsef_fkcdI0mNL3XHH9CQutUStc/edit?usp=drivesdk",
-        "articleId": "1X7-FyUwmd0iQUB3hpsef_fkcdI0mNL3XHH9CQutUStc",
-        "_episodeId": "ep-070991fab2d60421e622",
-        "wordCount": 7162
+        "label": "單集",
+        "title": "邊界",
+        "url": "",
+        "original": "https://www.postype.com/@yuwon8318/post/17910514",
+        "articleId": "local-b1e6ff35-d341-462c-8ecd-7e08406a9c77",
+        "pricePoints": 1500,
+        "_episodeId": "ep-item-c41d3e4259c08085b78d",
+        "destinyItemId": "item-c41d3e4259c08085b78d",
+        "destinyTitle": "邊界",
+        "destinyKo": "경계",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 55184
       }
     ],
     "_id": "work-d6386b01de9b0d16969e",
@@ -25471,16 +26386,20 @@ window.BOOK_DATA = [
       "安：高中生 / 員：繼母"
     ],
     "knownPricePoints": 1500,
-    "unpricedEpisodes": 4,
-    "pricePoints": null,
+    "unpricedEpisodes": 0,
+    "pricePoints": 1500,
     "pricingMode": "episodes",
+    "createdAt": "2026-10-13T13:47:19.067Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T14:49:00.897Z",
     "wordCount": 13937
   },
   {
     "page": "雞蛋",
     "status": "2.已完結",
     "ko": "도덕 선생님",
-    "zh": "💰 道德老師（含前傳）",
+    "zh": "💰 道德老師 全系列",
     "original": "https://www.postype.com/@eeggdanzii/post/17561462",
     "translation": "https://docs.google.com/document/d/10HMX66WcciAo7gAvYqVtk5pIYAROSqW-Y3-5yt6v-yQ/edit?usp=drivesdk",
     "author": "달걀（雞蛋）",
@@ -25493,70 +26412,75 @@ window.BOOK_DATA = [
         "label": "上",
         "title": "01 道德老師 （上）",
         "url": "https://docs.google.com/document/d/10HMX66WcciAo7gAvYqVtk5pIYAROSqW-Y3-5yt6v-yQ/edit?usp=drivesdk",
-        "articleId": "10HMX66WcciAo7gAvYqVtk5pIYAROSqW-Y3-5yt6v-yQ",
         "original": "https://www.postype.com/@eeggdanzii/post/17561462",
+        "articleId": "10HMX66WcciAo7gAvYqVtk5pIYAROSqW-Y3-5yt6v-yQ",
         "pricePoints": 500,
         "_episodeId": "ep-d6df7d52e631f262c90f",
         "destinyItemId": "item-22be1b3ee0df671535c9",
-        "destinyTitle": "道德老師",
+        "destinyTitle": "",
         "destinyKo": "도덕 선생님",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 6879
       },
       {
         "label": "中",
         "title": "02 道德老師 （中）",
         "url": "https://docs.google.com/document/d/1Lmj8L1a6aJAfIk5gHbFtxRb5-wfsNkQMi2O_u5LqYPg/edit?usp=drivesdk",
-        "articleId": "1Lmj8L1a6aJAfIk5gHbFtxRb5-wfsNkQMi2O_u5LqYPg",
         "original": "https://www.postype.com/@eeggdanzii/post/17570114",
+        "articleId": "1Lmj8L1a6aJAfIk5gHbFtxRb5-wfsNkQMi2O_u5LqYPg",
         "pricePoints": 500,
         "_episodeId": "ep-bb8d99564e5e4510c8d0",
         "destinyItemId": "item-49d8f8e8b669b247a395",
-        "destinyTitle": "道德老師",
+        "destinyTitle": "",
         "destinyKo": "도덕 선생님",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8200
       },
       {
         "label": "下",
         "title": "03 道德老師 （下）",
         "url": "https://docs.google.com/document/d/1hnCCzSeSptQ9CcIMPxRtYAsf1GmTnduJXvnkEMIdrbs/edit?usp=drivesdk",
-        "articleId": "1hnCCzSeSptQ9CcIMPxRtYAsf1GmTnduJXvnkEMIdrbs",
         "original": "https://www.postype.com/@eeggdanzii/post/17579906",
+        "articleId": "1hnCCzSeSptQ9CcIMPxRtYAsf1GmTnduJXvnkEMIdrbs",
         "pricePoints": 500,
         "_episodeId": "ep-fcd1ec9f6d7399ad4a7d",
         "destinyItemId": "item-0e3384e5372477bc1796",
-        "destinyTitle": "道德老師",
+        "destinyTitle": "",
         "destinyKo": "도덕 선생님",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 14208
       },
       {
         "label": "前傳",
         "title": "04 非道德關係：道德老師前傳",
         "url": "https://docs.google.com/document/d/10IJyZzBMIBcKy3mj62_YVKePTkeqPZ_x6gQUDZi23Vw/edit?usp=drivesdk",
-        "articleId": "10IJyZzBMIBcKy3mj62_YVKePTkeqPZ_x6gQUDZi23Vw",
         "original": "https://www.postype.com/@eeggdanzii/post/17763364",
+        "articleId": "10IJyZzBMIBcKy3mj62_YVKePTkeqPZ_x6gQUDZi23Vw",
         "pricePoints": 700,
         "_episodeId": "ep-a9702535784308dc0b12",
         "destinyItemId": "item-720761c534957e0ddc49",
-        "destinyTitle": "非道德關係：道德老師前傳",
+        "destinyTitle": "",
         "destinyKo": "비 도덕적 관계: 도덕 선생님 프리퀄",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7242
       },
       {
         "label": "外傳",
         "title": "05 聖誕節願望：道德老師外傳",
         "url": "https://docs.google.com/document/d/1iQ59KHHntF2mP_0LxD6g25umPF8AeLnMqfBKXu4Ipxw/edit?usp=drivesdk",
-        "articleId": "1iQ59KHHntF2mP_0LxD6g25umPF8AeLnMqfBKXu4Ipxw",
         "original": "https://www.postype.com/@eeggdanzii/post/18161132",
+        "articleId": "1iQ59KHHntF2mP_0LxD6g25umPF8AeLnMqfBKXu4Ipxw",
         "pricePoints": 700,
         "_episodeId": "ep-643d62da69ec28f76f05",
         "destinyItemId": "item-424174a86b6038feaae4",
-        "destinyTitle": "聖誕節願望：道德老師外傳",
+        "destinyTitle": "",
         "destinyKo": "크리스마스 소원은 : 도덕 선생님 외전",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 24978
       }
     ],
@@ -25576,7 +26500,8 @@ window.BOOK_DATA = [
     "destinyDeleted": false,
     "tags": [
       "CP配對: 安/員",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
       "情感梗: 年齡差",
@@ -25587,8 +26512,13 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：高中復讀生\n員：高中道德老師"
+      "安：高中復讀生",
+      "員：高中道德老師"
     ],
+    "createdAt": "2026-10-13T13:10:45.070Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:10:45.070Z",
     "wordCount": 6879
   },
   {
@@ -25605,45 +26535,48 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "辦公室妻子 上",
         "url": "https://docs.google.com/document/d/1p7hrBoe1t96rcsUFoHVw-OQpNbAraTZYI-h0qmYk_uk/edit?usp=drivesdk",
-        "articleId": "1p7hrBoe1t96rcsUFoHVw-OQpNbAraTZYI-h0qmYk_uk",
         "original": "https://www.postype.com/@eeggdanzii/post/16232897",
+        "articleId": "1p7hrBoe1t96rcsUFoHVw-OQpNbAraTZYI-h0qmYk_uk",
         "pricePoints": 500,
         "_episodeId": "ep-c2ebeaaef35ea302e9c5",
         "destinyItemId": "item-d038ebf30cb389d3d0af",
-        "destinyTitle": "辦公室妻子",
+        "destinyTitle": "",
         "destinyKo": "오피스 와이프",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 3750
       },
       {
-        "label": "中",
+        "label": "2",
         "title": "辦公室妻子 中",
         "url": "https://docs.google.com/document/d/15Tz4_Ql-sPIgPIBfUgJl9X1Qm-57yZ34INViRbjOVNA/edit?usp=drivesdk",
-        "articleId": "15Tz4_Ql-sPIgPIBfUgJl9X1Qm-57yZ34INViRbjOVNA",
         "original": "https://www.postype.com/@eeggdanzii/post/16240693",
+        "articleId": "15Tz4_Ql-sPIgPIBfUgJl9X1Qm-57yZ34INViRbjOVNA",
         "pricePoints": 500,
         "_episodeId": "ep-e670ba6793a649798c59",
         "destinyItemId": "item-a4e1f38891e565c82a4a",
-        "destinyTitle": "辦公室妻子",
+        "destinyTitle": "",
         "destinyKo": "오피스 와이프",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5347
       },
       {
-        "label": "下",
+        "label": "3",
         "title": "辦公室妻子 下",
         "url": "https://docs.google.com/document/d/1kHjwm5p3LVozxcdiK6_A21HcYhMtKVsbpjvQ1EZVUmE/edit?usp=drivesdk",
-        "articleId": "1kHjwm5p3LVozxcdiK6_A21HcYhMtKVsbpjvQ1EZVUmE",
         "original": "https://www.postype.com/zh-hant/@eeggdanzii/post/16252088",
+        "articleId": "1kHjwm5p3LVozxcdiK6_A21HcYhMtKVsbpjvQ1EZVUmE",
         "pricePoints": 500,
         "_episodeId": "ep-a5b7c5d7c43c6733412e",
         "destinyItemId": "item-0f1f865bedf2c1a1a57d",
-        "destinyTitle": "辦公室妻子",
+        "destinyTitle": "",
         "destinyKo": "오피스 와이프",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7843
       }
     ],
@@ -25663,7 +26596,8 @@ window.BOOK_DATA = [
     "destinyDeleted": false,
     "tags": [
       "CP配對: 安/員",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
       "文章狀態: 完結+番外",
@@ -25673,8 +26607,13 @@ window.BOOK_DATA = [
       "背景設定: 辦公室"
     ],
     "characters": [
-      "安：開發組組長\n員：CS組組長"
+      "安：開發組組長",
+      "員：CS組組長"
     ],
+    "createdAt": "2026-10-13T13:11:03.801Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:11:03.802Z",
     "wordCount": 3750
   },
   {
@@ -25690,31 +26629,33 @@ window.BOOK_DATA = [
     "date": "2024-12-13",
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "逢年過節才見面的關係 上",
         "url": "https://docs.google.com/document/d/1rE_Hm9Uq5Rb3NQDH0HWoRT9pcaGDod5BRNpe59c0zhI/edit?usp=drivesdk",
-        "articleId": "1rE_Hm9Uq5Rb3NQDH0HWoRT9pcaGDod5BRNpe59c0zhI",
         "original": "https://www.postype.com/@eeggdanzii/post/17597997",
+        "articleId": "1rE_Hm9Uq5Rb3NQDH0HWoRT9pcaGDod5BRNpe59c0zhI",
         "pricePoints": 0,
         "_episodeId": "ep-dd2a62e2d13b887bb1b9",
         "destinyItemId": "item-3d639efe7833768261af",
-        "destinyTitle": "逢年過節才見面的關係",
+        "destinyTitle": "",
         "destinyKo": "명절에만 보는 사이",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8309
       },
       {
-        "label": "下",
+        "label": "2",
         "title": "逢年過節才見面的關係 下",
         "url": "https://docs.google.com/document/d/1shG4_4eA73TFQIEn7i7s4ZH7tj6KpNFmVosgSYPfxwc/edit?usp=drivesdk",
-        "articleId": "1shG4_4eA73TFQIEn7i7s4ZH7tj6KpNFmVosgSYPfxwc",
         "original": "https://www.postype.com/@eeggdanzii/post/17600677",
+        "articleId": "1shG4_4eA73TFQIEn7i7s4ZH7tj6KpNFmVosgSYPfxwc",
         "pricePoints": 0,
         "_episodeId": "ep-be63dcceafef064a4aea",
         "destinyItemId": "item-f19c01178095d8b06fa2",
-        "destinyTitle": "逢年過節才見面的關係",
+        "destinyTitle": "",
         "destinyKo": "명절에만 보는 사이",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8003
       }
     ],
@@ -25740,8 +26681,14 @@ window.BOOK_DATA = [
       "背景設定: 校園"
     ],
     "characters": [
-      "安：學生\n員：學生"
+      "安：學生",
+      "員：學生"
     ],
+    "createdAt": "2026-10-13T13:11:41.959Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:11:41.959Z",
     "wordCount": 8309
   },
   {
@@ -25758,45 +26705,48 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "秘密妻子 上：辦公室妻子外傳",
         "url": "https://docs.google.com/document/d/15owLS_7XyYPAP2OrlzXU3KnzjSSkuJ7H157cxmrJAXw/edit?usp=drivesdk",
-        "articleId": "15owLS_7XyYPAP2OrlzXU3KnzjSSkuJ7H157cxmrJAXw",
         "original": "https://www.postype.com/@eeggdanzii/post/17808351",
+        "articleId": "15owLS_7XyYPAP2OrlzXU3KnzjSSkuJ7H157cxmrJAXw",
         "pricePoints": 500,
         "_episodeId": "ep-241c890e4c585e9c3f1e",
         "destinyItemId": "item-a9b919d4bedc604eff6f",
-        "destinyTitle": "秘密妻子（辦公室妻子外傳）",
+        "destinyTitle": "",
         "destinyKo": "시크릿 와이프 上 : 오피스 와이프 외전",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 10902
       },
       {
-        "label": "中",
+        "label": "2",
         "title": "秘密妻子 中：辦公室妻子外傳",
         "url": "https://docs.google.com/document/d/1c269xKQ3aJdNzP8mgmpzwBPQseOAw7H3AZWZSFQv6SM/edit?usp=drivesdk",
-        "articleId": "1c269xKQ3aJdNzP8mgmpzwBPQseOAw7H3AZWZSFQv6SM",
         "original": "https://www.postype.com/@eeggdanzii/post/17968294",
+        "articleId": "1c269xKQ3aJdNzP8mgmpzwBPQseOAw7H3AZWZSFQv6SM",
         "pricePoints": 500,
         "_episodeId": "ep-6407fdf2c7b88c75b798",
         "destinyItemId": "item-708256e707c94081996c",
-        "destinyTitle": "秘密妻子（辦公室妻子外傳）",
+        "destinyTitle": "",
         "destinyKo": "시크릿 와이프 中 : 오피스 와이프 외전",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 13733
       },
       {
-        "label": "下",
+        "label": "3",
         "title": "秘密妻子 下：辦公室妻子外傳",
         "url": "https://docs.google.com/document/d/1sdo_DpzbkAVsb6Wp2Uv-uFfgvjToM2K8z4GlNo6zGQo/edit?usp=drivesdk",
-        "articleId": "1sdo_DpzbkAVsb6Wp2Uv-uFfgvjToM2K8z4GlNo6zGQo",
         "original": "https://www.postype.com/@eeggdanzii/post/17981471",
+        "articleId": "1sdo_DpzbkAVsb6Wp2Uv-uFfgvjToM2K8z4GlNo6zGQo",
         "pricePoints": 500,
         "_episodeId": "ep-cd806a11443ead8093b8",
         "destinyItemId": "item-4753f8a71f5edbfcf238",
-        "destinyTitle": "秘密妻子（辦公室妻子外傳）",
+        "destinyTitle": "",
         "destinyKo": "시크릿 와이프 下 : 오피스 와이프 외전",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 18838
       }
     ],
@@ -25816,7 +26766,8 @@ window.BOOK_DATA = [
     "destinyDeleted": false,
     "tags": [
       "CP配對: 安/員",
-      "分級: 尺度大、謹慎閱讀",
+      "分級: 尺度大",
+      "謹慎閱讀",
       "分級: 💰付費內容",
       "分級: 🏎️賽車",
       "文章狀態: 完結+番外",
@@ -25826,8 +26777,13 @@ window.BOOK_DATA = [
       "背景設定: 辦公室"
     ],
     "characters": [
-      "安：開發組組長\n員：CS組組長"
+      "安：開發組組長",
+      "員：CS組組長"
     ],
+    "createdAt": "2026-10-13T13:11:21.238Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:11:21.238Z",
     "wordCount": 10902
   },
   {
@@ -25904,112 +26860,120 @@ window.BOOK_DATA = [
         "label": "1",
         "title": "作為女演員的經紀人生存下來-1",
         "url": "https://docs.google.com/document/d/1kGKXvjNiU0aDMZIuSp5EVYJ52IZmIAJNKXiB4FpdDrA/edit?usp=drivesdk",
-        "articleId": "1kGKXvjNiU0aDMZIuSp5EVYJ52IZmIAJNKXiB4FpdDrA",
         "original": "https://www.postype.com/@eeggdanzii/post/16205171",
+        "articleId": "1kGKXvjNiU0aDMZIuSp5EVYJ52IZmIAJNKXiB4FpdDrA",
         "pricePoints": 0,
         "_episodeId": "ep-676d60fe9a8e9fa3d528",
         "destinyItemId": "item-1380583df92ed4b079e6",
-        "destinyTitle": "作為女演員的經紀人生存下來",
+        "destinyTitle": "",
         "destinyKo": "여배우 매니저로 살아남기 1",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 3422
       },
       {
         "label": "2",
         "title": "作為女演員的經紀人生存下來-2",
         "url": "https://docs.google.com/document/d/1AjfXEG5W_YEntQKU52UuVWxAH7upnDQOKA0EdXy-bB8/edit?usp=drivesdk",
-        "articleId": "1AjfXEG5W_YEntQKU52UuVWxAH7upnDQOKA0EdXy-bB8",
         "original": "https://www.postype.com/@eeggdanzii/post/16209292",
+        "articleId": "1AjfXEG5W_YEntQKU52UuVWxAH7upnDQOKA0EdXy-bB8",
         "pricePoints": 0,
         "_episodeId": "ep-a34aa71577495781550d",
         "destinyItemId": "item-e3233227000677663920",
-        "destinyTitle": "作為女演員的經紀人生存下來",
+        "destinyTitle": "",
         "destinyKo": "여배우 매니저로 살아남기 2",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 3352
       },
       {
         "label": "3",
         "title": "作為女演員的經紀人生存下來-3",
         "url": "https://docs.google.com/document/d/1YYk9FDAELQoV7z91E0W6LwA1ukFHJVa6CNOSQUlQbe0/edit?usp=drivesdk",
-        "articleId": "1YYk9FDAELQoV7z91E0W6LwA1ukFHJVa6CNOSQUlQbe0",
         "original": "https://www.postype.com/@eeggdanzii/post/16210866",
+        "articleId": "1YYk9FDAELQoV7z91E0W6LwA1ukFHJVa6CNOSQUlQbe0",
         "pricePoints": 0,
         "_episodeId": "ep-e3ab4a65043416718998",
         "destinyItemId": "item-dc2cf0148b6181bf35a2",
-        "destinyTitle": "作為女演員的經紀人生存下來",
+        "destinyTitle": "",
         "destinyKo": "여배우 매니저로 살아남기 3",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7620
       },
       {
         "label": "4",
         "title": "作為女演員的經紀人生存下來-4",
         "url": "https://docs.google.com/document/d/1f77_u0U9aUHAHdZfPDBv8lzjRJviI5JKW_ZlsQfG3F0/edit?usp=drivesdk",
-        "articleId": "1f77_u0U9aUHAHdZfPDBv8lzjRJviI5JKW_ZlsQfG3F0",
         "original": "https://www.postype.com/@eeggdanzii/post/16270827",
+        "articleId": "1f77_u0U9aUHAHdZfPDBv8lzjRJviI5JKW_ZlsQfG3F0",
         "pricePoints": 0,
         "_episodeId": "ep-4e1f650380335e9bf2dd",
         "destinyItemId": "item-06689bfe5518dcfd5a26",
-        "destinyTitle": "作為女演員的經紀人生存下來",
+        "destinyTitle": "",
         "destinyKo": "여배우 매니저로 살아남기 4",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8851
       },
       {
         "label": "5",
         "title": "作為女演員的經紀人生存下來-5",
         "url": "https://docs.google.com/document/d/1vexCCYZsk8G8r4tXuqWg4C81A3rMWiGPsxnGdETmDFo/edit?usp=drivesdk",
-        "articleId": "1vexCCYZsk8G8r4tXuqWg4C81A3rMWiGPsxnGdETmDFo",
         "original": "https://www.postype.com/@eeggdanzii/post/16300108",
+        "articleId": "1vexCCYZsk8G8r4tXuqWg4C81A3rMWiGPsxnGdETmDFo",
         "pricePoints": 0,
         "_episodeId": "ep-a4dfede48a512c97777b",
         "destinyItemId": "item-5a319468fc77ecdf832b",
-        "destinyTitle": "作為女演員的經紀人生存下來",
+        "destinyTitle": "",
         "destinyKo": "여배우 매니저로 살아남기 5",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 9374
       },
       {
         "label": "6",
         "title": "作為女演員的經紀人生存下來-6",
         "url": "https://docs.google.com/document/d/1wGCg6Q4Lh7ooGYKer3I5AiGLqpb882QYUhqjwG60SZ0/edit?usp=drivesdk",
-        "articleId": "1wGCg6Q4Lh7ooGYKer3I5AiGLqpb882QYUhqjwG60SZ0",
         "original": "https://www.postype.com/@eeggdanzii/post/16400612",
+        "articleId": "1wGCg6Q4Lh7ooGYKer3I5AiGLqpb882QYUhqjwG60SZ0",
         "pricePoints": 500,
         "_episodeId": "ep-43cff3eec64c9dc7d0ab",
         "destinyItemId": "item-c3974633a2d19ee10350",
-        "destinyTitle": "作為女演員的經紀人生存下來",
+        "destinyTitle": "",
         "destinyKo": "여배우 매니저로 살아남기 6",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 10989
       },
       {
         "label": "7",
         "title": "作為女演員的經紀人生存下來-7",
         "url": "https://docs.google.com/document/d/1ncKo4KIdKl4QxB2p8EjN24PD7hiUycIuCNcXIxeY4gs/edit?usp=drivesdk",
-        "articleId": "1ncKo4KIdKl4QxB2p8EjN24PD7hiUycIuCNcXIxeY4gs",
         "original": "https://www.postype.com/@eeggdanzii/post/16470537",
+        "articleId": "1ncKo4KIdKl4QxB2p8EjN24PD7hiUycIuCNcXIxeY4gs",
         "pricePoints": 0,
         "_episodeId": "ep-0c30056bbc771401e99b",
         "destinyItemId": "item-6d6f10988513f54f5fae",
-        "destinyTitle": "作為女演員的經紀人生存下來",
+        "destinyTitle": "",
         "destinyKo": "여배우 매니저로 살아남기 7",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 8431
       },
       {
         "label": "8",
         "title": "作為女演員的經紀人生存下來-8",
         "url": "https://docs.google.com/document/d/1n_E3IaHG7AXmlDUptQ50kPSbnAh_zUT6qk50JJNCYzs/edit?usp=drivesdk",
-        "articleId": "1n_E3IaHG7AXmlDUptQ50kPSbnAh_zUT6qk50JJNCYzs",
         "original": "https://www.postype.com/@eeggdanzii/post/16515894",
+        "articleId": "1n_E3IaHG7AXmlDUptQ50kPSbnAh_zUT6qk50JJNCYzs",
         "pricePoints": 0,
         "_episodeId": "ep-bb5bd56c09246322df2a",
         "destinyItemId": "item-6ed9e1ab7ebde142be09",
-        "destinyTitle": "作為女演員的經紀人生存下來",
+        "destinyTitle": "",
         "destinyKo": "여배우 매니저로 살아남기 8",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7517
       }
     ],
@@ -26035,8 +26999,13 @@ window.BOOK_DATA = [
       "文章類型: 都市現實"
     ],
     "characters": [
-      "安：經紀人\n員：大勢演員"
+      "安：經紀人",
+      "員：大勢演員"
     ],
+    "createdAt": "2026-10-13T13:12:15.764Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:12:15.765Z",
     "wordCount": 3422
   },
   {
@@ -26166,31 +27135,33 @@ window.BOOK_DATA = [
     "date": "2024-12-13",
     "episodes": [
       {
-        "label": "上",
+        "label": "1",
         "title": "請幫我拿一下包包-上",
         "url": "https://docs.google.com/document/d/1NgdJi_uHEVD9m4ZxkdlhiWxjdxVtv9wgynScGnm47kM/edit?usp=drivesdk",
-        "articleId": "1NgdJi_uHEVD9m4ZxkdlhiWxjdxVtv9wgynScGnm47kM",
         "original": "https://www.postype.com/@eeggdanzii/post/16196355",
+        "articleId": "1NgdJi_uHEVD9m4ZxkdlhiWxjdxVtv9wgynScGnm47kM",
         "pricePoints": 0,
         "_episodeId": "ep-d1cde3662baf83c62aa7",
         "destinyItemId": "item-218d8e6a0486e927414e",
-        "destinyTitle": "請幫我拿一下包包",
+        "destinyTitle": "",
         "destinyKo": "가방을 들어주세요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 3951
       },
       {
-        "label": "下",
+        "label": "2",
         "title": "請幫我拿一下包包-下",
         "url": "https://docs.google.com/document/d/1zSRMxhcAoPKpRnCYMH0hAHY4JA6KBZNLQqPs6JohZcA/edit?usp=drivesdk",
-        "articleId": "1zSRMxhcAoPKpRnCYMH0hAHY4JA6KBZNLQqPs6JohZcA",
         "original": "https://www.postype.com/@eeggdanzii/post/16202608",
+        "articleId": "1zSRMxhcAoPKpRnCYMH0hAHY4JA6KBZNLQqPs6JohZcA",
         "pricePoints": 0,
         "_episodeId": "ep-8f4c3906f1d4d39c1983",
         "destinyItemId": "item-7e8dc7eacc039343cb87",
-        "destinyTitle": "請幫我拿一下包包",
+        "destinyTitle": "",
         "destinyKo": "가방을 들어주세요",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 5402
       }
     ],
@@ -26216,8 +27187,14 @@ window.BOOK_DATA = [
       "背景設定: 校園"
     ],
     "characters": [
-      "安：高中生\n員：高中生"
+      "安：高中生",
+      "員：高中生"
     ],
+    "createdAt": "2026-10-13T13:12:44.630Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:12:44.630Z",
     "wordCount": 3951
   },
   {
@@ -26234,18 +27211,34 @@ window.BOOK_DATA = [
     "paid": true,
     "episodes": [
       {
-        "label": "閱讀",
-        "title": "薛丁格的那天晚上",
+        "label": "1",
+        "title": "薛丁格的那天晚上-上集",
         "url": "https://docs.google.com/document/d/1kVPdDo1MC2dDifNI8o8rJ8XopUkj7Y3gZAro3F9xON0/edit?usp=drivesdk",
+        "original": "https://www.postype.com/@eeggdanzii/post/17002521",
         "articleId": "1kVPdDo1MC2dDifNI8o8rJ8XopUkj7Y3gZAro3F9xON0",
+        "pricePoints": 0,
         "_episodeId": "ep-27992c08239dd16fdf71",
         "destinyItemId": "item-9f0934ae6d06cc4acdae",
-        "original": "https://www.postype.com/@eeggdanzii/post/17002521",
-        "destinyTitle": "薛丁格的那天晚上",
+        "destinyTitle": "",
         "destinyKo": "슈뢰딩거의 그날 밤",
         "destinyDeleted": false,
-        "pricePoints": 0,
-        "wordCount": 17933
+        "includeDestiny": true,
+        "wordCount": 7262
+      },
+      {
+        "label": "2",
+        "title": "薛丁格的那天晚上-下集",
+        "url": "",
+        "original": "https://www.postype.com/@eeggdanzii/post/17006789",
+        "articleId": "local-c81b88a8-0167-4e01-9a55-636541622d51",
+        "pricePoints": 500,
+        "_episodeId": "ep-item-638e7c6c69aaf7122412",
+        "destinyItemId": "item-638e7c6c69aaf7122412",
+        "destinyTitle": "",
+        "destinyKo": "슈뢰딩거의 그날 밤",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 7090
       }
     ],
     "_id": "work-86aef6eb308b40a71321",
@@ -26269,13 +27262,18 @@ window.BOOK_DATA = [
       "結局: HE"
     ],
     "characters": [
-      "安：大學生\n員：大學生"
+      "安：大學生",
+      "員：大學生"
     ],
     "knownPricePoints": 500,
     "unpricedEpisodes": 0,
     "pricePoints": 500,
     "pricingMode": "episodes",
-    "wordCount": 17933
+    "createdAt": "2026-10-13T13:16:04.993Z",
+    "hidden": false,
+    "destinyTitle": "",
+    "updatedAt": "2026-10-13T13:45:09.495Z",
+    "wordCount": 7262
   },
   {
     "page": "雞蛋",
@@ -26348,17 +27346,18 @@ window.BOOK_DATA = [
     "date": "2024-12-13",
     "episodes": [
       {
-        "label": "閱讀",
+        "label": "單集",
         "title": "不是你，是你妹妹",
         "url": "https://docs.google.com/document/d/1OtlWRdfQEcYRjSaH7GAeUF_k9PCgEY0mJ8rBcLrhpPM/edit?usp=drivesdk",
-        "articleId": "1OtlWRdfQEcYRjSaH7GAeUF_k9PCgEY0mJ8rBcLrhpPM",
         "original": "https://www.postype.com/@golae0831/post/16553863",
+        "articleId": "1OtlWRdfQEcYRjSaH7GAeUF_k9PCgEY0mJ8rBcLrhpPM",
         "pricePoints": 0,
         "_episodeId": "ep-16dbd9fdab5e861c75ee",
         "destinyItemId": "item-6905b0e199a4c503510b",
-        "destinyTitle": "不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇）",
+        "destinyTitle": "",
         "destinyKo": "너 말고 니 동생",
         "destinyDeleted": false,
+        "includeDestiny": true,
         "wordCount": 7735
       }
     ],
@@ -26377,6 +27376,14 @@ window.BOOK_DATA = [
     "tags": [
       "文章狀態: 完結"
     ],
+    "createdAt": "2026-10-13T11:51:09.417Z",
+    "paid": false,
+    "hidden": false,
+    "destinyTitle": "",
+    "characters": [
+      "不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇）"
+    ],
+    "updatedAt": "2026-10-13T11:51:51.230Z",
     "wordCount": 7735
   },
   {

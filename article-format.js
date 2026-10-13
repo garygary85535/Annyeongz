@@ -14,6 +14,11 @@
   }
   function render(block, options = {}) {
     const d = options.document || root.document;
+    if (block.divider) {
+      const line = d.createElement('hr');
+      line.style.cssText = 'display:block;width:90%;max-width:100%;height:0;border:0;border-top:1px solid currentColor;opacity:0.5;margin:2em auto;';
+      return line;
+    }
     if (block.soundcloud) return root.YouTubeMedia.createSoundCloud(block.soundcloud, d, !!options.editable);
     if (block.youtube) return root.YouTubeMedia.create(block.youtube, d, !!options.editable);
     if (block.table) {
@@ -103,7 +108,8 @@
       if (node.nodeType !== 1) { inline.push(...runs(node)); continue; }
       if (node.dataset.soundcloudUrl || node.dataset.youtubeId) {
         flush(); blocks.push(node.dataset.soundcloudUrl ? { soundcloud: { url: node.dataset.soundcloudUrl, start: Number(node.dataset.soundcloudStart || 0) } } : { youtube: { id: node.dataset.youtubeId, start: Number(node.dataset.youtubeStart || 0) } });
-      } else if (node.tagName === 'TABLE') { flush(); blocks.push({ table: [...node.rows].map(row => [...row.cells].map(fromDOM)) }); }
+      } else if (node.tagName === 'HR') { flush(); blocks.push({ divider: true }); }
+      else if (node.tagName === 'TABLE') { flush(); blocks.push({ table: [...node.rows].map(row => [...row.cells].map(fromDOM)) }); }
       else if (['UL', 'OL'].includes(node.tagName)) {
         flush(); const items = fromDOM(node);
         items.forEach((item, i) => { if (item.bullet) { item.listType = node.tagName === 'OL' ? 'ordered' : 'unordered'; if (i === 0 && node.tagName === 'OL') item.listStart = node.start || 1; } });
