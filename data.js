@@ -1,5 +1,60 @@
 window.BOOK_DATA = [
   {
+    "_id": "work-32e2431f-3d43-4442-811d-8c357d77545e",
+    "createdAt": "2026-10-14T15:08:33.923Z",
+    "zh": "討人厭",
+    "ko": "재수없음",
+    "page": "其他老師",
+    "author": "삿포로（Sapporo）",
+    "translator": "鳳梨",
+    "status": "0.連載中",
+    "note": "@新入荷",
+    "date": "2026-10-14",
+    "original": "https://www.postype.com/zh-hant/@bubbleisb/post/4348087",
+    "translation": "",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "includeShelf": true,
+    "includeDestiny": true,
+    "destinyDeleted": false,
+    "destinyId": "P0472",
+    "destinyTitle": "",
+    "recommendations": [],
+    "pricePoints": 0,
+    "_favoriteKey": "work-32e2431f-3d43-4442-811d-8c357d77545e",
+    "tags": [
+      "現實向校園",
+      "校園"
+    ],
+    "characters": [
+      "安：高中生",
+      "員：高中生"
+    ],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "討人厭",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@bubbleisb/post/4348087",
+        "articleId": "local-00db975d-6e6e-443f-b901-2ec40bd399ec",
+        "pricePoints": 0,
+        "_episodeId": "ep-6607579a-f3e0-45db-af87-dd5b0502a5bc",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 8554
+      }
+    ],
+    "pricingMode": "episodes",
+    "updatedAt": "2026-10-14T15:14:00.589Z",
+    "knownPricePoints": 0,
+    "unpricedEpisodes": 0,
+    "wordCount": null
+  },
+  {
     "_id": "work-1418eca2-ef1c-4d6b-bd48-5fd683ac0f4c",
     "createdAt": "2026-10-13T12:11:01.871Z",
     "zh": "💰深山閨秀傳",
@@ -10530,7 +10585,7 @@ window.BOOK_DATA = [
         "destinyKo": "호우시절1920",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 69065
+        "wordCount": 78004
       }
     ],
     "_id": "work-c1b51821a45779e58e8e",
@@ -10567,7 +10622,7 @@ window.BOOK_DATA = [
     "hidden": false,
     "destinyTitle": "",
     "updatedAt": "2026-10-12T15:15:35.293Z",
-    "wordCount": 69065
+    "wordCount": 78004
   },
   {
     "page": "季刊",
@@ -13938,7 +13993,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 4",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 11340
+        "wordCount": 9697
       },
       {
         "label": "5",
@@ -13953,7 +14008,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 5",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 9205
+        "wordCount": 7873
       },
       {
         "label": "5.1",
@@ -13968,7 +14023,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 5.1",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 8953
+        "wordCount": 8193
       },
       {
         "label": "6",
@@ -13983,7 +14038,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 6",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 9573
+        "wordCount": 8359
       },
       {
         "label": "7",
@@ -13998,7 +14053,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 7",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 7128
+        "wordCount": 6500
       },
       {
         "label": "7.1",
@@ -14013,7 +14068,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 7.1",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 6885
+        "wordCount": 6563
       },
       {
         "label": "8",
@@ -14028,22 +14083,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 8",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 8970
-      },
-      {
-        "label": "番外",
-        "title": "無法抗拒性感的書呆子 番外",
-        "url": "",
-        "original": "https://www.postype.com/zh-hant/@nuttylife/post/17827461",
-        "articleId": "1FFtZNanJvTT67A_T62aIplKfxZqdYDWpe5U7Cbp_cto",
-        "pricePoints": 0,
-        "_episodeId": "ep-item-f0eeab8753145dfd25e5",
-        "destinyItemId": "item-f0eeab8753145dfd25e5",
-        "destinyTitle": "無法抗拒性感的書呆子 番外",
-        "destinyKo": "섹시한 너드는 답이 없다. (번외)",
-        "destinyDeleted": false,
-        "includeDestiny": true,
-        "wordCount": 4827
+        "wordCount": 8266
       },
       {
         "label": "9",
@@ -14058,7 +14098,37 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 9",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 8227
+        "wordCount": 7277
+      },
+      {
+        "label": "番外",
+        "title": "無法抗拒性感的書呆子 番外",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@nuttylife/post/17827461",
+        "articleId": "1FFtZNanJvTT67A_T62aIplKfxZqdYDWpe5U7Cbp_cto",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-f0eeab8753145dfd25e5",
+        "destinyItemId": "item-f0eeab8753145dfd25e5",
+        "destinyTitle": "無法抗拒性感的書呆子 番外",
+        "destinyKo": "섹시한 너드는 답이 없다. (번외)",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 4836
+      },
+      {
+        "label": "番外",
+        "title": "無法抗拒的性感書呆子（番外）",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@nuttylife/post/17827461",
+        "articleId": "1FFtZNanJvTT67A_T62aIplKfxZqdYDWpe5U7Cbp_cto",
+        "pricePoints": 0,
+        "_episodeId": "ep-682c4bd0-c295-4e87-85aa-c45e1f953fd5",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 4836
       },
       {
         "label": "9.1",
@@ -14073,7 +14143,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 9.1",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 7666
+        "wordCount": 7667
       },
       {
         "label": "10",
@@ -14088,7 +14158,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 10",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 8647
+        "wordCount": 7908
       },
       {
         "label": "11",
@@ -14103,7 +14173,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 11",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 7600
+        "wordCount": 7404
       },
       {
         "label": "11.1",
@@ -14166,7 +14236,7 @@ window.BOOK_DATA = [
         "wordCount": 9756
       },
       {
-        "label": "15-01",
+        "label": "15.1",
         "title": "無法抗拒性感的書呆子 15.1",
         "url": "",
         "original": "https://www.postype.com/zh-hant/@nuttylife/post/18060903",
@@ -14320,7 +14390,7 @@ window.BOOK_DATA = [
     "createdAt": "2026-10-11T04:45:06.331Z",
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T16:20:41.788Z",
+    "updatedAt": "2026-10-14T05:51:24.126Z",
     "wordCount": 8275
   },
   {
