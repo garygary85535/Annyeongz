@@ -10585,7 +10585,7 @@ window.BOOK_DATA = [
         "destinyKo": "호우시절1920",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 78004
+        "wordCount": 78011
       }
     ],
     "_id": "work-c1b51821a45779e58e8e",
@@ -10622,7 +10622,7 @@ window.BOOK_DATA = [
     "hidden": false,
     "destinyTitle": "",
     "updatedAt": "2026-10-12T15:15:35.293Z",
-    "wordCount": 78004
+    "wordCount": 78011
   },
   {
     "page": "季刊",
