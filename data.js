@@ -915,6 +915,21 @@ window.BOOK_DATA = [
         "destinyDeleted": false,
         "includeDestiny": true,
         "wordCount": 10219
+      },
+      {
+        "label": "EP23",
+        "title": "汝矣島風雲 23",
+        "url": "",
+        "original": "",
+        "articleId": "local-758e93ad-b3fa-49e5-aae7-aa8b4d1b8a30",
+        "pricePoints": null,
+        "_episodeId": "ep-a8d2c114-64b3-4466-b192-a9f81d606913",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 12109
       }
     ],
     "_id": "work-e814a8d8f5079f2bee29",
@@ -922,8 +937,8 @@ window.BOOK_DATA = [
     "articleId": "1zMnO_WFtMNndF_40yDP7Xqst5GtfO-JKW61Qh3vuM8M",
     "pricingMode": "episodes",
     "knownPricePoints": 10200,
-    "unpricedEpisodes": 0,
-    "pricePoints": 10200,
+    "unpricedEpisodes": 1,
+    "pricePoints": null,
     "hidden": false,
     "tags": [
       "CP配對: 安/員",
@@ -940,7 +955,7 @@ window.BOOK_DATA = [
       "安：國會議員",
       "員：主播"
     ],
-    "updatedAt": "2026-10-10T18:13:17.068Z",
+    "updatedAt": "2026-10-17T10:19:19.039Z",
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [
