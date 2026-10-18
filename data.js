@@ -39,7 +39,7 @@ window.BOOK_DATA = [
         "destinyKo": "",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 6093
+        "wordCount": 5921
       }
     ],
     "pricingMode": "episodes",
@@ -5315,7 +5315,7 @@ window.BOOK_DATA = [
     "original": "https://www.postype.com/zh-hant/@seol-cheong/post/18930393",
     "translation": "https://docs.google.com/document/d/1CCLjLsg1SLbPMjIhKH_KVSHsTvZ_xm9bg2oty5ijcQc/edit?usp=drivesdk",
     "author": "꿀구마（蜜地瓜）",
-    "translator": "原生AI",
+    "translator": "鳳梨",
     "note": "@新入荷",
     "date": "2026-10-18",
     "episodes": [
@@ -5355,7 +5355,7 @@ window.BOOK_DATA = [
     "hidden": false,
     "destinyTitle": "",
     "characters": [],
-    "updatedAt": "2026-10-18T10:36:47.280Z",
+    "updatedAt": "2026-10-18T10:51:26.196Z",
     "wordCount": 14191
   },
   {
