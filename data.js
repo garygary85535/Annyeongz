@@ -14323,7 +14323,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 11.1",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 8290
+        "wordCount": 6455
       },
       {
         "label": "12",
@@ -14338,7 +14338,22 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 12",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 11114
+        "wordCount": 11079
+      },
+      {
+        "label": "13",
+        "title": "無法抗拒性感的書呆子 13",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@nuttylife/post/17984681",
+        "articleId": "local-a4415f0d-8edf-4275-81be-f0ae1bc26a9b",
+        "pricePoints": 0,
+        "_episodeId": "ep-item-017570aa8060aecbee12",
+        "destinyItemId": "item-017570aa8060aecbee12",
+        "destinyTitle": "無法抗拒性感的書呆子 13",
+        "destinyKo": "섹시한 너드는 답이 없다. 13",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 7777
       },
       {
         "label": "14",
@@ -14353,7 +14368,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 14",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 8369
+        "wordCount": 7563
       },
       {
         "label": "15",
@@ -14368,7 +14383,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 15",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 9756
+        "wordCount": 7862
       },
       {
         "label": "15.1",
@@ -14383,7 +14398,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 15.1",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 7959
+        "wordCount": 5828
       },
       {
         "label": "16",
@@ -14525,7 +14540,7 @@ window.BOOK_DATA = [
     "createdAt": "2026-10-11T04:45:06.331Z",
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-14T05:51:24.126Z",
+    "updatedAt": "2026-10-18T11:43:57.070Z",
     "wordCount": 8275
   },
   {
