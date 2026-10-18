@@ -1,16 +1,35 @@
 (function bootstrap(root) {
   'use strict';
-  const fonts = {
+  const legacyFonts = {
     sans: 'system-ui, "PingFang TC", "Microsoft JhengHei", sans-serif',
     serif: '"Songti TC", "Noto Serif CJK TC", "PMingLiU", serif',
     kai: '"BiauKai", "DFKai-SB", "KaiTi", "STKaiti", serif'
   };
-  function fontKey(value) { const normalized = String(value || '').replace(/["']/g, '').toLowerCase().replace(/\s/g, ''); return Object.keys(fonts).find(key => fonts[key].replace(/["']/g, '').toLowerCase().replace(/\s/g, '') === normalized); }
+  const fonts = { ...legacyFonts, serif: '"Noto Serif TC", ' + legacyFonts.serif, kai: '"LXGW WenKai TC", ' + legacyFonts.kai };
+  function fontKey(value) { const normalize = text => String(text || '').replace(/["']/g, '').toLowerCase().replace(/\s/g, ''); const normalized = normalize(value); return Object.keys(fonts).find(key => normalize(fonts[key]) === normalized || normalize(legacyFonts[key]) === normalized); }
   function validFontSize(value) { return Number.isFinite(value) && value >= 8 && value <= 96; }
+  function setIndent(node, level) {
+    if (!Number.isInteger(level) || level < 0 || level > 6) return;
+    if (level) {
+      node.dataset.indent = String(level);
+      const space = `min(${level * 2}em, ${level * 8}%)`;
+      node.style.setProperty('padding-inline-start', node.tagName === 'BLOCKQUOTE' ? `calc(var(--quote-indent-base, 20px) + ${space})` : space, node.tagName === 'BLOCKQUOTE' ? 'important' : '');
+    }
+    else { delete node.dataset.indent; node.style.removeProperty('padding-inline-start'); }
+  }
   function elementFontSize(node) {
     const raw = node.dataset.fontSize, css = node.style.fontSize;
     const value = raw ? Number(raw) : /^\d+(\.\d+)?px$/.test(css) ? parseFloat(css) : /^\d+(\.\d+)?em$/.test(css) ? parseFloat(css) * 20 : 0;
     return validFontSize(value) ? value : null;
+  }
+  function quoteLines(runs) {
+    const lines = [[]];
+    for (const run of runs || []) {
+      if (run.image) { lines[lines.length - 1].push(run); continue; }
+      const parts = String(run.text || '').split('\n');
+      parts.forEach((text, index) => { if (index) lines.push([]); if (text) lines[lines.length - 1].push({ ...run, text }); });
+    }
+    return lines;
   }
   function render(block, options = {}) {
     const d = options.document || root.document;
@@ -33,6 +52,11 @@
     const el = d.createElement(block.quote ? 'blockquote' : block.heading ? 'h' + Math.min(block.heading + 1, 6) : block.bullet ? 'li' : 'p');
     if (block.quote) el.dataset.quote = block.quote;
     if (block.align) el.dataset.align = block.align;
+    if (block.indent) setIndent(el, block.indent);
+    if (block.quote && (options.editable || options.quoteLines || block.lineIndents)) {
+      quoteLines(block.runs).forEach((runs, index) => el.append(render({ runs, indent: block.lineIndents?.[index] || 0 }, options)));
+      return el;
+    }
     for (const run of block.runs || []) {
       let node;
       if (run.image) {
@@ -117,10 +141,16 @@
       } else if (['P', 'DIV', 'H2', 'H3', 'H4', 'H5', 'H6', 'BLOCKQUOTE', 'LI'].includes(node.tagName)) {
         flush();
         if (node.tagName === 'DIV' && node.querySelector('p,div,blockquote,table,ul,ol')) blocks.push(...fromDOM(node));
-        else blocks.push({ runs: runs(node), heading: /^H[2-6]$/.test(node.tagName) ? Number(node.tagName[1]) - 1 : 0, bullet: node.tagName === 'LI', ...(node.tagName === 'BLOCKQUOTE' ? { quote: node.dataset.quote || 'plain' } : {}), ...(node.dataset.align ? { align: node.dataset.align } : {}) });
+        else {
+          const block = { runs: runs(node), heading: /^H[2-6]$/.test(node.tagName) ? Number(node.tagName[1]) - 1 : 0, bullet: node.tagName === 'LI', ...(node.tagName === 'BLOCKQUOTE' ? { quote: node.dataset.quote || 'plain' } : {}), ...(node.dataset.align ? { align: node.dataset.align } : {}), ...(Number.isInteger(Number(node.dataset.indent)) && Number(node.dataset.indent) > 0 && Number(node.dataset.indent) <= 6 ? { indent: Number(node.dataset.indent) } : {}) };
+          if (block.quote && [...node.childNodes].every(child => child.nodeType === 1 && ['P','DIV'].includes(child.tagName)) && node.children.length) {
+            block.lineIndents = [...node.children].flatMap(child => quoteLines(runs(child)).map(() => Math.max(0, Math.min(6, Number(child.dataset.indent) || 0))));
+          }
+          blocks.push(block);
+        }
       } else inline.push(...runs(node));
     }
     flush(); return blocks;
   }
-  root.ArticleFormat = { render, renderAll, fromDOM, fonts, fontKey, validFontSize, elementFontSize, source: '(' + bootstrap.toString() + ')(window);' };
+  root.ArticleFormat = { render, renderAll, fromDOM, fonts, fontKey, validFontSize, elementFontSize, setIndent, source: '(' + bootstrap.toString() + ')(window);' };
 })(window);

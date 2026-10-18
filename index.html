@@ -915,6 +915,7 @@
   <style id="compactShelfActions">
     #modalLinks .episode-detail{display:flex;flex-direction:column;gap:5px;min-width:0;max-width:100%;align-items:stretch}
     #modalLinks .episode-word-count{font-size:12px;line-height:1.5;color:var(--muted);text-align:center;overflow-wrap:anywhere}
+    .card .work-word-count{font-size:14px;font-weight:700;line-height:1.5;margin:10px 0 0;color:var(--text);overflow-wrap:anywhere}
     .card .links.card-quick-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;max-height:none;overflow:visible;margin-top:auto;padding-top:14px}
     .card-quick-links>a,.card-quick-links>.link-disabled,.card-quick-links>.detail-link{display:block;min-width:0;width:100%;height:34px;min-height:34px;max-height:34px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center;padding:7px 6px;line-height:18px;font-size:11px;border:1px solid var(--line);border-radius:4px}
     .card-quick-links>.detail-link{background:var(--rose-soft);border-color:transparent;color:var(--rose);cursor:pointer;font-weight:700}
@@ -943,6 +944,8 @@ blockquote[data-quote="blue"] + blockquote[data-quote="blue"]{margin-top:6px!imp
 @media(max-width:600px){blockquote[data-quote="gray"],blockquote[data-quote="blue"]{max-width:88%;padding:10px 14px!important}}
 blockquote[data-quote] p:last-child{margin-bottom:0}
 blockquote[data-quote="border"]{white-space:pre-wrap}
+blockquote[data-quote="gray"],blockquote[data-quote="blue"]{--quote-indent-base:18px}
+@media(max-width:600px){blockquote[data-quote="gray"],blockquote[data-quote="blue"]{--quote-indent-base:14px}}
 .reading-table table:has(> tr:only-child > td:only-child > blockquote[data-quote="border"]) > tr > td,
 .reading-table table:has(> tbody:only-child > tr:only-child > td:only-child > blockquote[data-quote="border"]) > tbody > tr > td{border:0;padding:0}
 blockquote[data-quote="plain"]{border:0!important;border-left:3px solid #529166!important;border-radius:0!important;padding:0 0 0 20px!important;color:#52685a!important;white-space:pre-wrap}
@@ -957,7 +960,8 @@ blockquote[data-quote="border"] p,blockquote[data-quote="border"] div{margin:0!i
 .soundcloud-block{aspect-ratio:auto;height:166px;min-height:166px}
 #editor hr{display:block;width:90%;max-width:100%;height:0;border:0;border-top:1px solid currentColor;opacity:0.5;margin:2em auto}
 .soundcloud-error{position:absolute;bottom:0;background:#fff;font:14px system-ui;padding:4px}
-</style><style>
+</style><link id="articleWebFonts" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&amp;family=Noto+Serif+TC:wght@400;700&amp;display=swap">
+<style>
 :is(#editor,.article-content,.reading-body){font-family:system-ui,sans-serif;font-size:20px;line-height:1.95;color:#242c28;overflow-wrap:anywhere;white-space:pre-wrap;letter-spacing:0}
 #editor,.article-content{max-width:680px;margin-inline:auto}
 :is(#editor,.article-content,.reading-body) :is(p,li){margin:0 0 1em;white-space:pre-wrap;min-height:1.95em}
@@ -979,8 +983,8 @@ blockquote[data-quote="border"] p,blockquote[data-quote="border"] div{margin:0!i
 :is(#editor,.article-content,.reading-body) [data-align="center"]{text-align:center}
 :is(#editor,.article-content,.reading-body) [data-align="right"]{text-align:right}
 :is(#editor,.article-content,.reading-body) [data-font="sans"]{font-family:system-ui,"PingFang TC","Microsoft JhengHei",sans-serif}
-:is(#editor,.article-content,.reading-body) [data-font="serif"]{font-family:"Songti TC","Noto Serif CJK TC","PMingLiU",serif}
-:is(#editor,.article-content,.reading-body) [data-font="kai"]{font-family:"BiauKai","DFKai-SB","KaiTi","STKaiti",serif}
+:is(#editor,.article-content,.reading-body) [data-font="serif"]{font-family:"Noto Serif TC","Songti TC","Noto Serif CJK TC","PMingLiU",serif}
+:is(#editor,.article-content,.reading-body) [data-font="kai"]{font-family:"LXGW WenKai TC","BiauKai","DFKai-SB","KaiTi","STKaiti",serif}
 .reading-table{overflow-x:auto;max-width:100%;white-space:normal}
 :is(#editor,.article-content,.reading-body) .reading-table table:has(> tr:only-child > td:only-child > blockquote[data-quote="border"]) > tr > td,
 :is(#editor,.article-content,.reading-body) .reading-table table:has(> tbody:only-child > tr:only-child > td:only-child > blockquote[data-quote="border"]) > tbody > tr > td{border:0;padding:0}
@@ -1114,7 +1118,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
   <script src="reader-content-guard.js"></script>
   <script src="reader-vault-config.js"></script>
   <script src="reader-vault.js?v=20261006-local-images"></script>
-  <script src="data.js?v=8f14305f284f"></script>
+  <script src="data.js?v=281963dadc4c"></script>
   <script>
     const DATA = window.BOOK_DATA || [];
     function escapeHTML(value) { return String(value ?? "").replace(/[&<>"']/g, c => ({38:"&amp;",60:"&lt;",62:"&gt;",34:"&quot;",39:"&#39;"}[c.charCodeAt(0)])); }
@@ -1432,6 +1436,20 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
       return Number.isSafeInteger(count) && count >= 0 ? count.toLocaleString("zh-TW") + " 字" : "尚無字數資料";
     }
 
+    function totalWordCountText(item) {
+      const seen = new Set();
+      const entries = item.episodes && item.episodes.length ? item.episodes.filter((episode, index) => {
+        const key = episode.articleId || episode.url || 'episode:' + index;
+        if (seen.has(key)) return false;
+        seen.add(key); return true;
+      }) : [item];
+      const known = entries.filter(entry => Number.isSafeInteger(entry.wordCount) && entry.wordCount >= 0);
+      if (!known.length) return '總字數：尚待統計';
+      const total = known.reduce((sum, entry) => sum + entry.wordCount, 0);
+      const missing = entries.length - known.length;
+      return missing ? `已統計 ${wordCountText(total)}（${missing} 集待統計）` : `總字數：${wordCountText(total)}`;
+    }
+
     function episodeLinks(item, limit = Infinity, showCounts = false) {
       if (!item.episodes || !item.episodes.length) return "";
       return item.episodes.map((episode, index) => {
@@ -1463,6 +1481,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
           <div class="k-title">${escapeHTML(item.ko)}</div>
           <div class="local-metadata">${[...(item.characters || []), ...(item.tags || [])].map(value => `<span class="badge">${escapeHTML(value)}</span>`).join(" ")}</div>
           <div class="badges">${badges(item)}</div>
+          <div class="work-word-count">${totalWordCountText(item)}</div>
           <div class="meta">
             <span>原作：${authorSearchButton(item)}</span>
             <span>翻譯：${item.translator || "未填"}</span>
