@@ -7,7 +7,7 @@ window.BOOK_DATA = [
     "page": "noname",
     "author": "noname",
     "translator": "鳳梨",
-    "status": "2.已完結",
+    "status": "0.連載中",
     "note": "@新入荷",
     "date": "2026-10-24",
     "original": "https://www.postype.com/zh-hant/@untitle009/post/10484980?show-original=true",
@@ -58,7 +58,7 @@ window.BOOK_DATA = [
       }
     ],
     "pricingMode": "episodes",
-    "updatedAt": "2026-10-24T09:02:55.266Z",
+    "updatedAt": "2026-10-24T09:15:37.676Z",
     "knownPricePoints": 0,
     "unpricedEpisodes": 0,
     "wordCount": null
@@ -69,7 +69,7 @@ window.BOOK_DATA = [
     "zh": "💰以我之名呼喚我",
     "ko": "콜 미 바이 마이 네임",
     "page": "其他老師",
-    "author": "김설화（金雪華）",
+    "author": "김설화（金雪花）",
     "translator": "鳳梨",
     "status": "2.已完結",
     "note": "@新入荷",
@@ -118,11 +118,11 @@ window.BOOK_DATA = [
         "destinyKo": "",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 0
+        "wordCount": 5389
       }
     ],
     "pricingMode": "episodes",
-    "updatedAt": "2026-10-24T08:46:37.619Z",
+    "updatedAt": "2026-10-24T09:12:50.669Z",
     "knownPricePoints": 1000,
     "unpricedEpisodes": 0,
     "wordCount": null
@@ -14545,7 +14545,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 16",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 8378
+        "wordCount": 7842
       },
       {
         "label": "17",
@@ -14560,7 +14560,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 17",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 7862
+        "wordCount": 7122
       },
       {
         "label": "18",
@@ -14575,7 +14575,7 @@ window.BOOK_DATA = [
         "destinyKo": "섹시한 너드는 답이 없다. 18(完)",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 11354
+        "wordCount": 10270
       },
       {
         "label": "外傳1",
