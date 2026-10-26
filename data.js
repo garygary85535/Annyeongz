@@ -39,7 +39,7 @@ window.BOOK_DATA = [
         "destinyKo": "",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 7552
+        "wordCount": 7438
       }
     ],
     "pricingMode": "episodes",
@@ -7939,7 +7939,7 @@ window.BOOK_DATA = [
         "destinyKo": "하나 둘 셋 (그리고 사랑을 시작하자)",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 14970
+        "wordCount": 14969
       }
     ],
     "_id": "work-facb9e8cc88275389b50",
@@ -7973,7 +7973,7 @@ window.BOOK_DATA = [
     "hidden": false,
     "destinyTitle": "",
     "updatedAt": "2026-10-12T15:06:32.340Z",
-    "wordCount": 14970
+    "wordCount": 14969
   },
   {
     "page": "季刊",
