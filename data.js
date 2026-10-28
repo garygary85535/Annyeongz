@@ -1093,7 +1093,7 @@ window.BOOK_DATA = [
     "author": "noname",
     "translator": "鳳梨&不是蓋瑞🤓",
     "note": "@有更新",
-    "date": "2026-10-10",
+    "date": "2026-10-29",
     "paid": true,
     "episodes": [
       {
@@ -1495,7 +1495,7 @@ window.BOOK_DATA = [
       "安：國會議員",
       "員：主播"
     ],
-    "updatedAt": "2026-10-28T11:05:48.369Z",
+    "updatedAt": "2026-10-28T17:00:28.067Z",
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [
