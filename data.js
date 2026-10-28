@@ -6,7 +6,7 @@ window.BOOK_DATA = [
     "ko": "블박",
     "page": "蜜地瓜",
     "author": "꿀구마（蜜地瓜）",
-    "translator": "原生AI",
+    "translator": "鳳梨",
     "status": "2.已完結",
     "note": "@新入荷",
     "date": "2026-10-28",
@@ -30,7 +30,7 @@ window.BOOK_DATA = [
         "label": "單集",
         "title": "黑盒子",
         "url": "",
-        "original": "",
+        "original": "https://www.postype.com/zh-hant/@seol-cheong/post/20932987",
         "articleId": "local-32783889-66bc-460b-9077-aaf6d0ed6007",
         "pricePoints": 0,
         "_episodeId": "ep-5578509e-cd61-4a1b-8d1d-2183140396ff",
@@ -39,11 +39,11 @@ window.BOOK_DATA = [
         "destinyKo": "",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 14336
+        "wordCount": 14355
       }
     ],
     "pricingMode": "episodes",
-    "updatedAt": "2026-10-28T10:06:41.116Z",
+    "updatedAt": "2026-10-28T10:59:46.640Z",
     "knownPricePoints": 0,
     "unpricedEpisodes": 0,
     "wordCount": null
@@ -54,7 +54,7 @@ window.BOOK_DATA = [
     "zh": "💰遊戲廢人的女朋友",
     "ko": "게임폐인의 여자친구",
     "page": "其他老師",
-    "author": "호박",
+    "author": "호박（南瓜）",
     "translator": "原生AI",
     "status": "2.已完結",
     "note": "@新入荷",
@@ -62,7 +62,7 @@ window.BOOK_DATA = [
     "original": "https://www.postype.com/zh-hant/@gdowkjdf/post/22531014?related_post_id=22531014&show-original=true",
     "translation": "",
     "articleId": "",
-    "paid": false,
+    "paid": true,
     "hidden": false,
     "includeShelf": true,
     "includeDestiny": true,
@@ -88,11 +88,11 @@ window.BOOK_DATA = [
         "destinyKo": "",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 7438
+        "wordCount": 7871
       }
     ],
     "pricingMode": "episodes",
-    "updatedAt": "2026-10-26T13:00:52.218Z",
+    "updatedAt": "2026-10-28T11:15:16.540Z",
     "knownPricePoints": 1000,
     "unpricedEpisodes": 0,
     "wordCount": null
@@ -798,7 +798,7 @@ window.BOOK_DATA = [
     "translation": "https://docs.google.com/document/d/144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo/edit?usp=drivesdk",
     "author": "Void",
     "translator": "postype原生AI",
-    "note": "@有更新",
+    "note": "",
     "date": "2026-10-04",
     "episodes": [
       {
@@ -934,7 +934,7 @@ window.BOOK_DATA = [
         "destinyKo": "Once Upon a Time",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 10635
+        "wordCount": 10636
       },
       {
         "label": "外傳 1",
@@ -949,7 +949,7 @@ window.BOOK_DATA = [
         "destinyKo": "Once Upon a Time",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 10214
+        "wordCount": 10215
       },
       {
         "label": "外傳 2",
@@ -964,7 +964,7 @@ window.BOOK_DATA = [
         "destinyKo": "",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 4911
+        "wordCount": 4910
       },
       {
         "label": "EP10",
@@ -979,13 +979,13 @@ window.BOOK_DATA = [
         "destinyKo": "Once Upon a Time",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 9929
+        "wordCount": 9931
       },
       {
         "label": "外傳 3",
         "title": "Once Upon a Time：Off the Leash",
         "url": "",
-        "original": "",
+        "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23268046",
         "articleId": "local-4bde3b82-b9c5-469b-a788-0f56b7b0d5e6",
         "pricePoints": 200,
         "_episodeId": "ep-ca1d3b1b-1dc4-4304-8c72-a1bf749dc4fa",
@@ -995,15 +995,75 @@ window.BOOK_DATA = [
         "destinyDeleted": false,
         "includeDestiny": true,
         "wordCount": 6454
+      },
+      {
+        "label": "EP11",
+        "title": "Once Upon a Time 11",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23335193",
+        "articleId": "local-71d4e85d-2789-4583-bf86-180d28d4bdf0",
+        "pricePoints": 0,
+        "_episodeId": "ep-9038fca2-2012-48f5-8f78-f012c40e2a72",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 11376
+      },
+      {
+        "label": "EP12",
+        "title": "Once Upon a Time 12",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23423423",
+        "articleId": "local-4e2f9cb8-7b11-463b-a381-a8fc2bf31c03",
+        "pricePoints": 0,
+        "_episodeId": "ep-3fa32ad3-c430-4e4f-a18b-3511b317d936",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 12855
+      },
+      {
+        "label": "外傳4",
+        "title": "Once Upon a Time：A Little More?",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23452466",
+        "articleId": "local-39c6651b-e4f7-4a93-af2d-ea3abcbbbd73",
+        "pricePoints": 0,
+        "_episodeId": "ep-a5387315-ff24-4e20-bc77-741142d3f52f",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 3499
+      },
+      {
+        "label": "",
+        "title": "Once Upon a Time：",
+        "url": "",
+        "original": "",
+        "articleId": "local-1aa21e23-b65b-4efa-8318-c44487d6462d",
+        "pricePoints": 100,
+        "_episodeId": "ep-6a974446-cc79-4d36-94de-0e76a2975bc0",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 7443
       }
     ],
     "_id": "work-44b885cfc3c1eee4f23b",
     "_favoriteKey": "https://docs.google.com/document/d/144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo/edit?usp=drivesdk",
     "articleId": "144LtQjtEmBexzxxxj_EF67dQrRY5nbPemtRkmhsp3Qo",
     "pricingMode": "episodes",
-    "knownPricePoints": 1200,
+    "knownPricePoints": 1300,
     "unpricedEpisodes": 0,
-    "pricePoints": 1200,
+    "pricePoints": 1300,
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [
@@ -1011,18 +1071,16 @@ window.BOOK_DATA = [
     ],
     "destinyId": "P0433",
     "destinyDeleted": false,
-    "tags": [
-      "文章狀態: 連載中"
-    ],
+    "tags": [],
     "characters": [
       "🐱公爵",
       "🐹公主"
     ],
     "createdAt": "2026-10-10T16:20:25.266Z",
-    "paid": false,
+    "paid": true,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-13T12:40:51.532Z",
+    "updatedAt": "2026-10-28T16:15:59.186Z",
     "wordCount": 11423
   },
   {
@@ -1397,15 +1455,30 @@ window.BOOK_DATA = [
         "destinyDeleted": false,
         "includeDestiny": true,
         "wordCount": 12109
+      },
+      {
+        "label": "EP24",
+        "title": "汝矣島風雲 24",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@fifth230/post/23494447",
+        "articleId": "local-3f707a1c-42fb-448e-8336-87afc4b5e925",
+        "pricePoints": 200,
+        "_episodeId": "ep-c8df7fe3-3467-41a4-abb7-fe242002fa82",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 9652
       }
     ],
     "_id": "work-e814a8d8f5079f2bee29",
     "_favoriteKey": "https://docs.google.com/document/d/1zMnO_WFtMNndF_40yDP7Xqst5GtfO-JKW61Qh3vuM8M/edit?usp=drivesdk",
     "articleId": "1zMnO_WFtMNndF_40yDP7Xqst5GtfO-JKW61Qh3vuM8M",
     "pricingMode": "episodes",
-    "knownPricePoints": 10700,
+    "knownPricePoints": 10900,
     "unpricedEpisodes": 0,
-    "pricePoints": 10700,
+    "pricePoints": 10900,
     "hidden": false,
     "tags": [
       "CP配對: 安/員",
@@ -1422,7 +1495,7 @@ window.BOOK_DATA = [
       "安：國會議員",
       "員：主播"
     ],
-    "updatedAt": "2026-10-17T10:27:11.065Z",
+    "updatedAt": "2026-10-28T11:05:48.369Z",
     "includeShelf": true,
     "includeDestiny": true,
     "recommendations": [
