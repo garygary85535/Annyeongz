@@ -6,7 +6,7 @@ window.BOOK_DATA = [
     "ko": "당신을 \"좋아요\"합니다",
     "page": "其他老師",
     "author": "실수（失誤）",
-    "translator": "原生AI",
+    "translator": "鳳梨",
     "status": "0.連載中",
     "note": "@新入荷",
     "date": "2026-10-30",
@@ -48,7 +48,7 @@ window.BOOK_DATA = [
         "label": "EP2",
         "title": "有人『喜歡』您 2",
         "url": "",
-        "original": "",
+        "original": "https://www.postype.com/zh-hant/@sil-su/post/22894626",
         "articleId": "local-39719da4-d25a-441b-bbc2-e807d6311936",
         "pricePoints": 500,
         "_episodeId": "ep-9495621a-b8bc-4d0e-9d82-4f93775a8feb",
@@ -271,7 +271,7 @@ window.BOOK_DATA = [
       }
     ],
     "pricingMode": "episodes",
-    "updatedAt": "2026-10-31T06:51:00.334Z",
+    "updatedAt": "2026-10-31T07:09:49.404Z",
     "knownPricePoints": 8500,
     "unpricedEpisodes": 0,
     "wordCount": null
