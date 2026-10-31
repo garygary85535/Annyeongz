@@ -17,15 +17,22 @@
   async function unlock(password) {
     if (!crypto.subtle) throw new Error("請使用 HTTPS 網址開啟閱讀器。");
     const material = await crypto.subtle.importKey("raw", new TextEncoder().encode(password), "PBKDF2", false, ["deriveKey"]);
-    const candidate = await crypto.subtle.deriveKey({ name: "PBKDF2", salt: bytes(config.salt),
-      iterations: config.iterations, hash: "SHA-256" }, material,
-      { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
-    try {
-      const check = new TextDecoder().decode(await decrypt(config.verifier, "verifier", candidate));
-      if (check !== "reader-vault-unlocked-v1") return false;
-      key = candidate;
-      return true;
-    } catch { return false; }
+    for (const slot of [config, ...(config.passwordKeys || [])]) {
+      try {
+        let candidate = await crypto.subtle.deriveKey({ name: "PBKDF2", salt: bytes(slot.salt),
+          iterations: slot.iterations, hash: "SHA-256" }, material,
+          { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+        if (slot.wrappedKey) {
+          const raw = new Uint8Array(await decrypt(slot.wrappedKey, "reader-key-v1", candidate));
+          try { candidate = await crypto.subtle.importKey("raw", raw, "AES-GCM", false, ["decrypt"]); }
+          finally { raw.fill(0); }
+        }
+        const check = new TextDecoder().decode(await decrypt(config.verifier, "verifier", candidate));
+        if (check !== "reader-vault-unlocked-v1") continue;
+        key = candidate; return true;
+      } catch { /* Try the next independently salted password slot. */ }
+    }
+    return false;
   }
   function loadPayload(id, filename) {
     if (window.READER_PAYLOADS?.[id]) return Promise.resolve(window.READER_PAYLOADS[id]);
