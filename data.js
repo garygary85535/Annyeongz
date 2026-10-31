@@ -1,5 +1,56 @@
 window.BOOK_DATA = [
   {
+    "_id": "work-930c231c-ec27-40ed-b952-007ed5933f34",
+    "createdAt": "2026-10-31T18:12:47.487Z",
+    "zh": "💰瘋女人",
+    "ko": "미친여자",
+    "page": "其他老師",
+    "author": "지학（知鶴）",
+    "translator": "原生AI",
+    "status": "2.已完結",
+    "note": "@新入荷",
+    "date": "2026-11-01",
+    "original": "https://www.postype.com/zh-hant/@waguwagu2/post/17589560?show-original=true",
+    "translation": "",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "includeShelf": true,
+    "includeDestiny": true,
+    "destinyDeleted": false,
+    "destinyId": "P0484",
+    "destinyTitle": "",
+    "recommendations": [],
+    "pricePoints": 700,
+    "_favoriteKey": "work-930c231c-ec27-40ed-b952-007ed5933f34",
+    "tags": [
+      "CP潔癖繞道"
+    ],
+    "characters": [],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "瘋女人",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@waguwagu2/post/17589560?show-original=true",
+        "articleId": "local-9a4d28a9-bfd6-4145-8f5b-0d554ceededf",
+        "pricePoints": 700,
+        "_episodeId": "ep-66635f3c-dac6-4d6f-82d8-52f831df546e",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 14716
+      }
+    ],
+    "pricingMode": "episodes",
+    "updatedAt": "2026-10-31T18:22:06.940Z",
+    "knownPricePoints": 700,
+    "unpricedEpisodes": 0,
+    "wordCount": null
+  },
+  {
     "_id": "work-f4a680ee-55f4-402e-aa3a-e301c61dbd3d",
     "createdAt": "2026-10-31T17:37:06.755Z",
     "zh": "💰你我成為命中注定的理由",
