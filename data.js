@@ -1,5 +1,57 @@
 window.BOOK_DATA = [
   {
+    "_id": "work-be54b44c-708d-43b7-8dd8-d5ff25514b68",
+    "createdAt": "2026-11-01T09:24:02.907Z",
+    "zh": "Blind Bright",
+    "ko": "블라인드 브라이트",
+    "page": "noname",
+    "author": "noname",
+    "translator": "原生AI",
+    "status": "2.已完結",
+    "note": "@新入荷",
+    "date": "2026-11-01",
+    "original": "https://www.postype.com/zh-hant/@untitle009/post/21730929?show-original=true",
+    "translation": "",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "includeShelf": true,
+    "includeDestiny": true,
+    "destinyDeleted": false,
+    "destinyId": "P0485",
+    "destinyTitle": "",
+    "recommendations": [],
+    "pricePoints": 1000,
+    "_favoriteKey": "work-be54b44c-708d-43b7-8dd8-d5ff25514b68",
+    "tags": [],
+    "characters": [
+      "安：刺青師",
+      "員：盲人"
+    ],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "Blind Bright",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@untitle009/post/21730929?show-original=true",
+        "articleId": "local-c2243f81-ed74-40ef-993e-63b37fdbcfa5",
+        "pricePoints": 1000,
+        "_episodeId": "ep-d82717e5-846d-4db9-8882-0126ddfd4296",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 28111
+      }
+    ],
+    "pricingMode": "episodes",
+    "updatedAt": "2026-11-01T09:27:06.669Z",
+    "knownPricePoints": 1000,
+    "unpricedEpisodes": 0,
+    "wordCount": null
+  },
+  {
     "_id": "work-930c231c-ec27-40ed-b952-007ed5933f34",
     "createdAt": "2026-10-31T18:12:47.487Z",
     "zh": "💰瘋女人",
@@ -41,7 +93,7 @@ window.BOOK_DATA = [
         "destinyKo": "",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 14716
+        "wordCount": 14726
       }
     ],
     "pricingMode": "episodes",
@@ -53,7 +105,7 @@ window.BOOK_DATA = [
   {
     "_id": "work-f4a680ee-55f4-402e-aa3a-e301c61dbd3d",
     "createdAt": "2026-10-31T17:37:06.755Z",
-    "zh": "💰你我成為命中注定的理由",
+    "zh": "💰妳我成為命中注定的原因",
     "ko": "너와 내가 운명인 이유",
     "page": "其他老師",
     "author": "지학（知鶴）",
@@ -79,7 +131,7 @@ window.BOOK_DATA = [
     "episodes": [
       {
         "label": "單集",
-        "title": "你我成為命中注定的理由",
+        "title": "妳我成為命中注定的原因",
         "url": "",
         "original": "https://www.postype.com/zh-hant/@waguwagu2/post/16869977?show-original=true",
         "articleId": "local-f89b41b3-2045-4964-8c70-56de3cfafd0f",
@@ -90,11 +142,11 @@ window.BOOK_DATA = [
         "destinyKo": "",
         "destinyDeleted": false,
         "includeDestiny": true,
-        "wordCount": 14910
+        "wordCount": 14949
       }
     ],
     "pricingMode": "episodes",
-    "updatedAt": "2026-10-31T17:52:22.065Z",
+    "updatedAt": "2026-11-01T08:43:22.265Z",
     "knownPricePoints": 700,
     "unpricedEpisodes": 0,
     "wordCount": null
