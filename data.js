@@ -1,8 +1,57 @@
 window.BOOK_DATA = [
   {
+    "_id": "work-86668a36-abf2-4bf9-bdb5-3ae7a0abf804",
+    "createdAt": "2026-11-01T11:59:43.810Z",
+    "zh": "💰媽媽朋友的女兒",
+    "ko": "엄마 친구 딸",
+    "page": "其他老師",
+    "author": "지학（知鶴）",
+    "translator": "原生AI",
+    "status": "2.已完結",
+    "note": "@新入荷",
+    "date": "2026-11-02",
+    "original": "https://www.postype.com/zh-hant/@waguwagu2/post/17183403?show-original=true",
+    "translation": "",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "includeShelf": true,
+    "includeDestiny": true,
+    "destinyDeleted": false,
+    "destinyId": "P0486",
+    "destinyTitle": "",
+    "recommendations": [],
+    "pricePoints": 700,
+    "_favoriteKey": "work-86668a36-abf2-4bf9-bdb5-3ae7a0abf804",
+    "tags": [],
+    "characters": [],
+    "episodes": [
+      {
+        "label": "單集",
+        "title": "媽媽朋友的女兒",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@waguwagu2/post/17183403?show-original=true",
+        "articleId": "local-8b516c2a-55b8-4c62-919f-620a80ce7d8f",
+        "pricePoints": 700,
+        "_episodeId": "ep-838b92e1-fc85-423d-bc95-5aba21504073",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 20896
+      }
+    ],
+    "pricingMode": "episodes",
+    "updatedAt": "2026-11-01T17:30:33.931Z",
+    "knownPricePoints": 700,
+    "unpricedEpisodes": 0,
+    "wordCount": null
+  },
+  {
     "_id": "work-be54b44c-708d-43b7-8dd8-d5ff25514b68",
     "createdAt": "2026-11-01T09:24:02.907Z",
-    "zh": "Blind Bright",
+    "zh": "💰Blind Bright",
     "ko": "블라인드 브라이트",
     "page": "noname",
     "author": "noname",
@@ -46,7 +95,7 @@ window.BOOK_DATA = [
       }
     ],
     "pricingMode": "episodes",
-    "updatedAt": "2026-11-01T09:27:06.669Z",
+    "updatedAt": "2026-11-01T11:50:28.020Z",
     "knownPricePoints": 1000,
     "unpricedEpisodes": 0,
     "wordCount": null
@@ -76,7 +125,7 @@ window.BOOK_DATA = [
     "pricePoints": 700,
     "_favoriteKey": "work-930c231c-ec27-40ed-b952-007ed5933f34",
     "tags": [
-      "CP潔癖繞道"
+      "分級: CP潔癖勿入"
     ],
     "characters": [],
     "episodes": [
@@ -97,7 +146,7 @@ window.BOOK_DATA = [
       }
     ],
     "pricingMode": "episodes",
-    "updatedAt": "2026-10-31T18:22:06.940Z",
+    "updatedAt": "2026-11-01T13:11:27.341Z",
     "knownPricePoints": 700,
     "unpricedEpisodes": 0,
     "wordCount": null

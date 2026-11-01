@@ -8,6 +8,14 @@
   const fonts = { ...legacyFonts, serif: '"Noto Serif TC", ' + legacyFonts.serif, kai: '"LXGW WenKai TC", ' + legacyFonts.kai };
   function fontKey(value) { const normalize = text => String(text || '').replace(/["']/g, '').toLowerCase().replace(/\s/g, ''); const normalized = normalize(value); return Object.keys(fonts).find(key => normalize(fonts[key]) === normalized || normalize(legacyFonts[key]) === normalized); }
   function validFontSize(value) { return Number.isFinite(value) && value >= 8 && value <= 96; }
+  function textColor(value) {
+    const color = String(value || '').trim().toLowerCase();
+    if (/^#[0-9a-f]{6}$/.test(color)) return color;
+    if (/^#[0-9a-f]{3}$/.test(color)) return '#' + [...color.slice(1)].map(c => c + c).join('');
+    const rgb = color.match(/^rgb\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)$/);
+    if (rgb && rgb.slice(1).every(n => Number(n) <= 255)) return '#' + rgb.slice(1).map(n => Number(n).toString(16).padStart(2, '0')).join('');
+    return null;
+  }
   function setIndent(node, level) {
     if (!Number.isInteger(level) || level < 0 || level > 6) return;
     if (level) {
@@ -65,6 +73,8 @@
         if (options.image) options.image(node, run.image); else node.src = run.image;
       } else {
         node = d.createTextNode(run.text || '');
+        const color = textColor(run.color);
+        if (color) { const span = d.createElement('span'); span.dataset.textColor = color; span.style.color = color; span.append(node); node = span; }
         if (fonts[run.font]) { const span = d.createElement('span'); span.dataset.font = run.font; span.append(node); node = span; }
         if (validFontSize(run.fontSize)) {
           const span = d.createElement('span'); span.dataset.fontSize = run.fontSize;
@@ -113,6 +123,8 @@
       if (tag === 'BR') return [{ text: '\n', ...flags }];
       if (['P', 'DIV'].includes(tag) && node.childNodes.length === 1 && node.firstChild.nodeName === 'BR') return [];
       const next = { ...flags };
+      const color = textColor(node.dataset.textColor || node.style.color || node.getAttribute('color'));
+      if (color) next.color = color;
       const font = node.dataset.font || fontKey(node.getAttribute('face') || node.style.fontFamily);
       if (fonts[font]) next.font = font;
       const size = elementFontSize(node); if (size !== null) next.fontSize = size;
@@ -152,5 +164,5 @@
     }
     flush(); return blocks;
   }
-  root.ArticleFormat = { render, renderAll, fromDOM, fonts, fontKey, validFontSize, elementFontSize, setIndent, source: '(' + bootstrap.toString() + ')(window);' };
+  root.ArticleFormat = { render, renderAll, fromDOM, fonts, fontKey, validFontSize, elementFontSize, setIndent, textColor, source: '(' + bootstrap.toString() + ')(window);' };
 })(window);
