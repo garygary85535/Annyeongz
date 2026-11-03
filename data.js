@@ -350,7 +350,7 @@ window.BOOK_DATA = [
     "destinyId": "P0482",
     "destinyTitle": "",
     "recommendations": [],
-    "pricePoints": 8500,
+    "pricePoints": 10000,
     "_favoriteKey": "work-320ef8a9-9e16-4b61-bbf8-a76b2eca6ad6",
     "tags": [],
     "characters": [
@@ -597,11 +597,41 @@ window.BOOK_DATA = [
         "destinyDeleted": false,
         "includeDestiny": true,
         "wordCount": 2787
+      },
+      {
+        "label": "EP17",
+        "title": "有人『喜歡』您 17",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@sil-su/post/23095193",
+        "articleId": "local-ea64fc55-8d5b-4de4-881d-488e53da52c6",
+        "pricePoints": 1000,
+        "_episodeId": "ep-1a940926-92e7-4b67-996b-8f4376d8341b",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 4741
+      },
+      {
+        "label": "EP18",
+        "title": "有人『喜歡』您 18",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@sil-su/post/23095201",
+        "articleId": "local-92d45772-8fae-4ad0-9430-a0e5468a3cd6",
+        "pricePoints": 500,
+        "_episodeId": "ep-150acaf3-9375-4c00-bfbc-58fb85a3cf4e",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 4008
       }
     ],
     "pricingMode": "episodes",
-    "updatedAt": "2026-10-31T17:52:28.212Z",
-    "knownPricePoints": 8500,
+    "updatedAt": "2026-11-03T16:24:10.406Z",
+    "knownPricePoints": 10000,
     "unpricedEpisodes": 0,
     "wordCount": null
   },
