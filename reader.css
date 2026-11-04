@@ -14,3 +14,18 @@
 .reading-body:focus-visible { outline: 2px solid #377a5a; outline-offset: -2px; }
 @media (max-width: 820px) { .reader-sheet { height: 94dvh; max-height: 94dvh; padding: 10px; } .reading-body { padding: 18px 14px; } .reading-tools { gap: 8px; } }
 .reading-body img { display: block; max-width: 100%; height: auto; margin: 1rem auto; }
+.reader-sheet { grid-template-rows: auto auto minmax(0,1fr) auto; overflow: hidden; padding-bottom: max(10px, env(safe-area-inset-bottom)); }
+.reader-sheet .sheet-head > div { flex:1; min-width:0; }
+#readerTitle { min-width:0; max-width:100%; }
+#readerTitleButton { display:flex; width:100%; min-width:0; padding:0; border:0; background:transparent; color:inherit; font:inherit; line-height:1.4; text-align:left; cursor:pointer; }
+#readerTitleStart { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:0; }
+#readerTitleEnd { white-space:nowrap; flex:none; }
+#readerTitleButton[aria-expanded="true"] { display:block; max-height:5.6em; overflow:auto; overflow-wrap:anywhere; }
+#readerTitleButton[aria-expanded="true"] span { white-space:normal; overflow:visible; }
+#readerEpisodeLabel { font-size:14px; line-height:1.5; font-weight:700; margin:4px 0; overflow-wrap:anywhere; }
+#readerSub { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; margin-bottom:0; }
+.reader-navigation { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.2fr) minmax(0,1fr); align-items:center; gap:8px; padding-top:10px; border-top:1px solid var(--line); min-width:0; }
+.reader-navigation[hidden] { display:none; }
+.reader-navigation button { height:44px; min-height:44px; min-width:0; padding:6px; border:1px solid var(--line); border-radius:5px; background:var(--card); color:var(--ink); font:inherit; font-size:14px; white-space:nowrap; cursor:pointer; }
+.reader-navigation button:disabled { opacity:.4; cursor:default; }
+#readerNavPosition { min-width:0; text-align:center; font-size:12px; line-height:1.4; overflow-wrap:anywhere; }

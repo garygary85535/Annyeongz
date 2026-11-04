@@ -3,7 +3,7 @@
   const base = new URL('.', document.currentScript.src);
   const body = document.getElementById('readerFrame');
   const controls = document.getElementById('readerChineseControl');
-  let originals = new Map(), revision = 0, ready = false, library, converter;
+  let originals = new Map(), revision = 0, ready = false, library, converter, selectedMode = 'traditional';
   function buttons(mode, disabled = false) {
     for (const button of controls.querySelectorAll('button')) {
       button.setAttribute('aria-pressed', String(button.dataset.chinese === mode));
@@ -12,19 +12,20 @@
   }
   function reset() {
     ++revision; originals.clear(); ready = false;
-    body.lang = 'zh-Hant'; buttons('traditional', true);
+    body.lang = selectedMode === 'simplified' ? 'zh-Hans' : 'zh-Hant'; buttons(selectedMode, true);
   }
   function capture() {
     originals.clear();
-    for (const element of [body, document.getElementById('readerTitle'), document.getElementById('readerSub')]) {
+    for (const element of [body, document.getElementById('readerTitle'), document.getElementById('readerSub'), document.getElementById('readerEpisodeLabel'), document.getElementById('readerNavPosition')]) {
       if (!element) continue;
       const walk = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
       while (walk.nextNode()) {
         const node = walk.currentNode;
-        if (!node.parentElement.closest('button,iframe,script,style,.youtube-block')) originals.set(node, node.data);
+        if (!node.parentElement.closest('iframe,script,style,.youtube-block') && (!node.parentElement.closest('button') || node.parentElement.closest('#readerTitleButton'))) originals.set(node, node.data);
       }
     }
     ready = true; body.lang = 'zh-Hant'; buttons('traditional');
+    if (selectedMode === 'simplified') void set('simplified');
   }
   function load() {
     if (root.OpenCC) return Promise.resolve();
@@ -48,6 +49,7 @@
       const top = body.scrollTop;
       for (const [node, text] of originals) if (node.isConnected) node.data = mode === 'simplified' ? converter(text) : text;
       body.lang = mode === 'simplified' ? 'zh-Hans' : 'zh-Hant';
+      selectedMode = mode;
       buttons(mode); body.scrollTop = top;
       root.updateReadingProgress?.();
     } catch (error) {

@@ -1,5 +1,91 @@
 window.BOOK_DATA = [
   {
+    "_id": "work-1d8a2ea7-eea9-48f1-9f03-00b53bc6124d",
+    "createdAt": "2026-11-04T15:03:02.307Z",
+    "zh": "雖然是母胎單身，但是我想和你談戀愛",
+    "ko": "모태솔로지만 너랑 연애하고 싶어",
+    "page": "雜食系",
+    "author": "foodie",
+    "translator": "原生AI",
+    "status": "0.連載中",
+    "note": "@新入荷",
+    "date": "2026-11-04",
+    "original": "https://www.postype.com/zh-hant/@wordjpeg/post/23032743",
+    "translation": "",
+    "articleId": "",
+    "paid": false,
+    "hidden": false,
+    "includeShelf": true,
+    "includeDestiny": true,
+    "destinyDeleted": false,
+    "destinyId": "P0489",
+    "destinyTitle": "",
+    "recommendations": [
+      "雜食系 (其他CP)"
+    ],
+    "pricePoints": 0,
+    "_favoriteKey": "work-1d8a2ea7-eea9-48f1-9f03-00b53bc6124d",
+    "tags": [
+      "🐶🐱"
+    ],
+    "characters": [
+      "🐶：戀綜節目PD",
+      "🐱：戀綜出演者"
+    ],
+    "episodes": [
+      {
+        "label": "EP1",
+        "title": "雖然是母胎單身，但是我想和你談戀愛 1",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@wordjpeg/post/23032743?show-original=true#google_vignette",
+        "articleId": "local-b85e8ad9-7b1d-485f-bbc8-32c7b404be0d",
+        "pricePoints": 0,
+        "_episodeId": "ep-a4802f01-0ed9-4ed9-9022-05b85d946a6b",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 6130
+      },
+      {
+        "label": "EP2",
+        "title": "雖然是母胎單身，但是我想和你談戀愛 2",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@wordjpeg/post/23469045",
+        "articleId": "local-b3acc399-0e71-4a58-b65c-bdd49f0397da",
+        "pricePoints": 0,
+        "_episodeId": "ep-e02b1e07-e33c-43a3-bd1e-ca0d504ff75b",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 6597
+      },
+      {
+        "label": "EP3",
+        "title": "雖然是母胎單身，但是我想和你談戀愛 3",
+        "url": "",
+        "original": "https://www.postype.com/zh-hant/@wordjpeg/post/23515854",
+        "articleId": "local-c67aef49-b2b1-41d8-8c14-c32ff5f65533",
+        "pricePoints": 0,
+        "_episodeId": "ep-74b178fb-9f71-441e-a5f5-fac0a2b90fc3",
+        "destinyItemId": "",
+        "destinyTitle": "",
+        "destinyKo": "",
+        "destinyDeleted": false,
+        "includeDestiny": true,
+        "wordCount": 6255
+      }
+    ],
+    "pricingMode": "episodes",
+    "updatedAt": "2026-11-04T15:23:51.437Z",
+    "knownPricePoints": 0,
+    "unpricedEpisodes": 0,
+    "wordCount": null
+  },
+  {
     "_id": "work-3021f454-81b4-4978-8e99-91934895017b",
     "createdAt": "2026-11-02T09:07:49.553Z",
     "zh": "初戀的高度",
@@ -794,7 +880,7 @@ window.BOOK_DATA = [
     "page": "其他老師",
     "author": "고멍（MUNG）",
     "translator": "鳳梨",
-    "status": "2.已完結",
+    "status": "0.連載中",
     "note": "@新入荷",
     "date": "2026-10-26",
     "original": "https://www.postype.com/zh-hant/@48mungmung/post/6802610",
@@ -860,7 +946,7 @@ window.BOOK_DATA = [
       }
     ],
     "pricingMode": "episodes",
-    "updatedAt": "2026-10-26T11:13:07.248Z",
+    "updatedAt": "2026-11-04T14:58:20.711Z",
     "knownPricePoints": 0,
     "unpricedEpisodes": 0,
     "wordCount": null
@@ -3273,7 +3359,7 @@ window.BOOK_DATA = [
     "status": "2.已完結",
     "ko": "페이지를 찾을 수 없습니다",
     "zh": "找不到頁面（含外傳）",
-    "original": "",
+    "original": "https://www.postype.com/@monochrome-film/post/22545325",
     "translation": "https://docs.google.com/document/d/1Mk8xxMrNmOAUE4k6kM7RJkSESmlT-eIwnjjr63dkSJE/edit?usp=drivesdk",
     "author": "플레인（Plain）",
     "translator": "不是蓋瑞",
@@ -3414,7 +3500,7 @@ window.BOOK_DATA = [
     "paid": false,
     "hidden": false,
     "destinyTitle": "",
-    "updatedAt": "2026-10-12T14:30:36.670Z",
+    "updatedAt": "2026-11-04T14:58:46.318Z",
     "wordCount": 7292
   },
   {

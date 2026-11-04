@@ -1095,7 +1095,8 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
     <div class="sheet reader-sheet" role="dialog" aria-modal="true" aria-labelledby="readerTitle">
       <div class="sheet-head">
         <div>
-          <h2 id="readerTitle" style="margin:0 0 4px"></h2>
+          <h2 id="readerTitle" style="margin:0 0 4px"><button id="readerTitleButton" type="button" title="展開完整篇名" aria-expanded="false"><span id="readerTitleStart"></span><span id="readerTitleEnd"></span></button></h2>
+          <div id="readerEpisodeLabel"></div>
           <div id="readerSub" class="k-title"></div>
         </div>
         <button class="close" id="readerCloseBtn" type="button" aria-label="關閉">×</button>
@@ -1108,6 +1109,11 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
         <button id="readerTopBtn" type="button" title="回到文章頂端" aria-label="回到文章頂端" style="width:44px;min-width:44px;height:44px;padding:0;font-size:20px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink);cursor:pointer">↑</button>
       </div>
       <article id="readerFrame" class="reading-body" tabindex="0" aria-label="譯文內容"></article>
+      <nav id="readerNavigation" class="reader-navigation" aria-label="集數導覽" hidden>
+        <button id="readerPrevious" type="button">〈 上一集</button>
+        <span id="readerNavPosition" aria-live="polite"></span>
+        <button id="readerNext" type="button">下一集 〉</button>
+      </nav>
     </div>
   </div>
   <button class="to-top" id="toTopBtn" type="button" aria-label="回到頂端">↑</button>
@@ -1119,7 +1125,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
   <script src="reader-content-guard.js"></script>
   <script src="reader-vault-config.js"></script>
   <script src="reader-vault.js?v=20261006-local-images"></script>
-  <script src="data.js?v=5895630890af"></script>
+  <script src="data.js?v=560984fc9197"></script>
   <script>
     const DATA = window.BOOK_DATA || [];
     function escapeHTML(value) { return String(value ?? "").replace(/[&<>"']/g, c => ({38:"&amp;",60:"&lt;",62:"&gt;",34:"&quot;",39:"&#39;"}[c.charCodeAt(0)])); }
@@ -1597,6 +1603,53 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
     let readingRequest = 0;
     let readerUnlocked = false;
     let readingImageObserver = null;
+    let readerNavigation = null;
+    function readerEntryId(entry) {
+      return entry?.articleId || String(entry?.url || entry?.translation || '').match(/(?:docs\.google\.com\/document\/d\/|drive\.google\.com\/file\/d\/)([A-Za-z0-9_-]+)/)?.[1] || '';
+    }
+    function readerEpisodeText(episode, position, total) {
+      const label = String(episode?.label || '').trim();
+      const number = label.match(/^(?:ep\s*)?(\d+(?:[.-]\d+)?)$/i);
+      const name = number ? `第 ${number[1]} 集` : label && !['閱讀','單集','本篇'].includes(label) ? label : total > 1 ? `第 ${position + 1} 集` : '單集';
+      return total > 1 ? `${name} · ${position + 1} / ${total}` : name;
+    }
+    function updateReaderNavigation(busy = false) {
+      if (!readerNavigation) return;
+      const { entries, position } = readerNavigation;
+      readerNavigation.busy = busy;
+      document.getElementById('readerNavigation').hidden = entries.length < 2;
+      document.getElementById('readerPrevious').disabled = busy || position <= 0;
+      document.getElementById('readerNext').disabled = busy || position < 0 || position >= entries.length - 1;
+      const positionText = busy ? '載入中…' : readerEpisodeText(entries[position]?.episode, position, entries.length);
+      const positionNode = document.getElementById('readerNavPosition');
+      if (positionNode.textContent !== positionText) positionNode.textContent = positionText;
+      el.readerFrame.setAttribute('aria-busy', String(busy));
+    }
+    function setReaderHeading(item, episode, kind) {
+      const entries = (item.episodes || []).map((episode,index) => ({ episode,index })).filter(entry => readerEntryId(entry.episode));
+      const current = kind.startsWith('episode:') ? Number(kind.split(':')[1]) : -1;
+      const position = entries.findIndex(entry => entry.index === current);
+      readerNavigation = { item, entries: position < 0 ? [] : entries, position, busy: true };
+      const title = Array.from(String(episode?.title || item.zh || '未命名文章'));
+      document.getElementById('readerTitleStart').textContent = title.length > 16 ? title.slice(0,-6).join('') : title.join('');
+      document.getElementById('readerTitleEnd').textContent = title.length > 16 ? title.slice(-6).join('') : '';
+      const button = document.getElementById('readerTitleButton');button.setAttribute('aria-expanded','false');button.title='展開完整篇名';
+      document.getElementById('readerEpisodeLabel').textContent = readerEpisodeText(episode, Math.max(0,position), position < 0 ? 1 : entries.length);
+      el.readerSub.textContent = item.author || item.ko || '';
+      updateReaderNavigation(true);
+    }
+    document.getElementById('readerTitleButton').addEventListener('click', event => {
+      const button = event.currentTarget, expanded = button.getAttribute('aria-expanded') !== 'true';
+      button.setAttribute('aria-expanded',String(expanded));button.title=expanded?'收合篇名':'展開完整篇名';
+    });
+    async function navigateReader(delta) {
+      if (!readerNavigation || readerNavigation.busy) return;
+      const target = readerNavigation.entries[readerNavigation.position + delta];
+      if (!target) return;
+      await openReader(readerNavigation.item, 'episode:' + target.index, target.episode.url || '');
+    }
+    document.getElementById('readerPrevious').addEventListener('click',()=>navigateReader(-1));
+    document.getElementById('readerNext').addEventListener('click',()=>navigateReader(1));
     async function openReader(item, kind, url) {
       if (!readerUnlocked) {
         const password = window.prompt("請輸入閱讀密碼");
@@ -1608,8 +1661,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
       }
       const episodeIndex = kind.startsWith("episode:") ? Number(kind.split(":")[1]) : null;
       const episode = episodeIndex !== null ? item.episodes[episodeIndex] : null;
-      el.readerTitle.textContent = item.zh;
-      el.readerSub.textContent = episode ? `${escapeHTML(item.ko)} · ${episodeButtonText(episode)}` : item.ko;
+      setReaderHeading(item, episode, kind);
       el.reader.classList.add("open");
       el.reader.setAttribute("aria-hidden", "false");
       const source = (episode ? episode.url : item.translation) || "";
@@ -1643,6 +1695,7 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
         const pendingReaderImages = [];
         const fragment = document.createDocumentFragment();
         fragment.append(window.ArticleFormat.renderAll(article.blocks, { image(img, source) { imageSources.set(img, source); pendingReaderImages.push(img); img.loading = "lazy"; img.decoding = "async"; } }));
+        updateReaderNavigation(false);
         el.readerFrame.replaceChildren(fragment);
         window.ReaderChinese.capture();
         el.readerFrame.scrollTop = 0;
@@ -1656,6 +1709,8 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
         });
       } catch (error) {
         if (request === readingRequest) el.readerFrame.textContent = error.message;
+      } finally {
+        if (request === readingRequest) updateReaderNavigation(false);
       }
     }
 
@@ -1668,6 +1723,9 @@ dialog{overflow:auto}.dialog-head{position:sticky;top:0;background:#fff;z-index:
       el.reader.setAttribute("aria-hidden", "true");
       ++readingRequest;
       readingId = "";
+      readerNavigation = null;
+      document.getElementById('readerNavigation').hidden = true;
+      el.readerFrame.setAttribute('aria-busy','false');
       el.readerFrame.replaceChildren();
       document.body.style.overflow = "";
     }
